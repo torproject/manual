@@ -1,0 +1,6 @@
+{% from "macros/topic.html" import render_topic %}
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  {{ render_topic(this, this.alt) }}
+{% endblock %}

@@ -1,0 +1,79 @@
+<div class="container-fluid bg-dark footer">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <p class="mb-5 mt-5 text-white"><span class="font-weight-bold">{{ _('Our mission:') }}</span> {{ _('to advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.') }}</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          {% set menubag = 'menu+' + this.alt %}
+          {% for id, item in bag(menubag).items() %}
+          <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
+            <a class="nav-link text-light" href="{{ item.path }}">{{ item.label }}
+              {% if this.is_child_of(item.path) %}
+              <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-md-8 mt-5 pb-5 border">
+        <p class="text-primary-light text-uppercase">{{ _('Subscribe to our Newsletter') }}</p>
+        <p class="text-light">{{ _('Get monthly updates and opportunities from the Tor Project') }}:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase font-weight-bold active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">Sign up</a></p>
+      </div>
+    </div>
+
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light">{{ _('Trademark, copyright notices, and rules for use by third parties can be found in our ') }} <a href="https://www.torproject.org/docs/trademark-faq" target="_blank" class="text-primary-light"><u>FAQ</u></a>.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropdown float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ bag('alternatives', this.alt, 'language') }}
+      	  </button>
+      	  <div class="dropdown-menu">
+            {% for id, item in bag('alternatives').items() %}
+              {% if this.alt != id %}
+    	          <a class="dropdown-item" href="{{ item.url|url }}">{{ item.language }}</a>
+              {% endif %}
+            {% endfor %}
+      	</div>
+      </div>
+    </div>
+
+    <script src="{{ '/static/js/jquery-3.2.1.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/popper.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/bootstrap.bundle.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/scrollspy.min.js'|asseturl }}" ></script>
+    <script src="{{ '/static/js/collapse.min.js'|asseturl }}" ></script>
+    <script type="text/javascript">
+
+      $('.side-nav').click(function(){
+        if ($('.side-nav.active').length > 0) {
+          $('.side-nav.active').removeClass('active')
+        }
+        $(this).addClass('active');
+      });
+
+      if($('.show').length !== 1 ) {
+        $('.show').collapse();
+      }
+
+      // Coming from search result page click
+      if(window.location.hash !== "") {
+        // Somehow collapse is not working sync and calling show directly after
+        // yields no effect and there is no callback when it is ready
+        setTimeout(() => {
+          // Folds out the answer manually
+          $(window.location.hash).collapse('show')
+          // Avoids the answer being hidden by the floating header
+          window.scrollTo(0, $(window.location.hash).position().top)
+        }, 500)
+      }
+    </script>
+  </div>

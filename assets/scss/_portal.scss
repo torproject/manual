@@ -1,0 +1,68 @@
+/* Support Portal Styles
+*
+*/
+
+.question {
+    position: relative;
+    padding-top: 50px;
+}
+
+.section-nav {
+  padding-top: 0 !important;
+  border: 0 !important;
+}
+#sidenav-topics .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #7D4698;
+    background-color: #fff;
+    font-weight: bold;
+}
+.toc-entry a:hover {
+  color: $purple !important;
+}
+.sidetopics {
+  background: transparent;
+  position: sticky;
+  top: 114px;
+  padding-top: inherit;
+}
+
+#topics {
+  padding-top: 2em !important;
+  min-height: 500px;
+  margin-bottom: 200px;
+}
+
+.question {
+  padding: 0.75rem 0;
+}
+.footer {
+  position: relative;
+  z-index:99999999999;
+}
+.footer a.nav-link {
+  padding: 0.2rem;
+}
+footer .border{
+  border: 0 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.3) !important;
+}
+
+
+
+ @include media-breakpoint-down(sm) {
+   .display-4 {
+     font-size: 2rem;
+   }
+   .toc-entry a {
+       display: block;
+       padding: 0.4rem 0 !important;
+       font-size: 1.3rem;
+   }
+ }
+
+ @include media-breakpoint-up(md) {
+ }
+
+ @include media-breakpoint-up(lg) {
+
+ }

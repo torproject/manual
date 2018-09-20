@@ -1,0 +1,24 @@
+{% macro render_topic(item, alternative) %}
+{% set b_alt = 'topics+'+alternative %}
+{% set t = bag(b_alt, item._id) %}
+<div class="item">
+  <h3 class="text-primary">
+    <a href="{{ t.path }}" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">
+	<a href="{{ item|url }}">{{ item.title }}</a>
+      </h5>
+      <h6 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">{{ item.description }}</h5>
+
+    </div>
+     <div id="{{ item._id }}" class="anchor-spacer" role="tabpanel" data-parent="#{{ t_id }}">
+      {{ item.body|safe }}
+      <div>
+        <a href="{{ item|url }}">{{ _("Permalink") }}</a>
+      </div>
+  </div>
+  </div>
+</div>
+{% endmacro %}

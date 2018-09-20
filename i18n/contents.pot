@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-20 15:39+CET\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: http://localhost/ (content/contents+en.lr:showcase.title)
+msgid "How can we help?"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.title) http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.title) http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.title) http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.title) http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.title) http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.title) http://localhost/updating/ (content/updating/contents+en.lr:topic.title) http://localhost/plugins/ (content/plugins/contents+en.lr:topic.title) http://localhost/troubleshooting/ (content/troubleshooting/contents+en.lr:topic.title) http://localhost/uninstalling/ (content/uninstalling/contents+en.lr:topic.title) http://localhost/becoming-tor-translator/ (content/becoming-tor-translator/contents+en.lr:topic.title)
+msgid "About Tor Browser"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.description) http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.description) http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.description) http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.description) http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.description) http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.description) http://localhost/updating/ (content/updating/contents+en.lr:topic.description) http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description) http://localhost/troubleshooting/ (content/troubleshooting/contents+en.lr:topic.description) http://localhost/uninstalling/ (content/uninstalling/contents+en.lr:topic.description) http://localhost/becoming-tor-translator/ (content/becoming-tor-translator/contents+en.lr:topic.description)
+msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body) http://localhost/downloading/ (content/downloading/contents+en.lr:topic.body) http://localhost/running-tor-browser/ (content/running-tor-browser/contents+en.lr:topic.body) http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.body) http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.body) http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.body) http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.body) http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.body) http://localhost/updating/ (content/updating/contents+en.lr:topic.body) http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body) http://localhost/troubleshooting/ (content/troubleshooting/contents+en.lr:topic.body) http://localhost/uninstalling/ (content/uninstalling/contents+en.lr:topic.body) http://localhost/becoming-tor-translator/ (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid ""
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.seo_slug) http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.seo_slug) http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.seo_slug) http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.seo_slug) http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.seo_slug) http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.seo_slug) http://localhost/updating/ (content/updating/contents+en.lr:topic.seo_slug) http://localhost/plugins/ (content/plugins/contents+en.lr:topic.seo_slug) http://localhost/troubleshooting/ (content/troubleshooting/contents+en.lr:topic.seo_slug) http://localhost/uninstalling/ (content/uninstalling/contents+en.lr:topic.seo_slug) http://localhost/becoming-tor-translator/ (content/becoming-tor-translator/contents+en.lr:topic.seo_slug)
+msgid "about"
+msgstr ""
+
+#: http://localhost/downloading/ (content/downloading/contents+en.lr:topic.title)
+msgid "Downloading"
+msgstr ""
+
+#: http://localhost/downloading/ (content/downloading/contents+en.lr:topic.description)
+msgid "How to download Tor Browser"
+msgstr ""
+
+#: http://localhost/downloading/ (content/downloading/contents+en.lr:topic.seo_slug)
+msgid "downloading"
+msgstr ""
+
+#: http://localhost/running-tor-browser/ (content/running-tor-browser/contents+en.lr:topic.title)
+msgid "Running Tor Browser for the first time"
+msgstr ""
+
+#: http://localhost/running-tor-browser/ (content/running-tor-browser/contents+en.lr:topic.description)
+msgid "Learn how to use Tor Browser for the first time"
+msgstr ""
+
+#: http://localhost/running-tor-browser/ (content/running-tor-browser/contents+en.lr:topic.seo_slug)
+msgid "running-tor-browser"
+msgstr ""
+
+#: http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.title)
+msgid "Circumvention"
+msgstr ""
+
+#: http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.description)
+msgid "What to do if the Tor network is blocked"
+msgstr ""
+
+#: http://localhost/circumvention/ (content/circumvention/contents+en.lr:topic.seo_slug)
+msgid "circumvention"
+msgstr ""
+
+#: http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.title)
+msgid "Managing identities"
+msgstr ""
+
+#: http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.description)
+msgid "Learn how to control personally-identifying information in Tor Browser"
+msgstr ""
+
+#: http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.title)
+msgid "Onion Services"
+msgstr ""
+
+#: http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.description)
+msgid "Services that are only accessible using Tor"
+msgstr ""
+
+#: http://localhost/onion-services/ (content/onion-services/contents+en.lr:topic.seo_slug)
+msgid "onion-services"
+msgstr ""
+
+#: http://localhost/managing-identities/ (content/managing-identities/contents+en.lr:topic.seo_slug)
+msgid "managing-identities"
+msgstr ""
+
+#: http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.title)
+msgid "Secure Connections"
+msgstr ""
+
+#: http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.description)
+msgid "Learn how to protect your data using Tor Browser and HTTPS"
+msgstr ""
+
+#: http://localhost/secure-connections/ (content/secure-connections/contents+en.lr:topic.seo_slug)
+msgid "secure-connections"
+msgstr ""
+
+#: http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.title)
+msgid "Security Slider"
+msgstr ""
+
+#: http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.description)
+msgid "Configuring Tor Browser for security and usability"
+msgstr ""
+
+#: http://localhost/security-slider/ (content/security-slider/contents+en.lr:topic.seo_slug)
+msgid "security-slider"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
+msgid "Updating"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.description)
+msgid "How to update Tor Browser"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.seo_slug)
+msgid "updating"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.title)
+msgid "Plugins, add-ons and JavaScript"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
+msgid "How Tor Browser handles add-ons, plugins and JavaScript"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.seo_slug)
+msgid "plugins"
+msgstr ""
+

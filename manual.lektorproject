@@ -1,0 +1,13 @@
+[project]
+name = Tor Browser Manual
+url = https://manual.torproject.org/
+url_stule = absolute
+locale = en_US
+
+[alternatives.en]
+name = English
+primary = yes
+url_prefix = /
+locale = en_US
+
+[packages]

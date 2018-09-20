@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-19 23:20+CET\n"
+"PO-Revision-Date: 2018-09-19 22:39+CET\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: http://localhost/ (content/contents+en.lr:showcase.title)
+msgid "How can we help?"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.title)
+msgid "Censorship"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.seo_slug)
+msgid "censorship"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.title)
+msgid "About Tor Browser"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.description)
+msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.seo_slug)
+msgid "about"
+msgstr ""
+
+#: templates/footer.html:5
+msgid "Our mission:"
+msgstr ""
+
+#: templates/footer.html:5
+msgid ""
+"to advance human rights and freedoms by creating and deploying free and open "
+"source anonymity and privacy technologies, supporting their unrestricted "
+"availability and use, and furthering their scientific and popular "
+"understanding."
+msgstr ""
+
+#: templates/footer.html:24
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: templates/footer.html:25
+msgid "Get monthly updates and opportunities from the Tor Project"
+msgstr ""
+
+#: templates/footer.html:32
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our "
+msgstr ""
+
+#: templates/layout.html:7
+msgid "Tor Project | Tor Broser Manual"
+msgstr ""
+
+#: templates/navbar.html:4
+msgid "Tor Logo"
+msgstr ""
+
+#: templates/navbar.html:40
+msgid "Download Tor Browser"
+msgstr ""
+
+#: templates/search.html:5
+msgid "Search"
+msgstr ""
+
+#: templates/macros/topic.html:18
+msgid "Permalink"
+msgstr ""

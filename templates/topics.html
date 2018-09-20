@@ -1,0 +1,12 @@
+{% from "macros/topic.html" import render_topic %}
+<div id="#topics">
+  {% for item in this.children %}
+  <h5 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">
+    <a href="{{ item|url }}">{{ item.title }}</a>
+  </h5>
+  <h6 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">
+    <a href="{{ item|url }}">{{ item.description }}</a>
+  </h6>
+
+  {% endfor %}
+</div>
