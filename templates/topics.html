@@ -4,9 +4,9 @@
   <h5 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">
     <a href="{{ item|url }}">{{ item.title }}</a>
   </h5>
-  <h6 class="text-muted text-uppercase mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">
-    <a href="{{ item|url }}">{{ item.description }}</a>
-  </h6>
+  <p class="text-muted mb-3 p-0 {{ bag('alternatives', alternative, 'direction') }}">
+    {{ item.description }}
+  </p>
 
   {% endfor %}
 </div>
