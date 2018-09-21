@@ -1,13 +1,11 @@
 _model: topic
 ---
-title: About Tor Browser
+title: Troubleshooting
 ---
-description: Learn what Tor Browser can do to protect your privacy and anonymity
+description: What to do if Tor Browser doesn’t work
 ---
-seo_slug: about
+seo_slug: troubleshooting
 ---
-key: 1
+key: 11
 ---
 body:
-
-

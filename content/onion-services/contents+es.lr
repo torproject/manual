@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Onion Services
+title: Servicios Onion
 ---
-description: Services that are only accessible using Tor
+description: Servicios que sólo son accesibles usando Tor
 ---
 seo_slug: onion-services
 ---
