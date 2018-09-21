@@ -10,8 +10,8 @@ key: 1
 ---
 body:
 
-Tor Browser uses the Tor network to protect your privacy and anonymity.
-Using the Tor network has two main properties:
+Le navigateur Tor utilise le réseau Tor pour protéger vos données personnelles et votre anonymat.
+L'utilisation du réseau Tor présente deux atouts principaux :
 
 * Votre fournisseur de services Internet et quiconque surveille votre connexion localement ne pourra pas suivre à la trace votre activité sur Internet ni les noms et adresses des sites Web que vous visitez.
 
@@ -24,11 +24,11 @@ Cookies are only valid for a single session (until Tor Browser is exited or a <a
 
 ### Comment Tor fonctionne-t-il ?
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet.
+Tor est un réseau de tunnels virtuels qui vous permet d'améliorer la protection de vos données personnelles et votre sécurité sur Internet.
 Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network.
-The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Le dernier relais du circuit (le « relais de sortie ») envoie ensuite le trafic vers l'Internet public.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 
-The image above illustrates a user browsing to different websites over Tor.
-The green middle computers represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.
+L'image ci-dessous illustre un utilisateur qui navigue vers différents sites Web avec Tor.
+Les ordinateurs verts situés au milieu représentent les relais du réseau Tor, alors que les trois clés représentent les couches de chiffrement entre l'utilisateur et chaque relais.

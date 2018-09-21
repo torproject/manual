@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-21 16:01+CET\n"
+"POT-Creation-Date: 2018-09-21 16:53+CET\n"
 "PO-Revision-Date: 2018-09-19 22:39+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -22,14 +22,17 @@ msgstr ""
 msgid "How to remove Tor Browser from your system"
 msgstr ""
 
-#: http://localhost/onion-services/
-#: (content/onion-services/contents+en.lr:topic.title)
-msgid "Onion Services"
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "Your download will then begin."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.description)
-msgid "Learn how to control personally-identifying information in Tor Browser"
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"If the checksums match, your download was successful, and you can <a href="
+"\"https://tb-manual.torproject.org/en-US/first-time.html\">begin using Tor "
+"Browser</a>."
 msgstr ""
 
 #: http://localhost/downloading/
@@ -59,6 +62,11 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.description)
 msgid "What to do if Tor Browser doesn’t work"
+msgstr ""
+
+#: http://localhost/updating/
+#: (content/updating/contents+en.lr:topic.description)
+msgid "How to update Tor Browser"
 msgstr ""
 
 #: http://localhost/onion-services/
@@ -92,9 +100,9 @@ msgstr ""
 msgid "plugins"
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.seo_slug)
-msgid "managing-identities"
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "Find the entry for Tor Browser under the name of your operating system."
 msgstr ""
 
 #: http://localhost/security-slider/
@@ -108,14 +116,19 @@ msgid ""
 "“fingerprinting” or identifying you based on your browser configuration."
 msgstr ""
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.title)
-msgid "Becoming a Tor Translator"
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "A menu will open listing the available downloads for that language."
 msgstr ""
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Twitter:"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.seo_slug)
+msgid "downloading"
 msgstr ""
 
 #: http://localhost/downloading/
@@ -136,6 +149,11 @@ msgstr ""
 msgid "To download Tor Browser using Satori:"
 msgstr ""
 
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "When Satori opens, click on your preferred language."
+msgstr ""
+
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.title)
 msgid "Plugins, add-ons and JavaScript"
 msgstr ""
@@ -153,6 +171,11 @@ msgstr ""
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "Select the downloaded Tor Browser file."
+msgstr ""
+
 #: http://localhost/about/ (content/about/contents+en.lr:topic.title)
 msgid "About Tor Browser"
 msgstr ""
@@ -160,11 +183,6 @@ msgstr ""
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.description)
 msgid "Becoming a translator for the Tor Project"
-msgstr ""
-
-#: http://localhost/troubleshooting/
-#: (content/troubleshooting/contents+en.lr:topic.title)
-msgid "Troubleshooting"
 msgstr ""
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
@@ -187,15 +205,9 @@ msgid ""
 "The image above illustrates a user browsing to different websites over Tor."
 msgstr ""
 
-#: http://localhost/downloading/
-#: (content/downloading/contents+en.lr:topic.body)
-msgid ""
-"Select the downloaded Tor Browser file. Satori will display the checksum of "
-"the file, which you should compare with the software’s original checksum: "
-"you can find this by clicking the word “checksum” after the link you clicked "
-"on to start the download. If the checksums match, your download was "
-"successful, and you can <a href=\"https://tb-manual.torproject.org/en-US/"
-"first-time.html\">begin using Tor Browser</a>."
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.title)
+msgid "Becoming a Tor Translator"
 msgstr ""
 
 #: http://localhost/downloading/
@@ -210,9 +222,13 @@ msgstr ""
 msgid "Install Satori from the Chrome App Store."
 msgstr ""
 
-#: http://localhost/circumvention/
-#: (content/circumvention/contents+en.lr:topic.description)
-msgid "What to do if the Tor network is blocked"
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.description)
+msgid "Learn how to control personally-identifying information in Tor Browser"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
+msgid "Updating"
 msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
@@ -235,8 +251,10 @@ msgid ""
 msgstr ""
 
 #: http://localhost/downloading/
-#: (content/downloading/contents+en.lr:topic.seo_slug)
-msgid "downloading"
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Select either “A” or “B” after the name of the program — each one represents "
+"a different source from which to get the software."
 msgstr ""
 
 #: http://localhost/uninstalling/
@@ -272,6 +290,15 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid ""
+"GetTor will respond with an email containing links from which you can "
+"download the Tor Browser package, the cryptographic signature (needed for "
+"verifying the download), the fingerprint of the key used to make the "
+"signature, and the package’s checksum."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
 "To get links for downloading Tor Browser in Chinese for Linux, send a "
 "message to gettor@torproject.org with the words \"linux zh\" in it."
 msgstr ""
@@ -279,16 +306,6 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.seo_slug)
 msgid "uninstalling"
-msgstr ""
-
-#: http://localhost/downloading/
-#: (content/downloading/contents+en.lr:topic.body)
-msgid ""
-"When Satori opens, click on your preferred language. A menu will open "
-"listing the available downloads for that language. Find the entry for Tor "
-"Browser under the name of your operating system. Select either “A” or “B” "
-"after the name of the program — each one represents a different source from "
-"which to get the software. Your download will then begin."
 msgstr ""
 
 #: http://localhost/downloading/
@@ -309,15 +326,9 @@ msgid ""
 "and security on the Internet."
 msgstr ""
 
-#: http://localhost/downloading/
-#: (content/downloading/contents+en.lr:topic.body)
-msgid ""
-"GetTor will respond with an email containing links from which you can "
-"download the Tor Browser package, the cryptographic signature (needed for "
-"verifying the download), the fingerprint of the key used to make the "
-"signature, and the package’s checksum. You may be offered a choice of “32-"
-"bit” or “64-bit” software: this depends on the model of the computer you are "
-"using."
+#: http://localhost/circumvention/
+#: (content/circumvention/contents+en.lr:topic.description)
+msgid "What to do if the Tor network is blocked"
 msgstr ""
 
 #: http://localhost/downloading/
@@ -325,9 +336,9 @@ msgstr ""
 msgid "Select Satori from your browser’s Apps menu."
 msgstr ""
 
-#: http://localhost/updating/
-#: (content/updating/contents+en.lr:topic.description)
-msgid "How to update Tor Browser"
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.seo_slug)
+msgid "managing-identities"
 msgstr ""
 
 #: http://localhost/managing-identities/
@@ -377,8 +388,28 @@ msgstr ""
 msgid "Running Tor Browser for the first time"
 msgstr ""
 
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"You may be offered a choice of “32-bit” or “64-bit” software: this depends "
+"on the model of the computer you are using."
+msgstr ""
+
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
+msgstr ""
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.title)
+msgid "Onion Services"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Satori will display the checksum of the file, which you should compare with "
+"the software’s original checksum: you can find this by clicking the word "
+"“checksum” after the link you clicked on to start the download."
 msgstr ""
 
 #: http://localhost/security-slider/
@@ -400,8 +431,9 @@ msgid ""
 "Dropbox, Google Drive and GitHub."
 msgstr ""
 
-#: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
-msgid "Updating"
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.title)
+msgid "Troubleshooting"
 msgstr ""
 
 #: http://localhost/circumvention/

@@ -24,7 +24,8 @@ GetTor es un servicio que responde automáticamente a los mensajes con enlaces a
 
 Envíe un correo a gettor@torproject.org, y en el cuerpo del mensaje escriba simplemente “windows”, “osx”, o “linux”, (sin las comillas) dependiendo de su sistema operativo.
 
-GetTor responderá con un correo conteniendo enlaces desde los que puede descargar el paquete del Navegador Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete. Puede que se le ofrezca la elección entre software de "32-bit" o de "64-bit": la elección dependerá del modelo del ordenador donde se vaya a usar.
+GetTor responderá con un correo conteniendo enlaces desde los que puede descargar el paquete del Navegador Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete.
+Puede que te sea ofrecida una opción del programa para 32 ó 64 bits, esto depende del modelo de la computadora que estás usando; consulta la documentación acerca de tu computadora para saber más.
 
 ##### Usar GetTor vía Twitter.
 
@@ -44,9 +45,15 @@ Instale Satori desde la Chrome App Store.
 
 Seleccione Satori desde su menú Aplicaciones del navegador.
 
-Cuando Satori se abra, pulse selección de idioma. Se abrirá un menú listando las descargas disponibles para ese idioma. Busque la entrada para el Navegador Tor (Tor Browser) bajo el nombre de su sistema operativo. Seleccione "A" o "B" tras el nombre del programa — cada una representa una fuente distinta desde la que obtener el software. Entonces comenzará su descarga.
+Cuando Satori se abra, pulsa selección de idioma.
+Se abrirá un menú listando las descargas disponibles para ese idioma.
+Busca la entrada para el Navegador Tor (Tor Browser) bajo el nombre de tu sistema operativo.
+Selecciona "A" o "B" tras el nombre del programa — cada una representa una fuente distinta desde la que obtener el software.
+Entonces comenzará tu descarga.
 
 Espere a que finalice su descarga, luego busque la sección "Generar Hash" en el menú de Satori, y pulse "Seleccionar ficheros".
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
+Selecciona el archivo del Navegador Tor descargado.
+Satori mostrará la suma de verificación (checksum) del fichero, que debes comparar con la suma de verificación del software original: puedes encontrarla haciendo clic en "checksum" tras el enlace sobre el que hiciste clic para iniciar la descarga.
+If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
 Si no coinciden, puede que precises descargarlo de nuevo, o desde una fuente diferente.

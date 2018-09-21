@@ -24,7 +24,8 @@ GetTor is a service that automatically responds to messages with links to the la
 
 Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
+You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
 ###### To use GetTor via Twitter:
 
@@ -44,9 +45,15 @@ Install Satori from the Chrome App Store.
 
 Select Satori from your browser’s Apps menu.
 
-When Satori opens, click on your preferred language. A menu will open listing the available downloads for that language. Find the entry for Tor Browser under the name of your operating system. Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software. Your download will then begin.
+When Satori opens, click on your preferred language.
+A menu will open listing the available downloads for that language.
+Find the entry for Tor Browser under the name of your operating system.
+Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software.
+Your download will then begin.
 
 Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”.
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
+Select the downloaded Tor Browser file.
+Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download.
+If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
 If they do not match, you may need to try downloading again, or from a different source.

@@ -10,11 +10,11 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org.
+La façon la plus sûre et la plus simple de télécharger le navigateur Tor est à partir du site Web officiel du Projet Tor https://www.torproject.org .
 Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
 Cependant, l'accès au site Web du Projet Tor pourrait parfois être impossible, par exemple s'il est bloqué sur votre réseau.
-If this happens, you can use one of the alternative download methods listed below.
+Si cela se produit, vous pouvez utiliser une des méthodes de téléchargement répertoriées ci-dessous.
 
 ##### GetTor
 
@@ -24,7 +24,8 @@ GetTor est un service qui répond automatiquement aux messages en incluant des l
 
 Envoyez un courriel à gettor@torproject.org et dans le corps  du message, écrivez simplement « windows », « osx » « linux » (sans guillemet) selon votre système d'exploitation.
 
-GetTor répondra par un courriel contenant des liens à partir desquels vous pourrez télécharger le paquet du navigateur Tor, la signature cryptographique (exigée pour contrôler le téléchargement), l'empreinte de la clé utilisée pour la signature ainsi que la somme de contrôle du paquet. Selon le modèle d'ordinateur que vous utilisez, on pourrait vous proposer de choisir entre un logiciel 32 bits ou 64 bits.
+GetTor répondra par un courriel contenant des liens à partir desquels vous pourrez télécharger le paquet du navigateur Tor, la signature cryptographique (exigée pour contrôler le téléchargement), l'empreinte de la clé utilisée pour la signature ainsi que la somme de contrôle du paquet.
+Selon le modèle d’ordinateur que vous utilisez, le choix entre un logiciel 32 bits ou 64 bits vous sera proposé ; consultez la documentation de votre ordinateur pour en apprendre davantage.
 
 ###### Pour utiliser GetTor par Twitter :
 
@@ -44,9 +45,15 @@ Installez Satori à partir de la logithèque Chrome App Store.
 
 Sélectionnez Satori dans le menu Applications de votre navigateur.
 
-Une fois Satori ouverte, cliquez sur votre langue préférée. Un menu apparaîtra avec la liste des téléchargements proposés pour cette langue. Trouvez l'entrée pour le navigateur Tor sous le nom de votre système d'exploitation. Choisissez soit « A » soit « B » après le nom du programme, chacun représentant une source différente à partir de laquelle obtenir le logiciel. Votre téléchargement commencera alors.
+Une fois Satori ouverte, cliquez sur votre langue préférée.
+Un menu apparaîtra avec la liste des téléchargements proposés pour cette langue.
+Trouvez l'entrée pour le navigateur Tor sous le nom de votre système d'exploitation.
+Choisissez soit « A » soit « B » après le nom du programme, chacun représentant une source différente à partir de laquelle obtenir le logiciel.
+Votre téléchargement commencera alors.
 
 Attendez la fin du téléchargement, puis cherchez la section « Générer le hachage » dans le menu de Satori et cliquez sur « Sélectionner les fichiers ».
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
+Sélectionnez le fichier du navigateur Tor téléchargé.
+Satori affichera la somme de contrôle du fichier, que vous devrez comparer à la somme de contrôle originale du logiciel ; vous pourrez la trouver en cliquant sur le mot « somme de contrôle » (checksum) qui suit le lien de téléchargement du fichier.
+If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
 Si elles diffèrent, retéléchargez le fichier ou changez de source.
