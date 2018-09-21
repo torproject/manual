@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-19 23:20+CET\n"
+"POT-Creation-Date: 2018-09-21 16:01+CET\n"
 "PO-Revision-Date: 2018-09-19 22:39+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -12,28 +12,428 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: http://localhost/ (content/contents+en.lr:showcase.title)
-msgid "How can we help?"
-msgstr "How can we help?"
-
-#: http://localhost/about/ (content/about/contents+en.lr:topic.title)
-msgid "Censorship"
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.description)
+msgid "Configuring Tor Browser for security and usability"
 msgstr ""
 
-#: http://localhost/about/ (content/about/contents+en.lr:topic.seo_slug)
-msgid "censorship"
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.description)
+msgid "How to remove Tor Browser from your system"
 msgstr ""
 
-#: http://localhost/about/ (content/about/contents+en.lr:topic.title)
-msgid "About Tor Browser"
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.title)
+msgid "Onion Services"
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.description)
+msgid "Learn how to control personally-identifying information in Tor Browser"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"If this happens, you can use one of the alternative download methods listed "
+"below."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid "Tor Browser uses the Tor network to protect your privacy and anonymity."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"Tor works by sending your traffic through three random servers (also known "
+"as *relays*) in the Tor network."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"However, there may be times when you cannot access the Tor Project website: "
+"for example, it could be blocked on your network."
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.description)
+msgid "What to do if Tor Browser doesn’t work"
+msgstr ""
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.seo_slug)
+msgid "onion-services"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Satori is an add-on for the Chrome or Chromium browsers that allows you to "
+"download several security and privacy programs from different sources."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.title)
+msgid "Secure Connections"
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.seo_slug)
+msgid "troubleshooting"
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.seo_slug)
+msgid "becoming-tor-translator"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.seo_slug)
+msgid "plugins"
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.seo_slug)
+msgid "managing-identities"
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.title)
+msgid "Security Slider"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"In addition, Tor Browser is designed to prevent websites from "
+"“fingerprinting” or identifying you based on your browser configuration."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.title)
+msgid "Becoming a Tor Translator"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "###### To use GetTor via Twitter:"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.title)
+msgid "Downloading"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"* The operators of the websites and services that you use, and anyone "
+"watching them, will see a connection coming from the Tor network instead of "
+"your real Internet (IP) address, and will not know who you are unless you "
+"explicitly identify yourself."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "To download Tor Browser using Satori:"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.title)
+msgid "Plugins, add-ons and JavaScript"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid "Using the Tor network has two main properties:"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.seo_slug)
+msgid "secure-connections"
 msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 
+#: http://localhost/about/ (content/about/contents+en.lr:topic.title)
+msgid "About Tor Browser"
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.description)
+msgid "Becoming a translator for the Tor Project"
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.title)
+msgid "Troubleshooting"
+msgstr ""
+
+#: http://localhost/ (content/contents+en.lr:showcase.title)
+msgid "How can we help?"
+msgstr "How can we help?"
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "##### Satori"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"The last relay in the circuit (the “exit relay”) then sends the traffic out "
+"onto the public Internet."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"The image above illustrates a user browsing to different websites over Tor."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Select the downloaded Tor Browser file. Satori will display the checksum of "
+"the file, which you should compare with the software’s original checksum: "
+"you can find this by clicking the word “checksum” after the link you clicked "
+"on to start the download. If the checksums match, your download was "
+"successful, and you can <a href=\"https://tb-manual.torproject.org/en-US/"
+"first-time.html\">begin using Tor Browser</a>."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Wait for your download to finish, then find the “Generate Hash” section in "
+"Satori’s menu and click “Select Files”."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "Install Satori from the Chrome App Store."
+msgstr ""
+
+#: http://localhost/circumvention/
+#: (content/circumvention/contents+en.lr:topic.description)
+msgid "What to do if the Tor network is blocked"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid "### How Tor works"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"To get links for downloading Tor Browser in English for OS X, send a Direct "
+"Message to @get_tor with the words \"osx en\" in it (you don't need to "
+"follow the account)."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"* Your internet service provider, and anyone watching your connection "
+"locally, will not be able to track your internet activity, including the "
+"names and addresses of the websites you visit."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.seo_slug)
+msgid "downloading"
+msgstr ""
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.title)
+msgid "Uninstalling"
+msgstr ""
+
+#: http://localhost/circumvention/
+#: (content/circumvention/contents+en.lr:topic.title)
+msgid "Circumvention"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.description)
+msgid "Learn how to protect your data using Tor Browser and HTTPS"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "##### GetTor"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.description)
+msgid "How to download Tor Browser"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"To get links for downloading Tor Browser in Chinese for Linux, send a "
+"message to gettor@torproject.org with the words \"linux zh\" in it."
+msgstr ""
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.seo_slug)
+msgid "uninstalling"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"When Satori opens, click on your preferred language. A menu will open "
+"listing the available downloads for that language. Find the entry for Tor "
+"Browser under the name of your operating system. Select either “A” or “B” "
+"after the name of the program — each one represents a different source from "
+"which to get the software. Your download will then begin."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "###### To use GetTor via email:"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"If they do not match, you may need to try downloading again, or from a "
+"different source."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"Tor is a network of virtual tunnels that allows you to improve your privacy "
+"and security on the Internet."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"GetTor will respond with an email containing links from which you can "
+"download the Tor Browser package, the cryptographic signature (needed for "
+"verifying the download), the fingerprint of the key used to make the "
+"signature, and the package’s checksum. You may be offered a choice of “32-"
+"bit” or “64-bit” software: this depends on the model of the computer you are "
+"using."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "Select Satori from your browser’s Apps menu."
+msgstr ""
+
+#: http://localhost/updating/
+#: (content/updating/contents+en.lr:topic.description)
+msgid "How to update Tor Browser"
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.title)
+msgid "Managing identities"
+msgstr ""
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.description)
+msgid "Services that are only accessible using Tor"
+msgstr ""
+
 #: http://localhost/about/ (content/about/contents+en.lr:topic.seo_slug)
 msgid "about"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.seo_slug)
+msgid "updating"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Send an email to gettor@torproject.org, and in the body of the message "
+"simply write “windows”, “osx”, or “linux”, (without quotation marks) "
+"depending on your operating system."
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid "By default, Tor Browser does not keep any browsing history."
+msgstr ""
+
+#: http://localhost/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.seo_slug)
+msgid "running-tor-browser"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"Cookies are only valid for a single session (until Tor Browser is exited or "
+"a <a href=\"/managing-identities.html#new-identity\">New Identity</a> is "
+"requested)."
+msgstr ""
+
+#: http://localhost/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.title)
+msgid "Running Tor Browser for the first time"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
+msgid "How Tor Browser handles add-ons, plugins and JavaScript"
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.seo_slug)
+msgid "security-slider"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"\" src=\"/static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"GetTor is a service that automatically responds to messages with links to "
+"the latest version of Tor Browser, hosted at a variety of locations, such as "
+"Dropbox, Google Drive and GitHub."
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
+msgid "Updating"
+msgstr ""
+
+#: http://localhost/circumvention/
+#: (content/circumvention/contents+en.lr:topic.seo_slug)
+msgid "circumvention"
+msgstr ""
+
+#: http://localhost/about/ (content/about/contents+en.lr:topic.body)
+msgid ""
+"The green middle computers represent relays in the Tor network, while the "
+"three keys represent the layers of encryption between the user and each "
+"relay."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"The safest and simplest way to download Tor Browser is from the official Tor "
+"Project website at https://www.torproject.org."
+msgstr ""
+
+#: http://localhost/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Your connection to the site will be secured using <a href=\"https://tb-"
+"manual.torproject.org/en-US/secure-connections.html\">HTTPS</a>, which makes "
+"it much harder for somebody to tamper with."
+msgstr ""
+
+#: http://localhost/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.description)
+msgid "Learn how to use Tor Browser for the first time"
 msgstr ""
 
 #: templates/footer.html:5
@@ -69,8 +469,8 @@ msgstr ""
 "found in our "
 
 #: templates/layout.html:7
-msgid "Tor Project | Tor Broser Manual"
-msgstr "Tor Project | Tor Broser Manual"
+msgid "Tor Project | Tor Browser Manual"
+msgstr ""
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
@@ -84,6 +484,13 @@ msgstr "Download Tor Browser"
 msgid "Search"
 msgstr "Search"
 
-#: templates/macros/topic.html:18
+#: templates/sidenav.html:4
+msgid "Topics"
+msgstr ""
+
+#: templates/macros/topic.html:19
 msgid "Permalink"
 msgstr "Permalink"
+
+#~ msgid "Tor Project | Tor Broser Manual"
+#~ msgstr "Tor Project | Tor Broser Manual"
