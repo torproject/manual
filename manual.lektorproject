@@ -10,4 +10,14 @@ primary = yes
 url_prefix = /
 locale = en_US
 
+[alternatives.es]
+name = Español
+url_prefix = /es/
+locale = es
+
+[alternatives.fr]
+name = Français
+url_prefix = /fr/
+locale = fr
+
 [packages]
