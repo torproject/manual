@@ -28,7 +28,7 @@ La red Tor es una red de túneles virtuales que le permite mejorar tu privacidad
 Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network.
 El último repetidor en el circuito (el "repetidor de salida") envía entonces el tráfico fuera hacia la Internet pública.
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="/static/images/how-tor-works.png" alt="Como funciona Tor">
 
 La imagen superior muestra un usuario navegando por distintos sitios web sobre Tor.
 Los ordenadores en verde en el centro representan los repetidores de la red Tor, mientras que las tres llaves representan las capas de cifrado entre el usuario y cada repetidor.
