@@ -9,3 +9,34 @@ seo_slug: resolución-de-problemas
 key: 11
 ---
 body:
+Deberías poder comenzar a navegar la web usando el Navegador Tor poco después de ejecutar el programa y pulsar el botón "Conectar", si lo estás usando por primera vez.
+
+<img class="col-md-6" src="/static/images/connect.png">
+
+##### Arreglos rápidos
+
+Si el Navegador Tor no conecta, puede haber una solución simple.
+Prueba cada una de las siguientes:
+
+* El reloj de tu ordenador ha de estar configurado correctamente, o Tor no podrá conectar.
+
+* Asegúrate de que no hay otro Navegador Tor ya en marcha. Si no estás seguro, reinicia tu computadora.
+Si no estás seguro, reinicia tu computadora.
+
+Asegúrate de que cualquier programa antivirus que tengas instalado no está impidiendo que Tor se ejecute.
+Puede que necesites consultar la documentación de tu software antivirus si no sabes cómo hacer esto.
+
+* Deshabilita temporalmente tu cortafuegos (firewall).
+
+* Borra el Navegador Tor e instálalo de nuevo.
+Si estás actualizando, no te limites a sobrescribir tus ficheros anteriores del Navegador Tor; asegúrate previamente de que han sido borrados por completo.
+
+##### ¿Está censurada tu conexión?
+
+Si aún no puedes conectar, tu Proveedor de Servicios de Internet (ISP) podría estar censurando las conexiones a la red Tor.
+Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+
+##### Problemas conocidos
+
+El Navegador Tor está bajo desarrollo constante, y algunos problemas son conocidos pero aún no están reparados.
+Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.

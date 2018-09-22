@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-22 12:06+CET\n"
-"PO-Revision-Date: 2018-09-22 12:19+0200\n"
+"POT-Creation-Date: 2018-09-22 18:21+CET\n"
+"PO-Revision-Date: 2018-09-22 18:31+0200\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -37,6 +37,11 @@ msgstr ""
 msgid "managing-identities"
 msgstr "administrar-identidades"
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "location"
+msgstr ""
+
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
@@ -44,6 +49,9 @@ msgid ""
 "at the URL bar an icon of a little green onion displaying the state of your "
 "connection: secure and using an onion service."
 msgstr ""
+"Cuando accedas a un sitio web que use un servicio cebolla, el navegador Tor "
+"mostrará en la barra URL un icono de una cebollita verde visualizando el "
+"estado de tu conexión: segura y usando un servicio cebolla."
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -65,6 +73,22 @@ msgstr ""
 "* Completa la siguiente página con tu nombre y selecciona \"Localización\" y "
 "\"Traductor\" en los menús desplegables:"
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/https.png\">"
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid ""
+"After your membership is approved you can begin translating; simply navigate "
+"back to the <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
+"Transifex page</a> when you are ready to begin."
+msgstr ""
+"Después de que se apruebe tu membresía, puedes comenzar a traducir; "
+"sencillamente dirigite a la <link href=\"https://www.transifex.com/otf/"
+"torproject/\">página Tor Transifex</link> cuando estés lista para comenzar."
+
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid ""
@@ -74,10 +98,24 @@ msgstr ""
 "Satori es un complemento para navegadores Chrome y Chromium que le permite "
 "descargar varios programas de seguridad y privacidad desde distintas fuentes."
 
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* This is to ensure that each software build is exactly reproducible."
+msgstr ""
+"* Esto es para asegurar que cada versión (build) del software es "
+"reproducible con exactitud."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
-#: (content/security-slider/contents+en.lr:topic.title)
-msgid "Security Slider"
-msgstr "Control deslizante de seguridad"
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dd>"
+msgstr "<dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -107,6 +145,20 @@ msgstr ""
 "Selecciona \"Conectar con los puentes proporcionados\". El Navegador Tor "
 "actualmente tiene seis transportes conectables entre los que elegir."
 
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"On Linux, there is no default location, however the folder will be named "
+"\"tor-browser_en-US\" if you are running the English Tor Browser."
+msgstr ""
+"En Linux, no hay ubicación predeterminada; no obstante la carpeta será "
+"nombrada \"tor-browser_en-US\" si está ejecutando el Tor Browser en inglés."
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "##### Known issues"
+msgstr "##### Problemas conocidos"
+
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
@@ -114,6 +166,15 @@ msgid ""
 msgstr ""
 "FTE (cifrado transformador de formato) camufla el tráfico de Tor como "
 "tráfico web ordinario (HTTP)."
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"* Make sure that any antivirus program you have installed is not preventing "
+"Tor from running."
+msgstr ""
+"Asegúrate de que cualquier programa antivirus que tengas instalado no está "
+"impidiendo que Tor se ejecute."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -151,10 +212,22 @@ msgstr "##### Cambiar identidades y circuitos"
 msgid "###### New Tor circuit for this site"
 msgstr "##### Nuevo circuito Tor para este sitio."
 
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Standard"
+msgstr "Estándar"
+
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "Select the downloaded Tor Browser file."
 msgstr "Selecciona el archivo del Navegador Tor descargado."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.seo_slug)
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.seo_slug)
+msgid "uninstalling"
+msgstr "desinstalar"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.description)
@@ -170,6 +243,13 @@ msgstr "Resolución de problemas"
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
 msgstr "##### Satori"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dt>"
+msgstr "<dt>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -197,16 +277,10 @@ msgstr "Estas herramientas se llaman \"transportes conectables\"."
 msgid "##### Using pluggable transports"
 msgstr "##### Usar transportes conectables"
 
-#: http://localhost/onion-services/
-#: (content/onion-services/contents+en.lr:topic.body)
-msgid ""
-"All traffic between Tor users and onion services is end-to-end encrypted, so "
-"you do not need to worry about <a href=\"/secure-connections\">connecting "
-"over HTTPS</a>."
-msgstr ""
-"Todo el tráfico entre los usuarios de Tor y los servicios onion están "
-"cifrados extremo-a-extremo, así que no necesitas preocuparte de <a href=\"/"
-"secure-connections\">conectar sobre HTTPS</a>."
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "##### Quick fixes"
+msgstr "##### Arreglos rápidos"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -242,6 +316,13 @@ msgstr ""
 "Una dirección cebolla es una cadena de 16 (y en formato V3, 56) de letras y "
 "números en su mayoría aleatorios, seguidos de \".onion\"."
 
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC."
+msgstr ""
+"* El paquete del Navegador Tor está fechado el 1 de enero de 2000, 00:00:00 "
+"UTC."
+
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
@@ -269,6 +350,11 @@ msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
 msgstr ""
 "ScrambleSuit es similar a obfs4 pero tiene un grupo de puentes diferente."
 
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "This is the most usable option."
+msgstr "Esta es la opción más fácil de usar."
+
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
@@ -277,6 +363,16 @@ msgstr "<img class=\"col-md-6\" src=\"/static/images/proxy_question.png\">"
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<td>"
 msgstr "<td>"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
+"Increasing the level of the Security Slider will disable or partially "
+"disable certain browser features to protect against possible attacks."
+msgstr ""
+"Incrementar el nivel del 'Control deslizante de seguridad' deshabilitará "
+"total o parcialmente algunas características para proteger contra posibles "
+"ataques."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -292,10 +388,32 @@ msgstr "</td>"
 msgid "Secure Connections"
 msgstr "Conexiones seguras"
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
-msgstr "<img class=\"col-md-6\" src=\"/static/images/tr3.png\">"
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"* The address of an onion service is automatically generated, so the "
+"operators do not need to purchase a domain name; the .onion URL also helps "
+"Tor ensure that it is connecting to the right location and that the "
+"connection is not being tampered with."
+msgstr ""
+"La dirección de un servicio onion se genera automáticamente, de forma que "
+"los operadores no necesitan comprar un nombre de dominio; la URL .onion "
+"también ayuda a Tor a asegurarse de que está conectando a la ubicación "
+"correcta y que la conexión no está siendo alterada."
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Safer"
+msgstr "Más segura"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Videos that require Adobe Flash are unavailable. Flash is disabled for "
+"security reasons."
+msgstr ""
+"* Los vídeos que requieren Adobe Flash no están disponibles. Flash está "
+"deshabilitado por motivos de seguridad."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs3"
@@ -303,6 +421,8 @@ msgstr "obfs3"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
 msgstr "<img class=\"col-md-6\" src=\"/static/images/connect.png\">"
 
@@ -315,19 +435,14 @@ msgstr ""
 "además evita que los censores encuentren puentes de red mediante el "
 "escaneado de Internet."
 
-#: http://localhost/onion-services/
-#: (content/onion-services/contents+en.lr:topic.body)
-msgid ""
-"An onion services’s location and IP address are hidden, making it difficult "
-"for adversaries to censor it or identify its operators."
-msgstr ""
-"La ubicación y direcciones IP de un servicio cebolla están ocultas, "
-"dificultando que los adversarios puedan censurarlo o identificar a sus "
-"operadores."
-
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
 msgstr "obfs4"
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.seo_slug)
+msgid "becoming-tor-translator"
+msgstr "traducir-tor"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.title)
@@ -346,6 +461,18 @@ msgstr ""
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
 msgstr "Cómo maneja el Navegador Tor los complementos, plugins y JavaScript"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dl>"
+msgstr "<dl>"
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "1. Locate your Tor Browser folder."
+msgstr "1.  Localiza tu carpeta del navegador Tor."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -392,6 +519,11 @@ msgstr ""
 "Si pruebas todas estas opciones y no consigues conectar con ninguna de "
 "ellas, necesitarás introducir direcciones de puentes de red manualmente."
 
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
+
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
 "meek-amazon makes it look like you are using Amazon Web Services; meek-azure "
@@ -402,10 +534,20 @@ msgstr ""
 "azure hace que parezca que estás usando un sitio web de Microsoft; y meek-"
 "google hace que parezca que estás usando la búsqueda de Google."
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
-msgstr "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "Removing Tor Browser from your system is simple:"
+msgstr "Eliminar el Navegador Tor de tu sistema es simple:"
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"* An onion services’s location and IP address are hidden, making it "
+"difficult for adversaries to censor it or identify its operators."
+msgstr ""
+"* La ubicación y direcciones IP de un servicio cebolla están ocultas, "
+"dificultando que los adversarios puedan censurarlo o identificar a sus "
+"operadores."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -468,6 +610,8 @@ msgid ""
 "Just like any other website, you will need to know the address of an onion "
 "service in order to connect to it."
 msgstr ""
+"Como en cualquier otro sitio web, necesitarás conocer la dirección de un "
+"servicio cebolla para conectar con él."
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "Tor Browser uses the Tor network to protect your privacy and anonymity."
@@ -490,11 +634,16 @@ msgstr ""
 "El último repetidor en el circuito (el \"repetidor de salida\") envía "
 "entonces el tráfico fuera hacia la Internet pública."
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
 msgid ""
-"* Select the language you would like to translate from the dropdown menu:"
-msgstr "* Selecciona el menú que desearías traducir en el menú desplegable:"
+"Open \"Files\" (Unity's explorer), open Preferences → Behavior Tab → Set "
+"\"Run executable text files when they are opened\" to \"Ask every time\", "
+"then click OK."
+msgstr ""
+"Abre \"Ficheros\" (explorador de Unity),  \"Preferencias de archivos\"  → "
+"pestaña \"Comportamiento\" → Configura \"Ejecutar los archivos de texto "
+"ejecutables al abrirlos\" a \"Preguntar siempre\", luego pulsa OK."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -532,13 +681,27 @@ msgstr ""
 "de Tor."
 
 #: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.seo_slug)
-msgid "becoming-tor-translator"
-msgstr "traducir-tor"
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "* On the next page, select 'Join an existing project' and continue."
+msgstr ""
+"* En la siguiente página, selecciona \"unirse a un proyecto existente\" y "
+"continúa."
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.seo_slug)
 msgid "plugins"
 msgstr "plugins"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "The button will turn green to indicate that HTTPS is on."
+msgstr "El botón se pondrá verde para indicar que HTTPS está activado."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* To run Tor Browser on Ubuntu, users need to execute a shell script."
+msgstr ""
+"* Para ejecutar el Navegador Tor en Ubuntu, los usuarios necesitan ejecutar "
+"un script de consola."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -559,6 +722,22 @@ msgstr ""
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "Snowflake"
 msgstr "Snowflake"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"You should be able to start browsing the web using Tor Browser shortly after "
+"running the program, and clicking the “Connect” button if you are using it "
+"for the first time."
+msgstr ""
+"Deberías poder comenzar a navegar la web usando el Navegador Tor poco "
+"después de ejecutar el programa y pulsar el botón \"Conectar\", si lo estás "
+"usando por primera vez."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Kaspersky Internet Security 2012"
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -584,6 +763,15 @@ msgstr ""
 "esté observando, verán una conexión proveniente de la red Tor en lugar de tu "
 "dirección de Internet (IP) real, y no sabrán quién eres a menos que te "
 "identifiques de forma concreta."
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"If you still can’t connect, your Internet Service Provider might be "
+"censoring connections to the Tor network."
+msgstr ""
+"Si aún no puedes conectar, tu Proveedor de Servicios de Internet (ISP) "
+"podría estar censurando las conexiones a la red Tor."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -628,8 +816,8 @@ msgid ""
 "And if you're accessing a website with https and onion service, it will show "
 "an icon of a green onion and a padlock."
 msgstr ""
-"Y si estás accediendo a un sitio web con https y servicio onion, te mostrará "
-"un icono de una cebolla verde y un candado."
+"Y si estás accediendo a un sitio web con https y servicio cebolla, te "
+"mostrará un icono de una cebolla verde y un candado."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -654,6 +842,8 @@ msgid ""
 "Onion services offer several advantages over ordinary services on the non-"
 "private web:"
 msgstr ""
+"Los servicios cebolla ofrecen varias ventajas sobre los servicios ordinarios "
+"en la web no-privada:"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -663,9 +853,25 @@ msgstr ""
 "Otros transportes conectables, como meek, usan distintas técnicas anti-"
 "censura que no se basan en puentes."
 
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.title)
+#: (content/known-issues/contents+en.lr:topic.description)
+msgid "Known issues"
+msgstr "Problemas conocidos"
+
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "You have two options:"
 msgstr "Tienes dos opciones:"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"The following visualization shows what information is visible to "
+"eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+"La siguiente visualización muestra qué información es visible a quienes "
+"estén a la escucha, tanto si usa como si no el Navegador Tor y el cifrado "
+"HTTPS:"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -681,10 +887,10 @@ msgstr ""
 msgid "But it is different from the other nodes in the circuit."
 msgstr ""
 
-#: http://localhost/uninstalling/
-#: (content/uninstalling/contents+en.lr:topic.title)
-msgid "Uninstalling"
-msgstr "Desinstalar"
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "##### Security Levels"
+msgstr "##### Niveles de seguridad"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -694,15 +900,20 @@ msgstr ""
 "obfs3 hace que el tráfico de Tor parezca aleatorio, así no se parece a Tor "
 "ni a ningún otro protocolo."
 
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Safest"
+msgstr "La más segura"
+
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.title)
 msgid "Circumvention"
 msgstr "Evasión"
 
-#: http://localhost/uninstalling/
-#: (content/uninstalling/contents+en.lr:topic.seo_slug)
-msgid "uninstalling"
-msgstr "desinstalar"
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "The site being visited."
+msgstr "El sitio que estás visitando."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -716,6 +927,25 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr "Ingresa la información en los campos y clic en el botón 'Registrarse':"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
+"At this level, HTML5 video and audio media become click-to-play via "
+"NoScript; all JavaScript performance optimizations are disabled; some "
+"mathematical equations may not display properly; some font rendering "
+"features are disabled; some types of image are disabled; Javascript is "
+"disabled by default on all sites; most video and audio formats are disabled; "
+"and some fonts and icons may not display correctly."
+msgstr ""
+"En este nivel, los audiovisuales HTML5 funcionan en modo clic-para-"
+"reproducir mediante NoScript; se deshabilitan todas las optimizaciones de "
+"rendimiento de JavaScript; algunas ecuaciones matemáticas puede que no se "
+"muestren adecuadamente; algunas características de renderización de fuentes "
+"están deshabilitadas; algunos tipos de imagen están deshabilitados; "
+"JavaScript está deshabilitado por defecto en todos los sitios; la mayoría de "
+"formatos de vídeo y audio están deshabilitados; y algunas fuentes e iconos "
+"puede que no se muestren correctamente."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
@@ -741,10 +971,54 @@ msgstr ""
 "Al seleccionarlo, causará que la pestaña o ventana actualmente activa se "
 "recargue sobre un nuevo circuito de Tor."
 
-#: http://localhost/updating/
-#: (content/updating/contents+en.lr:topic.description)
-msgid "How to update Tor Browser"
-msgstr "Cómo actualizar el Navegador Tor"
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser includes a “Security Slider” that lets you increase your "
+"security by disabling certain web features that can be used to attack your "
+"security and anonymity."
+msgstr ""
+"El Navegador Tor incluye un \"Control deslizante de seguridad\" que te "
+"permite incrementar tu seguridad deshabilitando ciertas características de "
+"la web que se pueden usar para atacar tu seguridad y anonimato."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"You can verify this in the URL bar: if your connection is encrypted, the "
+"address will begin with “https://”, rather than “http://”."
+msgstr ""
+"Puedes verificar esto en la barra de URLs: Si tu conexión está cifrada, la "
+"dirección comenzará con “https://”, en lugar de “http://”."
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser is under constant development, and some issues are known about "
+"but not yet fixed."
+msgstr ""
+"El Navegador Tor está bajo desarrollo constante, y algunos problemas son "
+"conocidos pero aún no están reparados."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Tor Browser can also be started from the command line by running the "
+"following command from inside the Tor Browser directory:"
+msgstr ""
+"* El Navegador Tor también se puede iniciar desde la línea de comando "
+"ejecutando el siguiente comando desde el interior del directorio del "
+"Navegador Tor:"
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr1.png\">"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "The button will turn green to indicate that Tor is on."
+msgstr "El botón se pondrá verde para indicar que Tor está activado."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -753,6 +1027,9 @@ msgid ""
 "entered the onion address correctly: even a small mistake will stop Tor "
 "Browser from being able to reach the site."
 msgstr ""
+"Si no puedes acceder al servicio de onion que necesitas, asegúrate de haber "
+"ingresado correctamente la dirección de onion: incluso un pequeño error "
+"puede impedir que el  navegador Tor acceda al sitio."
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.seo_slug)
@@ -788,6 +1065,16 @@ msgid ""
 "requested)."
 msgstr ""
 
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Delete Tor Browser and install it again."
+msgstr "* Borra el Navegador Tor e instálalo de nuevo."
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "2. Delete the Tor Browser folder."
+msgstr "2. Borra la carpeta del Navegador Tor."
+
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
@@ -807,12 +1094,26 @@ msgstr ""
 "interpretar esto como un signo de que tu cuenta ha sido hackeada o "
 "comprometida, y bloquearte."
 
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"The default location on Windows is the Desktop; on Mac OS X it is the "
+"Applications folder."
+msgstr ""
+"El lugar predeterminada en Windows es el Escritorio; en Mac OS X es la "
+"carpeta de Aplicaciones."
+
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
 "See the <a href=\"/transports\">Pluggable Transports</a> page for more "
 "information on the types of transport that are currently available."
 msgstr ""
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.title)
+msgid "Uninstalling"
+msgstr "Desinstalar"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"odd\">"
@@ -847,12 +1148,16 @@ msgstr ""
 "El Navegador Tor te llevará a través de una serie de opciones de "
 "configuración."
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Site.com"
+msgstr ""
+
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
-msgid "* On the next page, select 'Join an existing project' and continue."
-msgstr ""
-"* En la siguiente página, selecciona \"unirse a un proyecto existente\" y "
-"continúa."
+msgid ""
+"* Select the language you would like to translate from the dropdown menu:"
+msgstr "* Selecciona el menú que desearías traducir en el menú desplegable:"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.title)
 msgid "Bridges"
@@ -883,6 +1188,11 @@ msgstr ""
 "Iniciar sesión con Tor también es útil si el sitio web al que intentas "
 "acceder está censurado en tu red."
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Tor"
+msgstr "Tor"
+
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid ""
@@ -893,6 +1203,13 @@ msgstr ""
 "Para obtener enlaces para descargar el Navegador Tor en inglés para OS X, "
 "envíe un Mensaje Directo a @get_tor con las palabras \"osx en\" (sin las "
 "comillas) en él (no necesita seguir la cuenta)."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dd>"
+msgstr "</dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -934,6 +1251,14 @@ msgid ""
 "Onion services (formerly known as “hidden services”) are services (like "
 "websites) that are only accessible through the Tor network."
 msgstr ""
+"Los servicios cebolla (anteriormente conocidos como \"servicios ocultos\") "
+"son servicios (como pueden ser los sitios web) que sólo son accesibles a "
+"través de la red Tor."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "<img class=\"\" src=\"/static/images/tor-and-https.svg\">"
+msgstr ""
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.seo_slug)
@@ -949,6 +1274,15 @@ msgstr "##### Nueva Identidad"
 #: (content/secure-connections/contents+en.lr:topic.seo_slug)
 msgid "secure-connections"
 msgstr "conexiones-seguras"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"* Click the “HTTPS” button to see what data is visible to observers when "
+"you're using HTTPS."
+msgstr ""
+"* Pulsa el botón \"HTTPS\" para ver qué datos son visibles a los "
+"observadores cuando estás usando HTTPS."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -966,6 +1300,14 @@ msgid ""
 msgstr ""
 "Usar puentes puede ralentizar la conexión comparado con el uso de "
 "repetidores Tor ordinarios."
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"Uninstalling Tor Browser will not affect your system’s software or settings."
+msgstr ""
+"Desinstalar Tor no afectará ni al software de tu sistema ni a sus "
+"configuraciones."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.description)
 msgid ""
@@ -990,6 +1332,13 @@ msgstr ""
 msgid "###### To use GetTor via Twitter:"
 msgstr "##### Usar GetTor vía Twitter."
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dl>"
+msgstr "</dl>"
+
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.title)
 msgid "Downloading"
@@ -1000,12 +1349,28 @@ msgstr "Descargar"
 msgid "Managing identities"
 msgstr "Administrar identidades"
 
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "##### Accessing the Security Slider"
+msgstr "##### Acceder al 'Control deslizante de seguridad'"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"* Your computer’s system clock must be set correctly, or Tor will not be "
+"able to connect."
+msgstr ""
+"* El reloj de tu ordenador ha de estar configurado correctamente, o Tor no "
+"podrá conectar."
+
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
 "If you are still unable to connect to the onion service, please try again "
 "later."
 msgstr ""
+"Si todavía no puedes conectar al servicio cebolla, por favor, inténtalo de "
+"nuevo más tarde."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
@@ -1024,6 +1389,11 @@ msgstr ""
 msgid "* A notification will now show up on the top of the page like so:"
 msgstr "* Se mostrará una notificación como esta en lo alto de la página:"
 
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "If Tor Browser doesn’t connect, there may be a simple solution."
+msgstr "Si el Navegador Tor no conecta, puede haber una solución simple."
+
 #: http://localhost/about/ (content/about/contents+en.lr:topic.title)
 msgid "About Tor Browser"
 msgstr "Sobre el Navegador Tor"
@@ -1037,10 +1407,10 @@ msgstr ""
 "Cuando conectas a un sitio web, no son sólo los operadores de ese sitio los "
 "que pueden registrar información sobre tu visita."
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
-msgstr "<img class=\"col-md-6\" src=\"/static/images/tr5.png\">"
+#: http://localhost/updating/
+#: (content/updating/contents+en.lr:topic.description)
+msgid "How to update Tor Browser"
+msgstr "Cómo actualizar el Navegador Tor"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1059,6 +1429,11 @@ msgstr ""
 "Para obtener enlaces para descargar el Navegador Tor en chino para Linux, "
 "envíe un mensaje a gettor@torproject.org con las palabras \"linux zh\" (sin "
 "las comillas) en él."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Whether or not Tor is being used."
+msgstr "Si se está usando Tor o no."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1081,6 +1456,11 @@ msgstr ""
 "seguimiento de terceros, el Navegador Tor forzará que el contenido sea "
 "servido sobre dos circuitos de Tor diferentes, por lo que el rastreador no "
 "sabrá que ambas conexiones se originan desde tu navegador."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Data being transmitted."
+msgstr "Datos que se están transmitiendo."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1120,9 +1500,14 @@ msgstr ""
 "Selecciona \"Usar puentes personalizados\" e introduce cada dirección de "
 "puente de red en una línea aparte."
 
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "3. Empty your Trash"
+msgstr "3. Vacía tu Papelera."
+
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### Tipos de transporte conectable"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1163,6 +1548,19 @@ msgstr ""
 msgid "The next screen asks if your connection uses a proxy."
 msgstr "La siguiente pantalla pregunta si tu conexión usa un proxy."
 
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "If you’re not sure if Tor Browser is running, restart your computer."
+msgstr "Si no estás seguro, reinicia tu computadora."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Tor needs your system clock (and your time zone) set to the correct time."
+msgstr ""
+"* Tor necesita que el reloj de tu sistema esté establecido a la hora (y zona "
+"horaria) correcta."
+
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4 bridges are less likely to be blocked than obfs3 bridges."
 msgstr ""
@@ -1201,6 +1599,25 @@ msgstr "actualizar"
 msgid "##### The URL bar"
 msgstr "##### La barra de URLs"
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "##### Potentially visible data"
+msgstr "##### Datos potencialmente visibles"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Microsoft Security Essentials"
+msgstr "* Microsoft Security Essentials"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"If you are logging into any website, you should make sure that the site "
+"offers HTTPS encryption, which protects against this kind of eavesdropping."
+msgstr ""
+"Si la información personal como nombre de usuario y contraseña viaja cifrada "
+"por Internet, puede ser interceptada muy fácilmente por alguien a la escucha."
+
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "meek"
 msgstr "meek"
@@ -1213,6 +1630,24 @@ msgid ""
 msgstr ""
 "* Dírigete a la <link href=\"https://transifex.com/signup/\">página de "
 "registro de Transifex</link>."
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
+"At this level, HTML5 video and audio media become click-to-play via "
+"NoScript; all JavaScript performance optimizations are disabled; some "
+"mathematical equations may not display properly; some font rendering "
+"features are disabled; some types of image are disabled; and JavaScript is "
+"disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
+"sites."
+msgstr ""
+"En este nivel, el vídeo y el audio HTML5 se comportan en modo clic-para-"
+"reproducir mediante NoScript; se deshabilitan todas las optimizaciones de "
+"rendimiento; algunas ecuaciones matemáticas puede que no se muestren "
+"adecuadamente; algunas características de renderización están "
+"deshabilitadas; algunos tipos de imagen están deshabilitados; y JavaScript "
+"está deshabilitado por defecto en todos los sitios no-<a href=\"secure-"
+"connections\">HTTPS</a>."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1230,6 +1665,15 @@ msgstr ""
 msgid "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
 msgstr "<img class=\"col-md-6\" src=\"/static/images/new_identity.png\">"
 
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser does not affect any of the existing software or settings on your "
+"computer."
+msgstr ""
+"Tor no afecta a ningún software existente en tu máquina ni a los ajustes de "
+"este."
+
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid ""
@@ -1241,6 +1685,17 @@ msgstr ""
 "comparar con la suma de verificación del software original: puedes "
 "encontrarla haciendo clic en \"checksum\" tras el enlace sobre el que "
 "hiciste clic para iniciar la descarga."
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "At this level, all browser features are enabled."
+msgstr ""
+"En este nivel, todas las características del navegador están habilitadas."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Webroot SecureAnywhere"
+msgstr "* Webroot SecureAnywhere"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1254,12 +1709,10 @@ msgstr ""
 "con sitios web que requieran nombres de usuario, contraseñas u otra "
 "información de identificación."
 
-#: http://localhost/onion-services/
-#: (content/onion-services/contents+en.lr:topic.body)
-msgid ""
-"You can also ensure that you're able to access other onion services by "
-"connecting to"
-msgstr ""
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "Try each of the following:"
+msgstr "Prueba cada una de las siguientes:"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1267,6 +1720,8 @@ msgid ""
 "There may be a temporary connection issue, or the site operators may have "
 "allowed it to go offline without warning."
 msgstr ""
+"Puede haber un problema temporal de conexión, o los operadores del sitio "
+"pueden haberlo desconectado sin avisar."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1288,10 +1743,20 @@ msgid ""
 "it much harder for somebody to tamper with."
 msgstr ""
 
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Temporarily disable your firewall."
+msgstr "* Deshabilita temporalmente tu cortafuegos (firewall)."
+
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
-msgid "##### Signing up on Transifex"
-msgstr "##### Registrarse en Transifex"
+msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
+msgstr "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.title)
+msgid "Security Slider"
+msgstr "Control deslizante de seguridad"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
@@ -1309,7 +1774,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
-msgstr "Servicios Onion"
+msgstr "Servicios cebolla"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1325,6 +1790,20 @@ msgid ""
 msgstr ""
 "Elige \"sí\" cuando pregunten si tu Proveedor de Servicios de Internet (ISP) "
 "bloquea las conexiones a la red Tor."
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "./start-tor-browser.desktop"
+msgstr "./start-tor-browser.desktop"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"You may need to consult the documentation for your antivirus software if you "
+"do not know how to do this."
+msgstr ""
+"Puede que necesites consultar la documentación de tu software antivirus si "
+"no sabes cómo hacer esto."
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1357,6 +1836,15 @@ msgstr ""
 msgid "##### How Tor works"
 msgstr "##### Cómo funciona Tor"
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"If personal information such as a login password travels unencrypted over "
+"the Internet, it can very easily be intercepted by an eavesdropper."
+msgstr ""
+"Si la información personal como nombre de usuario y contraseña viaja cifrada "
+"por Internet, puede ser interceptada muy fácilmente por alguien a la escucha."
+
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
@@ -1368,6 +1856,26 @@ msgstr ""
 "ejecutando, pulsando sobre la cebolla verde junto a la barra de direcciones "
 "y seleccionando \"Configuración de la Red Tor\"."
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"* Click the “Tor” button to see what data is visible to observers when "
+"you're using Tor."
+msgstr ""
+"* Haz clic en el botón \"Tor\" para ver qué datos son visibles para los "
+"observadores cuando estás usando Tor."
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
+"Increasing Tor Browser’s security level will stop some web pages from "
+"functioning properly, so you should weigh your security needs against the "
+"degree of usability you require."
+msgstr ""
+"Incrementar el nivel de seguridad del Navegador Tor evitará que algunas "
+"páginas web funcionen adecuadamente, así que debes sopesar tus necesidades "
+"de seguridad con respecto al grado de usabilidad que necesitas."
+
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
@@ -1376,6 +1884,16 @@ msgid ""
 msgstr ""
 "El acceso directo a la red Tor a veces puede estar bloqueado por tu "
 "Proveedor de Servicios de Internet (ISP) o por el gobierno."
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/slider_window.png\">"
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "##### Signing up on Transifex"
+msgstr "##### Registrarse en Transifex"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.title)
 msgid "Pluggable transports"
@@ -1390,6 +1908,13 @@ msgstr ""
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
 msgstr "</table>"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"Read the <a href=\"/circumvention\">Circumvention</a> section for possible "
+"solutions."
+msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.description)
@@ -1406,10 +1931,20 @@ msgstr ""
 msgid "Plugins, add-ons and JavaScript"
 msgstr "Plugins, complementos y JavaScript"
 
-#: http://localhost/onion-services/
-#: (content/onion-services/contents+en.lr:topic.body)
-msgid "DuckDuckGo's Onion Service"
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Tor can not use a bridge if a proxy is set."
+msgstr "* Tor no puede usar un puente si tiene configurado un proxy."
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"If updating, do not just overwrite your previous Tor Browser files; ensure "
+"they are fully deleted beforehand."
 msgstr ""
+"Si estás actualizando, no te limites a sobrescribir tus ficheros anteriores "
+"del Navegador Tor; asegúrate previamente de que han sido borrados por "
+"completo."
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.description)
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
@@ -1462,6 +1997,13 @@ msgstr ""
 "Los transportes conectables son herramientas que Tor puede usar para "
 "camuflar el tráfico que envía."
 
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "The Security Slider is located in Torbutton’s “Security Settings” menu."
+msgstr ""
+"La barra de Seguridad se encuentra en el menú \"Configuración de Seguridad\" "
+"de Torbutton."
+
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
 "Currently there are six pluggable transports available, but more are being "
@@ -1479,6 +2021,14 @@ msgstr "Instale Satori desde la Chrome App Store."
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "In most cases, this is not necessary."
 msgstr "En la mayoría de los casos esto no es necesario."
+
+#: http://localhost/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"Note that your operating system’s standard “Uninstall” utility is not used."
+msgstr ""
+"Ten en cuenta que no se usa la utilidad \"Desinstalar\" estándar de tu "
+"sistema operativo."
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
 msgid "Updating"
@@ -1515,15 +2065,22 @@ msgstr ""
 msgid "If your connection does not use a proxy, click “Continue”."
 msgstr "Si tu conexión no usa un proxy, pulsa \"Continuar\"."
 
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dt>"
+msgstr "</dt>"
+
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr "##### Para usar GetTor vía Jabber/XMPP (Tor Messenger, Jitsi, CoyIM):"
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.title)
-msgid "Becoming a Tor Translator"
-msgstr "Traducir Tor"
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Sophos Antivirus for Mac"
+msgstr "* Sophos Antivirus for Mac"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1540,12 +2097,37 @@ msgstr "##### GetTor"
 msgid "How to download Tor Browser"
 msgstr "Cómo descargar el Navegador Tor"
 
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"You can also ensure that you're able to access other onion services by "
+"connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
+"Service</a>"
+msgstr ""
+"También puedes asegurarte de poder acceder a otros servicios cebolla "
+"conectando al <a href=\"http://3g2upl4pq6kufc4m.onion\">servicio cebolla de "
+"DuckDuckGo</a>."
+
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
 "* Escribe un correo a bridges@torproject.org desde una dirección de Gmail, "
 "Yahoo, o Riseup"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"* When both buttons are grey, you see the data that is visible to observers "
+"when you don't use either tool."
+msgstr ""
+"* Cuando ambos botones están en gris, verás los datos que son visibles para "
+"los observadores cuando no usas ninguna de las dos herramientas."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "user / pw"
+msgstr ""
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1600,9 +2182,18 @@ msgid "Services that are only accessible using Tor"
 msgstr "Servicios que sólo son accesibles usando Tor"
 
 #: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.body)
-msgid "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
-msgstr "<img class=\"col-md-6\" src=\"/static/images/tr4.png\">"
+#: (content/becoming-tor-translator/contents+en.lr:topic.title)
+msgid "Becoming a Tor Translator"
+msgstr "Traducir Tor"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"* When both buttons are green, you see the data that is visible to observers "
+"when you are using both tools."
+msgstr ""
+"* Cuando ambos botones están en verde, verás los datos que son visibles para "
+"los observadores cuando estás usando ambas herramientas."
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "By default, Tor Browser does not keep any browsing history."
@@ -1620,13 +2211,51 @@ msgstr "correr-navegador-tor"
 msgid "circumvention"
 msgstr "evasión"
 
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "##### Is your connection censored?"
+msgstr "##### ¿Está censurada tu conexión?"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Username and password used for authentication."
+msgstr "Nombre de usuario y contraseña usados para la autentificación."
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Make sure another Tor Browser is not already running."
+msgstr ""
+"* Asegúrate de que no hay otro Navegador Tor ya en marcha. Si no estás "
+"seguro, reinicia tu computadora."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "data"
+msgstr ""
+
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
-"The address of an onion service is automatically generated, so the operators "
-"do not need to purchase a domain name; the .onion URL also helps Tor ensure "
-"that it is connecting to the right location and that the connection is not "
-"being tampered with."
+"* All traffic between Tor users and onion services is end-to-end encrypted, "
+"so you do not need to worry about <a href=\"/secure-connections\">connecting "
+"over HTTPS</a>."
+msgstr ""
+"Todo el tráfico entre los usuarios de Tor y los servicios cebolla está "
+"cifrados extremo-a-extremo, así que no necesitas preocuparte de <a href=\"/"
+"secure-connections\">conectar sobre HTTPS</a>."
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr ""
+"La ubicación de red del ordenador usado para visitar el sitio web (la "
+"dirección IP pública)."
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/slider.png\">"
 msgstr ""
 
 #: http://localhost/running-tor-browser/
@@ -1642,6 +2271,15 @@ msgstr "¡Gracias por tu interés en apoyar el proyecto!"
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
 msgstr "##### Introducir direcciones de puentes"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* The following firewall software have been known to interfere with Tor and "
+"may need to be temporarily disabled:"
+msgstr ""
+"* Los siguientes programas de cortafuegos (firewall) se sabe que interfieren "
+"con Tor, y puede que necesites deshabilitarlos temporalmente."
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -1662,16 +2300,12 @@ msgstr ""
 "Por esta razón, el Navegador Tor incluye algunas funcionalidades adicionales "
 "que te ayudan a controlar qué información puede ligarse a tu identidad."
 
-#: http://localhost/becoming-tor-translator/
-#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
 msgid ""
-"After your membership is approved you can begin translating; simply navigate "
-"back to the <a href=\"https://www.transifex.com/otf/torproject/\">Tor "
-"Transifex page</a> when you are ready to begin."
+"Please check the <a href=\"/known-issues\">Known Issues</a> page to see if "
+"the problem you are experiencing is already listed there."
 msgstr ""
-"Después de que se apruebe tu membresía, puedes comenzar a traducir; "
-"sencillamente dirigite a la <link href=\"https://www.transifex.com/otf/"
-"torproject/\">página Tor Transifex</link> cuando estés lista para comenzar."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.description)
@@ -1746,6 +2380,45 @@ msgstr "Temas"
 #: templates/macros/topic.html:19
 msgid "Permalink"
 msgstr "Permalink"
+
+#~ msgid ""
+#~ "All traffic between Tor users and onion services is end-to-end encrypted, "
+#~ "so you do not need to worry about <a href=\"/secure-connections"
+#~ "\">connecting over HTTPS</a>."
+#~ msgstr ""
+#~ "Todo el tráfico entre los usuarios de Tor y los servicios cebolla están "
+#~ "cifrados extremo-a-extremo, así que no necesitas preocuparte de <a href="
+#~ "\"/secure-connections\">conectar sobre HTTPS</a>."
+
+#~ msgid ""
+#~ "An onion services’s location and IP address are hidden, making it "
+#~ "difficult for adversaries to censor it or identify its operators."
+#~ msgstr ""
+#~ "La ubicación y direcciones IP de un servicio cebolla están ocultas, "
+#~ "dificultando que los adversarios puedan censurarlo o identificar a sus "
+#~ "operadores."
+
+#~ msgid "<dd>Data being transmitted.</dd>"
+#~ msgstr "<dd>Datos que se están transmitiendo.</dd>"
+
+#~ msgid "<dt>Tor</dt>"
+#~ msgstr "<dt>Tor</dt>"
+
+#~ msgid ""
+#~ "The address of an onion service is automatically generated, so the "
+#~ "operators do not need to purchase a domain name; the .onion URL also "
+#~ "helps Tor ensure that it is connecting to the right location and that the "
+#~ "connection is not being tampered with."
+#~ msgstr ""
+#~ "La dirección de un servicio cebolla se genera automáticamente, de forma "
+#~ "que los operadores no necesitan comprar un nombre de dominio; la URL ."
+#~ "onion también ayuda a Tor a asegurarse de que está conectando a la "
+#~ "ubicación correcta y que la conexión no está siendo alterada."
+
+#~ msgid "DuckDuckGo's Onion Service"
+#~ msgstr ""
+#~ "También puedes probar acceder otros servicios cebolla conectándote al <a "
+#~ "href=\"http://3g2upl4pq6kufc4m.onion\">servicio cebolla de DuckDuckGo</a>."
 
 #~ msgid "### How Tor works"
 #~ msgstr "### Cómo funciona Tor"
