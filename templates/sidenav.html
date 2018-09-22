@@ -5,18 +5,18 @@
     </a>
     <label class="side-toggler" for="menu-toggle">
       <a class="btn btn-lg outline-primary text-primary navbar-toggler chevron" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
-    	<span class="oi oi-chevron-top chevron-up"></span>
-    	<span class="oi oi-chevron-bottom chevron-down"></span>
+        <span class="oi oi-chevron-top chevron-up"></span>
+        <span class="oi oi-chevron-bottom chevron-down"></span>
       </a>
     </label>
     <input type="checkbox" id="menu-toggle"/>
 
     <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
       <ul class="nav nav-pills flex-column">
-	{% set topicbag = 'topics+' + this.alt %}
+	{% set topicbag = 'topics+en' %}
 	{% for id, item in bag(topicbag).items() %}
 	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
-            <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{% if this.url_path != "/"%}/{% endif%}{% if this.alt != "en"%}{{ this.alt }}{% endif%}/{{ item.path }}">{{ _(item.label) }} </a>
+            <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{% if this.alt != "en"%}/{{ this.alt }}{% endif%}/{{ item.path }}">{{ _(item.label) }} </a>
 	</li>
 
 	{% endfor %}
@@ -27,12 +27,12 @@
 
 
   <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky" id="sidenav-topics">
-    <h4 class="text-primary pl-4">Topics</h4>
+          <h4 class="text-primary pl-4">{{ _('Topics') }}</h4>
     <ul class="nav nav-pills flex-column">
-      {% set topicbag = 'topics+' + this.alt %}
+      {% set topicbag = 'topics+en' %}
       {% for id, item in bag(topicbag).items() %}
       <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
-              <a role="button" {% if this.is_child_of(item.path) %} class="nav-link active" {% else %} class="nav-link" {% endif %}  href="{% if this.url_path != "/"%}/{% endif%}{% if this.alt != "en"%}{{ this.alt }}{% endif%}/{{ item.path }}">{{ _(item.label) }}</a>
+              <a role="button" {% if this.is_child_of(item.path) %} class="nav-link active" {% else %} class="nav-link" {% endif %}  href="{% if this.alt != "en"%}/{{ this.alt }}{% endif%}/{{ item.path }}">{{ _(item.label) }}</a>
       </li>
 
       {% endfor %}
