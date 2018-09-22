@@ -14,11 +14,9 @@ Onion services (formerly known as “hidden services”) are services (like webs
 
 Onion services offer several advantages over ordinary services on the non-private web:
 
-An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-
-All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-
-The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
+* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
+* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
 
 ##### How to access an onion service
 
@@ -35,6 +33,4 @@ If you cannot reach the onion service you require, make sure that you have enter
 If you are still unable to connect to the onion service, please try again later.
 There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
 
-You can also ensure that you're able to access other onion services by connecting to
-
-DuckDuckGo's Onion Service
+You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:its="http://www.w3.org/2005/11/its" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" onload="init()" direction="ltr" id="svg2" version="1.1" width="990" height="765" xml:space="preserve"><its:rules version="1.0"><its:translateRule selector="//@direction" translate="yes"/><its:locNoteRule selector="//@direction"><its:locNote>
+            Specify "ltr" for left-to-right languages or "rtl"
+            for right-to-left languages (e.g. Arabic or Hebrew).
+          </its:locNote></its:locNoteRule><its:locNoteRule selector="//svg:defs/svg:text[@id = 'string-site' or @id = 'string-login' or                                                            @id = 'string-data' or @id = 'string-location']"><its:locNote>
+            Keep it short: 7em max. Seven times the capital letter "M".
+          </its:locNote></its:locNoteRule><its:locNoteRule selector="//svg:defs/svg:text[@id = 'string-hacker' or @id = 'string-lawyer' or                                                            @id = 'string-sysadmin' or @id = 'string-police' or                                                            @id = 'string-tor-relay']"><its:locNote>
+            Keep it short: 8em is ok, 9em is max.
+          </its:locNote></its:locNoteRule><its:locNoteRule selector="//svg:defs/svg:text[@id = 'string-wifi']"><its:locNote>
+            Keep it short: 3em max.
+          </its:locNote></its:locNoteRule><its:locNoteRule selector="//svg:defs/svg:text[@id = 'string-isp']"><its:locNote>
+            Keep it short: 4em max.
+          </its:locNote></its:locNoteRule></its:rules><title id="title3506">Tor and HTTPS</title><metadata its:translate="no" id="metadata8"><rdf:RDF><cc:Work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/><dc:title>Tor and HTTPS</dc:title><cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/><dc:source>https://gitweb.torproject.org/user/lunar/tor-and-https.git</dc:source><dc:creator><cc:Agent><dc:title>EFF</dc:title></cc:Agent></dc:creator><dc:contributor><cc:Agent><dc:title>EFF
+Lunar</dc:title></cc:Agent></dc:contributor><dc:language/></cc:Work><cc:License rdf:about="http://creativecommons.org/licenses/by/3.0/"><cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/><cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/><cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/><cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/><cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/></cc:License></rdf:RDF></metadata><defs id="defs6"><clipPath clipPathUnits="userSpaceOnUse" id="clipPath18"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path20"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath90"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path92"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath118"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path120"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath152"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path154"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath176"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path178"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath210"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path212"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath232"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path234"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath254"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path256"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath276"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path278"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath314"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path316"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath340"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path342"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath368"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path370"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath390"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path392"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath472"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path474"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath516"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path518"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath532"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path534"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath596"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path598"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath632"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path634"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath656"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path658"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath686"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path688"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath708"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path710"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath730"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path732"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath778"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path780"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath824"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path826"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath848"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path850"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath868"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path870"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath890"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path892"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath914"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path916"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath936"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path938"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath960"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path962"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="clipPath982"><path d="M 0,612 792,612 792,0 0,0 0,612 z" id="path984"/></clipPath><script type="application/ecmascript" its:translate="no">
+const DISABLED_BUTTON_COLOR = "#a7a9ac";
+const ENABLED_BUTTON_COLOR = "#a2c83a";
+const UPPER_CASE_LABELS = /(hacker|lawyer|sysadmin|police|tor-relay|wifi|key)/;
+const SPECIAL_LANGS = /(ar|gr)/;
+
+var buttonTor;
+var buttonHTTPS;
+var buttonTorBackground;
+var buttonHTTPSBackground;
+var layerTor;
+var torEnabled;
+var httpsEnabled;
+var leaks;
+var textLabels = { site: null, login: null, data: null, location: null, tor: null };
+
+function init() {
+    handleBidi();
+    fillLabels();
+
+    buttonTor = document.getElementById("button-tor");
+    buttonHTTPS = document.getElementById("button-https");
+    buttonTorBackground = document.getElementById("button-tor-background");
+    buttonHTTPSBackground = document.getElementById("button-https-background");
+    layerTor = document.getElementById("layer-tor");
+
+    buttonTor.addEventListener('mouseover', createOpacityHandler(buttonTorBackground, 0.7));
+    buttonTor.addEventListener('mouseout', createOpacityHandler(buttonTorBackground, 1.0));
+    buttonTor.addEventListener('click', toggleTor);
+    buttonHTTPS.addEventListener('mouseover', createOpacityHandler(buttonHTTPSBackground, 0.7));
+    buttonHTTPS.addEventListener('mouseout', createOpacityHandler(buttonHTTPSBackground, 1.0));
+    buttonHTTPS.addEventListener('click', toggleHTTPS);
+
+    disableTor();
+    disableHTTPS();
+}
+
+function createOpacityHandler(object, opacity) {
+    return function(evt) {
+        object.setAttribute('opacity', opacity);
+    }
+}
+
+function handleBidi() {
+    var svgObject = document.getElementsByTagName("svg")[0];
+    if (svgObject.getAttribute("direction") != "rtl") {
+        return;
+    }
+
+    var mirrorGObject = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    mirrorGObject.setAttribute("transform", "translate(" + svgObject.getAttribute("width") + ", 0) scale(-1, 1)");
+    mirrorGObject.setAttribute("id", "mirror");
+    var nextChild = svgObject.firstChild;
+    for (var child = nextChild; child != null; child = nextChild) {
+        nextChild = child.nextSibling;
+        if (child.tagName != "g") {
+            continue;
+        }
+        mirrorGObject.appendChild(child);
+    }
+    svgObject.appendChild(mirrorGObject);
+
+    var elements = document.getElementsByTagName("text");
+    for (elementIndex = 0; elementIndex &lt; elements.length; elementIndex++) {
+        var textObject = elements[elementIndex];
+        if (textObject.parentNode.tagName == "defs") {
+            continue;
+        }
+        var transform = textObject.getAttribute("transform") ? textObject.getAttribute("transform") : "";
+        transform += " translate(" + (2 * parseFloat(textObject.getAttribute("x"))) + ", 0) scale(-1, 1)"
+        textObject.setAttribute("transform", transform);
+    }
+}
+
+function fillLabels() {
+
+    for (var def = document.getElementsByTagName("defs")[0].firstChild; def != null; def = def.nextSibling) {
+        if (def.tagName != "text") {
+            continue;
+        }
+        var stringObject = def;
+        var stringId = stringObject.id.substring("string-".length);
+        var stringValue = stringObject.firstChild.data;
+        if (stringId in textLabels) {
+            textLabels[stringId] = stringValue;
+        }
+
+        if (stringId.match(UPPER_CASE_LABELS)) {
+            stringValue = stringValue.toUpperCase();
+        }
+        var tspan = null;
+        var elements = document.getElementsByTagName("tspan");
+        for (elementIndex = 0; elementIndex &lt; elements.length; elementIndex++) {
+            if (elements[elementIndex].firstChild &amp;&amp;
+                elements[elementIndex].firstChild.data == ("string-" + stringId)) {
+                tspan = elements[elementIndex];
+                if (!tspan) {
+                    continue;
+                }
+                var textNode = document.createTextNode(stringValue);
+                if (tspan.firstChild) {
+                    tspan.replaceChild(textNode, tspan.firstChild);
+                } else {
+                    tspan.appendChild(textNode);
+                }
+                var labelId = tspan.parentNode.id.substring("label-".length);
+                // adjust font size if needed
+                var containerObject = document.getElementById("container-" + labelId);
+                if (containerObject) {
+                    var textObject = tspan.parentNode;
+                    var originalHeight = textObject.getBBox().height;
+                    var containerWidth = containerObject.getBBox().width;
+                    while (true) {
+                        var textWidth = tspan.getComputedTextLength();
+                        if (textWidth &lt; containerWidth * 0.95) {
+                            break;
+                        }
+                        var unit = textObject.style.fontSize.match(/[a-z]*$/);
+                        var size = textObject.style.fontSize.match(/^[0-9]*/);
+                        textObject.style.fontSize = (size - 1) + unit;
+                        if (textWidth == tspan.getComputedTextLength()) {
+                            console.log("text not changing size, something is wrong");
+                            break;
+                        }
+                    }
+                    var newHeight = textObject.getBBox().height;
+                    textObject.setAttribute("transform",
+                        textObject.getAttribute("transform") +
+                        " translate(0, " + ((newHeight - originalHeight) / 4) + ")");
+                }
+            }
+        }
+    }
+
+    leaks = { withoutTorAndWithoutHTTPS:
+              [ { name: "user",                 labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "hacker",               labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "lawyer-user-isp",      labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "sysadmin-user-isp",    labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "police-user-isp",      labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "nsa-user-isp",         labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "nsa-website-isp",      labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "website-isp",          labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "police-website-isp",   labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "sysadmin-website-isp", labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+                { name: "lawyer-website-isp",   labels: { site: true,  login: true,  data: true,  location: true,  tor: false } },
+              ],
+              withoutTorButWithHTTPS:
+              [ { name: "user",                 labels: { site: true,  login: true,  data: true,  location: true, tor: false } },
+                { name: "hacker",               labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "lawyer-user-isp",      labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "sysadmin-user-isp",    labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "police-user-isp",      labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "nsa-user-isp",         labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "nsa-website-isp",      labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "website-isp",          labels: { site: true,  login: false, data: false, location: true, tor: false } },
+                { name: "police-website-isp",   labels: { site: true,  login: true,  data: true,  location: true, tor: false } },
+                { name: "sysadmin-website-isp", labels: { site: true,  login: true,  data: true,  location: true, tor: false } },
+                { name: "lawyer-website-isp",   labels: { site: true,  login: true,  data: true,  location: true, tor: false } },
+              ],
+              withoutHTTPSButWithTor:
+              [ { name: "user",                 labels: { site: true,  login: true,  data: true,  location: true,  tor: true  } },
+                { name: "hacker",               labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "lawyer-user-isp",      labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "sysadmin-user-isp",    labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "police-user-isp",      labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "nsa-user-isp",         labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "tor-guard-node",       labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "tor-middle-node",      labels: { site: false, login: false, data: false, location: false, tor: true  } },
+                { name: "tor-exit-node",        labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "nsa-website-isp",      labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "website-isp",          labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "police-website-isp",   labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "sysadmin-website-isp", labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "lawyer-website-isp",   labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+              ],
+              withBothTorAndHTTPS:
+              [ { name: "user",                 labels: { site: true,  login: true,  data: true,  location: true,  tor: true  } },
+                { name: "hacker",               labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "lawyer-user-isp",      labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "sysadmin-user-isp",    labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "police-user-isp",      labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "nsa-user-isp",         labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "tor-guard-node",       labels: { site: false, login: false, data: false, location: true,  tor: true  } },
+                { name: "tor-middle-node",      labels: { site: false, login: false, data: false, location: false, tor: true  } },
+                { name: "tor-exit-node",        labels: { site: true,  login: false, data: false, location: false, tor: true  } },
+                { name: "nsa-website-isp",      labels: { site: true,  login: false, data: false, location: false, tor: true  } },
+                { name: "website-isp",          labels: { site: true,  login: false, data: false, location: false, tor: true  } },
+                { name: "police-website-isp",   labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "sysadmin-website-isp", labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+                { name: "lawyer-website-isp",   labels: { site: true,  login: true,  data: true,  location: false, tor: true  } },
+              ],
+            };
+
+
+}
+
+function toggleTor() {
+    if (torEnabled) {
+        disableTor();
+    } else {
+        enableTor();
+    }
+}
+
+function enableTor() {
+    torEnabled = true;
+    buttonTorBackground.style.fill = ENABLED_BUTTON_COLOR;
+    layerTor.style.display = "inherit";
+    refreshTexts();
+}
+
+function disableTor() {
+    torEnabled = false;
+    buttonTorBackground.style.fill = DISABLED_BUTTON_COLOR;
+    layerTor.style.display = "none";
+    refreshTexts();
+}
+
+function toggleHTTPS() {
+    if (httpsEnabled) {
+        disableHTTPS();
+    } else {
+        enableHTTPS();
+    }
+}
+
+function enableHTTPS() {
+    httpsEnabled = true;
+    buttonHTTPSBackground.style.fill = ENABLED_BUTTON_COLOR;
+    refreshTexts();
+}
+
+function disableHTTPS() {
+    httpsEnabled = false;
+    buttonHTTPSBackground.style.fill = DISABLED_BUTTON_COLOR;
+    refreshTexts();
+}
+
+function fixLang() {
+    var svgObject = document.getElementsByTagName("svg")[0];
+    if (!svgObject.getAttributeNS("http://www.w3.org/XML/1998/namespace", "lang").match(SPECIAL_LANGS)) {
+        return;
+    }
+
+    var elements = document.getElementsByTagName("text");
+    for (elementIndex = 0; elementIndex &lt; elements.length; elementIndex++) {
+        var textObject = elements[elementIndex];
+        if (textObject.parentNode.tagName == "defs") {
+            continue;
+        }
+        // use Latin font for pure latin
+        if (textObject.childNodes.length == 1 &amp;&amp; textObject.childNodes[0].tagName == "tspan") {
+            if (textObject.childNodes[0].textContent.match(/^[A-z.\/ ]+$/)) {
+                textObject.setAttributeNS("http://www.w3.org/XML/1998/namespace", "lang", "en");
+            }
+        }
+    }
+}
+
+function refreshTexts() {
+    var texts;
+
+    if (!torEnabled &amp;&amp; !httpsEnabled) {
+        texts = leaks.withoutTorAndWithoutHTTPS;
+    } else if (!torEnabled &amp;&amp; httpsEnabled) {
+        texts = leaks.withoutTorButWithHTTPS;
+    } else if (torEnabled &amp;&amp; !httpsEnabled) {
+        texts = leaks.withoutHTTPSButWithTor;
+    } else if (torEnabled &amp;&amp; httpsEnabled) {
+        texts = leaks.withBothTorAndHTTPS;
+    }
+
+    for (var textIndex = 0; textIndex &lt; texts.length; textIndex++) {
+        var labels = texts[textIndex].labels
+        for (var label in labels) {
+            if (!labels.hasOwnProperty(label)) {
+                continue;
+            }
+            var textObject = document.getElementById("text-" + texts[textIndex].name + "-" + label);
+            var tspan = textObject.firstChild; // ought to be a &lt;tspan/&gt;
+            var text;
+            if (labels[label]) {
+                text = textLabels[label].toUpperCase();
+            } else {
+                text = label == "tor" ? " " : "…";
+            }
+            // This ought to be a text node
+            if (tspan.firstChild) {
+                tspan.firstChild.data = text;
+            } else {
+                var textNode = document.createTextNode(text);
+                tspan.appendChild(textNode);
+            }
+        }
+    }
+    fixLang();
+}
+<style type="text/css" its:translate="no">
+@font-face {
+  font-family: OpenSansBold;
+  font-style: normal;
+  font-weight: 700;
+  src: url(OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: DroidSansBold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(DroidSans-Bold.ttf) format('truetype');
+}
+
+text {
+    font-family: OpenSansBold;
+    font-weight: bold;
+}
+
+:lang(ar) {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+:lang(gr) {
+    font-family: DroidSansBold;
+    font-weight: bold;
+}
+
+#button-tor, #button-https {
+  cursor: pointer;
+}
+</style>
+</script>
+<text id="string-site">Site.com</text><text id="string-login">user / pw</text><text id="string-data">data</text><text id="string-location">location</text><text id="string-wifi">WiFi</text><text id="string-isp">ISP</text><text id="string-hacker">Hacker</text><text id="string-lawyer">Lawyer</text><text id="string-sysadmin">Sysadmin</text><text id="string-police">Police</text><text id="string-nsa">NSA</text><text id="string-tor-relay">Tor relay</text><text id="string-key">Key</text><text id="string-internet-connection">Internet connection</text><text id="string-eavesdropping">Eavesdropping</text><text id="string-data-sharing">Data sharing</text><text its:translate="no" id="string-tor">Tor</text><text its:translate="no" id="string-https">HTTPS</text></defs><g id="g10" transform="matrix(1.25,0,0,-1.25,0,765)"><g style="display:none" id="g4503-6" transform="translate(-0.0171576,-85.400416)"><path id="rect4392-7" transform="matrix(0.8,0,0,-0.8,0,612)" d="m 23.0625,267.25 c -4.8475,0 -8.75,3.9025 -8.75,8.75 l 0,25.125 c 0,1.71167 0.500813,3.27919 1.34375,4.625 1.035579,3.67765 4.388604,6.375 8.40625,6.375 l 74.25,0 c 4.8475,0 8.75,-3.9025 8.75,-8.75 l 0,-25.125 c 0,-1.69066 -0.48857,-3.25846 -1.3125,-4.59375 -1.02537,-3.69352 -4.40861,-6.40625 -8.4375,-6.40625 l -74.25,0 z m 82.8125,7 c 0.0499,0.24628 0.0967,0.49699 0.125,0.75 -0.029,-0.25111 -0.0753,-0.50595 -0.125,-0.75 z m -87.40625,34.3125 c 0.13886,0.0857 0.293581,0.17201 0.4375,0.25 -0.147099,-0.0803 -0.295692,-0.16165 -0.4375,-0.25 z m 80.625,1.125 c -0.57063,0.11618 -1.175313,0.1875 -1.78125,0.1875 0.605937,0 1.21062,-0.0713 1.78125,-0.1875 z m -77.65625,0.0312 c 0.24372,0.0458 0.468215,0.0685 0.71875,0.0937 -0.244416,-0.0254 -0.480975,-0.0485 -0.71875,-0.0937 z" style="fill:#b3b3b3;fill-opacity:1;stroke:none"/><text transform="scale(1,-1)" id="text4394-2" y="-371.19998" x="29.169598" style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;-inkscape-font-specification:Open Sans Bold" xml:space="preserve"><tspan its:translate="no" y="-371.19998" x="29.169598" id="tspan4396-4">Tor</tspan></text>
+
+
+
+
+
+
+<path id="rect4392-2-4" d="m 84.6,393.075 c 0.166672,-0.60038 0.25,-1.22011 0.25,-1.875 l 0,-20.1 c 0,-3.878 -3.122,-7 -7,-7 l -59.4,0 c -2.508665,0 -4.68957,1.32754 -5.925,3.3 0.828463,-2.94212 3.510883,-5.1 6.725,-5.1 l 59.4,0 c 3.878,0 7,3.122 7,7 l 0,20.1 c 0,1.35253 -0.390856,2.60677 -1.05,3.675 z" style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none"/></g><g id="g26" transform="translate(501.5498,345.939)"/><g id="g30" transform="translate(554.6436,382.4199)"/><g id="g38" transform="translate(540.7529,111.7871)"/><path id="path44" style="fill:none;stroke:#ee3338;stroke-width:3.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="m 283.2856,423.50843 64.078,0 104.831,0 m -3e-4,0 19.469,0 c 9.443,0 17.099,7.656 17.099,17.098 l 0,20.98847 0,40.807 c 0,13.328 1.147,30.07 -18.283,30.07 l -30.41,0 c -15.754,0 -19.115,-6.485 -19.115,-20.207 l 0,-13.721 c 0,-12.89 2.885,-15.062 23.888,-15.062 21.004,0 22.915,2.399 22.915,21.619 0,12.463 6.683,16.492 27.207,16.492 l 22.441,0 c 7.162,0 9.07,-3.954 9.07,-13.74 0,-9.787 -0.955,-11.16 -11.158,-11.16 -7.459,0 -6.504,6.245 -6.504,15.572 l 0,40.923 c 0,9.406 7.371,14.842 14.32,14.842 l 14.799,0 c 5.731,0 16.711,-2.047 16.711,-14.842 l 0,-53.811 0,-40.158 0,-71.906 0,-8.399 m 3e-4,3.506 0,-19.468 c 0,-9.444 -7.656,-17.1 -17.1,-17.1 l -20.615,0 -15.379,0.087 m 2e-4,1e-4 -187.517,0 -19.409,0 -27.868,0 c -9.444,0 -17.1,-7.656 -17.1,-17.098 l 0,-42.744 0,-5.799 0,-91.27 0,-9.158 0,-27.941 c 0,-9.446 7.656,-19.43 17.099,-19.43 l 160.916,0 m 1e-4,0 19.469,0 c 9.443,0 17.099,-7.656 17.099,-17.1 l 0,-20.615 -0.087,-15.379 0.031,-4.0989 38.85495,-0.087 20.615,0 c 9.444,0 17.1,7.656 17.1,17.099 l 0,33.869"/><g id="g4533"><g transform="translate(340.3062,469.9116)" id="g54"><path id="path56" style="fill:#bb64a6;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -0.124,-0.992 -0.195,-2 -0.195,-3.026 0,-0.347 0.011,-0.691 0.026,-1.036 l -6.002,0 0,4.062 L 0,0 z"/></g><g transform="translate(352.3506,487.8667)" id="g58"><path id="path60" style="fill:#a962a6;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 23.75,0 c 3.221,-1.827 5.982,-4.364 8.061,-7.41 l -39.87,0 C -5.981,-4.364 -3.219,-1.827 0,0"/></g><g transform="translate(340.3062,469.9116)" id="g62"><path id="path64" style="fill:#a962a6;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,0 20.784,-7.695 47.839,0 0.125,-0.992 0.197,-2 0.197,-3.026 0,-13.318 -10.797,-24.115 -24.115,-24.115 -8.769,0 -16.442,4.681 -20.664,11.678 l 31.777,-0.212 -0.058,3.278 -33.281,0 c -1.09,2.579 -1.739,5.39 -1.864,8.335 -0.015,0.345 -0.026,0.689 -0.026,1.036 C -0.195,-2 -0.124,-0.992 0,0"/></g><g transform="translate(364.2271,469.3101)" id="g66"><path id="path68" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C -2.383,0 -4.312,1.889 -4.4,4.25 L 1.814,8.433 C 3.345,7.74 4.415,6.207 4.415,4.416 4.415,1.976 2.438,0 0,0 m 23.918,0.602 c -0.264,3.134 -1.885,7.466 -3.984,10.545 l -39.869,0 c -2.1,-3.079 -3.5,-6.67 -3.986,-10.545 0,0 20.784,-7.695 47.839,0"/></g><g transform="translate(359.8267,473.5605)" id="g70"><path id="path72" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.214,4.182 C 7.745,3.489 8.815,1.956 8.815,0.166 8.815,-2.274 6.838,-4.25 4.4,-4.25 2.017,-4.25 0.088,-2.362 0,0"/></g><g transform="translate(349.1211,487.8667)" id="g74"><path id="path76" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -1.709,5.13 5.698,0 0,9.405 11.115,-4.275 10.26,4.275 0,-9.405 6.27,0 L 29.925,0 26.98,0 3.229,0 0,0 z"/></g><g transform="translate(329.1709,436.5659)" id="g78"><path id="container-hacker" style="fill:#a962a6;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.801 3.892,-8.692 8.693,-8.692 l 49.588,0 c 4.801,0 8.694,3.891 8.694,8.692 0,4.801 -3.893,8.693 -8.694,8.693 l -49.588,0 C 3.892,8.693 0,4.801 0,0"/></g><text id="label-hacker" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="362.11932" y="-432.46631"><tspan its:translate="no" id="tspan3534" x="362.11932" y="-432.46631">HACKER</tspan></text>
+
+
+
+
+
+
+
+</g>
+<g id="g4811"><g id="g114"><g clip-path="url(#clipPath118)" id="g116"><g transform="translate(435.3672,193.4307)" id="g122"><path id="path124" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.215,4.182 C 7.746,3.488 8.815,1.955 8.815,0.164 8.815,-2.275 6.839,-4.252 4.4,-4.252 2.018,-4.252 0.09,-2.363 0,0 m 15.514,-19.324 -31.777,0.211 c 4.222,-6.998 11.896,-11.678 20.663,-11.678 13.319,0 24.116,10.797 24.116,24.115 0,8.996 -4.93,16.836 -12.231,20.979 l -23.769,0 C -13.953,10.631 -18.554,4.057 -19.52,-3.65 l -6.171,0 0,-4.061 6.002,0 c 0.125,-2.947 0.773,-5.756 1.863,-8.338 l 33.281,0 0.059,-3.275 z"/></g><g transform="translate(425.2324,207.7334)" id="g126"><path id="path128" style="fill:#0369b2;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -1.71,5.131 5.7,0 0,9.406 11.115,-4.275 10.26,4.275 0,-9.406 6.27,0 L 29.925,0 26.42,0 2.65,0 0,0 z"/></g><g transform="translate(405.8516,156.4346)" id="g130"><path id="container-nsa-website-isp" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.801 3.892,-8.691 8.692,-8.691 l 49.591,0 c 4.801,0 8.692,3.89 8.692,8.691 0,4.801 -3.891,8.693 -8.692,8.693 l -49.591,0 C 3.892,8.693 0,4.801 0,0"/></g></g></g><text id="label-nsa-website-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="438.79712" y="-152.33501"><tspan its:translate="no" id="tspan3530" x="438.79712" y="-152.33501">NSA</tspan></text>
+
+
+
+
+
+
+
+</g><g id="g3891"><g transform="translate(233.1001,511.8535)" id="g46"><path id="path48" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.209 -1.792,-4.001 -4.001,-4.001 l -46.019,0 c -2.21,0 -4.001,1.792 -4.001,4.001 l 0,54.747 c 0,2.209 1.791,4.001 4.001,4.001 l 46.019,0 C -1.792,58.748 0,56.956 0,54.747 L 0,0 z"/></g><g transform="translate(200.8457,509.5195)" id="g188"><path id="path190" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 4.178,-20.285 8.058,0 4.029,0 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4551"><g id="g148"><g clip-path="url(#clipPath152)" id="g150"><g transform="translate(642.0127,543.0547)" id="g156"><path id="path158" style="fill:#f285b5;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.215,4.182 C 7.746,3.489 8.814,1.956 8.814,0.166 8.814,-2.274 6.838,-4.25 4.4,-4.25 2.018,-4.25 0.09,-2.361 0,0 m 15.514,-19.324 -31.776,0.212 c 4.221,-6.997 11.893,-11.678 20.662,-11.678 13.319,0 24.116,10.797 24.116,24.116 0,0.251 -0.012,0.499 -0.022,0.748 -0.803,-0.453 -1.73,-0.716 -2.721,-0.716 l -5.128,0 c -3.071,0 -5.559,2.489 -5.559,5.558 0,3.069 2.488,5.558 5.559,5.558 l 5.128,0 c 0.004,0 0.006,-0.001 0.01,-0.001 -4.027,7.705 -12.088,12.968 -21.383,12.968 -12.293,0 -22.431,-9.2 -23.921,-21.09 l -6.17,0 0,-4.061 6.002,0 c 0.125,-2.946 0.773,-5.756 1.863,-8.336 l 33.281,0 0.059,-3.278 z"/></g><g transform="translate(662.6572,536.4131)" id="g160"><path id="path162" style="fill:#bec0c2;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -3.07,0 -5.559,2.488 -5.559,5.558 0,3.069 2.489,5.557 5.559,5.557 l 5.129,0 c 0.004,0 0.006,0 0.01,0 C 8.203,11.11 10.688,8.624 10.688,5.558 10.688,3.478 9.543,1.668 7.85,0.715 7.047,0.262 6.119,0 5.129,0 L 0,0 z"/></g><g transform="translate(614.208,506.0601)" id="g164"><path id="container-lawyer-user-isp" style="fill:#f285b5;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.801 3.891,-8.692 8.689,-8.692 l 49.592,0 c 4.801,0 8.692,3.891 8.692,8.692 0,4.801 -3.891,8.693 -8.692,8.693 l -49.592,0 C 3.891,8.693 0,4.801 0,0"/></g></g></g><text id="label-lawyer-user-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="647.15546" y="-501.96039"><tspan its:translate="no" id="tspan3510" x="647.15546" y="-501.96039">LAWYER</tspan></text>
+
+
+
+
+
+
+
+<g transform="translate(650.1182,553.1875)" id="g180"><path id="path182" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 C 0,0 -1.428,11.4 -13.967,7.41"/></g><g transform="translate(658.3818,553.1875)" id="g184"><path id="path186" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 C 0,0 -1.424,11.4 -13.965,7.41"/></g></g><g id="g3949"><g transform="translate(365.9102,511.8535)" id="g192"><path id="path194" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.209 -1.792,-4.001 -4.001,-4.001 l -46.019,0 c -2.21,0 -4.001,1.792 -4.001,4.001 l 0,54.747 c 0,2.209 1.791,4.001 4.001,4.001 l 46.019,0 C -1.792,58.748 0,56.956 0,54.747 L 0,0 z"/></g><g transform="translate(333.6553,509.5195)" id="g280"><path id="path282" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 4.178,-20.285 8.059,0 4.029,0 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4009"><g id="g206"><g clip-path="url(#clipPath210)" id="g208"><g transform="translate(746.1338,509.1025)" id="g214"><path id="path216" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.21 -1.791,-4.001 -4.002,-4.001 l -46.018,0 c -2.21,0 -4.001,1.791 -4.001,4.001 l 0,54.747 c 0,2.209 1.791,4.001 4.001,4.001 l 46.018,0 C -1.791,58.748 0,56.956 0,54.747 L 0,0 z"/></g></g></g><g transform="translate(694.29,525.6211)" id="g284"><path id="path286" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -20.285,-4.178 0,-8.058 0,-4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4071"><g id="g228"><g clip-path="url(#clipPath232)" id="g230"><g transform="translate(746.1338,424.7422)" id="g236"><path id="path238" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.209 -1.791,-4.001 -4.002,-4.001 l -46.018,0 c -2.21,0 -4.001,1.792 -4.001,4.001 l 0,54.747 c 0,2.21 1.791,4.001 4.001,4.001 l 46.018,0 C -1.791,58.748 0,56.957 0,54.747 L 0,0 z"/></g></g></g><g transform="translate(694.29,440.1211)" id="g288"><path id="path290" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -20.285,-4.178 0,-8.058 0,-4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4133"><g id="g250"><g clip-path="url(#clipPath254)" id="g252"><g transform="translate(746.1338,340.3828)" id="g258"><path id="path260" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.21 -1.791,-4 -4.002,-4 l -46.018,0 c -2.21,0 -4.001,1.79 -4.001,4 l 0,54.747 c 0,2.209 1.791,4 4.001,4 l 46.018,0 c 2.211,0 4.002,-1.791 4.002,-4 L 0,0 z"/></g></g></g><g transform="translate(694.29,354.6216)" id="g292"><path id="path294" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -20.285,-4.178 0,-8.058 0,-4.028 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4481"><g transform="translate(389.2422,167.2324)" id="g296"><path id="path298" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.209 -1.791,-4.002 -4.001,-4.002 l -46.019,0 c -2.209,0 -4.001,1.793 -4.001,4.002 l 0,54.746 c 0,2.209 1.792,4.002 4.001,4.002 l 46.019,0 C -1.791,58.748 0,56.955 0,54.746 L 0,0 z"/></g><g transform="translate(386.4287,174.7715)" id="g318"><path id="path320" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 20.283,4.178 0,8.059 0,4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4375"><g transform="translate(407.5186,51.8496)" id="g322"><path id="path324" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.209 -1.791,-4.002 -4.001,-4.002 l -46.019,0 c -2.209,0 -4.001,1.793 -4.001,4.002 l 0,54.746 c 0,2.209 1.792,4.002 4.001,4.002 l 46.019,0 C -1.791,58.748 0,56.955 0,54.746 L 0,0 z"/></g><g transform="translate(404.7051,59.3887)" id="g344"><path id="path346" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 20.283,4.178 0,8.059 0,4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4619"><g id="g4027"><g id="g348" transform="translate(435.3672,302.1201)"><path d="M 0,0 6.215,4.182 C 7.746,3.488 8.815,1.955 8.815,0.164 8.815,-2.275 6.839,-4.252 4.4,-4.252 2.018,-4.252 0.09,-2.363 0,0 m 15.514,-19.324 -31.777,0.211 c 4.222,-6.998 11.896,-11.678 20.663,-11.678 13.319,0 24.116,10.797 24.116,24.115 0,8.996 -4.93,16.836 -12.231,20.979 l -23.769,0 C -13.953,10.631 -18.554,4.057 -19.52,-3.65 l -6.171,0 0,-4.061 6.002,0 c 0.125,-2.947 0.773,-5.756 1.863,-8.338 l 33.281,0 0.059,-3.275 z" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path350"/></g><g id="g352" transform="translate(425.2324,316.4229)"><path d="m 0,0 -1.71,5.131 5.7,0 0,9.406 11.115,-4.275 10.26,4.275 0,-9.406 6.27,0 L 29.925,0 26.42,0 2.65,0 0,0 z" style="fill:#0369b2;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path354"/></g><g id="g356" transform="translate(405.8516,265.124)"><path d="m 0,0 c 0,-4.801 3.892,-8.691 8.692,-8.691 l 49.591,0 c 4.801,0 8.692,3.89 8.692,8.691 0,4.801 -3.891,8.693 -8.692,8.693 l -49.591,0 C 3.892,8.693 0,4.801 0,0" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" id="container-nsa-user-isp"/></g></g><text id="label-nsa-user-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="438.79712" y="-261.02441"><tspan its:translate="no" id="tspan3528" x="438.79712" y="-261.02441">NSA</tspan></text>
+
+
+
+
+
+
+
+</g><g id="g364"><g id="g366" clip-path="url(#clipPath368)"><g id="g372" transform="translate(389.2422,275.9219)"/></g></g><g id="g4538"><path id="path374" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 389.2422,275.9219 c 0,-2.209 -1.791,-4.002 -4.001,-4.002 l -46.019,0 c -2.209,0 -4.001,1.793 -4.001,4.002 l 0,54.746 c 0,2.209 1.792,4.002 4.001,4.002 l 46.019,0 c 2.21,0 4.001,-1.793 4.001,-4.002 l 0,-54.746 z"/><g transform="translate(386.4287,283.4609)" id="g394"><path id="path396" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 20.283,4.178 0,8.059 0,4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g398" transform="translate(162.6846,449.249)"><path d="M 0,0 C 0,0 -3.99,-4.56 -4.845,-9.12" style="fill:none;stroke:#fcb24c;stroke-width:3.42000008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path400"/></g><g id="g410" transform="translate(168.9546,385.4033)"><path d="m 0,0 3.42,0 0,19.957 -4.845,0 L 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path412"/></g><g id="user"><g transform="translate(174.8081,477.9995)" id="user-head"><path id="path52" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 2.439,0 4.416,-1.976 4.416,-4.415 0,-2.44 -1.977,-4.416 -4.416,-4.416 -2.439,0 -4.416,1.976 -4.416,4.416 C -4.416,-1.976 -2.439,0 0,0 m 23.736,-15.497 c 0.186,1.047 0.307,2.117 0.353,3.206 l 6.003,0 0,4.062 -6.173,0 C 22.856,0.261 17.382,7.376 9.86,10.752 c 0.269,0.879 0.72,1.836 1.487,2.597 0.509,0.505 1.126,0.882 1.84,1.135 0.178,-1.243 1.237,-2.201 2.528,-2.201 1.417,0 2.565,1.149 2.565,2.565 0,1.35 -1.045,2.444 -2.369,2.546 l 0.001,0.026 C 13.253,17.491 11.101,16.729 9.522,15.151 8.469,14.099 7.84,12.837 7.463,11.677 5.112,12.442 2.605,12.86 0,12.86 c -13.318,0 -24.115,-10.797 -24.115,-24.115 0,-13.319 10.797,-24.115 24.115,-24.115 5.636,0 10.816,1.938 14.921,5.178 l -25.976,14.695 34.791,0 z"/></g><g transform="translate(149.0044,436.7095)" id="g402"><path id="path404" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C 0,0 2.851,6.27 10.545,3.419 17.717,0.764 9.69,-4.56 6.84,-15.96 4.694,-24.544 6.27,-35.625 6.27,-35.625 l -12.54,0 c 0,0 -5.7,19.38 6.27,35.625"/></g><g transform="translate(172.3745,405.3599)" id="g406"><path id="path408" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -27.075,4.702 -29.64,-4.276 0,-4.276 0,0 z"/></g><g transform="translate(177.7964,389.3257)" id="g414"><path id="path416" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -3.997,3.208 -8.842,2.211 -8.842,2.211 l 0,-6.133 11.4,0 c 0,0 -0.174,2.008 -2.558,3.922"/></g><g transform="translate(157.2695,431.5791)" id="g418"><path id="path420" style="fill:none;stroke:#fcb24c;stroke-width:3.42000008;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="m 0,0 c 0,0 2.85,-8.834 11.4,-9.405 8.55,-0.57 12.54,7.125 16.53,8.835 3.99,1.71 5.415,1.995 8.835,-0.285 3.42,-2.28 5.415,-0.285 5.415,-0.285"/></g></g><g id="bench"><path id="path422" style="fill:#96989b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 165.535,395.384 -18.525,0 0,4.56 18.525,0 0,-4.56 z"/><path id="path426" style="fill:#96989b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 158.125,385.403 -4.56,0 0,11.406 4.56,0 0,-11.406 z"/></g><g id="table"><path id="path424" style="fill:#96989b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 314.922,415.904 -133.998,0 0,4.56 133.998,0 0,-4.56 z"/><path id="path428" style="fill:#96989b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 198.595,385.403 -4.56,0 0,32.781 4.56,0 0,-32.781 z"/><path id="path430" style="fill:#96989b;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 298.446,385.403 -4.56,0 0,32.781 4.56,0 0,-32.781 z"/></g><g id="laptop"><path id="path432" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 208.854,421.604 -23.655,0 0,3.42 23.655,0 0,-3.42 z"/><g transform="translate(219.3945,445.2627)" id="g434"><path id="path436" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -9.087,-21.84 -3.158,1.314 9.087,21.84 L 0,0 z"/></g><path id="path438" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 190.614,423.599 -2.85,0 0,2.85 2.85,0 0,-2.85 z"/><path id="path440" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 194.889,423.599 -2.85,0 0,2.85 2.85,0 0,-2.85 z"/><path id="path442" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 199.164,423.599 -2.85,0 0,2.85 2.85,0 0,-2.85 z"/><path id="path444" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 203.439,423.599 -2.85,0 0,2.85 2.85,0 0,-2.85 z"/><g transform="translate(205.7197,446.1143)" id="g446"><path id="path448" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 4.275,-5.985"/></g><g transform="translate(201.4443,438.7041)" id="g450"><path id="path452" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 6.555,-2.28"/></g><g transform="translate(202.2993,431.8638)" id="g454"><path id="path456" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 5.13,0.571"/></g></g><g id="access-point" transform="translate(0,-0.59733884)"><path id="container-wifi" style="fill:#ee3338;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 290.4,422.20534 -38.4,0 0,20.5208 38.4,0 0,-20.5208 z"/><path id="path460" style="fill:#ee3338;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 268.181,439.414 -5.13,0 0,14.25 5.13,0 0,-14.25 z"/><path id="path462" style="fill:#ee3338;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 279.866,439.414 -5.13,0 0,14.25 5.13,0 0,-14.25 z"/><text id="label-wifi" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="272.00342" y="-427.44431"><tspan its:translate="no" id="tspan3506" x="272.00342" y="-427.44431">WIFI</tspan></text>
+
+
+
+
+
+
+
+</g><g id="wireless-signal"><g transform="translate(271.6011,459.9336)" id="g476"><path id="path478" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 C 2.319,0 4.369,-1.163 5.606,-2.934 L 6.93,-1.853 C 5.376,0.301 2.852,1.709 0,1.709 c -2.898,0 -5.46,-1.452 -7.007,-3.664 l 1.263,-1.184 C -4.524,-1.253 -2.407,0 0,0"/></g><g transform="translate(271.6011,467.332)" id="g480"><path id="path482" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 4.625,0 8.729,-2.227 11.332,-5.653 l 1.323,1.081 C 9.738,-0.763 5.158,1.71 0,1.71 c -5.025,0 -9.508,-2.342 -12.434,-5.985 l 1.254,-1.174 C -8.57,-2.137 -4.534,0 0,0"/></g><g transform="translate(271.6011,474.7314)" id="g484"><path id="path486" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 6.931,0 13.107,-3.28 17.07,-8.365 l 1.323,1.081 C 14.116,-1.815 7.464,1.71 0,1.71 c -7.153,0 -13.561,-3.236 -17.847,-8.318 l 1.248,-1.168 C -12.626,-3.028 -6.661,0 0,0"/></g><g transform="translate(271.6011,482.1299)" id="g488"><path id="path490" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 9.237,0 17.474,-4.341 22.796,-11.085 l 1.322,1.082 C 18.483,-2.876 9.77,1.71 0,1.71 c -9.28,0 -17.607,-4.139 -23.25,-10.661 l 1.249,-1.168 C -16.672,-3.93 -8.789,0 0,0"/></g><g transform="translate(271.6011,489.5288)" id="g492"><path id="path494" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 11.543,0 21.843,-5.402 28.522,-13.805 l 1.324,1.081 C 22.851,-3.938 12.077,1.709 0,1.709 c -11.408,0 -21.655,-5.04 -28.651,-13.003 l 1.248,-1.169 C -20.719,-4.833 -10.916,0 0,0"/></g><g transform="translate(271.6011,496.9277)" id="g496"><path id="path498" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 13.849,0 26.21,-6.463 34.249,-16.525 l 1.324,1.082 C 27.22,-4.999 14.382,1.71 0,1.71 c -13.536,0 -25.704,-5.942 -34.054,-15.347 l 1.248,-1.168 C -24.769,-5.733 -13.044,0 0,0"/></g><g transform="translate(271.6011,504.3267)" id="g500"><path id="path502" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 16.156,0 30.578,-7.524 39.974,-19.245 l 1.325,1.081 C 31.588,-6.06 16.688,1.71 0,1.71 c -15.664,0 -29.754,-6.843 -39.456,-17.69 l 1.249,-1.168 C -28.818,-6.635 -15.171,0 0,0"/></g></g><g id="g4466"><g transform="translate(583.0459,428.415)" id="g504"><path id="container-user-isp" style="fill:#ee3338;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-5.1 -4.133,-9.234 -9.234,-9.234 l -53.922,0 c -5.1,0 -9.235,4.134 -9.235,9.234 l 0,28.272 c 0,5.1 4.135,9.234 9.235,9.234 l 53.922,0 C -4.133,37.506 0,33.372 0,28.272 L 0,0 z"/></g><text id="label-user-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:27.20000076px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="546.25275" y="-432.83575"><tspan its:translate="no" id="tspan3508" x="546.25275" y="-432.83575">ISP</tspan></text>
+
+
+
+
+
+
+
+</g><g id="g540" transform="translate(295.686,462.3682)"><path d="M 0,0 1.279,-0.096" style="fill:none;stroke:#00b0f0;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path542"/></g><g id="g544" transform="translate(299.6641,462.0708)"><path d="m 0,0 2.988,-0.224 c 8.551,0 13.044,-4.116 13.044,-11.083 0,-5.739 1.781,-10.257 6.193,-11.493" style="fill:none;stroke:#00b0f0;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.706, 2.706;stroke-dashoffset:0" id="path546"/></g><g id="g548" transform="translate(323.2178,439.0098)"><path d="M 0,0 C 0.409,-0.049 0.837,-0.075 1.285,-0.075" style="fill:none;stroke:#00b0f0;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path550"/></g><g id="g552" transform="translate(583.5049,442.8965)"><path d="M 0,0 1.279,-0.096" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path554"/></g><g id="g556" transform="translate(587.4824,442.5986)"><path d="m 0,0 2.987,-0.224 c 8.551,0 13.045,-4.116 13.045,-11.082 0,-5.739 1.781,-10.257 6.192,-11.493" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.706, 2.706;stroke-dashoffset:0" id="path558"/></g><g id="g564" transform="translate(440.1953,135.6367)"><path d="M 0,0 0,14.25" style="fill:none;stroke:#00b0f0;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" id="path566"/></g><g id="g568" transform="translate(440.1953,327.9009)"><path d="M 0,0 0,14.25" style="fill:none;stroke:#00b0f0;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" id="path570"/></g><g id="g572" transform="translate(469.3867,254.5869)"><path d="M 0,0 C 0,0 19.585,-27.765 -3.518,-54.096" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" id="path574"/></g><g id="g600" transform="translate(673.3447,462.5347)"><path d="M 0,0 C 0,0 16.7,15.214 4.138,34.833" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" id="path602"/></g><g id="g604" transform="translate(674.1045,376.8027)"><path d="M 0,0 C 0,0 16.7,15.826 4.138,35.445" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" id="path606"/></g><g id="g4655"><g transform="translate(642.8682,75.1807)" id="g608"><path id="path610" style="fill:#0074bb;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.215,4.183 C 7.746,3.489 8.816,1.956 8.816,0.165 8.816,-2.274 6.84,-4.25 4.4,-4.25 2.018,-4.25 0.09,-2.361 0,0 m 15.514,-19.325 -31.778,0.213 c 4.223,-6.997 11.897,-11.678 20.664,-11.678 13.319,0 24.116,10.797 24.116,24.115 0,7.545 -3.469,14.279 -8.895,18.701 l -30.443,0 c -4.69,-3.82 -7.908,-9.369 -8.698,-15.675 l -6.171,0 0,-4.061 6.002,0 c 0.125,-2.945 0.773,-5.756 1.865,-8.336 l 33.279,0 0.059,-3.279 z"/></g><g transform="translate(642.4209,96.8965)" id="g612"><path id="path614" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.046 -1.658,-3.705 -3.703,-3.705 -2.047,0 -3.705,1.659 -3.705,3.705 0,2.047 1.658,3.705 3.705,3.705 C -1.658,3.705 0,2.047 0,0 m 22.596,-6.27 1.916,5.985 c 0,0 -8.266,-0.855 -12.539,5.985 C 6.842,4.275 2.281,3.135 -6.27,11.115 -8.264,3.705 -15.389,0.57 -15.389,0.57 l 2.2,-6.84 35.785,0 z"/></g><g transform="translate(632.0459,87.207)" id="g616"><path id="path618" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -14.418,0 0,3.42 11.604,0 35.785,0 0.205,0 0,-3.42 L 30.443,0 0,0 z"/></g><g transform="translate(613.0674,38.1855)" id="g620"><path id="container-police-website-isp" style="fill:#0074bb;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.8 3.891,-8.692 8.691,-8.692 l 49.592,0 c 4.799,0 8.692,3.892 8.692,8.692 0,4.801 -3.893,8.693 -8.692,8.693 l -49.592,0 C 3.891,8.693 0,4.801 0,0"/></g><text id="label-police-website-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;-inkscape-font-specification:Open Sans Bold;fill:#ffffff" x="646.37323" y="-34.085899"><tspan its:translate="no" id="tspan3520" x="646.37323" y="-34.085899">POLICE</tspan></text>
+
+
+
+
+
+
+
+</g><g id="g4739"><g id="g628"><g clip-path="url(#clipPath632)" id="g630"><g transform="translate(642.0127,246.1797)" id="g636"><path id="path638" style="fill:#f285b5;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.215,4.182 C 7.746,3.488 8.814,1.955 8.814,0.165 8.814,-2.275 6.838,-4.251 4.4,-4.251 2.018,-4.251 0.09,-2.361 0,0 m 15.514,-19.324 -31.776,0.211 c 4.221,-6.996 11.893,-11.677 20.662,-11.677 13.319,0 24.116,10.796 24.116,24.115 0,0.251 -0.012,0.499 -0.022,0.748 -0.803,-0.453 -1.73,-0.716 -2.721,-0.716 l -5.128,0 c -3.071,0 -5.559,2.489 -5.559,5.559 0,3.068 2.488,5.557 5.559,5.557 l 5.128,0 0.01,0 C 21.756,12.178 13.695,17.44 4.4,17.44 c -12.293,0 -22.431,-9.2 -23.921,-21.089 l -6.17,0 0,-4.062 6.002,0 c 0.125,-2.945 0.773,-5.756 1.863,-8.336 l 33.281,0 0.059,-3.277 z"/></g><g transform="translate(662.6572,239.5371)" id="g640"><path id="path642" style="fill:#bec0c2;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c -3.07,0 -5.559,2.488 -5.559,5.559 0,3.068 2.489,5.556 5.559,5.556 l 5.129,0 0.01,0 C 8.203,11.111 10.688,8.625 10.688,5.559 10.688,3.479 9.543,1.669 7.85,0.716 7.047,0.263 6.119,0 5.129,0 L 0,0 z"/></g><g transform="translate(614.208,209.1846)" id="g644"><path id="container-lawyer-website-isp" style="fill:#f285b5;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.801 3.891,-8.692 8.689,-8.692 l 49.592,0 c 4.801,0 8.692,3.891 8.692,8.692 0,4.801 -3.891,8.692 -8.692,8.692 l -49.592,0 C 3.891,8.692 0,4.801 0,0"/></g></g></g><text id="label-lawyer-website-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="647.15546" y="-205.0845"><tspan its:translate="no" id="tspan3516" x="647.15546" y="-205.0845">LAWYER</tspan></text>
+
+
+
+
+
+
+
+<g transform="translate(650.1182,256.3125)" id="g660"><path id="path662" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 C 0,0 -1.428,11.399 -13.967,7.41"/></g><g transform="translate(658.3818,256.3125)" id="g664"><path id="path666" style="fill:none;stroke:#373535;stroke-width:0.85500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 C 0,0 -1.424,11.399 -13.965,7.41"/></g></g><g id="g4317"><g transform="translate(746.1338,212.2266)" id="g668"><path id="path670" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.209 -1.791,-4.001 -4.002,-4.001 l -46.018,0 c -2.21,0 -4.001,1.792 -4.001,4.001 l 0,54.747 c 0,2.21 1.791,4.001 4.001,4.001 l 46.018,0 C -1.791,58.748 0,56.957 0,54.747 L 0,0 z"/></g><g transform="translate(694.29,228.7461)" id="g734"><path id="path736" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -20.285,-4.178 0,-8.059 0,-4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4257"><g id="g682"><g clip-path="url(#clipPath686)" id="g684"><g transform="translate(746.1338,127.8672)" id="g690"><path id="path692" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.21 -1.791,-4.002 -4.002,-4.002 l -46.018,0 c -2.21,0 -4.001,1.792 -4.001,4.002 l 0,54.746 c 0,2.21 1.791,4.002 4.001,4.002 l 46.018,0 C -1.791,58.748 0,56.956 0,54.746 L 0,0 z"/></g></g></g><g transform="translate(694.29,143.2461)" id="g738"><path id="path740" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -20.285,-4.178 0,-8.059 0,-4.029 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g4195"><g id="g704"><g clip-path="url(#clipPath708)" id="g706"><g transform="translate(746.1338,43.5078)" id="g712"><path id="path714" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.211 -1.791,-4.001 -4.002,-4.001 l -46.018,0 c -2.21,0 -4.001,1.79 -4.001,4.001 l 0,54.746 c 0,2.209 1.791,4 4.001,4 l 46.018,0 c 2.211,0 4.002,-1.791 4.002,-4 L 0,0 z"/></g></g></g><g transform="translate(694.29,57.7461)" id="g742"><path id="path744" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -20.285,-4.178 0,-8.059 0,-4.028 0,0 z"/></g></g>
+
+
+
+
+
+
+<g id="g750" transform="translate(587.4824,145.7236)"><path d="m 0,0 2.987,-0.224 c 8.551,0 13.045,-4.117 13.045,-11.083 0,-5.74 1.781,-10.257 6.192,-11.493" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.706, 2.706;stroke-dashoffset:0" id="path752"/></g><path id="path784" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="m 673.3447,165.6592 c 0,0 16.7,15.214 4.138,34.833"/><path id="path788" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="m 674.1045,79.9277 c 0,0 16.7,15.826 4.138,35.445"/><path id="path792" style="fill:#394d8a;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 632.0459,87.207 -14.418,0 0,3.42 11.604,0 35.785,0 0.205,0 0,-3.42 -2.733,0 -30.443,0 z"/><g id="g4287"><g id="g86"><g clip-path="url(#clipPath90)" id="g88"><g transform="translate(642.8682,372.0562)" id="g94"><path id="path96" style="fill:#0074bb;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.215,4.182 C 7.746,3.489 8.816,1.956 8.816,0.165 8.816,-2.275 6.84,-4.25 4.4,-4.25 2.018,-4.25 0.09,-2.361 0,0 m 15.514,-19.325 -31.778,0.213 c 4.223,-6.997 11.897,-11.678 20.664,-11.678 13.319,0 24.116,10.797 24.116,24.115 0,7.546 -3.469,14.279 -8.895,18.702 l -30.443,0 c -4.69,-3.821 -7.908,-9.37 -8.698,-15.676 l -6.171,0 0,-4.061 6.002,0 c 0.125,-2.946 0.773,-5.756 1.865,-8.336 l 33.279,0 0.059,-3.279 z"/></g><g transform="translate(642.4209,393.772)" id="g98"><path id="path100" style="fill:#00b0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-2.046 -1.658,-3.705 -3.703,-3.705 -2.047,0 -3.705,1.659 -3.705,3.705 0,2.046 1.658,3.705 3.705,3.705 C -1.658,3.705 0,2.046 0,0 m 22.596,-6.269 1.916,5.984 c 0,0 -8.266,-0.855 -12.539,5.985 C 6.842,4.276 2.281,3.135 -6.27,11.115 -8.264,3.705 -15.389,0.57 -15.389,0.57 l 2.2,-6.839 35.785,0 z"/></g><g transform="translate(632.0459,384.083)" id="g102"><path id="path104" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -14.418,0 0,3.42 11.604,0 35.785,0 0.205,0 0,-3.42 L 30.443,0 0,0 z"/></g><g transform="translate(613.0674,335.0615)" id="g106"><path id="container-police-user-isp" style="fill:#0074bb;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.8 3.891,-8.693 8.691,-8.693 l 49.592,0 c 4.799,0 8.692,3.893 8.692,8.693 0,4.801 -3.893,8.693 -8.692,8.693 l -49.592,0 C 3.891,8.693 0,4.801 0,0"/></g></g></g><text style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" id="label-police-user-isp" transform="scale(1,-1) translate(0, 0)" x="646.37323" y="-330.9614"><tspan its:translate="no" id="tspan3514" x="646.37323" y="-330.9614">POLICE</tspan></text>
+
+
+
+
+
+
+<path d="m 632.0459,384.083 -14.418,0 0,3.42 11.604,0 35.785,0 0.205,0 0,-3.42 -2.733,0 -30.443,0 z" style="fill:#394d8a;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path796"/></g><g id="g4312"><g transform="translate(611.0342,419.5386)" id="g560"><path id="path562" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 C 0.409,-0.049 0.838,-0.075 1.285,-0.075"/></g><g transform="translate(643.1553,457.9346)" id="g576"><path id="path578" style="fill:#46b754;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.211,4.182 C 7.744,3.49 8.813,1.958 8.813,0.165 8.813,-2.275 6.836,-4.251 4.398,-4.251 2.014,-4.251 0.086,-2.36 0,0 m 15.512,-19.324 -31.778,0.213 c 4.223,-6.999 11.895,-11.678 20.664,-11.678 13.319,0 24.114,10.797 24.114,24.115 0,7.546 -3.465,14.278 -8.891,18.701 l -30.445,0 c -4.688,-3.822 -7.908,-9.37 -8.697,-15.676 l -6.172,0 0,-4.062 6.002,0 c 0.125,-2.945 0.773,-5.756 1.863,-8.334 l 33.281,0 0.059,-3.279 z"/></g><g transform="translate(632.3311,469.9619)" id="g580"><path id="path582" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -10.998,0 7.125,5.414 c 0,0 3.418,13.68 18.523,13.68 C 36.883,19.094 36.881,0 36.881,0 L 30.445,0 0,0 z"/></g><g transform="translate(612.7822,420.9409)" id="g584"><path id="container-sysadmin-user-isp" style="fill:#46b754;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.8 3.891,-8.693 8.693,-8.693 l 49.588,0 c 4.803,0 8.694,3.893 8.694,8.693 0,4.802 -3.891,8.693 -8.694,8.693 l -49.588,0 C 3.891,8.693 0,4.802 0,0"/></g><text y="-416.83939" x="646.53046" id="label-sysadmin-user-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;-inkscape-font-specification:Open Sans Bold;fill:#ffffff"><tspan its:translate="no" id="tspan3512" x="646.53046" y="-416.83939">SYSADMIN</tspan></text>
+
+
+
+
+
+
+<path d="m 647.6943,462.5352 c 2.439,0 4.416,-1.976 4.416,-4.415 0,-2.44 -1.977,-4.417 -4.416,-4.417 -2.439,0 -4.416,1.977 -4.416,4.417 0,2.439 1.977,4.415 4.416,4.415" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path800"/></g><g id="g4790"><g transform="translate(611.0342,122.6621)" id="g754"><path id="path756" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 C 0.409,-0.049 0.838,-0.074 1.285,-0.074"/></g><g transform="translate(643.1553,161.0586)" id="g758"><path id="path760" style="fill:#46b754;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 6.211,4.183 C 7.744,3.49 8.813,1.958 8.813,0.166 8.813,-2.274 6.836,-4.25 4.398,-4.25 2.014,-4.25 0.086,-2.359 0,0 m 15.512,-19.324 -31.778,0.214 c 4.223,-6.999 11.895,-11.679 20.664,-11.679 13.319,0 24.114,10.797 24.114,24.115 0,7.547 -3.465,14.278 -8.891,18.701 l -30.445,0 c -4.688,-3.822 -7.908,-9.369 -8.697,-15.675 l -6.172,0 0,-4.063 6.002,0 c 0.125,-2.944 0.773,-5.756 1.863,-8.334 l 33.281,0 0.059,-3.279 z"/></g><g transform="translate(632.3311,173.0859)" id="g762"><path id="path764" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 -10.998,0 7.125,5.414 c 0,0 3.418,13.68 18.523,13.68 C 36.883,19.094 36.881,0 36.881,0 L 30.445,0 0,0 z"/></g><g transform="translate(612.7822,124.0654)" id="g766"><path id="container-sysadmin-website-isp" style="fill:#46b754;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-4.8 3.891,-8.692 8.693,-8.692 l 49.588,0 c 4.803,0 8.694,3.892 8.694,8.692 0,4.802 -3.891,8.692 -8.694,8.692 l -49.588,0 C 3.891,8.692 0,4.802 0,0"/></g><text id="label-sysadmin-website-isp" transform="scale(1,-1) translate(0, 0)" style="font-size:12px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold" x="646.53046" y="-119.9644"><tspan its:translate="no" id="tspan3518" x="646.53046" y="-119.9644">SYSADMIN</tspan></text>
+
+
+
+
+
+
+
+<path d="m 647.6943,165.1279 c 2.439,0 4.416,-1.977 4.416,-4.415 0,-2.44 -1.977,-4.417 -4.416,-4.417 -2.439,0 -4.416,1.977 -4.416,4.417 0,2.438 1.977,4.415 4.416,4.415" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path804"/></g>
+
+
+
+<g id="g746" transform="translate(583.5049,146.0215)"><path d="M 0,0 1.279,-0.096" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path748"/></g><g id="g3513" transform="translate(0,13.519621)"><g transform="translate(583.5049,118.3643)" id="g536"><path id="container-site" style="fill:#2f2822;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-5.102 -4.135,-9.234 -9.232,-9.234 l -70.075,0 c -5.099,0 -9.234,4.132 -9.234,9.234 l 0,28.271 c 0,5.102 4.135,9.235 9.234,9.235 l 70.075,0 C -4.135,37.506 0,33.373 0,28.271 L 0,0 z"/></g><text y="-125.33311" x="539.51562" id="label-site" transform="scale(1,-1) translate(0, 0)" style="font-size:19.20000076px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold"><tspan its:translate="no" y="-125.33311" x="539.51562" id="tspan3509">Site.com</tspan></text>
+
+
+
+
+
+
+</g><g id="g1006" transform="translate(256.7822,157.2832)"/><g id="g4331"><g id="g512"><g clip-path="url(#clipPath516)" id="g514"><g transform="translate(500.0781,56.7402)" id="g520"><path id="container-website-isp" style="fill:#ee3338;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-5.1 -4.133,-9.234 -9.234,-9.234 l -53.922,0 c -5.1,0 -9.235,4.134 -9.235,9.234 l 0,28.272 c 0,5.1 4.135,9.234 9.235,9.234 l 53.922,0 C -4.133,37.506 0,33.372 0,28.272 L 0,0 z"/></g></g></g><text transform="scale(1,-1) translate(0, 0)" id="label-website-isp" x="463.28494" y="-60.934097" style="font-size:27.20000076px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;-inkscape-font-specification:Open Sans Bold"><tspan its:translate="no" id="tspan3532" x="463.28494" y="-60.934097">ISP</tspan></text>
+
+
+
+
+
+
+</g><g id="button-tor"><path id="button-tor-background" d="m 18.432842,599.94811 c -3.878,0 -7,-3.122 -7,-7 l 0,-20.1 c 0,-1.36934 0.400651,-2.62335 1.075,-3.7 0.828464,-2.94212 3.510884,-5.1 6.725,-5.1 l 59.4,0 c 3.878,0 7,3.122 7,7 l 0,20.1 c 0,1.35253 -0.390856,2.60677 -1.05,3.675 -0.820296,2.95482 -3.526888,5.125 -6.75,5.125 l -59.4,0 z m 66.25,-5.6 c 0.03992,-0.19702 0.07736,-0.39759 0.1,-0.6 -0.0232,0.20089 -0.06024,0.40476 -0.1,0.6 z m -69.925,-27.45 c 0.111088,-0.0686 0.234865,-0.13761 0.35,-0.2 -0.117679,0.0642 -0.236553,0.12932 -0.35,0.2 z m 64.5,-0.9 c -0.456504,-0.0929 -0.94025,-0.15 -1.425,-0.15 0.48475,0 0.968496,0.057 1.425,0.15 z m -62.125,-0.025 c 0.194976,-0.0366 0.374572,-0.0548 0.575,-0.075 -0.195532,0.0203 -0.38478,0.0388 -0.575,0.075 z" style="fill: rgb(167, 169, 172); fill-opacity: 1; stroke: none;"/><text transform="scale(1,-1)" id="text4394" y="-574.50995" x="48.556278" style="font-size:24px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;-inkscape-font-specification:Open Sans Bold" xml:space="preserve"><tspan its:translate="no" y="-574.50995" x="48.556278" id="tspan4396">Tor</tspan></text>
+
+
+
+
+
+
+<path id="rect4392-2" d="m 84.582842,594.82311 c 0.166672,-0.60038 0.25,-1.22011 0.25,-1.875 l 0,-20.1 c 0,-3.878 -3.122,-7 -7,-7 l -59.4,0 c -2.508665,0 -4.68957,1.32754 -5.925,3.3 0.828463,-2.94212 3.510883,-5.1 6.725,-5.1 l 59.4,0 c 3.878,0 7,3.122 7,7 l 0,20.1 c 0,1.35253 -0.390856,2.60677 -1.05,3.675 z" style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none"/></g><g id="button-https"><path id="button-https-background" d="m 18.432842,562.39811 c -3.878,0 -7,-3.122 -7,-7 l 0,-20.1 c 0,-1.36934 0.400651,-2.62335 1.075,-3.7 0.828464,-2.94212 3.510884,-5.1 6.725,-5.1 l 59.4,0 c 3.878,0 7,3.122 7,7 l 0,20.1 c 0,1.35253 -0.390856,2.60677 -1.05,3.675 -0.820296,2.95482 -3.526888,5.125 -6.75,5.125 l -59.4,0 z m 66.25,-5.6 c 0.03992,-0.19702 0.07736,-0.39759 0.1,-0.6 -0.0232,0.20089 -0.06024,0.40476 -0.1,0.6 z m -69.925,-27.45 c 0.111088,-0.0686 0.234865,-0.13761 0.35,-0.2 -0.117679,0.0642 -0.236553,0.12932 -0.35,0.2 z m 64.5,-0.9 c -0.456504,-0.0929 -0.94025,-0.15 -1.425,-0.15 0.48475,0 0.968496,0.057 1.425,0.15 z m -62.125,-0.025 c 0.194976,-0.0366 0.374572,-0.0548 0.575,-0.075 -0.195532,0.0203 -0.38478,0.0388 -0.575,0.075 z" style="fill:#b3b3b3;fill-opacity:1;stroke:none"/><text transform="scale(1,-1)" id="text4394-3" y="-537.44922" x="47.969563" style="font-size:22.39999962px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;-inkscape-font-specification:Open Sans Bold" xml:space="preserve"><tspan its:translate="no" id="tspan4639" x="47.969563" y="-537.44922">HTTPS</tspan></text>
+
+
+
+
+
+
+<path id="rect4392-2-1" d="m 84.582842,557.27311 c 0.166672,-0.60038 0.25,-1.22011 0.25,-1.875 l 0,-20.1 c 0,-3.878 -3.122,-7 -7,-7 l -59.4,0 c -2.508665,0 -4.68957,1.32754 -5.925,3.3 0.828463,-2.94212 3.510883,-5.1 6.725,-5.1 l 59.4,0 c 3.878,0 7,3.122 7,7 l 0,20.1 c 0,1.35253 -0.390856,2.60677 -1.05,3.675 z" style="opacity:0.3;fill:#000000;fill-opacity:1;stroke:none"/></g><g id="g3777"><path id="path806" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 35.724,129.27 181.851,0 0,-102.603 -181.851,0 0,102.603 z"/><path id="path808" style="fill:#373535;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 218.575,130.27 -183.851,0 0,-104.603 183.851,0 0,104.603 z m -2,-102.603 -179.851,0 0,100.603 179.851,0 0,-100.603 z"/><g transform="translate(133.9307,90.6689)" id="g828"><path id="path830" style="fill:none;stroke:#ee3338;stroke-width:3.79999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" d="M 0,0 73.836,0"/></g><g transform="translate(133.9307,70.5625)" id="g832"><path id="path834" style="fill:none;stroke:#00b0f0;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="M 0,0 73.836,0"/></g><g transform="translate(133.9307,50.3564)" id="g836"><path id="path838" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="M 0,0 73.836,0"/></g><text transform="scale(1,-1)" style="font-size:8px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;-inkscape-font-specification:Open Sans Bold" id="label-eavesdropping" x="84.889832" y="-68.484375"><tspan its:translate="no" y="-68.484375" x="84.889832" id="tspan3598">Eavesdropping</tspan></text>
+
+
+
+
+
+<text transform="scale(1,-1)" style="font-size:8px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;-inkscape-font-specification:Open Sans Bold" id="label-internet-connection" x="85.149597" y="-87.6689"><tspan its:translate="no" y="-87.6689" x="85.149597" id="tspan3596">Internet connection</tspan></text>
+
+
+
+
+
+<text transform="scale(1,-1)" style="font-size:8px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;-inkscape-font-specification:Open Sans Bold" id="label-key" x="126.29403" y="-108.7734"><tspan its:translate="no" id="tspan3594" x="126.29403" y="-108.7734">KEY</tspan></text>
+
+
+
+
+
+<text transform="scale(1,-1)" style="font-size:8px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;-inkscape-font-specification:Open Sans Bold" id="label-data-sharing" x="84.889832" y="-48.278275"><tspan its:translate="no" y="-48.278275" x="84.889832" id="tspan3632">Data sharing</tspan></text>
+
+
+
+
+
+</g><g transform="matrix(0.8,0,0,-0.8,92.151404,827.53459)" style="display:inline" id="texts-user"><text id="text-user-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5">DATA</tspan></text>
+<text id="text-user-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4">SITE.COM</tspan></text>
+<text id="text-user-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6"> </tspan></text>
+<text id="text-user-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6">LOCATION</tspan></text>
+<text id="text-user-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,224.9615,827.53459)" style="display:inline" id="texts-hacker"><text id="text-hacker-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9">DATA</tspan></text>
+<text id="text-hacker-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7">SITE.COM</tspan></text>
+<text id="text-hacker-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8"> </tspan></text>
+<text id="text-hacker-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2">LOCATION</tspan></text>
+<text id="text-hacker-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,605.1851,824.78359)" style="display:inline" id="texts-lawyer-user-isp"><text id="text-lawyer-user-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2">DATA</tspan></text>
+<text id="text-lawyer-user-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7">SITE.COM</tspan></text>
+<text id="text-lawyer-user-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8"> </tspan></text>
+<text id="text-lawyer-user-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4">LOCATION</tspan></text>
+<text id="text-lawyer-user-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,605.1851,740.42329)" style="display:inline" id="texts-sysadmin-user-isp"><text id="text-sysadmin-user-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7">DATA</tspan></text>
+<text id="text-sysadmin-user-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1">SITE.COM</tspan></text>
+<text id="text-sysadmin-user-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8"> </tspan></text>
+<text id="text-sysadmin-user-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7">LOCATION</tspan></text>
+<text id="text-sysadmin-user-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,605.1851,656.06389)" style="display:inline" id="texts-police-user-isp"><text id="text-police-user-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3">DATA</tspan></text>
+<text id="text-police-user-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9">SITE.COM</tspan></text>
+<text id="text-police-user-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0"> </tspan></text>
+<text id="text-police-user-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8">LOCATION</tspan></text>
+<text id="text-police-user-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,605.1851,359.18789)" style="display:inline" id="texts-police-website-isp"><text id="text-police-website-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3-3">DATA</tspan></text>
+<text id="text-police-website-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9-1">SITE.COM</tspan></text>
+<text id="text-police-website-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0-3"> </tspan></text>
+<text id="text-police-website-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8-1">LOCATION</tspan></text>
+<text id="text-police-website-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4-5">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,605.1851,443.54779)" style="display:inline" id="texts-sysadmin-website-isp"><text id="text-sysadmin-website-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3-3-8">DATA</tspan></text>
+<text id="text-sysadmin-website-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9-1-2">SITE.COM</tspan></text>
+<text id="text-sysadmin-website-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0-3-7"> </tspan></text>
+<text id="text-sysadmin-website-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8-1-1">LOCATION</tspan></text>
+<text id="text-sysadmin-website-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4-5-4">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,605.1851,527.90769)" style="display:inline" id="texts-lawyer-website-isp"><text id="text-lawyer-website-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3-3-8-5">DATA</tspan></text>
+<text id="text-lawyer-website-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9-1-2-2">SITE.COM</tspan></text>
+<text id="text-lawyer-website-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0-3-7-6"> </tspan></text>
+<text id="text-lawyer-website-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8-1-1-4">LOCATION</tspan></text>
+<text id="text-lawyer-website-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4-5-4-7">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,266.5699,367.53019)" style="display:inline" id="texts-website-isp"><text id="text-website-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3-3-8-5-0">DATA</tspan></text>
+<text id="text-website-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9-1-2-2-1">SITE.COM</tspan></text>
+<text id="text-website-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0-3-7-6-9"> </tspan></text>
+<text id="text-website-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8-1-1-4-8">LOCATION</tspan></text>
+<text id="text-website-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4-5-4-7-2">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,248.2935,482.91299)" style="display:inline" id="texts-nsa-website-isp"><text id="text-nsa-website-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3-3-3">DATA</tspan></text>
+<text id="text-nsa-website-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9-1-5">SITE.COM</tspan></text>
+<text id="text-nsa-website-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0-3-3"> </tspan></text>
+<text id="text-nsa-website-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8-1-6">LOCATION</tspan></text>
+<text id="text-nsa-website-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4-5-5">USER / PW</tspan></text>
+</g><g transform="matrix(0.8,0,0,-0.8,248.2935,591.60249)" style="display:inline" id="texts-nsa-user-isp"><text id="text-nsa-user-isp-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-5-9-2-7-3-3-3-9">DATA</tspan></text>
+<text id="text-nsa-user-isp-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-4-7-7-1-9-1-5-7">SITE.COM</tspan></text>
+<text id="text-nsa-user-isp-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-6-8-8-8-0-3-3-8"> </tspan></text>
+<text id="text-nsa-user-isp-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-6-2-4-7-8-1-6-7">LOCATION</tspan></text>
+<text id="text-nsa-user-isp-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-6-7-1-4-4-5-5-7">USER / PW</tspan></text>
+</g></g><g id="layer1" style="display:inline">
+
+
+<g id="layer-tor" style="display: none;"><g id="g5479"><g id="g864" transform="matrix(1.25,0,0,-1.25,0,765)"><g id="g866" clip-path="url(#clipPath868)"><g id="g872" transform="translate(140.9492,296.3184)"><path d="m 0,0 c 0,-2.21 -1.792,-4 -4.001,-4 l -46.019,0 c -2.21,0 -4.002,1.79 -4.002,4 l 0,54.747 c 0,2.21 1.792,4.001 4.002,4.001 l 46.019,0 C -1.792,58.748 0,56.957 0,54.747 L 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path874"/></g></g></g><g id="g894" transform="matrix(1.25,0,0,-1.25,175.6225,385.10737)"><path d="M 0,0 20.283,4.178 0,8.059 0,4.029 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path896"/></g></g><path d="m 321.68912,482.01787 c 0,-5.315 -4.30625,-9.62125 -9.61875,-9.62125 -5.3125,0 -9.62,4.30625 -9.62,9.62125 0,5.31 4.3075,9.61625 9.62,9.61625 5.3125,0 9.61875,-4.30625 9.61875,-9.61625 z" style="fill:#ffffff;stroke:#ee3338;stroke-width:4.2750001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path1004"/><path d="m 321.68912,395.63475 c 0,-5.31 -4.30625,-9.61875 -9.61875,-9.61875 -5.3125,0 -9.62,4.30875 -9.62,9.61875 0,5.315 4.3075,9.61875 9.62,9.61875 5.3125,0 9.61875,-4.30375 9.61875,-9.61875 z" style="fill:#ffffff;stroke:#ee3338;stroke-width:4.2750001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path996"/><g transform="matrix(1.25,0,0,-1.25,299.046,395.63475)" id="g1014"><path id="path1016" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="M 0,0 -17.476,0"/></g><g id="g4831" transform="matrix(1.25,0,0,-1.25,0,765)"><g id="g844"><g id="g846" clip-path="url(#clipPath848)"><g id="g852" transform="translate(183.7187,328.313)"><path d="m 0,0 c 1.933,0 3.499,-1.566 3.499,-3.498 0,-1.931 -1.566,-3.497 -3.499,-3.497 -1.932,0 -3.497,1.566 -3.497,3.497 C -3.497,-1.566 -1.932,0 0,0 m 18.803,-12.276 c 0.147,0.83 0.243,1.676 0.28,2.54 l 4.755,0 0,3.216 -4.89,0 C 18.106,0.207 13.77,5.843 7.811,8.517 c 0.213,0.697 0.57,1.454 1.177,2.057 0.404,0.401 0.893,0.699 1.458,0.9 0.142,-0.985 0.98,-1.744 2.003,-1.744 1.122,0 2.032,0.911 2.032,2.032 0,1.069 -0.828,1.935 -1.876,2.016 l 0,0.021 C 10.499,13.855 8.793,13.251 7.543,12.003 6.708,11.168 6.211,10.17 5.912,9.25 4.05,9.856 2.064,10.188 0,10.188 c -10.55,0 -19.103,-8.553 -19.103,-19.104 0,-10.551 8.553,-19.101 19.103,-19.101 4.464,0 8.568,1.533 11.82,4.1 l -20.577,11.641 27.56,0 z" style="fill:#aaacae;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path854"/></g><g id="g856" transform="translate(218.7612,295.4912)"><path d="m 0,0 c 0,-3.803 -3.083,-6.885 -6.886,-6.885 l -54.111,0 c -3.803,0 -6.887,3.082 -6.887,6.885 0,3.803 3.084,6.887 6.887,6.887 l 54.111,0 C -3.083,6.887 0,3.803 0,0" style="fill:#aaacae;fill-opacity:1;fill-rule:nonzero;stroke:none" id="container-tor-guard-node"/></g></g></g><text style="font-size: 11px; font-style: normal; font-variant: normal; font-stretch: normal; text-align: center; line-height: 125%; writing-mode: horizontal-tb; text-anchor: middle; fill: rgb(255, 255, 255);" transform="scale(1,-1) translate(0, -0.20000004768371582)" id="label-tor-guard-node" x="184.70494" y="-291.23929"><tspan its:translate="no" id="tspan3526" x="184.70494" y="-291.23929">TOR RELAY</tspan></text>
+
+
+
+
+
+
+
+</g>
+
+
+
+
+
+<g id="g4603" transform="matrix(1.25,0,0,-1.25,0,765)"><g id="g898" transform="translate(183.7187,259.209)"><path d="M 0,0 C 1.933,0 3.499,-1.566 3.499,-3.498 3.499,-5.43 1.933,-6.996 0,-6.996 c -1.932,0 -3.497,1.566 -3.497,3.498 C -3.497,-1.566 -1.932,0 0,0 m 18.803,-12.276 c 0.147,0.829 0.243,1.676 0.28,2.54 l 4.755,0 0,3.215 -4.89,0 C 18.106,0.207 13.77,5.842 7.811,8.516 c 0.213,0.697 0.57,1.455 1.177,2.057 0.404,0.402 0.893,0.7 1.458,0.9 0.142,-0.985 0.98,-1.743 2.003,-1.743 1.122,0 2.032,0.911 2.032,2.032 0,1.068 -0.828,1.935 -1.876,2.015 l 0,0.022 C 10.499,13.854 8.793,13.251 7.543,12.002 6.708,11.168 6.211,10.17 5.912,9.249 4.05,9.855 2.064,10.188 0,10.188 c -10.55,0 -19.103,-8.553 -19.103,-19.104 0,-10.552 8.553,-19.102 19.103,-19.102 4.464,0 8.568,1.534 11.82,4.1 l -20.577,11.642 27.56,0 z" style="fill:#aaacae;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path900"/></g><g id="g902" transform="translate(218.7612,226.3867)"><path d="m 0,0 c 0,-3.803 -3.083,-6.885 -6.886,-6.885 l -54.111,0 c -3.803,0 -6.887,3.082 -6.887,6.885 0,3.803 3.084,6.887 6.887,6.887 l 54.111,0 C -3.083,6.887 0,3.803 0,0" style="fill:#aaacae;fill-opacity:1;fill-rule:nonzero;stroke:none" id="container-tor-middle-node"/></g><text style="font-size: 11px; font-style: normal; font-variant: normal; font-stretch: normal; text-align: center; line-height: 125%; writing-mode: horizontal-tb; text-anchor: middle; fill: rgb(255, 255, 255);" transform="scale(1,-1) translate(0, -0.20000004768371582)" id="label-tor-middle-node" x="184.70494" y="-222.1338"><tspan its:translate="no" id="tspan3524" x="184.70494" y="-222.1338">TOR RELAY</tspan></text>
+
+
+
+
+
+
+
+</g><g transform="matrix(1.25,0,0,-1.25,299.046,482.01537)" id="g1018"><path id="path1020" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="M 0,0 -17.476,0"/></g><g id="g3831"><g id="g956" transform="matrix(1.25,0,0,-1.25,0,765)"><g id="g958" clip-path="url(#clipPath960)"><g id="g964" transform="translate(140.9492,158.1094)"><path d="m 0,0 c 0,-2.21 -1.792,-4 -4.001,-4 l -46.019,0 c -2.21,0 -4.002,1.79 -4.002,4 l 0,54.747 c 0,2.209 1.792,4 4.002,4 l 46.019,0 c 2.209,0 4.001,-1.791 4.001,-4 L 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path966"/></g></g></g><g id="g986" transform="matrix(1.25,0,0,-1.25,175.6225,557.86863)"><path d="M 0,0 20.283,4.178 0,8.059 0,4.029 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path988"/></g></g>
+
+
+
+
+
+<g id="g3769"><g id="g910" transform="matrix(1.25,0,0,-1.25,0,765)"><g id="g912" clip-path="url(#clipPath914)"><g id="g918" transform="translate(140.9492,227.2139)"><path d="m 0,0 c 0,-2.21 -1.792,-4 -4.001,-4 l -46.019,0 c -2.21,0 -4.002,1.79 -4.002,4 l 0,54.747 c 0,2.209 1.792,4 4.002,4 l 46.019,0 c 2.209,0 4.001,-1.791 4.001,-4 L 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path920"/></g></g></g><g id="g940" transform="matrix(1.25,0,0,-1.25,175.6225,471.488)"><path d="M 0,0 20.283,4.178 0,8.059 0,4.029 0,0 z" style="fill:#fcb24c;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path942"/></g></g>
+
+
+
+
+
+<g id="g4611" transform="matrix(1.25,0,0,-1.25,0,765)"><g id="g944" transform="translate(183.7187,190.1045)"><path d="M 0,0 C 1.933,0 3.499,-1.566 3.499,-3.498 3.499,-5.43 1.933,-6.996 0,-6.996 c -1.932,0 -3.497,1.566 -3.497,3.498 C -3.497,-1.566 -1.932,0 0,0 m 18.803,-12.276 c 0.147,0.829 0.243,1.676 0.28,2.54 l 4.755,0 0,3.215 -4.89,0 C 18.106,0.207 13.77,5.842 7.811,8.516 c 0.213,0.697 0.57,1.455 1.177,2.057 0.404,0.402 0.893,0.7 1.458,0.9 0.142,-0.985 0.98,-1.743 2.003,-1.743 1.122,0 2.032,0.911 2.032,2.032 0,1.068 -0.828,1.935 -1.876,2.015 l 0,0.022 C 10.499,13.854 8.793,13.251 7.543,12.002 6.708,11.168 6.211,10.17 5.912,9.249 4.05,9.855 2.064,10.188 0,10.188 c -10.55,0 -19.103,-8.553 -19.103,-19.104 0,-10.552 8.553,-19.102 19.103,-19.102 4.464,0 8.568,1.534 11.82,4.1 l -20.577,11.642 27.56,0 z" style="fill:#aaacae;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path946"/></g><g id="g948" transform="translate(218.7612,157.2822)"><path d="m 0,0 c 0,-3.803 -3.083,-6.885 -6.886,-6.885 l -54.111,0 c -3.803,0 -6.887,3.082 -6.887,6.885 0,3.803 3.084,6.887 6.887,6.887 l 54.111,0 C -3.083,6.887 0,3.803 0,0" style="fill:#aaacae;fill-opacity:1;fill-rule:nonzero;stroke:none" id="container-tor-exit-node"/></g><text style="font-size: 11px; font-style: normal; font-variant: normal; font-stretch: normal; text-align: center; line-height: 125%; writing-mode: horizontal-tb; text-anchor: middle; fill: rgb(255, 255, 255);" transform="scale(1,-1) translate(0, -0.20000004768371582)" id="label-tor-exit-node" x="184.70494" y="-153.0303"><tspan its:translate="no" id="tspan3522" x="184.70494" y="-153.0303">TOR RELAY</tspan></text>
+
+
+
+
+
+
+
+</g><g transform="matrix(1.25,0,0,-1.25,299.046,568.396)" id="g1022"><path id="path1024" style="fill:none;stroke:#2f2822;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:2.565, 2.565;stroke-dashoffset:0" d="M 0,0 -17.476,0"/></g><path d="m 321.68912,568.396 c 0,-5.3125 -4.30624,-9.61875 -9.61874,-9.61875 -5.3125,0 -9.62001,4.30625 -9.62001,9.61875 0,5.3125 4.30751,9.61875 9.62001,9.61875 5.3125,0 9.61874,-4.30625 9.61874,-9.61875 z" style="fill:#ffffff;stroke:#ee3338;stroke-width:4.2750001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none" id="path1012"/><g id="texts-tor-guard-node"><text id="text-tor-guard-node-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630"/></text>
+<text id="text-tor-guard-node-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan id="tspan3626"/></text>
+<text id="text-tor-guard-node-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635"/></text>
+<text id="text-tor-guard-node-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633"/></text>
+<text id="text-tor-guard-node-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628"/></text>
+</g><g transform="translate(5.2490234e-6,86.381259)" style="display:inline" id="texts-tor-middle-node"><text id="text-tor-middle-node-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-2"/></text>
+<text id="text-tor-middle-node-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-1"/></text>
+<text id="text-tor-middle-node-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-8"/></text>
+<text id="text-tor-middle-node-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-2"/></text>
+<text id="text-tor-middle-node-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-3"/></text>
+</g><g transform="translate(5.2490234e-6,172.76188)" style="display:inline" id="texts-tor-exit-node"><text id="text-tor-exit-node-data" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="363.97702"><tspan y="363.97702" x="142.12978" id="tspan3630-2-7"/></text>
+<text id="text-tor-exit-node-site" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="338.96115"><tspan y="338.96115" x="142.12978" id="tspan3626-1-5"/></text>
+<text id="text-tor-exit-node-tor" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="388.96115"><tspan y="388.96115" x="142.12978" id="tspan3635-8-4"/></text>
+<text id="text-tor-exit-node-location" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="376.46542"><tspan y="376.46542" x="142.12978" id="tspan3633-2-6"/></text>
+<text id="text-tor-exit-node-login" style="font-size:10px;font-style:normal;font-variant:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;display:inline;-inkscape-font-specification:Open Sans Bold" x="142.12978" y="351.46909"><tspan y="351.46909" x="142.12978" id="tspan3628-3-8"/></text>
+</g></g></g></svg>
