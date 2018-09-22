@@ -12,7 +12,7 @@ body:
 
 El acceso directo a la red Tor a veces puede estar bloqueado por tu Proveedor de Servicios de Internet (ISP) o por el gobierno.
 El Navegador Tor incluye algunas herramientas de evasión para evitar estos bloqueos.
-These tools are called “pluggable transports”.
+Estas herramientas se llaman "transportes conectables".
 See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
 
 ##### Usar transportes conectables

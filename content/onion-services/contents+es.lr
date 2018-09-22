@@ -9,3 +9,32 @@ seo_slug: onion-services
 key: 6
 ---
 body:
+
+Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
+
+Onion services offer several advantages over ordinary services on the non-private web:
+
+La ubicación y direcciones IP de un servicio cebolla están ocultas, dificultando que los adversarios puedan censurarlo o identificar a sus operadores.
+
+Todo el tráfico entre los usuarios de Tor y los servicios onion están cifrados extremo-a-extremo, así que no necesitas preocuparte de <a href="/secure-connections">conectar sobre HTTPS</a>.
+
+The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+
+##### Cómo acceder a un servicio cebolla
+
+Just like any other website, you will need to know the address of an onion service in order to connect to it.
+Una dirección cebolla es una cadena de 16 (y en formato V3, 56) de letras y números en su mayoría aleatorios, seguidos de ".onion".
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
+Y si estás accediendo a un sitio web con https y servicio onion, te mostrará un icono de una cebolla verde y un candado.
+
+##### Resolución de problemas
+
+If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+
+If you are still unable to connect to the onion service, please try again later.
+There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+
+You can also ensure that you're able to access other onion services by connecting to
+
+DuckDuckGo's Onion Service

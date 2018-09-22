@@ -9,3 +9,36 @@ seo_slug: becoming-tor-translator
 key: 13
 ---
 body:
+
+If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated!
+In order to begin contributing you will have to sign up with Transifex, the third-party that faciliates our translations.
+Below is an outline of how to sign up and begin.
+
+##### Signing up on Transifex
+
+* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
+  Enter your information into the fields and click the 'Sign Up' button:
+
+<img class="col-md-6" src="/static/images/tr1.png">
+
+* Fill out the next page with your name and select "Localization" and "Translator" from the drop-down menus:
+
+<img class="col-md-6" src="/static/images/tr2.png">
+
+* On the next page, select 'Join an existing project' and continue.
+* On the next page, select the languages you speak from the drop-down menu and continue.
+* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
+* Click the blue 'Join Team' button on the far right:
+
+<img class="col-md-6" src="/static/images/tr3.png">
+
+* Select the language you would like to translate from the dropdown menu:
+
+<img class="col-md-6" src="/static/images/tr4.png">
+
+* A notification will now show up on the top of the page like so:
+
+<img class="col-md-6" src="/static/images/tr5.png">
+
+After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin.
+Thanks for your interest in helping the project!

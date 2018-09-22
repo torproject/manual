@@ -22,7 +22,7 @@ In addition, Tor Browser is designed to prevent websites from â€œfingerprintingâ
 By default, Tor Browser does not keep any browsing history.
 Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
 
-### How Tor works
+##### How Tor works
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet.
 Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network.
