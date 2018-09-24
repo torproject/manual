@@ -1,7 +1,7 @@
 [project]
 name = Tor Browser Manual
 url = https://manual.torproject.org/
-url_stule = absolute
+url_style = absolute
 locale = en_US
 
 [alternatives.en]
