@@ -1,43 +1,43 @@
 _model: topic
 ---
-title: Ejecutar el Navegador Tor por primera vez
+title: Running Tor Browser for the first time
 ---
-description: Sepa cómo usar el Navegador Tor por primera vez
+description: Learn how to use Tor Browser for the first time
 ---
-seo_slug: correr-navegador-tor
+seo_slug: running-tor-browser
 ---
 key: 3
 ---
 body:
 
-Cuando ejecutes Tor por primera vez verás la ventana de Configuración de la Red Tor.
-Esto te da la opción de conectar directamente a la red Tor, o de configurar el Navegador Tor para tu conexión.
+When you run Tor Browser for the first time, you will see the Tor Network Settings window.
+This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
 
-##### Conectar
+##### Connect
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-En la mayoría de los casos escoger "Conectar" te permitirá conectar a la red Tor sin ninguna configuración adicional.
-Una vez hagas clic aparecerá una barra de estado mostrando el progreso de la conexión de Tor.
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
+Once clicked, a status bar will appear, showing Tor’s connection progress.
 If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### Configurar
+##### Configure
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-Si sabes que tu conexión está censurada o usas un proxy, debes seleccionar esta opción.
-El Navegador Tor te llevará a través de una serie de opciones de configuración.
+If you know that your connection is censored, or uses a proxy, you should select this option.
+Tor Browser will take you through a series of configuration options.
 
-La primera pantalla pregunta si el acceso a la red Tor está bloqueado o censurado en tu conexión.
-Si no crees que este sea el caso, selecciona "No".
-Si sabes que tu conexión está censurada, o has intentado conectar a la red Tor y no han funcionado otras soluciones, selecciona "Sí".
+The first screen asks if access to the Tor network is blocked or censored on your connection.
+If you do not believe this is the case, select “No”.
+If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”.
 You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-La siguiente pantalla pregunta si tu conexión usa un proxy.
-En la mayoría de los casos esto no es necesario.
-Normalmente sabrás si debe responder "Sí", ya que estarás usando la misma configuración para otros navegadores en tu sistema.
-Si puedes, pide información a tu administrador de red.
-Si tu conexión no usa un proxy, pulsa "Continuar".
+The next screen asks if your connection uses a proxy.
+In most cases, this is not necessary.
+You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system.
+If possible, ask your network administrator for guidance.
+If your connection does not use a proxy, click “Continue”.
 
 <img class="col-md-6" src="/static/images/proxy_question.png">
 

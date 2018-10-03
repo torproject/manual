@@ -19,5 +19,3 @@ locale = es
 name = Français
 url_prefix = /fr/
 locale = fr
-
-[packages]
