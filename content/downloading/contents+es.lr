@@ -1,59 +1,59 @@
 _model: topic
 ---
-title: Downloading
+title: Descargar
 ---
-description: How to download Tor Browser
+description: Cómo descargar el Navegador Tor
 ---
-seo_slug: downloading
+seo_slug: Descargar
 ---
 key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org.
+La forma más fácil y simple de descargar el Navegador Tor es desde el sitio web oficial del Tor Project en https://www.torproject.org.
 Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.
+Sin embargo, puede haber ocasiones en las que no puedas acceder al sitio web del Tor Project: por ejemplo, podría estar bloqueado en tu red.
+Si esto sucede, puedes usar uno de los métodos de descarga alternativos listados debajo.
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+GetTor es un servicio que responde automáticamente a los mensajes con enlaces a la versión más reciente del Navegador Tor, alojada en distintos lugares, como Dropbox, Google Drive y GitHub.
 
-###### To use GetTor via email:
+##### Usar GetTor vía correo electrónico.
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+Envíe un correo a gettor@torproject.org, y en el cuerpo del mensaje escriba simplemente “windows”, “osx”, o “linux”, (sin las comillas) dependiendo de su sistema operativo.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor responderá con un correo conteniendo enlaces desde los que puede descargar el paquete del Navegador Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete.
+Puede que te sea ofrecida una opción del programa para 32 ó 64 bits, esto depende del modelo de la computadora que estás usando; consulta la documentación acerca de tu computadora para saber más.
 
-###### To use GetTor via Twitter:
+##### Usar GetTor vía Twitter.
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+Para obtener enlaces para descargar el Navegador Tor en inglés para OS X, envíe un Mensaje Directo a @get_tor con las palabras "osx en" (sin las comillas) en él (no necesita seguir la cuenta).
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Para usar GetTor vía Jabber/XMPP (Tor Messenger, Jitsi, CoyIM):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+Para obtener enlaces para descargar el Navegador Tor en chino para Linux, envíe un mensaje a gettor@torproject.org con las palabras "linux zh" (sin las comillas) en él.
 
 ##### Satori
 
-Satori is an add-on for the Chrome or Chromium browsers that allows you to download several security and privacy programs from different sources.
+Satori es un complemento para navegadores Chrome y Chromium que le permite descargar varios programas de seguridad y privacidad desde distintas fuentes.
 
-To download Tor Browser using Satori:
+Para descargar el Navegador Tor usando Satori:
 
-Install Satori from the Chrome App Store.
+Instale Satori desde la Chrome App Store.
 
-Select Satori from your browser’s Apps menu.
+Seleccione Satori desde su menú Aplicaciones del navegador.
 
-When Satori opens, click on your preferred language.
-A menu will open listing the available downloads for that language.
-Find the entry for Tor Browser under the name of your operating system.
-Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software.
-Your download will then begin.
+Cuando Satori se abra, pulsa selección de idioma.
+Se abrirá un menú listando las descargas disponibles para ese idioma.
+Busca la entrada para el Navegador Tor (Tor Browser) bajo el nombre de tu sistema operativo.
+Selecciona "A" o "B" tras el nombre del programa — cada una representa una fuente distinta desde la que obtener el software.
+Entonces comenzará tu descarga.
 
-Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”.
+Espere a que finalice su descarga, luego busque la sección "Generar Hash" en el menú de Satori, y pulse "Seleccionar ficheros".
 
-Select the downloaded Tor Browser file.
-Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download.
+Selecciona el archivo del Navegador Tor descargado.
+Satori mostrará la suma de verificación (checksum) del fichero, que debes comparar con la suma de verificación del software original: puedes encontrarla haciendo clic en "checksum" tras el enlace sobre el que hiciste clic para iniciar la descarga.
 If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
-If they do not match, you may need to try downloading again, or from a different source.
+Si no coinciden, puede que precises descargarlo de nuevo, o desde una fuente diferente.

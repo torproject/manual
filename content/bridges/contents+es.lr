@@ -1,39 +1,39 @@
 _model: topic
 ---
-title: Bridges
+title: Puentes
 ---
 description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
-seo_slug: bridges
+seo_slug: puentes
 ---
 key: 4
 ---
 body:
 Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
-Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
-Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+Igual que los repetidores Tor ordinarios, los puentes de red son ejecutados por voluntarios, pero no son públicos, así que no se pueden identificar fácilmente.
+Usar puentes en combinación con transportes conectables ayuda a camuflar el uso de Tor.
 
-Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges.
-You do not need to obtain bridge addresses in order to use these transports.
+Otros transportes conectables, como meek, usan distintas técnicas anti-censura que no se basan en puentes.
+No necesitas obtener direcciones de puentes para usar estos transportes.
 
-##### Getting bridge addresses
+##### Obtener direcciones de puentes
 
-Because bridge addresses are not public, you will need to request them yourself.
-You have two options:
+Como las direcciones de puentes no son públicas, tendrás que solicitarlas tú mismo.
+Tienes dos opciones:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Escribe un correo a bridges@torproject.org desde una dirección de Gmail, Yahoo, o Riseup
 
-##### Entering bridge addresses
+##### Introducir direcciones de puentes
 
-Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
+Una vez que tengas algunos puentes, tendrás que introducirlos en el Arranque de Tor.
 
-Choose “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
-Select “Use custom bridges” and enter each bridge address on a separate line.
+Elige "sí" cuando pregunten si tu Proveedor de Servicios de Internet (ISP) bloquea las conexiones a la red Tor.
+Selecciona "Usar puentes personalizados" e introduce cada dirección de puente de red en una línea aparte.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Click “Connect”.
-Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down.
-Please use one of the above methods to obtain more bridge addresses, and try again.
+Pulsa "Conectar".
+Usar puentes puede ralentizar la conexión comparado con el uso de repetidores Tor ordinarios.
+Si la conexión falla, los puentes que recibiste pueden estar caídos.
+Usa uno de los métodos anteriores para obtener más direcciones de puente e inténtalo de nuevo.

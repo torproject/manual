@@ -1,20 +1,20 @@
 _model: topic
 ---
-title: Pluggable transports
+title: Transportes conectables
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Los transportes conectables son herramientas que Tor puede usar para camuflar el tráfico que envía.
 ---
-seo_slug: plugable-transports
+seo_slug: transportes-conectables
 ---
 key: 4
 ---
 body:
-Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
-This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
+Los transportes conectables son herramientas que Tor puede usar para camuflar el tráfico que envía.
+Esto puede ser útil en situaciones donde un Proveedor de Servicios de Internet (ISP), u otra autoridad está bloqueando activamente conexiones a la red Tor.
 
-##### Types of pluggable transport
+##### Tipos de transporte conectable
 
-Currently there are six pluggable transports available, but more are being developed.
+Actualmente hay seis transportes conectables disponibles, pero se están desarrollando más.
 
 <table>
 <tbody>
@@ -23,8 +23,8 @@ Currently there are six pluggable transports available, but more are being devel
 obfs3
 </td>
 <td>
-obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol.
-While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+obfs3 hace que el tráfico de Tor parezca aleatorio, así no se parece a Tor ni a ningún otro protocolo.
+Si bien todavía está incluido por defecto, se recomienda usar obfs4 en su lugar, ya que tiene varias mejoras de seguridad sobre obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -32,8 +32,8 @@ While still included by default, it is reccomended to use obfs4 instead, as it h
 obfs4
 </td>
 <td>
-obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning.
-obfs4 bridges are less likely to be blocked than obfs3 bridges.
+obfs4 hace que el tráfico de Tor tenga apariencia aleatoria, como obfs3, y además evita que los censores encuentren puentes de red mediante el escaneado de Internet.
+Resulta menos probable que bloqueen los puentes de red obfs4 que los puentes obfs3.
 </td>
 </tr>
 <tr class="odd">
@@ -41,7 +41,7 @@ obfs4 bridges are less likely to be blocked than obfs3 bridges.
 Scramblesuit
 </td>
 <td>
-ScrambleSuit is similar to obfs4 but has a different set of bridges.
+ScrambleSuit es similar a obfs4 pero tiene un grupo de puentes diferente.
 </td>
 </tr>
 <tr class="even">
@@ -49,7 +49,7 @@ ScrambleSuit is similar to obfs4 but has a different set of bridges.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+FTE (cifrado transformador de formato) camufla el tráfico de Tor como tráfico web ordinario (HTTP).
 </td>
 </tr>
 <tr class="odd">
@@ -57,8 +57,8 @@ FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP
 meek
 </td>
 <td>
-These transports all make it look like you are browsing a major web site instead of using Tor.
-meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+Todos estos transportes hacen que parezca que estás navegando un sitio web conocido en lugar de estar usando Tor.
+meek-amazon hace que parezca que estás usando Amazon Web Services; meek-azure hace que parezca que estás usando un sitio web de Microsoft; y meek-google hace que parezca que estás usando la búsqueda de Google.
 </td>
 </tr>
 <tr class="even">
@@ -66,8 +66,8 @@ meek-amazon makes it look like you are using Amazon Web Services; meek-azure mak
 Snowflake
 </td>
 <td>
-Snowflake is an improvement upon Flashproxy.
-It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+Snowflake es una mejora de Flashproxy.
+Envía tu tráfico a través de WebRTC, un protocolo punto a punto con punteo NAT incorporado.
 </td>
 </tr>
 </tbody>
