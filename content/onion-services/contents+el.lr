@@ -14,17 +14,17 @@ body:
 
 Οι υπηρεσίες onion προσφέρουν αρκετά πλεονεκτήματα σε σχέση με τις συνηθισμένες υπηρεσίες στον μη ιδιωτικό ιστό:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Η τοποθεσία και η διεύθυνση IP των υπηρεσιών onion είναι κρυμμένες, γεγονός που δυσκολεύει τους αντιπάλους να τις λογοκρίνουν ή να εντοπίσουν τους διαχειριστές τους.
+Όλη η κίνηση μεταξύ των χρηστών του Tor και των υπηρεσιών onion είναι κρυπτογραφημένη από άκρο σε άκρο, οπότε δεν χρειάζεται να ανησυχείτε για τη <a href="secure-connections">σύνδεση μέσω HTTPS.</a>
+* Η διεύθυνση μιας υπηρεσίας onion παράγεται αυτόματα, έτσι ώστε οι διαχειριστές δεν χρειάζεται να αγοράσουν ένα domain name. η .onion διεύθυνση URL βοηθά επίσης το Tor να διασφαλίσει ότι συνδέεται στη σωστή τοποθεσία και ότι η σύνδεση δεν παραβιάζεται.
 
-##### How to access an onion service
+##### Πως να έχω πρόσβαση σε μια υπηρεσία onion
 
 Όπως και με κάθε άλλη ιστοσελίδα, θα πρέπει να γνωρίζετε τη διεύθυνση μιας υπηρεσίας onion για να συνδεθείτε σε αυτήν. Μια διεύθυνση onion είναι μια συμβολοσειρά 16 (και σε μορφή V3, 56) κυρίως τυχαίων γραμμάτων και αριθμών, που ακολουθείται από το ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Αντιμετώπιση προβλημάτων
 
 Αν δεν μπορείτε να συνδεθείτε στην υπηρεσία onion που χρειάζεστε, βεβαιωθείτε ότι έχετε εισάγει σωστά τη διεύθυνση onion: ακόμα και ένα μικρό λάθος θα εμποδίσει τον Tor Browser να βρει την ιστοσελίδα.
 

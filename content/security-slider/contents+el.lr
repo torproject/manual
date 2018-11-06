@@ -11,13 +11,13 @@ key: 8
 body:
 Ο Tor Browser περιλαμβάνει ένα "Slider ασφαλείας" που σας επιτρέπει να αυξήσετε την ασφάλειά σας απενεργοποιώντας ορισμένες λειτουργίες ιστού που μπορούν να χρησιμοποιηθούν για να επιτεθούν στην ασφάλεια και στην ανωνυμία σας. Η αύξηση του επιπέδου ασφαλείας του Tor Browser θα εμποδίσει ορισμένες ιστοσελίδες να λειτουργούν σωστά, οπότε θα πρέπει να σταθμίσετε τις ανάγκες ασφαλείας σας σε σχέση με το βαθμό χρηστικότητας που χρειάζεστε.
 
-##### Accessing the Security Slider
+##### Πρόσβαση στον Slider Ασφαλείας
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 Ο Slider Ασφαλείας βρίσκεται στο Torbutton, στο μενού "Ρυθμίσεις Ασφάλειας".
 
-##### Security Levels
+##### Επίπεδα Ασφαλείας
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ body:
 Ασφαλέστερα
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+Σε αυτό το επίπεδο, τα πολυμέσα βίντεο και ήχου HTML5 γίνονται κλικ-για-αναπαραγωγή μέσω του NoScript· όλες οι βελτιστοποιήσεις απόδοσης JavaScript είναι απενεργοποιημένες· ορισμένες μαθηματικές εξισώσεις μπορεί να μην εμφανίζονται σωστά· ορισμένες λειτουργίες γραμματοσειράς είναι απενεργοποιημένες· ορισμένοι τύποι εικόνων είναι απενεργοποιημένοι· και η JavaScript είναι απενεργοποιημένη από προεπιλογή σε όλες τις ιστοσελιδες που δεν υποστηρίζουν <a href="secure-connections">HTTPS</a>.
 </dd>
 <dt>
 Βασικό

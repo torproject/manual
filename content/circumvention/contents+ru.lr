@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Прямой доступ к сети Tor иногда может блокироваться вашим интернет-провайдером или правительством. Tor Browser включает некоторые инструменты обхода, чтобы обойти эти блокировки. Эти инструменты называются подключаемыми транспортами<a href="transports"> - «Pluggable Transports».</a> Дополнительную информацию о типах транспорта, доступных в настоящее время, смотрите на странице Pluggable Transports.
 
 ##### Использование подключаемых транспортов
 

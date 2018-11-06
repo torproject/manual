@@ -13,14 +13,14 @@ Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, re
 
 Άλλα pluggable transports, όπως το meek, χρησιμοποιούν διαφορετικές τεχνικές κατά της λογοκρισίας που δεν βασίζονται σε γέφυρες. Δεν χρειάζεται να λάβετε διευθύνσεις γέφυρας για να χρησιμοποιήσετε αυτά τα transports.
 
-##### Getting bridge addresses
+##### Συλλογή διευθύνσεων γεφυρών
 
 Επειδή οι διευθύνσεις γέφυρας δεν είναι δημόσιες, θα πρέπει να τις ζητήσετε εσείς οι ίδιοι. Έχετε δύο επιλογές:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Στείλε email στο bridges@torproject.org από ένα λογαριασμό Gmail, Yahoo ή Riseup ή
 
-##### Entering bridge addresses
+##### Εισαγωγή διευθύνσεων γεφυρών
 
 Αφού αποκτήσετε μερικές διευθύνσεις γέφυρας, θα πρέπει να τις εισάγετε στο Tor Launcher.
 
