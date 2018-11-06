@@ -19,21 +19,21 @@ See the <a href="/transports">Pluggable Transports</a> page for more information
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
+Pour utiliser les transports enfichables, cliquez sur « Configurer » dans la fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur
 
-You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
+Vous pouvez aussi configurer les transports enfichables pendant que le navigateur Tor est en fonction en cliquant sur l'oignon vert près de votre barre d'adresse et en sélectionnant  « Paramètres du réseau Tor ».
 
-Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
+Sélectionnez « Oui » quand on vous demandera si votre fournisseur d'accès à Internet bloque les connexions au réseau Tor.
 
 <img class="col-md-6" src="/static/images/bridges.png">
 
-Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
+Sélectionnez « Se connecter avec les ponts fournis ». Le navigateur Tor offre actuellement six options de transports enfichables parmi lesquelles choisir.
 
 ##### Which transport should I use?
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
+Si vous essayer the contourner une connection bloquée pour la premier fois, vous devez essayer different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
 
 If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually.
 Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

@@ -32,7 +32,7 @@ However, disabling JavaScript will prevent many websites from displaying correct
 
 ##### Browser Add-ons
 
-Tor Browser is based on Firefox, and any browser add-ons or themes that are compatible with Firefox can also be installed in Tor Browser.
+Le navigateur Tor est fondé sur Firefox, et tout module complémentaire ou thème compatible avec Firefox peut aussi être installé dans le navigateur Tor.
 
 However, the only add-ons that have been tested for use with Tor Browser are those included by default.
 Installing any other browser add-ons may break functionality in Tor Browser or cause more serious problems that affect your privacy and security.

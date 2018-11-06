@@ -14,7 +14,7 @@ This can be useful in situations where an Internet Service Provider or other aut
 
 ##### Types of pluggable transport
 
-Currently there are six pluggable transports available, but more are being developed.
+Six transports enfichables sont proposés actuellement, mais d'autres sont en cours de développement.
 
 <table>
 <tbody>
@@ -41,7 +41,7 @@ obfs4 bridges are less likely to be blocked than obfs3 bridges.
 Scramblesuit
 </td>
 <td>
-ScrambleSuit is similar to obfs4 but has a different set of bridges.
+ScrambleSuit est semblable à obfs4 mais offre un jeu différent de ponts.
 </td>
 </tr>
 <tr class="even">
@@ -49,7 +49,7 @@ ScrambleSuit is similar to obfs4 but has a different set of bridges.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+FTE (chiffrement par transformation du format) déguise le trafic Tor en trafic Web ordinaire (HTTP).
 </td>
 </tr>
 <tr class="odd">

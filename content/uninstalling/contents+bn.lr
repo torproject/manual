@@ -1,0 +1,25 @@
+_model: topic
+---
+title: আনইনস্টল হচ্ছে
+---
+description: আপনার সিস্টেম থেকে টর ব্রাউজার অপসারণ কিভাবে
+---
+seo_slug: uninstalling
+---
+key: 12
+---
+body:
+Tor Browser does not affect any of the existing software or settings on your computer.
+Uninstalling Tor Browser will not affect your system’s software or settings.
+
+আপনার সিস্টেম থেকে টর ব্রাউজার অপসারণ সহজ:
+
+1. Locate your Tor Browser folder.
+The default location on Windows is the Desktop; on Mac OS X it is the Applications folder.
+লিনাক্সে, কোন ডিফল্ট অবস্থান নেই, তবে ফোল্ডারটি "টর-browser_en-ইউএস "-এর নাম হবে যদি আপনি ইংরেজী টর ব্রাউজার চালাচ্ছেন ।
+
+2. Delete the Tor Browser folder.
+
+3. Empty your Trash
+
+উল্লেখ্য আপনার অপারেটিং সিস্টেমের মান "আনইনস্টল" ইউটিলিটি ব্যবহার করা হয় না।

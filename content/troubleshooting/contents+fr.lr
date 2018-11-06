@@ -9,7 +9,7 @@ seo_slug: troubleshooting
 key: 11
 ---
 body:
-You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
+Vous devriez pouvoir commencer à parcourir le Web avec le navigateur Tor peu de temps après avoir lancé le programme et avoir cliqué sur le bouton « Se connecter » si vous l'utilisez pour la première fois.
 
 <img class="col-md-6" src="/static/images/connect.png">
 

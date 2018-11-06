@@ -16,29 +16,29 @@ Increasing Tor Browser’s security level will stop some web pages from function
 
 <img class="col-md-6" src="/static/images/slider.png">
 
-The Security Slider is located in Torbutton’s “Security Settings” menu.
+Le curseur de sécurité se trouve dans le menu « Paramètres de sécurité » du BoutonTor.
 
 ##### Security Levels
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
-Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
+En augmentant le niveau du bouton de sécurité coulissant, vous désactiverez complètement ou partiellement certaines fonctions des navigateurs afin de vous protéger contre les attaques potentielles.
 
 <dl>
 <dt>
-Safest
+Le plus sûr
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
+À ce niveau, les contenus multimédias HTML5 deviennent cliquer-pour-lire avec NoScript ; toutes les optimisations des performances JavaScript sont désactivées ; certaines équations mathématiques pourraient ne pas s'afficher correctement ; certaines fonctions de rendu des polices sont désactivées ; certains types d'images sont désactivés ; JavaScript est désactivé par défaut pour tous les sites ; la plupart des formats vidéo et audio sont désactivés ; et certaines polices et icônes pourraient ne pas s'afficher correctement.
 </dd>
 <dt>
-Safer
+Plus sûr
 </dt>
 <dd>
 At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
 </dd>
 <dt>
-Standard
+Normal
 </dt>
 <dd>
 At this level, all browser features are enabled.

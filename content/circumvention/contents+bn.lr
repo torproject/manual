@@ -1,0 +1,39 @@
+_model: topic
+---
+title: প্রতারণা
+---
+description: টর্ নেটওয়ার্ক অবরোধ করলে কি করবেন?
+---
+seo_slug: circumvention
+---
+key: 4
+---
+body:
+
+Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government.
+Tor Browser includes some circumvention tools for getting around these blocks.
+These tools are called “pluggable transports”.
+See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+
+##### Using pluggable transports
+
+<img class="col-md-6" src="/static/images/configure.png">
+
+প্ল্যাগেবল ট্রান্সফর্ম ব্যবহার করার জন্য, টর লঞ্চার উইন্ডোতে "কনফিগার করুন" ক্লিক করুন যা আপনি টর ব্রাউজারটি প্রথম চালানোর পরে দেখেন।
+
+আপনার অ্যাড্রেস বারের পাশে সবুজ onion এ ক্লিক করে এবং "টর নেটওয়ার্ক সেটিংস" নির্বাচন করে আপনি টর ব্রাউজার চালনা করলে প্ল্যাগেবল ট্রান্সফর্মগুলি কনফিগার করতে পারবেন।
+
+আপনার ইন্টারনেট পরিষেবা সরবরাহকারী টর নেটওয়ার্ক সংযোগ বন্ধ করে জিজ্ঞাসা করা হলে "হ্যাঁ" নির্বাচন করুন।
+
+<img class="col-md-6" src="/static/images/bridges.png">
+
+"সরবরাহকৃত ব্রিজগুলির সাথে সংযোগ করুন" নির্বাচন করুন টর ব্রাউজার বর্তমানে থেকে নির্বাচন করতে ছয় প্ল্যাগেবল পরিবহন বিকল্প আছে
+
+##### Which transport should I use?
+
+Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+
+আপনি যদি প্রথমবারের মতো একটি অবরুদ্ধ সংযোগ স্থাপনের চেষ্টা করেন, তাহলে আপনার বিভিন্ন পরিবহনের চেষ্টা করা উচিত: obfs3, obfs4, ScrambleSuit, fte, meek-azure এবং Snowflake ।
+
+If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually.
+Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

@@ -15,7 +15,7 @@ You can verify this in the URL bar: if your connection is encrypted, the address
 
 <img class="col-md-6" src="/static/images/https.png">
 
-The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
+La visualisation suivante montre quelles informations sont visibles pour les systèmes d'écoute avec et sans le navigateur Tor et le chiffrement HTTPS :
 
 <img class="" src="/static/images/tor-and-https.svg">
 
@@ -34,35 +34,35 @@ The button will turn green to indicate that HTTPS is on.
 Site.com
 </dt>
   <dd>
-    The site being visited.
+    Le site que vous visitez.
   </dd>
 
 <dt>
 user / pw
 </dt>
   <dd>
-    Username and password used for authentication.
+    Le nom d'utilisateur et le mot de passe utilisés pour l'authentification.
   </dd>
 
 <dt>
 data
 </dt>
   <dd>
-    Data being transmitted.
+    Les données qui sont transmises.
   </dd>
 
 <dt>
 location
 </dt>
   <dd>
-    Network location of the computer used to visit the website (the public IP address).
+    L'emplacement réseau de l'ordinateur utilisé pour visiter le site Web (l'adresse IP publique).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    Whether or not Tor is being used.
+    Si Tor est utilisé ou non.
   </dd>
 
 </dl>

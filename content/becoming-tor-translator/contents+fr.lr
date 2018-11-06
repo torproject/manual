@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Becoming a Tor Translator
+title: Devenir un Traducteur Tor
 ---
-description: Becoming a translator for the Tor Project
+description: Devenir un traducteur pour le Projet Tor
 ---
 seo_slug: becoming-tor-translator
 ---
@@ -17,7 +17,7 @@ Below is an outline of how to sign up and begin.
 ##### Signing up on Transifex
 
 * Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
-  Enter your information into the fields and click the 'Sign Up' button:
+  Remplissez les champs avec vos informations et cliquez sur le bouton « S'inscrire » :
 
 <img class="col-md-6" src="/static/images/tr1.png">
 

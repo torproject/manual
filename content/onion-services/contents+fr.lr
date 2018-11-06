@@ -10,9 +10,9 @@ key: 6
 ---
 body:
 
-Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
+Les services oignon (anciennement « services cachés ») sont des services (tels que des sites Web) qui ne sont accessibles que par le réseau Tor.
 
-Onion services offer several advantages over ordinary services on the non-private web:
+Les services oignon offrent plusieurs avantages par rapport aux services ordinaires du Web non privé :
 
 * An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
@@ -28,9 +28,9 @@ And if you're accessing a website with https and onion service, it will show an 
 
 ##### Troubleshooting
 
-If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+Si vous ne pouvez pas atteindre le service onion dont vous avez besoin, assurez-vous d’avoir correctement saisi l’adresse onion : même une petite erreur empêchera le Navigateur Tor d’atteindre le site.
 
-If you are still unable to connect to the onion service, please try again later.
-There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+Si vous ne parvenez toujours pas à vous connecter au service onion, veuillez ressayer ultérieurement.
+Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.
 
 You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
