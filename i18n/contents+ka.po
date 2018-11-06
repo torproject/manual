@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"PO-Revision-Date: 2018-11-06 21:47+0100\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -160,7 +160,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Known issues"
-msgstr ""
+msgstr "##### ცნობილი ხარვეზები"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Tor circuit for this site"
-msgstr ""
+msgstr "##### ახალი Tor-წრედი ამ საიტისთვის"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -252,7 +252,7 @@ msgstr "გახდით მთარგმნელი Tor-პროექტ
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -288,7 +288,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Using pluggable transports"
-msgstr ""
+msgstr "##### მისაერთებელი გადამყვანების გამოყენება"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -319,7 +319,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Quick fixes"
-msgstr ""
+msgstr "##### სწრაფად მოგვარების გზები"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -331,7 +331,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### Troubleshooting"
-msgstr ""
+msgstr "##### გაუმართაობის აღმოფხვრა"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
@@ -341,7 +341,7 @@ msgstr "ჩამოტვირთვა"
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### Transifex-ზე ანგარიშის შექმნა"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.description)
@@ -351,7 +351,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### გადამცემი ხიდების მისამართების მიღება"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
@@ -390,7 +390,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### GetTor-ის ელფოსტით გამოსაყენებლად:"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</td>"
@@ -412,7 +412,7 @@ msgstr "obfs3"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Flash Player"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -579,7 +579,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### თქვენი კავშირი ცენზურის ქვეშაა?"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -665,6 +665,8 @@ msgid ""
 "* You are now signed up! Go to the <a href=\"https://www.transifex.com/otf/"
 "torproject/\">Tor Transifex page</a>."
 msgstr ""
+"* თქვენი ანგარიში უკვე შექმნილია! გადადით <a href=\"https://www.transifex."
+"com/otf/torproject/\">Tor-ის Transifex-გვერდზე</a>."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -726,7 +728,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### გადამცემი ხიდის მისამართების შეყვანა"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
@@ -743,7 +745,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### რომელი გადამყვანი უნდა გამოვიყენო?"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -810,11 +812,11 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Security Levels"
-msgstr ""
+msgstr "##### უსაფრთხოების დონეები"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### ბრაუზერის დამატებები"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -1012,7 +1014,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### ანგარიშზე შესვლა Tor-ით"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1123,7 +1125,7 @@ msgstr "როგორ მოვიქცე, თუ Tor-ბრაუზერ�
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Changing identities and circuits"
-msgstr ""
+msgstr "##### ვინაობისა და წრედის შეცვლა"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
@@ -1154,7 +1156,7 @@ msgstr "გაუმართაობის აღმოფხვრა"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Identity"
-msgstr ""
+msgstr "##### ახალი ვინაობა"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1189,7 +1191,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### GetTor-ის Twitter-ით გამოსაყენებლად:"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1211,7 +1213,7 @@ msgstr "ვინაობის მონაცემების მართ�
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Accessing the Security Slider"
-msgstr ""
+msgstr "##### უსაფრთხოების რბიასთან წვდომა"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1254,7 +1256,7 @@ msgstr "</tr>"
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### როგორ ხდება Onion-მომსახურებასთან წვდომა"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1352,7 +1354,7 @@ msgstr "3. გაასუფთავეთ სანაგვე ურნა"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### მისაერთებელი გადამყვანის სახეები"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1460,12 +1462,12 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### მისამართების ველი"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### შესაძლო ხილული მონაცემები"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "meek"
@@ -1631,7 +1633,7 @@ msgstr "საიტზე Tor-ით შესვლისას, რამდ�
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### როგორ მუშაობს Tor"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1740,6 +1742,9 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"* იხილეთ <a href=\"secure-connections\">დაცული კავშირების</a> გვერდი, "
+"მნიშვნელოვანი ინფორმაციის მისაღებად, თუ როგორ უნდა დაიცვათ თქვენი კავშირი "
+"ანგარიშზე შესვლისას."
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.description)
@@ -1817,7 +1822,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
-msgstr ""
+msgstr "##### GetTor-ის Jabber/XMPP-ით გამოსაყენებლად (Jitsi, CoyIM და ა.შ.):"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1832,7 +1837,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### GetTor"
-msgstr ""
+msgstr "##### GetTor"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.description)
@@ -1854,6 +1859,8 @@ msgstr ""
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
+"* ელფოსტის გამოგზავნა მისამართზე bridges@torproject.org Gmail-იდან, Yahoo-"
+"დან ან Riseup ელფოსტიდან, ან"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1890,7 +1897,7 @@ msgstr "რა უნდა მოიმოქმედოთ თუ Tor-ქს�
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### გამართვა"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1908,7 +1915,7 @@ msgstr ""
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.description)
@@ -1942,6 +1949,9 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting "
 "over HTTPS</a>."
 msgstr ""
+"* მიმოცვლილი მონაცემები Tor-ის მომხმარებლებსა და Onion-მომსახურებებს შორის "
+"დაცულია პირდაპირი დაშიფვრით, ასე რომ შეგიძლიათ არ იდარდოთ <a href=\"secure-"
+"connections\">HTTPS-ით დაკავშირებაზე</a>."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1977,7 +1987,7 @@ msgstr ""
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### დაკავშირება"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)

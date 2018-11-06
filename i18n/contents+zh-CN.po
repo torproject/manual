@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 19:42+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"PO-Revision-Date: 2018-11-06 21:58+0100\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
-"Language: zh-CN\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -24,6 +24,8 @@ msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
+"* 在下一页中填写您的名字，从下拉菜单中选择 \"Localization\"（本地化）和 "
+"\"Translator\" （翻译者）。"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -51,7 +53,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dd>"
-msgstr ""
+msgstr "<dd>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.seo_slug)
@@ -145,7 +147,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Known issues"
-msgstr ""
+msgstr "##### 已知问题的列表。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -161,6 +163,9 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"Tor 是一个由虚拟通道组成的网络，使您可以提高自己在互联网上的隐私和安全性。"
+"Tor 会将您的流量通过 Tor 网络内的三个随机的服务器（也称*中继*）发送、链路中的"
+"最后一个中继（“出口中继”）将流量发送到公共互联网。"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -187,8 +192,8 @@ msgid ""
 "Message to @get_tor with the words \"osx en\" in it (you don't need to "
 "follow the account)."
 msgstr ""
-"若要获取 OS X 平台之英文版 Tor 浏览器的下载超链接，只要将“osx en”这几个字写成消息并直接传讯发送给 @get_tor "
-"帐号即可。（您不需要关注该帐号）。"
+"若要获取 OS X 平台之英文版 Tor 浏览器的下载超链接，只要将“osx en”这几个字写成"
+"消息并直接传讯发送给 @get_tor 帐号即可。（您不需要关注该帐号）。"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -208,7 +213,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Tor circuit for this site"
-msgstr ""
+msgstr "##### 为此站点使用新 Tor 线路"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -223,14 +228,14 @@ msgstr "成为 Tor Project 的翻译者"
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
@@ -256,7 +261,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Using pluggable transports"
-msgstr ""
+msgstr "##### 使用可插拔传输"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -264,6 +269,9 @@ msgid ""
 "valid for a single session (until Tor Browser is exited or a <a href=\"/"
 "managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"* 默认情况下，Tor 浏览器不保存任何浏览记录。Cookie 仅在单次会话中有效（到 "
+"Tor 浏览器退出或者需要 <a href=\"managing-identities#new-identity\">新身份</"
+"a> 时失效）。"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -282,7 +290,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Quick fixes"
-msgstr ""
+msgstr "##### 快速修复"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -294,7 +302,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### Troubleshooting"
-msgstr ""
+msgstr "##### 故障排除"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
@@ -304,7 +312,7 @@ msgstr "下载"
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### 在 Transifex 上注册"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.description)
@@ -313,7 +321,7 @@ msgstr "了解如何使用 Tor 浏览器与 HTTPS 保护您的数据"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### 获取网桥地址"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
@@ -348,11 +356,11 @@ msgstr "增加安全级别将禁用或部分禁用某些浏览器功能以防止
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### 通过电子邮件使用 GetTor："
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -370,7 +378,7 @@ msgstr "obfs3"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Flash 播放器"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -389,6 +397,10 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"*  Tor 浏览器会让您的网络活动看起来像是来自于世界各个不同地区的网络连接，有时"
+"候某些像是银行或电子邮件服务的网站会认为您的帐号被他人盗用了，因此自动将您的"
+"帐号锁定，要解决此情况的唯一方式是利用网站服务提供的帐号恢复功能，或直接向该"
+"网站服务的提供业者说明您的情况。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
@@ -406,13 +418,15 @@ msgid ""
 "but not yet fixed. Please check the <a href=\"/known-issues\">Known Issues</"
 "a> page to see if the problem you are experiencing is already listed there."
 msgstr ""
+"Tor 浏览器的开发仍在不断进行中，有些已知的软件错误可能仍未被修复，您可以查阅"
+"<a href=\"known-issues\">已知问题</a>页面了解您遭遇的问题是否已被收录其中。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
-msgstr ""
+msgstr "<dl>"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -470,13 +484,15 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
+"* 洋葱服务的真实网络地址与地理位置信息被隐藏，因此很难过滤审查通往该站点之的"
+"网络连接，也很难找出该网站管理员的真实身份。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dt>"
-msgstr ""
+msgstr "</dt>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"even\">"
@@ -520,13 +536,13 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### 您的连接是否受到审查？"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
-msgstr ""
+msgstr "* 在下拉菜单中选择你想要翻译的语言："
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -537,6 +553,10 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"大多数<a href=\"transports\">可插拔传输</a>（诸如 obfs3 和 obfs4）依赖于使"
+"用“网桥”中继。与普通的 Tor 中继类似，网桥由志愿者运行。然而与普通的中继普通，"
+"它们并不是公开列出，因此敌人不能轻易识别它们。将网桥与可插拔传输结合使用有助"
+"于掩饰您使用 Tor 的事实。"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -594,6 +614,8 @@ msgid ""
 "* You are now signed up! Go to the <a href=\"https://www.transifex.com/otf/"
 "torproject/\">Tor Transifex page</a>."
 msgstr ""
+"* 你现在已经登入！前往<a href=\"https://www.transifex.com/otf/torproject/"
+"\">Tor Transifex 网页 </a>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -625,7 +647,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* 卡巴斯基 Internet Security 2012"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -639,6 +661,8 @@ msgid ""
 "your real Internet (IP) address, and will not know who you are unless you "
 "explicitly identify yourself."
 msgstr ""
+"* 您使用的网站和服务的运营商以及任何监视它们的人都将看到连接来自 Tor 网络而不"
+"是您的互联网IP地址，并且不知道您是谁，除非您明确标识自己。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -649,7 +673,7 @@ msgstr "访问网站的计算机的网络位置（公网IP地址）。"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### 输入网桥地址"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
@@ -666,7 +690,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### 我应该使用哪种传输？"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -719,15 +743,20 @@ msgid ""
 "reloaded. This option does not clear any private information or unlink your "
 "activity, nor does it affect your current connections to other websites."
 msgstr ""
+"当您目前的洋葱路由回路中所使用的<a href=\"about-tor-browser#how-tor-works\">"
+"出口节点</a>无法正常连上您所欲访问的网站或加载其网页时，可以试着运行此功能，"
+"它会让当前窗口或页签创建另一条新的洋葱路由回路并重新连上该址定网站，若有其他"
+"窗口或页签也是连上该网站的话，在刷新时也会改用新的洋葱路由回路来连接，此功能"
+"不会清除任何个人相关信息或中断连上其他网站的活动。"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Security Levels"
-msgstr ""
+msgstr "##### 安全级别"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### 浏览器附加组件"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -782,7 +811,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -800,13 +829,15 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* Tor 浏览器的软件包日期被设定为 2000年1月1日00:00:00 UTC。这是为了确保软件包"
+"构建（编译）后的结果完全可重复。"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
-msgstr ""
+msgstr "* Tor 浏览器也可在 Tor 浏览器的目录内运行下列命令行来启动："
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -818,6 +849,10 @@ msgid ""
 "then be taken to the <a href=\"/circumvention\">Circumvention</a> screen to "
 "configure a pluggable transport."
 msgstr ""
+"在第一个画面中您必须回答您所处的网络环境是否会过滤阻挡通往洋葱路由网络的连"
+"接，若您认为不会的话，请选择“否”。否则若您的网络有被过滤阻挡，或您已经尝试过"
+"各种连上洋葱路由网络的方法但都失败的话，请选择“是”，本程序将会带领您前往<a "
+"href=\"circumvention\">审查规避</a>画面进行 可插拔传输层 的相关设置。"
 
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
@@ -860,7 +895,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -901,7 +936,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### 在 Tor 上登录"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -918,11 +953,14 @@ msgid ""
 "* When both buttons are green, you see the data that is visible to observers "
 "when you are using both tools."
 msgstr ""
+"* 当两个按钮都为绿色状态时，您可以看到在这两个功能都同时启动的状态下，网络监"
+"听者依能够窃取到的数据有哪些。"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
+"* 在下一页中，选择 \"Join an existing project\"（加入现有的项目）并继续。"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -974,13 +1012,17 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"有时候您的网络服务供应商（ISP）或政府单位会过滤阻挡通往洋葱路由网络的连接，因"
+"此 Tor 浏览器有内置一些能够绕过这类过滤机制的规避工具，它们通常叫作“可插拔传"
+"输层”，您可以参考此网页<a href=\"transports\">可插拔传输层</a>以获取更多关于"
+"各种目前可以使用的规避工具。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dd>"
-msgstr ""
+msgstr "</dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -997,7 +1039,7 @@ msgstr "Tor 浏览器不好使了该怎么做"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Changing identities and circuits"
-msgstr ""
+msgstr "##### 变更身份和线路"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
@@ -1011,6 +1053,8 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* 移除掉 Tor 浏览器后再重新安装，若是要更新版本的话，请不要用新版软件去覆盖已"
+"安装的旧版本，安装前先确认旧版本是否已经完全移除。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1025,7 +1069,7 @@ msgstr "故障排除"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Identity"
-msgstr ""
+msgstr "##### 更换身份"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1040,6 +1084,9 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"当您的成员资格被批准之后，您就可以开始翻译工作了。当您准备好开始的时候，请通"
+"过导航返回到<a href=\"https://www.transifex.com/otf/torproject/\">Tor "
+"Transifex page</a>页面。感谢您对项目的帮助！"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1048,18 +1095,21 @@ msgid ""
 "way (for more details, see the <a href=\"/transports\">Pluggable Transports</"
 "a> page), and their effectiveness depends on your individual circumstances."
 msgstr ""
+"在洋葱路由启动器中所罗列的可插拔传输层，其运作原理各不相同（请参考 <a href="
+"\"transports\">可插拔传输层</a>以了解更多相关信息），且产生的效果也会视您的的"
+"实际情况而定。"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### 通过 Twitter 使用 GetTor："
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
-msgstr ""
+msgstr "</dl>"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.title)
@@ -1074,7 +1124,7 @@ msgstr "管理身份"
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Accessing the Security Slider"
-msgstr ""
+msgstr "##### 操作安全滑块"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1089,7 +1139,7 @@ msgstr ""
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
-msgstr ""
+msgstr "* 您的计算机的系统始终必须正确设置，否则 Tor 无法连接。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1103,20 +1153,22 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* 请确认您电脑中所安装的杀毒软件不会干扰或阻挡洋葱路由的运行，若您不确定的话"
+"可能需要查阅杀毒软件的相关手册或说明文档。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### 如何访问一个洋葱服务"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* A notification will now show up on the top of the page like so:"
-msgstr ""
+msgstr "* 在屏幕上端会有这样的通知出现："
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.title)
 msgid "About Tor Browser"
@@ -1179,10 +1231,11 @@ msgid ""
 "be served over two different Tor circuits, so the tracker will not know that "
 "both connections originate from your browser."
 msgstr ""
-"Tor "
-"浏览器会以您在网址列中的网站名称为中心，来维护您与网站间的交互关系，因此，即使您连上了两个不同的网站，但两个站台上都有使用相同的第三方网络追踪服务，"
-"Tor 浏览器仍会强制让您与这两个网站间的连接，透过两条不同的洋葱路由回路来交换数据，如此可以让第三方网络追踪服务非常难以察觉这两条通往不同网站的连接，其"
-"实都是源自于您的浏览器。"
+"Tor 浏览器会以您在网址列中的网站名称为中心，来维护您与网站间的交互关系，因"
+"此，即使您连上了两个不同的网站，但两个站台上都有使用相同的第三方网络追踪服"
+"务，Tor 浏览器仍会强制让您与这两个网站间的连接，透过两条不同的洋葱路由回路来"
+"交换数据，如此可以让第三方网络追踪服务非常难以察觉这两条通往不同网站的连接，"
+"其实都是源自于您的浏览器。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1194,7 +1247,7 @@ msgstr ""
 msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
-msgstr ""
+msgstr "* 在下一页，从下拉菜单中选择您使用的语言并点击继续。"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
@@ -1203,7 +1256,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### 可插拔传输的类型"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1221,6 +1274,9 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* 洋葱服务的网址是为自动生成，因此网站的架设者或管理员无需另行购买网络域名。"
+"其网址皆是以 .onion 结尾的，此等设计可以让洋葱路由系统确保所有网络连接都通往"
+"正确的站点，并且其连接数据未被窜改。"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.seo_slug)
@@ -1238,7 +1294,7 @@ msgstr "卸载"
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
-msgstr ""
+msgstr "* Tor 需要您的系统时钟（及您的时区）设为正确的时间。"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1258,7 +1314,7 @@ msgstr ""
 msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
-msgstr ""
+msgstr "* 确保没有 Tor 浏览器正在运行。如果您无法确认，请重启您的计算机。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1291,16 +1347,18 @@ msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
+"* 点击“Tor”按钮可以查看当您未使用洋葱路由时，有哪些数据可以让网络监听者直接拦"
+"截获取，当此按钮呈现绿色状态时，表示洋葱路由功能已经启动。"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### 网址栏"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### 潜在的可见数据"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "meek"
@@ -1316,6 +1374,10 @@ msgid ""
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
 "sites."
 msgstr ""
+"在此安全性等级下，以 HTML 5 建构的视频和音频可通过 NoScript 扩展程序来随点即"
+"播；所有 JavaScript 性能优化皆会被关闭；某些数学函数可能无法正常显示；某些字"
+"体渲染功能被关闭；部分格式的图形显示功能被关闭；针对不支持< a href=\"secure-"
+"connections\">HTTPS</a> 加密连接的网站会关闭 JavaScript 功能。"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1390,7 +1452,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* 临时禁用您的防火墙。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
@@ -1420,7 +1482,7 @@ msgstr "在询问您的互联网服务提供商 (ISP) 是否封锁了 Tor 网络
 msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
-msgstr ""
+msgstr "* 需要 Adobe Flash 的视频不可用。Flash 已因安全考虑而禁用。"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1441,12 +1503,12 @@ msgstr "当您通过 Tor 登录一个网站时，有几点应该牢记："
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### Tor 如何工作"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials (MSE)"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1470,6 +1532,8 @@ msgid ""
 "need to enter bridge addresses manually. Read the <a href=\"/bridges/"
 "\">Bridges</a> section to learn what bridges are and how to obtain them."
 msgstr ""
+"如果您试过了上述的全部选项后还是不能上网，那就得手动输入网桥地址了。请参考<a "
+"href=\"bridges\">网桥</a>部分以进一步了解网桥的运作原理与获取方式。"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1483,10 +1547,12 @@ msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays."
 msgstr ""
+"大多数<a href=\"transports\">可插拔传输</a>（诸如 obfs3 和 obfs4）依赖于使"
+"用“网桥”中继。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1495,6 +1561,9 @@ msgid ""
 "censoring connections to the Tor network. Read the <a href=\"/circumvention"
 "\">Circumvention</a> section for possible solutions."
 msgstr ""
+"* 如果您仍然无法连接上网，很有可能是因为您的网络服务供应商有使用会阻挡洋葱路"
+"由网络连接的网络过滤监控系统，请参考<a href=\"circumvention\">回避</a>网页以"
+"了解可行的解决方式。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1515,7 +1584,7 @@ msgstr "了解 Tor 浏览器如何保护您的隐私和匿名性"
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
-msgstr ""
+msgstr "* 点击最右端的蓝色 'Join Team' 按钮"
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
@@ -1535,6 +1604,8 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"* 参见 <a href=\"secure-connections\">安全连接</a> 页面了解如何在安全登录时确"
+"保连接安全的重要信息。"
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.description)
@@ -1574,6 +1645,8 @@ msgid ""
 "locally, will not be able to track your internet activity, including the "
 "names and addresses of the websites you visit."
 msgstr ""
+"* 您的互联网服务提供商和任何本地的监视者都将无法查看您的连接、跟踪您的网络活"
+"动，包括您所访问网站的名称和地址。"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1598,17 +1671,17 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "* Tor 在已使用代理时无法使用一个网桥。"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
-msgstr ""
+msgstr "##### 通过 Jabber/XMPP（Jitsi, CoyIM 等） 使用 GetTor："
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus for Mac"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1618,7 +1691,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### GetTor"
-msgstr ""
+msgstr "##### GetTor"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.description)
@@ -1632,11 +1705,15 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"您也可以借由连接 <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo 的洋葱"
+"服务</a>确认您是否可以正常访问洋葱服务"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
+"* 使用 Gmail、Yahoo 或 Riseup 的邮箱服务发送电子邮件至 bridges@torproject."
+"org ，或者"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1644,6 +1721,8 @@ msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
+"* 而当这两个按钮都呈现灰色时，您则可以查看当这两个功能都在关闭的状态下时，网"
+"络监听者能够拦截窃取到的数据有哪些。"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1670,7 +1749,7 @@ msgstr "Tor 网络被拦截该怎么做"
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### 配置"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1680,10 +1759,13 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* 要在 Ubuntu 上运行 Tor 浏览器，用户需要执行一个 shell 脚本。打开“文"
+"件”（Unity 的浏览器），打开 首选项 → 行为选项卡 → 设置“打开时运行可执行文本文"
+"件” 为“始终询问”，然后点击确定。"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.description)
@@ -1717,6 +1799,8 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting "
 "over HTTPS</a>."
 msgstr ""
+"* Tor 浏览器用户与洋葱服务之间所有流量都为端对端加密，因此您无需担心连接是否"
+"是为<a href=\"secure-connections\">通过 HTTPS</a> 进行。"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1728,6 +1812,10 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"在大多数情况下，点击“连接”可以让您不作任何进一步的设置就直接连上洋葱路由网"
+"络，点击后将会出现一条状态栏显示目前洋葱路由的连接创建过程，如果您的网络带宽"
+"充足但是此状态栏却长时间停滞在某个点上无法完成连接创建，请参考<a href="
+"\"troubleshooting\">错误处理</a>页面以寻求解决问题的协助。"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1745,14 +1833,14 @@ msgstr ""
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### 连接"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
-msgstr ""
+msgstr "* 下列防火墙软件已知会干扰 Tor 并可能需暂时禁用："
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1765,6 +1853,8 @@ msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
 "you're using HTTPS. The button will turn green to indicate that HTTPS is on."
 msgstr ""
+"* 您可以点击“HTTPS”功能按钮来查看当 HTTPS 启用时，有哪些数据仍然可能被网络监"
+"听者拦截窃取。而当此按钮呈现绿色状态时，表示 HTTPS 功能已经启动。"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.description)
