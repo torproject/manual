@@ -869,9 +869,6 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
-"* ÐÐ° Ð¿Ð°ÐºÐµÑÐµ Tor-Ð±ÑÐ°ÑÐ·ÐµÑÐ° Ð¿ÑÐ¾ÑÑÐ°Ð²Ð»ÐµÐ½Ð° Ð´Ð°ÑÐ° 1 ÑÐ½Ð²Ð°ÑÑ "
-"2000 Ð³Ð¾Ð´Ð°, 00:00:00 UTC. Ð­ÑÐ¾ ÑÐ´ÐµÐ»Ð°Ð½Ð¾ Ð´Ð»Ñ Ð¿Ð¾Ð»Ð½Ð¾Ð¹ "
-"Ð²Ð¾ÑÐ¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´Ð¸Ð¼Ð¾ÑÑÐ¸ ÑÐ±Ð¾ÑÐºÐ¸ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ñ."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
