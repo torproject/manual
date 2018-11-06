@@ -5,9 +5,9 @@ The current online version of the manual can be found at
  - http://dgvdmophvhunawds.onion/
 
 To clone the code use either of
-`git clone ​https://gitweb.torproject.org/project/web/manual.git/`
-`git clone ​http://dccbbv6cooddgcrq.onion/project/web/manual.git/`
-or browse itonline: http://jqs44zhtxl2uo6gk.onion/project/web/manual.git
+`git clone https://gitweb.torproject.org/project/web/manual.git/`
+`git clone http://dccbbv6cooddgcrq.onion/project/web/manual.git/`
+or browse it online: http://jqs44zhtxl2uo6gk.onion/project/web/manual.git
 
 The main ticket is #27621
 - https://bugs/torproject.org/27621
@@ -19,7 +19,7 @@ What is Lektor?
 [Lektor](https://www.getlektor.com) is a framework to generate and serve
 websites from Markdown files. For an intro to manage files see #24275.
 
-Its code can be found at ​https://github.com/lektor/lektor
+Its code can be found at https://github.com/lektor/lektor
 
 Update translation
 ------------------
