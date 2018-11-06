@@ -9,7 +9,7 @@ seo_slug: plugins
 key: 10
 ---
 body:
-##### Flash Player
+##### Flash 播放器
 
 某些如 Vimeo 等视频网站使用 Flash Player 插件来播放内容。而非常遗憾地，此插件程序是独立运行的软件，件且完全不遵循 Tor 浏览器之代理服务器设置。因此若启用此插件程序，您的真实网络地址将会直接公开给网站的管理员以及任何正在网络上监听的恶意人士所知，故在 Tor 浏览器中 Flash Player 为默认关闭，在此也不建议您去启用它。
 
@@ -21,7 +21,7 @@ JavaScript 是一种内嵌于网页中的编程语言，它可以提供网站的
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely. <img class="col-md-6" src="/static/images/noscript_menu.png"> Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
-##### Browser Add-ons
+##### 浏览器附加组件
 
 Tor 浏览器基于 Firefox，任何兼容 Firefox 的附加组件和主题都可以在 Tor 浏览器中安装。
 

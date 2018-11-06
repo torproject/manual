@@ -13,20 +13,20 @@ body:
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-##### Quick fixes
+##### 快速修复
 
 如果 Tor 浏览器没有连接，那么可能比较简单。逐个尝试下列方法：
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
-* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
-* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
-* Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* 您的计算机的系统始终必须正确设置，否则 Tor 无法连接。
+* 确保没有 Tor 浏览器正在运行。如果您无法确认，请重启您的计算机。
+* 请确认您电脑中所安装的杀毒软件不会干扰或阻挡洋葱路由的运行，若您不确定的话可能需要查阅杀毒软件的相关手册或说明文档。
+* 临时禁用您的防火墙。
+* 移除掉 Tor 浏览器后再重新安装，若是要更新版本的话，请不要用新版软件去覆盖已安装的旧版本，安装前先确认旧版本是否已经完全移除。
 
-##### Is your connection censored?
+##### 您的连接是否受到审查？
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+* 如果您仍然无法连接上网，很有可能是因为您的网络服务供应商有使用会阻挡洋葱路由网络连接的网络过滤监控系统，请参考<a href="circumvention">回避</a>网页以了解可行的解决方式。
 
-##### Known issues
+##### 已知问题的列表。
 
-Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+Tor 浏览器的开发仍在不断进行中，有些已知的软件错误可能仍未被修复，您可以查阅<a href="known-issues">已知问题</a>页面了解您遭遇的问题是否已被收录其中。

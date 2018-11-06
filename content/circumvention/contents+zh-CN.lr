@@ -10,9 +10,9 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+有时候您的网络服务供应商（ISP）或政府单位会过滤阻挡通往洋葱路由网络的连接，因此 Tor 浏览器有内置一些能够绕过这类过滤机制的规避工具，它们通常叫作“可插拔传输层”，您可以参考此网页<a href="transports">可插拔传输层</a>以获取更多关于各种目前可以使用的规避工具。
 
-##### Using pluggable transports
+##### 使用可插拔传输
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -26,10 +26,10 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 选择“使用集成的网桥连接”，目前 Tor 浏览器有提供六个可插拔传输层供您选择。
 
-##### Which transport should I use?
+##### 我应该使用哪种传输？
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+在洋葱路由启动器中所罗列的可插拔传输层，其运作原理各不相同（请参考 <a href="transports">可插拔传输层</a>以了解更多相关信息），且产生的效果也会视您的的实际情况而定。
 
 如果您第一次运行时希望规避审查，您应该尝试不同的可插拔传输层：obfs3, obfs4, ScrambleSuit, fte, meek-azure 和 Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+如果您试过了上述的全部选项后还是不能上网，那就得手动输入网桥地址了。请参考<a href="bridges">网桥</a>部分以进一步了解网桥的运作原理与获取方式。

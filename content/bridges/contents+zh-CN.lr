@@ -2,25 +2,25 @@ _model: topic
 ---
 title: 网桥
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: 大多数<a href="transports">可插拔传输</a>（诸如 obfs3 和 obfs4）依赖于使用“网桥”中继。
 ---
 seo_slug: 网桥
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+大多数<a href="transports">可插拔传输</a>（诸如 obfs3 和 obfs4）依赖于使用“网桥”中继。与普通的 Tor 中继类似，网桥由志愿者运行。然而与普通的中继普通，它们并不是公开列出，因此敌人不能轻易识别它们。将网桥与可插拔传输结合使用有助于掩饰您使用 Tor 的事实。
 
 其他可插拔传输层（例如 meek）使用不同的抗审查技术，不依赖于网桥。您不需要为了使用这些传输而获取网桥地址。
 
-##### Getting bridge addresses
+##### 获取网桥地址
 
 因为网桥地址非公开，您需要自行请求。您有两个选项：
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* 使用 Gmail、Yahoo 或 Riseup 的邮箱服务发送电子邮件至 bridges@torproject.org ，或者
 
-##### Entering bridge addresses
+##### 输入网桥地址
 
 在您获得一些网桥地址后，您需要将它们输入到 Tor 启动器中。
 

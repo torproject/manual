@@ -14,20 +14,20 @@ body:
 
 洋葱服务提供了许多架设在公开网络空间之普通网站所没有的优势：
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* 洋葱服务的真实网络地址与地理位置信息被隐藏，因此很难过滤审查通往该站点之的网络连接，也很难找出该网站管理员的真实身份。
+* Tor 浏览器用户与洋葱服务之间所有流量都为端对端加密，因此您无需担心连接是否是为<a href="secure-connections">通过 HTTPS</a> 进行。
+* 洋葱服务的网址是为自动生成，因此网站的架设者或管理员无需另行购买网络域名。其网址皆是以 .onion 结尾的，此等设计可以让洋葱路由系统确保所有网络连接都通往正确的站点，并且其连接数据未被窜改。
 
-##### How to access an onion service
+##### 如何访问一个洋葱服务
 
 和其它的网站一样，您也需要知道您要访问的洋葱服务的地址。洋葱服务的地址由 16 位（对于新的 V3 格式是 56 位）几乎随机的字母和数字加上 ".onion" 组成。
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### 故障排除
 
 如果您无法访问您想访问的洋葱服务，首先检查您所输入的洋葱服务的地址是否正确。一个微小的错误（例如一个字母错误）都会使 Tor 浏览器无法连接到网站。
 
 如果您仍然无法连上该洋葱服务的话，请稍候再试，有可能是网络连接有出现暂时性阻碍，或者是该网站的管理员暂时将站台关闭了。
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+您也可以借由连接 <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo 的洋葱服务</a>确认您是否可以正常访问洋葱服务

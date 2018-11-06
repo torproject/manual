@@ -12,7 +12,7 @@ body:
 
 თუ გსურთ დაეხმაროთ პროექტს სახელმძღვანელოს ან Tor-ბრაუზერის გადათარგმნაში თქვენს ენაზე, მეტად მადლიერნი დაგრჩებით! წვლილის შეტანის დასაწყებად, საჭიროა ანგარიშის შექმნა Transifex-ზე, თარგმნის გასაიოლებელ ხელსაწყოზე. ქვემოთ მოცემულია მითითებები, თუ როგორ ხდება ანგარიშის შექმნა და მუშაობის დაწყება.
 
-##### Signing up on Transifex
+##### Transifex-ზე ანგარიშის შექმნა
 
 * Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>. Enter your information into the fields and click the 'Sign Up' button:
 
@@ -24,7 +24,7 @@ body:
 
 * შემდეგ გვერდზე, აირჩიეთ „Join an existing project“ პროექტში ჩასართავად.
 * მომდევნო გვერდზე კი აირჩიეთ ენა, რომელზეც საუბრობთ, ჩამოსაშლელი მენიუდან და განაგრძეთ.
-* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
+* თქვენი ანგარიში უკვე შექმნილია! გადადით <a href="https://www.transifex.com/otf/torproject/">Tor-ის Transifex-გვერდზე</a>.
 * დააწკაპეთ მარჯვნივ არსებულ ლურჯ ღილაკს „Join Team“ გუნდში შემოერთებისთვის:
 
 <img class="col-md-6" src="/static/images/tr3.png">
