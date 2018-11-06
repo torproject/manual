@@ -10,19 +10,17 @@ key: 1
 ---
 body:
 
-Tor Browser uses the Tor network to protect your privacy and anonymity.
-Using the Tor network has two main properties:
+টর ব্রাউজার আপনার গোপনীয়তা এবং গোপনীয়তা রক্ষা করার জন্য টর নেটওয়ার্ক ব্যবহার করে। টর নেটওয়ার্ক ব্যবহার করে দুটি প্রধান বৈশিষ্ট্য রয়েছে:
 
-* Your internet service provider, and anyone watching your connection locally, will not be able to track your internet activity, including the names and addresses of the websites you visit.
+* আপনার ইন্টারনেট পরিষেবা প্রদানকারী, এবং স্থানীয়ভাবে আপনার সংযোগ দেখে কেউ, আপনার ওয়েব সাইটের নাম এবং ঠিকানা সহ আপনার ইন্টারনেট কার্যকলাপ ট্র্যাক করতে সক্ষম হবে না।
 
-* The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
+* আপনি ব্যবহার করেন এমন ওয়েবসাইট এবং পরিষেবাগুলির অপারেটর এবং যে কেউ তাদেরকে দেখছেন, আপনার আসল ইন্টারনেট (আইপি) ঠিকানার পরিবর্তে টর নেটওয়ার্কে আসছে একটি সংযোগ দেখতে পাবেন এবং যদি আপনি স্পষ্টভাবে নিজেকে চিহ্নিত না করেন তবে আপনি কে জানেন না।
 
 উপরন্তু, টর ব্রাউজার "ফিঙ্গারপ্রিন্টিং" থেকে ওয়েবসাইটগুলিকে প্রতিরোধ করতে বা আপনার ব্রাউজার কনফিগারেশনের উপর ভিত্তি করে আপনাকে সনাক্ত করার জন্য ডিজাইন করা হয়েছে।
 
-By default, Tor Browser does not keep any browsing history.
-Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
+ডিফল্টরূপে, টর ব্রাউজার কোনও ব্রাউজিং ইতিহাস রাখে না কুকিজ একক সেশনের জন্য শুধুমাত্র বৈধ (টর ব্রাউজার থেকে প্রস্থান করা হয় বা একটি <a href="managing-identities#new-identity">নতুন পরিচয়</a> অনুরোধ করা হয়) পর্যন্ত বৈধ।
 
-##### How Tor works
+##### কিভাবে টর কাজ করে
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet.
 Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network.
@@ -30,5 +28,4 @@ The last relay in the circuit (the “exit relay”) then sends the traffic out 
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 
-The image above illustrates a user browsing to different websites over Tor.
-The green middle computers represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.
+উপরোক্ত চিত্রটি টরকে বিভিন্ন ওয়েবসাইটগুলিতে ব্যবহারকারী ব্রাউজারকে চিত্রিত করে। সবুজ মাঝারি কম্পিউটার টর নেটওয়ার্কগুলিতে রিলেস উপস্থাপন করে, যখন তিনটি কী ব্যবহারকারীর মধ্যে এনক্রিপশন স্তর এবং প্রতিটি রিলে প্রতিনিধিত্ব করে।
