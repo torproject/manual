@@ -10,6 +10,34 @@ primary = yes
 url_prefix = /
 locale = en_US
 
+[alternatives.bn]
+name = বাংলা ভাষা  (bn)
+url_prefix = /bn/
+locale = bn
+
+
+[alternatives.ca]
+name = Catala (ca)
+url_prefix = /ca/
+locale = ca
+
+
+[alternatives.de]
+name = Deutsch (de)
+url_prefix = /de/
+locale = de
+
+
+[alternatives.el]
+name = Ελληνικά (el)
+url_prefix = /el/
+locale = el
+
+[alternatives.en-US]
+name = English (en)
+url_prefix = /en-US/
+locale = en
+
 [alternatives.es]
 name = Español
 url_prefix = /es/
@@ -19,3 +47,48 @@ locale = es
 name = Français
 url_prefix = /fr/
 locale = fr
+
+[alternatives.ga]
+name = Gaeilge (ga)
+url_prefix = /ga/
+locale = ga
+
+[alternatives.id]
+name = Indonesia
+url_prefix = /id/
+locale = id_ID
+
+[alternatives.it]
+name = Indonesia
+url_prefix = /it/
+locale = it
+
+[alternatives.he]
+name = עברית (he)
+url_prefix = /he/
+locale = he
+
+[alternatives.ka]
+name = Georgian (ka)
+url_prefix = /ka/
+locale = ka
+
+[alternatives.pt-BR]
+name = Português (Brasil)
+url_prefix = /pt-BR/
+locale = pt_BR
+
+[alternatives.ru]
+name = Русский (ru)
+url_prefix = /ru/
+locale = ru
+
+[alternatives.tr]
+name = Turkish
+url_prefix = /tr/
+locale = tr
+
+[alternatives.zh-CN]
+name = 简体字 (zh-CN)
+url_prefix = /zh-CN/
+locale = zh_CN
