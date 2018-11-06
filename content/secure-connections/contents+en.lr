@@ -9,9 +9,7 @@ seo_slug: secure-connections
 key: 7
 ---
 body:
-If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper.
-If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping.
-You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
+If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
 
 <img class="col-md-6" src="/static/images/https.png">
 
@@ -19,10 +17,8 @@ The following visualization shows what information is visible to eavesdroppers w
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor.
-The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS.
-The button will turn green to indicate that HTTPS is on.
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
 * When both buttons are green, you see the data that is visible to observers when you are using both tools.
 * When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Becoming a Tor Translator
+title: გახდით Tor-ის მთარგმნელი
 ---
-description: Becoming a translator for the Tor Project
+description: გახდით მთარგმნელი Tor-პროექტში
 ---
 seo_slug: becoming-tor-translator
 ---
@@ -10,14 +10,11 @@ key: 13
 ---
 body:
 
-If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated!
-In order to begin contributing you will have to sign up with Transifex, the third-party that faciliates our translations.
-Below is an outline of how to sign up and begin.
+თუ გსურთ დაეხმაროთ პროექტს სახელმძღვანელოს ან Tor-ბრაუზერის გადათარგმნაში თქვენს ენაზე, მეტად მადლიერნი დაგრჩებით! წვლილის შეტანის დასაწყებად, საჭიროა ანგარიშის შექმნა Transifex-ზე, თარგმნის გასაიოლებელ ხელსაწყოზე. ქვემოთ მოცემულია მითითებები, თუ როგორ ხდება ანგარიშის შექმნა და მუშაობის დაწყება.
 
 ##### Signing up on Transifex
 
-* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
-  Enter your information into the fields and click the 'Sign Up' button:
+* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>. Enter your information into the fields and click the 'Sign Up' button:
 
 <img class="col-md-6" src="/static/images/tr1.png">
 
@@ -40,5 +37,4 @@ Below is an outline of how to sign up and begin.
 
 <img class="col-md-6" src="/static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin.
-Thanks for your interest in helping the project!
+After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!

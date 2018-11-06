@@ -1,34 +1,31 @@
 _model: topic
 ---
-title: Known issues
+title: Fadhbanna ar eolas
 ---
-description: Known issues
+description: Fadhbanna ar eolas
 ---
-seo_slug: uninstalling
+seo_slug: Díshuiteáil
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Teastaíonn an t-am ceart ar chlog an chórais (agus an crios ama ceart) ó Tor.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Is eol dúinn go gcuireann na bogearraí balla dóiteáin seo isteach ar Tor, agus seans gur gá duit iad a dhíchumasú go sealadach:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
-  * Microsoft Security Essentials
+  * Bogearra Frithvíreas Sophos ar Mac
+  * Riachtanais Slándála Microsoft
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Níl aon fháil ar fhíseáin a úsáideann Adobe Flash. Tá Flash díchumasaithe ar chúiseanna slándála.
 
-* Tor can not use a bridge if a proxy is set.
+* Ní féidir le Tor droichead a úsáid má tá seachfhreastalaí ann.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC.
+* Is é 1 Eanáir 2000 00:00:00 UTC an dáta ar phacáiste Bhrabhsálaí Tor. Cinntíonn sé seo gur féidir gach leagan den bhogearra a atáirgeadh go cruinn.
 
-* This is to ensure that each software build is exactly reproducible.
+* Caithfidh tú script a rith chun Brabhsálaí Tor a úsáid ar chóras Ubuntu. Oscail "File" (taiscéalaí Unity), oscail Preferences → Behavior Tab agus faoi "Run executable text files when they are opened", roghnaigh "Ask every time", ansin cliceáil "OK".
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script.
-Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
-
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Nó is féidir leat Brabhsálaí Tor a thosú ó líne na n-orduithe tríd an ordú seo a leanas a rith laistigh de chomhadlann Bhrabhsálaí Tor:
 
 	./start-tor-browser.desktop

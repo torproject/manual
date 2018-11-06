@@ -1,47 +1,45 @@
 _model: topic
 ---
-title: Security Slider
+title: מחוון אבטחה
 ---
-description: Configuring Tor Browser for security and usability
+description: מתצר את דפדפן Tor למען אבטחה ושימושיות
 ---
 seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity.
-Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+דפדפן Tor מכיל “מחוון אבטחה“ אשר נותן לך להגביר את אבטחתך ע"י השבתת מאפייני אתר מסוימים שיכולים להיות בשימוש כדי לתקוף את אבטחתך ואלמוניותך. הגברת רמת האבטחה של דפדפן Tor תמנע מדפים לתפקד כראוי, כך שעליך לשקול את צורכי אבטחתך כנגד המעלה של השימושיות שאתה דורש.
 
 ##### Accessing the Security Slider
 
 <img class="col-md-6" src="/static/images/slider.png">
 
-The Security Slider is located in Torbutton’s “Security Settings” menu.
+מחוון האבטחה ממוקם בתפריט ”הגדרות אבטחה“ של Torbutton.
 
 ##### Security Levels
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
-Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
+הגברת הרמה של מחוון האבטחה תשבית או תשבית חלקית מאפייני דפדפן מסוימים כדי להגן מפני התקפות אפשריות.
 
 <dl>
 <dt>
-Safest
+הכי בטוח
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
+ברמה זו, מדית HTML5 של שמע ווידיאו נעשית לחץ-כדי-לנגן באמצעות NoScript; כל מיטובי הביצוע של JavaScript מושבתים; מספר משוואות מתמטיות עשויות לא להיות מוצגות כראוי; מספר מאפיינים של תיצוג גופנים מושבתים; מספר סוגים של תמונות מושבתים; JavaScript מושבת כברירת מחדל בכל האתרים; רוב התסדירים של וידיאו ושמע מושבתים; ומספר גופנים וצלמיות עשויים לא להיות מוצגים כראוי.
 </dd>
 <dt>
-Safer
+בטוח יותר
 </dt>
 <dd>
 At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
 </dd>
 <dt>
-Standard
+תקני
 </dt>
 <dd>
-At this level, all browser features are enabled.
-This is the most usable option.
+ברמה זו, כל מאפייני הדפדפן מאופשרים. זוהי האפשרות השמישה ביותר.
 </dd>
 </dl>

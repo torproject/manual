@@ -20,17 +20,14 @@ La dirección de un servicio onion se genera automáticamente, de forma que los 
 
 ##### Cómo acceder a un servicio cebolla
 
-Como en cualquier otro sitio web, necesitarás conocer la dirección de un servicio cebolla para conectar con él.
-Una dirección cebolla es una cadena de 16 (y en formato V3, 56) de letras y números en su mayoría aleatorios, seguidos de ".onion".
+Al igual que en cualquier otro sitio web, deberás conocer la dirección de un servicio cebolla para poder conectarte. Una dirección cebolla es una cadena de 16 (y en formato V3, 56) en su mayoría letras y números aleatorios, seguidos de ".onion".
 
-Cuando accedas a un sitio web que use un servicio cebolla, el navegador Tor mostrará en la barra URL un icono de una cebollita verde visualizando el estado de tu conexión: segura y usando un servicio cebolla.
-Y si estás accediendo a un sitio web con https y servicio cebolla, te mostrará un icono de una cebolla verde y un candado.
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
 ##### Resolución de problemas
 
 Si no puedes acceder al servicio de onion que necesitas, asegúrate de haber ingresado correctamente la dirección de onion: incluso un pequeño error puede impedir que el  navegador Tor acceda al sitio.
 
-Si todavía no puedes conectar al servicio cebolla, por favor, inténtalo de nuevo más tarde.
-Puede haber un problema temporal de conexión, o los operadores del sitio pueden haberlo desconectado sin avisar.
+Si todavía no puedes conectar al servicio cebolla, por favor, inténtalo de nuevo más tarde. Puede haber un problema temporal de conexión, o los operadores del sitio pueden haber permitido que los usuarios sean desconectados sin avisar.
 
 También puedes asegurarte de poder acceder a otros servicios cebolla conectando al <a href="http://3g2upl4pq6kufc4m.onion">servicio cebolla de DuckDuckGo</a>.

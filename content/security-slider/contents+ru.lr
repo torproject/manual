@@ -1,47 +1,45 @@
 _model: topic
 ---
-title: Security Slider
+title: Переключатель безопасности
 ---
-description: Configuring Tor Browser for security and usability
+description: Настройка Tor Browser для безопасности и удобства использования
 ---
 seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity.
-Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+У Tor Browser есть "Переключатель безопасности", который позволяет вам усилить безопасность, отключая определенные возможность веб-сайтов, которые могут использоваться для атак в отношении вашей безопасности и анонимности. Увеличение уровня безопасности в Tor Browser может помешать некоторым веб-страницам работать правильно, так что вы должны взвесить ваши потребности в безопасности по сравнению с удобством использования, которое вам требуется.
 
 ##### Accessing the Security Slider
 
 <img class="col-md-6" src="/static/images/slider.png">
 
-The Security Slider is located in Torbutton’s “Security Settings” menu.
+Ползунок управления уровнем безопасности расположен в меню настройках безопасности и конфиденциальности Torbutton
 
 ##### Security Levels
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
-Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
+Увеличение уровня в переключателе безопасности отключает полностью или частично определенные возможности, чтобы защищать от возможных атак.
 
 <dl>
 <dt>
-Safest
+Наиболее безопасные
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
+На этом уровне, благодаря NoScript для проигрывания HTML5 видео и аудио требуется клик; все оптимизации производительности JavaScript отключаются; некоторые математические формулы могут отображаться неверно; отключаются некоторые возможности отображения шрифтов; отключаются некоторые типы изображений; JavaScript отключается по умолчанию на всех сайтах; запрещаются большинство видео и аудио форматов; некоторые шрифты и значки могут отображать некорректно.
 </dd>
 <dt>
-Safer
+Более безопасные
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+На этом уровне, благодаря NoScript для проигрывания HTML5 видео и аудио требуется клик; все оптимизации производительности JavaScript отключаются; некоторые математические формулы могут отображаться неверно; отключаются некоторые возможности отображения шрифтов; отключаются некоторые типы изображений; JavaScript отключается по умолчанию на всех не <a href="secure-connections">HTTPS</a> сайтах.
 </dd>
 <dt>
-Standard
+Стандартные
 </dt>
 <dd>
-At this level, all browser features are enabled.
-This is the most usable option.
+На этом уровне все функции браузера включены. Это самая удобная опция.
 </dd>
 </dl>

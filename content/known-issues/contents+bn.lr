@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Known issues
+title: জ্ঞাত সমস্যা
 ---
-description: Known issues
+description: জ্ঞাত সমস্যা
 ---
 seo_slug: uninstalling
 ---
@@ -10,25 +10,22 @@ key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* টর আপনার সিস্টেম ঘড়ি প্রয়োজন (এবং আপনার সময় অঞ্চল) সঠিক সময় সেট।
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
-  * Webroot SecureAnywhere
+* নিম্নলিখিত ফায়ারওয়াল সফ্টওয়্যার টর মধ্যে হস্তক্ষেপ পরিচিত হয়েছে এবং সাময়িকভাবে অক্ষম করা প্রয়োজন হতে পারে:
+  * Webroot Secure Anywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * ম্যাকের জন্য সোফোস অ্যান্টিভাইরাস
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* এমন ভিডিওগুলি যা Adobe Flash এর প্রয়োজন হয় অনুপলব্ধ। নিরাপত্তার কারণে ফ্ল্যাশ অক্ষম করা হয়েছে।
 
-* Tor can not use a bridge if a proxy is set.
+* একটি প্রক্সি সেট করা হলে টর একটি সেতু ব্যবহার করতে পারবেন না।
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC.
+* টর ব্রাউজার প্যাকেজ 1 জানুয়ারী, 2000 00:00:00 ইউটিসি তারিখ। এটি নিশ্চিত করতে হবে যে প্রতিটি সফ্টওয়্যার বিল্ডই সঠিকভাবে উত্পাদিত হয়।
 
-* This is to ensure that each software build is exactly reproducible.
+* উবুন্টুতে টর ব্রাউজার চালানোর জন্য, ব্যবহারকারীদের একটি শেল স্ক্রিপ্ট চালানো প্রয়োজন। "ফাইলগুলি" (ইউনিটি এর এক্সপ্লোরার) খুলুন, ওপেন প্রেফারেন্স → আচরণ ট্যাব → সেট করুন "এক্সিকিউটেবল টেক্সট ফাইলগুলি যখন খোলা হয় তখন" "প্রত্যেকবার জিজ্ঞাসা করুন" -এ ক্লিক করুন, তারপর ঠিক আছে ক্লিক করুন।
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script.
-Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
-
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* টর ব্রাউজারের ভিতর থেকে নিম্নোক্ত কমান্ডটি চালানোর মাধ্যমে কমান্ড লাইন থেকে টর ব্রাউজারটি চালু করা যায়:
 
 	./start-tor-browser.desktop

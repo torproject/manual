@@ -1,25 +1,22 @@
 _model: topic
 ---
-title: Uninstalling
+title: 卸载
 ---
-description: How to remove Tor Browser from your system
+description: 如何在您的系统上删除 Tor 浏览器
 ---
 seo_slug: uninstalling
 ---
 key: 12
 ---
 body:
-Tor Browser does not affect any of the existing software or settings on your computer.
-Uninstalling Tor Browser will not affect your system’s software or settings.
+Tor 浏览器不影响您的计算机上的任何现有的软件或设置。卸载 Tor 浏览器不会影响您的系统的软件或设置。
 
-Removing Tor Browser from your system is simple:
+在您的系统上删除 Tor 浏览器非常简单：
 
-1. Locate your Tor Browser folder.
-The default location on Windows is the Desktop; on Mac OS X it is the Applications folder.
-On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+1. Locate your Tor Browser folder. The default location on Windows is the Desktop; on Mac OS X it is the Applications folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
 
 2. Delete the Tor Browser folder.
 
 3. Empty your Trash
 
-Note that your operating system’s standard “Uninstall” utility is not used.
+注意：无需使用您的系统提供的标准的“卸载”工具。

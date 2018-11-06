@@ -10,14 +10,11 @@ key: 13
 ---
 body:
 
-Si estás interesado en ayudar con el proyecto traduciendo el manual o el navegador Tor a tu idioma, ¡te agradeceríamos la ayuda!
-Para comenzar a contribuir tendrás que registrarte con Transifex, el servicio externo que facilita nuestras traducciones.
-A continuación aparece un resumen de cómo registrarse y comenzar.
+Si estás interesado en ayudar con el proyecto traduciendo el manual o el navegador Tor a tu idioma, ¡te agradeceríamos la ayuda! Para comenzar a contribuir tendrás que registrarte con Transifex, página que facilita nuestras traducciones. A continuación aparece un resumen de cómo registrarse y comenzar.
 
 ##### Registrarse en Transifex
 
-* Dírigete a la <link href="https://transifex.com/signup/">página de registro de Transifex</link>.
-  Ingresa la información en los campos y clic en el botón 'Registrarse':
+* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>. Enter your information into the fields and click the 'Sign Up' button:
 
 <img class="col-md-6" src="/static/images/tr1.png">
 
@@ -40,5 +37,4 @@ A continuación aparece un resumen de cómo registrarse y comenzar.
 
 <img class="col-md-6" src="/static/images/tr5.png">
 
-Después de que se apruebe tu membresía, puedes comenzar a traducir; sencillamente dirigite a la <link href="https://www.transifex.com/otf/torproject/">página Tor Transifex</link> cuando estés lista para comenzar.
-¡Gracias por tu interés en apoyar el proyecto!
+After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Running Tor Browser for the first time
+title: Tor Browser uygulamasını ilk kez çalıştırma
 ---
-description: Learn how to use Tor Browser for the first time
+description: Tor Browser ilk kez kullanıldığında neler yapmak gerekir
 ---
 seo_slug: running-tor-browser
 ---
@@ -10,34 +10,23 @@ key: 3
 ---
 body:
 
-When you run Tor Browser for the first time, you will see the Tor Network Settings window.
-This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
+Tor Browser ilk kez çalıştırıldığında, Tor Ağ Ayarları penceresi görüntülenir. Bu pencerede, doğrudan Tor ağına bağlanma ya da bağlantı şeklinize göre Tor Browser ayarlarını yapılandırma seçeneği sunulur.
 
 ##### Connect
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
-Once clicked, a status bar will appear, showing Tor’s connection progress.
-If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
 ##### Configure
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-If you know that your connection is censored, or uses a proxy, you should select this option.
-Tor Browser will take you through a series of configuration options.
+Bağlantınızın sansürlendiğini ya da vekil sunucu kullandığını biliyorsanız, bu seçeneği seçmelisiniz. Tor Browser size bir dizi yapılandırma seçeneği sunar.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection.
-If you do not believe this is the case, select “No”.
-If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”.
-You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-The next screen asks if your connection uses a proxy.
-In most cases, this is not necessary.
-You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system.
-If possible, ask your network administrator for guidance.
-If your connection does not use a proxy, click “Continue”.
+Sonraki bölümde bağlantınızın bir vekil sunucu kullanıp kullanmadığı hakkında bilgi alınır. Çoğu durumda, bu gerekli değildir. Sisteminizdeki diğer tarayıcılar için de aynı ayarlar kullanıldığından "Evet" olarak seçmeniz gerekiyorsa genellikle bunu bilirsiniz. Olabiliyorsa, ağ yöneticinizden yardım isteyin. Bağlantınız bir vekil sunucu kullanmıyorsa, "Devam" üzerine tıklayın.
 
 <img class="col-md-6" src="/static/images/proxy_question.png">
 

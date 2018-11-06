@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Plugins, add-ons and JavaScript
+title: Plugin, add-on e JavaScript
 ---
-description: How Tor Browser handles add-ons, plugins and JavaScript
+description: Come il browser Tor gestisce add-ons, plugins e JavaScript
 ---
 seo_slug: plugins
 ---
@@ -11,29 +11,18 @@ key: 10
 body:
 ##### Flash Player
 
-Video websites, such as Vimeo make use of the Flash Player plugin to display video content.
-Unfortunately, this software operates independently of Tor Browser and cannot easily be made to obey Tor Browser’s proxy settings.
-It can therefore reveal your real location and IP address to the website operators, or to an outside observer.
-For this reason, Flash is disabled by default in Tor Browser, and enabling it is not recommended.
+I siti Web di video, come Vimeo, utilizzano il plug-in di Flash Player per visualizzare i contenuti video. Sfortunatamente, questo software funziona indipendentemente dal Browser Tor e potrebbe non rispettare la configurazione del proxy del Browser. Per questo motivo può rivelare la Vostra posizione reale e l'indirizzo IP agli operatori del sito web o ad un osservatore esterno. Per ovviare a ciò Flash è disabilitato di default nel Browser Tor e l'attivazione non è consigliata.
 
-Some video websites (such as YouTube) offer alternative video delivery methods that do not use Flash.
-These methods may be compatible with Tor Browser.
+Alcuni siti web ( ad esempio Youtube) offrono alternative per la visualizzazione dei video che non utilizzano Flash. Questi metodi potrebbero essere compatibili col browser Tor
 
 ##### JavaScript
 
-JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines.
-Unfortunately, JavaScript can also enable attacks on the security of the browser, which might lead to deanonymization.
+JavaScript è un linguaggio di programmazione utilizzato dai siti Web per offrire elementi interattivi quali video, animazioni, audio e timeline. Sfortunatamente, JavaScript può anche attivare attacchi alla sicurezza del browser, che potrebbero portare alla perdita dell'anonimato.
 
-Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window.
-NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
-Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites).
-However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely. <img class="col-md-6" src="/static/images/noscript_menu.png"> Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
 ##### Browser Add-ons
 
-Tor Browser is based on Firefox, and any browser add-ons or themes that are compatible with Firefox can also be installed in Tor Browser.
+Il browser Tor è basato su Firefox, questo permette di utilizzare add-ons e temi compatibili con Firefox anche nel browser Tor
 
-However, the only add-ons that have been tested for use with Tor Browser are those included by default.
-Installing any other browser add-ons may break functionality in Tor Browser or cause more serious problems that affect your privacy and security.
-It is strongly discouraged to install additional add-ons, and the Tor Project will not offer support for these configurations.
+Tuttavia, gli unici componenti aggiuntivi che sono stati testati per l'utilizzo con il browser Tor sono quelli inclusi di default. L'installazione di qualsiasi altro componente aggiuntivo del browser Tor potrebbe interrompere la funzionalità dello stesso o causare problemi più seri che influiscono sulla privacy e sulla sicurezza. È fortemente sconsigliato installare ulteriori componenti aggiuntivi; Tor Project non offrirà supporto per queste configurazioni.

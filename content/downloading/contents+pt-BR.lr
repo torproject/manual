@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Downloading
+title: A transferir
 ---
-description: How to download Tor Browser
+description: Como transferir o Tor Browser
 ---
 seo_slug: downloading
 ---
@@ -10,50 +10,40 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org.
-Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.
+No entanto, pode haver momentos em que não consegue aceder ao site da Web do Projeto Tor: por exemplo, este poderá estar bloqueado na sua rede. Se isto acontecer, pode utilizar um dos métodos alternativos de transferência , listados abaixo.
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+O GhetTo é um serviço que responde automaticamente a mensagens com links para a versão mais recente do Tor Browser, hospedada em vários locais, como Dropbox, Google Drive e GitHub.
 
 ###### To use GetTor via email:
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+Envie uma mensagem para gettor@torproject.org, e no corpo da mesma, simplesmente escreva “windows”, “osx”, ou “linux”, (sem aspas) dependendo do seu sistema operativo.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor irá responder com uma mensagem, contendo as hiperligações das quais pode transferir o Tor Browser, a assinatura criptográfica (necessária para verificar a transferência), a impressão digital da chave utilizada para criar a assinatura, e a soma de verificação do pacote. Pode ser oferecida uma opção de software “32 bits” ou “64 bits”: isto depende do modelo do computador que está a utilizar.
 
 ###### To use GetTor via Twitter:
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+Para obter hiperligações para a transferência do Tor Browser em inglês para o OS X, envie uma Mensagem Direta para @get_tor com as palavras "osx en" (não precisa de seguir a conta).
 
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+Para obter hiperligações para a transferência do Tor Browser em chinês para o Linux, envie uma mensagem para gettor@torproject.org com as palavras "linux zh".
 
 ##### Satori
 
 Satori is an add-on for the Chrome or Chromium browsers that allows you to download several security and privacy programs from different sources.
 
-To download Tor Browser using Satori:
+Para transferir o Tor Browser utilizando Satori:
 
-Install Satori from the Chrome App Store.
+Instalar Satori a partir da Loja de Aplicações do Chrome.
 
-Select Satori from your browser’s Apps menu.
+Selecione Satori no menu de Aplicações do seu navegador.
 
-When Satori opens, click on your preferred language.
-A menu will open listing the available downloads for that language.
-Find the entry for Tor Browser under the name of your operating system.
-Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software.
-Your download will then begin.
+When Satori opens, click on your preferred language. A menu will open listing the available downloads for that language. Find the entry for Tor Browser under the name of your operating system. Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software. Your download will then begin.
 
-Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”.
+Aguarde que a sua transferência termine, e depois encontre a secção "Gerar Hash" no menu do Satori e clique em "Selecionar Ficheiros".
 
-Select the downloaded Tor Browser file.
-Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download.
-If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
-If they do not match, you may need to try downloading again, or from a different source.
+Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

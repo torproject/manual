@@ -10,28 +10,25 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org.
-Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.
+যাইহোক, এমন সময় হতে পারে যখন আপনি টর প্রকল্প ওয়েবসাইট অ্যাক্সেস করতে পারবেন না: উদাহরণস্বরূপ, এটি আপনার নেটওয়ার্কে ব্লক করা যেতে পারে। যদি এটি ঘটে, আপনি নীচে তালিকাভুক্ত বিকল্প ডাউনলোড পদ্ধতিগুলির মধ্যে একটি ব্যবহার করতে পারেন।
 
 ##### GetTor
 
 জেটটি এমন একটি পরিষেবা যা স্বয়ংক্রিয়ভাবে টর ব্রাউজারের সর্বশেষ সংস্করণে লিঙ্ক দেয়, যেমন ড্রপ-বক্স্, Google ড্রাইভ এবং গিটহাব ।
 
-###### To use GetTor via email:
+##### ইমেলের মাধ্যমে GetTor ব্যবহার করতে:
 
 Gettor@torproject.org- এ একটি ইমেল পাঠান, এবং বার্তাটি আপনার অপারেটিং সিস্টেমের উপর নির্ভর করে শুধু "উইন্ডোজ", "ওএসএক্স", বা "লিনাক্স" (উদ্ধৃতি চিহ্ন ছাড়াই) লিখুন।
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor একটি ইমেল ধারণকারী লিঙ্কে সাড়া দেবে যার থেকে আপনি টর ব্রাউজার প্যাকেজ ডাউনলোড করতে পারেন, ক্রিপ্টোগ্রাফিক স্বাক্ষর (ডাউনলোড যাচাই করার জন্য প্রয়োজনীয়), স্বাক্ষর করার জন্য ব্যবহৃত কীটির আঙ্গুলের ছাপ এবং প্যাকেজের চেকসাম। আপনি "32-বিট" বা "64-বিট" সফ্টওয়্যার চয়ন করতে পারেন: এটি আপনার ব্যবহার করা কম্পিউটারের মডেলের উপর নির্ভর করে।
 
-###### To use GetTor via Twitter:
+##### টুইটারের মাধ্যমে GetTor ব্যবহার করতে:
 
 ওএস এক্সের জন্য ইংরেজিতে টর ব্রাউজার ডাউনলোড করার জন্য লিঙ্ক পেতে, এটিতে "ওএসএক্স এন" শব্দটি দিয়ে (এটি আপনাকে অ্যাকাউন্টটি অনুসরণ করতে হবে না) দিয়ে @get_tor- এ একটি সরাসরি বার্তা পাঠান।
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Jabber/XMPP (Jitsi, CoyIM, etc.) মাধ্যমে জেটটি ব্যবহার করতে:
 
 লিনাক্সের জন্য চীনে টর ব্রাউজার ডাউনলোড করার জন্য লিঙ্ক পেতে <a>Gettor@torproject.org</a>- এ একটি বার্তা পাঠান যাতে "linux zh" শব্দটি ব্যবহার করুন।
 
@@ -45,15 +42,8 @@ Chrome অ্যাপ স্টোর থেকে Satori ইনস্টল �
 
 আপনার ব্রাউজারের অ্যাপস মেনু থেকে Satori নির্বাচন করুন।
 
-When Satori opens, click on your preferred language.
-A menu will open listing the available downloads for that language.
-Find the entry for Tor Browser under the name of your operating system.
-Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software.
-Your download will then begin.
+Satori যখন খোলে, আপনার পছন্দের ভাষাতে ক্লিক করুন। একটি মেনু খোলা হবে যে ভাষা জন্য উপলব্ধ ডাউনলোড তালিকা। আপনার অপারেটিং সিস্টেমের নামের অধীনে টর ব্রাউজারের জন্য এন্ট্রি খুঁজুন। প্রোগ্রামের নাম অনুসারে "A" বা "B" নির্বাচন করুন - প্রতিটি সফ্টওয়্যার পাওয়ার জন্য একটি ভিন্ন উৎস প্রতিনিধিত্ব করে। আপনার ডাউনলোড তারপর শুরু হবে।
 
 আপনার ডাউনলোড শেষ হওয়ার জন্য অপেক্ষা করুন, তারপর Satori এর মেনুতে "হ্যাশ তৈরি করুন" বিভাগটি খুঁজুন এবং "ফাইল নির্বাচন করুন" এ ক্লিক করুন।
 
-Select the downloaded Tor Browser file.
-Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download.
-If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
-If they do not match, you may need to try downloading again, or from a different source.
+Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

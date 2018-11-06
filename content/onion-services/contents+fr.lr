@@ -20,17 +20,14 @@ Les services oignon offrent plusieurs avantages par rapport aux services ordinai
 
 ##### How to access an onion service
 
-Just like any other website, you will need to know the address of an onion service in order to connect to it.
-An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
+Comme tout autre site Web, vous devrez connaître l’adresse d’un service oignon afin de vous y connecter. Une adresse oignon est une chaîne de 16 (ou 56 en format V3) lettres et chiffres presque tous générés au hasard suivie par « .onion ».
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
-And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
 ##### Troubleshooting
 
 Si vous ne pouvez pas atteindre le service onion dont vous avez besoin, assurez-vous d’avoir correctement saisi l’adresse onion : même une petite erreur empêchera le Navigateur Tor d’atteindre le site.
 
-Si vous ne parvenez toujours pas à vous connecter au service onion, veuillez ressayer ultérieurement.
-Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.
+Si vous n’arrivez toujours pas à vous connecter au service onion, veuillez ressayer ultérieurement. Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.
 
 You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

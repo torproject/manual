@@ -1,42 +1,32 @@
 _model: topic
 ---
-title: Troubleshooting
+title: Fehlerbehebung
 ---
-description: What to do if Tor Browser doesn’t work
+description: Was tun, wenn der Tor-Browser nicht funktioniert?
 ---
-seo_slug: troubleshooting
+seo_slug: Fehlerbehebung
 ---
 key: 11
 ---
 body:
-You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
+Wenn du den Tor Browser das erste Mal verwendest, solltest du kurze Zeit nach seinem Start und dem Klicken auf "Verbinden" in der Lage sein, Internetseiten aufzurufen.
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-##### Quick fixes
+##### Schnelle Lösungen
 
-If Tor Browser doesn’t connect, there may be a simple solution.
-Try each of the following:
+Wenn der Tor-Browser keine Verbindung herstellt, könnte es eine einfache Lösung geben. Probiere Folgendes aus:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
+* Die Systemuhr deines Computers muss richtig eingestellt sein, sonst kann Tor keine Verbindung herstellen.
+* Stelle sicher, dass nicht ein anderer Tor Browser bereits läuft. Wenn du nicht sicher bist, ob der Tor Browser läuft, starte deinen Computer neu.
+* Stelle sicher dass kein von dir installiertes Antivirenprogramm Tor davon abhält, korrekt zu laufen. Du musst eventuell die Dokumentation des Herstellers deiner Antivirensoftware heranziehen, wenn du nicht weisst, wie du dies tun kannst.
+* Deaktiviere vorübergehend deine Firewall.
+* Lösche den Tor-Browser und installiere ihn nochmals. Wenn du den Browser aktualisierst, lösche die alten Dateien des Tor-Browsers. Stelle sicher, dass sie vollständig gelöscht sind und nicht einfach überschrieben werden.
 
-* Make sure another Tor Browser is not already running.
-If you’re not sure if Tor Browser is running, restart your computer.
+##### Ist deine Verbindung zensiert?
 
-* Make sure that any antivirus program you have installed is not preventing Tor from running.
-You may need to consult the documentation for your antivirus software if you do not know how to do this.
+Wenn du dich noch immer nicht verbinden kannst, ist es möglich dass dein Internetdienstanbieter Verbindungen zum Tor Netzwerk zensiert. Lese den Abschnitt <link xref="circumvention">Umgehungsmaßnahmen</link>, um mögliche Lösungen zu erhalten.
 
-* Temporarily disable your firewall.
+##### Bekannte Probleme
 
-* Delete Tor Browser and install it again.
-If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
-
-##### Is your connection censored?
-
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network.
-Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
-
-##### Known issues
-
-Tor Browser is under constant development, and some issues are known about but not yet fixed.
-Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+Der Tor Browser wird ständig weiterentwickelt, und einige Probleme sind zwar bekannt, aber bisher noch nicht behoben. Bitte sieh auf der Seite  <a href="known-issues">Bekannte Probleme</a> nach, ob das Problem, dass bei dir auftritt, dort bereits aufgelistet ist.

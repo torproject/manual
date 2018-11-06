@@ -9,8 +9,7 @@ seo_slug: security-slider
 key: 8
 ---
 body:
-Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity.
-Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+টর ব্রাউজারটি একটি "সিকিউরিটি স্লাইডার" অন্তর্ভুক্ত করে যা আপনাকে আপনার সুরক্ষা এবং গোপনীয়তা আক্রমণের জন্য ব্যবহার করা যেতে পারে এমন নির্দিষ্ট ওয়েব বৈশিষ্ট্য অক্ষম করে আপনার নিরাপত্তা বৃদ্ধি করে। ক্রমবর্ধমান টর ব্রাউজারের নিরাপত্তা স্তর সঠিকভাবে কাজ করার কিছু ওয়েব পেজ বন্ধ করবে, তাই আপনার প্রয়োজনীয় প্রয়োজনীয়তাটি ডিগ্রির বিরুদ্ধে আপনার সুরক্ষার প্রয়োজনগুলির তুলনা করা উচিত।
 
 ##### Accessing the Security Slider
 
@@ -18,7 +17,7 @@ Increasing Tor Browser’s security level will stop some web pages from function
 
 The Security Slider is located in Torbutton’s “Security Settings” menu.
 
-##### Security Levels
+##### নিরাপত্তা স্তর
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -35,13 +34,12 @@ Increasing the level of the Security Slider will disable or partially disable ce
 নিরাপদ
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+এই স্তরে, HTML5 ভিডিও এবং অডিও মিডিয়া নোটসপের মাধ্যমে ক্লিক করার জন্য ক্লিক করে; সমস্ত জাভাস্ক্রিপ্ট অপ্টিমাইজেশন নিষ্ক্রিয় করা হয় কিছু গাণিতিক সমীকরণ সঠিকভাবে প্রদর্শন করতে পারে না; কিছু ফন্ট রেন্ডারিং বৈশিষ্ট্য নিষ্ক্রিয় করা হয়; কিছু ধরনের ইমেজ অক্ষম করা হয়; এবং সমস্ত অ-<a href="/secure-connections">HTTPS</a> সাইটগুলিতে ডিফল্টভাবে জাভাস্ক্রিপ্ট নিষ্ক্রিয় করা আছে।
 </dd>
 <dt>
 মান
 </dt>
 <dd>
-At this level, all browser features are enabled.
-This is the most usable option.
+এই স্তরে, সমস্ত ব্রাউজার বৈশিষ্ট্য সক্ষম করা আছে। এটি সবচেয়ে ব্যবহারযোগ্য বিকল্প।
 </dd>
 </dl>

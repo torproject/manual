@@ -1,42 +1,32 @@
 _model: topic
 ---
-title: Troubleshooting
+title: Fabhtcheartú
 ---
-description: What to do if Tor Browser doesn’t work
+description: Cad is féidir a dhéanamh mura bhfuil Brabhsálaí Tor ag obair
 ---
-seo_slug: troubleshooting
+seo_slug: Fabhtcheartú
 ---
 key: 11
 ---
 body:
-You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
+Ba cheart go mbeifeá in ann an Gréasán a bhrabhsáil le Brabhsálaí Tor go díreach tar éis duit an clár a thosú, agus an cnaipe “Ceangail” a chliceáil an chéad uair a úsáideann tú é.
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-##### Quick fixes
+##### Réiteach tapa
 
-If Tor Browser doesn’t connect, there may be a simple solution.
-Try each of the following:
+Murar féidir le Brabhsálaí Tor ceangal leis an líonra, seans go bhfuil réiteach simplí ann. Bain triail as gach ceann de na moltaí seo:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
+* Ní mór do chlog an chórais a bheith socraithe i gceart, nó nach mbeidh Tor in ann ceangal leis an líonra.
+* Deimhnigh nach bhfuil Brabhsálaí Tor eile ag rith cheana. Mura bhfuil tú cinnte faoi seo, atosaigh do ríomhaire.
+* Deimhnigh nach bhfuil aon bhogearra frithvíreas ag cur cosc ar Tor. Seans gur gá duit doiciméadú an bhogearra frithvíreas a cheadú mura bhfuil a fhios agat conas é seo a dhéanamh.
+* Díchumasaigh do bhalla dóiteáin go sealadach.
+* Scrios an Brabhsálaí Tor agus suiteáil arís é. Má tá leagan nua ar fáil, ná forscríobh na comhaid a bhí ann; deimhnigh gur scrios tú go hiomlán iad ar dtús.
 
-* Make sure another Tor Browser is not already running.
-If you’re not sure if Tor Browser is running, restart your computer.
+##### An bhfuil do cheangal faoi chinsireacht?
 
-* Make sure that any antivirus program you have installed is not preventing Tor from running.
-You may need to consult the documentation for your antivirus software if you do not know how to do this.
+Mura bhfuil tú in ann ceangal fós, b'fhéidir go bhfuil do Sholáthraí Seirbhíse Idirlín ag déanamh cinsireacht ar líonra Tor. Léigh an leathanach <a href="circumvention">Timpeallú</a>le foghlaim conas is féidir an fhadhb a réiteach.
 
-* Temporarily disable your firewall.
+##### Fadhbanna ar eolas
 
-* Delete Tor Browser and install it again.
-If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
-
-##### Is your connection censored?
-
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network.
-Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
-
-##### Known issues
-
-Tor Browser is under constant development, and some issues are known about but not yet fixed.
-Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+Tá Brabhsálaí Tor á fhorbairt ar bhonn leanúnach, agus tá a fhios againn faoi roinnt fadhbanna nach bhfuil réiteach orthu fós. Féach ar an leathanach <a href="known-issues">Fadhbanna ar eolas</a> le féachaint an bhfuil an fhadhb a fheiceann tusa ann cheana.

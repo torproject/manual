@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Running Tor Browser for the first time
+title: An chéad uair a úsáideann tú Brabhsálaí Tor
 ---
-description: Learn how to use Tor Browser for the first time
+description: An chéad uair a úsáideann tú Tor
 ---
 seo_slug: running-tor-browser
 ---
@@ -10,34 +10,23 @@ key: 3
 ---
 body:
 
-When you run Tor Browser for the first time, you will see the Tor Network Settings window.
-This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
+Nuair a úsáidfidh tú Brabhsálaí Tor den chéad uair, feicfidh tú an fhuinneog Socruithe Líonra Tor. Tugann seo rogha duit ceangal go díreach le líonra Tor, nó Brabhsálaí Tor a chur in oiriúint do do cheangal líonra féin.
 
-##### Connect
+##### Ceangail
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
-Once clicked, a status bar will appear, showing Tor’s connection progress.
-If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+De ghnáth, bíonn tú ceangailte le líonra Tor tar éis duit "Ceangail" a chliceáil, gan chumraíocht sa bhreis a dhéanamh. Ansin, feicfidh tú barra stádais a thaispeánann dul chun cinn an cheangail. Má théann an barra seo in abar agus ceangal Idirlín measartha maith agat, féach ar an leathanach <a href="troubleshooting">Fabhtcheartú</a> chun cúnamh a fháil.
 
-##### Configure
+##### Cumraigh
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-If you know that your connection is censored, or uses a proxy, you should select this option.
-Tor Browser will take you through a series of configuration options.
+Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, nó má úsáideann sé seachfhreastalaí, ba chóir duit é seo a roghnú. Treoróidh Brabhsálaí Tor tríd an bpróiseas cumraíochta thú.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection.
-If you do not believe this is the case, select “No”.
-If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”.
-You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+Fiafraítear díot ar an chéad scáileán an bhfuil cosc ar líonra Tor nó an bhfuil sé faoi chinsireacht ar do cheangal. Mura gcreideann tú go bhfuil, roghnaigh “Níl”. Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, nó má theip ort ceangal a bhunú le líonra Tor gan aon réiteach ar an bhfadhb, roghnaigh “Tá”. Sa chás sin, osclófar an scáileán <a href="circumvention">Timpeallú</a>, áit ar féidir leat córas iompair ionphlugáilte a shocrú.
 
-The next screen asks if your connection uses a proxy.
-In most cases, this is not necessary.
-You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system.
-If possible, ask your network administrator for guidance.
-If your connection does not use a proxy, click “Continue”.
+Fiafraítear díot ar an chéad scáileán eile an úsáideann do cheangal seachfhreastalaí. Níl seachfhreastalaí ag teastáil an chuid is mó den am, agus dá mbeadh sé ag teastáil uaitse, is dócha go mbeadh a fhios agat cheana, toisc gur ghá na socruithe céanna a úsáid leis na brabhsálaithe eile ar do chóras. Más féidir, cuir ceist ar riarthóir do líonra. Mura n-úsáideann do cheangal seachfhreastalaí, cliceáil “Ar Aghaidh”.
 
 <img class="col-md-6" src="/static/images/proxy_question.png">
 

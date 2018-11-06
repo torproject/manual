@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 14:21+0100\n"
+"PO-Revision-Date: 2018-11-06 15:00+0100\n"
 "Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
 "Language: ga\n"
@@ -179,6 +179,11 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"Is líonra tollán fíorúil é Tor a chabhraíonn leat do phríobháideachas agus "
+"do shlándáil ar an Idirlíon a fheabhsú. Seolann Tor do chuid tráchta trí trí "
+"fhreastalaí randamacha (a dtugtar <em>athsheachadáin</em> orthu) i líonra "
+"Tor. Ansin seolann an t-athsheachadán deireanach sa chiorcad (\"an t-"
+"athsheachadán amach\") an trácht amach go dtí an tIdirlíon poiblí."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -452,6 +457,10 @@ msgid ""
 "but not yet fixed. Please check the <a href=\"/known-issues\">Known Issues</"
 "a> page to see if the problem you are experiencing is already listed there."
 msgstr ""
+"Tá Brabhsálaí Tor á fhorbairt ar bhonn leanúnach, agus tá a fhios againn "
+"faoi roinnt fadhbanna nach bhfuil réiteach orthu fós. Féach ar an leathanach "
+"<a href=\"known-issues\">Fadhbanna ar eolas</a> le féachaint an bhfuil an "
+"fhadhb a fheiceann tusa ann cheana."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -788,7 +797,7 @@ msgstr ""
 #: (content/known-issues/contents+en.lr:topic.title)
 #: (content/known-issues/contents+en.lr:topic.description)
 msgid "Known issues"
-msgstr ""
+msgstr "Fadhbanna ar eolas"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -907,6 +916,13 @@ msgid ""
 "then be taken to the <a href=\"/circumvention\">Circumvention</a> screen to "
 "configure a pluggable transport."
 msgstr ""
+"Fiafraítear díot ar an chéad scáileán an bhfuil cosc ar líonra Tor nó an "
+"bhfuil sé faoi chinsireacht ar do cheangal. Mura gcreideann tú go bhfuil, "
+"roghnaigh “Níl”. Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, "
+"nó má theip ort ceangal a bhunú le líonra Tor gan aon réiteach ar an "
+"bhfadhb, roghnaigh “Tá”. Sa chás sin, osclófar an scáileán <a href="
+"\"circumvention\">Timpeallú</a>, áit ar féidir leat córas iompair "
+"ionphlugáilte a shocrú."
 
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
@@ -977,7 +993,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.title)
 msgid "Pluggable transports"
-msgstr ""
+msgstr "Córais Iompair Ionphlugáilte"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.title)
@@ -1096,6 +1112,8 @@ msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
 "options, located in the main menu (hamburger menu)."
 msgstr ""
+"Tá roghanna \"Aitheantas Nua\" agus \"Ciorcad Nua Tor don Suíomh seo\" ar "
+"fáil, i roghchlár an chnaipe Tor."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.description)
@@ -1631,7 +1649,7 @@ msgstr ""
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "user / pw"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1657,6 +1675,8 @@ msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays."
 msgstr ""
+"Úsáideann an chuid is mó de na <a href=\"transports\">Córais Iompair "
+"Ionphlugáilte</a>, mar shampla obfs3 agus obfs4, athsheachadáin \"droichid\"."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
@@ -1726,6 +1746,8 @@ msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out."
 msgstr ""
+"Is éard atá i gcóras iompair ionphlugáilte ná uirlis a chuireann bréagriocht "
+"ar an trácht Idirlín a sheolann Tor amach."
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1826,6 +1848,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"Agus is féidir leat deimhniú go bhfuil tú in ann seirbhísí Onion eile a "
+"rochtain trí cheangal a bhunú le <a href=\"http://3g2upl4pq6kufc4m.onion"
+"\">Seirbhís Onion DuckDuckGo</a>."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""

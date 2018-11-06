@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Downloading
+title: 下载
 ---
-description: How to download Tor Browser
+description: 如何下载 Tor 浏览器
 ---
 seo_slug: downloading
 ---
@@ -10,50 +10,40 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org.
-Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.
+然而，某些情况下您可能无法成功访问洋葱路由的官方网站：例如您所在的网络会屏蔽该网站。如果您遭遇到类似情况的话，可以利用下列几种不同的方式获取 Tor 浏览器。
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+GetTor 是一项通过不同方式自动回复最新版 Tor 浏览器下载链接的服务。这些链接由不同处所托管，例如 Dropbox 、Google Drive 和 GitHub.
 
 ###### To use GetTor via email:
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+发送一封电子邮件至 gettor@torproject.org。按照您欲使用 Tor 浏览器的电脑系统，在邮件内容填写“windows”、“osx”或“linux”来指定平台版本（不含引号）。
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor 将会自动回复一封电子邮件给您，信中会带有 Tor 浏览器的下载链接、数字签名（用于确认所下载之文件其来源可信）、数字签名所用之密钥特征指纹码、所下载文件之校验和。另外，您亦可以依照您所使用的电脑系统架构，选择要下载 32 位或是 64 位的版本。
 
 ###### To use GetTor via Twitter:
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+若要获取 OS X 平台之英文版 Tor 浏览器的下载超链接，只要将“osx en”这几个字写成消息并直接传讯发送给 @get_tor 帐号即可。（您不需要关注该帐号）
 
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+若要获取可于 Linux 平台上使用的中文版 Tor 浏览器下载链接，可以将“linux zh”字串写在电子邮件里并发送到 gettor@torproject.org。
 
 ##### Satori
 
-Satori is an add-on for the Chrome or Chromium browsers that allows you to download several security and privacy programs from different sources.
+Satori 是一个适用于 Chrome 或 Chromium 浏览器的扩展，允许您从不同来源下载多种安全和隐私程序。
 
-To download Tor Browser using Satori:
+要使用 Satori 下载 Tor 浏览器：
 
-Install Satori from the Chrome App Store.
+从 Chrome 网上应用店安装 Satori。
 
-Select Satori from your browser’s Apps menu.
+从您的浏览器的应用菜单选择 Satori。
 
-When Satori opens, click on your preferred language.
-A menu will open listing the available downloads for that language.
-Find the entry for Tor Browser under the name of your operating system.
-Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software.
-Your download will then begin.
+当 Satori 打开后，您可以选择您所想要使用的语言接口，下载清单将会自动罗列出对应该语言的可用下载链接，此时您只需要找到符合您电脑系统版本的 Tor 浏览器，并在“A”或“B”两个不同的下载来源中，任选一个以开始下载进程。
 
-Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”.
+等下载完成以后，在 Satori 的功能清单中找到“Generate Hash”功能，并选择“Select Files”。
 
-Select the downloaded Tor Browser file.
-Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download.
-If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
-If they do not match, you may need to try downloading again, or from a different source.
+Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

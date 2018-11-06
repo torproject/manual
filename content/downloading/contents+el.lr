@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Downloading
+title: Γίνεται λήψη
 ---
-description: How to download Tor Browser
+description: Πως να κατεβάσετε τον Tor Browser
 ---
 seo_slug: downloading
 ---
@@ -10,50 +10,40 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org.
-Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.
+Ωστόσο, ίσως να υπάρξουν φορές που δεν θα μπορέσετε να αποκτήσετε πρόσβαση στην ιστοσελίδα του Tor Project: για παράδειγμα, θα μπορούσε να είναι αποκλεισμένη στο δίκτυό σας. Εάν συμβεί αυτό, μπορείτε να χρησιμοποιήσετε μία από τις εναλλακτικές μεθόδους λήψης που αναφέρονται παρακάτω.
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+Το GetTor είναι μια υπηρεσία που απαντά αυτόματα σε μηνύματα με συνδέσμους της τελευταίας έκδοσης του Tor Browser, που βρίσκεται σε διάφορες τοποθεσίες, όπως το Dropbox, το Google Drive και το GitHub.
 
 ###### To use GetTor via email:
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+Στείλτε ένα email στο gettor@torproject.org, και στο σώμα του μηνύματος απλά γράψτε "windows", "osx" ή "linux" (χωρίς τα εισαγωγικά) ανάλογα με το λειτουργικό σας σύστημα.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+Το GetTor θα απαντήσει με ένα email που θα περιέχει συνδέσμους από τους οποίους θα μπορέσετε να κατεβάσετε το πακέτο του Tor Browser, την κρυπτογραφική υπογραφή (απαραίτητη για την επιβεβαίωση του αρχείου λήψης), το δακτυλικό αποτύπωμα του κλειδιού που χρησιμοποιήθηκε για την υπογραφή, και το checksum του πακέτου. Μπορεί να σας δοθεί η επιλογή για λογισμικό 32 ή 64 bit. Επιλέξτε ανάλογα με το μοντέλο του υπολογιστή που χρησιμοποιείτε.
 
 ###### To use GetTor via Twitter:
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+Για να λάβετε συνδέσμους για λήψη του Tor Browser στα Αγγλικά για OS X, στείλτε ένα άμεσο μήνυμα στο @get_tor με τις λέξεις "osx en" (δεν χρειάζεται να ακολουθήσετε τον λογαριασμό).
 
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+Για να λάβετε συνδέσμους για λήψη του Tor Browser στα κινεζικά για Linux, στείλτε ένα μήνυμα στο gettor@torproject.org με τις λέξεις "linux zh".
 
 ##### Satori
 
-Satori is an add-on for the Chrome or Chromium browsers that allows you to download several security and privacy programs from different sources.
+Το Satori είναι ένα πρόσθετο για τους περιηγητές Chrome και Chromium που σας επιτρέπει να κατεβάσετε αρκετά προγράμματα ασφάλειας και ιδιωτικότητας από διάφορες πηγές.
 
-To download Tor Browser using Satori:
+Για να κατεβάσετε τον Tor Browser χρησιμοποιώντας το Satori:
 
-Install Satori from the Chrome App Store.
+Εγκαταστήστε το Satori από το Chrome App Store.
 
-Select Satori from your browser’s Apps menu.
+Επιλέξτε το Satori από το μενού εφαρμογών του περιηγητή σας.
 
-When Satori opens, click on your preferred language.
-A menu will open listing the available downloads for that language.
-Find the entry for Tor Browser under the name of your operating system.
-Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software.
-Your download will then begin.
+Όταν ανοίξει το Satori, επίλεξε την επιθυμητή γλώσσα. Θα ανοίξει ένα μενού με όλα τα διαθέσιμα λογισμικά για αυτήν τη γλώσσα. Βρείτε το όνομα του Tor Browser κάτω από το όνομα του λειτουργικού σας συστήματος. Επίλεξε είτε το "Α" είτε το "Β" μετά από το όνομα του προγράμματος - το καθένα αντιπροσωπεύει μία διαφορετική πηγή από την οποία θα λάβετε το λογισμικό. Στη συνέχεια, η λήψη σας θα ξεκινήσει.
 
-Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”.
+Περίμενε να τελειώσει το κατέβασμα, μετά βρες το τμήμα "Παραγωγή Hash" στο μενού του Satori και κάνε κλικ στο "Επιλογή αρχείων".
 
-Select the downloaded Tor Browser file.
-Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download.
-If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>.
-If they do not match, you may need to try downloading again, or from a different source.
+Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

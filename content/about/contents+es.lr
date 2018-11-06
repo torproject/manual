@@ -10,8 +10,7 @@ key: 1
 ---
 body:
 
-El Navegador Tor usa la red Tor para proteger tu privacidad y tu anonimato.
-Usar la red Tor tiene dos ventajas principales:
+El Navegador Tor usa la red Tor para proteger tu privacidad y anonimato. Usar la red Tor tiene dos propiedades principales:
 
 * Tu proveedor de servicios de Internet (ISP), y otros que estén observando tu conexión localmente, no podrán rastrear tu actividad en Internet, incluyendo los nombres y direcciones de los sitios web que visites.
 
@@ -19,16 +18,12 @@ Usar la red Tor tiene dos ventajas principales:
 
 Además, el Navegador Tor está diseñado para evitar que los sitios web realicen “fingerprinting” (perfiles de patrones de los usuarios) o le identifiquen en base a la configuración de su navegador.
 
-De forma predeterminada, el Navegador Tor no conserva ningún historial de navegación.
-Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
+By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
 
 ##### Cómo funciona Tor
 
-La red Tor es una red de túneles virtuales que le permite mejorar tu privacidad y seguridad en Internet.
-Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network.
-El último repetidor en el circuito (el "repetidor de salida") envía entonces el tráfico fuera hacia la Internet pública.
+Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
 
 <img class="" src="/static/images/how-tor-works.png" alt="Como funciona Tor">
 
-La imagen superior muestra un usuario navegando por distintos sitios web sobre Tor.
-Los ordenadores en verde en el centro representan los repetidores de la red Tor, mientras que las tres llaves representan las capas de cifrado entre el usuario y cada repetidor.
+La imagen superior muestra un usuario navegando por distintos sitios web con Tor. Los ordenadores verdes en el centro representan los repetidores de la red Tor, mientras que las tres llaves representan las capas de cifrado entre el usuario y cada repetidor.

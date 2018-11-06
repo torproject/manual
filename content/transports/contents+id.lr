@@ -9,12 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
-This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
+Pluggable transports adalah perkakas yang Tor bisa gunakan untuk menyamarkan lalu lintas ini untuk pengiriman keluar. Ini bisa berguna dalam situasi-situasi di mana penyedia layanan internet atau otoritas lain aktif memblokir koneksi ke jaringan Tor.
 
 ##### Types of pluggable transport
 
-Currently there are six pluggable transports available, but more are being developed.
+Sekarang terdapat tiga pluggable transports dapat diakses, tapi lebih untuk pengembangan.
 
 <table>
 <tbody>
@@ -23,8 +22,7 @@ Currently there are six pluggable transports available, but more are being devel
 obfs3
 </td>
 <td>
-obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol.
-While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -32,8 +30,7 @@ While still included by default, it is reccomended to use obfs4 instead, as it h
 obfs4
 </td>
 <td>
-obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning.
-obfs4 bridges are less likely to be blocked than obfs3 bridges.
+obfs4 membuat lalu lintas Tor tampak acak seperti obfs3, dan juga mencegah sensor dari menemukan bridges oleh pemindaian internet. obfs4 bridges sedikit mirip dalam blokir dibandingkan obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
@@ -41,7 +38,7 @@ obfs4 bridges are less likely to be blocked than obfs3 bridges.
 Scramblesuit
 </td>
 <td>
-ScrambleSuit is similar to obfs4 but has a different set of bridges.
+ScrambleSuit mirip dengan obfs4 namun memiliki jembatan berbeda.
 </td>
 </tr>
 <tr class="even">
@@ -49,16 +46,15 @@ ScrambleSuit is similar to obfs4 but has a different set of bridges.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+FTE (format-transforming encryption) penyamaran lalu lintas Tor sebagai situs biasa  (HTTP) lalu lintas.
 </td>
 </tr>
 <tr class="odd">
 <td>
-meek
+lunak
 </td>
 <td>
-These transports all make it look like you are browsing a major web site instead of using Tor.
-meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+Mengangkut semua ini membuatnya terlihat seperti Anda menjelajah situs web utama daripada menggunakan Tor. Meek-amazon membuatnya terlihat seperti Anda menggunakan Amazon Web Services; Meek-azure membuatnya terlihat seperti Anda menggunakan situs web Microsoft; dan meek-google membuatnya terlihat seperti Anda menggunakan Google search. 
 </td>
 </tr>
 <tr class="even">
@@ -66,8 +62,7 @@ meek-amazon makes it look like you are using Amazon Web Services; meek-azure mak
 Snowflake
 </td>
 <td>
-Snowflake is an improvement upon Flashproxy.
-It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>

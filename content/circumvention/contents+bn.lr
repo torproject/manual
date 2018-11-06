@@ -10,12 +10,9 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government.
-Tor Browser includes some circumvention tools for getting around these blocks.
-These tools are called “pluggable transports”.
-See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+টর নেটওয়ার্কে সরাসরি অ্যাক্সেসটি কখনও কখনও আপনার ইন্টারনেট সার্ভিস প্রোভাইডার বা সরকার কর্তৃক অবরুদ্ধ থাকে। টর ব্রাউজার এই ব্লক কাছাকাছি পেতে জন্য কিছু circumvention সরঞ্জাম অন্তর্ভুক্ত। এই সরঞ্জামগুলি <a href="transports">"প্লাগযোগ্য ট্রান্সপোর্টগুলি"</a> বলা হয়। বর্তমানে উপলব্ধ যে ধরনের ধরনের উপর আরো তথ্যের জন্য প্ল্যাগেবল ট্রান্সফর্ম পৃষ্ঠা দেখুন
 
-##### Using pluggable transports
+##### প্ল্যাগেবল ট্রান্সপোর্টগুলি ব্যবহার করুন
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -29,11 +26,10 @@ See the <a href="/transports">Pluggable Transports</a> page for more information
 
 "সরবরাহকৃত ব্রিজগুলির সাথে সংযোগ করুন" নির্বাচন করুন টর ব্রাউজার বর্তমানে থেকে নির্বাচন করতে ছয় প্ল্যাগেবল পরিবহন বিকল্প আছে
 
-##### Which transport should I use?
+##### কোন পরিবহন আমি ব্যবহার করা উচিত?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+টর লঞ্চারের মেনুতে তালিকাভুক্ত প্রতিটি ট্রান্সলে একটি ভিন্ন উপায়ে কাজ করে (আরো বিশদ বিবরণের জন্য, <a href="transports">প্ল্যাগেবল ট্রান্সফর্ম</a> পৃষ্ঠাটি দেখুন), এবং তাদের কার্যকারিতা আপনার ব্যক্তিগত পরিস্থিতির উপর নির্ভর করে।
 
 আপনি যদি প্রথমবারের মতো একটি অবরুদ্ধ সংযোগ স্থাপনের চেষ্টা করেন, তাহলে আপনার বিভিন্ন পরিবহনের চেষ্টা করা উচিত: obfs3, obfs4, ScrambleSuit, fte, meek-azure এবং Snowflake ।
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually.
-Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+আপনি যদি এই সমস্ত বিকল্পগুলি ব্যবহার করেন, এবং তাদের কেউই আপনাকে অনলাইনে না পান, তবে আপনাকে ম্যানুয়ালি ব্রিজের ঠিকানাগুলি প্রবেশ করতে হবে। ব্রিজগুলি কীভাবে শিখছে এবং কিভাবে সেগুলি পেতে হয় তা শিখতে <a href="bridges">ব্রিজেস</a> বিভাগটি পড়ুন।

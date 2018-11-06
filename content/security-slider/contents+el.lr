@@ -1,47 +1,45 @@
 _model: topic
 ---
-title: Security Slider
+title: Slider ασφαλείας
 ---
-description: Configuring Tor Browser for security and usability
+description: Ρύθμιση του Tor Browser για ασφάλεια και χρηστικότητα
 ---
 seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity.
-Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+Ο Tor Browser περιλαμβάνει ένα "Slider ασφαλείας" που σας επιτρέπει να αυξήσετε την ασφάλειά σας απενεργοποιώντας ορισμένες λειτουργίες ιστού που μπορούν να χρησιμοποιηθούν για να επιτεθούν στην ασφάλεια και στην ανωνυμία σας. Η αύξηση του επιπέδου ασφαλείας του Tor Browser θα εμποδίσει ορισμένες ιστοσελίδες να λειτουργούν σωστά, οπότε θα πρέπει να σταθμίσετε τις ανάγκες ασφαλείας σας σε σχέση με το βαθμό χρηστικότητας που χρειάζεστε.
 
 ##### Accessing the Security Slider
 
 <img class="col-md-6" src="/static/images/slider.png">
 
-The Security Slider is located in Torbutton’s “Security Settings” menu.
+Ο Slider Ασφαλείας βρίσκεται στο Torbutton, στο μενού "Ρυθμίσεις Ασφάλειας".
 
 ##### Security Levels
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
-Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
+Η αύξηση του επιπέδου του Slider Ασφαλείας θα απενεργοποιήσει πλήρως ή μερικώς κάποιες λειτουργίες του περιηγητή, για να σας προστατέψει από πιθανές επιθέσεις.
 
 <dl>
 <dt>
-Safest
+Ασφαλέστατο
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
+Σε αυτό το επίπεδο, τα πολυμέσα βίντεο και ήχου HTML5 γίνονται κλικ-για-αναπαραγωγή μέσω του NoScript· όλες οι βελτιστοποιήσεις απόδοσης JavaScript είναι απενεργοποιημένες· ορισμένες μαθηματικές εξισώσεις μπορεί να μην εμφανίζονται σωστά· ορισμένες λειτουργίες γραμματοσειράς είναι απενεργοποιημένες· ορισμένοι τύποι εικόνων είναι απενεργοποιημένοι· Η Javascript είναι απενεργοποιημένη από προεπιλογή σε όλες τις ιστοσελίδες· οι περισσότερες μορφές βίντεο και ήχου είναι απενεργοποιημένες· και ορισμένες γραμματοσειρές και εικονίδια ενδέχεται να μην εμφανίζονται σωστά.
 </dd>
 <dt>
-Safer
+Ασφαλέστερα
 </dt>
 <dd>
 At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
 </dd>
 <dt>
-Standard
+Βασικό
 </dt>
 <dd>
-At this level, all browser features are enabled.
-This is the most usable option.
+Σε αυτό το επίπεδο, όλες οι λειτουργίες του browser είναι ενεργοποιημένες. Αυτή είναι η πιο εύχρηστη επιλογή.
 </dd>
 </dl>

@@ -9,12 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
-This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
+תעבורות נתיקות הן כלים ש-Tor יכול להשתמש כדי להסוות את התעבורה שהוא שולח החוצה. זה יכול להיות שימושי במצבים בהם ספק שירותי אינטרנט או רשות אחרת חוסמת באופן פעיל חיבורים אל רשת Tor.
 
 ##### Types of pluggable transport
 
-Currently there are six pluggable transports available, but more are being developed.
+כרגע ישנן שש תעברות נתיקות זמינות, אבל עוד תעבורות נתיקות מפותחות.
 
 <table>
 <tbody>
@@ -23,8 +22,7 @@ Currently there are six pluggable transports available, but more are being devel
 obfs3
 </td>
 <td>
-obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol.
-While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+obfs3 גורם לתעבורת Tor להיראות אקראית, כך שהוא אינו נראה כמו Tor או פרוטוקול אחר כלשהו. בעוד שהוא עדין כלול כברירת מחדל, מומלץ להשתמש ב־obfs4, מאחר שיש לו שיפורי אבטחה על פני obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -32,8 +30,7 @@ While still included by default, it is reccomended to use obfs4 instead, as it h
 obfs4
 </td>
 <td>
-obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning.
-obfs4 bridges are less likely to be blocked than obfs3 bridges.
+obfs4 גורם לתעבורת Tor להיראות אקראית כמו obfs3, וגם מונעת ממצנזרים למצוא גשרים ע"י סריקת האינטרנט. גשרי obfs4 פחות סבירים להיחסם מאשר גשרי obfs3.
 </td>
 </tr>
 <tr class="odd">
@@ -41,7 +38,7 @@ obfs4 bridges are less likely to be blocked than obfs3 bridges.
 Scramblesuit
 </td>
 <td>
-ScrambleSuit is similar to obfs4 but has a different set of bridges.
+ScrambleSuit דומה אל obfs4 אבל יש לו סדרת גשרים שונה.
 </td>
 </tr>
 <tr class="even">
@@ -49,25 +46,23 @@ ScrambleSuit is similar to obfs4 but has a different set of bridges.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+FTE (הצפנת התמרת־תסדיר) מתחפשת לתעבורת Tor כתעבורת רשת מצויה (HTTP).
 </td>
 </tr>
 <tr class="odd">
 <td>
-meek
+עניו
 </td>
 <td>
-These transports all make it look like you are browsing a major web site instead of using Tor.
-meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+תעבורות אלו גורמות לכך להיראות שאתה מדפדף באתר עיקרי במקום להשתמש ב-Tor. למשל meek-amazon גורם לכך להיראות שאתה משתמש בשירותי אתר אמזון; meek-azure גורם לכך להיראות שאתה משתמש באתר של Microsoft; ו-meek-google גורם לכך להיראות שאתה משתמש בחיפוש Google.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+פתית שלג
 </td>
 <td>
-Snowflake is an improvement upon Flashproxy.
-It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+פתית שלג הוא שיפור על פני Flashproxy. הוא שולח את התעבורה שלך דרך WebRTC, פרוטוקול עמית־אל־עמית עם חבטת NAT מובנית.
 </td>
 </tr>
 </tbody>

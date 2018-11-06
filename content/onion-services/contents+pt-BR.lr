@@ -1,18 +1,18 @@
 _model: topic
 ---
-title: Onion Services
+title: Serviços da Cebola
 ---
-description: Services that are only accessible using Tor
+description: Serviços que só estão acessíveis utilizando o Tor
 ---
-seo_slug: onion-services
+seo_slug: serviços-onion
 ---
 key: 6
 ---
 body:
 
-Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
+Os serviços de cebola (anteriormente conhecidos como "serviços ocultados") são serviços (tal como sites da Web) que só são acessíveis através da rede Tor.
 
-Onion services offer several advantages over ordinary services on the non-private web:
+Os serviços cebola oferecem várias vantagens sobre os serviços comuns na Web não privada:
 
 * An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
@@ -20,17 +20,14 @@ Onion services offer several advantages over ordinary services on the non-privat
 
 ##### How to access an onion service
 
-Just like any other website, you will need to know the address of an onion service in order to connect to it.
-An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
+Assim como qualquer outro site, você precisará saber o endereço de um serviço de cebola para se conectar a ele. Um endereço de cebola é uma sequência de 16 (e no formato V3, 56) letras e números na maioria aleatórios, seguido por “.onion”.
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service.
-And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
 ##### Troubleshooting
 
-If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+Se você não conseguir acessar o serviço de cebola que você precisa, certifique-se de ter digitado o endereço da cebola corretamente: até mesmo um pequeno erro impedirá que o Navegador Tor alcance o site.
 
-If you are still unable to connect to the onion service, please try again later.
-There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+Se ainda não conseguir ligar-se ao serviço da cebola, por favor, tente novamente mais tarde. Pode haver um problema de ligação temporário ou os operadores do site podem permitiram que este esteja off-line sem aviso.
 
 You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

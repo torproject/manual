@@ -1,28 +1,24 @@
 _model: topic
 ---
-title: Secure Connections
+title: Ασφαλείς συνδέσεις
 ---
-description: Learn how to protect your data using Tor Browser and HTTPS
+description: Μάθετε πώς να προστατεύσετε τα δεδομένα σας χρησιμοποιώντας τον Tor Browser και το HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper.
-If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping.
-You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
+Αν προσωπικές πληροφορίες, όπως ένας κωδικός πρόσβασης, "ταξιδεύουν" χωρίς κρυπτογράφηση μέσω του διαδικτύου, μπορούν πολύ εύκολα να υποκλαπούν από κάποιον eavesdropper. Αν συνδέεστε σε οποιαδήποτε ιστοσελίδα, θα πρέπει να βεβαιωθείτε ότι προσφέρει κρυπτογράφηση HTTPS, η οποία προστατεύει από αυτού του είδους την υποκλοπή. Μπορείτε να το επαληθεύσετε στη γραμμή διεύθυνσης URL: αν η σύνδεσή σας είναι κρυπτογραφημένη, η διεύθυνση θα ξεκινάει με "https://" αντί για "http://".
 
 <img class="col-md-6" src="/static/images/https.png">
 
-The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
+Η παρακάτω απεικόνιση δείχνει ποιες πληροφορίες είναι ορατές στους eavesdroppers με και χωρίς την κρυπτογράφηση του Tor Browser και του HTTPS:
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor.
-The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS.
-The button will turn green to indicate that HTTPS is on.
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
 * When both buttons are green, you see the data that is visible to observers when you are using both tools.
 * When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
@@ -34,35 +30,35 @@ The button will turn green to indicate that HTTPS is on.
 Site.com
 </dt>
   <dd>
-    The site being visited.
+    Η ιστοσελίδα που επισκέπτεστε.
   </dd>
 
 <dt>
 user / pw
 </dt>
   <dd>
-    Username and password used for authentication.
+    Το όνομα χρήστη και ο κωδικός που χρησιμοποιούνται για ταυτοποίηση.
   </dd>
 
 <dt>
 data
 </dt>
   <dd>
-    Data being transmitted.
+    Τα δεδομένα διαβιβάζονται.
   </dd>
 
 <dt>
 location
 </dt>
   <dd>
-    Network location of the computer used to visit the website (the public IP address).
+    Τοποθεσία δικτύου του υπολογιστή που χρησιμοποιήθηκε για την επίσκεψη στην ιστοσελίδα (η δημόσια διεύθυνση IP).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    Whether or not Tor is being used.
+    Αν χρησιμοποιείται Tor ή όχι.
   </dd>
 
 </dl>

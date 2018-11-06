@@ -2,24 +2,20 @@ _model: topic
 ---
 title: Puentes
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
 seo_slug: puentes
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
-Igual que los repetidores Tor ordinarios, los puentes de red son ejecutados por voluntarios, pero no son públicos, así que no se pueden identificar fácilmente.
-Usar puentes en combinación con transportes conectables ayuda a camuflar el uso de Tor.
+Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Otros transportes conectables, como meek, usan distintas técnicas anti-censura que no se basan en puentes.
-No necesitas obtener direcciones de puentes para usar estos transportes.
+Otros transportes conectables, como meek, usan distintas técnicas anti-censura que no se basan en puentes. No necesitas obtener direcciones de puentes para usar estos transportes.
 
 ##### Obtener direcciones de puentes
 
-Como las direcciones de puentes no son públicas, tendrás que solicitarlas tú mismo.
-Tienes dos opciones:
+Como las direcciones de puentes no son públicas, tendrás que solicitarlas tú mismo. Tienes dos opciones:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Escribe un correo a bridges@torproject.org desde una dirección de Gmail, Yahoo, o Riseup
@@ -28,12 +24,8 @@ Tienes dos opciones:
 
 Una vez que tengas algunos puentes, tendrás que introducirlos en el Arranque de Tor.
 
-Elige "sí" cuando pregunten si tu Proveedor de Servicios de Internet (ISP) bloquea las conexiones a la red Tor.
-Selecciona "Usar puentes personalizados" e introduce cada dirección de puente de red en una línea aparte.
+Elige "sí" cuando pregunten si tu Proveedor de Servicios de Internet (ISP) bloquea las conexiones a la red Tor. Selecciona "Usar puentes personalizados" e introduce cada dirección de puente de red en una línea aparte.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Pulsa "Conectar".
-Usar puentes puede ralentizar la conexión comparado con el uso de repetidores Tor ordinarios.
-Si la conexión falla, los puentes que recibiste pueden estar caídos.
-Usa uno de los métodos anteriores para obtener más direcciones de puente e inténtalo de nuevo.
+Pulsa "Conectar". Usar puentes puede ralentizar la conexión comparado con el uso de repetidores Tor ordinarios. Si la conexión falla, los puentes que recibiste pueden estar caídos. Usa uno de los métodos anteriores para obtener más direcciones de puente e inténtalo de nuevo.

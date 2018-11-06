@@ -1,34 +1,31 @@
 _model: topic
 ---
-title: Known issues
+title: Bekannte Probleme
 ---
-description: Known issues
+description: Bekannte Probleme
 ---
-seo_slug: uninstalling
+seo_slug: Deinstallieren
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor braucht eine richtig eingestellte Systemuhr (und Zeitzone).
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Folgende Firewall-Software ist bekannt dafür, Tor Probleme zu bereiten, womöglich muss sie temporär deaktiviert werden:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * Sophos Antivirus für Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Videos, die Adobe Flash benötigen, sind nicht verfügbar. Flash ist aus Sicherheitsgründen deaktiviert.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor kann keine Brücke nutzen, wenn ein Vermittlungsserver eingestellt ist.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC.
+* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
 
-* This is to ensure that each software build is exactly reproducible.
+* Um den Tor Browser unter Ubuntu zu starten, muss ein Shell-Script vom Nutzer ausgeführt werden. Öffne "Files" (der Explorer bei Unity), öffne "Preferences" (Einstellungen) → "Behavior" (Verhalten) → Setze "Run executable text files when they are opened" (Ausführbare Textdateien beim Öffnen starten) auf "Ask every time" (Frage jedes mal), anschließend mit "OK" bestätigen.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script.
-Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
-
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Der Tor-Browser kann auch mit folgendem Befehl aus dem Tor-Browser-Verzeichnis über die Kommandozeile gestartet werden:
 
 	./start-tor-browser.desktop

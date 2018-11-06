@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Known issues
+title: Γνωστά ζητήματα
 ---
-description: Known issues
+description: Γνωστά ζητήματα
 ---
 seo_slug: uninstalling
 ---
@@ -22,12 +22,9 @@ body:
 
 * Tor can not use a bridge if a proxy is set.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC.
+* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
 
-* This is to ensure that each software build is exactly reproducible.
-
-* To run Tor Browser on Ubuntu, users need to execute a shell script.
-Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
 
 * Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
 

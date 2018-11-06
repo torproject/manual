@@ -1,28 +1,24 @@
 _model: topic
 ---
-title: Secure Connections
+title: Koneksi Aman
 ---
-description: Learn how to protect your data using Tor Browser and HTTPS
+description: Pelajari bagaimana mengamankan data anda memakai Tor Browser dan HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper.
-If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping.
-You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
+Bila informasi personal seperti kata sandi dikirimkan ke internet tanpa enkripsi bisa dengan mudah disadap. Bila anda masuk ke sebuah situs web, anda harus memastikan apakah situs tersebut menawarkan enkripsi HTTPS, yang melindungi anda dari penyadapan seperti ini. Anda bisa memverifikasi ini di kolom URL: Bila koneksi anda terenkripsi, alamat situs tersebut diawali dengan "https://, bukan "http://"
 
 <img class="col-md-6" src="/static/images/https.png">
 
-The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
+Visualisasi berikut ini menunjukkan informasi apa yang bisa dilihat oleh penyusup dengan atau tanpa Tor Browser dan enskripsi HTTPS:
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor.
-The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS.
-The button will turn green to indicate that HTTPS is on.
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
 * When both buttons are green, you see the data that is visible to observers when you are using both tools.
 * When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
@@ -34,35 +30,35 @@ The button will turn green to indicate that HTTPS is on.
 Site.com
 </dt>
   <dd>
-    The site being visited.
+    Situs telah dikunjungi.
   </dd>
 
 <dt>
 user / pw
 </dt>
   <dd>
-    Username and password used for authentication.
+    Nama pengguna dan kata sandi digunakan untuk autentifikasi.
   </dd>
 
 <dt>
 data
 </dt>
   <dd>
-    Data being transmitted.
+    Data sudah dikirim.
   </dd>
 
 <dt>
 location
 </dt>
   <dd>
-    Network location of the computer used to visit the website (the public IP address).
+    Lokasi jaringan komputer yang digunakan untuk mengunjungi situs (IP alamat publik).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    Whether or not Tor is being used.
+    Apakah Tor sedang dipakai atau tidak.
   </dd>
 
 </dl>

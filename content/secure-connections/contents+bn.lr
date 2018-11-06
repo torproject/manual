@@ -9,9 +9,7 @@ seo_slug: secure-connections
 key: 7
 ---
 body:
-If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper.
-If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping.
-You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
+যদি কোনও ব্যক্তিগত তথ্য যেমন লগইন পাসওয়ার্ড ইন্টারনেটে অ্যানক্রিপটেড ভ্রমণ করে, তবে এটি খুব সহজেই একটি ছলচাতুরী দ্বারা আটকানো যায়। যদি আপনি কোনও ওয়েবসাইটে লগ ইন করেন, তবে আপনি নিশ্চিত হবেন যে এই সাইটটি HTTPS এনক্রিপশন অফার করে, যা এই ধরনের eavesdropping এর বিরুদ্ধে রক্ষা করে। আপনি URL বারে এটি যাচাই করতে পারেন: আপনার সংযোগ এনক্রিপ্ট করা হলে, ঠিকানাটি "http: //" এর পরিবর্তে "https: //" দিয়ে শুরু হবে।
 
 <img class="col-md-6" src="/static/images/https.png">
 
@@ -19,14 +17,12 @@ You can verify this in the URL bar: if your connection is encrypted, the address
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor.
-The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS.
-The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* আপনি Tor ব্যবহার করছেন যখন পর্যবেক্ষক দৃশ্যমান কি দেখতে "টর" বোতাম ক্লিক করুন। যে টরটি চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।
+* আপনি যখন HTTPS ব্যবহার করছেন তখন পর্যবেক্ষকদের কাছে যে ডেটা দৃশ্যমান তা দেখতে "HTTPS" বোতামটি ক্লিক করুন। যে HTTPS চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।
+* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।
+* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।
 
-##### Potentially visible data
+##### সম্ভাব্য দৃশ্যমান ডেটা
 
 <dl>
 
