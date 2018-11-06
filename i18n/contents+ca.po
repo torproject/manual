@@ -420,7 +420,7 @@ msgstr ""
 "localització diferent. Alguns webs, com els bancs o proveïdors de correu "
 "electrònic, poden interpretar com si la connexió fos furonada i per tant fer "
 "fora del web. La única manera de resoldre-ho és seguir les recomanacions de "
-"la recuperació del compte o contactar al operador i explicar la situació. "
+"la recuperació del compte o contactar al operador i explicar la situació."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
@@ -854,7 +854,7 @@ msgid ""
 "ensure that each software build is exactly reproducible."
 msgstr ""
 "* El paquet d'aplicació del navegador Tor està datat a 1 de gener,  2000 "
-"00:00:00 UTC. Això permet assegurar que la versió és reproduïble. "
+"00:00:00 UTC. Això permet assegurar que la versió és reproduïble."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -879,7 +879,7 @@ msgstr ""
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
 msgid "How to update Tor Browser"
-msgstr "Com actualitzar el navegador Tor."
+msgstr "Com actualitzar el navegador Tor"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -1893,7 +1893,7 @@ msgid ""
 "may need to be temporarily disabled:"
 msgstr ""
 "* El següent programari tallafoc ha interferit amb Tor i s'hauria de "
-"deshabilitar de forma temporal."
+"deshabilitar de forma temporal:"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1942,7 +1942,7 @@ msgstr "Subscriure's al nostre butlletí informatiu"
 
 #: templates/footer.html:25
 msgid "Get monthly updates and opportunities from the Tor Project"
-msgstr "Obteniu actualitzacions i oportunitats mensuals del projecte Tor."
+msgstr "Obteniu actualitzacions i oportunitats mensuals del projecte Tor"
 
 #: templates/footer.html:32
 msgid ""
@@ -1950,7 +1950,7 @@ msgid ""
 "found in our "
 msgstr ""
 "Marques, avisos de drets d'autor, i les regles per a l'ús per part de "
-"tercers es poden trobar a"
+"tercers es poden trobar a "
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"

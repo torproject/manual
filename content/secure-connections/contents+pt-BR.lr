@@ -13,7 +13,7 @@ Se informações pessoais, tais como senhas de login, viajarem pela Internet sem
 
 <img class="col-md-6" src="/static/images/https.png">
 
-A seguinte visualização mostra quais tipos de informações são visíveis para espiões com e sem o Navegador Tor e a criptografia HTTPS.
+A seguinte visualização mostra quais tipos de informações são visíveis para espiões com e sem o Navegador Tor e a criptografia HTTPS:
 
 <img class="" src="/static/images/tor-and-https.svg">
 

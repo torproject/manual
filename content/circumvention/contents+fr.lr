@@ -16,7 +16,7 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur
+Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur.
 
 Vous pouvez aussi configurer les transports enfichables pendant que le Navigateur Tor est en fonction en cliquant sur l’oignon vert près de votre barre d’adresse et en sélectionnant « Paramètres du réseau Tor ».
 

@@ -18,9 +18,9 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 Per utilizzare i pluggable transports schiacciare il pulsante "Configura" nella finestra di avvio che apparirà la prima volta che utilizzerete il browser Tor.
 
-Puoi anche configurare i pluggable transports con il browser Tor in esecuzione; basta schiacciare la cipolla verde vicino alla barra degli indirizzi e selezionare " Impostazioni rete Tor"
+Puoi anche configurare i pluggable transports con il browser Tor in esecuzione; basta schiacciare la cipolla verde vicino alla barra degli indirizzi e selezionare " Impostazioni rete Tor".
 
-Seleziona "Si", quando richiesto, se il tuo fornitore di servizi Internet blocca la connessione alla rete Tor
+Seleziona "Si", quando richiesto, se il tuo fornitore di servizi Internet blocca la connessione alla rete Tor.
 
 <img class="col-md-6" src="/static/images/bridges.png">
 

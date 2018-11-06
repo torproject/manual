@@ -537,7 +537,7 @@ msgid ""
 msgstr ""
 "Layanan Onion (sebelumnya diketahui sebagai \"hidden services (layanan "
 "tersembunyi)\" adalah layanan (seperti sebuah situs web) yang hanya bisa "
-"diakses melalui jaringan Tor"
+"diakses melalui jaringan Tor."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -576,7 +576,7 @@ msgstr ""
 "Disamping itu, setiap koneksi untuk alamat situs tunggal akan dibuat dengan "
 "sirkuit Tor yang sama, artinya anda dapat menjelajahi halaman yang berbeda "
 "pada sebuat situs tunggal pada tabs atau jendela yang berbeda, tanpa "
-"kehilangan satupun funsionalitas. "
+"kehilangan satupun funsionalitas."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -638,7 +638,7 @@ msgstr ""
 "utama daripada menggunakan Tor. Meek-amazon membuatnya terlihat seperti Anda "
 "menggunakan Amazon Web Services; Meek-azure membuatnya terlihat seperti Anda "
 "menggunakan situs web Microsoft; dan meek-google membuatnya terlihat seperti "
-"Anda menggunakan Google search. "
+"Anda menggunakan Google search."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "Snowflake"
@@ -728,7 +728,7 @@ msgid ""
 "private web:"
 msgstr ""
 "Layanan Onion menawarkan beberapa keuntungan daripada layanan biasa pada "
-"situs web yang tidak privat."
+"situs web yang tidak privat:"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.title)
@@ -814,12 +814,12 @@ msgid ""
 "and some fonts and icons may not display correctly."
 msgstr ""
 "Pada tingkat ini, media video dan audio HTML 5 menjadi klik-untuk- memainkan "
-"melalui NoScript; setiap optimalisasi tampilan JavaScript menjadi non-"
-"aktif;  beberapa persamaan matematika kemungkinan tidak ditampilkan secara "
-"benar; beberapa fitur terjemahan huruf  menjadi non-aktif; beberapa tipe "
-"dari gambar menjadi non-aktif;  Javascript menjadi non-aktif secara otomatis "
-"pada seluruh situs; hampir semua video dan audio format menjadi non-aktif; "
-"dan beberapa huruf dan ikon kemungkinan tidak dapat ditampilkan secara tepat "
+"melalui NoScript; setiap optimalisasi tampilan JavaScript menjadi non-aktif;"
+"  beberapa persamaan matematika kemungkinan tidak ditampilkan secara benar; "
+"beberapa fitur terjemahan huruf  menjadi non-aktif; beberapa tipe dari "
+"gambar menjadi non-aktif;  Javascript menjadi non-aktif secara otomatis pada "
+"seluruh situs; hampir semua video dan audio format menjadi non-aktif; dan "
+"beberapa huruf dan ikon kemungkinan tidak dapat ditampilkan secara tepat."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
@@ -984,7 +984,7 @@ msgstr ""
 "unduhan), sidik jari pengguna utama yang akan digunakan untuk membuat tanda "
 "tangan, dan paket checksum. Anda akan di tawarkan dengan  dua pilihan  "
 "perangkat lunak: '32 bit\" atau 64 bit. Pilihan ini tergantung dengan model "
-"komputer yang anda gunakan"
+"komputer yang anda gunakan."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.title)
 msgid "Bridges"
@@ -1050,7 +1050,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
 msgid "onion-services"
-msgstr "onion-services "
+msgstr "onion-services"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1189,7 +1189,7 @@ msgid ""
 msgstr ""
 "Untuk  mendapatkan tautan guna mengunduh Tor Browser dalam bahasa China untu "
 "Linux, kirimkan sebuah email ke gettor@torproject.org dengan subjek \"linux "
-"zh\""
+"zh\"."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1203,7 +1203,7 @@ msgid ""
 "Satori’s menu and click “Select Files”."
 msgstr ""
 "Tunggu hingga unduhan anda selesai, kemudian temukan  \"Generate Hash\" pada "
-"menu Satori, lalu klik \"Select Files\". "
+"menu Satori, lalu klik \"Select Files\"."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1231,7 +1231,7 @@ msgstr ""
 "situs pada kolom URL. Bahkan jika anda terhubung dengan dua situs berbeda "
 "yang menggunakan layanan pelacak pihak ke tiga, Tor Browser akan memaksa "
 "konten untuk dilewati dua sirkuit Tor yang berbeda, jadi orang yang melacak "
-"tidak mengetahui bahwa kedua koneksi tersebut berasal dari browser anda. "
+"tidak mengetahui bahwa kedua koneksi tersebut berasal dari browser anda."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1430,7 +1430,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "Select Satori from your browser’s Apps menu."
-msgstr "Seleksi Satori dari browser apps menu anda"
+msgstr "Seleksi Satori dari browser apps menu anda."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1446,7 +1446,7 @@ msgstr ""
 "jika anda perlu menjawab \"yes\", sebagaimana pada pengaturan yang  "
 "digunakan oleh browser yang lain pada sistem anda. Jika memungkinkan, "
 "tanyakan pengelola jaringan untuk panduan. Jika koneksi tidak menggunakan "
-"sebuah proksi, klik \"continue\". "
+"sebuah proksi, klik \"continue\"."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1520,7 +1520,7 @@ msgid ""
 msgstr ""
 "Anda juga bisa mengatur pluggable transports sembari Tor Browser sedang "
 "berjalan, dengan menekan pada bawang berwarna hijau di dekat kolom alamat "
-"dan memilih \"Tor Network Settings\""
+"dan memilih \"Tor Network Settings\"."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1623,7 +1623,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "Install Satori from the Chrome App Store."
-msgstr "Pasang Satori pada Chrome apps store"
+msgstr "Pasang Satori pada Chrome apps store."
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
 msgid "Updating"
@@ -1894,4 +1894,4 @@ msgstr ""
 
 #: templates/macros/topic.html:18
 msgid "Permalink"
-msgstr "Permalink "
+msgstr "Permalink"

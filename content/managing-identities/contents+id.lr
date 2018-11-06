@@ -16,9 +16,9 @@ Menggunakan jaringan Tor,  dapat menghentikan pengamat menemukan lokasi dan alam
 
 ##### The URL bar
 
-Tor Browser memusatkan aktifitas berinternet seputar hubungan anda dengan situs pada kolom URL. Bahkan jika anda terhubung dengan dua situs berbeda yang menggunakan layanan pelacak pihak ke tiga, Tor Browser akan memaksa konten untuk dilewati dua sirkuit Tor yang berbeda, jadi orang yang melacak tidak mengetahui bahwa kedua koneksi tersebut berasal dari browser anda. 
+Tor Browser memusatkan aktifitas berinternet seputar hubungan anda dengan situs pada kolom URL. Bahkan jika anda terhubung dengan dua situs berbeda yang menggunakan layanan pelacak pihak ke tiga, Tor Browser akan memaksa konten untuk dilewati dua sirkuit Tor yang berbeda, jadi orang yang melacak tidak mengetahui bahwa kedua koneksi tersebut berasal dari browser anda.
 
-Disamping itu, setiap koneksi untuk alamat situs tunggal akan dibuat dengan sirkuit Tor yang sama, artinya anda dapat menjelajahi halaman yang berbeda pada sebuat situs tunggal pada tabs atau jendela yang berbeda, tanpa kehilangan satupun funsionalitas. 
+Disamping itu, setiap koneksi untuk alamat situs tunggal akan dibuat dengan sirkuit Tor yang sama, artinya anda dapat menjelajahi halaman yang berbeda pada sebuat situs tunggal pada tabs atau jendela yang berbeda, tanpa kehilangan satupun funsionalitas.
 
 <img class="col-md-6" src="/static/images/circuit_full.png">
 

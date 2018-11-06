@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"PO-Revision-Date: 2018-11-06 19:42+0000\n"
 "Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: pt-BR\n"
@@ -111,7 +111,7 @@ msgid ""
 msgstr ""
 "Outros transportadores plugáveis, como \"meek\", usam outros técnicas "
 "anticensura, que não se baseiam em pontes. Você não precisa obter endereços "
-"de pontes para usar esses transportadores. "
+"de pontes para usar esses transportadores."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -144,7 +144,7 @@ msgid ""
 msgstr ""
 "Além disso, o Navegador Tor é concebido para impedir que sites coletem as "
 "suas \"impressões digitais\" identificando-a/o a partir das configurações do "
-"seu navegador. "
+"seu navegador."
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -158,7 +158,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Known issues"
-msgstr ""
+msgstr "##### Problemas conhecidos"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 "que podem registrar informações sobre a sua visita. A maior parte dos sites "
 "atuais usam inúmeros serviços terceirizados, inclusive os de botões 'Curtir' "
 "das redes sociais, rastreadores de dados e janelas de publicidade, capazes "
-"de associar a sua atividade entre os vários sites que você visita.  "
+"de associar a sua atividade entre os vários sites que você visita."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -223,7 +223,7 @@ msgstr ""
 "mails. Ao fazer um login em uma rede social ou em uma conta de e-mail usando "
 "o Navegador Tor, você pode escolher exatamente quais informações revelar aos "
 "sites pelos quais você navega. Fazer um login usando o Navegador Tor também "
-"é útil se você estiver tentando se conectar a um site censurado na sua rede. "
+"é útil se você estiver tentando se conectar a um site censurado na sua rede."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -243,14 +243,14 @@ msgstr "Tornado-se um tradutor para o projeto Tor"
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
@@ -302,7 +302,7 @@ msgstr ""
 "exata e o seu endereço IP. No entanto, mesmo sem essas informações, é "
 "possível associar informações de origens diversas. Por isso, o Navegador Tor "
 "inclui algumas funcionalidades adicionais para ajudar a controlar quais "
-"informações podem ser associadas à sua identidade. "
+"informações podem ser associadas à sua identidade."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -348,7 +348,7 @@ msgstr ""
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
 msgstr ""
-"ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes.  "
+"ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes."
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
@@ -602,7 +602,7 @@ msgid ""
 "into Tor Launcher."
 msgstr ""
 "Assim que você tiver obtido alguns endereços de pontes, será necessário "
-"inseri-los no Tor Launcher"
+"inseri-los no Tor Launcher."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.seo_slug)
@@ -619,7 +619,7 @@ msgid ""
 "yourself. You have two options:"
 msgstr ""
 "Como os endereços de pontes não são públicos, você vai precisar solicitá-"
-"los. Você tem duas opções: "
+"los. Você tem duas opções:"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -702,7 +702,7 @@ msgid ""
 msgstr ""
 "O Navegador Tor é baseado no Firefox. Assim, qualquer extensão de navegador "
 "ou temas compatíveis com Firefox também podem ser instalados no Navegador "
-"Tor. "
+"Tor."
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -734,7 +734,7 @@ msgid ""
 "private web:"
 msgstr ""
 "Serviços onion oferecem uma série de vantagens em relação a serviços na rede "
-"não-privada."
+"não-privada:"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.title)
@@ -749,7 +749,7 @@ msgid ""
 "eavesdroppers with and without Tor Browser and HTTPS encryption:"
 msgstr ""
 "A seguinte visualização mostra quais tipos de informações são visíveis para "
-"espiões com e sem o Navegador Tor e a criptografia HTTPS."
+"espiões com e sem o Navegador Tor e a criptografia HTTPS:"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -882,7 +882,7 @@ msgstr ""
 "A imagem acima ilustra uma pessoa que visita diversos sites usando Tor. Os "
 "computadores verdes do meio representam retransmissores da rede Tor, "
 "enquanto as três chaves representam camadas de criptografia entre aquela "
-"pessoa e cada retransmissor. "
+"pessoa e cada retransmissor."
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.seo_slug)
@@ -932,7 +932,7 @@ msgstr ""
 "O JavaScript é uma linguagem de programação que websites usam para oferecer "
 "elementos interativos tais como vídeo, animação, áudio e timelines de "
 "status. Infelizmente, o JavaScript também pode permitir ataques contra a "
-"segurança do navegador, o que pode levar a desanonimização. "
+"segurança do navegador, o que pode levar a desanonimização."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.title)
 msgid "Pluggable transports"
@@ -993,7 +993,7 @@ msgstr ""
 "criptográfica (necessária para verificar o download), da impressão digital "
 "da chave usada para assinar e da soma de verificação do pacote. Pode ser que "
 "você tenha de escolher entre um programa “32-bit” ou “64-bit”, de acordo com "
-"o modelo do computado que você estiver usando. "
+"o modelo do computado que você estiver usando."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.title)
 msgid "Bridges"
@@ -1346,7 +1346,7 @@ msgid ""
 msgstr ""
 "Se você souber que a sua conexão está sendo censurada, ou que ela usa proxy, "
 "é melhor selecionar esta opção. O Navegador Tor a/o guiará em uma série de "
-"opções de configuração.  "
+"opções de configuração."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.title)
@@ -1404,7 +1404,7 @@ msgid ""
 msgstr ""
 "O Navegador Tor não afeta os programas existentes nem as configurações no "
 "seu computador. Desinstalar o Navegador Tor não afetará em nada o seu "
-"programa de sistema ou as suas configurações. "
+"programa de sistema ou as suas configurações."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1416,7 +1416,7 @@ msgstr ""
 "Ainda que o Navegador Tor seja concebido para possibilitar uma total "
 "anonimidade de seus usuários na Internet, em algumas situações também faz "
 "sentido usar Tor para visitar sites que requerem nomes, senhas ou outras "
-"informacoes de identificacao.  "
+"informacoes de identificacao."
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1461,7 +1461,7 @@ msgstr ""
 "é necessário utilizá-los e normalmente você sabe se a resposta for “Sim” já "
 "que os mesmos parâmetros são usados por outros navegadores do seu sistema. "
 "Se possível, consulte a pessoa responsável pela administração da sua rede. "
-"Caso a sua conexão não use proxy, clique em “Continuar.”"
+"Caso a sua conexão não use proxy, clique em “Continuar”."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1491,7 +1491,7 @@ msgid ""
 "to the Tor network."
 msgstr ""
 "Responda \"sim\" à questão sobre se o seu provedor de serviço de Internet "
-"bloqueia conexões à rede Tor. "
+"bloqueia conexões à rede Tor."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1593,7 +1593,7 @@ msgstr "Plugins, extensões e JavaScript"
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 "Saiba o que o Navegador Tor pode fazer para proteger a sua privacidade e "
-"anonimato."
+"anonimato"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1882,7 +1882,7 @@ msgstr ""
 "Proteger os direitos humanos e liberdades por meio da criação e "
 "implementação de tecnologias de anonimato e privacidade livres e de código "
 "aberto, provendo apoio à seu uso e disponibilidade irrestritos enquanto "
-"contribuímos para avanço de sua compreensão científica e popular. "
+"contribuímos para avanço de sua compreensão científica e popular."
 
 #: templates/footer.html:24
 msgid "Subscribe to our Newsletter"
@@ -1898,7 +1898,7 @@ msgid ""
 "found in our "
 msgstr ""
 "Trademark, avisos de direitos autorais, e regras de uso para terceiros podem "
-"ser encontradas em nosso"
+"ser encontradas em nosso "
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"

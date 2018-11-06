@@ -4,15 +4,15 @@ title: Layanan Onion
 ---
 description: Layanan hanya bisa diakses menggunakan Tor
 ---
-seo_slug: onion-services 
+seo_slug: onion-services
 ---
 key: 6
 ---
 body:
 
-Layanan Onion (sebelumnya diketahui sebagai "hidden services (layanan tersembunyi)" adalah layanan (seperti sebuah situs web) yang hanya bisa diakses melalui jaringan Tor
+Layanan Onion (sebelumnya diketahui sebagai "hidden services (layanan tersembunyi)" adalah layanan (seperti sebuah situs web) yang hanya bisa diakses melalui jaringan Tor.
 
-Layanan Onion menawarkan beberapa keuntungan daripada layanan biasa pada situs web yang tidak privat.
+Layanan Onion menawarkan beberapa keuntungan daripada layanan biasa pada situs web yang tidak privat:
 
 * An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.

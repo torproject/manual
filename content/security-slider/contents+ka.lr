@@ -34,7 +34,7 @@ Tor-ბრაუზერს გააჩნია „უსაფრთხო�
 მეტად დაცული
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+მოცემულ დონეზე, HTML5-ის ვიდეო და ხმოვანი ფაილები გაეშვება მხოლოდ დაწკაპებით, NoScript-ის საშუალებით; JavaScript-ის წარმადობის ყველანაირი გაუმჯობესება გათიშულია; მათემატიკური გამოთვლების ნაწილი, შესაძლოა არასათანადოდ გამოჩნდეს; ზოგიერთი შრიფტის გამოსახვა შეზღუდულია; სურათების ნაწილი გათიშულია; JavaScript ნაგულისხმევად გამორთულია ყველა <a href="secure-connections">HTTPS</a>-ის არმქონე საიტზე.
 </dd>
 <dt>
 ჩვეულებრივი

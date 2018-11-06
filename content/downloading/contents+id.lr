@@ -22,7 +22,7 @@ GetTor is a service that automatically responds to messages with links to the la
 
 Kirim email ke gettor@torproject.org, dan di dalam pesan tulislah "windows", "osx", atau "linux", (tanpa tanda kutip) tergantung sistem operasi ada.
 
-GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket Tor Browser, tanda tangan kriptografi (diperlukan untuk memverikasi unduhan), sidik jari pengguna utama yang akan digunakan untuk membuat tanda tangan, dan paket checksum. Anda akan di tawarkan dengan  dua pilihan  perangkat lunak: '32 bit" atau 64 bit. Pilihan ini tergantung dengan model komputer yang anda gunakan
+GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket Tor Browser, tanda tangan kriptografi (diperlukan untuk memverikasi unduhan), sidik jari pengguna utama yang akan digunakan untuk membuat tanda tangan, dan paket checksum. Anda akan di tawarkan dengan  dua pilihan  perangkat lunak: '32 bit" atau 64 bit. Pilihan ini tergantung dengan model komputer yang anda gunakan.
 
 ###### To use GetTor via Twitter:
 
@@ -30,7 +30,7 @@ Untuk mendapatkan tautan guna mengunduh Tor browser dalam bahasa Inggris pada OS
 
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-Untuk  mendapatkan tautan guna mengunduh Tor Browser dalam bahasa China untu Linux, kirimkan sebuah email ke gettor@torproject.org dengan subjek "linux zh"
+Untuk  mendapatkan tautan guna mengunduh Tor Browser dalam bahasa China untu Linux, kirimkan sebuah email ke gettor@torproject.org dengan subjek "linux zh".
 
 ##### Satori
 
@@ -38,12 +38,12 @@ Satori adalah  sebuah tambahan untuk  peramban chrome atau chromium yang mengiji
 
 Gunakan Satori untuk menguduh Tor Browser:
 
-Pasang Satori pada Chrome apps store
+Pasang Satori pada Chrome apps store.
 
-Seleksi Satori dari browser apps menu anda
+Seleksi Satori dari browser apps menu anda.
 
 Ketika Satori dibuka, Klik pada bahasa yang anda inginkan.  Menu A akan membuka daftar mengunduh yang tersedia untuk bahasa tersebut. Temukan akses untuk TorBrowser dengan nama sistem operasi Anda. Pilih "A" atau "B" setelah nama program - masing-masing mewakili sumber yang berbeda untuk mendapatkan perangkat lunak. Unduhan anda akan di mulai.
 
-Tunggu hingga unduhan anda selesai, kemudian temukan  "Generate Hash" pada menu Satori, lalu klik "Select Files". 
+Tunggu hingga unduhan anda selesai, kemudian temukan  "Generate Hash" pada menu Satori, lalu klik "Select Files".
 
 Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

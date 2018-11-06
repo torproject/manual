@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"PO-Revision-Date: 2018-11-06 19:42+0000\n"
 "Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -480,7 +480,7 @@ msgid ""
 msgstr ""
 "GetTor est un service qui repond automatiquement aux messages avec des liens "
 "pour la derniėre version de Tor Navigateur, hebergé a une variété de "
-"locations comme Dropbox, Google Drive et GitHub "
+"locations comme Dropbox, Google Drive et GitHub."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1297,7 +1297,7 @@ msgid ""
 "that appears when you first run Tor Browser."
 msgstr ""
 "Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la "
-"fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur"
+"fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)

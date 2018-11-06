@@ -9,11 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-I Pluggable transports sono degli strumenti utilizzati dal browser Tor per nascondere il traffico inviato. Questo può risultare utile nelle situazioni in cui il fornitore di servizi internet o un'altra autorità stiano attivamente bloccando le connessioni alla rete Tor
+I Pluggable transports sono degli strumenti utilizzati dal browser Tor per nascondere il traffico inviato. Questo può risultare utile nelle situazioni in cui il fornitore di servizi internet o un'altra autorità stiano attivamente bloccando le connessioni alla rete Tor.
 
 ##### Types of pluggable transport
 
-Al momento esistono 6 tipi di pluggable transports, ma ne stanno venendo sviluppati di nuovi
+Al momento esistono 6 tipi di pluggable transports, ma ne stanno venendo sviluppati di nuovi.
 
 <table>
 <tbody>

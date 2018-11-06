@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Administrar identidades
 ---
-description: Aprende a controlar la información para identificarte en el Navegador Tor.
+description: Aprende a controlar la información para identificarte en el Navegador Tor
 ---
 seo_slug: administrar-identidades
 ---
@@ -47,7 +47,7 @@ El navegador Tor presenta las opciones "Nueva identidad" y "Nuevo circuito de To
 
    Esta opción es útil si quieres evitar que la actividad posterior de tu navegador sea asociada a lo que estabas haciendo antes. Seleccionarla cerrará todas tus pestañas y ventanas abiertas, borrará toda la información privada como cookies e historial de navegación, y usará nuevos circuitos de Tor para todas las conexiones. Tor te advertirá de que se detendrán toda la actividad y descargas, así que ten esto en cuenta antes de pulsar "Nueva identidad".
 
-##### Nuevo circuito Tor para este sitio.
+##### Nuevo circuito Tor para este sitio
 
    This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
    You can also access this option in the new circuit display, in the site information menu, in the URL bar.

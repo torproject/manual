@@ -28,7 +28,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### Logáil isteach trí Tor
 
-Cé cur dearadh Brabhsálaí Tor chun cabhrú leat d'aitheantas a choinneáil i bhfolach ar an nGréasán, uaireanta tá sé ciallmhar Tor a úsáid ar shuímh Ghréasáin a éilíonn ainm úsáideora, focal faire, nó faisnéis phearsanta eile. 
+Cé cur dearadh Brabhsálaí Tor chun cabhrú leat d'aitheantas a choinneáil i bhfolach ar an nGréasán, uaireanta tá sé ciallmhar Tor a úsáid ar shuímh Ghréasáin a éilíonn ainm úsáideora, focal faire, nó faisnéis phearsanta eile.
 
 Nuair a logálann tú isteach i suíomh Gréasáin trí ghnáthbhrabhsálaí, nochtann tú do sheoladh IP agus do láthair gheografach sa phróiseas. Is ionann an cás nuair a sheolann tú ríomhphost. Ach nuair a úsáideann tú Brabhsálaí Tor chun logáil isteach i gcuntas ríomhphoist nó i suíomh sóisialta, bíonn tú in ann an t-eolas a nochtann tú don suíomh a rialú. Tá Brabhsálaí Tor áisiúil freisin sa chás go bhfuil an suíomh atá tú ag iarraidh baint amach faoi chinsireacht ar do líonra.
 

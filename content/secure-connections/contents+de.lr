@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Sichere Verbindungen
 ---
-description: Erfahre, wie du deine Daten mithilfe des Tor-Browsers und HTTPS schützt.
+description: Erfahre, wie du deine Daten mithilfe des Tor-Browsers und HTTPS schützt
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-Wenn persönliche Informationen wie Login-Passwörter unverschlüsselt über das Internet gesendet werden, können diese relativ einfach durch Angreifer abgehört werden. Wenn du dich bei einer Internetseite anmeldest, solltest du sicherstellen, dass diese HTTPS-Verschlüsselung anbietet, welche gegen diese Art von Abhören schützt. Du kannst in deiner Adressleiste feststellen, dass deine Verbindung verschlüsselt ist, da diese mit "https://" statt mit "http://" beginnen. 
+Wenn persönliche Informationen wie Login-Passwörter unverschlüsselt über das Internet gesendet werden, können diese relativ einfach durch Angreifer abgehört werden. Wenn du dich bei einer Internetseite anmeldest, solltest du sicherstellen, dass diese HTTPS-Verschlüsselung anbietet, welche gegen diese Art von Abhören schützt. Du kannst in deiner Adressleiste feststellen, dass deine Verbindung verschlüsselt ist, da diese mit "https://" statt mit "http://" beginnen.
 
 <img class="col-md-6" src="/static/images/https.png">
 

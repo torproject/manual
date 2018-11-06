@@ -16,7 +16,7 @@ body:
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+უმეტეს შემთხვევაში, „დაკავშირების“ მითითება საშუალებას მოგცემთ დაუკავშირდეთ Tor-ქსელს დამატებითი გამართვის გარეშე. როდესაც დააწკაპებთ, გამოჩნდება მდგომარეობის ზოლი, რომელზეც ნაჩვენები იქნება Tor-ის დაკავშირების მიმდინარეობა. თუ შედარებით სწრაფი ინტერნეტი გაქვთ და ზოლის შევსება გაიჭედება ერთ ადგილზე, იხილეთ <a href="troubleshooting">გაუმართაობის აღმოფხვრის</a> გვერდი, დახმარების მისაღებად ხარვეზის გამოსწორებისთვის.
 
 ##### Configure
 
@@ -24,7 +24,7 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 თუ იცით რომ თქვენი კავშირი ცენზურის ქვეშაა, გამოიყენეთ პროქსი. მონიშნეთ ეს პარამეტრი. Tor-ბრაუზერი გაგატარებთ გარკვეული სახის პარამეტრების გამართვაზე.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+პირველ ფანჯარაში გამოჩნდება შეკითხვა, არის თუ არა Tor-ქსელთან კავშირი შეზღუდული ან ცენზურის ქვეშ. თუ ფიქრობთ რომ ასე არაა, აირჩიეთ „არა“. თუ იცით რომ თქვენი კავშირი ცენზურას ექვემდებარება ან სცადეთ დაკავშირება Tor-ქსელთან, მაგრამ ვერ მოხერხდა და ვერც სხვა გადაწყვეტებმა უშველა, აირჩიეთ „დიახ“. ამის შემდგომ, თქვენ გადამისამართდებით <a href="circumvention">გვერდის ავლის</a> ფანჯარაზე, მისაერთებელი გადამყვანების გასამართად.
 
 მომდევნო ეკრანზე იქნება შეკითხვა, იყენებს თუ არა თქვენი კავშირი პროქსის. ხშირ შემთხვევაში, ეს საჭირო არაა. ჩვეულებრივ, თქვენ ისედაც კარგად გეცოდინებათ, თუ „დიახ“ პასუხის მითითებაა საჭირო, იმავე პარამეტრების გამოყენება იქნება შესაძლებელი საკუთარ სისტემაზე, რომლებიც სხვა ბრაუზერებშია. თუ შესაძლებელია, გაესაუბრეთ თქვენი ქსელის ადმინისტრატორს დამატებითი მითითებებისთვის. თუ თქვენი კავშირი არ იყენებს პროქსის, დაწკაპეთ „გაგრძელებაზე“.
 

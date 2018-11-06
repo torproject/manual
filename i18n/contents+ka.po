@@ -24,6 +24,8 @@ msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
+"* შეიყვანეთ შემდეგ გვერდზე თქვენი სახელი და მიუთითეთ „Localization“ და "
+"„Translator“ ჩამოსაშლელი მენიუდან."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -53,7 +55,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dd>"
-msgstr ""
+msgstr "<dd>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.seo_slug)
@@ -176,6 +178,11 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"Tor წარმოადგენს გვირაბების ერთგვარ ქსელს, რომელიც საშუალებას გაძლევთ პირადი "
+"მონაცემების დაცვით და უსაფრთხოდ ისარგებლოთ ინტერნეტით. Tor აგზავნის "
+"მონაცემებს სამი შემთხვევით არჩეული მომსახურე კომპიუტერის (ე.წ. *გადამცემი* "
+"წერტილის) გავლით Tor-ქსელში. წრედის ბოლო გადამცემი კი (ანუ „გამსვლელი "
+"წერტილი“) ამ მონაცემებს, შემდგომ აგზავნის ღია ინტერნეტში."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -252,7 +259,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
@@ -289,6 +296,10 @@ msgid ""
 "valid for a single session (until Tor Browser is exited or a <a href=\"/"
 "managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"ნაგულისხმევად, Tor-ბრაუზერი არ დაიმახსოვრებს მონახულებული გვერდების "
+"ისტორიას. ფუნთუშებიც მოქმედია მხოლოდ მიმდინარე სეანსისას (სანამ Tor-ბრაუზერი "
+"დაიხურება ან <a href=\"managing-identities#new-identity\">ახალი ვინაობა</a> "
+"იქნება მოთხოვნილი)."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -345,7 +356,7 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. წაშალეთ Tor-ბრაუზერის საქაღალდე."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
@@ -365,7 +376,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -383,7 +394,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -420,6 +431,12 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* Tor-ბრაუზერით კავშირისას, უმეტეს შემთხვევაში ჩანს, რომ მსოფლიოს სულ სხვა "
+"წერტილიდან შედიხართ საიტზე. ზოგიერთმა მათგანმა კი, მაგალითად ბანკებმა ან "
+"ელფოსტის მომსახურების მომწოდებლებმა, ეს შეიძლება აღიქვას თქვენი ანგარიშის "
+"უკანონო ხელყოფად და მასზე წვდომის უფლება სრულად შეზღუდოს. ერთადერთი გზა ამის "
+"მოსაგვარებლად, ანგარიშის აღდგენაა, საიტზე მოცემული მითითებების მიხედვით ან "
+"მხარდაჭერის სამსახურთან დაკავშირება და მათთვის არსებული მდგომარეობის ახსნა."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
@@ -437,13 +454,17 @@ msgid ""
 "but not yet fixed. Please check the <a href=\"/known-issues\">Known Issues</"
 "a> page to see if the problem you are experiencing is already listed there."
 msgstr ""
+"Tor-ბრაუზერი მუდმივად მუშავდება და ცნობილია ზოგიერთი ხარვეზი, რომელიც ჯერ "
+"არაა მოგვარებული. გთხოვთ, გაეცნოთ <a href=\"known-issues\">ცნობილი "
+"ხარვეზების</a> გვერდს და ნახოთ, თქვენ მიერ აღმოჩენილი ხარვეზი, უკვე "
+"აღრიცხულია თუ არა მოცემულ ჩამონათვალში."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
-msgstr ""
+msgstr "<dl>"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -495,7 +516,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "./start-tor-browser.desktop"
-msgstr ""
+msgstr "./start-tor-browser.desktop"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -503,17 +524,19 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
+"* Onion-მომსახურებების მდებარეობა და IP-მისამართები დამალულია, რაც ართულებს "
+"ზედამხედველებისა და ცენზორების მიერ მათ აღმოჩენასა და მართვას."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dt>"
-msgstr ""
+msgstr "</dt>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -562,7 +585,7 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
 "* Select the language you would like to translate from the dropdown menu:"
-msgstr ""
+msgstr "* მიუთითეთ ენა, რომლიდანაც გსურთ თარგმნოთ, ჩამოსაშლელი მენიუდან:"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -573,6 +596,13 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"<a href=\"transports\">მისაერთებელი გადამყვანების</a> დიდი ნაწილი, მათ შორის "
+"obfs3 და obfs4, ეფუძნება „ხიდურ“ გადამცემებს. ჩვეულებრივი Tor-გადამცემების "
+"მსგავსად,  გადამცემი ხიდებიც მოხალისეების მიერაა უზრუნველყოფილი; თუმცა, "
+"განსხვავებით ჩვეულებრივი გადამცემებისა, ისინი არაა საჯაროდ აღნუსხული, ასე "
+"რომ, მოწინააღმდეგეები მარტივად ვერ მოახერხებენ მათ აღმოჩენას. ასეთი "
+"გადამცემების გამოყენება მისაერთებელ გადამყვანებთან ერთად, გამოსადეგია Tor-ით "
+"სარგებლობის შესანიღბად."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -610,7 +640,7 @@ msgstr ""
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.seo_slug)
 msgid "becoming-tor-translator"
-msgstr ""
+msgstr "გახდით Tor-ის მთარგმნელი"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.seo_slug)
 msgid "plugins"
@@ -666,7 +696,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -680,6 +710,10 @@ msgid ""
 "your real Internet (IP) address, and will not know who you are unless you "
 "explicitly identify yourself."
 msgstr ""
+"* ვებსაიტების ან მომსახურებების უკან მდგომნი და ნებისმიერი სხვა მათი "
+"თვალყურისმდევნებელი იხილავს მხოლოდ იმას, რომ კავშირი მოდის Tor-ქსელიდან, "
+"ნაცვლად თქვენი ნამდვილი ინტერნეტმისამართისა (IP), შესაბამისად ვერ გაიგებენ "
+"ვინ ხართ, სანამ თავად არ გაამჟღავნებთ საკუთარ ვინაობას."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -764,6 +798,14 @@ msgid ""
 "reloaded. This option does not clear any private information or unlink your "
 "activity, nor does it affect your current connections to other websites."
 msgstr ""
+"ეს პარამეტრი გამოსადეგია მაშინ, როცა არსებული <a href=\"about-tor-"
+"browser#how-tor-works\">გამსვლელი წერტილით</a> ვერ ხერხდება საჭირო საიტთან "
+"დაკავშირება ან მისი სათანადოდ ჩატვირთვა. შედეგად, მოქმედი ჩანართი ან ფანჯარა "
+"ხელახლა ჩაიტვირთება ახალი Tor-წრედით. დანარჩენი ჩანართები და ფანჯრები, "
+"რომლებშიც იგივე საიტის სხვა გვერდებია გახსნილი, აგრეთვე ახალ წრედს "
+"გამოიყენებს, ხელახლა ჩატვირთვის შემდეგ. ამ შემთხვევაში, პირადი მონაცემები არ "
+"წაიშლება და არც თქვენი მოქმედებების განცალკევება არ მოხდება, ასევე ეს "
+"ყველაფერი არ იმოქმედებს თქვენს კავშირზე სხვა საიტებთან."
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -832,7 +874,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -851,6 +893,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* Tor-ბრაუზერის კრებული დათარიღებულია 2000 წლის 1 იანვრით, 00:00:00 UTC. ეს "
+"იმის უზრუნველსაყოფადაა, რომ თითოეული ანაწყობის კვლავწარმოება იყოს "
+"შესაძლებელი."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -858,6 +903,8 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* Tor-ბრაუზერი ასევე შესაძლებელია გაეშვას ბრძანებების ფანჯრიდან, შემდეგი "
+"ბრძანებით Tor-ბრაუზერის საქაღალდეში:"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -869,6 +916,12 @@ msgid ""
 "then be taken to the <a href=\"/circumvention\">Circumvention</a> screen to "
 "configure a pluggable transport."
 msgstr ""
+"პირველ ფანჯარაში გამოჩნდება შეკითხვა, არის თუ არა Tor-ქსელთან კავშირი "
+"შეზღუდული ან ცენზურის ქვეშ. თუ ფიქრობთ რომ ასე არაა, აირჩიეთ „არა“. თუ იცით "
+"რომ თქვენი კავშირი ცენზურას ექვემდებარება ან სცადეთ დაკავშირება Tor-ქსელთან, "
+"მაგრამ ვერ მოხერხდა და ვერც სხვა გადაწყვეტებმა უშველა, აირჩიეთ „დიახ“. ამის "
+"შემდგომ, თქვენ გადამისამართდებით <a href=\"circumvention\">გვერდის ავლის</a> "
+"ფანჯარაზე, მისაერთებელი გადამყვანების გასამართად."
 
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
@@ -890,7 +943,7 @@ msgstr ""
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.seo_slug)
 msgid "plugable-transports"
-msgstr ""
+msgstr "მისაერთებელი-გადამყვანები"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.seo_slug)
 msgid "about"
@@ -914,7 +967,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -949,7 +1002,7 @@ msgstr "ამოშლა"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.seo_slug)
@@ -976,11 +1029,14 @@ msgid ""
 "* When both buttons are green, you see the data that is visible to observers "
 "when you are using both tools."
 msgstr ""
+"* როდესაც ორივე ღილაკი მწვანეა, თქვენ იხილავთ, თუ რამონაცემებია ხილული "
+"გარეშე თვალისთვის, ორივე მათგანით სარგებლობისას."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* On the next page, select 'Join an existing project' and continue."
 msgstr ""
+"* შემდეგ გვერდზე, აირჩიეთ „Join an existing project“ პროექტში ჩასართავად."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1036,13 +1092,19 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"Tor-ქსელთან პირდაპირი კავშირი ზოგჯერ შეზღუდულია ხოლმე ინტერნეტ-მომსახურების "
+"მომწოდებლის ან მთავრობის მიერ. Tor-ბრაუზერს გააჩნია გარკვეული სახის გვერდის "
+"ავლის საშუალებები, ამ შეზღუდვების ასარიდებლად. მათ ეწოდება „მისაერთებელი "
+"გადამყვანები“. იხილეთ გვერდი <a href=\"transports\">მისაერთებელი "
+"გადამყვანები</a> დამატებითი ინფორმაციისთვის, თუ რა სახის გადამყვანებია "
+"ამჟამად ხელმისაწვდომი."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dd>"
-msgstr ""
+msgstr "</dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1050,6 +1112,8 @@ msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
 "options, located in the main menu (hamburger menu)."
 msgstr ""
+"Tor-ბრაუზერის შესაძლებლობები „ახალი ვინაობა“ და „ახალი Tor-წრედი ამ "
+"საიტისთვის“ მდებარეობს Torbutton-ის მენიუში."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.description)
@@ -1064,7 +1128,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
 msgid "onion-services"
-msgstr ""
+msgstr "Onion-მომსახურებები"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1073,6 +1137,9 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* წაშალეთ Tor-ბრაუზერი და დააყენეთ ხელახლა. თუ განახლება გსურთ, პირდაპირ არ "
+"გადააწეროთ ძველი Tor-ბრაუზერის ფაილებს; ჯერ დარწმუნდით, რომ ყველაფერი "
+"სრულადაა წაშლილი."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1102,6 +1169,10 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"როდესაც თქვენი წევრად მიღება დადასტურდება, შეგიძლიათ თარგმნის დაწყება; "
+"უბრალოდ გადადით უკან <a href=\"https://www.transifex.com/otf/torproject/"
+"\">Tor-ის Transifex-გვერდზე</a>, როდესაც მზად იქნებით მუშაობის დასაწყებად. "
+"გმადლობთ, რომ სურვილი გაქვთ დაეხმაროთ პროექტს!"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1110,6 +1181,10 @@ msgid ""
 "way (for more details, see the <a href=\"/transports\">Pluggable Transports</"
 "a> page), and their effectiveness depends on your individual circumstances."
 msgstr ""
+"Tor-ის გამშვების მენიუში მუშაობს მოცემული თითოეული გადამყვანი, "
+"სხვადასხვაგვარად (ვრცლად, იხილეთ <a href=\"transports\">მისაერთებელი "
+"გადამყვანების</a> შესახებ გვერდი) და მათი შედეგიანობა დამოკიდებულია გვერდის "
+"ავლის თავისებურებებზე."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1121,7 +1196,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
-msgstr ""
+msgstr "</dl>"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.title)
@@ -1153,6 +1228,8 @@ msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
+"* თქვენს კომპიუტერზე სისტემის დრო უნდა იყოს გასწორებული, თუ არადა Tor ვერ "
+"მოახერხებს დაკავშირებას."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1166,10 +1243,13 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* დარწმუნდით, რომ ანტივირუსული პროგრამა რომელიც გიყენიათ, არ უშლის ხელს Tor-"
+"ის გაშვებას. თუ არ იცით როგორ ხდება გადამოწმება, დაგჭირდებათ ანტივირუსული "
+"პროგრამის სახელმძღვანელო მასალების გაცნობა."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1179,7 +1259,7 @@ msgstr ""
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* A notification will now show up on the top of the page like so:"
-msgstr ""
+msgstr "* შეტყობინება ნაჩვენები იქნება გვერდის თავში ამგვარად:"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.title)
 msgid "About Tor Browser"
@@ -1262,11 +1342,13 @@ msgid ""
 "* On the next page, select the languages you speak from the drop-down menu "
 "and continue."
 msgstr ""
+"* მომდევნო გვერდზე კი აირჩიეთ ენა, რომელზეც საუბრობთ, ჩამოსაშლელი მენიუდან "
+"და განაგრძეთ."
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. გაასუფთავეთ სანაგვე ურნა"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
@@ -1289,6 +1371,10 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* Onion-მომსახურების მისამართი თავისით იქმნება, ასე რომ საიტის მმართველს, არ "
+"ესაჭიროება დომენური სახელის შეძენა; მისამართის .onion დაბოლოება, აგრეთვე "
+"ეხმარება Tor-ს იმის დამოწმებაში, რომ კავშირი სწორადაა დამყარებული და არ "
+"ხდება უნებართვო ჩარევა."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.seo_slug)
@@ -1307,6 +1393,8 @@ msgstr "ამოშლა"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* Tor საჭიროებს თქვენი სისტემის საათს (თან დროის სარტყელს) დროის სწორად "
+"მითითებისთვის."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1330,6 +1418,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* დარწმუნდით, რომ უკვე არაა Tor-ბრაუზერი გაშვებული. თუ ვერ ახერხებთ ამის "
+"გადამოწმებას, გამორთეთ და ხელახლა ჩართეთ კომპიუტერი."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1363,6 +1453,9 @@ msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
+"* დააწკაპეთ „Tor-ის“ ღილაკს რომ იხილოთ, თუ რა მონაცემებია ხილული გარეშე "
+"თვალისთვის, Tor-ით სარგებლობისას. ღილაკი იქცევა მწვანედ იმის მისანიშნებლად, "
+"რომ Tor ჩართულია."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1388,6 +1481,12 @@ msgid ""
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
 "sites."
 msgstr ""
+"მოცემულ დონეზე, HTML5-ის ვიდეო და ხმოვანი ფაილები გაეშვება მხოლოდ "
+"დაწკაპებით, NoScript-ის საშუალებით; JavaScript-ის წარმადობის ყველანაირი "
+"გაუმჯობესება გათიშულია; მათემატიკური გამოთვლების ნაწილი, შესაძლოა "
+"არასათანადოდ გამოჩნდეს; ზოგიერთი შრიფტის გამოსახვა შეზღუდულია; სურათების "
+"ნაწილი გათიშულია; JavaScript ნაგულისხმევად გამორთულია ყველა <a href=\"secure-"
+"connections\">HTTPS</a>-ის არმქონე საიტზე."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1446,6 +1545,10 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. მონახეთ თქვენი Tor-ბრაუზერის საქაღალდე. ნაგულისხმევი მდებარეობა Windows-"
+"ზე არის მთავარი სამუშაო ეკრანი (Desktop); Mac OS X-ზე იქნება პროგრამების "
+"საქაღალდე. Linux-ზე არ არსებობს ასეთი მდებარეობა, თუმცა წესით უნდა იყოს "
+"საქაღალდეში დასახელებით „tor-browser_en-US“, ინგლისური ვერსიის შემთხვევაში."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1472,11 +1575,11 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* დროებით გათიშეთ ქსელის ფარი (Firewall)."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.title)
@@ -1505,6 +1608,8 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* ვიდეოები რომლებიც საჭიროებს Adobe Flash-ის გამშვებს, მიუწვდომელია. Flash "
+"შეზღუდულია უსაფრთხოების მიზნებით."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1531,7 +1636,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1556,6 +1661,10 @@ msgid ""
 "need to enter bridge addresses manually. Read the <a href=\"/bridges/"
 "\">Bridges</a> section to learn what bridges are and how to obtain them."
 msgstr ""
+"თუ ცდით ყველა მათგანს და ვერცერთი ვერ დაგაკავშირებთ ინტერნეტთან, დაგჭირდებათ "
+"გადამცემი ხიდის მისამართების ხელით მითითება. წაიკითხეთ <a href=\"bridges"
+"\">ხიდების</a> შესახებ განყოფილება და შეიტყვეთ, თუ რას წარმოადგენს ხიდები და "
+"როგორ ხდება მათი მოპოვება."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1569,10 +1678,12 @@ msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays."
 msgstr ""
+"<a href=\"transports\">მისაერთებელი გადამყვანების</a> დიდი ნაწილი, მათ შორის "
+"obfs3 და obfs4, ეფუძნება „ხიდურ“ გადამცემებს."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1581,6 +1692,10 @@ msgid ""
 "censoring connections to the Tor network. Read the <a href=\"/circumvention"
 "\">Circumvention</a> section for possible solutions."
 msgstr ""
+"თუ ჯერ კიდევ ვერ ახერხებთ დაკავშირებას, შესაძლოა თქვენი ინტერნეტ-"
+"მომსახურების მომწოდებელი ზღუდავდეს Tor-ქსელთან კავშირს. გაეცანით <a href="
+"\"circumvention\">გვერდის ავლის</a> განყოფილებას, შესაძლო გადაწყვეტების "
+"სანახავად."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1605,6 +1720,7 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
+"* დააწკაპეთ მარჯვნივ არსებულ ლურჯ ღილაკს „Join Team“ გუნდში შემოერთებისთვის:"
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
@@ -1612,7 +1728,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "Scramblesuit"
@@ -1665,6 +1781,10 @@ msgid ""
 "locally, will not be able to track your internet activity, including the "
 "names and addresses of the websites you visit."
 msgstr ""
+"* თქვენი ინტერნეტ-მომსახურების მომწოდებელი, დამსაქმებელი და ნებისმიერი სხვა, "
+"რომელიც თვალს ადევნებს თქვენს კავშირს ადგილობრივად, ვერ შეძლებენ თვალი "
+"ადევნონ თქვენს მოქმედებებს ინტერნეტში, მათ შორის მონახულებული გვერდების "
+"მისამართებს."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1692,6 +1812,7 @@ msgstr ""
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
 msgstr ""
+"* Tor-ს შეუძლია გადამცემი ხიდის გამოყენება შეაჩეროს, თუ პროქსია დაყენებული."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1701,7 +1822,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus Mac-ისთვის"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1725,6 +1846,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"ამასთან, Onion-მომსახურებებთან წვდომის შესაძლებლობა შეგიძლიათ გადაამოწმოთ <a "
+"href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo-ს Onion-მომსახურებასთან</"
+"a> დაკავშირებით"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1737,6 +1861,8 @@ msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
+"* როდესაც ორივე ღილაკი ნაცრისფერია, თქვენ იხილავთ, თუ რა მონაცემებია ხილული "
+"გარეშე თვალისთვის, როცა არცერთ მათგანს არ იყენებთ."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1774,6 +1900,11 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Tor-ბრაუზერის Ubuntu-ზე გასაშვებად, საჭიროა პროგრამული გარსით სკრიპტის "
+"გაშვება. გახსენით „Files“ (Unity-ის ფაილების მმართველი) → Preferences "
+"(თვისებები) → Behavior Tab (მოქმედებების ჩანართი) → ჩაანაცვლეთ „Run "
+"executable text files when they are opened“ პარამეტრი „Ask every "
+"time“ (შეკითხვა ყოველ ჯერზე) პარამეტრით, შემდეგ კი „OK“."
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
@@ -1822,6 +1953,12 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"უმეტეს შემთხვევაში, „დაკავშირების“ მითითება საშუალებას მოგცემთ დაუკავშირდეთ "
+"Tor-ქსელს დამატებითი გამართვის გარეშე. როდესაც დააწკაპებთ, გამოჩნდება "
+"მდგომარეობის ზოლი, რომელზეც ნაჩვენები იქნება Tor-ის დაკავშირების "
+"მიმდინარეობა. თუ შედარებით სწრაფი ინტერნეტი გაქვთ და ზოლის შევსება გაიჭედება "
+"ერთ ადგილზე, იხილეთ <a href=\"troubleshooting\">გაუმართაობის აღმოფხვრის</a> "
+"გვერდი, დახმარების მისაღებად ხარვეზის გამოსწორებისთვის."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1848,6 +1985,8 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* მოცემული ქსელის ფარი ცნობილია, რომ ურთიერთქმედებს Tor-ზე შესაძლოა, მისი "
+"დროებით გათიშვა იყოს საჭირო:"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1860,6 +1999,9 @@ msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
 "you're using HTTPS. The button will turn green to indicate that HTTPS is on."
 msgstr ""
+"* დააწკაპეთ „HTTPS-ის“ ღილაკზე, რომ იხილოთ, თუ რა მონაცემებია ხილული გარეშე "
+"თვალისთვის, HTTPS-ით სარგებლობისას. ღილაკი იქცევა მწვანედ, იმის "
+"მისანიშნებლად, რომ HTTPS ჩართულია."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.description)
@@ -1903,7 +2045,7 @@ msgstr ""
 
 #: templates/navbar.html:4
 msgid "Tor Logo"
-msgstr ""
+msgstr "როგორ მუშაობს Tor"
 
 #: templates/navbar.html:40
 msgid "Download Tor Browser"

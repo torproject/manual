@@ -17,12 +17,12 @@ Alguns websites de vídeos (tal como YouTube) oferecem métodos de exibição de
 
 ##### JavaScript
 
-O JavaScript é uma linguagem de programação que websites usam para oferecer elementos interativos tais como vídeo, animação, áudio e timelines de status. Infelizmente, o JavaScript também pode permitir ataques contra a segurança do navegador, o que pode levar a desanonimização. 
+O JavaScript é uma linguagem de programação que websites usam para oferecer elementos interativos tais como vídeo, animação, áudio e timelines de status. Infelizmente, o JavaScript também pode permitir ataques contra a segurança do navegador, o que pode levar a desanonimização.
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely. <img class="col-md-6" src="/static/images/noscript_menu.png"> Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
 ##### Browser Add-ons
 
-O Navegador Tor é baseado no Firefox. Assim, qualquer extensão de navegador ou temas compatíveis com Firefox também podem ser instalados no Navegador Tor. 
+O Navegador Tor é baseado no Firefox. Assim, qualquer extensão de navegador ou temas compatíveis com Firefox também podem ser instalados no Navegador Tor.
 
 Contudo, somente as extensões que tiverem sido testadas para uso com o Navegador Tor são incluídas como padrão. Instalar qualquer outra extensão de navegador pode quebrar a funcionalidade do Navegador Tor ou causar problemas mais sérios que afetem sua privacidade ou segurança. É fortemente desaconselhado instalar extensões adicionais e o Projeto Tor não oferecerá suporte para essas configurações.

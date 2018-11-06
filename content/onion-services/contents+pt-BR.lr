@@ -12,7 +12,7 @@ body:
 
 Serviços onion (anteriormente conhecidos como "serviços ocultos") são serviços (como websites) que somente podem ser acessados através da rede Tor.
 
-Serviços onion oferecem uma série de vantagens em relação a serviços na rede não-privada.
+Serviços onion oferecem uma série de vantagens em relação a serviços na rede não-privada:
 
 * An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.

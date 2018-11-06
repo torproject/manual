@@ -11,7 +11,7 @@ key: 10
 body:
 ##### Flash Player
 
-Video-Internetseiten wie Vimeo benutzen die Flash-Player-Erweiterung, um den Inhalt von Videodateien anzuzeigen. Unglücklicherweise operiert diese Anwendung unabhängig vom Tor Browser und kann nicht einfach so eingerichtet werden, dass sie die Proxy-Einstellungen des Tor Browsers übernimmt. Daraus resultiert, dass sie deinen tatsächlichen Ort und deine IP-Adresse an den Internetseitenbetreiber oder zu einem außenstehenden Beobachter offenlegen kann. Aus diesem Grund ist Flash in der Standardeinstellung im Tor Browser deaktiviert, und die Aktivierung wird nicht empfohlen. 
+Video-Internetseiten wie Vimeo benutzen die Flash-Player-Erweiterung, um den Inhalt von Videodateien anzuzeigen. Unglücklicherweise operiert diese Anwendung unabhängig vom Tor Browser und kann nicht einfach so eingerichtet werden, dass sie die Proxy-Einstellungen des Tor Browsers übernimmt. Daraus resultiert, dass sie deinen tatsächlichen Ort und deine IP-Adresse an den Internetseitenbetreiber oder zu einem außenstehenden Beobachter offenlegen kann. Aus diesem Grund ist Flash in der Standardeinstellung im Tor Browser deaktiviert, und die Aktivierung wird nicht empfohlen.
 
 Einige Video-Internetseiten (so wie Youtube) benutzen kein Flash und bieten alternative Methoden an, Videos auszuliefern. Diese Methoden können mit dem Tor Browser kompatibel sein.
 

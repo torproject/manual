@@ -493,7 +493,7 @@ msgstr ""
 "stai accedendo a qualsiasi sito web sii sicuro che il sito offra una "
 "cifratura HTTPS che protegge i dati dalle intercettazioni. Puoi verificare "
 "che la connessione è cifrata se l'indirizzo inizia per \"https://\" al posto "
-"di \"http://\""
+"di \"http://\"."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1469,7 +1469,7 @@ msgstr ""
 "sicuro se rispondere \"Si\", in quanto sono gli stessi parametri utilizzati "
 "dagli altri browser internet sul vostro sistema. Se possibile, contattate il "
 "vostro amministratore di sistema per informazioni. Se la vostra connessione "
-"non usa proxy cliccate \"Continua\""
+"non usa proxy cliccate \"Continua\"."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1499,7 +1499,7 @@ msgid ""
 "to the Tor network."
 msgstr ""
 "Seleziona \"Si\", quando richiesto, se il tuo fornitore di servizi Internet "
-"blocca la connessione alla rete Tor"
+"blocca la connessione alla rete Tor."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1546,7 +1546,7 @@ msgid ""
 msgstr ""
 "Puoi anche configurare i pluggable transports con il browser Tor in "
 "esecuzione; basta schiacciare la cipolla verde vicino alla barra degli "
-"indirizzi e selezionare \" Impostazioni rete Tor\""
+"indirizzi e selezionare \" Impostazioni rete Tor\"."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1647,12 +1647,12 @@ msgid ""
 "developed."
 msgstr ""
 "Al momento esistono 6 tipi di pluggable transports, ma ne stanno venendo "
-"sviluppati di nuovi"
+"sviluppati di nuovi."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "Install Satori from the Chrome App Store."
-msgstr "Installa Satori dall'App Store di Chrome"
+msgstr "Installa Satori dall'App Store di Chrome."
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.title)
 msgid "Updating"
@@ -1752,7 +1752,7 @@ msgstr ""
 "I Pluggable transports sono degli strumenti utilizzati dal browser Tor per "
 "nascondere il traffico inviato. Questo può risultare utile nelle situazioni "
 "in cui il fornitore di servizi internet o un'altra autorità stiano "
-"attivamente bloccando le connessioni alla rete Tor"
+"attivamente bloccando le connessioni alla rete Tor."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1806,7 +1806,7 @@ msgstr "Elusione"
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "Username and password used for authentication."
-msgstr "Username a password utilizzate per l'autenticazione"
+msgstr "Username a password utilizzate per l'autenticazione."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)

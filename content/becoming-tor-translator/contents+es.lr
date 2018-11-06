@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Conviértete en traductor de Tor
 ---
-description: Conviértete en traductor del Proyecto Tor.
+description: Conviértete en traductor del Proyecto Tor
 ---
 seo_slug: traducir-tor
 ---
@@ -25,7 +25,7 @@ Si estás interesado en ayudar con el proyecto traduciendo el manual o el navega
 * En la siguiente página, selecciona "unirse a un proyecto existente" y continúa.
 * En la siguiente página, selecciona los idiomas que hablas en el menú desplegable y continúa.
 * ¡Ya has firmado! Ve a la <a href="https://www.transifex.com/otf/torproject/">página de Tor en Transifex</a>.
-* Clic en el botón azul "Unirse al Equipo" en el lado derecho.
+* Clic en el botón azul "Unirse al Equipo" en el lado derecho:
 
 <img class="col-md-6" src="/static/images/tr3.png">
 

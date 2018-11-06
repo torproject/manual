@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Tor-ქსელთან პირდაპირი კავშირი ზოგჯერ შეზღუდულია ხოლმე ინტერნეტ-მომსახურების მომწოდებლის ან მთავრობის მიერ. Tor-ბრაუზერს გააჩნია გარკვეული სახის გვერდის ავლის საშუალებები, ამ შეზღუდვების ასარიდებლად. მათ ეწოდება „მისაერთებელი გადამყვანები“. იხილეთ გვერდი <a href="transports">მისაერთებელი გადამყვანები</a> დამატებითი ინფორმაციისთვის, თუ რა სახის გადამყვანებია ამჟამად ხელმისაწვდომი.
 
 ##### Using pluggable transports
 
@@ -28,8 +28,8 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 ##### Which transport should I use?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Tor-ის გამშვების მენიუში მუშაობს მოცემული თითოეული გადამყვანი, სხვადასხვაგვარად (ვრცლად, იხილეთ <a href="transports">მისაერთებელი გადამყვანების</a> შესახებ გვერდი) და მათი შედეგიანობა დამოკიდებულია გვერდის ავლის თავისებურებებზე.
 
 თუ თქვენი პირველი მცდელობაა შეზღუდვისთვის გვერდის ავლის, გირჩევთ სცადოთ სხვადასხვა გადამყვანები: obfs3, obfs4, ScrambleSuit, fte, meek-azure და Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+თუ ცდით ყველა მათგანს და ვერცერთი ვერ დაგაკავშირებთ ინტერნეტთან, დაგჭირდებათ გადამცემი ხიდის მისამართების ხელით მითითება. წაიკითხეთ <a href="bridges">ხიდების</a> შესახებ განყოფილება და შეიტყვეთ, თუ რას წარმოადგენს ხიდები და როგორ ხდება მათი მოპოვება.

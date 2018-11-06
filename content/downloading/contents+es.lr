@@ -18,13 +18,13 @@ Sin embargo, puede haber ocasiones en las que no puedas acceder al sitio web del
 
 GetTor es un servicio que responde automáticamente a los mensajes con enlaces a la última versión del navegador Tor, alojado en diferentes lugares, tales como Dropbox, Google Drive y GitHub.
 
-##### Usar GetTor vía correo electrónico.
+##### Usar GetTor vía correo electrónico:
 
 Envía un correo a gettor@torproject.org, y en el cuerpo del mensaje escribe simplemente “windows”, “osx”, o “linux”, (sin las comillas) dependiendo de tu sistema operativo.
 
 GetTor responderá con un correo conteniendo enlaces desde los que puedes descargar el paquete Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete. Puede que se te ofrezca la elección entre software de "32-bit" o de "64-bit": la elección dependerá del modelo del ordenador donde se vaya a usar.
 
-##### Usar GetTor vía Twitter.
+##### Usar GetTor vía Twitter:
 
 Para obtener enlaces para descargar el Navegador Tor en inglés para OS X, envía un Mensaje Directo a @get_tor con las palabras "osx en" (sin las comillas) en él (no necesitas seguir la cuenta).
 
@@ -34,7 +34,7 @@ Para obtener enlaces para descargar Tor en chino para Linux envía un mensaje a 
 
 ##### Satori
 
-Satori es un complemento para navegadores Chrome y Chromium que le permite descargar varios programas de seguridad y privacidad desde distintas fuentes.
+Satori es un complemento para navegadores Chrome y Chromium que te permite descargar varios programas de seguridad y privacidad desde distintas fuentes.
 
 Para descargar el Navegador Tor usando Satori:
 

@@ -10,9 +10,9 @@ key: 5
 ---
 body:
 
-Quando você se conecta a um site, não é apenas os operadores daquele site que podem registrar informações sobre a sua visita. A maior parte dos sites atuais usam inúmeros serviços terceirizados, inclusive os de botões 'Curtir' das redes sociais, rastreadores de dados e janelas de publicidade, capazes de associar a sua atividade entre os vários sites que você visita.  
+Quando você se conecta a um site, não é apenas os operadores daquele site que podem registrar informações sobre a sua visita. A maior parte dos sites atuais usam inúmeros serviços terceirizados, inclusive os de botões 'Curtir' das redes sociais, rastreadores de dados e janelas de publicidade, capazes de associar a sua atividade entre os vários sites que você visita.
 
-O uso da rede Tor impede que observadores possam descobrir a sua localização exata e o seu endereço IP. No entanto, mesmo sem essas informações, é possível associar informações de origens diversas. Por isso, o Navegador Tor inclui algumas funcionalidades adicionais para ajudar a controlar quais informações podem ser associadas à sua identidade. 
+O uso da rede Tor impede que observadores possam descobrir a sua localização exata e o seu endereço IP. No entanto, mesmo sem essas informações, é possível associar informações de origens diversas. Por isso, o Navegador Tor inclui algumas funcionalidades adicionais para ajudar a controlar quais informações podem ser associadas à sua identidade.
 
 ##### The URL bar
 
@@ -28,9 +28,9 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### Logging in over Tor
 
-Ainda que o Navegador Tor seja concebido para possibilitar uma total anonimidade de seus usuários na Internet, em algumas situações também faz sentido usar Tor para visitar sites que requerem nomes, senhas ou outras informacoes de identificacao.  
+Ainda que o Navegador Tor seja concebido para possibilitar uma total anonimidade de seus usuários na Internet, em algumas situações também faz sentido usar Tor para visitar sites que requerem nomes, senhas ou outras informacoes de identificacao.
 
-Ao usar um navegador comum para se registrar em um site, você revela o seu IP real e a sua localização geográfica. O mesmo acontece quando você envia e-mails. Ao fazer um login em uma rede social ou em uma conta de e-mail usando o Navegador Tor, você pode escolher exatamente quais informações revelar aos sites pelos quais você navega. Fazer um login usando o Navegador Tor também é útil se você estiver tentando se conectar a um site censurado na sua rede. 
+Ao usar um navegador comum para se registrar em um site, você revela o seu IP real e a sua localização geográfica. O mesmo acontece quando você envia e-mails. Ao fazer um login em uma rede social ou em uma conta de e-mail usando o Navegador Tor, você pode escolher exatamente quais informações revelar aos sites pelos quais você navega. Fazer um login usando o Navegador Tor também é útil se você estiver tentando se conectar a um site censurado na sua rede.
 
 Ao entrar em um site usando Tor, tenha em vista alguns pontos importantes:
 

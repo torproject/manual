@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"PO-Revision-Date: 2018-11-06 19:42+0000\n"
 "Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -158,7 +158,7 @@ msgid ""
 "pluggable transport options to choose from."
 msgstr ""
 "\"Mit bereitgestellten Brücken verbinden\" auswählen. Tor-Browser hat "
-"aktuell sechs Transportoptionen zur Auswahl. "
+"aktuell sechs Transportoptionen zur Auswahl."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -235,7 +235,7 @@ msgstr ""
 "anmeldest, steht es dir frei, exakt festzulegen welche Informationen du für "
 "die Internetseite, die du gerade besuchst, freigibst. Das Einloggen mit dem "
 "Tor Browser ist ebenso hilfreich, wenn die Internetseite, die du zu "
-"erreichen versuchst, in deinem Netzwerk blockiert wurde. "
+"erreichen versuchst, in deinem Netzwerk blockiert wurde."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -354,8 +354,7 @@ msgstr "##### Anmeldung bei Transifex"
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.description)
 msgid "Learn how to protect your data using Tor Browser and HTTPS"
-msgstr ""
-"Erfahre, wie du deine Daten mithilfe des Tor-Browsers und HTTPS schützt."
+msgstr "Erfahre, wie du deine Daten mithilfe des Tor-Browsers und HTTPS schützt"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Getting bridge addresses"
@@ -520,8 +519,8 @@ msgstr ""
 "abgehört werden. Wenn du dich bei einer Internetseite anmeldest, solltest du "
 "sicherstellen, dass diese HTTPS-Verschlüsselung anbietet, welche gegen diese "
 "Art von Abhören schützt. Du kannst in deiner Adressleiste feststellen, dass "
-"deine Verbindung verschlüsselt ist, da diese mit \"https://\" statt mit "
-"\"http://\" beginnen. "
+"deine Verbindung verschlüsselt ist, da diese mit \"https://\" statt mit \""
+"http://\" beginnen."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -677,8 +676,8 @@ msgid ""
 "* You are now signed up! Go to the <a href=\"https://www.transifex.com/otf/"
 "torproject/\">Tor Transifex page</a>."
 msgstr ""
-"* Du bist jetzt angemeldet! Gehe zur <link href=\"https://www.transifex.com/"
-"otf/torproject/\">Tor Transifex Seite</link>."
+"* Du bist jetzt angemeldet! Gehe zur <a href=\"https://www.transifex.com/otf/"
+"torproject/\">Tor Transifex Seite</a>."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -927,8 +926,8 @@ msgstr ""
 "der Fall ist, wähle \"Nein\". Wenn du weisst, dass deine Verbindung zensiert "
 "wird, oder du bereits versucht hast dich mit dem Tor Netzwerk zu verbinden "
 "und keine andere Möglichkeit funktioniert hat, wähle \"Ja\". Du wirst "
-"anschließend zum Fenster <link xref=\"circumvention\">Umgehungsmaßnahmen </"
-"link> geleitet, um eine andere Übertragungsart zu konfigurieren. "
+"anschließend zum Fenster <a href=\"circumvention\">Umgehungsmaßnahmen </a> "
+"geleitet, um eine andere Übertragungsart zu konfigurieren."
 
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
@@ -1085,7 +1084,7 @@ msgstr ""
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
 "Lerne, wie du bei der Nutzung des Tor-Browsers personenbezogene "
-"Informationen kontrollieren kannst."
+"Informationen kontrollieren kannst"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1179,9 +1178,9 @@ msgid ""
 "helping the project!"
 msgstr ""
 "Nachdem deine Mitgliedschaft genehmigt wurde, kannst du mit dem Übersetzen "
-"beginnen; navigiere  einfach zurück zur <link href=\"https://www.transifex."
-"com/otf/torproject/\">Tor Transifex Seite</link> , wenn du bereit bist zu "
-"beginnen. Vielen Dank für dein Interesse an der Unterstützung des Projekts!"
+"beginnen; navigiere  einfach zurück zur <a href=\"https://www.transifex.com/"
+"otf/torproject/\">Tor Transifex Seite</a>, wenn du bereit bist zu beginnen. "
+"Vielen Dank für dein Interesse an der Unterstützung des Projekts!"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1359,7 +1358,7 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "3. Empty your Trash"
-msgstr "3. Leere deinen Papierkorb."
+msgstr "3. Leere deinen Papierkorb"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
@@ -1419,7 +1418,7 @@ msgstr ""
 "Suche nach dem Eintrag des Tor Browsers unter dem Namen deines "
 "Betriebssystems. Wähle entweder \"A\" oder \"B\" folgend auf den Namen der "
 "Anwendung - jeder Buchstabe repräsentiert eine unterschiedliche Quelle von "
-"der du die Anwendung beziehen kannst. Dein Download wird dann beginnen. "
+"der du die Anwendung beziehen kannst. Dein Download wird dann beginnen."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1703,8 +1702,8 @@ msgid ""
 msgstr ""
 "Wenn du dich noch immer nicht verbinden kannst, ist es möglich dass dein "
 "Internetdienstanbieter Verbindungen zum Tor Netzwerk zensiert. Lese den "
-"Abschnitt <link xref=\"circumvention\">Umgehungsmaßnahmen</link>, um "
-"mögliche Lösungen zu erhalten."
+"Abschnitt <a href=\"circumvention\">Umgehungsmaßnahmen</a>, um mögliche "
+"Lösungen zu erhalten."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1723,7 +1722,7 @@ msgstr "Plugins, Erweiterungen und JavaScript"
 msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
 msgstr ""
 "Erfahre, was der Tor-Browser tun kann, um deine Privatsphäre und Anonymität "
-"zu schützen."
+"zu schützen"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1748,9 +1747,9 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
-"* Schaue auf der Seite <link xref=\"secure-connections\">Sichere "
-"Verbindungen</link> für weitere, wichtige Informationen wie du deine "
-"Verbindung sichern kannst, wenn du dich anmeldest."
+"* Schaue auf der Seite <a href=\"secure-connections\">Sichere "
+"Verbindungen</a> für weitere, wichtige Informationen wie du deine Verbindung "
+"sichern kannst, wenn du dich anmeldest."
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.description)
@@ -1823,7 +1822,7 @@ msgstr ""
 "resultiert, dass sie deinen tatsächlichen Ort und deine IP-Adresse an den "
 "Internetseitenbetreiber oder zu einem außenstehenden Beobachter offenlegen "
 "kann. Aus diesem Grund ist Flash in der Standardeinstellung im Tor Browser "
-"deaktiviert, und die Aktivierung wird nicht empfohlen. "
+"deaktiviert, und die Aktivierung wird nicht empfohlen."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1863,9 +1862,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
-"Du kannst auch sicherstellen, dass andere .onion-Dienste erreichbar sind, z."
-"B. der  <a href=\"http://3g2upl4pq6kufc4m.onion\">Onion-Dienst von "
-"DuckDuckGo</a>."
+"Du kannst auch sicherstellen, dass andere .onion-Dienste erreichbar sind, "
+"z.B. der  <a href=\"http://3g2upl4pq6kufc4m.onion\">Onion-Dienst von "
+"DuckDuckGo</a>"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1963,8 +1962,8 @@ msgid ""
 "over HTTPS</a>."
 msgstr ""
 "* Jeglicher Verkehr zwischen Tor Benutzern und Onion Diensten ist Ende-zu-"
-"Ende verschlüsselt, sodass du dich um die <link xref=\"secure-connections"
-"\">Verbindung über HTTPS</link> keine Sorgen machen musst."
+"Ende verschlüsselt, sodass du dich um die <a href=\"secure-connections\">"
+"Verbindung über HTTPS</a> keine Sorgen machen musst."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -2070,7 +2069,7 @@ msgid ""
 "found in our "
 msgstr ""
 "Markenrechts-, Copyright-Mitteilungen und Regeln für Drittparteien finden "
-"sich in unserer"
+"sich in unserer "
 
 #: templates/layout.html:7
 msgid "Tor Project | Tor Browser Manual"

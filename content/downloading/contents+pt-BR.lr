@@ -22,7 +22,7 @@ GetTor é um serviço que responde automaticamente a mensagens com links para a 
 
 Enviar um e-mail para gettor@torproject.org, e, no corpo de mensagem, escrever somente “windows”, “osx”, or “linux” (sem aspas), de acordo com o seu sistema operacional.
 
-GetTor responderá com um e-mail contendo links a partir dos quais você poderá fazer download do pacote do Navegador Tor, da assinatura criptográfica (necessária para verificar o download), da impressão digital da chave usada para assinar e da soma de verificação do pacote. Pode ser que você tenha de escolher entre um programa “32-bit” ou “64-bit”, de acordo com o modelo do computado que você estiver usando. 
+GetTor responderá com um e-mail contendo links a partir dos quais você poderá fazer download do pacote do Navegador Tor, da assinatura criptográfica (necessária para verificar o download), da impressão digital da chave usada para assinar e da soma de verificação do pacote. Pode ser que você tenha de escolher entre um programa “32-bit” ou “64-bit”, de acordo com o modelo do computado que você estiver usando.
 
 ###### To use GetTor via Twitter:
 

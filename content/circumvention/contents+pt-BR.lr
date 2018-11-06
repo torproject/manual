@@ -20,7 +20,7 @@ Para usar transportadores plugáveis, clique em "Configurar" na janela do Tor La
 
 Você também pode configurar os transportadores plugáveis enquanto o Navegador Tor estiver em uso, clicando na cebola, perto da sua barra de endereços. Selecione "Parâmetros da rede Tor".
 
-Responda "sim" à questão sobre se o seu provedor de serviço de Internet bloqueia conexões à rede Tor. 
+Responda "sim" à questão sobre se o seu provedor de serviço de Internet bloqueia conexões à rede Tor.
 
 <img class="col-md-6" src="/static/images/bridges.png">
 

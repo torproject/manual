@@ -12,7 +12,7 @@ body:
 
 * Tor necesita que el reloj de tu sistema esté establecido a la hora (y zona horaria) correcta.
 
-* Los siguientes programas de cortafuegos (firewall) se sabe que interfieren con Tor, y puede que necesites deshabilitarlos temporalmente.
+* Los siguientes programas de cortafuegos (firewall) se sabe que interfieren con Tor, y puede que necesites deshabilitarlos temporalmente:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac

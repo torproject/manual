@@ -22,11 +22,11 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-Se você souber que a sua conexão está sendo censurada, ou que ela usa proxy, é melhor selecionar esta opção. O Navegador Tor a/o guiará em uma série de opções de configuração.  
+Se você souber que a sua conexão está sendo censurada, ou que ela usa proxy, é melhor selecionar esta opção. O Navegador Tor a/o guiará em uma série de opções de configuração.
 
 The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-A próxima tela pergunta se a sua conexão usa proxy. Na maioria dos casos não é necessário utilizá-los e normalmente você sabe se a resposta for “Sim” já que os mesmos parâmetros são usados por outros navegadores do seu sistema. Se possível, consulte a pessoa responsável pela administração da sua rede. Caso a sua conexão não use proxy, clique em “Continuar.”
+A próxima tela pergunta se a sua conexão usa proxy. Na maioria dos casos não é necessário utilizá-los e normalmente você sabe se a resposta for “Sim” já que os mesmos parâmetros são usados por outros navegadores do seu sistema. Se possível, consulte a pessoa responsável pela administração da sua rede. Caso a sua conexão não use proxy, clique em “Continuar”.
 
 <img class="col-md-6" src="/static/images/proxy_question.png">
 

@@ -15,7 +15,7 @@ Onion-Dienste (ehemals "Versteckte Dienste") sind Dienste (wie Internetseiten), 
 Onion-Dienste bieten einige Vorteile gegenüber herkömmlichen Dienstleistungen im öffentlichen Internet:
 
 * Der Ort und die IP-Adresse eines Onion Dienstes sind verborgen damit es für Angreifer schwerer wird, die Betreiber zu identifizieren oder zu zensieren.
-* Jeglicher Verkehr zwischen Tor Benutzern und Onion Diensten ist Ende-zu-Ende verschlüsselt, sodass du dich um die <link xref="secure-connections">Verbindung über HTTPS</link> keine Sorgen machen musst.
+* Jeglicher Verkehr zwischen Tor Benutzern und Onion Diensten ist Ende-zu-Ende verschlüsselt, sodass du dich um die <a href="secure-connections">Verbindung über HTTPS</a> keine Sorgen machen musst.
 * Die Adresse eines Onion Dienstes wird automatisch generiert, sodass der Betreiber keinen Domain-Namen kaufen muss; die .onion Internetadresse hilft Tor zusätzlich, sicherzustellen, dass der richtige Ort kontaktiert und die Verbindung nicht manipuliert wird.
 
 ##### Wie verbinde ich mich mit einem Onion-Dienst?
@@ -30,4 +30,4 @@ Wenn du den gewünschten Onion-Dienst nicht erreichen kannst, stelle sicher, das
 
 Wenn es dir weiterhin nicht möglich ist, dich mit dem Onion Dienst zu verbinden, versuche es später erneut. Es mag sein, dass ein temporärer Verbindungsfehler aufgetreten ist, oder Internetseitenbetreiber die Internetseite ohne Warnung offline gehen ließ.
 
-Du kannst auch sicherstellen, dass andere .onion-Dienste erreichbar sind, z.B. der  <a href="http://3g2upl4pq6kufc4m.onion">Onion-Dienst von DuckDuckGo</a>.
+Du kannst auch sicherstellen, dass andere .onion-Dienste erreichbar sind, z.B. der  <a href="http://3g2upl4pq6kufc4m.onion">Onion-Dienst von DuckDuckGo</a>

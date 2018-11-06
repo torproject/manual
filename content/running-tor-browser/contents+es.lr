@@ -24,7 +24,7 @@ En la mayoría de los casos escoger "Conectar" te permitirá conectar a la red T
 
 Si sabes que tu conexión está censurada o usas un proxy, debes seleccionar esta opción. Tor te llevará a través de una serie de opciones de configuración.
 
-La primera pantalla, pregunta si el acceso a la red Tor está bloqueado o censurado en tu conexión. Si no crees que este sea el caso, selecciona "No". Si sabes que tu conexión está censurada, o has intentado conectar a la red Tor y no han funcionado otras soluciones, selecciona "Sí",  que te llevará a la pantalla <a href="circumvention">Evasión</link> para configurar un transporte conectable.
+La primera pantalla, pregunta si el acceso a la red Tor está bloqueado o censurado en tu conexión. Si no crees que este sea el caso, selecciona "No". Si sabes que tu conexión está censurada, o has intentado conectar a la red Tor y no han funcionado otras soluciones, selecciona "Sí",  que te llevará a la pantalla <a href="circumvention">Evasión</a> para configurar un transporte conectable.
 
 La siguiente pantalla pregunta si tu conexión usa un proxy. En la mayoría de los casos esto no es necesario. Normalmente sabrás si debe responder "Sí", ya que estarás usando la misma configuración para otros navegadores en tu sistema. Si puedes, pide información a tu administrador de red. Si tu conexión no usa un proxy, pulsa "Continuar".
 

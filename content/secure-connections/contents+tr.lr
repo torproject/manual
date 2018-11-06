@@ -13,7 +13,7 @@ Oturum açma parolası gibi kişisel bilgiler şifrelenmemiş olarak İnternet �
 
 <img class="col-md-6" src="/static/images/https.png">
 
-Tor Browser ve HTTPS şifrelemesinin bulunduğu ve bulunmadığı durumlarda sizi izleyebilecek kişi ya da kuruluşların hangi bilgilere erişebileceğini aşağıda görebilirsiniz
+Tor Browser ve HTTPS şifrelemesinin bulunduğu ve bulunmadığı durumlarda sizi izleyebilecek kişi ya da kuruluşların hangi bilgilere erişebileceğini aşağıda görebilirsiniz:
 
 <img class="" src="/static/images/tor-and-https.svg">
 

@@ -35,7 +35,7 @@ Si inicia sessió amb un navegador convencional, està mostrant la seva direcci�
 Quan iniciï sessió mitjançant el navegador Tor, hi han diverses consideracions a tenir en ment:
 
 * Consulti <a href="secure-connections">Connexions segures</a> la pàgina on mostra com augmentar la seguretat en les connexions d'inici de sessió.
-* El navegador Tor tot sovint fa aparèixer la connexió des de una localització diferent. Alguns webs, com els bancs o proveïdors de correu electrònic, poden interpretar com si la connexió fos furonada i per tant fer fora del web. La única manera de resoldre-ho és seguir les recomanacions de la recuperació del compte o contactar al operador i explicar la situació. 
+* El navegador Tor tot sovint fa aparèixer la connexió des de una localització diferent. Alguns webs, com els bancs o proveïdors de correu electrònic, poden interpretar com si la connexió fos furonada i per tant fer fora del web. La única manera de resoldre-ho és seguir les recomanacions de la recuperació del compte o contactar al operador i explicar la situació.
 
 ##### Changing identities and circuits
 

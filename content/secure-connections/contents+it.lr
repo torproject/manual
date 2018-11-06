@@ -9,7 +9,7 @@ seo_slug: secure-connections
 key: 7
 ---
 body:
-Se le informazioni personali, quali login e/o password, viaggiano in chiaro sulla rete  potrebbero essere facilmente ascoltate da un intercettatore. Se stai accedendo a qualsiasi sito web sii sicuro che il sito offra una cifratura HTTPS che protegge i dati dalle intercettazioni. Puoi verificare che la connessione è cifrata se l'indirizzo inizia per "https://" al posto di "http://"
+Se le informazioni personali, quali login e/o password, viaggiano in chiaro sulla rete  potrebbero essere facilmente ascoltate da un intercettatore. Se stai accedendo a qualsiasi sito web sii sicuro che il sito offra una cifratura HTTPS che protegge i dati dalle intercettazioni. Puoi verificare che la connessione è cifrata se l'indirizzo inizia per "https://" al posto di "http://".
 
 <img class="col-md-6" src="/static/images/https.png">
 
@@ -37,7 +37,7 @@ Site.com
 user / pw
 </dt>
   <dd>
-    Username a password utilizzate per l'autenticazione
+    Username a password utilizzate per l'autenticazione.
   </dd>
 
 <dt>

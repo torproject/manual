@@ -18,7 +18,7 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 Untuk menggunakan angkutan colok, klik "Configure" dalam jendela Peluncur Tor yang muncul ketika anda menjalankan Peramban Tor pertama kali.
 
-Anda juga bisa mengatur pluggable transports sembari Tor Browser sedang berjalan, dengan menekan pada bawang berwarna hijau di dekat kolom alamat dan memilih "Tor Network Settings"
+Anda juga bisa mengatur pluggable transports sembari Tor Browser sedang berjalan, dengan menekan pada bawang berwarna hijau di dekat kolom alamat dan memilih "Tor Network Settings".
 
 Pilih "yes" ketika ditanya jika penyedia layanan internet anda memblokir koneksi ke jaringan Tor.
 
