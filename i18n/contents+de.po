@@ -245,7 +245,7 @@ msgstr "##### Neuer Kanal für diese Seite"
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "Standard"
-msgstr "Standard\n"
+msgstr "Standard"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.description)

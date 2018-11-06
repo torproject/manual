@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"PO-Revision-Date: 2018-11-06 19:01+0100\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -54,7 +54,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dd>"
-msgstr ""
+msgstr "<dd>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.seo_slug)
@@ -157,7 +157,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Known issues"
-msgstr ""
+msgstr "##### Bilinen Sorunlar"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Tor circuit for this site"
-msgstr ""
+msgstr "##### Bu Sitenin Tor Devresini Yenile"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -242,14 +242,14 @@ msgstr "Tor Projesini çevirmek"
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
@@ -278,7 +278,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Using pluggable transports"
-msgstr ""
+msgstr "##### Takılabilir aktarımları kullanma"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -305,7 +305,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Quick fixes"
-msgstr ""
+msgstr "##### Hızlı düzeltmeler"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -317,7 +317,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### Troubleshooting"
-msgstr ""
+msgstr "##### Sorun çözme"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
@@ -327,7 +327,7 @@ msgstr "İndirme"
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### Transifex Hesabı Açmak"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.description)
@@ -336,7 +336,7 @@ msgstr "Verilerinizi Tor Browser ve HTTPS kullanarak nasıl koruyabilirsiniz"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### Köprü adreslerini edinme"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
@@ -359,7 +359,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -374,11 +374,11 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### E-posta ile GetTor kullanımı:"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -396,7 +396,7 @@ msgstr "obfs3"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Flash Oynatıcı"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -438,7 +438,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
-msgstr ""
+msgstr "<dl>"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -504,11 +504,11 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dt>"
-msgstr ""
+msgstr "</dt>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -550,7 +550,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### Bağlantınız sansürlü mü?"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -697,7 +697,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### Köprü adreslerini yazma"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
@@ -716,7 +716,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### Hangi aktarımı kullanmalıyım?"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -764,11 +764,11 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Security Levels"
-msgstr ""
+msgstr "##### Güvenlik Düzeyleri"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### Tarayıcı Eklentileri"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -827,7 +827,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -942,7 +942,7 @@ msgstr "Kaldırma"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.seo_slug)
@@ -952,7 +952,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### Tor üzerinden oturum açma"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1034,7 +1034,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dd>"
-msgstr ""
+msgstr "</dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1051,7 +1051,7 @@ msgstr "Tor Browser çalışmazsa ne yapmalı"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Changing identities and circuits"
-msgstr ""
+msgstr "##### Kimlik ve devre değiştirme"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
@@ -1079,7 +1079,7 @@ msgstr "Sorun çözme"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Identity"
-msgstr ""
+msgstr "##### Yeni Kimlik"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1094,6 +1094,10 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"Üyeliğiniz onaylandıktan sonra çeviri işlemlerine başlayabilirsiniz. "
+"Başlamaya hazır olduğunuzda <link href=\"https://www.transifex.com/otf/"
+"torproject/\">Tor Transifex sayfasına</a> geri dönün. Tor projesine destek "
+"olduğunuz için teşekkürler!"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1106,14 +1110,14 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### Twitter ile GetTor kullanımı:"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
-msgstr ""
+msgstr "</dl>"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.title)
@@ -1128,7 +1132,7 @@ msgstr "Kimlik yönetimi"
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Accessing the Security Slider"
-msgstr ""
+msgstr "##### Güvenlik Kaydırıcısına Erişmek"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1160,12 +1164,12 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### Onion hizmetine nasıl erişilir"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1260,7 +1264,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### Takılabilir Aktarım Türleri"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1357,12 +1361,12 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### Adres çubuğu"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### Elde edilebilecek bilgiler"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "meek"
@@ -1378,6 +1382,12 @@ msgid ""
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
 "sites."
 msgstr ""
+"Bu düzeyde, HTML5 görüntü ve ses ortamları NoScript üzerinden tıkla-oynat "
+"ile kullanılabilir. Tüm JavaScript başarım iyileştirmeleri devre dışı "
+"bırakılır. Bazı matematik denklemleri düzgün şekilde görüntülenmeyebilir. "
+"Bazı yazı türü görüntüleme özellikleri devre dışı bırakılır. Bazı görsel "
+"türleri devre dışı bırakılır. JavaScript, varsayılan olarak <a href=\"secure-"
+"connections\">HTTPS</a> olmayan tüm sitelerde devre dışı bırakılır."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1465,7 +1475,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.title)
@@ -1510,7 +1520,7 @@ msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### Tor nasıl çalışır"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1556,7 +1566,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1596,7 +1606,7 @@ msgstr "Nasıl yardımcı olabiliriz?"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "Scramblesuit"
@@ -1680,7 +1690,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
-msgstr ""
+msgstr "##### Jabber/XMPP ile GetTor kullanımı (Jitsi, CoyIM, vb):"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1695,7 +1705,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### GetTor"
-msgstr ""
+msgstr "##### GetTor"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.description)
@@ -1709,6 +1719,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
+"Ayrıca <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo Onion Hizmeti</"
+"a>sayfasına bağlanarak diğer Onion hizmetlerine erişebildiğinizden emin "
+"olabilirsiniz."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1748,7 +1761,7 @@ msgstr "Tor ağı engelleniyorsa ne yapılabilir"
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### Yapılandırma"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1761,7 +1774,7 @@ msgstr ""
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.description)
@@ -1825,7 +1838,7 @@ msgstr ""
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### Bağlanma"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)

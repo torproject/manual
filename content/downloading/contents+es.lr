@@ -16,21 +16,21 @@ Sin embargo, puede haber ocasiones en las que no puedas acceder al sitio web del
 
 ##### GetTor
 
-GetTor es un servicio que responde automáticamente a los mensajes con enlaces a la versión más reciente del Navegador Tor, alojada en distintos lugares, como Dropbox, Google Drive y GitHub.
+GetTor es un servicio que responde automáticamente a los mensajes con enlaces a la última versión del navegador Tor, alojado en diferentes lugares, tales como Dropbox, Google Drive y GitHub.
 
 ##### Usar GetTor vía correo electrónico.
 
-Envíe un correo a gettor@torproject.org, y en el cuerpo del mensaje escriba simplemente “windows”, “osx”, o “linux”, (sin las comillas) dependiendo de su sistema operativo.
+Envía un correo a gettor@torproject.org, y en el cuerpo del mensaje escribe simplemente “windows”, “osx”, o “linux”, (sin las comillas) dependiendo de tu sistema operativo.
 
-GetTor responderá con un correo conteniendo enlaces desde los que puede descargar el paquete del Navegador Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete. Puede que se le ofrezca la elección entre software de "32-bit" o de "64-bit": la elección dependerá del modelo del ordenador donde se vaya a usar.
+GetTor responderá con un correo conteniendo enlaces desde los que puedes descargar el paquete Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete. Puede que se te ofrezca la elección entre software de "32-bit" o de "64-bit": la elección dependerá del modelo del ordenador donde se vaya a usar.
 
 ##### Usar GetTor vía Twitter.
 
-Para obtener enlaces para descargar el Navegador Tor en inglés para OS X, envíe un Mensaje Directo a @get_tor con las palabras "osx en" (sin las comillas) en él (no necesita seguir la cuenta).
+Para obtener enlaces para descargar el Navegador Tor en inglés para OS X, envía un Mensaje Directo a @get_tor con las palabras "osx en" (sin las comillas) en él (no necesitas seguir la cuenta).
 
 ##### Para usar GetTor vía Jabber/XMPP (Tor Messenger, Jitsi, CoyIM):
 
-Para obtener enlaces para descargar el Navegador Tor en chino para Linux, envíe un mensaje a gettor@torproject.org con las palabras "linux zh" (sin las comillas) en él.
+Para obtener enlaces para descargar Tor en chino para Linux envía un mensaje a gettor@torproject.org con las palabras "linux zh" en él.
 
 ##### Satori
 
@@ -38,12 +38,12 @@ Satori es un complemento para navegadores Chrome y Chromium que le permite desca
 
 Para descargar el Navegador Tor usando Satori:
 
-Instale Satori desde la Chrome App Store.
+Instala Satori desde la Chrome App Store.
 
-Seleccione Satori desde su menú Aplicaciones del navegador.
+Selecciona Satori desde tu menú Aplicaciones del navegador.
 
-Cuando Satori se abra, pulse selección de idioma. Se abrirá un menú listando las descargas disponibles para ese idioma. Busque la entrada para el Navegador Tor (Tor Browser) bajo el nombre de su sistema operativo. Seleccione "A" o "B" tras el nombre del programa — cada una representa una fuente distinta desde la que obtener el software. Entonces comenzará su descarga.
+Cuando Satori se abra, pulsa selección de idioma. Se abrirá un menú listando las descargas disponibles para ese idioma. Busca la entrada para Tor (Tor Browser) bajo el nombre de tu sistema operativo. Selecciona "A" o "B" tras el nombre del programa — cada una representa una fuente distinta desde la que obtener el software. Entonces comenzará tu descarga.
 
-Espere a que finalice su descarga, luego busque la sección "Generar Hash" en el menú de Satori, y pulse "Seleccionar ficheros".
+Espera a que finalice tu descarga, luego busca la sección "Generar Hash" en el menú de Satori, y pulsa "Seleccionar ficheros".
 
 Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

@@ -4,7 +4,7 @@ title: Detecció d'errors
 ---
 description: Què fer si el navegador Tor no funciona
 ---
-seo_slug: troubleshooting
+seo_slug: Detecció d'errors
 ---
 key: 11
 ---
@@ -17,11 +17,11 @@ Hauria de poder navegar pels webs mitjançant el navegador Tor executant el prog
 
 Si el navegador Tor no es connecta, pot haver una solució fàcil. Provi alguna de les següents opcions:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
-* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
-* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
-* Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* El rellotge de sistema s'hauria de configurar correctament o Tor no podrà connectar-se.
+* Comprovi que el navegador Tor no s'està executant en aquest moment. Si no està segur, reinicii el ordinador.
+* Comprovi que cap programa d'antivirus instal·lat està intentant evitar que Tor s'executi. Haurà de consultar la documentació del antivirus si no sap com realitzar-ho.
+* Deshabiliti de forma temporal el tallafoc.
+* Suprimir el navegador Tor i tornar a instal·lar. Si l'actualització no ha reescrit la versió anterior del navegador Tor, comprovi que s'han eliminat tots els arxius.
 
 ##### Is your connection censored?
 

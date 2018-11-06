@@ -30,7 +30,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 Obwohl der Tor Browser entworfen wurde, um totale Benutzeranonymität im Internet zu ermöglichen, existieren Situationen, in denen es Sinn macht, Tor mit Internetseiten zu verbinden, die Benutzernamen, Passwörter oder andere identifizierende Informationen erfordern.
 
-Wenn du dich auf einer Internetseite mit einem regulären Browser einloggst, gibst du auch deine IP-Adresse und deine geographische Position preis. Dasselbe trifft oft zu, wenn du eine E-Mail versendest. Wenn du dich in dein Profil bei einem sozialen Netzwerk oder E-Mail-Account mit dem Tor Browser anmeldest, steht es dir frei, exakt festzulegen welche Informationen du für die Internetseite, die du gerade besuchst, freigibst. Das Einloggen mit dem Tor Browser ist ebenso hilfreich, wenn die Internetseite, die du zu erreichen versuchst, in deinem Netzwerk blockiert wurde.
+Wenn du dich auf einer Internetseite mit einem regulären Browser einloggst, gibst du auch deine IP-Adresse und deine geographische Position preis. Dasselbe trifft oft zu, wenn du eine E-Mail versendest. Wenn du dich in dein Profil bei einem sozialen Netzwerk oder E-Mail-Account mit dem Tor Browser anmeldest, steht es dir frei, exakt festzulegen welche Informationen du für die Internetseite, die du gerade besuchst, freigibst. Das Einloggen mit dem Tor Browser ist ebenso hilfreich, wenn die Internetseite, die du zu erreichen versuchst, in deinem Netzwerk blockiert wurde. 
 
 Wenn du dich auf einer Webseite über Tor anmeldest, solltest du einige Punkte beachten:
 

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Pluggable transports
+title: Transports integrables
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Els connectors de transport són eines que Tor utilitza per disfressar el tràfic que envia al exterior.
 ---
 seo_slug: plugable-transports
 ---

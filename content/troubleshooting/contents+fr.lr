@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Dépannage
 ---
-description: Que faire si le navigateur Tor ne fonctionne pas ?
+description: Que faire si le Navigateur Tor ne fonctionne pas ?
 ---
-seo_slug: troubleshooting
+seo_slug: Dépannage
 ---
 key: 11
 ---
 body:
-Vous devriez pouvoir commencer à parcourir le Web avec le navigateur Tor peu de temps après avoir lancé le programme et avoir cliqué sur le bouton « Se connecter » si vous l'utilisez pour la première fois.
+Vous devriez pouvoir commencer à parcourir le Web avec le Navigateur Tor peu de temps après avoir lancé le programme et avoir cliqué sur le bouton « Se connecter » si vous l’utilisez pour la première fois.
 
 <img class="col-md-6" src="/static/images/connect.png">
 

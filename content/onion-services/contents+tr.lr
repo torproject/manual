@@ -18,16 +18,16 @@ Onion hizmetleri, web üzerindeki gizli olmayan sıradan hizmetlere göre çeşi
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
 * The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
 
-##### How to access an onion service
+##### Onion hizmetine nasıl erişilir
 
 Diğer web siteleri gibi, bir Onion hizmetine bağlanmak için adresini bilmeniz gerekir. Onion adresi, çoğunlukla rastgele 16 harf ve rakamdan oluşan (V3 biçiminde 56) ve ".onion" ile biten bir dizgedir.
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Sorun çözme
 
 İstediğiniz Onion hizmetine erişemiyorsanız, onion adresini doğru yazdığınızdan emin olun. Küçük bir hata bile Tor Browser tarafından siteye ulaşılmasını engeller.
 
 Onion hizmetine gene de bağlanamıyorsanız, lütfen daha sonra yeniden deneyin. Geçici bir bağlantı sorunu olabilir ya da site işletmecileri uyarı olmadan sitenin çevrimdışı kalmasına izin vermiş olabilir.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+Ayrıca <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo Onion Hizmeti</a>sayfasına bağlanarak diğer Onion hizmetlerine erişebildiğinizden emin olabilirsiniz.

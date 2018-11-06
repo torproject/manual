@@ -20,7 +20,7 @@ body:
 
 Изначальные настройки Tor Browser не сохраняют историю посещений сайтов. Cookies так-же удаляются по завершению сессии ( пока не закроете Tor Browser или <a href="managing-identities#new-identity">Не смените личность сети Tor</a>).
 
-##### How Tor works
+##### Как работает Tor
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
 

@@ -2,7 +2,7 @@ _model: topic
 ---
 title: La gestion des identités
 ---
-description: Apprendre à contrôler les informations permettant d'identifier les personnes dans le navigateur Tor
+description: Apprendre à contrôler les informations permettant d’identifier les personnes dans le Navigateur Tor
 ---
 seo_slug: managing-identities
 ---
@@ -18,7 +18,7 @@ L’utilisation du réseau Tor empêche ceux qui vous observent  de découvrir v
 
 Le Navigateur Tor centre votre expérience Web sur votre relation avec le site Web dans la barre d’URL. Même si vous vous connectez à deux sites différents qui utilisent le même service tiers de suivi à la trace, le Navigateur Tor forcera que le contenu soit servi par deux circuits Tor différents, et ainsi le service de suivi ne saura pas que les deux connexions proviennent de votre navigateur.
 
-Par ailleurs, toutes les connexions vers une même adresse de site Web seront acheminées par le même circuit Tor, ce qui signifie que vous pouvez parcourir différentes pages d'un même site Web dans des onglets ou des fenêtres différents sans perte de fonctionnalité.
+Par ailleurs, toutes les connexions vers une même adresse de site Web seront acheminées par le même circuit Tor, ce qui signifie que vous pouvez parcourir différentes pages d’un même site Web dans des onglets ou des fenêtres différents sans perte de fonctionnalité.
 
 <img class="col-md-6" src="/static/images/circuit_full.png">
 
@@ -28,11 +28,11 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### Logging in over Tor
 
-Bien que le navigateur Tor est conçu pour permettre l'anonymat absolu de l'utilisateur sur le Web, certaines situations pourraient justifier d'utiliser Tor avec des sites Web qui exigent des noms d'utilisateur, des mots de passe ou d'autres informations permettant de vous identifier.
+Bien que le Navigateur Tor est conçu pour permettre l’anonymat absolu de l’utilisateur sur le Web, certaines situations pourraient justifier d’utiliser Tor avec des sites Web qui exigent des noms d’utilisateur, des mots de passe ou d’autres informations permettant de vous identifier.
 
 Si vous vous connectez à un site Web en utilisant un navigateur ordinaire, vous révélez aussi votre adresse IP et votre emplacement géographique. C’est souvent aussi le cas quand vous envoyez un courriel. En vous connectant à vos comptes de réseautage social ou de courriel en utilisant le Navigateur Tor vous pouvez choisir exactement les informations que vous révélez aux sites Web que vous parcourez. Il est aussi utile de vous connecter avec le Navigateur Tor si le site Web que vous tentez de joindre est censuré sur votre réseau.
 
-En vous connectant à un site Web en utilisant Tor, il y a plusieurs considérations que vous devriez garder à l'esprit :
+En vous connectant à un site Web en utilisant Tor, il y a plusieurs considérations que vous devriez garder à l’esprit :
 
 * See the  <a href="/secure-connections">Secure Connections</a> page for important information on how to secure your connection when logging in.
 * Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.

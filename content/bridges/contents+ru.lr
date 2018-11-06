@@ -13,14 +13,14 @@ Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, re
 
 Другие подключаемые транспорты, такие как meek, используют разные методы против цензуры, которые не полагаются на мосты. Вам не нужно получать адреса моста, чтобы использовать эти транспорты
 
-##### Getting bridge addresses
+##### Получение адресов мостов
 
 Поскольку адреса мостов не являются публичными, нужно запросить их самостоятельно. У вас есть два варианта:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Entering bridge addresses
+##### Введите адреса мостов
 
 После того, как вы получите несколько адресов мостов, необходимо ввести их в Tor Launcher.
 

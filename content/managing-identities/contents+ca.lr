@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Administrador d'identitats
 ---
-description: Aprengui com controlar la informació d'identificació personal al navegador Tor.
+description: Aprengui com controlar la informació d'identificació personal al navegador Tor
 ---
 seo_slug: managing-identities
 ---
@@ -34,8 +34,8 @@ Si inicia sessió amb un navegador convencional, està mostrant la seva direcci�
 
 Quan iniciï sessió mitjançant el navegador Tor, hi han diverses consideracions a tenir en ment:
 
-Consulti <link xref="secure-connections">Connexions segures</link> la pàgina on mostra com augmentar la seguretat en les connexions d'inici de sessió.
-* Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
+* Consulti <a href="secure-connections">Connexions segures</a> la pàgina on mostra com augmentar la seguretat en les connexions d'inici de sessió.
+* El navegador Tor tot sovint fa aparèixer la connexió des de una localització diferent. Alguns webs, com els bancs o proveïdors de correu electrònic, poden interpretar com si la connexió fos furonada i per tant fer fora del web. La única manera de resoldre-ho és seguir les recomanacions de la recuperació del compte o contactar al operador i explicar la situació. 
 
 ##### Changing identities and circuits
 

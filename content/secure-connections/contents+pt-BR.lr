@@ -1,19 +1,19 @@
 _model: topic
 ---
-title: Ligações Seguras
+title: Conexões Seguras
 ---
-description: Saiba como proteger os seus dados utilizando o Tor Browser e HTTPS
+description: Saiba como proteger os seus dados usando o Navegador Tor e HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-Se a informação pessoal, tal como uma palavra-passe de sessão viaja desencriptada através da Internet, esta pode muito facilmente ser intercetada por uma escuta indiscreta. Se tiver com sessão iniciada em qualquer site da Web, deverá ter a certeza que o site oferece encriptação HTTPS, que protege contra este tipo de espionagem. Pode verificar isso na barra de URL: se a sua ligação está encriptada, o endereço começará com "https://" em vez de "http://".
+Se informações pessoais, tais como senhas de login, viajarem pela Internet sem serem criptografadas, elas poderão facilmente ser interceptadas por um espião. Se você estiver fazendo o login em qualquer website, certifique-se de que esse site oferece criptografia HTTPS, o que protege contra esse tipo de espionagem. Você pode verificar isso na barra de endereços: se sua conexão for criptografada, o endereço começará com “https://” ao invés de “http://”.
 
 <img class="col-md-6" src="/static/images/https.png">
 
-A visualização seguinte mostra que informação está visível para as escutas indiscretas com e sem a encriptação do Tor Browser e HTTPS:
+A seguinte visualização mostra quais tipos de informações são visíveis para espiões com e sem o Navegador Tor e a criptografia HTTPS.
 
 <img class="" src="/static/images/tor-and-https.svg">
 
@@ -30,36 +30,35 @@ A visualização seguinte mostra que informação está visível para as escutas
 Site.com
 </dt>
   <dd>
-    O site que está a visitar.
+    Site sendo visitado.
   </dd>
 
 <dt>
 user / pw
 </dt>
   <dd>
-    O nome de utilizador e a palavra-passe para a autenticação.
+    Nome de usuário e senha usados para autentificação.
   </dd>
 
 <dt>
 data
 </dt>
   <dd>
-    Os dados que estão a ser transmitidos.
+    Dados sendo transmitidos.
   </dd>
 
 <dt>
 location
 </dt>
   <dd>
-    A localização da rede do computador utilizado para visitar o site da 
-Web (o endereço de IP público).
+    Local de rede do computador utilizado para visitar o site (o endereco IP público).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    Se o Tor está ou não a ser utilizado.
+    Se o Tor está sendo usado ou não.
   </dd>
 
 </dl>

@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Les modules complémentaires, les greffons et JavaScript
 ---
-description: Comment le navigateur Tor gère-t-il les modules complémentaires, les greffons et JavaScript ?
+description: Comment le Navigateur Tor gère-t-il les modules complémentaires, les greffons et JavaScript ?
 ---
 seo_slug: plugins
 ---
@@ -23,6 +23,6 @@ Tor Browser includes an add-on called NoScript, accessible through the “S” i
 
 ##### Browser Add-ons
 
-Le navigateur Tor est fondé sur Firefox, et tout module complémentaire ou thème compatible avec Firefox peut aussi être installé dans le navigateur Tor.
+Le Navigateur Tor est fondé sur Firefox, et tout module complémentaire ou thème compatible avec Firefox peut aussi être installé dans le Navigateur Tor.
 
 Cependant, les seuls modules complémentaires qui ont été testés pour être utilisés avec le Navigateur Tor sont ceux inclus par défaut. L’installation de tout autre module complémentaire pourrait briser la fonctionnalité du Navigateur Tor ou poser des problèmes plus graves qui affectent la protection de vos données personnelles et la sécurité. Il est fortement déconseillé d’installer d’autres modules complémentaires, et le Projet Tor n’offrira aucun soutien pour les configurations les utilisant.

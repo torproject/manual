@@ -22,7 +22,7 @@ body:
 
 ##### কিভাবে টর কাজ করে
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+টর ভার্চুয়াল টানেলগুলির একটি নেটওয়ার্ক যা আপনাকে ইন্টারনেটে আপনার গোপনীয়তা ও নিরাপত্তা উন্নত করতে সহায়তা করে। টর টর নেটওয়ার্কে তিনটি র্যান্ডম সার্ভার (রিলে নামেও পরিচিত) এর মাধ্যমে আপনার ট্র্যাফিক পাঠিয়ে কাজ করে। সার্কিটের সর্বশেষ রিলে ("প্রস্থান রিলে") তারপর পাবলিক ইন্টারনেটে ট্র্যাফিক পাঠায়।
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 

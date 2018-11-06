@@ -1,21 +1,21 @@
 _model: topic
 ---
-title: Resolução de Problemas
+title: Solução de Problemas
 ---
-description: O que fazer se o Tor Browser não funcionar
+description: O que fazer se o Navegador Tor não funcionar
 ---
 seo_slug: troubleshooting
 ---
 key: 11
 ---
 body:
-Deverá poder iniciar a navegação na Web utilizando o Tor Browser logo depois de executar o programa, e clicar no botão "Ligar" se o estiver a utilizar pela primeira vez.
+Você deve conseguir começar a navegar na web utilizando o Navegador Tor logo após executar o programa e clicar no botão "Connect", se você estiver usando-o pela primeira vez.
 
 <img class="col-md-6" src="/static/images/connect.png">
 
 ##### Quick fixes
 
-Se o Tor Browser não ligar, pode haver uma solução simples. Tente cada um dos seguintes:
+Caso o Navegador Tor não se conecte, provavelmente haverá uma solução simples a ser encontrada. Tente as seguintes:
 
 * Your computer’s system clock must be set correctly, or Tor will not be able to connect.
 * Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.

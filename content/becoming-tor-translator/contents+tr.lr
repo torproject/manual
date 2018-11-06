@@ -12,7 +12,7 @@ body:
 
 Projeye yardımcı olmak için kullanım kitabını ya da Tor Browser uygulamasını kendi dilinize çevirmek isterseniz çok seviniriz. Katkıda bulunmak için çeviri işlemlerini kolaylaştırmak amacıyla kullandığımız üçüncü taraflara ait Transifex platformunda bir hesap açmanız gerekir. Aşağıda hesap açma ve çeviriye başlama bilgilerinin özetini görebilirsiniz.
 
-##### Signing up on Transifex
+##### Transifex Hesabı Açmak
 
 * Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>. Enter your information into the fields and click the 'Sign Up' button:
 
@@ -37,4 +37,4 @@ Projeye yardımcı olmak için kullanım kitabını ya da Tor Browser uygulamas�
 
 <img class="col-md-6" src="/static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!
+Üyeliğiniz onaylandıktan sonra çeviri işlemlerine başlayabilirsiniz. Başlamaya hazır olduğunuzda <link href="https://www.transifex.com/otf/torproject/">Tor Transifex sayfasına</a> geri dönün. Tor projesine destek olduğunuz için teşekkürler!

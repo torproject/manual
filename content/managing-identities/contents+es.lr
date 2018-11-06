@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Administrar identidades
 ---
-description: Sepa cómo controlar la información identificadora de la persona en el Navegador Tor.
+description: Aprende a controlar la información para identificarte en el Navegador Tor.
 ---
 seo_slug: administrar-identidades
 ---
@@ -35,7 +35,7 @@ Si accedes a un sitio web mediante un navegador normal, revelas tu IP y tu ubica
 Cuando inicies sesión en un sitio web Tor, hay varios puntos que deberías tener en cuenta:
 
 * Mira la página <a href="/secure-connections">Conexiones seguras</a> en busca de información sobre cómo asegurar tu conexión al iniciar sesión.
-* Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
+* A menudo el Navegador Tor hace que tu conexión parezca como si viniera de una parte completamente distinta del mundo. Algunos sitios web, como bancos o proveedores de correo electrónico, podrían interpretar esto como un signo de que tu cuenta ha sido hackeada o comprometida, y bloqueárte. La única forma de resolver esto es seguir el procedimiento recomendado por el sitio para la recuperación de la cuenta, o contactar con los operadores y explicarles la situación.
 
 ##### Cambiar identidades y circuitos
 

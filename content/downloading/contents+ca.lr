@@ -2,9 +2,9 @@ _model: topic
 ---
 title: Descarregant
 ---
-description: Com descarregar el navegador Tor.
+description: Com descarregar el navegador Tor
 ---
-seo_slug: downloading
+seo_slug: Descarregant
 ---
 key: 2
 ---
@@ -42,7 +42,7 @@ Instal·lar Satori des de Chrome App Store.
 
 Seleccioni Satori del menú d'aplicacions del navegador.
 
-Quan Satori s'executi, seleccioni la llengua. Un menú de selecció dels llenguatges descarregats s'obrirà. Cerqui la entrada pel navegador Tor sota el nom del sistema operatiu. Seleccioni "A" o "B" després del nom o del programa - cadascun representa diferents fonts d'on obtindre el programari, posteriorment la descàrrega començarà. 
+Quan Satori s'executi, seleccioni la llengua. Un menú de selecció dels llenguatges descarregats s'obrirà. Cerqui la entrada pel navegador Tor sota el nom del sistema operatiu. Seleccioni "A" o "B" després del nom o del programa - cadascun representa diferents fonts d'on obtindre el programari, posteriorment la descàrrega començarà.
 
 Esperi per la descàrrega completa, posteriorment cerqui "Generar resum" del menú Satori i fer clic en "Selecció d'arxiu".
 

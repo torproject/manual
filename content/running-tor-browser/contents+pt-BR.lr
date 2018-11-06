@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Executar o Tor Browser pela primeira vez
+title: Executando o Navegador Tor pela primeira vez
 ---
-description: Saiba como utilizar o Tor Browser pela primeira vez
+description: Saiba como usar o Navegador Tor pela primeira vez
 ---
 seo_slug: running-tor-browser
 ---
@@ -10,7 +10,7 @@ key: 3
 ---
 body:
 
-Quando executar o Tor Browser pela primeira vez, irá ver uma janela das Configurações de Rede Tor. Esta oferece-lhe a opção de ligar diretamente para a rede Tor ou para configurar o Tor Browser para a sua ligação.
+Ao executar o Navegador Tor pela primeira vez, você verá a janela Parâmetros da Rede Tor. Você poderá escolher entre conectar-se diretamente à rede Tor ou configurar o Navegador Tor de acordo com a sua conexão.
 
 ##### Connect
 
@@ -22,11 +22,11 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-Se souber que a sua ligação está censurada, ou utiliza um proxy, deve selecionar esta opção. O Tor Browser irá levá-lo através de uma série de opções de configuração.
+Se você souber que a sua conexão está sendo censurada, ou que ela usa proxy, é melhor selecionar esta opção. O Navegador Tor a/o guiará em uma série de opções de configuração.  
 
 The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-O ecrã seguinte pergunta se a sua ligação utiliza um proxy. Na maioria dos casos, isto não é necessário. Normalmente irá saber se precisa de responder "Sim", porque serão utilizadas as mesmas definições pelos outros navegadores no seu sistema. Se possível, peça ao seu administrador da rede por alguma ajuda. Se a sua ligação não utilizar um proxy, clique em "Continuar".
+A próxima tela pergunta se a sua conexão usa proxy. Na maioria dos casos não é necessário utilizá-los e normalmente você sabe se a resposta for “Sim” já que os mesmos parâmetros são usados por outros navegadores do seu sistema. Se possível, consulte a pessoa responsável pela administração da sua rede. Caso a sua conexão não use proxy, clique em “Continuar.”
 
 <img class="col-md-6" src="/static/images/proxy_question.png">
 

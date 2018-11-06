@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: Contornar
+title: Driblar a censura
 ---
 description: O que fazer se a rede Tor estiver bloqueada
 ---
@@ -16,20 +16,20 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-Para utilizar os transportes ligáveis, clique em "Configurar" na janela do Tor Launcher que aparece quando executa o Tor Browser pela primeira vez.
+Para usar transportadores plugáveis, clique em "Configurar" na janela do Tor Launcher que aparece quando você começa a executar o Navegador Tor.
 
-Também pode configurar os transportes ligáveis enquanto o Tor Browser está a ser executado, clicando na cebola verde perto da sua barra de endereços e selecione "Definições de Rede do Tor".
+Você também pode configurar os transportadores plugáveis enquanto o Navegador Tor estiver em uso, clicando na cebola, perto da sua barra de endereços. Selecione "Parâmetros da rede Tor".
 
-Selecione "Sim" quando perguntado se o seu Provedor de Serviço de Internet bloqueia ligações para a rede TOR.
+Responda "sim" à questão sobre se o seu provedor de serviço de Internet bloqueia conexões à rede Tor. 
 
 <img class="col-md-6" src="/static/images/bridges.png">
 
-Selecione “Ligar com pontes fornecidas”. O Tor Browser tem atualmente seis opções de transporte ligáveis para escolher.
+Clique em "Conectar usando pontes fornecidas". Atualmente, o Navegador Tor possui seis opções de transportadores plugáveis para você escolher.
 
 ##### Which transport should I use?
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-Se você estiver tentando contornar uma conexão bloqueada pela primeira vez, experimente os diferentes transportes: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
+Se você está tentando contornar uma conexão bloqueada pela primeira vez, você deve tentar diferentes transportes: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
 
 If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

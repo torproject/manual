@@ -17,10 +17,10 @@ La següent imatge mostra quina informació és visible a ulls del interceptors 
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* Faci clic en el icona "Tor" per saber quines dades són visibles als observadors quan s'utilitzi Tor. El icona es tornarà de color verd per indicar que Tor està en marxa.
+* Faci clic al botó "HTTPS" per saber quines dades són visibles als observador quan s'utilitzi HTTPS. El botó es tornarà verd per indicar que HTTPS està en marxa.
+* Quan ambdós botons estan en verd, es pot veure quines dades són visibles als observadors amb les dos eines.
+* Quan ambdós botons estan en gris, es pot veure quines dades són visibles als observadors sense la utilització de les dos eines.
 
 ##### Potentially visible data
 

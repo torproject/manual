@@ -12,7 +12,7 @@ body:
 
 Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
 
-##### Using pluggable transports
+##### Использование подключаемых транспортов
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -26,7 +26,7 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 Выберите «Подключиться с предоставленными мостами». Tor Browser в настоящее время имеет шесть транспортных вариантов подключения на выбор.
 
-##### Which transport should I use?
+##### Какой транспорт следует использовать?
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 

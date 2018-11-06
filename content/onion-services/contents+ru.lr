@@ -18,13 +18,13 @@ body:
 * Весь трафик между пользователями Tor и луковыми сервисами подвергается сквозному шифрованию, так что вам не нужно беспокоиться о <a href="secure-connections">подключении с помощью HTTPS</a>.
 * Адреса сервиса onion генерируются автоматически, поэтому операторам не требуется приобретать имя домена; кроме того, URL-адрес. .onion обеспечивает, чтобы он подключается к правильному расположению и что подключение не подделано.
 
-##### How to access an onion service
+##### Как получить доступ к сервису onion
 
 Так же, как и для любого другого веб-сайта, вам необходимо знать адрес onion-сервиса для подключения к нему. Onion-адрес представляет собой строку из 16 (в формате V3 – из 56-и) в основном случайных букв и цифр, оканчивающихся ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Устранение неполадок
 
 Если вы не можете подключиться к необходмому вам onion-сервису, убидитесь, что введен правильный onion-адрес: даже небольшая ошибка не даст Tor Browser подключиться к сайту.
 

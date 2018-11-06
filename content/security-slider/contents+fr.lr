@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Le bouton de sécurité coulissant
+title: Curseur de sécurité
 ---
-description: Configurer le navigateur Tor pour la sécurité et la facilité d'emploi
+description: Configurer le Navigateur Tor pour la sécurité et la facilité d’emploi
 ---
 seo_slug: security-slider
 ---
@@ -21,14 +21,14 @@ Le curseur de sécurité se trouve dans le menu « Paramètres de sécurité �
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
-En augmentant le niveau du bouton de sécurité coulissant, vous désactiverez complètement ou partiellement certaines fonctions des navigateurs afin de vous protéger contre les attaques potentielles.
+En augmentant le niveau du curseur de sécurité, vous désactiverez complètement ou partiellement certaines fonctions du navigateur afin de vous protéger contre les attaques potentielles.
 
 <dl>
 <dt>
 Le plus sûr
 </dt>
 <dd>
-À ce niveau, les contenus multimédias HTML5 deviennent cliquer-pour-lire avec NoScript ; toutes les optimisations des performances JavaScript sont désactivées ; certaines équations mathématiques pourraient ne pas s'afficher correctement ; certaines fonctions de rendu des polices sont désactivées ; certains types d'images sont désactivés ; JavaScript est désactivé par défaut pour tous les sites ; la plupart des formats vidéo et audio sont désactivés ; et certaines polices et icônes pourraient ne pas s'afficher correctement.
+À ce niveau, les contenus multimédias HTML5 deviennent « cliquer pour lire » avec NoScript ; toutes les optimisations des performances JavaScript sont désactivées ; certaines équations mathématiques pourraient ne pas s’afficher correctement ; certaines fonctions de rendu des polices sont désactivées ; certains types d’images sont désactivés ; JavaScript est désactivé par défaut pour tous les sites ; la plupart des formats vidéo et audio sont désactivés ; et certaines polices et icônes pourraient ne pas s’afficher correctement.
 </dd>
 <dt>
 Plus sûr

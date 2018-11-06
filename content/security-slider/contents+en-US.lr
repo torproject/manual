@@ -9,8 +9,7 @@ seo_slug: security-slider
 key: 8
 ---
 body:
-Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity.
-Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
 
 ##### Accessing the Security Slider
 
@@ -41,7 +40,6 @@ At this level, HTML5 video and audio media become click-to-play via NoScript; al
 Standard
 </dt>
 <dd>
-At this level, all browser features are enabled.
-This is the most usable option.
+At this level, all browser features are enabled. This is the most usable option.
 </dd>
 </dl>

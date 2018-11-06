@@ -4,7 +4,7 @@ title: Köprüler
 ---
 description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
-seo_slug: bridges
+seo_slug: Köprüler
 ---
 key: 4
 ---
@@ -13,14 +13,14 @@ Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, re
 
 Meek gibi diğer eklenebilir aktarımlar, köprülerden yararlanan farklı anti-sansür teknikleri kullanır. Bu aktarımları kullanmak için köprü adreslerinin eklenmesi gerekmez. 
 
-##### Getting bridge addresses
+##### Köprü adreslerini edinme
 
 Köprü adresleri herkese açık olarak duyurulmadığından, istekte bulunmanız gerekir. Kullanılabilecek iki seçenek vardır:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Entering bridge addresses
+##### Köprü adreslerini yazma
 
 Aldığınız köprü adreslerini Tor Başlatıcı içine yazmanız gerekir.
 

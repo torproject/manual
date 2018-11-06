@@ -22,7 +22,7 @@ Tor Browser ve HTTPS şifrelemesinin bulunduğu ve bulunmadığı durumlarda siz
 * When both buttons are green, you see the data that is visible to observers when you are using both tools.
 * When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
-##### Potentially visible data
+##### Elde edilebilecek bilgiler
 
 <dl>
 

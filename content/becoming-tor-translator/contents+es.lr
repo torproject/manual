@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: Traducir Tor
+title: Conviértete en traductor de Tor
 ---
 description: Conviértete en traductor del Proyecto Tor.
 ---
@@ -24,7 +24,7 @@ Si estás interesado en ayudar con el proyecto traduciendo el manual o el navega
 
 * En la siguiente página, selecciona "unirse a un proyecto existente" y continúa.
 * En la siguiente página, selecciona los idiomas que hablas en el menú desplegable y continúa.
-* ¡Ya has firmado! Ve a la <link href="https://www.transifex.com/otf/torproject/">página de Tor en Transifex</link>.
+* ¡Ya has firmado! Ve a la <a href="https://www.transifex.com/otf/torproject/">página de Tor en Transifex</a>.
 * Clic en el botón azul "Unirse al Equipo" en el lado derecho.
 
 <img class="col-md-6" src="/static/images/tr3.png">
@@ -37,4 +37,4 @@ Si estás interesado en ayudar con el proyecto traduciendo el manual o el navega
 
 <img class="col-md-6" src="/static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!
+* Después de que se apruebe tu membresía, puedes comenzar a traducir; sencillamente dirigite a la <a href="https://www.transifex.com/otf/torproject/">página Tor Transifex</a> cuando estés lista para comenzar. ¡Gracias por tu interés en apoyar el proyecto!

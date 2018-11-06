@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Serviços da Cebola
+title: Serviços Onion
 ---
-description: Serviços que só estão acessíveis utilizando o Tor
+description: Servicos acessíveis somente com o uso do Tor
 ---
 seo_slug: serviços-onion
 ---
@@ -10,9 +10,9 @@ key: 6
 ---
 body:
 
-Os serviços de cebola (anteriormente conhecidos como "serviços ocultados") são serviços (tal como sites da Web) que só são acessíveis através da rede Tor.
+Serviços onion (anteriormente conhecidos como "serviços ocultos") são serviços (como websites) que somente podem ser acessados através da rede Tor.
 
-Os serviços cebola oferecem várias vantagens sobre os serviços comuns na Web não privada:
+Serviços onion oferecem uma série de vantagens em relação a serviços na rede não-privada.
 
 * An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
@@ -20,14 +20,14 @@ Os serviços cebola oferecem várias vantagens sobre os serviços comuns na Web 
 
 ##### How to access an onion service
 
-Assim como qualquer outro site, você precisará saber o endereço de um serviço de cebola para se conectar a ele. Um endereço de cebola é uma sequência de 16 (e no formato V3, 56) letras e números na maioria aleatórios, seguido por “.onion”.
+Como qualquer outro website, você precisará saber o endereço do serviço onion para se conectar a ele. Um endereço onion é uma sequência de 16 (e no formato V3, 56) letras e números na maioria aleatórios, seguidos por ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
 ##### Troubleshooting
 
-Se você não conseguir acessar o serviço de cebola que você precisa, certifique-se de ter digitado o endereço da cebola corretamente: até mesmo um pequeno erro impedirá que o Navegador Tor alcance o site.
+Se você não conseguir conectar-se ao serviço onion que deseja, certifique-se de ter escrito corretamente o endereço onion de 16 caracteres: até mesmo um pequeno erro impedirá que o Navegador Tor conecte-se ao site.
 
-Se ainda não conseguir ligar-se ao serviço da cebola, por favor, tente novamente mais tarde. Pode haver um problema de ligação temporário ou os operadores do site podem permitiram que este esteja off-line sem aviso.
+Se ainda assim você não conseguir conectar-se ao serviço onion, por favor tente novamente mais tarde. Pode ser que haja um problema temporário de conexão ou os operadores do site podem tê-lo desativado sem aviso.
 
 You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

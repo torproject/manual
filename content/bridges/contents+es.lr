@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Puentes
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: La mayoría de los <a href="transports">Transportes Conectables</a>, como obfs3 y obfs4, se basan en el uso de repetidores "puente".
 ---
 seo_slug: puentes
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+La mayoría de los <a href="transports">Transportes Conectables</a>, como obfs3 y obfs4, se basan en el uso de repetidores "puente". Igual que los repetidores Tor ordinarios, los puentes de red son ejecutados por voluntarios, pero no son públicos, así que no se pueden identificar fácilmente. Usar puentes en combinación con transportes conectables ayuda a camuflar el uso de Tor.
 
 Otros transportes conectables, como meek, usan distintas técnicas anti-censura que no se basan en puentes. No necesitas obtener direcciones de puentes para usar estos transportes.
 

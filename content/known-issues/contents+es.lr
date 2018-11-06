@@ -22,9 +22,9 @@ body:
 
 * Tor no puede usar un puente si tiene configurado un proxy.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* El paquete del Navegador Tor está fechado el 1 de enero de 2000, 00:00:00 UTC. Esto es para asegurar que cada versión (build) del software es reproducible con exactitud.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Para ejecutar el Navegador Tor en Ubuntu, los usuarios necesitan ejecutar un script de consola. Abre "Ficheros" (explorador de Unity),  "Preferencias de archivos"  → pestaña "Comportamiento" → Configura "Ejecutar los archivos de texto ejecutables al abrirlos" a "Preguntar siempre", luego pulsa OK.
 
 * El Navegador Tor también se puede iniciar desde la línea de comando ejecutando el siguiente comando desde el interior del directorio del Navegador Tor:
 

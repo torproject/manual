@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Sobre o Tor Browser
+title: Sobre o Navegador Tor
 ---
-description: Saiba o que o Tor Browser pode fazer para proteger a sua privacidade e anonimato.
+description: Saiba o que o Navegador Tor pode fazer para proteger a sua privacidade e anonimato.
 ---
 seo_slug: about
 ---
@@ -10,13 +10,13 @@ key: 1
 ---
 body:
 
-O Tor Browser utiliza a rede Tor para proteger a sua privacidade e anonimato. Utilizar a rede Tor tem duas propriedades principais: 
+O Navegador Tor utiliza a rede Tor para proteger a sua privacidade e anonimato. O uso da rede Tor apresenta duas características:
 
 * Your internet service provider, and anyone watching your connection locally, will not be able to track your internet activity, including the names and addresses of the websites you visit.
 
 * The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
 
-Em adição, o Tor Browser foi concedido para evitar que os sites da Web 'detetem' ou o identifiquem com base na configuração do seu navegador.
+Além disso, o Navegador Tor é concebido para impedir que sites coletem as suas "impressões digitais" identificando-a/o a partir das configurações do seu navegador. 
 
 By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
 
@@ -26,4 +26,4 @@ Tor is a network of virtual tunnels that allows you to improve your privacy and 
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 
-A imagem acima ilustra um utilizador a navegar entre diferentes sites da Web no Tor. Os computadores a verde no meio representam os retransmissores na rede Tor, enquanto que as três chaves representam as camadas de encriptação entre o utilizador e cada retransmissor.
+A imagem acima ilustra uma pessoa que visita diversos sites usando Tor. Os computadores verdes do meio representam retransmissores da rede Tor, enquanto as três chaves representam camadas de criptografia entre aquela pessoa e cada retransmissor. 

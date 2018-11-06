@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Serveis Ceba
 ---
-description: Serveis que només són accessibles utilitzant Tor.
+description: Serveis que només són accessibles utilitzant Tor
 ---
 seo_slug: onion-services
 ---
@@ -14,9 +14,9 @@ Els serveis ceba (també anomenats "serveis amagats") són serveis (com els webs
 
 Els serveis ceba permeten tenir diferents avantatges a diferència dels serveis ordinaris sense privacitat:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
+* Un servei ceba oculta la direcció IP i realitza una dificultat afegida pels censors o operador que pretenen identificar.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Les adreces del servei ceba són generades de forma automàtica, per tant els operador no cal que comprin cap domini; la URL de ceba també permet assegurar que la connexió a i la localització no és interceptada.
 
 ##### How to access an onion service
 

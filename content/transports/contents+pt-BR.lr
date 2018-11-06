@@ -9,11 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-Transportes ligáveis são ferramentas que o Tor pode utilizar para disfarçar o tráfego que este envia. Isto pode ser útil em situações onde um Provedor de Serviços da Internet ou outra autoridade está a bloquear ativamente as ligações à rede Tor.
+Transportadores Plugáveis são ferramentas que o Tor utiliza para mascarar o tráfego enviado para fora da rede Tor. Eles são úteis em lugares onde Provedores de Serviço de Internet, ou outras autoridades, bloqueiam conexões à rede Tor.
 
 ##### Types of pluggable transport
 
-Atualmente existem seis transportes ligáveis disponíveis, mas ainda estão em desenvolvimento.
+Atualmente, há seis transportadores plugáveis disponíveis e outros estão sendo desenvolvidos.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ Atualmente existem seis transportes ligáveis disponíveis, mas ainda estão em 
 obfs3
 </td>
 <td>
-O obfs3 faz com que o tráfego do Tor pareça aleatório, de modo que não se pareça com o Tor ou qualquer outro protocolo. Embora ainda incluído por padrão, recomenda-se usar o obfs4, já que ele possui várias melhorias de segurança sobre o obfs3.
+O obfs3 confere uma aparência aleatória ao tráfego do Tor, de modo que ele não seja identificável como pertencente ao Tor ou a qualquer outro protocolo. Embora ainda seja incluído por padrão, recomendamos que você o substitua pelo obfs4 devido a seus diversos aperfeiçoamentos de segurança em relação ao obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ O obfs3 faz com que o tráfego do Tor pareça aleatório, de modo que não se pa
 obfs4
 </td>
 <td>
-obfs4 torna o tráfego do Tor aleatório, tal como ofs3, e também evita que os censores encontrem as pontes pelas pesquisas da Internet. As pontes de obfs4 são menos propensas a serem bloqueadas do que as pontes de obfs3.
+obfs4 faz com que o tráfego do Tor pareça aleatório, assim como obfs3. Além disso, ele impede que censores encontrem pontes por meio de uma varredura na Internet. Pontes obfs4 têm menos chances de serem bloqueadas do que pontes obfs3.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ obfs4 torna o tráfego do Tor aleatório, tal como ofs3, e também evita que os 
 Scramblesuit
 </td>
 <td>
-ScrambleSuit é similar a obfs4 mas tem um conjunto de pontes diferente.
+ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes.  
 </td>
 </tr>
 <tr class="even">
@@ -46,24 +46,23 @@ ScrambleSuit é similar a obfs4 mas tem um conjunto de pontes diferente.
 FTE
 </td>
 <td>
-FTE (encriptação transformação-formato) dissimula o tráfego do Tor como tráfego normal da Web (HTTP).
+FTE (format-transforming encryption) mascara o tráfego do Tor, que aparece como tráfego de rede comum (HTTP).
 </td>
 </tr>
 <tr class="odd">
 <td>
-manso
+meek
 </td>
 <td>
-Todos estes transportes fazem com que pareça que 
-está a navegar em um site da Web principal em vez da utilização do Tor. meek-amazon faz com que pareça que está a utilizar os Serviços da Web da Amazon; meek-azure faz com que pareça que está a utilizar um site da Web da Microsoft; e meek-google faz com que pareça que está a utilizar a pesquisa do Google.
+Todos esses transportadores fazem com que pareça que você está acessando um dos grandes sites da web, e não que você usa Tor. meek-amazon faz com que pareça que você utiliza Amazon;  meek-azure, Microsoft; e meek-google faz parecer que você está usando a pesquisa do Google.
 </td>
 </tr>
 <tr class="even">
 <td>
-Floco de neve
+Snowflake
 </td>
 <td>
-O floco de neve é um aprimoramento do Flashproxy. Ele envia seu tráfego através do WebRTC, um protocolo peer-to-peer com integração NAT.
+O Snowflake é um aperfeiçoamento do Flashproxy. Ele envia o seu tráfego através do WebRTC, um protocolo P2P com NAT punching interno.
 </td>
 </tr>
 </tbody>

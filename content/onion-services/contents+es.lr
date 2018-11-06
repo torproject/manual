@@ -26,7 +26,7 @@ When accessing a website that uses an onion service, Tor Browser will show at th
 
 ##### Resolución de problemas
 
-Si no puedes acceder al servicio de onion que necesitas, asegúrate de haber ingresado correctamente la dirección de onion: incluso un pequeño error puede impedir que el  navegador Tor acceda al sitio.
+Si no puedes acceder al servicio cebolla que necesitas, asegúrate de haber ingresado correctamente la dirección cebolla: incluso un pequeño error puede impedir que el  navegador Tor acceda al sitio.
 
 Si todavía no puedes conectar al servicio cebolla, por favor, inténtalo de nuevo más tarde. Puede haber un problema temporal de conexión, o los operadores del sitio pueden haber permitido que los usuarios sean desconectados sin avisar.
 

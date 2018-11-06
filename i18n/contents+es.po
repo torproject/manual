@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"PO-Revision-Date: 2018-11-06 18:41+0100\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Bookmarks: -1,211,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -178,6 +179,11 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"La red Tor es una red de túneles virtuales que permite mejorar la privacidad "
+"y seguridad en Internet. Tor funciona enviando el tráfico a través de tres "
+"servidores aleatorios (también conocidos como *repetidores*) en la red Tor. "
+"El último repetidor en el circuito (el \"repetidor de salida\") envía "
+"entonces el tráfico hacia el Internet público."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -290,6 +296,10 @@ msgid ""
 "valid for a single session (until Tor Browser is exited or a <a href=\"/"
 "managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"* De forma predeterminada, el Navegador Tor no conserva ningún historial de "
+"navegación. Los cookies sólo son válidos para una sola sesión (hasta que se "
+"cierre el Navegador Tor o se solicite una <a href=\"managing-identities#new-"
+"identity\">Nueva Identidad</a>)."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -420,6 +430,13 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* A menudo el Navegador Tor hace que tu conexión parezca como si viniera de "
+"una parte completamente distinta del mundo. Algunos sitios web, como bancos "
+"o proveedores de correo electrónico, podrían interpretar esto como un signo "
+"de que tu cuenta ha sido hackeada o comprometida, y bloqueárte. La única "
+"forma de resolver esto es seguir el procedimiento recomendado por el sitio "
+"para la recuperación de la cuenta, o contactar con los operadores y "
+"explicarles la situación."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
@@ -437,6 +454,10 @@ msgid ""
 "but not yet fixed. Please check the <a href=\"/known-issues\">Known Issues</"
 "a> page to see if the problem you are experiencing is already listed there."
 msgstr ""
+"El Navegador Tor está bajo desarrollo constante, y algunos problemas son "
+"conocidos pero aún no están reparados. Por favor, revisa la página de <a "
+"href=\"known-issues\">Problemas conocidos</a> para ver si el problema que "
+"estás experimentando ya está listado allí."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -578,6 +599,12 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"La mayoría de los <a href=\"transports\">Transportes Conectables</a>, como "
+"obfs3 y obfs4, se basan en el uso de repetidores \"puente\". Igual que los "
+"repetidores Tor ordinarios, los puentes de red son ejecutados por "
+"voluntarios, pero no son públicos, así que no se pueden identificar "
+"fácilmente. Usar puentes en combinación con transportes conectables ayuda a "
+"camuflar el uso de Tor."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -867,6 +894,9 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* El paquete del Navegador Tor está fechado el 1 de enero de 2000, 00:00:00 "
+"UTC. Esto es para asegurar que cada versión (build) del software es "
+"reproducible con exactitud."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -888,6 +918,12 @@ msgid ""
 "then be taken to the <a href=\"/circumvention\">Circumvention</a> screen to "
 "configure a pluggable transport."
 msgstr ""
+"La primera pantalla, pregunta si el acceso a la red Tor está bloqueado o "
+"censurado en tu conexión. Si no crees que este sea el caso, selecciona \"No"
+"\". Si sabes que tu conexión está censurada, o has intentado conectar a la "
+"red Tor y no han funcionado otras soluciones, selecciona \"Sí\",  que te "
+"llevará a la pantalla <a href=\"circumvention\">Evasión</link> para "
+"configurar un transporte conectable."
 
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
@@ -1057,6 +1093,12 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"El acceso directo a la red Tor a veces puede estar bloqueado por tu "
+"Proveedor de Servicios de Internet (ISP) o por un gobierno. El Navegador Tor "
+"incluye algunas herramientas de evasión para evitar estos bloqueos. Estas "
+"herramientas se llaman \"transportes conectables\". Lee la página <a href="
+"\"transports\">Transportes Conectables</a> para más información sobre los "
+"tipos de transporte que están disponibles actualmente."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1097,6 +1139,9 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* Borra el Navegador Tor e instálalo de nuevo. Si estás actualizando, no te "
+"limites a sobrescribir tus ficheros anteriores del Navegador Tor; asegúrate "
+"previamente de que han sido borrados por completo."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1126,6 +1171,10 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"* Después de que se apruebe tu membresía, puedes comenzar a traducir; "
+"sencillamente dirigite a la <a href=\"https://www.transifex.com/otf/"
+"torproject/\">página Tor Transifex</a> cuando estés lista para comenzar. "
+"¡Gracias por tu interés en apoyar el proyecto!"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1196,6 +1245,9 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* Asegúrate de que cualquier programa antivirus que tengas instalado no está "
+"impidiendo que Tor se ejecute. Puede que necesites consultar la "
+"documentación de tu software antivirus si no sabes cómo hacer esto."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
@@ -1367,6 +1419,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* Asegúrate de que no hay otro Navegador Tor ya en marcha. Si no estás "
+"seguro, reinicia tu computadora."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1401,6 +1455,9 @@ msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
+"* Haz clic en el botón \"Tor\" para ver qué datos son visibles para los "
+"observadores cuando estás usando Tor. El botón se pondrá verde para indicar "
+"que Tor está activado."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1491,6 +1548,10 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Encuentra la carpeta de Tor. El lugar predeterminada en Windows es el "
+"Escritorio; en Mac OS X es la carpeta de Aplicaciones. En Linux, no hay una "
+"ubicación predeterminada, sin embargo, la carpeta será nombrada \"tor-"
+"browser_en-US\" si estás ejecutando Tor en inglés."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1596,6 +1657,10 @@ msgid ""
 "need to enter bridge addresses manually. Read the <a href=\"/bridges/"
 "\">Bridges</a> section to learn what bridges are and how to obtain them."
 msgstr ""
+"Si pruebas todas estas opciones y no consigues conectar con ninguna de "
+"ellas, necesitarás introducir direcciones de puentes de red manualmente. Lee "
+"la sección <a xref=\"bridges\">Puentes</a> para saber qué son los "
+"repetidores puente y cómo obtenerlos."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1609,6 +1674,8 @@ msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays."
 msgstr ""
+"La mayoría de los <a href=\"transports\">Transportes Conectables</a>, como "
+"obfs3 y obfs4, se basan en el uso de repetidores \"puente\"."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
@@ -1621,6 +1688,9 @@ msgid ""
 "censoring connections to the Tor network. Read the <a href=\"/circumvention"
 "\">Circumvention</a> section for possible solutions."
 msgstr ""
+"Si aún no puedes conectar, tu Proveedor de Servicios de Internet (ISP) "
+"podría estar censurando las conexiones a la red Tor. Lee la sección <a href="
+"\"circumvention\">Elusión</a> en busca de posibles soluciones."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1831,6 +1901,11 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Para ejecutar el Navegador Tor en Ubuntu, los usuarios necesitan ejecutar "
+"un script de consola. Abre \"Ficheros\" (explorador de Unity),  "
+"\"Preferencias de archivos\"  → pestaña \"Comportamiento\" → Configura "
+"\"Ejecutar los archivos de texto ejecutables al abrirlos\" a \"Preguntar "
+"siempre\", luego pulsa OK."
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
@@ -1882,6 +1957,12 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"En la mayoría de los casos escoger \"Conectar\" te permitirá conectar a la "
+"red Tor sin ninguna configuración adicional. Una vez hagas clic aparecerá "
+"una barra de estado mostrando el progreso de la conexión de Tor. Si tienes "
+"una conexión relativamente rápida pero la barra parece haberse quedado fija "
+"en un determinado punto, lee la página <a href=\"troubleshooting\">Solución "
+"de problemas</a> para obtener ayuda para solucionar el problema."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)

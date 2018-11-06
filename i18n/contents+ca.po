@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
-"Last-Translator: emma peel <emmapeel@torproject.org>\n"
+"PO-Revision-Date: 2018-11-06 18:27+0100\n"
+"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -24,6 +24,8 @@ msgid ""
 "* Fill out the next page with your name and select \"Localization\" and "
 "\"Translator\" from the drop-down menus:"
 msgstr ""
+"* Ompliu la pàgina següent amb el vostre nom i seleccioneu \"Localització\" "
+"i \"Traductor\" al menú desplegable:"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -414,6 +416,11 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* El navegador Tor tot sovint fa aparèixer la connexió des de una "
+"localització diferent. Alguns webs, com els bancs o proveïdors de correu "
+"electrònic, poden interpretar com si la connexió fos furonada i per tant fer "
+"fora del web. La única manera de resoldre-ho és seguir les recomanacions de "
+"la recuperació del compte o contactar al operador i explicar la situació. "
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
@@ -496,6 +503,8 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
+"* Un servei ceba oculta la direcció IP i realitza una dificultat afegida "
+"pels censors o operador que pretenen identificar."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -670,7 +679,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -684,6 +693,10 @@ msgid ""
 "your real Internet (IP) address, and will not know who you are unless you "
 "explicitly identify yourself."
 msgstr ""
+"*  Els administradors de webs i serveis que s'utilitzin, o qualsevol que "
+"sigui observant de la connexió, veurà una connexió que prové de la xarxa Tor "
+"en lloc de l'adreça (IP) real, i no podrà saber la seva identitat a menys "
+"que ho expliciti."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -842,6 +855,8 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* El paquet d'aplicació del navegador Tor està datat a 1 de gener,  2000 "
+"00:00:00 UTC. Això permet assegurar que la versió és reproduïble. "
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -849,6 +864,8 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* El navegador Tor pot ser inicialitzat per línia de comanda mitjançant la "
+"següent instrucció en el director del navegador Tor:"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -905,7 +922,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot SecureAnywhere"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -966,6 +983,8 @@ msgid ""
 "* When both buttons are green, you see the data that is visible to observers "
 "when you are using both tools."
 msgstr ""
+"* Quan ambdós botons estan en verd, es pot veure quines dades són visibles "
+"als observadors amb les dos eines."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1064,6 +1083,9 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* Suprimir el navegador Tor i tornar a instal·lar. Si l'actualització no ha "
+"reescrit la versió anterior del navegador Tor, comprovi que s'han eliminat "
+"tots els arxius."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1144,6 +1166,8 @@ msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
+"* El rellotge de sistema s'hauria de configurar correctament o Tor no podrà "
+"connectar-se."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1157,6 +1181,9 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* Comprovi que cap programa d'antivirus instal·lat està intentant evitar que "
+"Tor s'executi. Haurà de consultar la documentació del antivirus si no sap "
+"com realitzar-ho."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
@@ -1170,7 +1197,7 @@ msgstr ""
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* A notification will now show up on the top of the page like so:"
-msgstr ""
+msgstr "* Ara, una notificació apareixerà a la part superior de la pàgina:"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.title)
 msgid "About Tor Browser"
@@ -1282,6 +1309,9 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* Les adreces del servei ceba són generades de forma automàtica, per tant "
+"els operador no cal que comprin cap domini; la URL de ceba també permet "
+"assegurar que la connexió a i la localització no és interceptada."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.seo_slug)
@@ -1300,6 +1330,8 @@ msgstr "Desinstal·lant"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* Tor necessita el rellotge de sistema (i el fus horari) per configurar el "
+"temps correctament."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1322,6 +1354,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* Comprovi que el navegador Tor no s'està executant en aquest moment. Si no "
+"està segur, reinicii el ordinador."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1355,6 +1389,9 @@ msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
+"* Faci clic en el icona \"Tor\" per saber quines dades són visibles als "
+"observadors quan s'utilitzi Tor. El icona es tornarà de color verd per "
+"indicar que Tor està en marxa."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1462,7 +1499,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* Deshabiliti de forma temporal el tallafoc."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
@@ -1488,6 +1525,8 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* Els vídeos que precisen d'Adobe Flash són inaccessibles per motius de "
+"seguretat."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1516,7 +1555,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security Essentials"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1587,7 +1626,7 @@ msgstr ""
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "* Click the blue 'Join Team' button on the far right:"
-msgstr ""
+msgstr "* Feu clic al botó blau \"Uneix-te a l'equip\" a l'extrem dret:"
 
 #: http://localhost/ (content/contents+en.lr:showcase.title)
 msgid "How can we help?"
@@ -1654,6 +1693,9 @@ msgid ""
 "locally, will not be able to track your internet activity, including the "
 "names and addresses of the websites you visit."
 msgstr ""
+"* El proveïdor d'Internet i qualsevulla persona que observi la connexió "
+"local, no podran fer seguiment de la activitat d'Internet, incloent el nom i "
+"direcció dels webs que visiti."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1680,6 +1722,7 @@ msgstr ""
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
 msgstr ""
+"* Tor no pot utilitzar un pont si el servidor intermedi està configurat."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1689,7 +1732,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus per Mac"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1725,6 +1768,8 @@ msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
+"* Quan ambdós botons estan en gris, es pot veure quines dades són visibles "
+"als observadors sense la utilització de les dos eines."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1762,6 +1807,11 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Per executar el navegador Tor sobre Ubuntu, s'haurà d'executar mitjançant "
+"shell script. Per això accedir a \"Arxius\" (navegador unificat),  "
+"Paràmetres → Comportament pestanyes → Configurar, executar l'arxiu de text "
+"quan s'obri la pantalla emergent a \"Preguntar cada cop\" i fer clic a "
+"\"Acceptar\"."
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
@@ -1837,6 +1887,8 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* El següent programari tallafoc ha interferit amb Tor i s'hauria de "
+"deshabilitar de forma temporal."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1849,6 +1901,9 @@ msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
 "you're using HTTPS. The button will turn green to indicate that HTTPS is on."
 msgstr ""
+"* Faci clic al botó \"HTTPS\" per saber quines dades són visibles als "
+"observador quan s'utilitzi HTTPS. El botó es tornarà verd per indicar que "
+"HTTPS està en marxa."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.description)

@@ -12,9 +12,9 @@ body:
 
 El navegador Tor utilitza la xarxa Tor per protegir l'anonimat i la privacitat. Utilitzant la xarxa Tor existeixen 2 propietats:
 
-* Your internet service provider, and anyone watching your connection locally, will not be able to track your internet activity, including the names and addresses of the websites you visit.
+* El proveïdor d'Internet i qualsevulla persona que observi la connexió local, no podran fer seguiment de la activitat d'Internet, incloent el nom i direcció dels webs que visiti.
 
-* The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
+*  Els administradors de webs i serveis que s'utilitzin, o qualsevol que sigui observant de la connexió, veurà una connexió que prové de la xarxa Tor en lloc de l'adreça (IP) real, i no podrà saber la seva identitat a menys que ho expliciti.
 
 A més, el navegador Tor està dissenyat per prevenir pàgines web amb identificació per empremta digital o identificació mitjançant els paràmetres del navegador.
 

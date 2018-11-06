@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Les connexions sécurisées
 ---
-description: Apprenez comment protéger vos données en utilisant le navigateur Tor et HTTPS
+description: Apprendre comment protéger vos données en utilisant le Navigateur Tor et HTTPS
 ---
 seo_slug: secure-connections
 ---
@@ -13,7 +13,7 @@ Si des informations personnelles telles que des mots de passe de connexion voyag
 
 <img class="col-md-6" src="/static/images/https.png">
 
-La visualisation suivante montre quelles informations sont visibles pour les systèmes d'écoute avec et sans le navigateur Tor et le chiffrement HTTPS :
+La visualisation suivante montre quelles informations sont visibles pour les systèmes d’écoute avec et sans le Navigateur Tor et le chiffrement HTTPS :
 
 <img class="" src="/static/images/tor-and-https.svg">
 
@@ -37,7 +37,7 @@ Site.com
 user / pw
 </dt>
   <dd>
-    Le nom d'utilisateur et le mot de passe utilisés pour l'authentification.
+    Le nom d’utilisateur et le mot de passe utilisés pour l’authentification.
   </dd>
 
 <dt>
@@ -51,7 +51,7 @@ data
 location
 </dt>
   <dd>
-    L'emplacement réseau de l'ordinateur utilisé pour visiter le site Web (l'adresse IP publique).
+    L’emplacement réseau de l’ordinateur utilisé pour visiter le site Web (l’adresse IP publique).
   </dd>
 
 <dt>

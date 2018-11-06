@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Les services oignon
+title: Les services onion
 ---
-description: Les services qui ne sont accessibles qu'en utilisant Tor
+description: Les services qui ne sont accessibles qu’en utilisant Tor
 ---
 seo_slug: services-oignon
 ---
@@ -10,9 +10,9 @@ key: 6
 ---
 body:
 
-Les services oignon (anciennement « services cachés ») sont des services (tels que des sites Web) qui ne sont accessibles que par le réseau Tor.
+Les services onion (anciennement « services cachés ») sont des services (tels que des sites Web) qui ne sont accessibles que par le réseau Tor.
 
-Les services oignon offrent plusieurs avantages par rapport aux services ordinaires du Web non privé :
+Les services onion offrent plusieurs avantages par rapport aux services ordinaires du Web non privé :
 
 * An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
 * All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.

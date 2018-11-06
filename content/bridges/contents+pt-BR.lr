@@ -11,21 +11,21 @@ key: 4
 body:
 Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Outros transportes ligáveis, tal como Meek, utilizam técnicas diferentes de anticensura que não dependem de pontes. Não precisa de obter endereços de ponte para a utilização destes transportes.
+Outros transportadores plugáveis, como "meek", usam outros técnicas anticensura, que não se baseiam em pontes. Você não precisa obter endereços de pontes para usar esses transportadores. 
 
 ##### Getting bridge addresses
 
-Porque os endereços das pontes não são públicos, você irá necessitar de os solicitar você mesmo. Você tem duas opções:
+Como os endereços de pontes não são públicos, você vai precisar solicitá-los. Você tem duas opções: 
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
 ##### Entering bridge addresses
 
-Assim que tiver obtido alguns endereços de ponte, terá de introduzi-los no Tor Launcher.
+Assim que você tiver obtido alguns endereços de pontes, será necessário inseri-los no Tor Launcher
 
-Selecione "Sim" quando perguntado se o seu Provedor de Serviço da Internet bloqueia as ligações para a rede TOR. Selecione "Utilizar pontes personalizadas" e insira cada endereço de ponte numa linha separada.
+Responda "sim" à questão sobre se o seu Provedor de Serviço Internet bloqueia conexões à rede Tor. Selecione "Usar pontes personalizadas" e insira cada endereço de ponte em linhas distintas.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Clique em "Ligar". Se utilizar pontes pode abrandar a ligação em comparação com a utilização de retransmissões Tor normais. Se a ligação falhar, as pontes que recebeu podem estar em baixo. Utilize um dos métodos acima para obter mais endereços de ponte, e tente novamente.
+Clique em "Conectar-se". Ao usar pontes, a sua conexão torna-se mais lenta se comparada com o uso de retransmissores Tor comuns. Se a sua conexão falhar, as pontes recebidas poderão não funcionar. Nesse caso, por favor, use um dos métodos acima para obter mais endereços de pontes e tente de novo.

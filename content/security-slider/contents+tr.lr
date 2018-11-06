@@ -11,13 +11,13 @@ key: 8
 body:
 Tor Browser üzerinde, güvenlik ve anonimliğinizi azaltmak için kullanılabilecek belirli web özelliklerini devre dışı bırakarak güvenliğinizi arttırmanıza sağlayan bir "Güvenlik Kaydırıcısı" bulunur. Tor Browser güvenlik düzeyini arttırmak, bazı web sayfalarının düzgün çalışmasını engeller. Bu nedenle, güvenlik düzeyini, gerek duyduğunuz kullanışlılık derecesine göre seçmelisiniz.
 
-##### Accessing the Security Slider
+##### Güvenlik Kaydırıcısına Erişmek
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 Güvenlik Kaydırıcısı, Torbutton "Güvenlik Ayarları" menüsünde bulunur.
 
-##### Security Levels
+##### Güvenlik Düzeyleri
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ Bu düzeyde, HTML5 görüntü ve ses ortamları NoScript üzerinden tıkla-oynat
 Daha Güvenli
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+Bu düzeyde, HTML5 görüntü ve ses ortamları NoScript üzerinden tıkla-oynat ile kullanılabilir. Tüm JavaScript başarım iyileştirmeleri devre dışı bırakılır. Bazı matematik denklemleri düzgün şekilde görüntülenmeyebilir. Bazı yazı türü görüntüleme özellikleri devre dışı bırakılır. Bazı görsel türleri devre dışı bırakılır. JavaScript, varsayılan olarak <a href="secure-connections">HTTPS</a> olmayan tüm sitelerde devre dışı bırakılır.
 </dd>
 <dt>
 Standart
