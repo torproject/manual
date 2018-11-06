@@ -2,25 +2,25 @@ _model: topic
 ---
 title: Ponts
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: La majoria <a href="transports">Transports connectors</a>, com obfs3 i obfs4, utilitzen els relés de "pont".
 ---
 seo_slug: Ponts
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+La majoria <a href="transports">Transports connectors</a>, com obfs3 i obfs4, utilitzen els relés de "pont". Com el relés estàndard de Tor, els ponts són usuaris voluntaris; a diferència els relés tradicionals, independentment, no estan llistat, d'aquesta manera no poden ser fàcilment identificats. La utilització de ponts en combinació amb els transports connectors ajuden a disfressar la utilització de Tor.
 
 Altres transports connectors, com Meek, utilitzant altres tècniques anit-censura sense ponts. No es precisen l'obtenció de direccions ponts.
 
-##### Getting bridge addresses
+##### Obtenció de direcció pont
 
 Com que les direccions ponts no són públiques, s'hauran de demanar en l'instant. Existeixen dos opcions:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Entering bridge addresses
+##### Entri la direcció pont
 
 Un cop s'hagi obtingut alguna direcció pont, l'haurà d'introduir en el Tor Launcher.
 

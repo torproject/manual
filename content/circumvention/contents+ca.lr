@@ -10,9 +10,9 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor d'Internet o pel govern. El navegador Tor incorpora una serie de programari per evitar-ho. Aquestes eines s'anomenen "connectors de transport". Consulti <a href="transports">connectors de transport</a> per a més informació del tipus de transport disponible.
 
-##### Using pluggable transports
+##### Utilització de connectors de transport
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -26,10 +26,10 @@ Seleccioni "Si" quan sigui preguntat si el seu proveïdor d'Internet bloqueja le
 
 Seleccioni "Connectar amb ponts". El navegador Tor actualment té sis connectors de transport disponibles.
 
-##### Which transport should I use?
+##### Quin tipus de transport vol utilitzar?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Cadascun dels transports llistat en el menú d'iniciador Tor treballa de manera diferent (per més informació, consultar <a href="transports">connectors de transport</a> pàgina) per saber la seva efectivitat depenen de les circumstàncies individuals. 
 
 Si esteu intentant evitar una connexió bloquejada per primera vegada, heu de provar els diferents transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure i Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+* Si priva totes aquestes opcions, i cap resulta amb una connexió vàlida, haurà d'introduir una adreça de pont de forma manual. Llegeixi <a href="bridges">Ponts</a> la secció d'aprenentatge sobre ponts per saber com fer-ho.

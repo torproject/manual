@@ -11,13 +11,13 @@ key: 8
 body:
 El navegador Tor inclou un "control lliscant de seguretat" que permet incrementar la seguretat deshabilitant característiques dels webs que poden ser blanc d'atacs de seguretat i d'anonimat. Incrementant el nivell de seguretat del navegador no es podrà visualitzar parts dels webs, per tant cal pensar quin grau de seguretat es vol tenir ponderat amb la usabilitat que s'aconseguirà.
 
-##### Accessing the Security Slider
+##### Accedint al control lliscant de seguretat
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 El Control deslizador de seguretat es troba al menú "Paràmetres de seguretat" del botó Tor.
 
-##### Security Levels
+##### Nivells de seguretat
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ A aquest nivell, el vídeo de HTML5 i l'àudio esdevindrà reproduïble mitjanç
 Més segur
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+A aquest nivell, el vídeo de HTML5 i l'àudio esdevindrà reproduïble mitjançant un clic via NoScript; els augmentadors de rendiments seran abolits; algunes equacions matemàtiques no es mostraran correctament; alguns renderitzats de tipus de lletra seran deshabilitats; alguns tipus d'imatges; javaScript es mantindrà per defecte sense utilització i en-<a href="secure-connections">HTTPS</a> tots els llocs.
 </dd>
 <dt>
 Estàndard

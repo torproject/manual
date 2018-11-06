@@ -14,7 +14,7 @@ Quan es connecta a un lloc web, no tan sols els administradors del web poden ten
 
 Utilitzant la xarxa Tor es pot aturar l'observació de la localització mitjançant la seva direcció IP, però fins i tot sense aquesta informació poden arribar a enllaçar diferents àrees de la seva activitat. Per aquesta raó, el navegador Tor inclou característiques addicionals que permeten ajudar al control de quina informació pot enllaçar-se a la seva identitat.
 
-##### The URL bar
+##### Barra de URL
 
 El navegador Tor centra la experiència web amb la barra d'URL. Fins i tot si es connecta a dos llocs web diferents que utilitzen el mateix sistema de rastrejament de terceres parts, el navegador Tor forçarà que el contingut viatgi per dos circuits independents, per tant el rastrejador no podrà conèixer la relació entre les dues peticions.
 
@@ -26,7 +26,7 @@ You can see a diagram of the circuit that Tor Browser is using for the current t
 
 In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 
-##### Logging in over Tor
+##### Registre de Tor
 
 Tot i que el navegador Tor està dissenyat per una navegació totalment anònima, poden existir situacions que no faci falta la utilització de Tor, com per exemple pàgines web amb inici de sessió, contrasenyes o necessitat d'autenticació.
 
@@ -37,17 +37,17 @@ Quan iniciï sessió mitjançant el navegador Tor, hi han diverses consideracion
 * Consulti <a href="secure-connections">Connexions segures</a> la pàgina on mostra com augmentar la seguretat en les connexions d'inici de sessió.
 * El navegador Tor tot sovint fa aparèixer la connexió des de una localització diferent. Alguns webs, com els bancs o proveïdors de correu electrònic, poden interpretar com si la connexió fos furonada i per tant fer fora del web. La única manera de resoldre-ho és seguir les recomanacions de la recuperació del compte o contactar al operador i explicar la situació.
 
-##### Changing identities and circuits
+##### Canviant identitats i circuits
 
 <img class="col-md-6" src="/static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 
-###### New Identity
+##### Nova identitat
 
    Aquesta opció pot ser d'ajuda si vol prevenir l'enllaç de l'activitat del navegador amb activitats anteriors. Si es selecciona es tancaran totes les pestanyes i finestres, i es suprimiran totes les galetes i historial de navegació, a més de la utilització de nous circuits Tor per totes les connexions. El navegador Tor advertirà que totes les activitats i descàrregues seran aturades, prengui-ho en consideració abans de fer clic a "Nova identitat".
 
-###### New Tor circuit for this site
+##### Nou circuit Tor per a aquest lloc
 
-   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+   Aquesta opció pot ser d'ajuda si <a href="about-tor-browser#how-tor-works">surt del relé</a> que està utilitzant per la connexió al lloc web que està intentant connectar. Si se selecciona farà que la pestanya o finestra activa s'actualitzi mitjançant un nou circuit Tor. Altres pestanyes i finestres obertes del mateix lloc web utilitzaran un nou circuit Tor al ser actualitzades. Aquesta opció no permet la neteja d'informació privada o desenllaçar la activitat, a més de no afectar connexions a altres lloc web.
    You can also access this option in the new circuit display, in the site information menu, in the URL bar.

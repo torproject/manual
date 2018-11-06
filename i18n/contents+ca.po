@@ -55,7 +55,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dd>"
-msgstr ""
+msgstr "<dd>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.seo_slug)
@@ -157,7 +157,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Known issues"
-msgstr ""
+msgstr "##### Assumptes coneguts"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -227,7 +227,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Tor circuit for this site"
-msgstr ""
+msgstr "##### Nou circuit Tor per a aquest lloc"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -242,14 +242,14 @@ msgstr "Convertir-se en un traductor del projecte Tor"
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
@@ -278,7 +278,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Using pluggable transports"
-msgstr ""
+msgstr "##### Utilització de connectors de transport"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -286,6 +286,10 @@ msgid ""
 "valid for a single session (until Tor Browser is exited or a <a href=\"/"
 "managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"Per defecte, el navegador Tor no desa l'historial de navegació. Les galetes "
+"només són vàlides per la sessió en marxa (fins que el navegador Tor es "
+"tanqui o <a href=\"managing-identities#new-identity\"Nova identitat</a> es "
+"sol·licitada)."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -305,7 +309,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Quick fixes"
-msgstr ""
+msgstr "##### Correccions ràpides"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -317,7 +321,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### Troubleshooting"
-msgstr ""
+msgstr "##### Detecció d'errors"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
@@ -327,7 +331,7 @@ msgstr "Descarregant"
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid "##### Signing up on Transifex"
-msgstr ""
+msgstr "##### Registra't a Transifex"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.description)
@@ -338,12 +342,12 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### Obtenció de direcció pont"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. Suprimir la carpeta del navegador Tor."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
@@ -361,7 +365,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -375,11 +379,11 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### Per utilitzar GetTor per correu electrònic:"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -397,7 +401,7 @@ msgstr "obfs3"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Reproductor Flash"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -444,7 +448,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
-msgstr ""
+msgstr "<dl>"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -511,11 +515,11 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dt>"
-msgstr ""
+msgstr "</dt>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -557,7 +561,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### Està la seva connexió en censura?"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -574,6 +578,12 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"La majoria <a href=\"transports\">Transports connectors</a>, com obfs3 i "
+"obfs4, utilitzen els relés de \"pont\". Com el relés estàndard de Tor, els "
+"ponts són usuaris voluntaris; a diferència els relés tradicionals, "
+"independentment, no estan llistat, d'aquesta manera no poden ser fàcilment "
+"identificats. La utilització de ponts en combinació amb els transports "
+"connectors ajuden a disfressar la utilització de Tor."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -635,6 +645,8 @@ msgid ""
 "* You are now signed up! Go to the <a href=\"https://www.transifex.com/otf/"
 "torproject/\">Tor Transifex page</a>."
 msgstr ""
+"* Ja t'has inscrit! Aneu a la pàgina de <a href=\"https://www.transifex.com/"
+"otf/torproject/\">Tor Transifex</a>."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -695,7 +707,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### Entri la direcció pont"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
@@ -712,7 +724,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### Quin tipus de transport vol utilitzar?"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -767,15 +779,22 @@ msgid ""
 "reloaded. This option does not clear any private information or unlink your "
 "activity, nor does it affect your current connections to other websites."
 msgstr ""
+"Aquesta opció pot ser d'ajuda si <a href=\"about-tor-browser#how-tor-works"
+"\">surt del relé</a> que està utilitzant per la connexió al lloc web que "
+"està intentant connectar. Si se selecciona farà que la pestanya o finestra "
+"activa s'actualitzi mitjançant un nou circuit Tor. Altres pestanyes i "
+"finestres obertes del mateix lloc web utilitzaran un nou circuit Tor al ser "
+"actualitzades. Aquesta opció no permet la neteja d'informació privada o "
+"desenllaçar la activitat, a més de no afectar connexions a altres lloc web."
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Security Levels"
-msgstr ""
+msgstr "##### Nivells de seguretat"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### Complements"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -834,7 +853,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -875,6 +894,12 @@ msgid ""
 "then be taken to the <a href=\"/circumvention\">Circumvention</a> screen to "
 "configure a pluggable transport."
 msgstr ""
+"La primera pantalla pregunta si l'accés a la xarxa Tor està bloquejada o "
+"censurada. Si creu que no és el cas, seleccioni \"No\". Si creu que la seva "
+"connexió està censurada, o ha fet un intent fallit de connexió a la xarxa "
+"Tor i cap solució ha funcionat, seleccioni \"Si\". Posteriorment serà "
+"derivat a <a href=\"elusió\">Circumvention</a> a la pantalla de paràmetres "
+"dels connectors de transport."
 
 #: http://localhost/updating/
 #: (content/updating/contents+en.lr:topic.description)
@@ -954,7 +979,7 @@ msgstr "Desinstal·lant"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.seo_slug)
@@ -964,7 +989,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### Registre de Tor"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1044,13 +1069,18 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor "
+"d'Internet o pel govern. El navegador Tor incorpora una serie de programari "
+"per evitar-ho. Aquestes eines s'anomenen \"connectors de transport\". "
+"Consulti <a href=\"transports\">connectors de transport</a> per a més "
+"informació del tipus de transport disponible."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dd>"
-msgstr ""
+msgstr "</dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1067,7 +1097,7 @@ msgstr "Què fer si el navegador Tor no funciona"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Changing identities and circuits"
-msgstr ""
+msgstr "##### Canviant identitats i circuits"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
@@ -1098,7 +1128,7 @@ msgstr "Detecció d'errors"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Identity"
-msgstr ""
+msgstr "##### Nova identitat"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1113,6 +1143,10 @@ msgid ""
 "Transifex page</a> when you are ready to begin. Thanks for your interest in "
 "helping the project!"
 msgstr ""
+"Un cop aprovada la vostra membresia, podeu començar a traduir; simplement, "
+"torneu a la <a href=\"https://www.transifex.com/otf/torproject/\">pàgina Tor "
+"Transifex</a> quan estigueu a punt per començar. Gràcies pel vostre interès "
+"per ajudar el projecte!"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1121,18 +1155,22 @@ msgid ""
 "way (for more details, see the <a href=\"/transports\">Pluggable Transports</"
 "a> page), and their effectiveness depends on your individual circumstances."
 msgstr ""
+"Cadascun dels transports llistat en el menú d'iniciador Tor treballa de "
+"manera diferent (per més informació, consultar <a href=\"transports"
+"\">connectors de transport</a> pàgina) per saber la seva efectivitat depenen "
+"de les circumstàncies individuals. "
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### Per utilitzar GetTor mitjançant Twitter: "
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
-msgstr ""
+msgstr "</dl>"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.title)
@@ -1147,7 +1185,7 @@ msgstr "Administrador d'identitats"
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Accessing the Security Slider"
-msgstr ""
+msgstr "##### Accedint al control lliscant de seguretat"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1185,12 +1223,12 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### Com accedir a un servei ceba"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1284,11 +1322,11 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. Buidar la paperera"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### Tipus de connectors de transport"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1394,12 +1432,12 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### Barra de URL"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### Dades potencialment visibles"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "meek"
@@ -1415,6 +1453,12 @@ msgid ""
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
 "sites."
 msgstr ""
+"A aquest nivell, el vídeo de HTML5 i l'àudio esdevindrà reproduïble "
+"mitjançant un clic via NoScript; els augmentadors de rendiments seran "
+"abolits; algunes equacions matemàtiques no es mostraran correctament; alguns "
+"renderitzats de tipus de lletra seran deshabilitats; alguns tipus d'imatges; "
+"javaScript es mantindrà per defecte sense utilització i en-<a href=\"secure-"
+"connections\">HTTPS</a> tots els llocs."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1473,6 +1517,10 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Ubica la carpeta del navegador Tor. La localització per defecte a Windows "
+"és en el escriptori; en OSX és en la carpeta d'aplicacions. A Linux, no hi "
+"ha una localització prefixada, de manera que la carpeta serà anomenada \"tor-"
+"browser_en-US\" si s'utilitza la versió anglesa."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1501,7 +1549,7 @@ msgstr "* Deshabiliti de forma temporal el tallafoc."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.title)
@@ -1555,7 +1603,7 @@ msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### Com funciona Tor"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1585,6 +1633,10 @@ msgid ""
 "need to enter bridge addresses manually. Read the <a href=\"/bridges/"
 "\">Bridges</a> section to learn what bridges are and how to obtain them."
 msgstr ""
+"* Si priva totes aquestes opcions, i cap resulta amb una connexió vàlida, "
+"haurà d'introduir una adreça de pont de forma manual. Llegeixi <a href="
+"\"bridges\">Ponts</a> la secció d'aprenentatge sobre ponts per saber com fer-"
+"ho."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1598,10 +1650,12 @@ msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays."
 msgstr ""
+"La majoria <a href=\"transports\">Transports connectors</a>, com obfs3 i "
+"obfs4, utilitzen els relés de \"pont\"."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1610,6 +1664,10 @@ msgid ""
 "censoring connections to the Tor network. Read the <a href=\"/circumvention"
 "\">Circumvention</a> section for possible solutions."
 msgstr ""
+"Si continua sense poder connectar-se, el seu proveïdor d'Internet "
+"probablement està censurant les connexions a la xarxa Tor. Per a més "
+"informació <a href=\"eludir\">Circumvention</a> per trobar possibles "
+"solucions."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1639,7 +1697,7 @@ msgstr "Com podem ajudar?"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "Scramblesuit"
@@ -1733,6 +1791,7 @@ msgstr ""
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):"
 msgstr ""
+"##### Per utilitzar GetTor a través de Jabber/XMPP (Jitsi, CoyIM, etc.):"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1802,7 +1861,7 @@ msgstr "Que fer si la xarxa Tor està bloquejada"
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### Configura"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1820,7 +1879,7 @@ msgstr ""
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.description)
@@ -1854,6 +1913,9 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting "
 "over HTTPS</a>."
 msgstr ""
+"* Tot el tràfic entre els usuaris Tor i els serveis ceba és amb encriptació "
+"punt-a-punt, per tant no cal patir <a href=\"secure-connections\">de la "
+"connexió mitjançant HTTPS</a>."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1865,6 +1927,12 @@ msgid ""
 "href=\"/troubleshooting\">Troubleshooting</a> page for help solving the "
 "problem."
 msgstr ""
+"En molts casos, escollint \"Connectat\" permetrà la connexió a la xarxa Tor "
+"sense més configuració. Un cop fet clic, la barra d'estat apareixerà, "
+"mostrat la progressió de la connexió Tor. La progressió dependrà de la "
+"velocitat de connexió, si experimentà algun problema, consulti <a href="
+"\"troubleshooting\">Resolució de problemes</a> la pàgina per tronar una "
+"solució."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1884,7 +1952,7 @@ msgstr ""
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### Conecta't"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)

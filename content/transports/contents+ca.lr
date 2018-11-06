@@ -11,7 +11,7 @@ key: 4
 body:
 Els connectors de transport són eines que Tor utilitza per disfressar el tràfic que envia al exterior. Això pot ser d'utilitat en situacions com quan els proveïdors d'Internet o altres autoritat bloquegen les connexions a la xarxa Tor.
 
-##### Types of pluggable transport
+##### Tipus de connectors de transport
 
 Actualment hi han sis connectors de transports per utilitzar, però n'hi ha més en desenvolupament.
 

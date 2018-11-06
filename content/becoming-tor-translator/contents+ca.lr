@@ -12,7 +12,7 @@ body:
 
 Si esteu interessat a ajudar el projecte traduint el manual o el navegador Tor al vostre idioma, la vostra ajuda seria molt apreciada. Per començar a contribuir, hauràs d'inscriure't amb Transifex, un tercer que facilita les nostres traduccions. A continuació es mostra un resum de com inscriure's i començar.
 
-##### Signing up on Transifex
+##### Registra't a Transifex
 
 * Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>. Enter your information into the fields and click the 'Sign Up' button:
 
@@ -24,7 +24,7 @@ Si esteu interessat a ajudar el projecte traduint el manual o el navegador Tor a
 
 A la pàgina següent, seleccioneu "Uniu-vos a un projecte existent" i continueu.
 A la pàgina següent, seleccioneu els idiomes que parleu al menú desplegable i continueu.
-* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
+* Ja t'has inscrit! Aneu a la pàgina de <a href="https://www.transifex.com/otf/torproject/">Tor Transifex</a>.
 * Feu clic al botó blau "Uneix-te a l'equip" a l'extrem dret:
 
 <img class="col-md-6" src="/static/images/tr3.png">
@@ -37,4 +37,4 @@ Seleccioneu l'idioma que voleu traduir al menú desplegable:
 
 <img class="col-md-6" src="/static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!
+Un cop aprovada la vostra membresia, podeu començar a traduir; simplement, torneu a la <a href="https://www.transifex.com/otf/torproject/">pàgina Tor Transifex</a> quan estigueu a punt per començar. Gràcies pel vostre interès per ajudar el projecte!

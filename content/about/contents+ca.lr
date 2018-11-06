@@ -18,9 +18,9 @@ El navegador Tor utilitza la xarxa Tor per protegir l'anonimat i la privacitat. 
 
 A més, el navegador Tor està dissenyat per prevenir pàgines web amb identificació per empremta digital o identificació mitjançant els paràmetres del navegador.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
+Per defecte, el navegador Tor no desa l'historial de navegació. Les galetes només són vàlides per la sessió en marxa (fins que el navegador Tor es tanqui o <a href="managing-identities#new-identity"Nova identitat</a> es sol·licitada).
 
-##### How Tor works
+##### Com funciona Tor
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
 
