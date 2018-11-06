@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:05+0100\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -322,7 +322,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
 msgid "downloading"
-msgstr ""
+msgstr "İndirme"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -730,7 +730,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.seo_slug)
 msgid "bridges"
-msgstr ""
+msgstr "Köprüler"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "* Visit https://bridges.torproject.org/ and follow the instructions, or"
@@ -749,7 +749,7 @@ msgstr ""
 #: (content/known-issues/contents+en.lr:topic.title)
 #: (content/known-issues/contents+en.lr:topic.description)
 msgid "Known issues"
-msgstr ""
+msgstr "Bilinen Sorunlar"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -892,7 +892,7 @@ msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.seo_slug)
 msgid "updating"
-msgstr ""
+msgstr "Güncelleme"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -933,7 +933,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.title)
 msgid "Pluggable transports"
-msgstr ""
+msgstr "Takılabilir Aktarımlar"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.title)
@@ -1074,7 +1074,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.seo_slug)
 msgid "troubleshooting"
-msgstr ""
+msgstr "Sorun çözme"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1291,7 +1291,7 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.seo_slug)
 msgid "uninstalling"
-msgstr ""
+msgstr "Kaldırma"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1781,7 +1781,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.seo_slug)
 msgid "circumvention"
-msgstr ""
+msgstr "Engellemeyi aşma"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)

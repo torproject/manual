@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 15:46+0100\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -167,6 +168,10 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
+"টর ভার্চুয়াল টানেলগুলির একটি নেটওয়ার্ক যা আপনাকে ইন্টারনেটে আপনার গোপনীয়তা"
+" ও নিরাপত্তা উন্নত করতে সহায়তা করে। টর টর নেটওয়ার্কে তিনটি র্যান্ডম সার্ভা"
+"র (রিলে নামেও পরিচিত) এর মাধ্যমে আপনার ট্র্যাফিক পাঠিয়ে কাজ করে। সার্কিটের "
+"সর্বশেষ রিলে (\"প্রস্থান রিলে\") তারপর পাবলিক ইন্টারনেটে ট্র্যাফিক পাঠায়।"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -316,7 +321,7 @@ msgstr "##### সমস্যা সমাধান"
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
 msgid "downloading"
-msgstr ""
+msgstr "ডাউনলোড হচ্ছে"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -899,7 +904,7 @@ msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.seo_slug)
 msgid "updating"
-msgstr ""
+msgstr "আপডেট করা হচ্ছে"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1088,7 +1093,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.seo_slug)
 msgid "troubleshooting"
-msgstr ""
+msgstr "সমস্যা সমাধান"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1311,7 +1316,7 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.seo_slug)
 msgid "uninstalling"
-msgstr ""
+msgstr "আনইনস্টল হচ্ছে"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1818,7 +1823,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.seo_slug)
 msgid "circumvention"
-msgstr ""
+msgstr "প্রতারণা"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)

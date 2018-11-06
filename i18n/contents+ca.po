@@ -3,19 +3,20 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:04+0100\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
 msgid "Configuring Tor Browser for security and usability"
-msgstr "Configurant el navegador Tor per seguretat i usabilitat."
+msgstr "Configurant el navegador Tor per seguretat i usabilitat"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -319,7 +320,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
 msgid "downloading"
-msgstr ""
+msgstr "Descarregant"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -381,7 +382,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "Safer"
-msgstr "Més segur."
+msgstr "Més segur"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.seo_slug)
@@ -421,7 +422,7 @@ msgstr "obfs4"
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.title)
 msgid "Running Tor Browser for the first time"
-msgstr "Executant per primer cop el navegador Tor."
+msgstr "Executant per primer cop el navegador Tor"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -726,7 +727,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.seo_slug)
 msgid "bridges"
-msgstr ""
+msgstr "Ponts"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "* Visit https://bridges.torproject.org/ and follow the instructions, or"
@@ -745,7 +746,7 @@ msgstr ""
 #: (content/known-issues/contents+en.lr:topic.title)
 #: (content/known-issues/contents+en.lr:topic.description)
 msgid "Known issues"
-msgstr ""
+msgstr "Assumptes coneguts"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -888,7 +889,7 @@ msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.seo_slug)
 msgid "updating"
-msgstr ""
+msgstr "Actualitzant"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -925,11 +926,11 @@ msgstr ""
 "JavaScript és un llenguatge de programació que els webs utilitzen per "
 "augmentar els ginys interactius, com els vídeos, animacions, àudio i estats "
 "de cronologies. Malauradament, JavaScript és vulnerables a atacs de "
-"seguretats, que poden causar la descoberta de l'anonimat. "
+"seguretats, que poden causar la descoberta de l'anonimat."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.title)
 msgid "Pluggable transports"
-msgstr ""
+msgstr "Transports integrables"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.title)
@@ -1010,7 +1011,7 @@ msgstr ""
 msgid "Learn how to control personally-identifying information in Tor Browser"
 msgstr ""
 "Aprengui com controlar la informació d'identificació personal al navegador "
-"Tor."
+"Tor"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1072,7 +1073,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.seo_slug)
 msgid "troubleshooting"
-msgstr ""
+msgstr "Detecció d'errors"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1292,7 +1293,7 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.seo_slug)
 msgid "uninstalling"
-msgstr ""
+msgstr "Desinstal·lant"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1313,7 +1314,7 @@ msgstr ""
 "llenguatges descarregats s'obrirà. Cerqui la entrada pel navegador Tor sota "
 "el nom del sistema operatiu. Seleccioni \"A\" o \"B\" després del nom o del "
 "programa - cadascun representa diferents fonts d'on obtindre el programari, "
-"posteriorment la descàrrega començarà. "
+"posteriorment la descàrrega començarà."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1606,9 +1607,8 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
-"Consulti <link xref=\"secure-connections\">Connexions segures</link> la "
-"pàgina on mostra com augmentar la seguretat en les connexions d'inici de "
-"sessió."
+"* Consulti <a href=\"secure-connections\">Connexions segures</a> la pàgina "
+"on mostra com augmentar la seguretat en les connexions d'inici de sessió."
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.description)
@@ -1616,6 +1616,8 @@ msgid ""
 "Pluggable transports are tools that Tor can use to disguise the traffic it "
 "sends out."
 msgstr ""
+"Els connectors de transport són eines que Tor utilitza per disfressar el "
+"tràfic que envia al exterior."
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1702,7 +1704,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.description)
 msgid "How to download Tor Browser"
-msgstr "Com descarregar el navegador Tor."
+msgstr "Com descarregar el navegador Tor"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1768,7 +1770,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.description)
 msgid "Services that are only accessible using Tor"
-msgstr "Serveis que només són accessibles utilitzant Tor."
+msgstr "Serveis que només són accessibles utilitzant Tor"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.title)
@@ -1783,7 +1785,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.seo_slug)
 msgid "circumvention"
-msgstr ""
+msgstr "Elusió"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1851,7 +1853,7 @@ msgstr ""
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.description)
 msgid "Learn how to use Tor Browser for the first time"
-msgstr "Aprengui com utilitzar per primer cop el navegador Tor."
+msgstr "Aprengui com utilitzar per primer cop el navegador Tor"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
