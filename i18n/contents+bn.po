@@ -168,10 +168,10 @@ msgid ""
 "relay in the circuit (the “exit relay”) then sends the traffic out onto the "
 "public Internet."
 msgstr ""
-"টর ভার্চুয়াল টানেলগুলির একটি নেটওয়ার্ক যা আপনাকে ইন্টারনেটে আপনার গোপনীয়তা"
-" ও নিরাপত্তা উন্নত করতে সহায়তা করে। টর টর নেটওয়ার্কে তিনটি র্যান্ডম সার্ভা"
-"র (রিলে নামেও পরিচিত) এর মাধ্যমে আপনার ট্র্যাফিক পাঠিয়ে কাজ করে। সার্কিটের "
-"সর্বশেষ রিলে (\"প্রস্থান রিলে\") তারপর পাবলিক ইন্টারনেটে ট্র্যাফিক পাঠায়।"
+"টর ভার্চুয়াল টানেলগুলির একটি নেটওয়ার্ক যা আপনাকে ইন্টারনেটে আপনার গোপনীয়তা ও "
+"নিরাপত্তা উন্নত করতে সহায়তা করে। টর টর নেটওয়ার্কে তিনটি র্যান্ডম সার্ভার (রিলে "
+"নামেও পরিচিত) এর মাধ্যমে আপনার ট্র্যাফিক পাঠিয়ে কাজ করে। সার্কিটের সর্বশেষ রিলে "
+"(\"প্রস্থান রিলে\") তারপর পাবলিক ইন্টারনেটে ট্র্যাফিক পাঠায়।"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -601,20 +601,6 @@ msgid ""
 "need to try downloading again, or from a different source."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -770,6 +756,18 @@ msgid ""
 msgstr ""
 "নীচের ভিজ্যুয়ালাইজেশানটি দেখায় যে টর ব্রাউজার এবং HTTPS এনক্রিপশনের সাথে এবং "
 "ছাড়া ছাড়া কী eavesdroppers দেখতে হয়:"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1503,6 +1501,13 @@ msgstr "<table>"
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
 msgstr "ওনিওন সেবা"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)

@@ -205,8 +205,8 @@ msgid ""
 "follow the account)."
 msgstr ""
 "Para obter links para fazer download do Navegador Tor em Inglês para OS X, "
-"envie uma Mensagem Direta para @get_tor contendo as palavras \"osx en\" ("
-"você não precisa seguir essa conta)."
+"envie uma Mensagem Direta para @get_tor contendo as palavras \"osx en"
+"\" (você não precisa seguir essa conta)."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -596,20 +596,6 @@ msgid ""
 "need to try downloading again, or from a different source."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -764,6 +750,18 @@ msgid ""
 msgstr ""
 "A seguinte visualização mostra quais tipos de informações são visíveis para "
 "espiões com e sem o Navegador Tor e a criptografia HTTPS."
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1199,8 +1197,8 @@ msgid ""
 "message to gettor@torproject.org with the words \"linux zh\" in it."
 msgstr ""
 "Para obter links para fazer download do Navegador Tor em Chinês para o "
-"Linux, envie uma mensagem para gettor@torproject.org contendo as palavras \""
-"linux zh\"."
+"Linux, envie uma mensagem para gettor@torproject.org contendo as palavras "
+"\"linux zh\"."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1225,8 +1223,8 @@ msgid ""
 msgstr ""
 "Como qualquer outro website, você precisará saber o endereço do serviço "
 "onion para se conectar a ele. Um endereço onion é uma sequência de 16 (e no "
-"formato V3, 56) letras e números na maioria aleatórios, seguidos por \"."
-"onion\"."
+"formato V3, 56) letras e números na maioria aleatórios, seguidos por \".onion"
+"\"."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1478,6 +1476,13 @@ msgstr ""
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
 msgstr "Serviços Onion"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)

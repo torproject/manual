@@ -49,4 +49,5 @@ Tor Browser features “New Identity” and “New Tor Circuit for this Site” 
 
 ##### Νέο κύκλωμα Tor για αυτήν την ιστοσελίδα
 
-   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites. You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+   You can also access this option in the new circuit display, in the site information menu, in the URL bar.

@@ -612,20 +612,6 @@ msgid ""
 "need to try downloading again, or from a different source."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -785,6 +771,18 @@ msgid ""
 msgstr ""
 "Следующая визуализация показывает, какие сведения видны для прослушивания "
 "без Tor Browser и HTTPS-шифрования:"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1061,6 +1059,12 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"Прямой доступ к сети Tor иногда может блокироваться вашим интернет-"
+"провайдером или правительством. Tor Browser включает некоторые инструменты "
+"обхода, чтобы обойти эти блокировки. Эти инструменты называются "
+"подключаемыми транспортами<a href=\"transports\"> - «Pluggable Transports».</"
+"a> Дополнительную информацию о типах транспорта, доступных в настоящее "
+"время, смотрите на странице Pluggable Transports."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1536,6 +1540,13 @@ msgstr "<table>"
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
 msgstr "Onion сервисы"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)

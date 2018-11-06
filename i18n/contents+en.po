@@ -508,20 +508,6 @@ msgid ""
 "need to try downloading again, or from a different source."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -655,6 +641,18 @@ msgstr ""
 msgid ""
 "The following visualization shows what information is visible to "
 "eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
 msgstr ""
 
 #: http://localhost/security-slider/
@@ -1285,6 +1283,13 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
 msgstr ""
 
 #: http://localhost/circumvention/

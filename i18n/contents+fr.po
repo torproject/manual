@@ -607,20 +607,6 @@ msgid ""
 "need to try downloading again, or from a different source."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -714,8 +700,8 @@ msgid ""
 "Network location of the computer used to visit the website (the public IP "
 "address)."
 msgstr ""
-"L’emplacement réseau de l’ordinateur utilisé pour visiter le site Web (l’"
-"adresse IP publique)."
+"L’emplacement réseau de l’ordinateur utilisé pour visiter le site Web "
+"(l’adresse IP publique)."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
@@ -782,6 +768,18 @@ msgid ""
 msgstr ""
 "La visualisation suivante montre quelles informations sont visibles pour les "
 "systèmes d’écoute avec et sans le Navigateur Tor et le chiffrement HTTPS :"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1235,8 +1233,8 @@ msgid ""
 "Satori’s menu and click “Select Files”."
 msgstr ""
 "Attendez la fin du téléchargement, puis cherchez la section « Générer le "
-"hachage » dans le menu de Satori et cliquez sur « Sélectionner les fichiers "
-"»."
+"hachage » dans le menu de Satori et cliquez sur « Sélectionner les "
+"fichiers »."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1339,8 +1337,8 @@ msgid ""
 msgstr ""
 "Une fois Satori ouverte, cliquez sur votre langue préférée. Un menu "
 "apparaîtra avec la liste des téléchargements proposés pour cette langue. "
-"Trouvez l’entrée pour le Navigateur Tor sous le nom de votre système d’"
-"exploitation. Choisissez soit « A » soit « B » après le nom du programme, "
+"Trouvez l’entrée pour le Navigateur Tor sous le nom de votre système "
+"d’exploitation. Choisissez soit « A » soit « B » après le nom du programme, "
 "chacun représentant une source différente à partir de laquelle obtenir le "
 "logiciel. Votre téléchargement commencera alors."
 
@@ -1438,10 +1436,10 @@ msgid ""
 "there may be situations in which it makes sense to use Tor with websites "
 "that require usernames, passwords, or other identifying information."
 msgstr ""
-"Bien que le Navigateur Tor est conçu pour permettre l’anonymat absolu de l’"
-"utilisateur sur le Web, certaines situations pourraient justifier d’utiliser "
-"Tor avec des sites Web qui exigent des noms d’utilisateur, des mots de passe "
-"ou d’autres informations permettant de vous identifier."
+"Bien que le Navigateur Tor est conçu pour permettre l’anonymat absolu de "
+"l’utilisateur sur le Web, certaines situations pourraient justifier "
+"d’utiliser Tor avec des sites Web qui exigent des noms d’utilisateur, des "
+"mots de passe ou d’autres informations permettant de vous identifier."
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1503,6 +1501,13 @@ msgstr ""
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
 msgstr "Les services onion"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)

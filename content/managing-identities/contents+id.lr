@@ -12,7 +12,7 @@ body:
 
 Saat kamu terkoneksi ke sebuah situs, bukan hanya operator situs tersebut yang bisa merekam informasi mengenai kunjungan anda. Kebanyakan situs saat ini menggunakan banyak sekali layanan pihak ketiga, termasuk tombol "Like" pada sosial media, analisis pelacak, dan suar iklan, yang semuanya bisa mengkaitkan aktivitasmu di situs yang berbeda.
 
-Menggunakan jaringan Tor,  dapat menghentikan pengamat menemukan lokasi dan alamat IP anda yang sebenarnya, namun jika walaupun tanpa informasi tersebut  pengamat masih mungkin  dapat menghubungkan  lokasi aktifitas anda yang berbeda beda secara keseluruhan. Untuk tujuan ini, Tor Browser menyertakan beberapa fitur tambahan yang akan membantu anda mengkontrol informasi apa yang akan disertakan pada identitas anda. 
+Menggunakan jaringan Tor,  dapat menghentikan pengamat menemukan lokasi dan alamat IP anda yang sebenarnya, namun jika walaupun tanpa informasi tersebut  pengamat masih mungkin  dapat menghubungkan  lokasi aktifitas anda yang berbeda beda secara keseluruhan. Untuk tujuan ini, Tor Browser menyertakan beberapa fitur tambahan yang akan membantu anda mengkontrol informasi apa yang akan disertakan pada identitas anda.
 
 ##### The URL bar
 
@@ -49,4 +49,5 @@ Tor Browser features “New Identity” and “New Tor Circuit for this Site” 
 
 ###### New Tor circuit for this site
 
-   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites. You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+   You can also access this option in the new circuit display, in the site information menu, in the URL bar.

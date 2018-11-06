@@ -9,7 +9,7 @@ seo_slug: security-slider
 key: 8
 ---
 body:
-Il browser Tor include una "Tab di Sicurezza" che permette di  disabilitare alcune caratteristiche web che potrebbero essere utilizzate per attaccare la vostra sicurezza e anonimato. Aumentando il livello di sicurezza del browser Tor alcune pagine potrebbero non funzionare correttamente; per questo motivo dovrete scegliere tra il vostro bisogno di sicurezza e l'usabilità della pagina di cui avete bisogno
+Il browser Tor include una "Tab di Sicurezza" che permette di  disabilitare alcune caratteristiche web che potrebbero essere utilizzate per attaccare la vostra sicurezza e anonimato. Aumentando il livello di sicurezza del browser Tor alcune pagine potrebbero non funzionare correttamente; per questo motivo dovrete scegliere tra il vostro bisogno di sicurezza e l'usabilità della pagina di cui avete bisogno.
 
 ##### Accessing the Security Slider
 
@@ -21,7 +21,7 @@ Il livello di sicurezza si trova nelle "Impostazioni di sicurezza" del pulsante 
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
-Aumentendo il livello della Tab di sicurezza disabiliterà totalmente o parzialmente alcune caratteristiche del browser  per proteggervi contro possibili attacchi
+Aumentendo il livello della Tab di sicurezza disabiliterà totalmente o parzialmente alcune caratteristiche del browser  per proteggervi contro possibili attacchi.
 
 <dl>
 <dt>
@@ -40,6 +40,6 @@ At this level, HTML5 video and audio media become click-to-play via NoScript; al
 Standard
 </dt>
 <dd>
-A questo livello tutte le caratteristiche del browser sono attivate. Questa è l'opzione piu' comune
+A questo livello tutte le caratteristiche del browser sono attivate. Questa è l'opzione piu' comune.
 </dd>
 </dl>

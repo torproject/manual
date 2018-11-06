@@ -11,7 +11,7 @@ key: 4
 body:
 Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Altri pluggable transport, come meek, usano differenti sistemi anti censura che non fanno affidamento su ponti. Non avrete bisogno di utilizzare indirizzi di ponti per utilizzare questi pluggable transports
+Altri pluggable transport, come meek, usano differenti sistemi anti censura che non fanno affidamento su ponti. Non avrete bisogno di utilizzare indirizzi di ponti per utilizzare questi pluggable transports.
 
 ##### Getting bridge addresses
 

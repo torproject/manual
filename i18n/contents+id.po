@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 16:21+0000\n"
+"PO-Revision-Date: 2018-11-06 18:51+0000\n"
 "Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: id\n"
@@ -16,7 +16,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
 msgid "Configuring Tor Browser for security and usability"
-msgstr "Mengkonfigurasi Tor Browser untuk keamanan dan kegunaan."
+msgstr "Mengkonfigurasi Tor Browser untuk keamanan dan kegunaan"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -97,7 +97,7 @@ msgid ""
 msgstr ""
 "Satori adalah  sebuah tambahan untuk  peramban chrome atau chromium yang "
 "mengijinkan anda mengunduh beberapa program keamanan dan privasi dari  "
-"sumber yang berbeda"
+"sumber yang berbeda."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -131,7 +131,7 @@ msgid ""
 "Note that your operating system’s standard “Uninstall” utility is not used."
 msgstr ""
 "Perhatikan operating sistem anda standard \"Uninstall\" utilitas tidak "
-"digunakan"
+"digunakan."
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -190,7 +190,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "To download Tor Browser using Satori:"
-msgstr "Gunakan Satori untuk menguduh Tor Browser"
+msgstr "Gunakan Satori untuk menguduh Tor Browser:"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -201,7 +201,7 @@ msgid ""
 msgstr ""
 "Untuk mendapatkan tautan guna mengunduh Tor browser dalam bahasa Inggris "
 "pada OS X, kirimlah email langsung ke @get_tor dengan subjek  \"osx en"
-"\"  (anda tidak perlu mengikuti akun tersebut)"
+"\"  (anda tidak perlu mengikuti akun tersebut)."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -299,7 +299,7 @@ msgstr ""
 "tersebut  pengamat masih mungkin  dapat menghubungkan  lokasi aktifitas anda "
 "yang berbeda beda secara keseluruhan. Untuk tujuan ini, Tor Browser "
 "menyertakan beberapa fitur tambahan yang akan membantu anda mengkontrol "
-"informasi apa yang akan disertakan pada identitas anda. "
+"informasi apa yang akan disertakan pada identitas anda."
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -481,7 +481,7 @@ msgstr ""
 "anda harus memastikan apakah situs tersebut menawarkan enkripsi HTTPS, yang "
 "melindungi anda dari penyadapan seperti ini. Anda bisa memverifikasi ini di "
 "kolom URL: Bila koneksi anda terenkripsi, alamat situs tersebut diawali "
-"dengan \"https://, bukan \"http://\""
+"dengan \"https://, bukan \"http://\"."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -527,7 +527,7 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.description)
 msgid "How to remove Tor Browser from your system"
-msgstr "Cara mencopot Tor Browser dari sistem Anda."
+msgstr "Cara mencopot Tor Browser dari sistem Anda"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -588,20 +588,6 @@ msgid ""
 "successful, and you can <a href=\"https://tb-manual.torproject.org/en-US/"
 "first-time.html\">begin using Tor Browser</a>. If they do not match, you may "
 "need to try downloading again, or from a different source."
-msgstr ""
-
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
 msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
@@ -758,6 +744,18 @@ msgid ""
 msgstr ""
 "Visualisasi berikut ini menunjukkan informasi apa yang bisa dilihat oleh "
 "penyusup dengan atau tanpa Tor Browser dan enskripsi HTTPS:"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1463,6 +1461,13 @@ msgstr ""
 #: (content/onion-services/contents+en.lr:topic.title)
 msgid "Onion Services"
 msgstr "Layanan Onion"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)

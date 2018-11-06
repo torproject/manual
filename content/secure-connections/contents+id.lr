@@ -9,7 +9,7 @@ seo_slug: secure-connections
 key: 7
 ---
 body:
-Bila informasi personal seperti kata sandi dikirimkan ke internet tanpa enkripsi bisa dengan mudah disadap. Bila anda masuk ke sebuah situs web, anda harus memastikan apakah situs tersebut menawarkan enkripsi HTTPS, yang melindungi anda dari penyadapan seperti ini. Anda bisa memverifikasi ini di kolom URL: Bila koneksi anda terenkripsi, alamat situs tersebut diawali dengan "https://, bukan "http://"
+Bila informasi personal seperti kata sandi dikirimkan ke internet tanpa enkripsi bisa dengan mudah disadap. Bila anda masuk ke sebuah situs web, anda harus memastikan apakah situs tersebut menawarkan enkripsi HTTPS, yang melindungi anda dari penyadapan seperti ini. Anda bisa memverifikasi ini di kolom URL: Bila koneksi anda terenkripsi, alamat situs tersebut diawali dengan "https://, bukan "http://".
 
 <img class="col-md-6" src="/static/images/https.png">
 

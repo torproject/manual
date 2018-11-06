@@ -13,7 +13,7 @@ body:
 
 I siti Web di video, come Vimeo, utilizzano il plug-in di Flash Player per visualizzare i contenuti video. Sfortunatamente, questo software funziona indipendentemente dal Browser Tor e potrebbe non rispettare la configurazione del proxy del Browser. Per questo motivo può rivelare la Vostra posizione reale e l'indirizzo IP agli operatori del sito web o ad un osservatore esterno. Per ovviare a ciò Flash è disabilitato di default nel Browser Tor e l'attivazione non è consigliata.
 
-Alcuni siti web ( ad esempio Youtube) offrono alternative per la visualizzazione dei video che non utilizzano Flash. Questi metodi potrebbero essere compatibili col browser Tor
+Alcuni siti web ( ad esempio Youtube) offrono alternative per la visualizzazione dei video che non utilizzano Flash. Questi metodi potrebbero essere compatibili col browser Tor.
 
 ##### JavaScript
 
@@ -23,6 +23,6 @@ Tor Browser includes an add-on called NoScript, accessible through the “S” i
 
 ##### Browser Add-ons
 
-Il browser Tor è basato su Firefox, questo permette di utilizzare add-ons e temi compatibili con Firefox anche nel browser Tor
+Il browser Tor è basato su Firefox, questo permette di utilizzare add-ons e temi compatibili con Firefox anche nel browser Tor.
 
 Tuttavia, gli unici componenti aggiuntivi che sono stati testati per l'utilizzo con il browser Tor sono quelli inclusi di default. L'installazione di qualsiasi altro componente aggiuntivo del browser Tor potrebbe interrompere la funzionalità dello stesso o causare problemi più seri che influiscono sulla privacy e sulla sicurezza. È fortemente sconsigliato installare ulteriori componenti aggiuntivi; Tor Project non offrirà supporto per queste configurazioni.

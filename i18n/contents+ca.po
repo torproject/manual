@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-06 14:16+CET\n"
-"PO-Revision-Date: 2018-11-06 18:27+0100\n"
-"Last-Translator: emmapeel <emma.peel@riseup.net>\n"
+"PO-Revision-Date: 2018-11-06 18:51+0000\n"
+"Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Weblate 3.2.2\n"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.description)
@@ -599,20 +599,6 @@ msgid ""
 "need to try downloading again, or from a different source."
 msgstr ""
 
-#: http://localhost/managing-identities/
-#: (content/managing-identities/contents+en.lr:topic.body)
-msgid ""
-"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
-"a> you are using is unable to connect to the website you require, or is not "
-"loading it properly. Selecting it will cause the currently-active tab or "
-"window to be reloaded over a new Tor circuit. Other open tabs and windows "
-"from the same website will use the new circuit as well once they are "
-"reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites. You "
-"can also access this option in the new circuit display, in the site "
-"information menu, in the URL bar."
-msgstr ""
-
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Once you have obtained some bridge addresses, you will need to enter them "
@@ -769,6 +755,18 @@ msgid ""
 msgstr ""
 "La següent imatge mostra quina informació és visible a ulls del interceptors "
 "de dades sense el navegador Tor i una encriptació sota HTTPS:"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"from the same website will use the new circuit as well once they are "
+"reloaded. This option does not clear any private information or unlink your "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1510,6 +1508,13 @@ msgstr ""
 msgid "Onion Services"
 msgstr "Serveis Ceba"
 
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
+
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
@@ -1781,7 +1786,7 @@ msgstr ""
 "Els connectors de transport són eines que Tor utilitza per disfressar el "
 "tràfic que envia al exterior. Això pot ser d'utilitat en situacions com quan "
 "els proveïdors d'Internet o altres autoritat bloquegen les connexions a la "
-"xarxa Tor. "
+"xarxa Tor."
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""

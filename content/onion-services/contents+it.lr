@@ -10,7 +10,7 @@ key: 6
 ---
 body:
 
-I servizi Onion ( conosciuti anche come "Servizi nascosti") sono servizi ( come i siti web) a cui è possibile accedere solo attraverso la rete Tor
+I servizi Onion ( conosciuti anche come "Servizi nascosti") sono servizi ( come i siti web) a cui è possibile accedere solo attraverso la rete Tor.
 
 I servizi onion offrono molteplici vantaggi rispetto ai servizi ordinari sulla rete non privata:
 
@@ -28,6 +28,6 @@ When accessing a website that uses an onion service, Tor Browser will show at th
 
 Se non riesci a raggiungere il servizio onion richiesto, assicurati di aver inserito correttamente l'indirizzo onion: anche un piccolo errore impedirà a Tor Browser di raggiungere il sito.
 
-Se ancora non riuscite a connettervi al servizio onion riprovate più tardi. Potrebbero esserci dei problemi temporanei di connessione o i gestori del sito lo hanno messo offline senza nessun avviso
+Se ancora non riuscite a connettervi al servizio onion riprovate più tardi. Potrebbero esserci dei problemi temporanei di connessione o i gestori del sito lo hanno messo offline senza nessun avviso.
 
 You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

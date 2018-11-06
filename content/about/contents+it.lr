@@ -16,7 +16,7 @@ Tor Browser utilizza la rete Tor per proteggere la tua privacy e anonimato. L'ut
 
 * The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
 
-In più, il browser Tor è progettato per evitare che i siti raccolgano le tue "impronte digitali" o ti identifichino in base alla configurazione del tuo browser
+In più, il browser Tor è progettato per evitare che i siti raccolgano le tue "impronte digitali" o ti identifichino in base alla configurazione del tuo browser.
 
 By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
 
