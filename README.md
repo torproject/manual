@@ -24,6 +24,9 @@ Its code can be found at https://github.com/lektor/lektor
 Update translation
 ------------------
 
+To translate the manual, please join the Tor Project team in Transifex:
+https://www.transifex.com/
+
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
 
