@@ -1,5 +1,7 @@
 node_modules
 
+i18n/_compiled/*
+
 .sass-cache
 .DS_Store
 
