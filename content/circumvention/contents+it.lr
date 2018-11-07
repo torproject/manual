@@ -10,9 +10,9 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+L'accesso diretto alla rete Tor potrebbe essere bloccato dal tuo Provider di servizi Internet o dal governo. Il browser Tor include alcune strumenti per superare questi ostacoli, e sono chiamati "pluggable transports". Vai alla pagina <a href="transports"> Pluggable Transports</a> per ulteriori informazioni.
 
-##### Using pluggable transports
+##### Utilizzare i pluggable transports
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -26,10 +26,10 @@ Seleziona "Si", quando richiesto, se il tuo fornitore di servizi Internet blocca
 
 Seleziona " Connetti con i ponti predefiniti". Il browser Tor ha sei diversi opzioni di pluggable transports selezionabili.
 
-##### Which transport should I use?
+##### Che trasporto dovrei utilizzare?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Ciasacun trasporto riportato nel menu principale di Tor funziona in maniera differente ( per maggiori dettagli controlla la pagina <a href="transports">Pluggable transports</a>) e la loro efficacia dipende dalle diverse circostanze
 
 Se stai tentando di aggirare una connessione bloccata per la prima volta, dovresti provare i diversi tipi di trasporto: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Nel caso abbiate provato ad utilizzare tutti questi trasporti e nessuno di essi vi riesce a portare online dovrete inserire l'indirizzo del ponte manualmente. Leggete la sezione <a href="/bridges">ponti</a>per imparare cosa sono i nodi e come ottenerli

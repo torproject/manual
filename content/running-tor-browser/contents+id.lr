@@ -12,13 +12,13 @@ body:
 
 Saat kamu menjalankan Tor Browser untuk pertama kali, kamu akan melihat laman Pengaturan Jaringan Tor. Ini memberikan pilihan untuk langsung terhubung ke jaringan Tor, atau melakukan konfigurasi Tor Browser untuk koneksi anda.
 
-##### Connect
+##### Sambung
 
 <img class="col-md-6" src="/static/images/connect.png">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### Configure
+##### Konfigurasikan
 
 <img class="col-md-6" src="/static/images/configure.png">
 

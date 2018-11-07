@@ -11,13 +11,13 @@ key: 8
 body:
 Tor Browser termasuk "Security Slider" akan mengajak Anda untuk meningkatkan keamanan dengan me-nonaktif-kan fitur situs tertentu yang bisa digunakan untuk menyerang kemanan dan identitas Anda. Peningkatan keamanan Tor Browser akan menghentikan sejumlah fungsi dari halaman situs, jadi Anda harus menyesuaikan kebutuhan tingkat keamanan Anda.
 
-##### Accessing the Security Slider
+##### Mengakses Security Slider
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 The Security Slider is located in Torbutton’s “Security Settings” menu.
 
-##### Security Levels
+##### Tingkat Keamanan
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ Pada tingkat ini, media video dan audio HTML 5 menjadi klik-untuk- memainkan mel
 Lebih aman
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+Pada level ini, HTML5 media audio dan visual menjadi click-to-play lewat NoScript; semua optimalisasi kinerja JavaScript akan di-nonaktif-kan; beberapa formula matematika kemngkinan tidak ditampilkan secara baik; sejumlah perubahan fitur huruf di-nonaktif-kan; sejumlah jenis gambar di-nonaktif-kan; dan JavaScript di-nonaktif-kan secara otomatif pada semua non-<a href="secure-connections">HTTPS</a>sites
 </dd>
 <dt>
 Standar

@@ -13,10 +13,10 @@ Tor Browser tidak mempengaruhi perangkat dan pengaturan di dalam komputer Anda. 
 
 Mencopot Tor Browser pada sistem Anda sangat mudah:
 
-1. Locate your Tor Browser folder. The default location on Windows is the Desktop; on Mac OS X it is the Applications folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+1. Tempatkan Tor Browser folder. Lokasi foldernya biasanya untuk Windows berada di Desktop; sementara pada Mac OS X berada di Applications. Di Linux, tidak ada lokasi tertentu, tapi folder akan dinamakan "tor-browser_en-US" jika Anda menjalankan versi Inggris Tor Browser.
 
-2. Delete the Tor Browser folder.
+2. Hapus folder Tor Browser
 
-3. Empty your Trash
+3. Kosongkan tempat sampah
 
 Perhatikan operating sistem anda standard "Uninstall" utilitas tidak digunakan.

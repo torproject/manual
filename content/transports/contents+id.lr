@@ -11,7 +11,7 @@ key: 4
 body:
 Pluggable transports adalah perkakas yang Tor bisa gunakan untuk menyamarkan lalu lintas ini untuk pengiriman keluar. Ini bisa berguna dalam situasi-situasi di mana penyedia layanan internet atau otoritas lain aktif memblokir koneksi ke jaringan Tor.
 
-##### Types of pluggable transport
+##### Jenis-jenis pluggable transport
 
 Sekarang terdapat tiga pluggable transports dapat diakses, tapi lebih untuk pengembangan.
 

@@ -54,7 +54,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dd>"
-msgstr ""
+msgstr "<dd>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.seo_slug)
@@ -153,7 +153,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Known issues"
-msgstr ""
+msgstr "##### Persoalan yang telah diketahui"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -224,7 +224,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Tor circuit for this site"
-msgstr ""
+msgstr "##### Sirkuit Tor Baru untuk Situs ini"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -239,14 +239,14 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### Satori"
-msgstr ""
+msgstr "##### Satori"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dt>"
-msgstr ""
+msgstr "<dt>"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
@@ -276,7 +276,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Using pluggable transports"
-msgstr ""
+msgstr "##### Menggunakan pluggable transports"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -284,6 +284,9 @@ msgid ""
 "valid for a single session (until Tor Browser is exited or a <a href=\"/"
 "managing-identities.html#new-identity\">New Identity</a> is requested)."
 msgstr ""
+"Secara bawaan, Tor Browser tidak menyimpan sejarah perambahan. Cookies hanya "
+"valid untuk sesi tunggal (hingga keluar dari Tor Browser atau sebuah<a href="
+"\"managing-identities#new-identity\">Identitas Baru</a>diminta)."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -304,7 +307,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Quick fixes"
-msgstr ""
+msgstr "##### Perbaikan cepat"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -316,7 +319,7 @@ msgstr ""
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### Troubleshooting"
-msgstr ""
+msgstr "##### Tawaran solusi"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.seo_slug)
@@ -335,12 +338,12 @@ msgstr "Pelajari bagaimana mengamankan data anda memakai Tor Browser dan HTTPS"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Getting bridge addresses"
-msgstr ""
+msgstr "##### Mendapatkan alamat-alamat jembatan"
 
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "2. Delete the Tor Browser folder."
-msgstr ""
+msgstr "2. Hapus folder Tor Browser"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
@@ -358,7 +361,7 @@ msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<td>"
-msgstr ""
+msgstr "<td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -373,11 +376,11 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via email:"
-msgstr ""
+msgstr "##### Menggunakan GetTor lewat email:"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</td>"
-msgstr ""
+msgstr "</td>"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -387,7 +390,7 @@ msgstr "Lebih aman"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.seo_slug)
 msgid "managing-identities"
-msgstr ""
+msgstr "mengelola-identitas"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs3"
@@ -395,7 +398,7 @@ msgstr "obfs3"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Flash Player"
-msgstr ""
+msgstr "##### Flash Player"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -414,6 +417,13 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* Tor Browser seringkali membuat koneksi anda seakan-akan datang dari bagian "
+"dunia yang sama sekali berbeda. Sejumlah situs, seperti bank atau penyedia "
+"email mungkin saja mengartikan ini sebagai tanda bahwa akun anda telah "
+"diretas atau terkompromikan dan mengkunci anda dari layanan. Satu-satunya "
+"cara untuk memecahkan masalah ini adalah dengan mematuhi prosedur yang "
+"direkomendasikan oleh situs yang dimaksud untuk menjalankan pemulihan akun "
+"atau menghubungi operator manusia dan menjelaskan situasi anda."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "obfs4"
@@ -437,7 +447,7 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
-msgstr ""
+msgstr "<dl>"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -486,7 +496,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "./start-tor-browser.desktop"
-msgstr ""
+msgstr "./start-tor-browser.desktop"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -494,17 +504,19 @@ msgid ""
 "* An onion services’s location and IP address are hidden, making it "
 "difficult for adversaries to censor it or identify its operators."
 msgstr ""
+"* Lokasi dan alamat IP pada layanan onion tersembunyi, membuat penentang "
+"sulit untuk menyensor atau mengidentifikasi operator yang menjalankannya."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dt>"
-msgstr ""
+msgstr "</dt>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"even\">"
-msgstr ""
+msgstr "<tr class=\"even\">"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -547,7 +559,7 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "##### Is your connection censored?"
-msgstr ""
+msgstr "##### Apakah koneksi Anda disensor?"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -564,6 +576,13 @@ msgid ""
 "combination with pluggable transports helps to disguise the fact that you "
 "are using Tor."
 msgstr ""
+"Kebanyakan <a href=\"transports\">Angkutan Colok</a>, seperti obfs3 dan "
+"obfs4, bergantung pada penggunaan \"jembatan\" relay. Seperti relay-relay "
+"Tor biasa, jembatan-jembatan ini dijalankan oleh para relawan; namun tidak "
+"seperti relay pada umumnya, mereka tidak terdaftar secara publik, sehingga "
+"seorang lawan tidak dapat mengidentifikasi pengguna dengan mudah. "
+"Menggunakan jembatan-jembatan dikombinasikan dengan angkutan colok membantu "
+"menyamarkan fakta bahwa anda sedang menggunakan Tor."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -658,7 +677,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Kaspersky Internet Security 2012"
-msgstr ""
+msgstr "* Kaspersky Internet Security 2012"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -672,6 +691,10 @@ msgid ""
 "your real Internet (IP) address, and will not know who you are unless you "
 "explicitly identify yourself."
 msgstr ""
+"* Operator website dan layanan yang anda gunakan, dan setiap orang yang "
+"menyaksikannya, akan melihat koneksi berasal dari jaringan Tor ketimbang "
+"alamat asli internet (IP) anda, dan tidak akan mengetahui identitas anda "
+"kecuali anda memberitahu identitas anda."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -684,7 +707,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
-msgstr ""
+msgstr "##### Memasukkan alamat-alamat jembatan"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.description)
 msgid "How Tor Browser handles add-ons, plugins and JavaScript"
@@ -701,7 +724,7 @@ msgstr ""
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid "##### Which transport should I use?"
-msgstr ""
+msgstr "##### Transport manakah yang sebaiknya saya gunakan?"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -715,7 +738,7 @@ msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.seo_slug)
 msgid "bridges"
-msgstr "Jembatan-jembatan"
+msgstr "jembatan-jembatan"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "* Visit https://bridges.torproject.org/ and follow the instructions, or"
@@ -760,11 +783,11 @@ msgstr ""
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Security Levels"
-msgstr ""
+msgstr "##### Tingkat Keamanan"
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### Browser Add-ons"
-msgstr ""
+msgstr "##### Peraban Add-ons"
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid ""
@@ -814,16 +837,16 @@ msgid ""
 "and some fonts and icons may not display correctly."
 msgstr ""
 "Pada tingkat ini, media video dan audio HTML 5 menjadi klik-untuk- memainkan "
-"melalui NoScript; setiap optimalisasi tampilan JavaScript menjadi non-aktif;"
-"  beberapa persamaan matematika kemungkinan tidak ditampilkan secara benar; "
-"beberapa fitur terjemahan huruf  menjadi non-aktif; beberapa tipe dari "
-"gambar menjadi non-aktif;  Javascript menjadi non-aktif secara otomatis pada "
-"seluruh situs; hampir semua video dan audio format menjadi non-aktif; dan "
-"beberapa huruf dan ikon kemungkinan tidak dapat ditampilkan secara tepat."
+"melalui NoScript; setiap optimalisasi tampilan JavaScript menjadi non-"
+"aktif;  beberapa persamaan matematika kemungkinan tidak ditampilkan secara "
+"benar; beberapa fitur terjemahan huruf  menjadi non-aktif; beberapa tipe "
+"dari gambar menjadi non-aktif;  Javascript menjadi non-aktif secara otomatis "
+"pada seluruh situs; hampir semua video dan audio format menjadi non-aktif; "
+"dan beberapa huruf dan ikon kemungkinan tidak dapat ditampilkan secara tepat."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tbody>"
-msgstr ""
+msgstr "</tbody>"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -839,6 +862,8 @@ msgid ""
 "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to "
 "ensure that each software build is exactly reproducible."
 msgstr ""
+"* Paket Tor Browser bertanggal 1 Januari 2000 00:00:00 UTC. Hal ini untuk "
+"menjamin bahwa setiap perangkat lunak secara tepat dapat digandakan."
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -846,6 +871,8 @@ msgid ""
 "* Tor Browser can also be started from the command line by running the "
 "following command from inside the Tor Browser directory:"
 msgstr ""
+"* Tor Browser bisa juga di mulai dari garis command dengan menjalankan "
+"perintah dari dalam direktori Tor Browser"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -902,7 +929,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Webroot SecureAnywhere"
-msgstr ""
+msgstr "* Webroot aman dimana saja"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -936,7 +963,7 @@ msgstr "Pencopotan"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tr class=\"odd\">"
-msgstr ""
+msgstr "<tr class=\"odd\">"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.seo_slug)
@@ -946,7 +973,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Logging in over Tor"
-msgstr ""
+msgstr "##### Masuk lebih dari Tor"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -963,6 +990,9 @@ msgid ""
 "* When both buttons are green, you see the data that is visible to observers "
 "when you are using both tools."
 msgstr ""
+"* Saat masing-masing tombol berwarna hijau, Anda dapat melihat data "
+"ditampilkan kepada orang yang mengamati ketika Anda tidak menggunakan salah "
+"satu perkakas."
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1022,13 +1052,18 @@ msgid ""
 "transports”. See the <a href=\"/transports\">Pluggable Transports</a> page "
 "for more information on the types of transport that are currently available."
 msgstr ""
+"Akses langsung pada jaringan Tor terkadang bisa diblokir oleh penyedia "
+"layanan internet atau oleh pemerintah. Peramban Tor termasuk beberapa "
+"perangkat mengelak untuk mengatasi pemblokiran ini. Perangkat-perangkat ini "
+"disebut \"Angkutan Colok\". Lihat halaman <a href=\"transports\">Angkutan "
+"Colok</a>untuk informasi lebih tentang jenis angkutan yang tersedia."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dd>"
-msgstr ""
+msgstr "</dd>"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1045,7 +1080,7 @@ msgstr "Apa yang harus dilakukan ketika Tor Browser tidak bekerja"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### Changing identities and circuits"
-msgstr ""
+msgstr "##### Mengubah identitas dan sirkuit"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.seo_slug)
@@ -1059,6 +1094,9 @@ msgid ""
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* Hapus Tor Browser dan pasang lagi. Jika pembaruan berjalan, jangan hanya "
+"minmpa file Tor Browser anda sebelumnya; sebelumnya pastikan seluruhnya "
+"sudah dihapus."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1073,7 +1111,7 @@ msgstr "Tawaran solusi"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "###### New Identity"
-msgstr ""
+msgstr "##### Identitas Baru"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1096,18 +1134,21 @@ msgid ""
 "way (for more details, see the <a href=\"/transports\">Pluggable Transports</"
 "a> page), and their effectiveness depends on your individual circumstances."
 msgstr ""
+"Setiap transports yang terdaftar dalam menu Peluncur Tor bekerja dengan cara "
+"berbeda (untuk detil, lihat laman<a href=\"transports\">Angkutan Colok</a>), "
+"dan efektivitasnya bergantung pada keadaan anda."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "###### To use GetTor via Twitter:"
-msgstr ""
+msgstr "##### Mengunakan GetTor melalui Twitter"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
-msgstr ""
+msgstr "</dl>"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.title)
@@ -1122,7 +1163,7 @@ msgstr "Mengelola identitas"
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
 msgid "##### Accessing the Security Slider"
-msgstr ""
+msgstr "##### Mengakses Security Slider"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
@@ -1139,6 +1180,8 @@ msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
 "able to connect."
 msgstr ""
+"* Sistem jam komputer Anda mesti diatur secara tepat, atau Tor tidak bisa "
+"terkoneksi."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1152,15 +1195,18 @@ msgid ""
 "Tor from running. You may need to consult the documentation for your "
 "antivirus software if you do not know how to do this."
 msgstr ""
+"* Pastikan program antivirus yang telah terpasang tidak menghalangi jalannya "
+"Tor. Anda kemungkinan perlu memeriksa dokumentasi pada perangkat antivirus "
+"Anda jika tidak tahu mengenai hal ini."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</tr>"
-msgstr ""
+msgstr "</tr>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid "##### How to access an onion service"
-msgstr ""
+msgstr "##### Cara mengakses sebuah layanan onion"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1248,11 +1294,11 @@ msgstr ""
 #: http://localhost/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid "3. Empty your Trash"
-msgstr ""
+msgstr "3. Kosongkan tempat sampah"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "##### Types of pluggable transport"
-msgstr ""
+msgstr "##### Jenis-jenis pluggable transport"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1271,6 +1317,9 @@ msgid ""
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* Alamat dari layanan onion dihasilkan secara otomatis, oleh sebab itu "
+"operator tidak perlu membeli sebuah nama domain; URL .onion juga menjamin "
+"bahwa Tor terhubung ke lokasi yang tepat dan koneksinya tidak digelapkan."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.seo_slug)
@@ -1289,6 +1338,8 @@ msgstr "Pencopotan"
 msgid ""
 "* Tor needs your system clock (and your time zone) set to the correct time."
 msgstr ""
+"* Tor membutuhkan sistem waktu (dan zona waktu anda) diatur pada waktu yang "
+"tepat."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1311,6 +1362,8 @@ msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
 "if Tor Browser is running, restart your computer."
 msgstr ""
+"* Pastikan Tor Browser lainnya tidak sedang berjalan. Jika tak yakin jika "
+"Tor Browser sedang berjalan, nyalakan ulang komputer Anda."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1344,16 +1397,19 @@ msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
 "you're using Tor. The button will turn green to indicate that Tor is on."
 msgstr ""
+"* Click tombol \"Tor\" untuk melihat apakah data ditampilkan kepada pengamat "
+"ketika Anda menggunakan Tor. Tombol akan berubah menjadi hijau untuk "
+"menandakan Tor sedang aktif."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid "##### The URL bar"
-msgstr ""
+msgstr "##### Bar URL"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "##### Potentially visible data"
-msgstr ""
+msgstr "##### Data berpotensi ditampilkan."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "meek"
@@ -1369,6 +1425,12 @@ msgid ""
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
 "sites."
 msgstr ""
+"Pada level ini, HTML5 media audio dan visual menjadi click-to-play lewat "
+"NoScript; semua optimalisasi kinerja JavaScript akan di-nonaktif-kan; "
+"beberapa formula matematika kemngkinan tidak ditampilkan secara baik; "
+"sejumlah perubahan fitur huruf di-nonaktif-kan; sejumlah jenis gambar di-"
+"nonaktif-kan; dan JavaScript di-nonaktif-kan secara otomatif pada semua non-"
+"<a href=\"secure-connections\">HTTPS</a>sites"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
@@ -1426,6 +1488,10 @@ msgid ""
 "default location, however the folder will be named \"tor-browser_en-US\" if "
 "you are running the English Tor Browser."
 msgstr ""
+"1. Tempatkan Tor Browser folder. Lokasi foldernya biasanya untuk Windows "
+"berada di Desktop; sementara pada Mac OS X berada di Applications. Di Linux, "
+"tidak ada lokasi tertentu, tapi folder akan dinamakan \"tor-browser_en-US\" "
+"jika Anda menjalankan versi Inggris Tor Browser."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1451,11 +1517,11 @@ msgstr ""
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid "* Temporarily disable your firewall."
-msgstr ""
+msgstr "* Sementara men-nonaktif-kan firewall Anda."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<table>"
-msgstr ""
+msgstr "<table>"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.title)
@@ -1484,6 +1550,8 @@ msgid ""
 "* Videos that require Adobe Flash are unavailable. Flash is disabled for "
 "security reasons."
 msgstr ""
+"* Video yang membutuhkan Adobe Flash tidak tersedia. Flash dinon-aktifkan "
+"untuk alasan keamanan."
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1504,12 +1572,12 @@ msgstr ""
 
 #: http://localhost/about/ (content/about/contents+en.lr:topic.body)
 msgid "##### How Tor works"
-msgstr ""
+msgstr "##### Bagaimana Tor bekerja"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Microsoft Security Essentials"
-msgstr ""
+msgstr "* Microsoft Security yang penting"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1525,7 +1593,7 @@ msgstr ""
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid "user / pw"
-msgstr ""
+msgstr "user / pw"
 
 #: http://localhost/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
@@ -1534,6 +1602,10 @@ msgid ""
 "need to enter bridge addresses manually. Read the <a href=\"/bridges/"
 "\">Bridges</a> section to learn what bridges are and how to obtain them."
 msgstr ""
+"Jika anda mencoba semua opsi yang tersedia, dan tidak ada yang membuat anda "
+"daring, anda oerlu untuk memasukkan alamat jembatan secara manual. Baca "
+"bagian<a href=\"bridges\">Jembatan-jembatan</a> untuk mempelajari apa itu "
+"jembatan dan bagaimana mendapatkannya."
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -1547,10 +1619,12 @@ msgid ""
 "Most <a href=\"/transports\">Pluggable Transports</a>, such as obfs3 and "
 "obfs4, rely on the use of “bridge” relays."
 msgstr ""
+"* Kebanyakan <a href=\"transports\">Angkutan Colok</a>, seperti obfs3 dan "
+"obfs4, bergantung pada penggunaan \"jembatan\" relay."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "</table>"
-msgstr ""
+msgstr "</table>"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1559,6 +1633,9 @@ msgid ""
 "censoring connections to the Tor network. Read the <a href=\"/circumvention"
 "\">Circumvention</a> section for possible solutions."
 msgstr ""
+"Jika Anda masih tak bisa terkoneksi, ISP Anda kemungkinan menghalangi "
+"koneksi ke jaringan Tor, baca <a href=\"circumvention\">Perdaya</a> bagian "
+"untuk peluang solusi."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1587,7 +1664,7 @@ msgstr "Apa yang bisa kami bantu?"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "<tbody>"
-msgstr ""
+msgstr "<tbody>"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid "Scramblesuit"
@@ -1599,6 +1676,8 @@ msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
 "important information on how to secure your connection when logging in."
 msgstr ""
+"* Lihat halaman<a href=\"secure-connections\">Secure Connections</a>untuk "
+"informasi penting tentang cara mengamankan koneksi Anda saat login."
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.description)
@@ -1640,6 +1719,9 @@ msgid ""
 "locally, will not be able to track your internet activity, including the "
 "names and addresses of the websites you visit."
 msgstr ""
+"* Penyedia layanan internet dan siapapun yang memantau koneksi anda tidak "
+"bisa melacak aktivitas internet anda termasuk nama dan alamat situs yang "
+"anda kunjungi."
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1666,7 +1748,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Tor can not use a bridge if a proxy is set."
-msgstr ""
+msgstr "* Tor tidak dapat menggunakan bridge apabila proxy sudah diatur."
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
@@ -1676,7 +1758,7 @@ msgstr ""
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid "* Sophos Antivirus for Mac"
-msgstr ""
+msgstr "* Sophos Antivirus untuk Mac"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1686,7 +1768,7 @@ msgstr ""
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid "##### GetTor"
-msgstr ""
+msgstr "##### GetTor"
 
 #: http://localhost/downloading/
 #: (content/downloading/contents+en.lr:topic.description)
@@ -1712,6 +1794,9 @@ msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
+"* Saat masing-masing tombol berwarna abu-abu, Anda dapat melihat data "
+"ditampilkan kepada orang yang mengamati ketika Anda tidak menggunakan salah "
+"satu perkakas."
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
@@ -1739,7 +1824,7 @@ msgstr "Apa yang perlu dilakukan jika jaringan Tor diblok"
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Configure"
-msgstr ""
+msgstr "##### Konfigurasikan"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1749,10 +1834,14 @@ msgid ""
 "executable text files when they are opened\" to \"Ask every time\", then "
 "click OK."
 msgstr ""
+"* Untuk menjalankan Tor Browser pada Ubuntu, pengguna perlu menjalankan "
+"shell script. Buka \"Files\" (Unity Explorer), buka Preference → Behavior "
+"Tab → Set \"Run executable text files when they are opened\" menjadi \"Ask "
+"every time\", lalu klik OK."
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid "##### JavaScript"
-msgstr ""
+msgstr "##### JavaScript"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.description)
@@ -1786,6 +1875,9 @@ msgid ""
 "so you do not need to worry about <a href=\"/secure-connections\">connecting "
 "over HTTPS</a>."
 msgstr ""
+"* Semua lalu lintas antara pengguna Tor dan layanan onion terenkripsi dari "
+"ujung ke ujung, jadi anda tidak perlu khawatir untuk<a href=\"secure-"
+"connections\">menghubungkan melalui HTTPS</a>"
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
@@ -1811,7 +1903,7 @@ msgstr ""
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid "##### Connect"
-msgstr ""
+msgstr "##### Sambung"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1819,6 +1911,8 @@ msgid ""
 "* The following firewall software have been known to interfere with Tor and "
 "may need to be temporarily disabled:"
 msgstr ""
+"* Perangkat lunak firewall berikut telah diketahui mengganggu Tor dan "
+"mungkin perlu dinonaktifkan sementara:"
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
@@ -1831,6 +1925,9 @@ msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
 "you're using HTTPS. The button will turn green to indicate that HTTPS is on."
 msgstr ""
+"* Click tombol \"HTTPS\" untuk melihat apakah data ditampilkan kepada "
+"pengamat saat Anda  menggunakan HTTPS, tombol akan berubah menjadi hijau "
+"untuk menandakan HTTPS sedang aktif."
 
 #: http://localhost/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.description)

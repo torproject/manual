@@ -1724,9 +1724,9 @@ msgid ""
 "connecting to <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo's Onion "
 "Service</a>"
 msgstr ""
-"Ayrıca <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo Onion "
-"Hizmeti</a>sayfasına bağlanarak diğer Onion hizmetlerine erişebildiğinizden "
-"emin olabilirsiniz"
+"Ayrıca <a href=\"http://3g2upl4pq6kufc4m.onion/\">DuckDuckGo Onion Hizmeti</"
+"a>sayfasına bağlanarak diğer Onion hizmetlerine erişebildiğinizden emin "
+"olabilirsiniz"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""

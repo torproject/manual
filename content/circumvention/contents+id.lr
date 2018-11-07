@@ -10,9 +10,9 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Akses langsung pada jaringan Tor terkadang bisa diblokir oleh penyedia layanan internet atau oleh pemerintah. Peramban Tor termasuk beberapa perangkat mengelak untuk mengatasi pemblokiran ini. Perangkat-perangkat ini disebut "Angkutan Colok". Lihat halaman <a href="transports">Angkutan Colok</a>untuk informasi lebih tentang jenis angkutan yang tersedia.
 
-##### Using pluggable transports
+##### Menggunakan pluggable transports
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -26,10 +26,10 @@ Pilih "yes" ketika ditanya jika penyedia layanan internet anda memblokir koneksi
 
 PIlih "Connect with provided bridges". Peramban Tor saat ini memiliki enam opsi angkutan colok untuk dipilih.
 
-##### Which transport should I use?
+##### Transport manakah yang sebaiknya saya gunakan?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Setiap transports yang terdaftar dalam menu Peluncur Tor bekerja dengan cara berbeda (untuk detil, lihat laman<a href="transports">Angkutan Colok</a>), dan efektivitasnya bergantung pada keadaan anda.
 
 If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Jika anda mencoba semua opsi yang tersedia, dan tidak ada yang membuat anda daring, anda oerlu untuk memasukkan alamat jembatan secara manual. Baca bagian<a href="bridges">Jembatan-jembatan</a> untuk mempelajari apa itu jembatan dan bagaimana mendapatkannya.

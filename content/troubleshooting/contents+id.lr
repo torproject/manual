@@ -13,20 +13,20 @@ Anda sudah bisa mulai berselancar di internet menggunakan Tor Browser segera set
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-##### Quick fixes
+##### Perbaikan cepat
 
 Jika Tor Browser tidak terkoneksi, ada sejumlah solusi sederhana. Coba masing-masing di bawah ini:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
-* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
-* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
-* Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* Sistem jam komputer Anda mesti diatur secara tepat, atau Tor tidak bisa terkoneksi.
+* Pastikan Tor Browser lainnya tidak sedang berjalan. Jika tak yakin jika Tor Browser sedang berjalan, nyalakan ulang komputer Anda.
+* Pastikan program antivirus yang telah terpasang tidak menghalangi jalannya Tor. Anda kemungkinan perlu memeriksa dokumentasi pada perangkat antivirus Anda jika tidak tahu mengenai hal ini.
+* Sementara men-nonaktif-kan firewall Anda.
+* Hapus Tor Browser dan pasang lagi. Jika pembaruan berjalan, jangan hanya minmpa file Tor Browser anda sebelumnya; sebelumnya pastikan seluruhnya sudah dihapus.
 
-##### Is your connection censored?
+##### Apakah koneksi Anda disensor?
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+Jika Anda masih tak bisa terkoneksi, ISP Anda kemungkinan menghalangi koneksi ke jaringan Tor, baca <a href="circumvention">Perdaya</a> bagian untuk peluang solusi.
 
-##### Known issues
+##### Persoalan yang telah diketahui
 
 Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.

@@ -17,12 +17,12 @@ Questa visualizzazione mostra quali informazioni sono visibili agli intercettato
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* Cliccate sul pulsante "Tor" per vedere quali dati sono visibili ad un osservatore quando state utilizzando la rete Tor. Il bottone diventerà verde quando Tor è attivato
+* Cliccate sul pulsante "HTTPS" per vedere quali dati sono visibili ad un osservatore quando state usando il protocollo HTTPS. Il pulsante diventerà verde quando HTTPS è attivo
+* Quando entrambi i pulsanti sono verdi, vengono visualizzati i dati visibili agli osservatori quando si utilizzano entrambi gli strumenti.
+* Quando entrambi i pulsanti sono grigi, vengono visualizzati i dati visibili agli osservatori quando non si utilizzano entrambi gli strumenti.
 
-##### Potentially visible data
+##### Dati potenzialmente visibili
 
 <dl>
 

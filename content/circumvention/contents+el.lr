@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Η άμεση πρόσβαση στο δίκτυο Tor μπορεί μερικές φορές να παρεμποδίζεται από τον Πάροχο Υπηρεσιών Διαδικτύου (ISP) ή από κάποια κυβέρνηση. Ο Tor Browser περιλαμβάνει ορισμένα εργαλεία για την παράκαμψη των φραγμών αυτών. Αυτά τα εργαλεία ονομάζονται "pluggable transports". Για περισσότερες πληροφορίες σχετικά με τους τύπους των transport που είναι διαθέσιμα αυτήν τη στιγμή, ανατρέξτε στη σελίδα <a href="transports">Pluggable Transports</a>.
 
 ##### Χρησιμοποιούνται pluggable transports
 
@@ -28,8 +28,8 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 ##### Τι μέσο πρέπει να χρησιμοποιήσω;
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Κάθε ένα από τα transports που αναγράφονται στο μενού του Tor Launcher λειτουργεί με διαφορετικό τρόπο (για περισσότερες λεπτομέρειες, ανατρέξτε στη σελίδα <a href="transports">Pluggable Transports</a>) και η αποτελεσματικότητά τους εξαρτάται από την περίπτωσή σας.
 
 Αν προσπαθείς για πρώτη φορά να παρακάμψεις μία μπλοκαρισμένη σύνδεση, δοκίμασε τις μεταφορές: obfs3, obfs4, ScrambleSuit, fte, meek-azure και Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+* Αν δοκιμάσετε όλες αυτές τις λύσεις, και παρ' όλα αυτά δεν καταφέρατε να συνδεθείτε, θα χρειαστεί να καταχωρίσετε χειροκίνητα τις διευθύνσεις γέφυρας. Διαβάστε την ενότητα <a href="bridges"> Γέφυρες</a> για να μάθετε τι είναι οι γέφυρες και πώς να τις αποκτήσετε.

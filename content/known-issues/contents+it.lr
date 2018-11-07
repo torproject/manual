@@ -10,22 +10,22 @@ key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Per funzionare correttamente Tor ha bisogno che l'ora (ed il fuso orario) del sistema su cui viene eseguito siano corretti.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* I seguenti programmi firewall possono interferire con Tor, per questo motivo potrebbe essere necessario disabilitarli temporaneamente
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * Sophos Antivirus per Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Filmati che richiedono Adobe Flash non sono disponibili, Flash è disabilitato per motivi di sicurezza
 
-* Tor can not use a bridge if a proxy is set.
+* tor non può cambiare un ponte se un proxy è configurato.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Il pacchetto del browser Tor è datato 1 gennaio 2000 00:00:00 UTC. Questo per garantire che ogni build del software sia esattamente riproducibile.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Per eseguire il Browser Tor su Ubuntu l'utente deve eseguire uno sript mediante shell. Aprite "files" ( il file manager di Unity), aprite Preferenze → Scheda Comportamento → Imposta "Esegui file di testo eseguibili quando sono aperti" su "Chiedi ogni volta", quindi fai clic su OK.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* il browser Tor puo essere lanciato anche da riga di comando eseguendo il seguente comando all'interno della cartella del Browser Tor:
 
 	./start-tor-browser.desktop

@@ -12,19 +12,19 @@ body:
 
 Quando proverete il browser Tor per la prima volta, verrà visualizzata la finestra Impostazioni rete Tor. Questa vi offrirà l'opzione di connetervi direttamente alla rete Tor o di configurare il browser in base al vostro tipo di connessione.
 
-##### Connect
+##### Connetti
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+Nella maggior parte dei casi, scegliendo "Connetti" è possibile connettersi alla rete Tor senza ulteriori configurazioni. Una volta cliccato, apparirà una barra di stato che mostrerà l'avanzamento della connessione Tor. Se hai una connessione relativamente veloce, ma questa barra sembra bloccarsi a un certo punto, consulta la pagina <a href="troubleshooting">Problemi</a>per assistenza.
 
-##### Configure
+##### Configura
 
 <img class="col-md-6" src="/static/images/configure.png">
 
 Se sapete che la vostra connessione è censurata, o utilizza un proxy, scegliete questa opzione. Il browser Tor vi guiderà attraverso una seri di opzioni di configurazione.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+La prima schermata vi chiederà se l'accesso alla rete Tor è bloccata o censurata sulla vostra linea. Se pensate che non sia il vostro caso cliccate su "No". Se non sapete se la vostra rete è censurata o avete provato a connettervi alla rete Tor senza successo e nessun altra soluzione ha funzionato cliccate su "Si". Sarete portati allo schermata di <a href="circumvention">Elusione</a>per configurare a pluggable transport
 
 La schermata seguente vi domanderà se la vostra connessione utilizza un proxy. Nella maggior parte dei casi questo non è necessario. Voi saprete di sicuro se rispondere "Si", in quanto sono gli stessi parametri utilizzati dagli altri browser internet sul vostro sistema. Se possibile, contattate il vostro amministratore di sistema per informazioni. Se la vostra connessione non usa proxy cliccate "Continua".
 

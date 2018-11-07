@@ -14,17 +14,17 @@ Layanan Onion (sebelumnya diketahui sebagai "hidden services (layanan tersembuny
 
 Layanan Onion menawarkan beberapa keuntungan daripada layanan biasa pada situs web yang tidak privat:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Lokasi dan alamat IP pada layanan onion tersembunyi, membuat penentang sulit untuk menyensor atau mengidentifikasi operator yang menjalankannya.
+* Semua lalu lintas antara pengguna Tor dan layanan onion terenkripsi dari ujung ke ujung, jadi anda tidak perlu khawatir untuk<a href="secure-connections">menghubungkan melalui HTTPS</a>
+* Alamat dari layanan onion dihasilkan secara otomatis, oleh sebab itu operator tidak perlu membeli sebuah nama domain; URL .onion juga menjamin bahwa Tor terhubung ke lokasi yang tepat dan koneksinya tidak digelapkan.
 
-##### How to access an onion service
+##### Cara mengakses sebuah layanan onion
 
 Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Tawaran solusi
 
 If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
 

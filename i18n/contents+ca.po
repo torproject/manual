@@ -288,7 +288,7 @@ msgid ""
 msgstr ""
 "Per defecte, el navegador Tor no desa l'historial de navegació. Les galetes "
 "només són vàlides per la sessió en marxa (fins que el navegador Tor es "
-"tanqui o <a href=\"managing-identities#new-identity\"Nova identitat</a> es "
+"tanqui o <a href=\"managing-identities#new-identity\">Nova identitat</a> es "
 "sol·licitada)."
 
 #: http://localhost/managing-identities/

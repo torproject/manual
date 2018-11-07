@@ -14,21 +14,21 @@ The safest and simplest way to download Tor Browser is from the official Tor Pro
 
 Purtroppo, ci potrebbero essere delle volte per cui non potresti accedere al sito del Tor Project, per esempio potrebbe essere bloccato sulla tua rete. Se questo dovesse accadere puoi utilizzare uno dei metodi alternativi qui sotto riportati per scaricarlo.
 
-##### GetTor
+##### OttieniTor
 
 GetTor è un servizio che risponde automaticamente ai messaggi con link per l'ultima versione di Tor Browser, ospitata in vari luoghi, come Dropbox, Google Drive e GitHub.
 
-###### To use GetTor via email:
+##### Per ottenere GetTor via email:
 
 Invia una mail a gettor@torproject.org, nel corpo del messaggio scrivi semplicemente "windows", " osx" o "Linux" ( senza virgolette) in funzione al sistema operativo che stai utilizzando.
 
 GetTor risponderà con una mail contenente il linkda dove scaricare il browser Tor, la firma criptografica ( necessaria per verificare il download), l'impronta digitale della chiave utilizzata per per generare la firma digitale e il checksum del pacchetto. Potrete scegliere tra programma a "32-bit" o "64-bit"; questo dipenderà dal modello di computer che state usando.
 
-###### To use GetTor via Twitter:
+##### Per usare GetTor via Twitter
 
 Per ottenere i link per scaricare il browser TOR in inglese per OS X, invia un messaggio a @get_tor contenente il testo "osx en" ( non è necessario seguire l'account).
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Per usare GetTor via Jabber/XMPP (Jitsi, CoyIM, ecc.):
 
 Per il link per scaricare il browser Tor in cinese per Linux, manda un messaggio a gettor@torproject.org con le parole "linux zh" all'interno.
 

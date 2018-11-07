@@ -2,25 +2,25 @@ _model: topic
 ---
 title: Jembatan-jembatan
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: * Kebanyakan <a href="transports">Angkutan Colok</a>, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay.
 ---
-seo_slug: Jembatan-jembatan
+seo_slug: jembatan-jembatan
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+Kebanyakan <a href="transports">Angkutan Colok</a>, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay. Seperti relay-relay Tor biasa, jembatan-jembatan ini dijalankan oleh para relawan; namun tidak seperti relay pada umumnya, mereka tidak terdaftar secara publik, sehingga seorang lawan tidak dapat mengidentifikasi pengguna dengan mudah. Menggunakan jembatan-jembatan dikombinasikan dengan angkutan colok membantu menyamarkan fakta bahwa anda sedang menggunakan Tor.
 
 Diska lepas yang lain, seperti meek, menggunakan teknik anti-sensor berbeda yang tidak mengandalkan jembatan-jembatan. Anda tidak perlu mencari alamat-alamat jembatan untuk menggunakannya.
 
-##### Getting bridge addresses
+##### Mendapatkan alamat-alamat jembatan
 
 Karena alamat-alamat jembatan tidak terbuka untuk umum, anda perlu membuat permintaan sendiri. Anda punya dua pilihan:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Entering bridge addresses
+##### Memasukkan alamat-alamat jembatan
 
 Begitu anda mendapatkan beberapa alamat jembatan, anda perlu untuk memasukkannya ke dalam Peluncur Tor.
 

@@ -2,25 +2,25 @@ _model: topic
 ---
 title: ponti
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: La maggior parte dei <a href="transports">Pluggable transports</a>, come obfs3 e ofsf4, si basano su dei nodi relay.
 ---
 seo_slug: ponti
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+La maggior parte dei <a href="transports">Pluggable transports</a>, come obfs3 e ofsf4, si basano su dei nodi relay. Come i nodi ordinari di Tor anche i nodi relay sono mantenuti da volontari; a differenza dei nodi ordinari gli indirizzi dei nodi relay non sono pubblici. Per questo motivo un attaccante non può identificarli facilmente. La combinazione di nodi e pluggable transports aiuta a mascherare il fatto che si stia utilizzando la rete Tor.
 
 Altri pluggable transport, come meek, usano differenti sistemi anti censura che non fanno affidamento su ponti. Non avrete bisogno di utilizzare indirizzi di ponti per utilizzare questi pluggable transports.
 
-##### Getting bridge addresses
+##### Ottieni gli indirizzi dei ponti
 
 Siccome gli indirizzi dei ponti non sono pubblici, dovrai richiederli tu stesso. Hai due opzioni:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Invia un'email a bridges@torproject.org da un indirizzo email Gmail, Yahoo, Riseup, oppure
 
-##### Entering bridge addresses
+##### Inserisci l'indirizzo ponte
 
 Una volta che hai ottenute degli indirizzi di ponti, dovrai inserirli nel Launcher Tor.
 

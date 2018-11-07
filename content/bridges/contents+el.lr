@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Γέφυρες
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Τα περισσότερα <a href="transports">Pluggable Transports</a>, όπως το obfs3 και το obfs4, βασίζονται στη χρήση κόμβων "γέφυρας".
 ---
 seo_slug: bridges
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+Τα περισσότερα <a href="transports">Pluggable Transports</a>, όπως το obfs3 και το obfs4, βασίζονται στη χρήση κόμβων "γέφυρας". Όπως και με τους συνηθισμένους κόμβους Tor, οι γέφυρες διαχειρίζονται από εθελοντές. αντίθετα από τους συνηθισμένους κόμβους, ωστόσο, δεν καταχωρούνται δημόσια, οπότε ο αντίπαλος δεν μπορεί να τα αναγνωρίσει εύκολα. Η χρήση γεφυρών σε συνδυασμό με τα pluggable transports βοηθά να συγκαλύψει το γεγονός ότι χρησιμοποιείτε Tor.
 
 Άλλα pluggable transports, όπως το meek, χρησιμοποιούν διαφορετικές τεχνικές κατά της λογοκρισίας που δεν βασίζονται σε γέφυρες. Δεν χρειάζεται να λάβετε διευθύνσεις γέφυρας για να χρησιμοποιήσετε αυτά τα transports.
 

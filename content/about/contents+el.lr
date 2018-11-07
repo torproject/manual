@@ -18,11 +18,11 @@ body:
 
 Επιπλέον, ο Tor Browser έχει σχεδιαστεί να αποτρέπει ιστοσελίδες από το να σε "ταυτοποιήσουν" βάση των ρυθμίσεων του browser σας.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
+Από προεπιλογή, ο Tor Browser δεν κρατά κανένα ιστορικό περιήγησης. Τα cookies είναι έγκυρα μόνο για μια συνεδρία (μέχρι να κλείσει ο Tor Browser ή να ζητηθεί μια <a href="managing-identities#new-identity">Νέα Ταυτότητα</a>).
 
 ##### Πώς λειτουργεί το Tor
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+* Το Tor είναι ένα δίκτυο εικονικών σηράγγων που σας επιτρέπει να βελτιώσετε το απόρρητο και την ασφάλειά σας στο Διαδίκτυο. Το Tor λειτουργεί αποστέλλοντας την κυκλοφορία σας μέσω τριών τυχαίων διακομιστών (επίσης γνωστών ως *κόμβοι*) στο δίκτυο Tor. Το τελευταίο ρελέ στο κύκλωμα (ο "κόμβος εξόδου") στέλνει τότε την κυκλοφορία στο δημόσιο διαδίκτυο.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 

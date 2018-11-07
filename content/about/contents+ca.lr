@@ -18,7 +18,7 @@ El navegador Tor utilitza la xarxa Tor per protegir l'anonimat i la privacitat. 
 
 A més, el navegador Tor està dissenyat per prevenir pàgines web amb identificació per empremta digital o identificació mitjançant els paràmetres del navegador.
 
-Per defecte, el navegador Tor no desa l'historial de navegació. Les galetes només són vàlides per la sessió en marxa (fins que el navegador Tor es tanqui o <a href="managing-identities#new-identity"Nova identitat</a> es sol·licitada).
+Per defecte, el navegador Tor no desa l'historial de navegació. Les galetes només són vàlides per la sessió en marxa (fins que el navegador Tor es tanqui o <a href="managing-identities#new-identity">Nova identitat</a> es sol·licitada).
 
 ##### Com funciona Tor
 

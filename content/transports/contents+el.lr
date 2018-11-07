@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Pluggable transports
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Τα Pluggable transports είναι εργαλεία τα οποία μπορεί να χρησιμοποιήσει ο Tor για να κρύψει την κίνηση που εκπέμπει.
 ---
 seo_slug: plugable-transports
 ---

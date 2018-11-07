@@ -11,13 +11,13 @@ key: 8
 body:
 Il browser Tor include una "Tab di Sicurezza" che permette di  disabilitare alcune caratteristiche web che potrebbero essere utilizzate per attaccare la vostra sicurezza e anonimato. Aumentando il livello di sicurezza del browser Tor alcune pagine potrebbero non funzionare correttamente; per questo motivo dovrete scegliere tra il vostro bisogno di sicurezza e l'usabilità della pagina di cui avete bisogno.
 
-##### Accessing the Security Slider
+##### Accesso alla Tab di Sicurezza
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 Il livello di sicurezza si trova nelle "Impostazioni di sicurezza" del pulsante Tor.
 
-##### Security Levels
+##### Livelli di sicurezza
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ A questo livello, i supporti audio e video HTML5 diventano click-to-play tramite
 Sicuro
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+A questo livello, i supporti audio e video HTML5 diventano click-to-play tramite NoScript. Tutte le ottimizzazioni delle prestazioni tramite JavaScript sono disabilitate. Alcune equazioni matematiche potrebbero non essere visualizzate correttamente. Alcune funzioni di rendering dei caratteri sono disabilitate. Alcuni tipi di immagine sono disabilitati. Javascript è disabilitato di default su tutti i siti non-<a href="secure-connections">HTTPS</a>
 </dd>
 <dt>
 Standard

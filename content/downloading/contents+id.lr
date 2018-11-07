@@ -18,13 +18,13 @@ Namun, dalam sejumlah kasus anda tak bisa mengakses situs TOR Project: misalnya,
 
 GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-###### To use GetTor via email:
+##### Menggunakan GetTor lewat email:
 
 Kirim email ke gettor@torproject.org, dan di dalam pesan tulislah "windows", "osx", atau "linux", (tanpa tanda kutip) tergantung sistem operasi ada.
 
 GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket Tor Browser, tanda tangan kriptografi (diperlukan untuk memverikasi unduhan), sidik jari pengguna utama yang akan digunakan untuk membuat tanda tangan, dan paket checksum. Anda akan di tawarkan dengan  dua pilihan  perangkat lunak: '32 bit" atau 64 bit. Pilihan ini tergantung dengan model komputer yang anda gunakan.
 
-###### To use GetTor via Twitter:
+##### Mengunakan GetTor melalui Twitter
 
 Untuk mendapatkan tautan guna mengunduh Tor browser dalam bahasa Inggris pada OS X, kirimlah email langsung ke @get_tor dengan subjek  "osx en"  (anda tidak perlu mengikuti akun tersebut).
 

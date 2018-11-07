@@ -25,8 +25,8 @@ body:
 
 ##### Λογοκρίνεται η σύνδεσή σας;
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+Εάν εξακολουθείτε να μην μπορείτε να συνδεθείτε, ο Πάροχος Υπηρεσιών Διαδικτύου (ISP) ενδέχεται να λογοκρίνει τις συνδέσεις στο δίκτυο Tor. Διαβάστε την ενότητα <a href="circumvention">Παράκαμψη</a> για πιθανές λύσεις.
 
 ##### Γνωστά ζητήματα
 
-Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+Ο περιηγητής Tor είναι συνεχώς υπό κατασκευή και κάποια ζητήματα μας είναι γνωστά αλλά δεν έχουν λυθεί ακόμη. Παρακαλούμε, δες τη σελίδα<a href="known-issues">Γνωστά Ζητήματα</a>για να επιβεβαιώσεις αν το ζήτημα που αντιμετωπίζεις βρίσκεται ήδη στη λίστα μας.

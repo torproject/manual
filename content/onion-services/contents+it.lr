@@ -14,20 +14,20 @@ I servizi Onion ( conosciuti anche come "Servizi nascosti") sono servizi ( come 
 
 I servizi onion offrono molteplici vantaggi rispetto ai servizi ordinari sulla rete non privata:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* La localizzazione e l'indirizzo IP di un servizio Onion sono nascosti, questo rende ne difficile la censura e l'identificazione degli utilizzatori
+* Tutto il traffico attraverso gli utenti Tor ed il servizio onion sono crittografati con sistema end-to-end; per questo motivo non è necessario preoccuparsi del <a href="secure-connections">connettersi attraverso HTTPS</a>.
+* Gli indirizzi di un servizio onion sono generati automaticamente, gli utenti quindi non hanno bisogno di comprare un dominio; il suffisso .onion aiuta Tor ad accertarsi che sia connesso all'indirizzo corretto e che la connessione non sia stata reindirizzata
 
-##### How to access an onion service
+##### Come accedere ad un servizio onion
 
 Come qualsiasi altro sito, è necessario conoscere l'indirizzo di un servizio onion per connettersi ad esso. Un indirizzo onion è una stringa di 16 (e nel formato V3, 56) lettere e numeri per lo più casuali, seguito da ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Risoluzione dei problemi
 
 Se non riesci a raggiungere il servizio onion richiesto, assicurati di aver inserito correttamente l'indirizzo onion: anche un piccolo errore impedirà a Tor Browser di raggiungere il sito.
 
 Se ancora non riuscite a connettervi al servizio onion riprovate più tardi. Potrebbero esserci dei problemi temporanei di connessione o i gestori del sito lo hanno messo offline senza nessun avviso.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+Puoi anche assicurarti di poter accedere ai servizi Onion connettendoti al <a href="http://3g2upl4pq6kufc4m.onion/">Servizio Onion DuckDuckGo</a>

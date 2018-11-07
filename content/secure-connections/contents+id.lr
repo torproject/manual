@@ -17,12 +17,12 @@ Visualisasi berikut ini menunjukkan informasi apa yang bisa dilihat oleh penyusu
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* Click tombol "Tor" untuk melihat apakah data ditampilkan kepada pengamat ketika Anda menggunakan Tor. Tombol akan berubah menjadi hijau untuk menandakan Tor sedang aktif.
+* Click tombol "HTTPS" untuk melihat apakah data ditampilkan kepada pengamat saat Anda  menggunakan HTTPS, tombol akan berubah menjadi hijau untuk menandakan HTTPS sedang aktif.
+* Saat masing-masing tombol berwarna hijau, Anda dapat melihat data ditampilkan kepada orang yang mengamati ketika Anda tidak menggunakan salah satu perkakas.
+* Saat masing-masing tombol berwarna abu-abu, Anda dapat melihat data ditampilkan kepada orang yang mengamati ketika Anda tidak menggunakan salah satu perkakas.
 
-##### Potentially visible data
+##### Data berpotensi ditampilkan.
 
 <dl>
 

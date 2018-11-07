@@ -10,22 +10,22 @@ key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor membutuhkan sistem waktu (dan zona waktu anda) diatur pada waktu yang tepat.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
-  * Webroot SecureAnywhere
+* Perangkat lunak firewall berikut telah diketahui mengganggu Tor dan mungkin perlu dinonaktifkan sementara:
+  * Webroot aman dimana saja
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
-  * Microsoft Security Essentials
+  * Sophos Antivirus untuk Mac
+  * Microsoft Security yang penting
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Video yang membutuhkan Adobe Flash tidak tersedia. Flash dinon-aktifkan untuk alasan keamanan.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor tidak dapat menggunakan bridge apabila proxy sudah diatur.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Paket Tor Browser bertanggal 1 Januari 2000 00:00:00 UTC. Hal ini untuk menjamin bahwa setiap perangkat lunak secara tepat dapat digandakan.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Untuk menjalankan Tor Browser pada Ubuntu, pengguna perlu menjalankan shell script. Buka "Files" (Unity Explorer), buka Preference → Behavior Tab → Set "Run executable text files when they are opened" menjadi "Ask every time", lalu klik OK.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Tor Browser bisa juga di mulai dari garis command dengan menjalankan perintah dari dalam direktori Tor Browser
 
 	./start-tor-browser.desktop
