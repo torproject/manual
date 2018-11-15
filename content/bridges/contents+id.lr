@@ -24,8 +24,11 @@ Karena alamat-alamat jembatan tidak terbuka untuk umum, anda perlu membuat permi
 
 Begitu anda mendapatkan beberapa alamat jembatan, anda perlu untuk memasukkannya ke dalam Peluncur Tor.
 
-Pilih "yes" ketika ditanya apakah ISP atau penyedia layanan internet anda memblokir hubungan ke jaringan Tor. Pilih "Use custom bridges" dan masukkan setiap alamat jembatan dalam baris yang berbeda.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Klik "Connect". Menggunakan jembatan-jembatan bisa memperlambat koneksi dibandingkan menggunakan relay-relay Tor biasa. Jika koneksi gagal, jembatan-jembatan yang anda terima mungkin sedang mati. Gunakan salah satu metode di atas untuk mendapatkan alamat-alamat jembatan, dan coba lagi.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

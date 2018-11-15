@@ -18,14 +18,17 @@ body:
 因为网桥地址非公开，您需要自行请求。您有两个选项：
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* 使用 Gmail、Yahoo 或 Riseup 的邮箱服务发送电子邮件至 bridges@torproject.org ，或者
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
 ##### 输入网桥地址
 
 在您获得一些网桥地址后，您需要将它们输入到 Tor 启动器中。
 
-当询问您的互联网服务提供商 (ISP) 是否封锁了 Tor 网络的连接时，选择“是”。选择“使用自定义网桥”，然后输入各网桥的地址（每行一条）。
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-点击“连接”以便创建洋葱路由回路。使用网桥可能会让网络连接速度比使用一般的中继节点稍慢一点。如果连接失败的话，可能是因为您所指定的网桥目前并非正常运作中，请使用上面所提的方法获取更多的网桥地址后，再行尝试。
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

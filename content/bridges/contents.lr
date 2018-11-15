@@ -30,4 +30,5 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays. If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

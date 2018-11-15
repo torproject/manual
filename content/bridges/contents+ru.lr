@@ -24,8 +24,11 @@ Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, re
 
 После того, как вы получите несколько адресов мостов, необходимо ввести их в Tor Launcher.
 
-Выберите «да», если ваш поставщик услуг Интернета блокирует подключения к сети Tor. Выберите «использовать пользовательские мосты» и введите адрес каждого моста на отдельной строке.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Нажмите «Подключиться». Использование мостов может замедлить соединение по сравнению с обычными ретрансляторами Tor. Если соединение не удалось, мосты, которые вы получили, могут быть недоступны. Для получения большего количества адресов моста используйте один из приведенных выше методов и повторите попытку.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

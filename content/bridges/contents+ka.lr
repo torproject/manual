@@ -18,14 +18,17 @@ body:
 ვინაიდან, გადამცემი ხიდები არაა საჯაროდ ხელმისაწვდომი, დაგჭირდებათ მისი მოთხოვნა. გაქვთ ორი არჩევანი:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* ელფოსტის გამოგზავნა მისამართზე bridges@torproject.org Gmail-იდან, Yahoo-დან ან Riseup ელფოსტიდან, ან
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
 ##### გადამცემი ხიდის მისამართების შეყვანა
 
 მას შემდეგ რაც მოიპოვებთ ხიდის მისამართებს, საჭიროა მათი მითითება Tor-ის გამშვებში.
 
-აირჩიეთ პასუხი „დიახ“ შეკითხვაზე ზღუდავს თუ არა თქვენი ინტერნეტ-მომსახურების მომწოდებელი Tor-ქსელთან კავშირს. მონიშნეთ „მითითებული გადამცემი ხიდის გამოყენება“ და შეიყვანეთ თითოეული ხიდის მისამართი, ცალკე ხაზზე.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-დააწკაპეთ „დაკავშირებას“. გადამცემი ხიდების გამოყენებამ, შესაძლოა მეტად შეანელოს კავშირი, ჩვეულებრივ Tor-გადამცემებთან შედარებით. თუ დაკავშირება ვერ მოხერხდება, მიღებული გადამცემები შესაძლოა გათიშული იყოს. გთხოვთ, გამოიყენოთ ზემოთ აღნიშნული საშუალებები, ახალი გადამცემი ხიდების მისამართების მისაღებად.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

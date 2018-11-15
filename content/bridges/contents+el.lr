@@ -18,14 +18,17 @@ body:
 Επειδή οι διευθύνσεις γέφυρας δεν είναι δημόσιες, θα πρέπει να τις ζητήσετε εσείς οι ίδιοι. Έχετε δύο επιλογές:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
-* Στείλε email στο bridges@torproject.org από ένα λογαριασμό Gmail, Yahoo ή Riseup ή
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
 ##### Εισαγωγή διευθύνσεων γεφυρών
 
 Αφού αποκτήσετε μερικές διευθύνσεις γέφυρας, θα πρέπει να τις εισάγετε στο Tor Launcher.
 
-Επιλέξτε "ναι" όταν ερωτάστε αν ο παροχέας υπηρεσιών Internet σας αποκλείει τις συνδέσεις στο δίκτυο Tor. Επιλέξτε "Χρήση προσαρμοσμένων γεφυρών" και εισάγετε κάθε διεύθυνση γέφυρας σε ξεχωριστή γραμμή.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
-Κάντε κλικ στην επιλογή "Σύνδεση". Η χρήση γεφυρών μπορεί να επιβραδύνει τη σύνδεση σε σύγκριση με τη χρήση των συνηθισμένων κόμβων Tor. Εάν η σύνδεση αποτύχει, οι γέφυρες που λάβατε μπορεί να είναι εκτός λειτουργίας. Χρησιμοποιήστε μία από τις παραπάνω μεθόδους για να αποκτήσετε περισσότερες διευθύνσεις γέφυρας και δοκιμάστε ξανά.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
