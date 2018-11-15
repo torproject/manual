@@ -54,18 +54,16 @@ FTE
 meek
 </td>
 <td>
-These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>
 </table>
-
-

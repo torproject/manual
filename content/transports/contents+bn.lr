@@ -62,7 +62,7 @@ meek
     Snowflake
 </td>
 <td>
-Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>

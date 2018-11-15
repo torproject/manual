@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 07:27+CET\n"
+"POT-Creation-Date: 2018-11-15 08:42+CET\n"
 "PO-Revision-Date: 2018-09-19 22:39+CET\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -375,8 +375,11 @@ msgid ""
 msgstr ""
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
+msgid "* Visit https://bridges.torproject.org/ and follow the instructions, or"
+msgstr ""
+
+#: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"* Visit https://bridges.torproject.org/ and follow the instructions, or\n"
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
 
@@ -414,7 +417,11 @@ msgstr ""
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection "
-"compared to using ordinary Tor relays.\n"
+"compared to using ordinary Tor relays."
+msgstr ""
+
+#: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
+msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
@@ -453,68 +460,101 @@ msgid ""
 msgstr ""
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<table>"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<tbody>"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<tr class=\"odd\">"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<td>"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "obfs3"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</td>"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
-"<table>\n"
-"<tbody>\n"
-"<tr class=\"odd\">\n"
-"<td>\n"
-"obfs3\n"
-"</td>\n"
-"<td>\n"
 "obfs3 makes Tor traffic look random, so that it does not look like Tor or "
 "any other protocol. While still included by default, it is reccomended to "
-"use obfs4 instead, as it has several security improvements over obfs3.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"even\">\n"
-"<td>\n"
-"obfs4\n"
-"</td>\n"
-"<td>\n"
+"use obfs4 instead, as it has several security improvements over obfs3."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</tr>"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<tr class=\"even\">"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "obfs4"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
 "from finding bridges by Internet scanning. obfs4 bridges are less likely to "
-"be blocked than obfs3 bridges.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"odd\">\n"
-"<td>\n"
-"Scramblesuit\n"
-"</td>\n"
-"<td>\n"
-"ScrambleSuit is similar to obfs4 but has a different set of bridges.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"even\">\n"
-"<td>\n"
-"FTE\n"
-"</td>\n"
-"<td>\n"
+"be blocked than obfs3 bridges."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "Scramblesuit"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "FTE"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
-"(HTTP) traffic.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"odd\">\n"
-"<td>\n"
-"meek\n"
-"</td>\n"
-"<td>\n"
+"(HTTP) traffic."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "meek"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "These transports all make it look like you are browsing a major web site "
 "instead of using Tor. meek-amazon makes it look like you are using Amazon "
 "Web Services; meek-azure makes it look like you are using a Microsoft web "
-"site; and meek-google makes it look like you are using Google search.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"even\">\n"
-"<td>\n"
-"Snowflake\n"
-"</td>\n"
-"<td>\n"
+"site; and meek-google makes it look like you are using Google search."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "Snowflake"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "Snowflake is an improvement upon Flashproxy. It sends your traffic through "
-"WebRTC, a peer-to-peer protocol with built-in NAT punching.\n"
-"</td>\n"
-"</tr>\n"
-"</tbody>\n"
-"</table>"
+"WebRTC, a peer-to-peer protocol with built-in NAT punching."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</tbody>"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</table>"
 msgstr ""
 
 #: http://localhost/transports/
@@ -728,7 +768,12 @@ msgstr ""
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
-"important information on how to secure your connection when logging in.\n"
+"important information on how to secure your connection when logging in."
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
 "* Tor Browser often makes your connection appear as though it is coming from "
 "an entirely different part of the world. Some websites, such as banks or "
 "email providers, might interpret this as a sign that your account has been "
@@ -762,7 +807,7 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
-"   This option is useful if you want to prevent your subsequent browser "
+"This option is useful if you want to prevent your subsequent browser "
 "activity from being linkable to what you were doing before. Selecting it "
 "will close all your open tabs and windows, clear all private information "
 "such as cookies and browsing history, and use new Tor circuits for all "
@@ -778,14 +823,19 @@ msgstr ""
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
-"   This option is useful if the <a href=\"/about/#how-tor-works\">exit "
-"relay</a> you are using is unable to connect to the website you require, or "
-"is not loading it properly. Selecting it will cause the currently-active tab "
-"or window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
 "from the same website will use the new circuit as well once they are "
 "reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites.\n"
-"   You can also access this option in the new circuit display, in the site "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
 
@@ -822,10 +872,20 @@ msgstr ""
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
-"difficult for adversaries to censor it or identify its operators.\n"
+"difficult for adversaries to censor it or identify its operators."
+msgstr ""
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
 "so you do not need to worry about <a href=\"/secure-connections\">connecting "
-"over HTTPS</a>.\n"
+"over HTTPS</a>."
+msgstr ""
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
 "* The address of an onion service is automatically generated, so the "
 "operators do not need to purchase a domain name; the .onion URL also helps "
 "Tor ensure that it is connecting to the right location and that the "
@@ -931,12 +991,26 @@ msgstr ""
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
-"you're using Tor. The button will turn green to indicate that Tor is on.\n"
+"you're using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
-"you're using HTTPS. The button will turn green to indicate that HTTPS is "
-"on.\n"
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
 "* When both buttons are green, you see the data that is visible to observers "
-"when you are using both tools.\n"
+"when you are using both tools."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
@@ -948,67 +1022,95 @@ msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
 msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"Site.com\n"
-"</dt>\n"
-"  <dd>\n"
-"    The site being visited.\n"
-"  </dd>"
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dt>"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Site.com"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dt>"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dd>"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "The site being visited."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dd>"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "user / pw"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Username and password used for authentication."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "data"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Data being transmitted."
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "location"
 msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid ""
-"<dt>\n"
-"user / pw\n"
-"</dt>\n"
-"  <dd>\n"
-"    Username and password used for authentication.\n"
-"  </dd>"
+"Network location of the computer used to visit the website (the public IP "
+"address)."
 msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"data\n"
-"</dt>\n"
-"  <dd>\n"
-"    Data being transmitted.\n"
-"  </dd>"
+msgid "Tor"
 msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"location\n"
-"</dt>\n"
-"  <dd>\n"
-"    Network location of the computer used to visit the website (the public "
-"IP address).\n"
-"  </dd>"
+msgid "Whether or not Tor is being used."
 msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"Tor\n"
-"</dt>\n"
-"  <dd>\n"
-"    Whether or not Tor is being used.\n"
-"  </dd>"
-msgstr ""
-
-#: http://localhost/secure-connections/
-#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
 msgstr ""
 
@@ -1071,38 +1173,46 @@ msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
+msgid "Safest"
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
 msgid ""
-"<dl>\n"
-"<dt>\n"
-"Safest\n"
-"</dt>\n"
-"<dd>\n"
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
 "mathematical equations may not display properly; some font rendering "
 "features are disabled; some types of image are disabled; Javascript is "
 "disabled by default on all sites; most video and audio formats are disabled; "
-"and some fonts and icons may not display correctly.\n"
-"</dd>\n"
-"<dt>\n"
-"Safer\n"
-"</dt>\n"
-"<dd>\n"
+"and some fonts and icons may not display correctly."
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Safer"
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
 "mathematical equations may not display properly; some font rendering "
 "features are disabled; some types of image are disabled; and JavaScript is "
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
-"sites.\n"
-"</dd>\n"
-"<dt>\n"
-"Standard\n"
-"</dt>\n"
-"<dd>\n"
+"sites."
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Standard"
+msgstr ""
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
 "At this level, all browser features are enabled. This is the most usable "
-"option.\n"
-"</dd>\n"
-"</dl>"
+"option."
 msgstr ""
 
 #: http://localhost/security-slider/
@@ -1130,14 +1240,19 @@ msgstr ""
 msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released: the Torbutton icon will display a yellow triangle, and you "
-"may see a written update indicator when Tor Browser opens.\n"
-"You can update either automatically or manually."
+"may see a written update indicator when Tor Browser opens."
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
-msgid ""
-"##### Updating Tor Browser automatically\n"
-"  <img width=\"400\" src=\"media/updating/update1.png\" />"
+msgid "You can update either automatically or manually."
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
+msgid "##### Updating Tor Browser automatically"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
+msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
@@ -1147,7 +1262,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
-msgid "  <img width=\"600\" src=\"media/updating/update3.png\" />"
+msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
@@ -1157,8 +1272,11 @@ msgid ""
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
+msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
 msgid ""
-"  <img width=\"600\" src=\"media/updating/update4.png\" />\n"
 "Wait for the update to download and install, then restart Tor Browser. You "
 "will now be running the latest version."
 msgstr ""
@@ -1235,15 +1353,32 @@ msgstr ""
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript, accessible through the “S” "
-"icon at the top-right of the window. NoScript allows you to control the "
-"JavaScript (and other scripts) that runs on individual web pages, or block "
-"it entirely. <img class=\"col-md-6\" src=\"/static/images/noscript_menu.png"
-"\"> Users who require a high degree of security in their web browsing should "
-"set Tor Browser’s <a href=\"/security-slider\">Security Slider</a> to "
+"icon at the top-right of the window."
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"NoScript allows you to control the JavaScript (and other scripts) that runs "
+"on individual web pages, or block it entirely."
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Users who require a high degree of security in their web browsing should set "
+"Tor Browser’s <a href=\"/security-slider\">Security Slider</a> to "
 "“Safer” (which disables JavaScript for non-HTTPS websites) or "
-"“Safest” (which does so for all websites). However, disabling JavaScript "
-"will prevent many websites from displaying correctly, so Tor Browser’s "
-"default setting is to allow all websites to run scripts in \"Standard\" mode."
+"“Safest” (which does so for all websites)."
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"However, disabling JavaScript will prevent many websites from displaying "
+"correctly, so Tor Browser’s default setting is to allow all websites to run "
+"scripts in \"Standard\" mode."
 msgstr ""
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
@@ -1303,13 +1438,32 @@ msgstr ""
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
-"able to connect.\n"
+"able to connect."
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
-"if Tor Browser is running, restart your computer.\n"
+"if Tor Browser is running, restart your computer."
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
 "* Make sure that any antivirus program you have installed is not preventing "
 "Tor from running. You may need to consult the documentation for your "
-"antivirus software if you do not know how to do this.\n"
-"* Temporarily disable your firewall.\n"
+"antivirus software if you do not know how to do this."
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Temporarily disable your firewall."
+msgstr ""
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
 "* Delete Tor Browser and install it again. If updating, do not just "
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
@@ -1362,11 +1516,27 @@ msgstr ""
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
-"may need to be temporarily disabled:\n"
-"  * Webroot SecureAnywhere\n"
-"  * Kaspersky Internet Security 2012\n"
-"  * Sophos Antivirus for Mac\n"
-"  * Microsoft Security Essentials"
+"may need to be temporarily disabled:"
+msgstr ""
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Webroot SecureAnywhere"
+msgstr ""
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Kaspersky Internet Security 2012"
+msgstr ""
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Sophos Antivirus for Mac"
+msgstr ""
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Microsoft Security Essentials"
 msgstr ""
 
 #: http://localhost/known-issues/
@@ -1406,7 +1576,7 @@ msgstr ""
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
-msgid "\t./start-tor-browser.desktop"
+msgid "./start-tor-browser.desktop"
 msgstr ""
 
 #: http://localhost/known-issues/
@@ -1493,8 +1663,12 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
-"signup page</a>. Enter your information into the fields and click the 'Sign "
-"Up' button:"
+"signup page</a>."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr ""
 
 #: http://localhost/becoming-tor-translator/
@@ -1516,13 +1690,26 @@ msgstr ""
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "* On the next page, select 'Join an existing project' and continue."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
-"* On the next page, select 'Join an existing project' and continue.\n"
 "* On the next page, select the languages you speak from the drop-down menu "
-"and continue.\n"
+"and continue."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid ""
 "* You are now signed up! Go to the <a href=\"https://www.transifex.com/otf/"
-"torproject/\">Tor Transifex page</a>.\n"
-"* Click the blue 'Join Team' button on the far right:"
+"torproject/\">Tor Transifex page</a>."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
 
 #: http://localhost/becoming-tor-translator/

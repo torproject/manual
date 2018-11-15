@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-15 07:27+CET\n"
+"POT-Creation-Date: 2018-11-15 08:42+CET\n"
 "PO-Revision-Date: 2018-11-06 19:42+0000\n"
 "Last-Translator: emma peel <emmapeel@torproject.org>\n"
 "Language-Team: none\n"
@@ -453,10 +453,14 @@ msgstr ""
 "হবে। আপনার দুটি বিকল্প আছে:"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
+msgid "* Visit https://bridges.torproject.org/ and follow the instructions, or"
+msgstr ""
+
+#: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"* Visit https://bridges.torproject.org/ and follow the instructions, or\n"
 "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address"
 msgstr ""
+"* ইমেইল, bridges@torproject.org একটি জিমেইল, ইয়াহু, বা রিয়েপ ইমেল ঠিকানা, বা"
 
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid "##### Entering bridge addresses"
@@ -494,7 +498,11 @@ msgstr ""
 #: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Click “OK” to save your settings. Using bridges may slow down the connection "
-"compared to using ordinary Tor relays.\n"
+"compared to using ordinary Tor relays."
+msgstr ""
+
+#: http://localhost/bridges/ (content/bridges/contents+en.lr:topic.body)
+msgid ""
 "If the connection fails, the bridges you received may be down. Please use "
 "one of the above methods to obtain more bridge addresses, and try again."
 msgstr ""
@@ -536,69 +544,111 @@ msgid ""
 msgstr "বর্তমানে ছয়টি প্ল্যাগেবল ট্রান্সপোর্টগুলি পাওয়া যায়, তবে আরো উন্নত করা হচ্ছে।"
 
 #: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<table>"
+msgstr "<table>"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<tbody>"
+msgstr "<tbody>"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<tr class=\"odd\">"
+msgstr "<tr class=\"odd\">"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<td>"
+msgstr "<td>"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "obfs3"
+msgstr "obfs3"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</td>"
+msgstr "</td>"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
 msgid ""
-"<table>\n"
-"<tbody>\n"
-"<tr class=\"odd\">\n"
-"<td>\n"
-"obfs3\n"
-"</td>\n"
-"<td>\n"
 "obfs3 makes Tor traffic look random, so that it does not look like Tor or "
 "any other protocol. While still included by default, it is reccomended to "
-"use obfs4 instead, as it has several security improvements over obfs3.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"even\">\n"
-"<td>\n"
-"obfs4\n"
-"</td>\n"
-"<td>\n"
+"use obfs4 instead, as it has several security improvements over obfs3."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</tr>"
+msgstr "</tr>"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "<tr class=\"even\">"
+msgstr "<tr class=\"even\">"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "obfs4"
+msgstr "obfs4"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
 "from finding bridges by Internet scanning. obfs4 bridges are less likely to "
-"be blocked than obfs3 bridges.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"odd\">\n"
-"<td>\n"
-"Scramblesuit\n"
-"</td>\n"
-"<td>\n"
-"ScrambleSuit is similar to obfs4 but has a different set of bridges.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"even\">\n"
-"<td>\n"
-"FTE\n"
-"</td>\n"
-"<td>\n"
+"be blocked than obfs3 bridges."
+msgstr ""
+"obfs4 টর ট্র্যাফিকটি অ্যামফস 3 এর মতো র্যান্ডম দেখায়, এবং ইন্টারনেট স্ক্যানিং দ্বারা "
+"ব্রিজ খুঁজে পেতে সেন্সরগুলিকেও প্রতিরোধ করে। obfs4 ব্রিজ obfs3 ব্রিজের চেয়ে ব্লক করা "
+"সম্ভবত কম।"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "Scramblesuit"
+msgstr "Scramblesuit"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
+msgstr "ScrambleSuit obfs4 অনুরূপ কিন্তু ব্রিজ একটি ভিন্ন সেট আছে।"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "FTE"
+msgstr "FTE"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "FTE (format-transforming encryption) disguises Tor traffic as ordinary web "
-"(HTTP) traffic.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"odd\">\n"
-"<td>\n"
-"meek\n"
-"</td>\n"
-"<td>\n"
+"(HTTP) traffic."
+msgstr ""
+"FTE (ফরম্যাট-রূপান্তর এনক্রিপশন) সাধারণ ওয়েব (HTTP) ট্র্যাফিক হিসাবে টর ট্রাফিক "
+"ছদ্মবেশ।"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "meek"
+msgstr "meek"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
 "These transports all make it look like you are browsing a major web site "
 "instead of using Tor. meek-amazon makes it look like you are using Amazon "
 "Web Services; meek-azure makes it look like you are using a Microsoft web "
-"site; and meek-google makes it look like you are using Google search.\n"
-"</td>\n"
-"</tr>\n"
-"<tr class=\"even\">\n"
-"<td>\n"
-"Snowflake\n"
-"</td>\n"
-"<td>\n"
-"Snowflake is an improvement upon Flashproxy. It sends your traffic through "
-"WebRTC, a peer-to-peer protocol with built-in NAT punching.\n"
-"</td>\n"
-"</tr>\n"
-"</tbody>\n"
-"</table>"
+"site; and meek-google makes it look like you are using Google search."
 msgstr ""
+"এই সব transports আপনি টর ব্যবহার করার পরিবর্তে একটি প্রধান ওয়েব সাইট ব্রাউজ করা "
+"হয় মত দেখতে এটি। নমস্কার-আ্যামোজান এটি দেখায় যে আপনি অ্যামাজন ওয়েব পরিষেবা "
+"ব্যবহার করছেন; মেকার-অজর এটি একটি মাইক্রোসফ্ট ওয়েব সাইট ব্যবহার করে দেখায়; এবং "
+"নিখুঁত-গুগল এটি দেখায় যে আপনি গুগল অনুসন্ধান ব্যবহার করছেন।"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "Snowflake"
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid ""
+"Snowflake is an improvement upon Flashproxy. It sends your traffic through "
+"WebRTC, a peer-to-peer protocol with built-in NAT punching."
+msgstr ""
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</tbody>"
+msgstr "</tbody>"
+
+#: http://localhost/transports/ (content/transports/contents+en.lr:topic.body)
+msgid "</table>"
+msgstr "</table>"
 
 #: http://localhost/transports/
 #: (content/transports/contents+en.lr:topic.seo_slug)
@@ -863,7 +913,14 @@ msgstr ""
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
 "* See the  <a href=\"/secure-connections\">Secure Connections</a> page for "
-"important information on how to secure your connection when logging in.\n"
+"important information on how to secure your connection when logging in."
+msgstr ""
+"* লগ ইন ইন করার সময় কীভাবে আপনার সংযোগ সুরক্ষিত রাখতে গুরুত্বপূর্ণ তথ্যের <a href="
+"\"secure-connections\">নিরাপদ সংযোগগুলি</a> পৃষ্ঠাটি দেখুন।"
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
 "* Tor Browser often makes your connection appear as though it is coming from "
 "an entirely different part of the world. Some websites, such as banks or "
 "email providers, might interpret this as a sign that your account has been "
@@ -871,6 +928,11 @@ msgid ""
 "following the site’s recommended procedure for account recovery, or "
 "contacting the operators and explaining the situation."
 msgstr ""
+"* টর ব্রাউজার প্রায়ই আপনার সংযোগ প্রদর্শিত হয় যেন এটি বিশ্বের একটি সম্পূর্ণ ভিন্ন অংশ "
+"থেকে আসছে। কিছু ওয়েবসাইট, যেমন ব্যাঙ্ক বা ইমেল প্রদানকারী, আপনার অ্যাকাউন্ট হ্যাক "
+"বা আপোস করা হয়েছে এমন একটি চিহ্ন হিসাবে এটি ব্যাখ্যা করতে পারে, এবং আপনাকে লক "
+"আউট এটি সমাধান করার একমাত্র উপায় অ্যাকাউন্ট পুনরুদ্ধারের জন্য সাইটের প্রস্তাবিত পদ্ধতি "
+"অনুসরণ করে, বা অপারেটরদের সাথে যোগাযোগ করা এবং পরিস্থিতি ব্যাখ্যা করে।"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -897,13 +959,19 @@ msgstr "##### নতুন পরিচয়"
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
-"   This option is useful if you want to prevent your subsequent browser "
+"This option is useful if you want to prevent your subsequent browser "
 "activity from being linkable to what you were doing before. Selecting it "
 "will close all your open tabs and windows, clear all private information "
 "such as cookies and browsing history, and use new Tor circuits for all "
 "connections. Tor Browser will warn you that all activity and downloads will "
 "be stopped, so take this into account before clicking “New Identity”."
 msgstr ""
+"এই বিকল্পটি উপকারী যদি আপনি আপনার পরবর্তী ব্রাউজারের ক্রিয়াকলাপকে আপনি আগে কি "
+"করছেন তা লিঙ্কযোগ্য হতে প্রতিরোধ করতে চাইলে এটি নির্বাচন করলে আপনার সব খোলা ট্যাব "
+"এবং উইন্ডো বন্ধ হয়ে যাবে, কুকিজ এবং ব্রাউজিংয়ের ইতিহাসের মতো সমস্ত ব্যক্তিগত তথ্য "
+"মুছে ফেলা হবে এবং সমস্ত সংযোগগুলির জন্য নতুন টর সার্কিট ব্যবহার করবে। টর ব্রাউজার "
+"আপনাকে সতর্ক করবে যে সমস্ত কার্যকলাপ এবং ডাউনলোডগুলি বন্ধ হয়ে যাবে, তাই \"নতুন "
+"পরিচয়\" ক্লিক করার পূর্বে এটি বিবেচনা করুন।"
 
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
@@ -913,14 +981,19 @@ msgstr "##### এই সাইটের জন্য নতুন টর সা�
 #: http://localhost/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
-"   This option is useful if the <a href=\"/about/#how-tor-works\">exit "
-"relay</a> you are using is unable to connect to the website you require, or "
-"is not loading it properly. Selecting it will cause the currently-active tab "
-"or window to be reloaded over a new Tor circuit. Other open tabs and windows "
+"This option is useful if the <a href=\"/about/#how-tor-works\">exit relay</"
+"a> you are using is unable to connect to the website you require, or is not "
+"loading it properly. Selecting it will cause the currently-active tab or "
+"window to be reloaded over a new Tor circuit. Other open tabs and windows "
 "from the same website will use the new circuit as well once they are "
 "reloaded. This option does not clear any private information or unlink your "
-"activity, nor does it affect your current connections to other websites.\n"
-"   You can also access this option in the new circuit display, in the site "
+"activity, nor does it affect your current connections to other websites."
+msgstr ""
+
+#: http://localhost/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
 "information menu, in the URL bar."
 msgstr ""
 
@@ -961,15 +1034,33 @@ msgstr ""
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
 "* An onion services’s location and IP address are hidden, making it "
-"difficult for adversaries to censor it or identify its operators.\n"
+"difficult for adversaries to censor it or identify its operators."
+msgstr ""
+"* একটি onion পরিষেবাগুলির অবস্থান এবং IP ঠিকানা লুকানো আছে, বিরোধীদের পক্ষে এটি "
+"সেন্সর করা বা তার অপারেটরদের সনাক্ত করা কঠিন করে তোলে।"
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
 "* All traffic between Tor users and onion services is end-to-end encrypted, "
 "so you do not need to worry about <a href=\"/secure-connections\">connecting "
-"over HTTPS</a>.\n"
+"over HTTPS</a>."
+msgstr ""
+"* টর ব্যবহারকারীদের এবং onion পরিষেবাগুলির মধ্যে সমস্ত ট্র্যাফিক শেষ-থেকে-শেষ "
+"এনক্রিপ্ট হয়েছে, তাই আপনাকে <a href=\"/secure-connections\">HTTPS</a> এর সাথে "
+"সংযোগের বিষয়ে চিন্তা করতে হবে না।"
+
+#: http://localhost/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
 "* The address of an onion service is automatically generated, so the "
 "operators do not need to purchase a domain name; the .onion URL also helps "
 "Tor ensure that it is connecting to the right location and that the "
 "connection is not being tampered with."
 msgstr ""
+"* একটি onion পরিষেবা ঠিকানা স্বয়ংক্রিয়ভাবে উত্পন্ন হয়, তাই অপারেটর একটি ডোমেন "
+"নাম ক্রয় করতে হবে না; .ওন ইউআরএল টরকে নিশ্চিত করে যে এটি সঠিক অবস্থানের সাথে "
+"সংযোগ স্থাপন করছে এবং সংযোগ বিচ্ছিন্ন করা হচ্ছে না।"
 
 #: http://localhost/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
@@ -1081,15 +1172,38 @@ msgstr ""
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid ""
 "* Click the “Tor” button to see what data is visible to observers when "
-"you're using Tor. The button will turn green to indicate that Tor is on.\n"
+"you're using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+"* আপনি Tor ব্যবহার করছেন যখন পর্যবেক্ষক দৃশ্যমান কি দেখতে \"টর\" বোতাম ক্লিক করুন। "
+"যে টরটি চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
 "* Click the “HTTPS” button to see what data is visible to observers when "
-"you're using HTTPS. The button will turn green to indicate that HTTPS is "
-"on.\n"
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+"* আপনি যখন HTTPS ব্যবহার করছেন তখন পর্যবেক্ষকদের কাছে যে ডেটা দৃশ্যমান তা দেখতে "
+"\"HTTPS\" বোতামটি ক্লিক করুন। যে HTTPS চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ "
+"হয়ে যাবে।"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
 "* When both buttons are green, you see the data that is visible to observers "
-"when you are using both tools.\n"
+"when you are using both tools."
+msgstr ""
+"* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি ব্যবহার "
+"করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
 "* When both buttons are grey, you see the data that is visible to observers "
 "when you don't use either tool."
 msgstr ""
+"* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি ব্যবহার "
+"করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
@@ -1098,67 +1212,95 @@ msgstr "##### সম্ভাব্য দৃশ্যমান ডেটা"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
 msgid "<dl>"
 msgstr "<dl>"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"Site.com\n"
-"</dt>\n"
-"  <dd>\n"
-"    The site being visited.\n"
-"  </dd>"
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dt>"
+msgstr "<dt>"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Site.com"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dt>"
+msgstr "</dt>"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "<dd>"
+msgstr "<dd>"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "The site being visited."
+msgstr "সাইট পরিদর্শন করা হচ্ছে।"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "</dd>"
+msgstr "</dd>"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "user / pw"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Username and password used for authentication."
+msgstr "ব্যবহারকারীর নাম এবং পাসওয়ার্ড প্রমাণীকরণের জন্য ব্যবহৃত।"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "data"
+msgstr ""
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "Data being transmitted."
+msgstr "তথ্য প্রেরণ করা হচ্ছে।"
+
+#: http://localhost/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid "location"
 msgstr ""
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
 msgid ""
-"<dt>\n"
-"user / pw\n"
-"</dt>\n"
-"  <dd>\n"
-"    Username and password used for authentication.\n"
-"  </dd>"
-msgstr ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr "ওয়েবসাইটের জন্য ব্যবহৃত কম্পিউটারের নেটওয়ার্ক স্থান (পাবলিক আইপি ঠিকানা)।"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"data\n"
-"</dt>\n"
-"  <dd>\n"
-"    Data being transmitted.\n"
-"  </dd>"
-msgstr ""
+msgid "Tor"
+msgstr "Tor"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"location\n"
-"</dt>\n"
-"  <dd>\n"
-"    Network location of the computer used to visit the website (the public "
-"IP address).\n"
-"  </dd>"
-msgstr ""
+msgid "Whether or not Tor is being used."
+msgstr "টর্চ ব্যবহার করা হচ্ছে কিনা বা না।"
 
 #: http://localhost/secure-connections/
 #: (content/secure-connections/contents+en.lr:topic.body)
-msgid ""
-"<dt>\n"
-"Tor\n"
-"</dt>\n"
-"  <dd>\n"
-"    Whether or not Tor is being used.\n"
-"  </dd>"
-msgstr ""
-
-#: http://localhost/secure-connections/
-#: (content/secure-connections/contents+en.lr:topic.body)
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
 msgid "</dl>"
 msgstr "</dl>"
 
@@ -1228,39 +1370,58 @@ msgstr ""
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.body)
+msgid "Safest"
+msgstr "নিরাপদ"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
 msgid ""
-"<dl>\n"
-"<dt>\n"
-"Safest\n"
-"</dt>\n"
-"<dd>\n"
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
 "mathematical equations may not display properly; some font rendering "
 "features are disabled; some types of image are disabled; Javascript is "
 "disabled by default on all sites; most video and audio formats are disabled; "
-"and some fonts and icons may not display correctly.\n"
-"</dd>\n"
-"<dt>\n"
-"Safer\n"
-"</dt>\n"
-"<dd>\n"
+"and some fonts and icons may not display correctly."
+msgstr ""
+"এই স্তরে, HTML5 ভিডিও এবং অডিও মিডিয়া নোটসপের মাধ্যমে ক্লিক করার জন্য ক্লিক করে; "
+"সমস্ত জাভাস্ক্রিপ্ট অপ্টিমাইজেশন নিষ্ক্রিয় করা হয় কিছু গাণিতিক সমীকরণ সঠিকভাবে "
+"প্রদর্শন করতে পারে না; কিছু ফন্ট রেন্ডারিং বৈশিষ্ট্য নিষ্ক্রিয় করা হয়; কিছু ধরনের ইমেজ "
+"অক্ষম করা হয়; জাভাস্ক্রিপ্ট সমস্ত সাইট ডিফল্ট দ্বারা অক্ষম করা হয়; অধিকাংশ ভিডিও এবং "
+"অডিও ফরম্যাট অক্ষম; এবং কিছু ফন্ট এবং আইকন সঠিকভাবে প্রদর্শন করতে পারে না।"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Safer"
+msgstr "নিরাপদ"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
 "At this level, HTML5 video and audio media become click-to-play via "
 "NoScript; all JavaScript performance optimizations are disabled; some "
 "mathematical equations may not display properly; some font rendering "
 "features are disabled; some types of image are disabled; and JavaScript is "
 "disabled by default on all non-<a href=\"/secure-connections\">HTTPS</a> "
-"sites.\n"
-"</dd>\n"
-"<dt>\n"
-"Standard\n"
-"</dt>\n"
-"<dd>\n"
-"At this level, all browser features are enabled. This is the most usable "
-"option.\n"
-"</dd>\n"
-"</dl>"
+"sites."
 msgstr ""
+"এই স্তরে, HTML5 ভিডিও এবং অডিও মিডিয়া নোটসপের মাধ্যমে ক্লিক করার জন্য ক্লিক করে; "
+"সমস্ত জাভাস্ক্রিপ্ট অপ্টিমাইজেশন নিষ্ক্রিয় করা হয় কিছু গাণিতিক সমীকরণ সঠিকভাবে "
+"প্রদর্শন করতে পারে না; কিছু ফন্ট রেন্ডারিং বৈশিষ্ট্য নিষ্ক্রিয় করা হয়; কিছু ধরনের ইমেজ "
+"অক্ষম করা হয়; এবং সমস্ত অ-<a href=\"/secure-connections\">HTTPS</a> সাইটগুলিতে "
+"ডিফল্টভাবে জাভাস্ক্রিপ্ট নিষ্ক্রিয় করা আছে।"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid "Standard"
+msgstr "মান"
+
+#: http://localhost/security-slider/
+#: (content/security-slider/contents+en.lr:topic.body)
+msgid ""
+"At this level, all browser features are enabled. This is the most usable "
+"option."
+msgstr ""
+"এই স্তরে, সমস্ত ব্রাউজার বৈশিষ্ট্য সক্ষম করা আছে। এটি সবচেয়ে ব্যবহারযোগ্য বিকল্প।"
 
 #: http://localhost/security-slider/
 #: (content/security-slider/contents+en.lr:topic.seo_slug)
@@ -1287,14 +1448,19 @@ msgstr ""
 msgid ""
 "Tor Browser will prompt you to update the software once a new version has "
 "been released: the Torbutton icon will display a yellow triangle, and you "
-"may see a written update indicator when Tor Browser opens.\n"
-"You can update either automatically or manually."
+"may see a written update indicator when Tor Browser opens."
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
-msgid ""
-"##### Updating Tor Browser automatically\n"
-"  <img width=\"400\" src=\"media/updating/update1.png\" />"
+msgid "You can update either automatically or manually."
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
+msgid "##### Updating Tor Browser automatically"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
+msgid "<img width=\"400\" src=\"media/updating/update1.png\" />"
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
@@ -1304,7 +1470,7 @@ msgid ""
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
-msgid "  <img width=\"600\" src=\"media/updating/update3.png\" />"
+msgid "<img width=\"600\" src=\"media/updating/update3.png\" />"
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
@@ -1314,8 +1480,11 @@ msgid ""
 msgstr ""
 
 #: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
+msgid "<img width=\"600\" src=\"media/updating/update4.png\" />"
+msgstr ""
+
+#: http://localhost/updating/ (content/updating/contents+en.lr:topic.body)
 msgid ""
-"  <img width=\"600\" src=\"media/updating/update4.png\" />\n"
 "Wait for the update to download and install, then restart Tor Browser. You "
 "will now be running the latest version."
 msgstr ""
@@ -1404,15 +1573,32 @@ msgstr ""
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript, accessible through the “S” "
-"icon at the top-right of the window. NoScript allows you to control the "
-"JavaScript (and other scripts) that runs on individual web pages, or block "
-"it entirely. <img class=\"col-md-6\" src=\"/static/images/noscript_menu.png"
-"\"> Users who require a high degree of security in their web browsing should "
-"set Tor Browser’s <a href=\"/security-slider\">Security Slider</a> to "
+"icon at the top-right of the window."
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"NoScript allows you to control the JavaScript (and other scripts) that runs "
+"on individual web pages, or block it entirely."
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid "<img class=\"col-md-6\" src=\"/static/images/noscript_menu.png\">"
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Users who require a high degree of security in their web browsing should set "
+"Tor Browser’s <a href=\"/security-slider\">Security Slider</a> to "
 "“Safer” (which disables JavaScript for non-HTTPS websites) or "
-"“Safest” (which does so for all websites). However, disabling JavaScript "
-"will prevent many websites from displaying correctly, so Tor Browser’s "
-"default setting is to allow all websites to run scripts in \"Standard\" mode."
+"“Safest” (which does so for all websites)."
+msgstr ""
+
+#: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"However, disabling JavaScript will prevent many websites from displaying "
+"correctly, so Tor Browser’s default setting is to allow all websites to run "
+"scripts in \"Standard\" mode."
 msgstr ""
 
 #: http://localhost/plugins/ (content/plugins/contents+en.lr:topic.body)
@@ -1484,17 +1670,45 @@ msgstr ""
 #: (content/troubleshooting/contents+en.lr:topic.body)
 msgid ""
 "* Your computer’s system clock must be set correctly, or Tor will not be "
-"able to connect.\n"
+"able to connect."
+msgstr ""
+"* আপনার কম্পিউটারের সিস্টেম ঘড়ি সঠিকভাবে সেট করা উচিত, অথবা Tor সংযোগ করতে "
+"সক্ষম হবে না।"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
 "* Make sure another Tor Browser is not already running. If you’re not sure "
-"if Tor Browser is running, restart your computer.\n"
+"if Tor Browser is running, restart your computer."
+msgstr ""
+"* অন্য টর ব্রাউজার ইতিমধ্যে চলছে না নিশ্চিত করুন। টর ব্রাউজার চলছে কিনা তা নিশ্চিত "
+"না হলে আপনার কম্পিউটার পুনরায় চালু করুন।"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
 "* Make sure that any antivirus program you have installed is not preventing "
 "Tor from running. You may need to consult the documentation for your "
-"antivirus software if you do not know how to do this.\n"
-"* Temporarily disable your firewall.\n"
+"antivirus software if you do not know how to do this."
+msgstr ""
+"* নিশ্চিত করুন যে আপনি যে কোনও অ্যান্টিভাইরাস প্রোগ্রাম ইনস্টল করেছেন সেটি টরকে "
+"চলমান থেকে বিরত করা হচ্ছে না। আপনার অ্যান্টিভাইরাস সফটওয়্যারের জন্য ডকুমেন্টেশনের "
+"সাথে পরামর্শ করতে হবে যদি আপনি এটি কিভাবে করতে না জানেন।"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Temporarily disable your firewall."
+msgstr "* অস্থায়ীভাবে আপনার ফায়ারওয়াল অক্ষম করুন।"
+
+#: http://localhost/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
 "* Delete Tor Browser and install it again. If updating, do not just "
 "overwrite your previous Tor Browser files; ensure they are fully deleted "
 "beforehand."
 msgstr ""
+"* টর ব্রাউজার মুছুন এবং এটি আবার ইনস্টল করুন। আপডেট করলে, শুধু আপনার পূর্বের টর "
+"ব্রাউজার ফাইলগুলিকে ওভাররাইট করবেন না; তারা পুরোপুরি পুরোপুরি মুছে ফেলা হয় নিশ্চিত।"
 
 #: http://localhost/troubleshooting/
 #: (content/troubleshooting/contents+en.lr:topic.body)
@@ -1545,12 +1759,30 @@ msgstr "* টর আপনার সিস্টেম ঘড়ি প্রয
 #: (content/known-issues/contents+en.lr:topic.body)
 msgid ""
 "* The following firewall software have been known to interfere with Tor and "
-"may need to be temporarily disabled:\n"
-"  * Webroot SecureAnywhere\n"
-"  * Kaspersky Internet Security 2012\n"
-"  * Sophos Antivirus for Mac\n"
-"  * Microsoft Security Essentials"
+"may need to be temporarily disabled:"
 msgstr ""
+"* নিম্নলিখিত ফায়ারওয়াল সফ্টওয়্যার টর মধ্যে হস্তক্ষেপ পরিচিত হয়েছে এবং সাময়িকভাবে "
+"অক্ষম করা প্রয়োজন হতে পারে:"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Webroot SecureAnywhere"
+msgstr "* Webroot Secure Anywhere"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Kaspersky Internet Security 2012"
+msgstr "* Kaspersky Internet Security 2012"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Sophos Antivirus for Mac"
+msgstr "* ম্যাকের জন্য সোফোস অ্যান্টিভাইরাস"
+
+#: http://localhost/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Microsoft Security Essentials"
+msgstr "* Microsoft Security Essentials"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
@@ -1599,8 +1831,8 @@ msgstr ""
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.body)
-msgid "\t./start-tor-browser.desktop"
-msgstr ""
+msgid "./start-tor-browser.desktop"
+msgstr "./start-tor-browser.desktop"
 
 #: http://localhost/known-issues/
 #: (content/known-issues/contents+en.lr:topic.seo_slug)
@@ -1692,8 +1924,12 @@ msgstr ""
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
 "* Head over to the <a href=\"https://transifex.com/signup/\">Transifex "
-"signup page</a>. Enter your information into the fields and click the 'Sign "
-"Up' button:"
+"signup page</a>."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "Enter your information into the fields and click the 'Sign Up' button:"
 msgstr ""
 
 #: http://localhost/becoming-tor-translator/
@@ -1715,13 +1951,26 @@ msgstr ""
 
 #: http://localhost/becoming-tor-translator/
 #: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "* On the next page, select 'Join an existing project' and continue."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
 msgid ""
-"* On the next page, select 'Join an existing project' and continue.\n"
 "* On the next page, select the languages you speak from the drop-down menu "
-"and continue.\n"
+"and continue."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid ""
 "* You are now signed up! Go to the <a href=\"https://www.transifex.com/otf/"
-"torproject/\">Tor Transifex page</a>.\n"
-"* Click the blue 'Join Team' button on the far right:"
+"torproject/\">Tor Transifex page</a>."
+msgstr ""
+
+#: http://localhost/becoming-tor-translator/
+#: (content/becoming-tor-translator/contents+en.lr:topic.body)
+msgid "* Click the blue 'Join Team' button on the far right:"
 msgstr ""
 
 #: http://localhost/becoming-tor-translator/
@@ -1836,312 +2085,6 @@ msgstr "পার্মালিঙ্ক"
 #~ "বন্ধ করে দিতে পারে। সংযোগ ব্যর্থ হলে, আপনি যে ব্রিজগুলি পেয়েছেন তা নিচে হতে "
 #~ "পারে। আরও সেতু ঠিকানা প্রাপ্ত করার জন্য উপরের পদ্ধতিগুলির একটি ব্যবহার করুন, এবং "
 #~ "আবার চেষ্টা করুন।"
-
-#~ msgid "<dd>"
-#~ msgstr "<dd>"
-
-#~ msgid ""
-#~ "FTE (format-transforming encryption) disguises Tor traffic as ordinary "
-#~ "web (HTTP) traffic."
-#~ msgstr ""
-#~ "FTE (ফরম্যাট-রূপান্তর এনক্রিপশন) সাধারণ ওয়েব (HTTP) ট্র্যাফিক হিসাবে টর ট্রাফিক "
-#~ "ছদ্মবেশ।"
-
-#~ msgid "Standard"
-#~ msgstr "মান"
-
-#~ msgid "<dt>"
-#~ msgstr "<dt>"
-
-#~ msgid "ScrambleSuit is similar to obfs4 but has a different set of bridges."
-#~ msgstr "ScrambleSuit obfs4 অনুরূপ কিন্তু ব্রিজ একটি ভিন্ন সেট আছে।"
-
-#~ msgid "<td>"
-#~ msgstr "<td>"
-
-#~ msgid "</td>"
-#~ msgstr "</td>"
-
-#~ msgid "Safer"
-#~ msgstr "নিরাপদ"
-
-#~ msgid "obfs3"
-#~ msgstr "obfs3"
-
-#~ msgid ""
-#~ "* Tor Browser often makes your connection appear as though it is coming "
-#~ "from an entirely different part of the world. Some websites, such as "
-#~ "banks or email providers, might interpret this as a sign that your "
-#~ "account has been hacked or compromised, and lock you out. The only way to "
-#~ "resolve this is by following the site’s recommended procedure for account "
-#~ "recovery, or contacting the operators and explaining the situation."
-#~ msgstr ""
-#~ "* টর ব্রাউজার প্রায়ই আপনার সংযোগ প্রদর্শিত হয় যেন এটি বিশ্বের একটি সম্পূর্ণ ভিন্ন "
-#~ "অংশ থেকে আসছে। কিছু ওয়েবসাইট, যেমন ব্যাঙ্ক বা ইমেল প্রদানকারী, আপনার অ্যাকাউন্ট "
-#~ "হ্যাক বা আপোস করা হয়েছে এমন একটি চিহ্ন হিসাবে এটি ব্যাখ্যা করতে পারে, এবং "
-#~ "আপনাকে লক আউট এটি সমাধান করার একমাত্র উপায় অ্যাকাউন্ট পুনরুদ্ধারের জন্য সাইটের "
-#~ "প্রস্তাবিত পদ্ধতি অনুসরণ করে, বা অপারেটরদের সাথে যোগাযোগ করা এবং পরিস্থিতি "
-#~ "ব্যাখ্যা করে।"
-
-#~ msgid "obfs4"
-#~ msgstr "obfs4"
-
-#~ msgid "./start-tor-browser.desktop"
-#~ msgstr "./start-tor-browser.desktop"
-
-#~ msgid ""
-#~ "* An onion services’s location and IP address are hidden, making it "
-#~ "difficult for adversaries to censor it or identify its operators."
-#~ msgstr ""
-#~ "* একটি onion পরিষেবাগুলির অবস্থান এবং IP ঠিকানা লুকানো আছে, বিরোধীদের পক্ষে "
-#~ "এটি সেন্সর করা বা তার অপারেটরদের সনাক্ত করা কঠিন করে তোলে।"
-
-#~ msgid "</dt>"
-#~ msgstr "</dt>"
-
-#~ msgid "<tr class=\"even\">"
-#~ msgstr "<tr class=\"even\">"
-
-#~ msgid ""
-#~ "This option is useful if you want to prevent your subsequent browser "
-#~ "activity from being linkable to what you were doing before. Selecting it "
-#~ "will close all your open tabs and windows, clear all private information "
-#~ "such as cookies and browsing history, and use new Tor circuits for all "
-#~ "connections. Tor Browser will warn you that all activity and downloads "
-#~ "will be stopped, so take this into account before clicking “New Identity”."
-#~ msgstr ""
-#~ "এই বিকল্পটি উপকারী যদি আপনি আপনার পরবর্তী ব্রাউজারের ক্রিয়াকলাপকে আপনি আগে কি "
-#~ "করছেন তা লিঙ্কযোগ্য হতে প্রতিরোধ করতে চাইলে এটি নির্বাচন করলে আপনার সব খোলা "
-#~ "ট্যাব এবং উইন্ডো বন্ধ হয়ে যাবে, কুকিজ এবং ব্রাউজিংয়ের ইতিহাসের মতো সমস্ত "
-#~ "ব্যক্তিগত তথ্য মুছে ফেলা হবে এবং সমস্ত সংযোগগুলির জন্য নতুন টর সার্কিট ব্যবহার "
-#~ "করবে। টর ব্রাউজার আপনাকে সতর্ক করবে যে সমস্ত কার্যকলাপ এবং ডাউনলোডগুলি বন্ধ হয়ে "
-#~ "যাবে, তাই \"নতুন পরিচয়\" ক্লিক করার পূর্বে এটি বিবেচনা করুন।"
-
-#~ msgid ""
-#~ "These transports all make it look like you are browsing a major web site "
-#~ "instead of using Tor. meek-amazon makes it look like you are using Amazon "
-#~ "Web Services; meek-azure makes it look like you are using a Microsoft web "
-#~ "site; and meek-google makes it look like you are using Google search."
-#~ msgstr ""
-#~ "এই সব transports আপনি টর ব্যবহার করার পরিবর্তে একটি প্রধান ওয়েব সাইট ব্রাউজ "
-#~ "করা হয় মত দেখতে এটি। নমস্কার-আ্যামোজান এটি দেখায় যে আপনি অ্যামাজন ওয়েব "
-#~ "পরিষেবা ব্যবহার করছেন; মেকার-অজর এটি একটি মাইক্রোসফ্ট ওয়েব সাইট ব্যবহার করে "
-#~ "দেখায়; এবং নিখুঁত-গুগল এটি দেখায় যে আপনি গুগল অনুসন্ধান ব্যবহার করছেন।"
-
-#~ msgid "* Kaspersky Internet Security 2012"
-#~ msgstr "* Kaspersky Internet Security 2012"
-
-#~ msgid ""
-#~ "Network location of the computer used to visit the website (the public IP "
-#~ "address)."
-#~ msgstr "ওয়েবসাইটের জন্য ব্যবহৃত কম্পিউটারের নেটওয়ার্ক স্থান (পাবলিক আইপি ঠিকানা)।"
-
-#~ msgid "Safest"
-#~ msgstr "নিরাপদ"
-
-#~ msgid "The site being visited."
-#~ msgstr "সাইট পরিদর্শন করা হচ্ছে।"
-
-#~ msgid ""
-#~ "At this level, HTML5 video and audio media become click-to-play via "
-#~ "NoScript; all JavaScript performance optimizations are disabled; some "
-#~ "mathematical equations may not display properly; some font rendering "
-#~ "features are disabled; some types of image are disabled; Javascript is "
-#~ "disabled by default on all sites; most video and audio formats are "
-#~ "disabled; and some fonts and icons may not display correctly."
-#~ msgstr ""
-#~ "এই স্তরে, HTML5 ভিডিও এবং অডিও মিডিয়া নোটসপের মাধ্যমে ক্লিক করার জন্য ক্লিক "
-#~ "করে; সমস্ত জাভাস্ক্রিপ্ট অপ্টিমাইজেশন নিষ্ক্রিয় করা হয় কিছু গাণিতিক সমীকরণ "
-#~ "সঠিকভাবে প্রদর্শন করতে পারে না; কিছু ফন্ট রেন্ডারিং বৈশিষ্ট্য নিষ্ক্রিয় করা হয়; "
-#~ "কিছু ধরনের ইমেজ অক্ষম করা হয়; জাভাস্ক্রিপ্ট সমস্ত সাইট ডিফল্ট দ্বারা অক্ষম করা হয়; "
-#~ "অধিকাংশ ভিডিও এবং অডিও ফরম্যাট অক্ষম; এবং কিছু ফন্ট এবং আইকন সঠিকভাবে প্রদর্শন "
-#~ "করতে পারে না।"
-
-#~ msgid "</tbody>"
-#~ msgstr "</tbody>"
-
-#~ msgid "* Webroot SecureAnywhere"
-#~ msgstr "* Webroot Secure Anywhere"
-
-#~ msgid "<tr class=\"odd\">"
-#~ msgstr "<tr class=\"odd\">"
-
-#~ msgid "FTE"
-#~ msgstr "FTE"
-
-#~ msgid ""
-#~ "* When both buttons are green, you see the data that is visible to "
-#~ "observers when you are using both tools."
-#~ msgstr ""
-#~ "* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি "
-#~ "ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
-
-#~ msgid "Tor"
-#~ msgstr "Tor"
-
-#~ msgid "</dd>"
-#~ msgstr "</dd>"
-
-#~ msgid ""
-#~ "* Delete Tor Browser and install it again. If updating, do not just "
-#~ "overwrite your previous Tor Browser files; ensure they are fully deleted "
-#~ "beforehand."
-#~ msgstr ""
-#~ "* টর ব্রাউজার মুছুন এবং এটি আবার ইনস্টল করুন। আপডেট করলে, শুধু আপনার পূর্বের টর "
-#~ "ব্রাউজার ফাইলগুলিকে ওভাররাইট করবেন না; তারা পুরোপুরি পুরোপুরি মুছে ফেলা হয় "
-#~ "নিশ্চিত।"
-
-#~ msgid ""
-#~ "At this level, all browser features are enabled. This is the most usable "
-#~ "option."
-#~ msgstr ""
-#~ "এই স্তরে, সমস্ত ব্রাউজার বৈশিষ্ট্য সক্ষম করা আছে। এটি সবচেয়ে ব্যবহারযোগ্য বিকল্প।"
-
-#~ msgid ""
-#~ "* Your computer’s system clock must be set correctly, or Tor will not be "
-#~ "able to connect."
-#~ msgstr ""
-#~ "* আপনার কম্পিউটারের সিস্টেম ঘড়ি সঠিকভাবে সেট করা উচিত, অথবা Tor সংযোগ করতে "
-#~ "সক্ষম হবে না।"
-
-#~ msgid ""
-#~ "* Make sure that any antivirus program you have installed is not "
-#~ "preventing Tor from running. You may need to consult the documentation "
-#~ "for your antivirus software if you do not know how to do this."
-#~ msgstr ""
-#~ "* নিশ্চিত করুন যে আপনি যে কোনও অ্যান্টিভাইরাস প্রোগ্রাম ইনস্টল করেছেন সেটি টরকে "
-#~ "চলমান থেকে বিরত করা হচ্ছে না। আপনার অ্যান্টিভাইরাস সফটওয়্যারের জন্য "
-#~ "ডকুমেন্টেশনের সাথে পরামর্শ করতে হবে যদি আপনি এটি কিভাবে করতে না জানেন।"
-
-#~ msgid "</tr>"
-#~ msgstr "</tr>"
-
-#~ msgid "Whether or not Tor is being used."
-#~ msgstr "টর্চ ব্যবহার করা হচ্ছে কিনা বা না।"
-
-#~ msgid "Data being transmitted."
-#~ msgstr "তথ্য প্রেরণ করা হচ্ছে।"
-
-#~ msgid ""
-#~ "* The address of an onion service is automatically generated, so the "
-#~ "operators do not need to purchase a domain name; the .onion URL also "
-#~ "helps Tor ensure that it is connecting to the right location and that the "
-#~ "connection is not being tampered with."
-#~ msgstr ""
-#~ "* একটি onion পরিষেবা ঠিকানা স্বয়ংক্রিয়ভাবে উত্পন্ন হয়, তাই অপারেটর একটি ডোমেন "
-#~ "নাম ক্রয় করতে হবে না; .ওন ইউআরএল টরকে নিশ্চিত করে যে এটি সঠিক অবস্থানের সাথে "
-#~ "সংযোগ স্থাপন করছে এবং সংযোগ বিচ্ছিন্ন করা হচ্ছে না।"
-
-#~ msgid ""
-#~ "* Make sure another Tor Browser is not already running. If you’re not "
-#~ "sure if Tor Browser is running, restart your computer."
-#~ msgstr ""
-#~ "* অন্য টর ব্রাউজার ইতিমধ্যে চলছে না নিশ্চিত করুন। টর ব্রাউজার চলছে কিনা তা "
-#~ "নিশ্চিত না হলে আপনার কম্পিউটার পুনরায় চালু করুন।"
-
-#~ msgid ""
-#~ "obfs4 makes Tor traffic look random like obfs3, and also prevents censors "
-#~ "from finding bridges by Internet scanning. obfs4 bridges are less likely "
-#~ "to be blocked than obfs3 bridges."
-#~ msgstr ""
-#~ "obfs4 টর ট্র্যাফিকটি অ্যামফস 3 এর মতো র্যান্ডম দেখায়, এবং ইন্টারনেট স্ক্যানিং "
-#~ "দ্বারা ব্রিজ খুঁজে পেতে সেন্সরগুলিকেও প্রতিরোধ করে। obfs4 ব্রিজ obfs3 ব্রিজের চেয়ে "
-#~ "ব্লক করা সম্ভবত কম।"
-
-#~ msgid ""
-#~ "* Click the “Tor” button to see what data is visible to observers when "
-#~ "you're using Tor. The button will turn green to indicate that Tor is on."
-#~ msgstr ""
-#~ "* আপনি Tor ব্যবহার করছেন যখন পর্যবেক্ষক দৃশ্যমান কি দেখতে \"টর\" বোতাম ক্লিক "
-#~ "করুন। যে টরটি চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।"
-
-#~ msgid "meek"
-#~ msgstr "meek"
-
-#~ msgid ""
-#~ "At this level, HTML5 video and audio media become click-to-play via "
-#~ "NoScript; all JavaScript performance optimizations are disabled; some "
-#~ "mathematical equations may not display properly; some font rendering "
-#~ "features are disabled; some types of image are disabled; and JavaScript "
-#~ "is disabled by default on all non-<a href=\"/secure-connections\">HTTPS</"
-#~ "a> sites."
-#~ msgstr ""
-#~ "এই স্তরে, HTML5 ভিডিও এবং অডিও মিডিয়া নোটসপের মাধ্যমে ক্লিক করার জন্য ক্লিক "
-#~ "করে; সমস্ত জাভাস্ক্রিপ্ট অপ্টিমাইজেশন নিষ্ক্রিয় করা হয় কিছু গাণিতিক সমীকরণ "
-#~ "সঠিকভাবে প্রদর্শন করতে পারে না; কিছু ফন্ট রেন্ডারিং বৈশিষ্ট্য নিষ্ক্রিয় করা হয়; "
-#~ "কিছু ধরনের ইমেজ অক্ষম করা হয়; এবং সমস্ত অ-<a href=\"/secure-connections"
-#~ "\">HTTPS</a> সাইটগুলিতে ডিফল্টভাবে জাভাস্ক্রিপ্ট নিষ্ক্রিয় করা আছে।"
-
-#~ msgid "* Temporarily disable your firewall."
-#~ msgstr "* অস্থায়ীভাবে আপনার ফায়ারওয়াল অক্ষম করুন।"
-
-#~ msgid "<table>"
-#~ msgstr "<table>"
-
-#~ msgid "* Microsoft Security Essentials"
-#~ msgstr "* Microsoft Security Essentials"
-
-#~ msgid "</table>"
-#~ msgstr "</table>"
-
-#~ msgid "<tbody>"
-#~ msgstr "<tbody>"
-
-#~ msgid "Scramblesuit"
-#~ msgstr "Scramblesuit"
-
-#~ msgid ""
-#~ "* See the  <a href=\"/secure-connections\">Secure Connections</a> page "
-#~ "for important information on how to secure your connection when logging "
-#~ "in."
-#~ msgstr ""
-#~ "* লগ ইন ইন করার সময় কীভাবে আপনার সংযোগ সুরক্ষিত রাখতে গুরুত্বপূর্ণ তথ্যের <a href="
-#~ "\"secure-connections\">নিরাপদ সংযোগগুলি</a> পৃষ্ঠাটি দেখুন।"
-
-#~ msgid "* Sophos Antivirus for Mac"
-#~ msgstr "* ম্যাকের জন্য সোফোস অ্যান্টিভাইরাস"
-
-#~ msgid ""
-#~ "* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email "
-#~ "address"
-#~ msgstr ""
-#~ "* ইমেইল, bridges@torproject.org একটি জিমেইল, ইয়াহু, বা রিয়েপ ইমেল ঠিকানা, "
-#~ "বা"
-
-#~ msgid ""
-#~ "* When both buttons are grey, you see the data that is visible to "
-#~ "observers when you don't use either tool."
-#~ msgstr ""
-#~ "* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি "
-#~ "ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।"
-
-#~ msgid "Username and password used for authentication."
-#~ msgstr "ব্যবহারকারীর নাম এবং পাসওয়ার্ড প্রমাণীকরণের জন্য ব্যবহৃত।"
-
-#~ msgid ""
-#~ "* All traffic between Tor users and onion services is end-to-end "
-#~ "encrypted, so you do not need to worry about <a href=\"/secure-connections"
-#~ "\">connecting over HTTPS</a>."
-#~ msgstr ""
-#~ "* টর ব্যবহারকারীদের এবং onion পরিষেবাগুলির মধ্যে সমস্ত ট্র্যাফিক শেষ-থেকে-শেষ "
-#~ "এনক্রিপ্ট হয়েছে, তাই আপনাকে <a href=\"/secure-connections\">HTTPS</a> এর "
-#~ "সাথে সংযোগের বিষয়ে চিন্তা করতে হবে না।"
-
-#~ msgid ""
-#~ "* The following firewall software have been known to interfere with Tor "
-#~ "and may need to be temporarily disabled:"
-#~ msgstr ""
-#~ "* নিম্নলিখিত ফায়ারওয়াল সফ্টওয়্যার টর মধ্যে হস্তক্ষেপ পরিচিত হয়েছে এবং "
-#~ "সাময়িকভাবে অক্ষম করা প্রয়োজন হতে পারে:"
-
-#~ msgid ""
-#~ "* Click the “HTTPS” button to see what data is visible to observers when "
-#~ "you're using HTTPS. The button will turn green to indicate that HTTPS is "
-#~ "on."
-#~ msgstr ""
-#~ "* আপনি যখন HTTPS ব্যবহার করছেন তখন পর্যবেক্ষকদের কাছে যে ডেটা দৃশ্যমান তা "
-#~ "দেখতে \"HTTPS\" বোতামটি ক্লিক করুন। যে HTTPS চালু আছে তা নির্দেশ করার জন্য "
-#~ "বোতামটি সবুজ হয়ে যাবে।"
 
 #~ msgid "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC."
 #~ msgstr ""
