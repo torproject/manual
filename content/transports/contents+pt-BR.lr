@@ -19,26 +19,26 @@ Atualmente, há seis transportadores plugáveis disponíveis e outros estão sen
 <tbody>
 <tr class="odd">
 <td>
-obfs3
+    obfs3
 </td>
 <td>
-O obfs3 confere uma aparência aleatória ao tráfego do Tor, de modo que ele não seja identificável como pertencente ao Tor ou a qualquer outro protocolo. Embora ainda seja incluído por padrão, recomendamos que você o substitua pelo obfs4 devido a seus diversos aperfeiçoamentos de segurança em relação ao obfs3.
+    O obfs3 confere uma aparência aleatória ao tráfego do Tor, de modo que ele não seja identificável como pertencente ao Tor ou a qualquer outro protocolo. Embora ainda seja incluído por padrão, recomendamos que você o substitua pelo obfs4 devido a seus diversos aperfeiçoamentos de segurança em relação ao obfs3.
 </td>
 </tr>
 <tr class="even">
 <td>
-obfs4
+    obfs4
 </td>
 <td>
-obfs4 faz com que o tráfego do Tor pareça aleatório, assim como obfs3. Além disso, ele impede que censores encontrem pontes por meio de uma varredura na Internet. Pontes obfs4 têm menos chances de serem bloqueadas do que pontes obfs3.
+    obfs4 faz com que o tráfego do Tor pareça aleatório, assim como obfs3. Além disso, ele impede que censores encontrem pontes por meio de uma varredura na Internet. Pontes obfs4 têm menos chances de serem bloqueadas do que pontes obfs3.
 </td>
 </tr>
 <tr class="odd">
 <td>
-Scramblesuit
+    Scramblesuit
 </td>
 <td>
-ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes.
+    ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption) mascara o tráfego do Tor, que aparece como tráfego de rede comum (HTTP).
+    FTE (format-transforming encryption) mascara o tráfego do Tor, que aparece como tráfego de rede comum (HTTP).
 </td>
 </tr>
 <tr class="odd">
@@ -54,18 +54,16 @@ FTE (format-transforming encryption) mascara o tráfego do Tor, que aparece como
 meek
 </td>
 <td>
-Todos esses transportadores fazem com que pareça que você está acessando um dos grandes sites da web, e não que você usa Tor. meek-amazon faz com que pareça que você utiliza Amazon;  meek-azure, Microsoft; e meek-google faz parecer que você está usando a pesquisa do Google.
+    Todos esses transportadores fazem com que pareça que você está acessando um dos grandes sites da web, e não que você usa Tor. meek-amazon faz com que pareça que você utiliza Amazon;  meek-azure, Microsoft; e meek-google faz parecer que você está usando a pesquisa do Google.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-O Snowflake é um aperfeiçoamento do Flashproxy. Ele envia o seu tráfego através do WebRTC, um protocolo P2P com NAT punching interno.
+    O Snowflake é um aperfeiçoamento do Flashproxy. Ele envia o seu tráfego através do WebRTC, um protocolo P2P com NAT punching interno.
 </td>
 </tr>
 </tbody>
 </table>
-
-

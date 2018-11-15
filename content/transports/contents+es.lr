@@ -19,26 +19,26 @@ Actualmente hay seis transportes conectables disponibles, pero se están desarro
 <tbody>
 <tr class="odd">
 <td>
-obfs3
+    obfs3
 </td>
 <td>
-obfs3 hace que el tráfico de Tor parezca aleatorio, así no se parece a Tor ni a ningún otro protocolo. Si bien todavía está incluido por defecto, se recomienda usar obfs4 en su lugar, ya que tiene varias mejoras de seguridad sobre obfs3.
+    obfs3 hace que el tráfico de Tor parezca aleatorio, así no se parece a Tor ni a ningún otro protocolo. Si bien todavía está incluido por defecto, se recomienda usar obfs4 en su lugar, ya que tiene varias mejoras de seguridad sobre obfs3.
 </td>
 </tr>
 <tr class="even">
 <td>
-obfs4
+    obfs4
 </td>
 <td>
-obfs4 hace que el tráfico de Tor tenga apariencia aleatoria, como obfs3, y además evita que los censores encuentren puentes de red mediante el escaneado de Internet. Resulta menos probable que bloqueen los puentes de red obfs4 que los puentes obfs3.
+    obfs4 hace que el tráfico de Tor tenga apariencia aleatoria, como obfs3, y además evita que los censores encuentren puentes de red mediante el escaneado de Internet. Resulta menos probable que bloqueen los puentes de red obfs4 que los puentes obfs3.
 </td>
 </tr>
 <tr class="odd">
 <td>
-Scramblesuit
+    Scramblesuit
 </td>
 <td>
-ScrambleSuit es similar a obfs4 pero tiene un grupo de puentes diferente.
+    ScrambleSuit es similar a obfs4 pero tiene un grupo de puentes diferente.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ScrambleSuit es similar a obfs4 pero tiene un grupo de puentes diferente.
 FTE
 </td>
 <td>
-FTE (cifrado transformador de formato) camufla el tráfico de Tor como tráfico web ordinario (HTTP).
+    FTE (cifrado transformador de formato) camufla el tráfico de Tor como tráfico web ordinario (HTTP).
 </td>
 </tr>
 <tr class="odd">
@@ -54,18 +54,16 @@ FTE (cifrado transformador de formato) camufla el tráfico de Tor como tráfico 
 meek
 </td>
 <td>
-Todos estos transportes hacen que parezca que estás navegando por uno de los principales sitios web en lugar de estar usando Tor. meek-amazon hace que parezca que estás usando Amazon Web Services; meek-azure hace que parezca que estás usando un sitio web de Microsoft; y meek-google hace que parezca que estás usando la búsqueda de Google.
+    Todos estos transportes hacen que parezca que estás navegando por uno de los principales sitios web en lugar de estar usando Tor. meek-amazon hace que parezca que estás usando Amazon Web Services; meek-azure hace que parezca que estás usando un sitio web de Microsoft; y meek-google hace que parezca que estás usando la búsqueda de Google.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-Snowflake es una mejora de Flashproxy. Envía tu tráfico a través de WebRTC, un protocolo punto a punto con punteo NAT incorporado.
+    Snowflake es una mejora de Flashproxy. Envía tu tráfico a través de WebRTC, un protocolo punto a punto con punteo NAT incorporado.
 </td>
 </tr>
 </tbody>
 </table>
-
-

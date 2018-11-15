@@ -19,26 +19,26 @@ Six transports enfichables sont proposés actuellement, mais d’autres sont en 
 <tbody>
 <tr class="odd">
 <td>
-obfs3
+    obfs3
 </td>
 <td>
-obfs3 donne l'impression que le trafic de Tor est aléatoire afin qu'il ne ressemble pas à Tor ou à n'importe quel autre protocole. Malgré le fait qu'il soit encore inclus par défaut, il est recommandé d'utiliser obfs4 à la place, car il comporte plusieurs améliorations de sécurité par rapport à obfs3.
+    obfs3 donne l'impression que le trafic de Tor est aléatoire afin qu'il ne ressemble pas à Tor ou à n'importe quel autre protocole. Malgré le fait qu'il soit encore inclus par défaut, il est recommandé d'utiliser obfs4 à la place, car il comporte plusieurs améliorations de sécurité par rapport à obfs3.
 </td>
 </tr>
 <tr class="even">
 <td>
-obfs4
+    obfs4
 </td>
 <td>
-obfs4 donne l’impression que le trafic Tor est aléatoire, comme obfs3, et empêche aussi les censeurs de trouver des ponts en balayant l’Internet. Les ponts obfs4 sont moins susceptibles d’être bloqués que les ponts obfs3.
+    obfs4 donne l’impression que le trafic Tor est aléatoire, comme obfs3, et empêche aussi les censeurs de trouver des ponts en balayant l’Internet. Les ponts obfs4 sont moins susceptibles d’être bloqués que les ponts obfs3.
 </td>
 </tr>
 <tr class="odd">
 <td>
-Scramblesuit
+    Scramblesuit
 </td>
 <td>
-ScrambleSuit est semblable à obfs4 mais offre un jeu différent de ponts.
+    ScrambleSuit est semblable à obfs4 mais offre un jeu différent de ponts.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ScrambleSuit est semblable à obfs4 mais offre un jeu différent de ponts.
 FTE
 </td>
 <td>
-FTE (chiffrement par transformation du format) déguise le trafic Tor en trafic Web ordinaire (HTTP).
+    FTE (chiffrement par transformation du format) déguise le trafic Tor en trafic Web ordinaire (HTTP).
 </td>
 </tr>
 <tr class="odd">
@@ -54,18 +54,16 @@ FTE (chiffrement par transformation du format) déguise le trafic Tor en trafic 
 meek
 </td>
 <td>
-Tous ces transports donnent l’impression que vous parcourez l’un des grands sites Web au lieu d’utiliser Tor. meek-amazon donne l’impression que vous utilisez les services Web d’Amazon ; meek-azure donne l’impression que vous utilisez un site Web de Microsoft ; et meek-google l’impression que vous utilisez la recherche Google.
+    Tous ces transports donnent l’impression que vous parcourez l’un des grands sites Web au lieu d’utiliser Tor. meek-amazon donne l’impression que vous utilisez les services Web d’Amazon ; meek-azure donne l’impression que vous utilisez un site Web de Microsoft ; et meek-google l’impression que vous utilisez la recherche Google.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-Snowflake est une amélioration par rapport à Flashproxy. Il transmet votre trafic via WebRTC, un protocole pair à pair avec poinçonnage de NAT intégré.
+    Snowflake est une amélioration par rapport à Flashproxy. Il transmet votre trafic via WebRTC, un protocole pair à pair avec poinçonnage de NAT intégré.
 </td>
 </tr>
 </tbody>
 </table>
-
-

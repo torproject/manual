@@ -19,26 +19,26 @@ Sekarang terdapat tiga pluggable transports dapat diakses, tapi lebih untuk peng
 <tbody>
 <tr class="odd">
 <td>
-obfs3
+    obfs3
 </td>
 <td>
-obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
 </td>
 </tr>
 <tr class="even">
 <td>
-obfs4
+    obfs4
 </td>
 <td>
-obfs4 membuat lalu lintas Tor tampak acak seperti obfs3, dan juga mencegah sensor dari menemukan bridges oleh pemindaian internet. obfs4 bridges sedikit mirip dalam blokir dibandingkan obfs3 bridges.
+    obfs4 membuat lalu lintas Tor tampak acak seperti obfs3, dan juga mencegah sensor dari menemukan bridges oleh pemindaian internet. obfs4 bridges sedikit mirip dalam blokir dibandingkan obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
 <td>
-Scramblesuit
+    Scramblesuit
 </td>
 <td>
-ScrambleSuit mirip dengan obfs4 namun memiliki jembatan berbeda.
+    ScrambleSuit mirip dengan obfs4 namun memiliki jembatan berbeda.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ScrambleSuit mirip dengan obfs4 namun memiliki jembatan berbeda.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption) penyamaran lalu lintas Tor sebagai situs biasa  (HTTP) lalu lintas.
+    FTE (format-transforming encryption) penyamaran lalu lintas Tor sebagai situs biasa  (HTTP) lalu lintas.
 </td>
 </tr>
 <tr class="odd">
@@ -54,18 +54,16 @@ FTE (format-transforming encryption) penyamaran lalu lintas Tor sebagai situs bi
 lunak
 </td>
 <td>
-Mengangkut semua ini membuatnya terlihat seperti Anda menjelajah situs web utama daripada menggunakan Tor. Meek-amazon membuatnya terlihat seperti Anda menggunakan Amazon Web Services; Meek-azure membuatnya terlihat seperti Anda menggunakan situs web Microsoft; dan meek-google membuatnya terlihat seperti Anda menggunakan Google search.
+    Mengangkut semua ini membuatnya terlihat seperti Anda menjelajah situs web utama daripada menggunakan Tor. Meek-amazon membuatnya terlihat seperti Anda menggunakan Amazon Web Services; Meek-azure membuatnya terlihat seperti Anda menggunakan situs web Microsoft; dan meek-google membuatnya terlihat seperti Anda menggunakan Google search.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>
 </table>
-
-

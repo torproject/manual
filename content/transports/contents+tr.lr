@@ -19,26 +19,26 @@ Takılabilir aktarımlar, Tor tarafından gönderilen veri trafiğinin gizlenmes
 <tbody>
 <tr class="odd">
 <td>
-obfs3
+    obfs3
 </td>
 <td>
-obfs3, Tor trafiğinin rastgeleymiş gibi görünmesini sağlar. Böylece Tor ya da başka herhangi bir iletişim kuralına benzemez. Hala varsayılan olarak kullanılsa da obfs3 yerine bazı güvenlik geliştirmeleri yapılmış obfs4 köprülerinin kullanılması önerilir.
+    obfs3, Tor trafiğinin rastgeleymiş gibi görünmesini sağlar. Böylece Tor ya da başka herhangi bir iletişim kuralına benzemez. Hala varsayılan olarak kullanılsa da obfs3 yerine bazı güvenlik geliştirmeleri yapılmış obfs4 köprülerinin kullanılması önerilir.
 </td>
 </tr>
 <tr class="even">
 <td>
-obfs4
+    obfs4
 </td>
 <td>
-obfs4, obfs3 gibi Tor trafiğinin rastgele görünmesini sağlar ve ayrıca ağı izleyenlerin İnternet taraması ile köprüleri bulmasını önler. obfs4 köprülerinin engellenme olasılığı, obfs3 köprülerine göre daha azdır.
+    obfs4, obfs3 gibi Tor trafiğinin rastgele görünmesini sağlar ve ayrıca ağı izleyenlerin İnternet taraması ile köprüleri bulmasını önler. obfs4 köprülerinin engellenme olasılığı, obfs3 köprülerine göre daha azdır.
 </td>
 </tr>
 <tr class="odd">
 <td>
-ScrambleSuit
+    ScrambleSuit
 </td>
 <td>
-ScrambleSuit obfs4'e benzer ancak farklı bir köprü takımına sahiptir.
+    ScrambleSuit obfs4'e benzer ancak farklı bir köprü takımına sahiptir.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ScrambleSuit obfs4'e benzer ancak farklı bir köprü takımına sahiptir.
 FTE
 </td>
 <td>
-FTE (format-transforming encryption; biçim dönüştüren şifreleme), Tor trafiğini sıradan bir web (HTTP) trafiği gibi gizler.
+    FTE (format-transforming encryption; biçim dönüştüren şifreleme), Tor trafiğini sıradan bir web (HTTP) trafiği gibi gizler.
 </td>
 </tr>
 <tr class="odd">
@@ -54,18 +54,16 @@ FTE (format-transforming encryption; biçim dönüştüren şifreleme), Tor traf
 meek
 </td>
 <td>
-Bu aktarımların hepsi Tor kullanıyor gibi görünmek yerine büyük bir web sitesinde geziliyormuş gibi görünmeyi sağlar. meek-amazon Amazon Web Hizmetleri kullanılıyormuş gibi; meek-azure, Microsoft web sitesi kullanılıyormuş gibi; meek-google, Google araması kullanılıyormuş gibi görünmeyi sağlar.
+    Bu aktarımların hepsi Tor kullanıyor gibi görünmek yerine büyük bir web sitesinde geziliyormuş gibi görünmeyi sağlar. meek-amazon Amazon Web Hizmetleri kullanılıyormuş gibi; meek-azure, Microsoft web sitesi kullanılıyormuş gibi; meek-google, Google araması kullanılıyormuş gibi görünmeyi sağlar.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-Snowflake, Flashproxy uygulamasının geliştirilmiş bir sürümüdür. Ağ trafiğinizin kendi NAT işaretlemesini kullanan eşten eşe bir iletişim kuralı olan WebRTC üzerinden geçirilmesini sağlar.
+    Snowflake, Flashproxy uygulamasının geliştirilmiş bir sürümüdür. Ağ trafiğinizin kendi NAT işaretlemesini kullanan eşten eşe bir iletişim kuralı olan WebRTC üzerinden geçirilmesini sağlar.
 </td>
 </tr>
 </tbody>
 </table>
-
-

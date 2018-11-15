@@ -19,7 +19,11 @@ body:
 
 JavaScript 是一种内嵌于网页中的编程语言，它可以提供网站的各种交互式组件，像是视频、音乐、动画、时间状态等。而遗憾的是，JavaScript 也可能被利用来发动破解浏览器安全防护机制的攻击，其结果有可能会让用户的真实身份曝光。
 
-Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely. <img class="col-md-6" src="/static/images/noscript_menu.png"> Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window.
+NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+<img class="col-md-6" src="/static/images/noscript_menu.png">
+Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites).
+However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
 ##### 浏览器附加组件
 

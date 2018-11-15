@@ -19,26 +19,26 @@ Zur Zeit sind sechs austauschbare Übertragungsarten verfügbar, aber es werden 
 <tbody>
 <tr class="odd">
 <td>
-obfs3
+    obfs3
 </td>
 <td>
-obfs3 lässt den Tor-Verkehr zufällig aussehen, sodass er nicht wie Tor oder ein anderes Protokoll aussieht. Obwohl immer noch standardmäßig enthalten, wird empfohlen stattdessen obfs4 zu verwenden, da es mehrere Sicherheitsverbesserungen gegenüber obfs3 aufweist.
+    obfs3 lässt den Tor-Verkehr zufällig aussehen, sodass er nicht wie Tor oder ein anderes Protokoll aussieht. Obwohl immer noch standardmäßig enthalten, wird empfohlen stattdessen obfs4 zu verwenden, da es mehrere Sicherheitsverbesserungen gegenüber obfs3 aufweist.
 </td>
 </tr>
 <tr class="even">
 <td>
-obfs4
+    obfs4
 </td>
 <td>
-obfs4 lässt den Tor-Verkehr zufällig aussehen wie obfs3 und behindert auch Zensoren beim Finden von Brücken durch das Scannen des Internets. obfs4-Brücken sind weniger wahrscheinlich blockiert als obfs3-Brücken.
+    obfs4 lässt den Tor-Verkehr zufällig aussehen wie obfs3 und behindert auch Zensoren beim Finden von Brücken durch das Scannen des Internets. obfs4-Brücken sind weniger wahrscheinlich blockiert als obfs3-Brücken.
 </td>
 </tr>
 <tr class="odd">
 <td>
-Scramblesuit
+    Scramblesuit
 </td>
 <td>
-ScrambleSuit ist ähnlich wie obfs4, aber hat einen anderen Satz an Brücken.
+    ScrambleSuit ist ähnlich wie obfs4, aber hat einen anderen Satz an Brücken.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ ScrambleSuit ist ähnlich wie obfs4, aber hat einen anderen Satz an Brücken.
 FTE
 </td>
 <td>
-FTE (Format-Transformierende-Verschlüsselung) verschleiert Tor-Datenverkehr als gewöhnlichen Web (HTTP)-Datenverkehr.
+    FTE (Format-Transformierende-Verschlüsselung) verschleiert Tor-Datenverkehr als gewöhnlichen Web (HTTP)-Datenverkehr.
 </td>
 </tr>
 <tr class="odd">
@@ -54,18 +54,16 @@ FTE (Format-Transformierende-Verschlüsselung) verschleiert Tor-Datenverkehr als
 Meek
 </td>
 <td>
-Diese Übertragungsarten lassen es so aussehen, als würdest du eine große Internetseite anstatt Tor aufrufen. meek-amazon lässt es aussehen, als würdest du Amazon Web Services benutzen; meek-azure lässt es aussehen, als würdest du eine Microsoft-Internetseite besuchen, und meek-google lässt es aussehen, als würdest du die Google-Suche benutzen.
+    Diese Übertragungsarten lassen es so aussehen, als würdest du eine große Internetseite anstatt Tor aufrufen. meek-amazon lässt es aussehen, als würdest du Amazon Web Services benutzen; meek-azure lässt es aussehen, als würdest du eine Microsoft-Internetseite besuchen, und meek-google lässt es aussehen, als würdest du die Google-Suche benutzen.
 </td>
 </tr>
 <tr class="even">
 <td>
-Snowflake
+    Snowflake
 </td>
 <td>
-Snowflake ist eine Verbesserung von Flashproxy. Es sendet deinen Datenverkehr über WebRTC, ein Peer-to-Peer-Protokoll mit integriertem NAT-Punching.
+    Snowflake ist eine Verbesserung von Flashproxy. Es sendet deinen Datenverkehr über WebRTC, ein Peer-to-Peer-Protokoll mit integriertem NAT-Punching.
 </td>
 </tr>
 </tbody>
 </table>
-
-

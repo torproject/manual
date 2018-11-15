@@ -19,7 +19,11 @@ Alguns websites de vídeos (tal como YouTube) oferecem métodos de exibição de
 
 O JavaScript é uma linguagem de programação que websites usam para oferecer elementos interativos tais como vídeo, animação, áudio e timelines de status. Infelizmente, o JavaScript também pode permitir ataques contra a segurança do navegador, o que pode levar a desanonimização.
 
-Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely. <img class="col-md-6" src="/static/images/noscript_menu.png"> Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window.
+NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+<img class="col-md-6" src="/static/images/noscript_menu.png">
+Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites).
+However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
 ##### Browser Add-ons
 
