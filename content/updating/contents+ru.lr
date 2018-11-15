@@ -11,8 +11,7 @@ key: 9
 body:
 Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens.
-You can update either automatically or manually.
+Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
 
 ##### Updating Tor Browser automatically
   <img width="400" src="media/updating/update1.png" />
@@ -30,6 +29,6 @@ Wait for the update to download and install, then restart Tor Browser. You will 
 
 When you are prompted to update Tor Browser, finish the browsing session and close the program.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <link xref='uninstalling'>Uninstalling</link> section for more information).
+Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
 
 Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
