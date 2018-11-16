@@ -2,7 +2,7 @@
 name = Tor Browser Manual
 url = https://manual.torproject.org/
 url_style = absolute
-locale = en_US
+locale = en-US
 
 [alternatives.en-US]
 name = English
@@ -29,11 +29,6 @@ locale = de
 name = Ελληνικά (el)
 url_prefix = /el/
 locale = el
-
-[alternatives.en-US]
-name = English (en-US)
-url_prefix = /en-US/
-locale = en-US
 
 [alternatives.es]
 name = Español
