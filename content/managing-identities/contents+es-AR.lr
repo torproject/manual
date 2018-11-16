@@ -1,0 +1,53 @@
+_model: topic
+---
+title: Gestionando identidades
+---
+description: Aprendé cómo controlar información personalmente identificable en el navegador Tor
+---
+seo_slug: gestionando-identidades
+---
+key: 5
+---
+body:
+
+Cuando conectás a un sitio web, los operadores de ese sitio web no son los únicos que podrían guardar información sobre tu visita. La mayoría de los sitios web usan múltiples servicios de terceros, como los botones "Me gusta" de las redes sociales, los rastreadores para análisis estadístico y los marcadores publicitarios, que pueden vincular tu actividad entre los distintos sitios.
+
+El uso de la red de Tor evita que cualquier observador sea capaz de descubrir tu localización exacta y dirección IP, pero aún sin ésta información puede ser capaz de vincular diferentes áreas de tu actividad entre ellas. Por ésta razón, el navegador Tor incluye algunas características adicionales que te ayudan a controlar qué información puede ser ligada a tu identidad.
+
+##### La barra URL
+
+El navegador Tor centra tu experiencia en la web alrededor de tu relación con el sitio web en la barra URL. Aún si te conectás a dos sitios diferentes que usan el mismo servicio de rastreo tercerizado, el navegador Tor forzará el contenido a ser servido sobre dos circuitos Tor diferentes, de manera que el rastreador no sabrá que ambas conexiones se originan desde tu navegador.
+
+Por otro lado, todas las conexiones a la dirección de un único sitio web serán hechas sobre el mismo circuito Tor, significando que podés navegar diferentes páginas de un único sitio web en pestañas o ventanas separadas, sin ninguna pérdida de funcionalidad.
+
+<img class="col-md-6" src="/static/images/circuit_full.png">
+
+Podés ver un diagrama del cicuito que el navegador Tor está usando para la pestaña corriente en el menú de información del sitio, en la barra URL.
+
+En el circuito, la Guarda o nodo de entrada es el primer nodo, y es seleccionado al azar automáticamente por Tor. Pero es diferente de los otros nodos en el cicuito. En orden a evitar ataques por perfilación, el nodo Guarda cambia sólo luego de 2-3 meses, a diferencia de los otros nodos, que cambian con cada nuevo dominio. Para más información acerca de Guardas, consultá <a href="https://www.torproject.org/docs/faq#EntryGuards">PMF</a> y <a href="https://support.torproject.org/tbb/tbb-2/">Portal de Soporte</a>.
+
+##### Iniciando sesiones sobre Tor
+
+Si bien el navegador Tor está diseñado para habilitar anonimato total del usuario en la web, puede haber situaciones en las cuales tiene sentido usar Tor con sitios web que requieren nombres de usuario, contraseñas, u otra información de identificación.
+
+Si iniciás sesión en un sitio web usando un navegador regular, también revelás tu dirección IP y localización geográfica en el proceso. Lo mismo es a menudo cierto cuando enviás un correo electrónico. Iniciando sesión en tus cuentas de redes sociales o correo electrónico usando el navegador Tor te permite elegir exactamente qué información revelás a los sitios web que navegás. Iniciando sesión con el navegador Tor también es útil si el sitio web que estás intentando alcanzar está censurado en tu red.
+
+Cuando iniciás sesión en un sitio web sobre Tor, hay varios puntos que debieras tener en mente:
+
+* Mirá la página <a href="/secure-connections">Conexiones Seguras</a> por información importante sobre cómo asegurar tu conexión cuando estés iniciando sesión.
+* El navegador Tor a menudo hace que tu conexión aparezca como si estuviera viniendo desde una parte del mundo enteramente diferente. Algunos sitios web, tales como bancos o proveedores de correo electrónico, pueden interpretar esto como una señal de que tu cuenta ha sido apropiada o comprometida, y te bloquean. La única manera de resolver éste problema es siguiendo el procedimiento recomendado por el sitio para la recuperación de la cuenta, o contactar a los operadores y explicar la situación.
+
+##### Cambiando identidades y circuitos
+
+<img class="col-md-6" src="/static/images/new_identity.png">
+
+El navegador Tor posee las opciones "Nueva identidad" y "Nuevo circuito Tor para éste sitio", ubicadas en el menú principal (menú hamburguesa).
+
+##### Nueva Identidad
+
+   Esta opción es útil si querés prevenir que tu subsecuente actividad en el navegador sea vinculable a lo que estuviste haciendo antes. Seleccionándola cerrará todas tus pestañas y ventanas abiertas, limpiará toda información privada tales como cookies e historial de navegación, y usará nuevos circuitos Tor para todas las conexiones. El navegador Tor te advertirá que toda actividad y descargas serán detenidos, por lo cual tomá en cuenta ésto antes de cliquear "Nueva identidad".
+
+##### Nuevo circuito Tor para este sitio.
+
+   Esta opción es útil si el <a href="/about/#how-tor-works">relevo de salida</a> que estás usando es incapaz de conectar al sitio web que requerís, o no lo está cargando apropiadamente. Seleccionándola causará que la pestaña o ventana actualmente activa sea recargada sobre un nuevo circuito Tor. Otras pestañas y ventanas abiertas desde el mismo sitio web usarán también el nuevo circuito, una vez que sean recargadas. Esta opción no limpia ninguna información privada o desvincula tu actividad, ni tampoco afecta tus conexiones actuales a otros sitios web.
+   También podés ver esta opción en el nuevo diagrama de cicuito, en el menú de información del sitio, en la barra URL.

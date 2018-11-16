@@ -1,0 +1,32 @@
+_model: topic
+---
+title: Solución de problemas
+---
+description: Qué hacer si el navegador Tor no funciona
+---
+seo_slug: solución-de-problemas
+---
+key: 11
+---
+body:
+Debieras ser capaz de empezar a navegar la web usando el navegador Tor momentáneamente después de correr el programa, y cliqueando el botón "Conectar" si lo estás usando por prinera vez.
+
+<img class="col-md-6" src="/static/images/connect.png">
+
+##### Arreglos rápidos
+
+Si el navegador Tor no conecta, puede haber una solución simple. Tratá cada una de las siguientes:
+
+* El reloj de sistema de tu computadora debe estar ajustado correctamente, o Tor no será capaz de conectar.
+* Asegurate que otro navegador Tor no está corriendo también. Si no estás seguro si el navegador Tor está corriendo, reiniciá tu computadora.
+Asegurate que cualquier programa antivirus que hayas instalado no esté previniendo a Tor de correr. Podés necesitar consultar la documentación para tu programa antivirus si no sabés cómo hacer esto.
+* Deshabilita temporariamente tu cortafuegos.
+* Borrá el navegador Tor e instalalo de nuevo. Si estás actualizando, no solamente sobreescribas tus archivos previos del navegador Tor; asegurate que están completamente borrados de antemano.
+
+##### ¿Tu conexión está censurada?
+
+Si aún no podés conectarte, tu proveedor de servicio de Internet puede estar censurando conexiones a la red de Tor. Leé la sección <a href="/circumvention">Evitando obstáculos</a> por posibles soluciones.
+
+##### Problemas conocidos
+
+El navegador Tor está bajo desarrollo constante, y algunas dificultades son conocidas pero no están aún solucionadas. Por favor revisá la página <a href="/known-issues">Dificultades conocidas</a> para ver si el problema que estás experimentando está ya listado ahí.

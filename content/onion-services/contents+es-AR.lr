@@ -1,0 +1,33 @@
+_model: topic
+---
+title: Servicios Onion
+---
+description: Servicios que solamente son accesibles usando Tor
+---
+seo_slug: servicios-onion
+---
+key: 6
+---
+body:
+
+Servicios Onion (anteriormente conocidos como "servicios ocultos") son servicios (como sitios web) que solamente son accesibles a través de la red de Tor.
+
+Los servicios onion ofrecen varias ventajas sobre servicios ordinarios en la web:
+
+* La ubicación y dirección IP de un servicio onion están ocultas, haciendo difícil para un adversario el censurar o identificar a sus operadores.
+* Todo el tráfico entre usuarios de Tor y servicios onion está encriptado punto a punto, por lo que no tenés que preocuparte acerca de <a href="/secure-connections">conectarte sobre HTTPS</a>.
+* La dirección de un servicio onion es automáticamente generada, por lo que los operadores no necesitan comprar un nombre de dominio; el URL .onion también ayuda a Tor a asegurar que se esté conectando a la ubicación correcta y que la conexión no esté siendo intervenida.
+
+##### Cómo acceder un servicio onion
+
+Tal como cualquier otro sitio web, necesitarás saber la dirección de un servicio onion en orden a conectarte a él. Una dirección onion es una cadena de 16 (y en formato V3, 56) letras y números mayormente aleatorios, seguidos por ".onion".
+
+Cuando accedas a un sitio web que use un servicio onion, el navegador Tor mostrará en la barra URL un icono de una cebollita verde visualizando el estado de tu conexión: segura y usando un servicio onion. Y si estás accediendo un sitio web con https y servicio onion, mostrará un icono de una cebolla verde y un candado.
+
+##### Solución de problemas
+
+Si no podés alcanzar el servicio onion que requerís, asegurate que hayas entrado la dirección cebolla correctamente: aún un pequeño error evitará que el navegador Tor sea capaz de alcanzar el sitio.
+
+Si aún no podés conectarte al servicio onion, intentalo de nuevo más tarde. Puede existir un problema momentáneo de conexión, o los operadores del sitio pueden haberlo puesto fuera de línea sin ninguna advertencia.
+
+Podés también asegurarte que seas capaz de acceder otros servicios onion conectándote al <a href="http://3g2upl4pq6kufc4m.onion/">servicio onion de DuckDuckGo</a>.

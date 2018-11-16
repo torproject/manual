@@ -1,0 +1,31 @@
+_model: topic
+---
+title: Dificultades conocidas
+---
+description: Dificultades conocidas
+---
+seo_slug: desinstalando
+---
+key: 12
+---
+body:
+
+Tor necesita que tu reloj de sistema (y tu huso horario) estén ajustados en forma correcta.
+
+* De los siguientes programas cortafuegos ha sido conocido que interfieren con Tor y pueden necesitar ser deshabilitados temporariamente:
+  * Webroot SecureAnywhere
+  * Kaspersky Internet Security 2012
+  * Sophos Antivirus for Mac
+  * Microsoft Security Essentials
+
+* Videos que requieren Adobe Flash no están disponibles. Flash está deshabilitado por razones de seguridad.
+
+* Tor no puede usar un puente si hay un proxy configurado.
+
+* El paquete del navegador Tor está fechado 1 de Enero, 2000 00:00:00 UTC. Esto es para asegurar que cada compilación del programa sea exactamente reproducible.
+
+* Para correr el navegador Tor en Ubuntu, los usuarios necesitan correr un archivo ejecutable por el intérprete de comandos. Abrí "Archivos" (en el explorador Unity), abrí "Preferencias" → pestaña "Comportamiento" → Ajustá "Correr archivos de texto ejecutables cuando sean abiertos" a "Preguntar cada vez", luego cerrá el diálogo.
+
+* El navegador Tor también puede ser arrancado desde la línea de comandos corriendo el siguiente comando desde dentro del directorio del navegador Tor:
+
+	./start-tor-browser.desktop

@@ -1,0 +1,30 @@
+_model: topic
+---
+title: Complementos, adiciones y JavaScript
+---
+description: Cómo maneja el navegador Tor adiciones, complementos y JavaScript
+---
+seo_slug: complementos
+---
+key: 10
+---
+body:
+##### Flash Player
+
+Sitios web de video, tales como Vimeo, hacen uso del complemento Flash Player para mostrar contenido de video. Desafortunadamente, este programa opera independientemente del navegador Tor y no se le pueden hacer obedecer fácilmente los ajustes de proxy del navegador Tor. Puede por lo tanto revelar tu localización y dirección IP reales a los operadores del sitio web, o a un observador externo. Por ésta razón, Flash está deshabilitado por defecto en el navegador Tor, y habilitarlo no está recomendado.
+
+Algunos sitios web de video (tales como YouTube) ofrecen métodos alternativos de entrega de video que no usan Flash. Estos métodos pueden ser compatibles con el navegador Tor.
+
+##### JavaScript
+
+JavaScript es un lenguaje de programación que los sitios web usan para ofrecer elementos interactivos tales como video, animación, audio, e indicadores de progreso. Desafortunadamente, JavaScript puede también habilitar ataques sobre la seguridad del navegador, los cuales pueden conducir a la pérdida de anonimato.
+
+El navegador Tor incluye una adición llamada NoScript, accesible a través del icono "S" en la esquina superior derecha de la ventana, la cual te permite controlar al JavaScript (y otros scripts) que corre en páginas web individuales, o bloquearlo por completo.
+<img class="col-md-6" src="/static/images/noscript_menu.png">
+Usuarios que requieren un alto grado de seguridad en su navegación web deberían ajustar la <a href="/security-slider"> regla deslizante de seguridad</a> del navegador Tor a "Más-Seguro" (que deshabilita JavaScript para sitios web no-HTTPS) o "El-Más-Seguro" (que lo hace para todos los sitios web). Sin embargo, deshabilitando JavaScript evitará que muchos sitios web sean mostrados correctamente, de manera que el ajuste por defecto del navegador Tor es permitir a todos los sitios web correr código en JavaScript en el modo "Estándar".
+
+##### Adiciones del navegador
+
+El navegador Tor está basado en Firefox, y cualquier adición o tema que sean compatibles con Firefox pueden también ser instalados en el navegador Tor.
+
+Sin embargo, las únicas adiciones que han sido aprobadas para su uso con el navegador Tor son aquellas incluidas por defecto. Instalando cualquier otra adición puede romper la funcionalidad del navegador Tor o causar problemas más serios que afecten tu privacidad y seguridad. Está enfáticamente desalentado instalar otras adiciones, y el proyecto Tor no ofrecerá soporte para éstas configuraciones.
