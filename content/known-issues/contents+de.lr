@@ -22,7 +22,7 @@ body:
 
 * Tor kann keine Brücke nutzen, wenn ein Vermittlungsserver eingestellt ist.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Das Tor-Browser-Paket ist auf den 1. January 2000 00:00:00 UTC datiert. Damit wird sichergestellt, dass jede Programmversion exakt reproduzierbar ist.
 
 * Um den Tor Browser unter Ubuntu zu starten, muss ein Shell-Script vom Nutzer ausgeführt werden. Öffne "Files" (der Explorer bei Unity), öffne "Preferences" (Einstellungen) → "Behavior" (Verhalten) → Setze "Run executable text files when they are opened" (Ausführbare Textdateien beim Öffnen starten) auf "Ask every time" (Frage jedes mal), anschließend mit "OK" bestätigen.
 

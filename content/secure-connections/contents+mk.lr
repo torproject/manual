@@ -17,12 +17,12 @@ body:
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* Кликнете на "Tor" копчето за да видите кои податоци се видливи за набљудувачите кога користите Tor. Копчето ќе стане зелено за да означи дека Tor е вклучен.
+* Кликнете на "HTTPS" копчето за да видите кои податоци се видливи за набљудувачите кога користите HTTPS. Ова копче ќе стане зелено за да означи дека Tor е вклучен.
+* Кога двете копчиња се зелени, ги гледате податоците се видливи за набљудувачите кога ги користите двете алатки.
+* Кога двете копчиња се сиви, ги гледате податоците кои се видливи за набљудувачите кога не користите ниту една од услугите.
 
-##### Potentially visible data
+##### Можни видливи податоци
 
 <dl>
 

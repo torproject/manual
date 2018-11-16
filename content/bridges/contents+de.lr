@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Brücken
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Die meisten austauschbaren Übertragungsarten wie obfs3 und obfs 4 sind auf das Benutzen von "Brücken"-Relays angewiesen.
 ---
 seo_slug: Brücken
 ---
@@ -17,7 +17,7 @@ Andere austauschbare Übertragungsarten wie meek benutzen verschiedene Anti-Zens
 
 Weil die Adressen der Brücken nicht öffentlich sind, musst du sie selber anfragen. Du hast zwei Möglichkeiten:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Besuche https://bridges.torproject.org/ und folge den Anweisungen oder
 * Schreibe eine E-Mail an bridges@torproject.org von einer Gmail-, Yahoo- oder Riseup-E-Mail-Adresse oder
 
 ##### Eingeben der Brücken Adressen

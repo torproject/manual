@@ -11,13 +11,13 @@ key: 8
 body:
  Tor Browser вклучува "Безбедносен Лизгач" кој што ви дозволува да ја зголемите вашата безбедност со оневозможување на одредени веб страни кои што можат да бидат користени за напад на вашата безбедност и анонимност. Зголемувањето на нивото на безбедност на  Tor Browser ќе ги спречи некои веб страни да функционираат правилно, па треба да ја измерите вашата безбедност наспрема степенот на употребливост кој ви е потребен.
 
-##### Accessing the Security Slider
+##### Пристапување на Безбедносниот Лизгач
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 Безбедносниот Лизгач е лоциран во "Безбедносните Поставки" на Torbutton менито.
 
-##### Security Levels
+##### Безбедносни нивоа
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ body:
 Побезбедно
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+На ова ниво, HTML5 видео или аудио медијата стануваат кликни-за-да-пуштиш преку NoScript; сите JavaScript перформанси за оптимизации се исклучени; некои математички равенки може да не се прикажуваат правилно; некои карактеристики за рендерања на фонт се оневозможени; некои видови на слики се оневозможени; и JavaScript е стандардно оневозможена на сите не-<a href="/secure-connections">HTTPS</a> веб страни.
 </dd>
 <dt>
 Стандардно

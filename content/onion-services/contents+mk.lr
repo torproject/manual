@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: Onion Services
+title: ##### Onion Услуги
 ---
 description: Услуги кои се достапни само ако користите Tor
 ---
@@ -14,20 +14,20 @@ Onion услуги (порано познати како "скриени усл�
 
 Onion услугите нудат неколку предности во однос на вообичаените услуги на не-приватниот веб:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Локацијата на onion услугите и IP адресите се скриени, што им прави потешкотии на противниците да ги цензурираат или да ги идентификуваат нивните оператори.
+* Целиот сообраќај помеѓу Tor Browser и onion услугите е од-крај-до-крај енкриптирано, па не треба да се грижите за <a href="/secure-connections">поврзувањето преку HTTPS</a>.
+* Адресата на onion услугата е автоматски генерирана, па операторите немаат потреба да купуваат домеин име; .onion URL исто така му помага на Tor да осигура дека се поврзува на точната лоакција и дека поврзувањето не се менува. 
 
-##### How to access an onion service
+##### Како да и пристапите на onion услугата
 
 Како и на секоја друга веб страна, треба да ја знаете адресата на onion услугата за да се поврзете со неа. Onion адресата е линија од 16 (и во V3 формат, 56) најчесто букви или броеви по случен избор, проследени од ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Решавање проблеми
 
 Ако не можете да дојдете до onion услугата што ја барате, бидете сигурни дека сте ја внеле onion адресата точно: дури и мала грешка ќе го спречи Tor Browser да биде во можност да дојде до веб страната.
 
 Ако сеуште не можете да се поврзете со onion услугата, ве молиме обидете се подоцна повторно. Можеби има проблем со временото поврзување, или операторите на веб страната ја исклучиле без да предупредат за тоа.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+Исто така осигурајте се дека сте во можност да да и пристапите на onion услугата со поврзување на <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion услугата</a>
