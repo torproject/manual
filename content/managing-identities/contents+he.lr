@@ -43,7 +43,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 
-###### New Identity
+###### זהות חדשה
 
    אפשרות זו שימושית אם אתה רוצה למנוע מפעילות הדפדפן שלאחר מכן להיות בלתי מקושרת אל מה שעשית. בחירת אפשרות זו תסגור את כל הלשוניות והחלונות הפתוחים שלך, תנקה את כל המידע הפרטי כגון עוגיות והיסטורית גלישה, ותשתמש במעגלי Tor חדשים עבור כל החיבורים. דפדפן Tםר יזהיר אותך שכל הפעילות וההורדות ייעצרו, אז קח זאת בחשבון לפני לחיצה על "זהות חדשה".
 

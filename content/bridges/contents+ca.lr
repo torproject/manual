@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Ponts
 ---
-description: La majoria <a href="transports">Transports connectors</a>, com obfs3 i obfs4, utilitzen els relés de "pont".
+description: La majoria dels Transports connectors, com obfs3 i obfs4, utilitzen els relés de "pont".
 ---
 seo_slug: Ponts
 ---
@@ -17,8 +17,8 @@ Altres transports connectors, com Meek, utilitzant altres tècniques anit-censur
 
 Com que les direccions ponts no són públiques, s'hauran de demanar en l'instant. Existeixen dos opcions:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Visita https://bridges.torproject.org/ i segueixi les instruccions, o
+* Envia correu electrònic  a bridges@torproject.org des de Gmail, Yahoo, o Riseup
 
 ##### Entri la direcció pont
 

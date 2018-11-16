@@ -12,13 +12,13 @@ body:
 
 כשתריץ את דפדפן Tor בפעם הראשונה, תראה את החלון של הגדרות רשת Tor. הוא מציע לך את האפשרות להתחבר ישירות אל רשת Tor, או לתצר את דפדפן Tor עבור חיבורך.
 
-##### Connect
+##### התחבר
 
 <img class="col-md-6" src="/static/images/connect.png">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### Configure
+##### תַצֵּר
 
 <img class="col-md-6" src="/static/images/configure.png">
 
