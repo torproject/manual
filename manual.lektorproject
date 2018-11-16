@@ -31,9 +31,14 @@ url_prefix = /el/
 locale = el
 
 [alternatives.es]
-name = Español
+name = Español (es)
 url_prefix = /es/
 locale = es
+
+[alternatives.es-AR]
+name = Español Arg. (es-AR)
+url_prefix = /es/
+locale = es-AR
 
 [alternatives.fr]
 name = Français
@@ -48,10 +53,10 @@ locale = ga
 [alternatives.id]
 name = Indonesia
 url_prefix = /id/
-locale = id_ID
+locale = id
 
 [alternatives.it]
-name = Indonesia
+name = Italia
 url_prefix = /it/
 locale = it
 
@@ -60,10 +65,20 @@ name = עברית (he)
 url_prefix = /he/
 locale = he
 
+[alternatives.hr]
+name = Croatian (hr)
+url_prefix = /hr/
+locale = hr
+
 [alternatives.ka]
 name = Georgian (ka)
 url_prefix = /ka/
 locale = ka
+
+[alternatives.mk]
+name = Macedonian (mk)
+url_prefix = /mk/
+locale = mk
 
 [alternatives.pt-BR]
 name = Português (Brasil)

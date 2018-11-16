@@ -1,0 +1,29 @@
+_model: topic
+---
+title: O Tor Browseru
+---
+description: Naučite što Tor Browser može učiniti za zaštitu Vaše privatnosti i anonimnosti
+---
+seo_slug: about
+---
+key: 1
+---
+body:
+
+Tor Browser koristi Tor mrežu kako bi zaštitio Vašu privatnost i anonimnost. Korištenje Tor mreže ima dva glavna svojstva:
+
+* Vaš davatelj internet usluge, i bilo tko tko lokalno gleda Vašu vezu, neće moći pratiti Vašu internet aktivnost, uključujući imena i adrese web stranica koje posjećujete.
+
+* Operateri stranica i usluga koje koristite, i bilo tko tko ih gleda, će vidjeti vezu koja dolazi iz Tor mreže, a ne sa Vaše prave internet (IP) adrese, i neće znati tko ste osim ako se eksplicitno ne identificirate.
+
+Dodatno, Tor Browser je dizajniran da spriječi web stranice od "uzimanja otiska prsta" ili identificiranja Vas na temelju konfiguracije Vašeg preglednika.
+
+Pod zadano, Tor Browser ne zadržava nikakvu povijest pregledavanja. Kolačići su valjani samo za jednu sesiju (dok ne izađete iz Tor Browsera ili dok ne zatražite <a href="managing-identities#new-identity">Novi identitet</a>).
+
+##### Kako Tor radi
+
+Tor je mreža virtualnih tunela koja Vam omogućuje poboljšanje vlastite privatnosti i sigurnosti na Internetu. Tor radi tako što šalje Vaš promet kroz tri nasumična poslužitelja (također poznati kao *releji*) unutar Tor mreže. Posljednji relej u mreži ("izlazni relej") šalje promet van prema javnom internetu.
+
+<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+
+Slika iznad prikazuje korisnika koji pregledava razne stranice kroz Tor. Zelena računala u sredini predstavljaju releje unutar Tor mreže, dok tri ključa predstavljaju slojeve enkripcije između korisnika i svakog releja.

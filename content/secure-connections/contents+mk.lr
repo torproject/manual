@@ -1,0 +1,64 @@
+_model: topic
+---
+title: Безбедни поврзувања
+---
+description: Научете како да ги заштитите вашите податоци со користење на Tor Browser и HTTPS
+---
+seo_slug: secure-connections
+---
+key: 7
+---
+body:
+Ако личните информации како што е лозинката за најавување патуваат неенекриптирани преку Интернет, многу лесно може да бидат пресретнати од некој прислушувач. Ако се најавите на веб страна, треба да се осигурате дека страната нуди HTTPS енкрипција, која што ве заштитува од ваков вид на прислушувања. Ова можете да го проверите во URL лентата: ако вашето поврзување е енкриптирарано, адресата започнува со “https://”, а не со “http://”.
+
+<img class="col-md-6" src="/static/images/https.png">
+
+Следната визуелизација покажува кои информации се видливи за прислушувачите со и без Tor Browser и HTTPS енкрипција:
+
+<img class="" src="/static/images/tor-and-https.svg">
+
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
+* When both buttons are green, you see the data that is visible to observers when you are using both tools.
+* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+
+##### Potentially visible data
+
+<dl>
+
+<dt>
+Site.com
+</dt>
+  <dd>
+    Веб страната е посетена.
+  </dd>
+
+<dt>
+корисник / pw
+</dt>
+  <dd>
+    Корисничко име и лозинка користени за автентикација.
+  </dd>
+
+<dt>
+податоци
+</dt>
+  <dd>
+    Податоци кои се пренесуваат.
+  </dd>
+
+<dt>
+локација
+</dt>
+  <dd>
+    Мрежна локација на компјутерот кој е користен за посета на веб страната (јавната IP адреса).
+  </dd>
+
+<dt>
+Тор
+</dt>
+  <dd>
+    Дали Tor е користен или не.
+  </dd>
+
+</dl>

@@ -1,0 +1,33 @@
+_model: topic
+---
+title: Стартување на Tor Browser за прв пат
+---
+description: Научите како да го користите Tor Browser за прв пат
+---
+seo_slug: running-tor-browser
+---
+key: 3
+---
+body:
+
+Кога го вклучувате Tor Browser за прв пат,  ќе го видите прозорецот Tor мрежни поставки. Ова ви понудува опција да се поврзете директно на Tor мрежата, или да ги конфигурирате поставките на вашето Tor Browser поврзување.
+
+##### Поврзи
+
+<img class="col-md-6" src="/static/images/connect.png">
+
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+
+##### Конфигурирај
+
+<img class="col-md-6" src="/static/images/configure.png">
+
+Ако знаете дека вашето поврзување е цензурирано, или користи прокси, тогаш одберете ја оваа опција. Tor Browser ќе ве води низ серии од поставувачки опции.
+
+The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+
+Следниот екран ќе ве праша дали вашето поврзување користи прокси. Во поголемиот број случаи ова не е потребно. Вие најчесто ќе знаете дали треба да одговорите со „Да“, затоа што истите поставки би биле користени и за другите прелистувачи на вашиот систем. Ако е возможно, за насоки прашајте го вашиот мрежен администратор. Ако вашето поврзување не користи прокси, кликнете „Продолжи“.
+
+<img class="col-md-6" src="/static/images/proxy_question.png">
+
+<img class="col-md-6" src="/static/images/proxy.png">

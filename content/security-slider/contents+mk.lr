@@ -1,0 +1,45 @@
+_model: topic
+---
+title: Безбедносен Лизгач
+---
+description: Конфигурирање на Tor Browser за безбедност и употребливост
+---
+seo_slug: security-slider
+---
+key: 8
+---
+body:
+ Tor Browser вклучува "Безбедносен Лизгач" кој што ви дозволува да ја зголемите вашата безбедност со оневозможување на одредени веб страни кои што можат да бидат користени за напад на вашата безбедност и анонимност. Зголемувањето на нивото на безбедност на  Tor Browser ќе ги спречи некои веб страни да функционираат правилно, па треба да ја измерите вашата безбедност наспрема степенот на употребливост кој ви е потребен.
+
+##### Accessing the Security Slider
+
+<img class="col-md-6" src="/static/images/slider.png">
+
+Безбедносниот Лизгач е лоциран во "Безбедносните Поставки" на Torbutton менито.
+
+##### Security Levels
+
+<img class="col-md-6" src="/static/images/slider_window.png">
+
+Зголемувањето на нивото на Безбедносниот Лизгач ќе ги оневозможи или делумно ќе ги оневозможи одредени карактеристики на прелистувачот за да го заштитат од можни напади.
+
+<dl>
+<dt>
+Најбезбедно
+</dt>
+<dd>
+На ова ниво, HTML5 видео и аудио медијата стануваат кликни-за-да-пуштиш преку NoScript; сите JavaScript оптимизации на перформансите се оневозможени; некои математички равенки може да не се вчитаат правилно; некои карактеристики за рендерирање фонтови се оневозможени; некои типови на слики се оневозможени; JavaScript е стандардно оневозможена на сите веб страни; повеќето видео и аудио формати се оневозможени; и некои фонтови и икони може да не бидат прикажани правилно.
+</dd>
+<dt>
+Побезбедно
+</dt>
+<dd>
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+</dd>
+<dt>
+Стандардно
+</dt>
+<dd>
+На ова ниво, сите карактеристики на прелистувачот се оневозможени. Ова е најкористената опција.
+</dd>
+</dl>

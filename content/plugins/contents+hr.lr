@@ -1,0 +1,30 @@
+_model: topic
+---
+title: Priključci, dodatci i JavaScript
+---
+description: Kako Tor Browser rukuje dodatcima, priključcima i JavaScriptom
+---
+seo_slug: plugins
+---
+key: 10
+---
+body:
+##### Flash Player
+
+Video stranice, kao što je Vimeo, koriste Flash Player priključak kako bi prikazali video sadržaj. Nažalost, taj software radi nezavisno od Tor Browsera i ne može ga se jednostavno natjerati da sluša postavke Tor Browserovog proxya. Na taj način može otkriti Vašu stvarnu lokaciju i IP adresu operaterima stranice, ili nekom vanjsokm promatraču. Iz tog razloga, Flash je onemogućen pod zadano u Tor Browseru, i njegovo omugućavanje nije preporučeno.
+
+Neke video stranice (kao YouTube) pružaju alternativne metode dostave videa koje ne koriste Flash. Ove metode bi mogle biti kompatibilne sa Tor Browserom.
+
+##### JavaScript
+
+JavaScript je programski jezik kojeg stranice koriste kako bi pružile interaktivne elemente kao što je video, animacija, audio i statusne vremenske crte. Nažalost, JavaScript također može omogućiti napade na sigurnost preglednika, što može dovesti do deanonimizacije.
+
+Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+<img class="col-md-6" src="/static/images/noscript_menu.png">
+Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+
+##### Dodatci za preglednik
+
+Tor Browser je zasnovan na Firefoxu, i svi dodatci i teme koji su kompatibilni s Firefoxom, također mogu biti instalirani na Tor Browser.
+
+No, jedini dodatci koji su testirani za korištenje sa Tor Browserom su oni koji su uključeni pod zadano. Instaliranje bilo kojeg drugog dodatka može smanjiti funkcionalnost Tor Browsera ili izazvati ozbiljnije probleme koji utječu na Vašu privatnost i sigurnost. Snažno se odgovara od instaliranja dodataka, i Tor Project neće pružiti podršku za takve konfiguracije.

@@ -1,0 +1,33 @@
+_model: topic
+---
+title: Onion usluge
+---
+description: Usluge koje su dostupne jedino korištenjem Tora
+---
+seo_slug: onion-services
+---
+key: 6
+---
+body:
+
+Onion usluge (prethodno poznate kao "skrivene usluge") su usluge (kao stranice) koje su dostupne jedino kroz Tor mrežu.
+
+Onion usluge imaju nekoliko prednosti naspram običnih usluga na ne privatnom webu:
+
+* Lokacija i IP adresa onion usluge su sakriveni, otežavajući tako protivnicima da ih cenzuriraju ili da identificiraju operatore.
+* Sav promet između Tor korisnika i onion usluga je enkriptiran s kraja na kraj, tako da se ne morate brinuti o <a href="secure-connections">spajanju preko HTTPS-a</a>.
+* Adresa onion usluge je automatski generirana, tako da operateri ne moraju kupiti ime domene; .onion URL također pomaže Toru osigurati da se povezuje sa pravom lokacijom i da se veza ne ometa.
+
+##### Kako pristupiti onion uslugama
+
+Kao i sa bilo kojom drugom stranicom, morate znati adresu onion usluge kako bi se spojili na nju. Onion usluga je niz od šesnaest (a u V3 formatu, 56) uglavnom nasumičnih slova i brojeva, koje prati ".onion".
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+
+##### Rješavanje problema
+
+Ako ne možete pristupiti onion usluzi koju tražite, provjerite da ste točno unijeli onion adresu: čak će i mala greška onemogućiti Tor pregledniku da se spoji sa stranicom.
+
+Ako se i dalje ne možete spojiti na onion uslugu, pokušajte kasnije. Možda postoji trenutni problem sa vezom, ili su operateri dozvolili da stranica ode offline bez upozorenja.
+
+Možete potvrditi da imate mogućnost spajanja na onion usluge spajanjem na <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo onion uslugu</a>

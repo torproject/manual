@@ -1,0 +1,34 @@
+_model: topic
+---
+title: Мостови
+---
+description: Повеќето од Pluggable Transports , како obfs3 и obfs4, се потпираат на користење на „мостни / премостувачки“ релеа. 
+---
+seo_slug: bridges
+---
+key: 4
+---
+body:
+Повеќето од <a href="/transports">Pluggable Transports</a> , како obfs3 и obfs4, се потпираат на користење на „мостни / премостувачки“ релеа. За разлика од обичните Tor релеа, овие не се излистани јавно, со што спротивно на другите овие не можат да бидат лесно идентификувани. Користењето на мостови во комбинација со pluggable transports помагаат во маскирањето на фактот дека користите Tor.
+
+Други pluggable transports, како „meek“, користат различни анти-цензурни техники кои не се потпираат мостови. Не треба да добиете мост адреса за ги користите транспортите.
+
+##### Добивање мост адреси
+
+Поради тоа што мост адресите не се јавни, ќе морате да ги побарате сами. Имате две опции:
+
+Посетете https://bridges.torproject.org/  и следете ги инструкциите, или
+* Е-пошта bridges@torproject.org од Gmail, Yahoo, or Riseup е-поштенска адреса
+
+##### Внесување мост адреси
+
+Еднаш кога ќе ги добиете некои мост адреси, треба да ги внесете во Tor Launcher.
+
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+
+<img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
+
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

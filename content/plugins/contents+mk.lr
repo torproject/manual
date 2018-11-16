@@ -1,0 +1,30 @@
+_model: topic
+---
+title: Приклучоци, додатоци и JavaScript
+---
+description: Како Tor Browser се справува со додатоци, приклучоци и JavaScript
+---
+seo_slug: plugins
+---
+key: 10
+---
+body:
+##### Flash Player
+
+Видео веб страните, како што е Vimeo имаат потреба од Flash Player приклучок за да прикажат видео содржина. За жал, овој софтвер работи независно од Tor Browser и не може лесно да се принуди да ги почитува поставувањата на Tor Browser проксито. Затоа Flash Player може да им ги открие вашата реална лоакција и IP адреса на операторите на веб страните, или на некој надворешен набљудувач. Од оваа причина, Flash е стандардно оневозможен во Tor Browser, и неговото овозможување не се препорачува.
+
+Некои видео веб страни (како што е YouTube) нудат алтернативни методи за видео достава кои не користат Flash. Овие методи можат да бидат компатибилни со Tor Browser.
+
+##### JavaScript
+
+JavaScript е јазик за програмирање кои што веб страните го користат за да понудат интерактивни елементи како што се видео, анимација, аудио и статусна временска линија. За жал, JavaScript исто така може да овозможи напади на безбедноста на вашиот прелистувач, кои може да доведат до ваша деанонимизација.
+
+Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+<img class="col-md-6" src="/static/images/noscript_menu.png">
+Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+
+##### Browser Add-ons
+
+Tor Browser е базиран на Firefox, и било кој додатоци за прелистувач или теми кои се компатибилни со Firefox можат да бидат инсталирани и на Tor Browser. 
+
+Како и да е, единствените додатоци кои што се тестирани за употреба со Tor Browser се оние кои се стандардно вклучени во него. Инсталирањето на било кои други додатоци за прелистувач можат да ја прекинат функционалноста на Tor Browser или да предизвикаат сериозни проблеми кои ќе се одразат на вашата приватност и безбедност. Строго го обесхрабруваме инсталирањето на дополнителни додатоци и Tor Project не нуди поддршка за овие конфигурации.

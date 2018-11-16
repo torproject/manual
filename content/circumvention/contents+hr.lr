@@ -1,0 +1,35 @@
+_model: topic
+---
+title: Obilaženje
+---
+description: Što učiniti ako je Tor mreža blokirana
+---
+seo_slug: obilaženje
+---
+key: 4
+---
+body:
+
+Direktni pristup Tor mreži može ponekad biti bolkiran od strane Vašeg davatelja internet usluge ili od strane vlade. Tro Browser uključuje neke alate za obilaženje tih blokada. Ovi alati se kolektivno zovu "priključni transporti". Pogledajte stranicu <a href="transports">priključni transporti</a> kako bi saznali više o trenutno dostupnim transportima.
+
+##### Korištenje priključnih transporta
+
+<img class="col-md-6" src="/static/images/configure.png">
+
+Kako bi koristili priključne transporte, kliknite "Konfiguriraj" u prozoru Tor Launchera, koji se pojavljuje kad prvi put pokrenete Tor Browser.
+
+Također možete konfigurirati priključne transporte dok je Tor Browser pokrenut, klikom na zeleni luk blizu adresne trake i odabirom "Postavke Tor mreže".
+
+Odaberite "da" kad Vas se pita blokira li Vaš davatelj internet usluge veze na Tor mrežu.
+
+<img class="col-md-6" src="/static/images/bridges.png">
+
+Odaberite "Spoji se sa dostupnim mostovima". Tor Browser trenutno ima šest opcija priključnih transporta između kojih možete birati.
+
+##### Koji transport da koristim?
+
+Svaki transport izlistan izborniku Tor Launchera radi na drugačiji način (za više detalja, pogledajte stranicu o <a href="transports">priključnim transportima</a>), i njihova efikasnost ovisi o Vašim individualnim okolnostima.
+
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
+
+Ako pokušate sve ove opcije i nijedna vas ne spoji, morat ćete ručno unijeti adrese mostova. Pročitajte dio o <a href="/bridges">Mostovima</a> kako bi naučili što su mostovi i kako ih dobiti.

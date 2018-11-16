@@ -1,0 +1,34 @@
+_model: topic
+---
+title: Ажурирање
+---
+description: Како да го ажурирате Tor Browser
+---
+seo_slug: updating
+---
+key: 9
+---
+body:
+Tor Browser мора да биде ажуриран цело време. Ако продолжите да користите застарена верзија на софтверот, може да бидете ранливи на сериозни безбедносни пропусти кои ја компромитираат вашата приватност и анонимоност.
+
+Tor Browser ќе ве извести да го ажурирате софтверот веднаш кога нова верзија ќе биде објавена: Torbutton иконата ќе појави жолт триаголник, а може ќе видите и пишан индикатор за ажурирање кога Tor Browser се отвора. Можете да го ажурирате автоматски или рачно.
+
+##### Updating Tor Browser automatically
+  <img width="400" src="media/updating/update1.png" />
+
+Кога ќе бидете известени да го ажурирате Tor Browser, кликнете на Torbutton иконата, потоа одберете "Провери за ажурирање на Tor Browser".
+
+  <img width="600" src="media/updating/update3.png" />
+
+Кога Tor Browser ќе заврши со проверувањето за ажурирања, кликнете на копчето "Ажурирај".
+
+  <img width="600" src="media/updating/update4.png" />
+Почекајте го ажурирањето да се преземе и инсталира, потоа рестартирајте го Tor Browser. Вие сега ја користите последната верзија на Tor Browser.
+
+##### Updating Tor Browser manually
+
+Кога ќе бидете известени за ажурирање на Tor Browser, завршете ја сесијата на пребарување и затворете ја програмата.
+
+Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+
+Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
