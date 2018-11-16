@@ -17,7 +17,7 @@ Altri pluggable transport, come meek, usano differenti sistemi anti censura che 
 
 Siccome gli indirizzi dei ponti non sono pubblici, dovrai richiederli tu stesso. Hai due opzioni:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Visita https://bridges.torproject.org/  e segui le istruzioni
 * Invia un'email a bridges@torproject.org da un indirizzo email Gmail, Yahoo, Riseup, oppure
 
 ##### Inserisci l'indirizzo ponte
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Se la connessione non va a buon fine, il ponte che hai ricevuto potrebbe essere disattivo. Utilizza uno dei metodi qui sopra per ottenere più ponti e riprova.

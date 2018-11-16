@@ -22,9 +22,9 @@ Por otra parte, todas las conexiones a una sola dirección de sitio web se reali
 
 <img class="col-md-6" src="/static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Puedes ver un diagrama del circuito que el Navegador Tor está usando para la pestaña actual en el menú de información del sitio, en la barra URL.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+En el circuito, el nodo de entrada o Guarda es el primer nodo, y es aleatoria y automáticamente seleccionado por Tor. Pero es diferente de los otros nodos en el circuito. A los efectos de evitar ataques por perfilación, el nodo Guarda cambia solamente cada 2-3 meses, a diferencia de los otros nodos, que cambian con cada nuevo dominio. Para más información acerca de Guardas, consulta las <a href="https://www.torproject.org/docs/faq#EntryGuards">Preguntas Más Frecuentes</a> y el <a href="https://support.torproject.org/tbb/tbb-2/">Portal de Soporte</a>.
 
 ##### Iniciar sesión sobre Tor
 
@@ -50,4 +50,4 @@ El navegador Tor presenta las opciones "Nueva identidad" y "Nuevo circuito de To
 ##### Nuevo circuito Tor para este sitio
 
    Esta opción es útil si el <a href="/about/#how-tor-works">repetidor de salida</a> que estás usando no puede conectar al sitio web que solicitas, o no está cargando adecuadamente. Seleccionarla provocará que la pestaña actualmente activa se recargue sobre un nuevo circuito de Tor. Otras pestañas y ventanas abiertas para el mismo sitio web también usarán el nuevo circuito una vez sean recargadas. Esta opción no borra ninguna información privada ni desvincula tu actividad, y tampoco afecta a tus conexiones actuales a otros sitios web.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   También puedes acceder a esta opción en el nuevo diagrama de circuito, dentro del menú de información del sitio, en la barra URL.

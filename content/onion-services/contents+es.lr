@@ -22,7 +22,7 @@ La dirección de un servicio onion se genera automáticamente, de forma que los 
 
 Al igual que en cualquier otro sitio web, deberás conocer la dirección de un servicio cebolla para poder conectarte. Una dirección cebolla es una cadena de 16 (y en formato V3, 56) en su mayoría letras y números aleatorios, seguidos de ".onion".
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+Cuando accedas a un sitio web que utiliza un servicio onion, el Navegador Tor mostrará en la barra de URL un icono de una pequeña cebolla verde que muestra el estado de tu conexión: segura y usando un servicio onion. Y si accedes a un sitio web con https y sevicio onion, mostrará un icono de una cebolla verde y un candado.
 
 ##### Resolución de problemas
 
