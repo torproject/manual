@@ -15,7 +15,7 @@ Layanan Onion (sebelumnya diketahui sebagai "hidden services (layanan tersembuny
 Layanan Onion menawarkan beberapa keuntungan daripada layanan biasa pada situs web yang tidak privat:
 
 * Lokasi dan alamat IP pada layanan onion tersembunyi, membuat penentang sulit untuk menyensor atau mengidentifikasi operator yang menjalankannya.
-* Semua lalu lintas antara pengguna Tor dan layanan onion terenkripsi dari ujung ke ujung, jadi anda tidak perlu khawatir untuk<a href="secure-connections">menghubungkan melalui HTTPS</a>
+* Semua lalu lintas antara pengguna Tor dan layanan onion terenkripsi dari ujung ke ujung, jadi anda tidak perlu khawatir untuk <a href="/secure-connections">menghubungkan melalui HTTPS</a>
 * Alamat dari layanan onion dihasilkan secara otomatis, oleh sebab itu operator tidak perlu membeli sebuah nama domain; URL .onion juga menjamin bahwa Tor terhubung ke lokasi yang tepat dan koneksinya tidak digelapkan.
 
 ##### Cara mengakses sebuah layanan onion
@@ -30,4 +30,4 @@ If you cannot reach the onion service you require, make sure that you have enter
 
 Bila anda tetap tidak dapat terhubung ke layanan onion, mohon coba kembali. Mungkin ada persoalan koneksi, atau operator situs membuatnya "offline" tanpa peringatan.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+Anda juga bisa memastikan bahwa Anda dapat mengakes layanan onion lain dengan tersambung ke <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

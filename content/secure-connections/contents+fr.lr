@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Les connexions sécurisées
 ---
-description: Apprendre comment protéger vos données en utilisant le Navigateur Tor et HTTPS
+description: Apprenez comment protéger vos données en utilisant le Navigateur Tor et HTTPS
 ---
 seo_slug: secure-connections
 ---
@@ -34,21 +34,21 @@ Site.com
   </dd>
 
 <dt>
-user / pw
+utilisat./mdp
 </dt>
   <dd>
     Le nom d’utilisateur et le mot de passe utilisés pour l’authentification.
   </dd>
 
 <dt>
-data
+données
 </dt>
   <dd>
     Les données qui sont transmises.
   </dd>
 
 <dt>
-location
+lieu
 </dt>
   <dd>
     L’emplacement réseau de l’ordinateur utilisé pour visiter le site Web (l’adresse IP publique).

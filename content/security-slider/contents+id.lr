@@ -34,7 +34,7 @@ Pada tingkat ini, media video dan audio HTML 5 menjadi klik-untuk- memainkan mel
 Lebih aman
 </dt>
 <dd>
-Pada level ini, HTML5 media audio dan visual menjadi click-to-play lewat NoScript; semua optimalisasi kinerja JavaScript akan di-nonaktif-kan; beberapa formula matematika kemngkinan tidak ditampilkan secara baik; sejumlah perubahan fitur huruf di-nonaktif-kan; sejumlah jenis gambar di-nonaktif-kan; dan JavaScript di-nonaktif-kan secara otomatif pada semua non-<a href="secure-connections">HTTPS</a>sites
+Pada level ini, HTML5 media audio dan visual menjadi click-to-play lewat NoScript; semua optimalisasi kinerja JavaScript akan di-nonaktif-kan; beberapa formula matematika kemngkinan tidak ditampilkan secara baik; sejumlah perubahan fitur huruf di-nonaktif-kan; sejumlah jenis gambar di-nonaktif-kan; dan JavaScript di-nonaktif-kan secara otomatif pada semua non-<a href="/secure-connections">HTTPS</a>sites
 </dd>
 <dt>
 Standar

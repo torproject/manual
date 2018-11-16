@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+La forma más fácil y simple de descargar Tor es desde el sitio web oficial del Proyecto Tor en https://www.torproject.org. Asegura la conexión al sitio usando <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, que se lo pone mucho más difícil a cualquiera el manipularla.
 
 Sin embargo, puede haber ocasiones en las que no puedas acceder al sitio web del Proyecto Tor: por ejemplo podría estar bloqueado en tu red. Si esto sucede, puedes usar uno de los métodos de descarga alternativos listados debajo.
 
@@ -46,4 +46,4 @@ Cuando Satori se abra, pulsa selección de idioma. Se abrirá un menú listando 
 
 Espera a que finalice tu descarga, luego busca la sección "Generar Hash" en el menú de Satori, y pulsa "Seleccionar ficheros".
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+Selecciona el archivo del Navegador Tor descargado. Satori mostrará la suma de verificación (checksum) del fichero, que debes comparar con la suma de verificación del software original: puedes encontrarla haciendo clic en "checksum" tras el enlace sobre el que hiciste clic para iniciar la descarga. Si las sumas de verificación coinciden, tu descarga ha sido exitosa, y puedes <a href="https://tb-manual.torproject.org/en-US/first-time.html">comenzar a usar el Navegador Tor</a>. Si no coinciden, puede que precises descargarlo de nuevo, o desde una fuente diferente.

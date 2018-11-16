@@ -34,21 +34,21 @@ Site.com
   </dd>
 
 <dt>
-user / pw
+usuária/o / senha
 </dt>
   <dd>
     Nome de usuário e senha usados para autentificação.
   </dd>
 
 <dt>
-data
+dados
 </dt>
   <dd>
     Dados sendo transmitidos.
   </dd>
 
 <dt>
-location
+localização 
 </dt>
   <dd>
     Local de rede do computador utilizado para visitar o site (o endereco IP público).

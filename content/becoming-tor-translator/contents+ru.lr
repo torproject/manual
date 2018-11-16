@@ -4,7 +4,7 @@ title: Стать переводчиком Tor
 ---
 description: Становление переводчиком Tor Project
 ---
-seo_slug: becoming-tor-translator
+seo_slug: Стать-переводчиком-Tor
 ---
 key: 13
 ---
@@ -14,8 +14,8 @@ body:
 
 ##### Регистриация на Transifex
 
-* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
-  Enter your information into the fields and click the 'Sign Up' button:
+Перейдите на <a href="https://transifex.com/signup/">страницу регистрации</a> Transifex
+  Введите свои данные в поля и нажмите кнопку 'Заренистрироваться':
 
 <img class="col-md-6" src="/static/images/tr1.png">
 

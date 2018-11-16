@@ -16,7 +16,7 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 <img class="col-md-6" src="/static/images/configure.png">
 
-Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur.
+Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur
 
 Vous pouvez aussi configurer les transports enfichables pendant que le Navigateur Tor est en fonction en cliquant sur l’oignon vert près de votre barre d’adresse et en sélectionnant « Paramètres du réseau Tor ».
 
@@ -30,6 +30,6 @@ Sélectionnez « Se connecter avec les ponts fournis ». Le Navigateur Tor off
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-Si vous essayer the contourner une connection bloquée pour la premier fois, vous devez essayer different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
+Si vous essayez de contourner pour la première fois une connexion bloquée, vous devriez essayer les différents transports : obfs3, obfs4, ScrambleSuit, fte, meek-azure et Snowflake.
 
 If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

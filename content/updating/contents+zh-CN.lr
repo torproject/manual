@@ -9,26 +9,26 @@ seo_slug: 更新
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+Tor 浏览器必须要随时保持在最新版本状态，若您使用较旧版本的话，可能存在某些能够用来破坏您的隐私性或匿名性的安全性漏洞。
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+每当 Tor 浏览器有更新版被发布时，都会有提示自动出现：Torbutton 功能按钮会出现黄色三角形图标，且当您打开 Tor 浏览器时，也会以文本说明通知您，此时您可以手动或自动的方式来更新。
 
-##### Updating Tor Browser automatically
+##### 自动更新 Tor 浏览器
   <img width="400" src="media/updating/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+在您被提示应更新 Tor 浏览器时，点击 Torbutton 图标，然后选择“Tor Browser 检查更新”。
 
   <img width="600" src="media/updating/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+在 Tor 浏览器完成检查更新后，点击“更新”按钮。
 
   <img width="600" src="media/updating/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+等待更新自动下载和安装，然后重启 Tor 浏览器。然后您就运行有最新版本了。
 
-##### Updating Tor Browser manually
+##### 手动更新 Tor 浏览器
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+在您被提示应更新 Tor 浏览器时，结束浏览并关闭程序。
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+删除其所在文件夹以删除您的系统上的 Tor 浏览器（操作细节见 <a href='uninstalling'>卸载</a> 章节）。
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+请到 <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> 下载最新版的 Tor 浏览器，并用和之前一样的方式将它安装进系统中。

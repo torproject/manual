@@ -4,29 +4,26 @@ url = https://manual.torproject.org/
 url_style = absolute
 locale = en_US
 
-[alternatives.en]
+[alternatives.en-US]
 name = English
 primary = yes
 url_prefix = /
-locale = en_US
+locale = en-US
 
-[alternatives.bn]
+[alternatives.bn-BD]
 name = বাংলা ভাষা  (bn)
-url_prefix = /bn/
-locale = bn
-
+url_prefix = /bn-BD/
+locale = bn-BD
 
 [alternatives.ca]
 name = Catala (ca)
 url_prefix = /ca/
 locale = ca
 
-
 [alternatives.de]
 name = Deutsch (de)
 url_prefix = /de/
 locale = de
-
 
 [alternatives.el]
 name = Ελληνικά (el)
@@ -34,9 +31,9 @@ url_prefix = /el/
 locale = el
 
 [alternatives.en-US]
-name = English (en)
+name = English (en-US)
 url_prefix = /en-US/
-locale = en
+locale = en-US
 
 [alternatives.es]
 name = Español
@@ -76,7 +73,7 @@ locale = ka
 [alternatives.pt-BR]
 name = Português (Brasil)
 url_prefix = /pt-BR/
-locale = pt_BR
+locale = pt-BR
 
 [alternatives.ru]
 name = Русский (ru)
@@ -91,4 +88,4 @@ locale = tr
 [alternatives.zh-CN]
 name = 简体字 (zh-CN)
 url_prefix = /zh-CN/
-locale = zh_CN
+locale = zh-CN

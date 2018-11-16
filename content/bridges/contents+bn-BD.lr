@@ -2,7 +2,7 @@ _model: topic
 ---
 title: ব্রিজ
 ---
-description: সর্বাধিক <a href="transports">প্ল্যাগেবল ট্রান্সপোর্ট</a>, যেমন obfs3 এবং obfs4 হিসাবে, "ব্রিজ" relays ব্যবহারের উপর নির্ভর করে।
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
 seo_slug: ব্রিজ
 ---

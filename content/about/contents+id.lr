@@ -18,11 +18,11 @@ Tor Browser menggunakan jaringan Tor untuk melindungi privasi dan kerahasiaan an
 
 Tambahan, Tor Browser telah di desain untuk mencegah situs melakukan "fingerprinting" atau mengidentifikasi anda berdasarkan pengaturan browser.
 
-Secara bawaan, Tor Browser tidak menyimpan sejarah perambahan. Cookies hanya valid untuk sesi tunggal (hingga keluar dari Tor Browser atau sebuah<a href="managing-identities#new-identity">Identitas Baru</a>diminta).
+Secara bawaan, Tor Browser tidak menyimpan sejarah perambahan. Cookies hanya valid untuk sesi tunggal (hingga keluar dari Tor Browser atau sebuah<a href="/managing-identities.html#new-identity">Identitas Baru</a>diminta).
 
 ##### Bagaimana Tor bekerja
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Tor adalah sebuah jaringan dari terowongan-terowongan virtual yang memungkinkan anda untuk meningkatkan privasi anda dan keamanan dalam Internet. Tor bekerja dengan mengirim lalu lintas anda melalui tiga server acak (juga dikenal sebagai *relay*) dalam jaringan Tor. Relay yang terakhir dalam sirkuit ("relay keluar") lalu mengirim lalu lintas keluar menuju Internet publik.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 

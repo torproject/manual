@@ -16,7 +16,7 @@ Cependant, l’accès au site Web du Projet Tor pourrait parfois être impossibl
 
 ##### GetTor
 
-GetTor est un service qui repond automatiquement aux messages avec des liens pour la derniėre version de Tor Navigateur, hebergé a une variété de locations comme Dropbox, Google Drive et GitHub.
+GetTor est un service qui répond automatiquement aux messages en incluant des liens vers la dernière version du Navigateur Tor, hébergée en divers endroits qui risquent moins d’être censurée, tels que Dropbox, le disque Google Drive ou GitHub.
 
 ###### Pour utiliser GetTor par courriel :
 
@@ -28,7 +28,7 @@ GetTor répondra par un courriel contenant des liens à partir desquels vous pou
 
 Pour obtenir des liens de téléchargement du Navigateur Tor en anglais pour OS X, envoyez un message direct à @get_tor avec les mots « osx en » (vous n’avez pas à suivre le compte).
 
-###### Pour utiliser GetTor par Jabber/XMPP (Tor Messenger, Jitsi, CoyIM) :
+###### Pour utiliser GetTor par Jabber/XMPP (Jitsi, CoyIM, etc.) :
 
 Pour obtenir des liens de téléchargement du Navigateur Tor en chinois pour Linux, envoyez un message à gettor@torproject.org avec les mots « linux zh ».
 

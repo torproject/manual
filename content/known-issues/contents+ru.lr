@@ -4,7 +4,7 @@ title: Известные проблемы
 ---
 description: Известные проблемы
 ---
-seo_slug: uninstalling
+seo_slug: Удаление
 ---
 key: 12
 ---
@@ -22,7 +22,7 @@ body:
 
 * Tor не может пользоваться мостом, если включен прокси.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* На пакете Tor-браузера проставлена дата 1 января 2000 года, 00:00:00 UTC. Это сделано для полной воспроизводимости сборки программы.
 
 * Чтобы запустить Tor-браузер на Ubuntu, надо исполнить шелл-скрипт. Откройте "Files" (проводник Unity), откройте Preferences → Behavior Tab → Выставите значение "Run executable text files when they are opened" в "Ask every time" и щелкните OK.
 

@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Les transports enfichables
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Les transports enfichables sont des outils que Tor peut utiliser pour déguiser le trafic qu’il envoie.
 ---
 seo_slug: plugable-transports
 ---
 key: 4
 ---
 body:
-Les transports enfichables sont des outils que Tor peut utiliser pour déguiser le trafic qu’il envoie. Cela peut être utile dans les cas où le fournisseur d’accès à Internet ou une autre autorité bloque activement les connexions vers le réseau Tor.
+Les transports enfichables sont des outils que Tor peut utiliser pour déguiser le trafic qu’il envoie. Ils peuvent se révéler utiles dans les cas où un fournisseur d’accès à Internet ou une autre autorité bloque activement les connexions vers le réseau Tor.
 
 ##### Types of pluggable transport
 
@@ -22,7 +22,7 @@ Six transports enfichables sont proposés actuellement, mais d’autres sont en 
     obfs3
 </td>
 <td>
-    obfs3 donne l'impression que le trafic de Tor est aléatoire afin qu'il ne ressemble pas à Tor ou à n'importe quel autre protocole. Malgré le fait qu'il soit encore inclus par défaut, il est recommandé d'utiliser obfs4 à la place, car il comporte plusieurs améliorations de sécurité par rapport à obfs3.
+    obfs3 donne l’impression que le trafic de Tor est aléatoire afin qu’il ne ressemble ni à Tor ni à n’importe quel autre protocole. Bien qu’il soit encore inclus par défaut, il est plutôt recommandé d’utiliser obfs4, car il comporte plusieurs améliorations de sécurité par rapport à obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -62,7 +62,7 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake est une amélioration par rapport à Flashproxy. Il transmet votre trafic via WebRTC, un protocole pair à pair avec poinçonnage de NAT intégré.
+    Snowflake est une amélioration par rapport à Flashproxy. Il transmet votre trafic par WebRTC, un protocole pair-à-pair avec perçage intégré de trous dans la traduction d’adresses de réseau.
 </td>
 </tr>
 </tbody>

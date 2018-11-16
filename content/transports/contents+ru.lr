@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: Pluggable transports
+title: Подключаемый транспорт
 ---
 description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
 ---

@@ -21,7 +21,7 @@ Tor Browser bağlantısı kurulamıyor ise çözümü kolay olabilir. Şunları 
 * Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
 * Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
 * Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* Tor Browser uygulamasını silin ve yeniden kurun. Güncelleme yapıyorsanız, sakın önceki Tor Browser dosyalarınızın üzerine yazmayın; bu dosyaların önceden tamamen silinmiş olduklarından emin olun.
 
 ##### Bağlantınız sansürlü mü?
 

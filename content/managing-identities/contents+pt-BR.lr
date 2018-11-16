@@ -47,7 +47,7 @@ Tor Browser features “New Identity” and “New Tor Circuit for this Site” 
 
    Esta opção é útil se você quiser impedir que as atividades futuras no navegador sejam relacionadas à sua atividade anterior. Se selecionada, ela fechará todas as abas e janelas abertas, excluirá todas as informações privadas, tais como cookies e histórico de navegação, e usará novos circuitos do Tor para todas as conexões. O Navegador Tor lhe mostrará um aviso de que todas atividades e downloads serão interrompidos. Então, leve isso em conta antes de clicar em "Nova Identidade".
 
-###### New Tor circuit for this site
+###### Novo circuito Tor para este site
 
    This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
    You can also access this option in the new circuit display, in the site information menu, in the URL bar.

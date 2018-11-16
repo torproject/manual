@@ -4,13 +4,13 @@ title: Загрузка
 ---
 description: Как скачать Tor Browser
 ---
-seo_slug: downloading
+seo_slug: загрузка
 ---
 key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Безопасно скачать Tor Browser можно с официального сайта Tor Project https://www.torproject.org. Соединение с сайтом использует протокол безопасности <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, что усложняет перехват вашего трафика сторонними пользователями. 
 
 Однако могут возникнуть случаи, когда не удается получить доступ к веб-сайту Tor Project: например, он может быть заблокирован в вашей сети. В этом случае можно использовать один из альтернативных способов загрузки, перечисленных ниже.
 
@@ -46,4 +46,4 @@ Satori - это дополнение для браузеров Chrome или Chr
 
 Дождитесь завершения загрузки, потом найдите раздел "Сгенерировать хэш" в меню Satori и нажмите "Выбрать файлы".
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+Выберите загруженный файл Tor Browser. Satori отобразит контрольную сумму этого файла, которые вы должны сравнить с оригинальной контрольной суммой программного обеспечения: вы можете найти ее, нажав фразу "контрольная сумма" рядом со ссылкой, на которую вы нажимали, чтобы начать загрузку. Если контрольные суммы совпадают, то ваша загрузка была успешной, и вы можете <a href="https://tb-manual.torproject.org/en-US/first-time.html">начать использовать Tor Browser</a>. Если они не совпадают, вам может потребоваться попробовать загрузить снова, либо из другого источника.

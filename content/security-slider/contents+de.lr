@@ -34,7 +34,7 @@ Auf diesem Level werden HTML5-Videos und -Audios durch Click-to-play via NoScrip
 Sicherer
 </dt>
 <dd>
-Auf diesem Level werden HTML5-Video und -Audio durch click-to-play via NoScript abspielbar; alle JavaScript Geschwindigkeitsoptimierungen sind deaktiviert; einige mathematische Gleichungen werden eventuell nicht korrekt angezeigt; die Wiedergabe einiger Schriftarten ist deaktiviert; einige Bilder werden nicht angezeigt; und JavaScript ist für alle nicht-<a href="#secure-connections">HTTPS</a> Internetseiten deaktiviert.
+Auf diesem Level werden HTML5-Video und -Audio durch click-to-play via NoScript abspielbar; alle JavaScript Geschwindigkeitsoptimierungen sind deaktiviert; einige mathematische Gleichungen werden eventuell nicht korrekt angezeigt; die Wiedergabe einiger Schriftarten ist deaktiviert; einige Bilder werden nicht angezeigt; und JavaScript ist für alle nicht-<a href="/secure-connections">HTTPS</a> Internetseiten deaktiviert.
 </dd>
 <dt>
 Standard

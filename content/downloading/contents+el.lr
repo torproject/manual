@@ -4,13 +4,13 @@ title: Γίνεται λήψη
 ---
 description: Πως να κατεβάσετε τον Tor Browser
 ---
-seo_slug: downloading
+seo_slug: Γίνεται λήψη
 ---
 key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Ο ασφαλέστερος και πιο απλός τρόπος για να κατεβάσετε τον Tor Browser είναι από την επίσημη ιστοσελίδα του Tor Project στο https://www.torproject.org. Η σύνδεσή σας με την ιστοσελίδα θα διασφαλίζεται με <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, το οποίο το κάνει πολύ πιο δύσκολο για κάποιον να το παραβιάσει.
 
 Ωστόσο, ίσως να υπάρξουν φορές που δεν θα μπορέσετε να αποκτήσετε πρόσβαση στην ιστοσελίδα του Tor Project: για παράδειγμα, θα μπορούσε να είναι αποκλεισμένη στο δίκτυό σας. Εάν συμβεί αυτό, μπορείτε να χρησιμοποιήσετε μία από τις εναλλακτικές μεθόδους λήψης που αναφέρονται παρακάτω.
 
@@ -46,4 +46,4 @@ The safest and simplest way to download Tor Browser is from the official Tor Pro
 
 Περίμενε να τελειώσει το κατέβασμα, μετά βρες το τμήμα "Παραγωγή Hash" στο μενού του Satori και κάνε κλικ στο "Επιλογή αρχείων".
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+Επιλέξτε το αρχείο του Tor Browser που έχετε κατεβάσει. Το Satori θα εμφανίσει το άθροισμα ελέγχου του αρχείου, το οποίο θα πρέπει να συγκρίνετε με το αρχικό άθροισμα ελέγχου του λογισμικού: μπορείτε να το βρείτε κάνοντας κλικ στη λέξη "checksum" μετά τον σύνδεσμο στον οποίο κάνατε κλικ για να ξεκινήσει η λήψη. Εάν τα ποσά ελέγχου συμπίπτουν, η λήψη σας ήταν επιτυχής και μπορείτε να <a href="https://tb-manual.torproject.org/en-US/first-time.html">ξεκινήσετε να χρησιμοποιείτε τον Tor Browser</a>. Αν δεν ταιριάζουν, ίσως χρειαστεί να δοκιμάσετε να κάνετε λήψη ξανά ή από διαφορετική πηγή.

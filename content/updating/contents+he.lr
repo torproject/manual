@@ -9,25 +9,25 @@ seo_slug: עדכון
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+דפדפן Tor חייב להישאר מעודכן בכל עת. אם תמשיך להשתמש בגרסה מיושנת של התוכנה, אתה עשוי להיות פגיע לפגמי אבטחה רציניים אשר מחבלים בפרטיותך ובאלמוניותך.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+דפדפן Tor יבקש ממך לעדכן את התוכנה ברגע שגרסה חדשה תשוחרר. הצלמית של כפתור Tor תציג משולש צהוב, ואתה עשוי לראות מד כתוב של עדכון כאשר דפדפן Tor ייפתח. אתה יכול לעדכן באופן אוטומטי או באופן ידני.
 
 ##### Updating Tor Browser automatically
   <img width="400" src="media/updating/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+כשתתבקש לעדכן את דפדפן Tor, לחץ על הצלמית של כפתור Tor ואז בחר “בדוק אחר עדכון לדפדפן Tor“.
 
   <img width="600" src="media/updating/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+כשדפדפן Tor יסיים לבדוק אחר עדכונים, לחץ על הכפתור ”עדכן”.
 
   <img width="600" src="media/updating/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+המתן לעדכון שיירד ויותקן, ואז הפעל מחדש את דפדפן Tor. תריץ כעת את הגרסה האחרונה.
 
 ##### Updating Tor Browser manually
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+כשתתבקש לעדכן את דפדפן Tor, סיים את שיח הגלישה וסגור את התוכנית.
 
 Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
 

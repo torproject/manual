@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Akses langsung pada jaringan Tor terkadang bisa diblokir oleh penyedia layanan internet atau oleh pemerintah. Peramban Tor termasuk beberapa perangkat mengelak untuk mengatasi pemblokiran ini. Perangkat-perangkat ini disebut "Angkutan Colok". Lihat halaman <a href="transports">Angkutan Colok</a>untuk informasi lebih tentang jenis angkutan yang tersedia.
+Akses langsung pada jaringan Tor terkadang bisa diblokir oleh penyedia layanan internet atau oleh pemerintah. Peramban Tor termasuk beberapa perangkat mengelak untuk mengatasi pemblokiran ini. Perangkat-perangkat ini disebut "Angkutan Colok". Lihat halaman <a href="/transports">Angkutan Colok</a>untuk informasi lebih tentang jenis angkutan yang tersedia.
 
 ##### Menggunakan pluggable transports
 
@@ -28,8 +28,8 @@ PIlih "Connect with provided bridges". Peramban Tor saat ini memiliki enam opsi 
 
 ##### Transport manakah yang sebaiknya saya gunakan?
 
-Setiap transports yang terdaftar dalam menu Peluncur Tor bekerja dengan cara berbeda (untuk detil, lihat laman<a href="transports">Angkutan Colok</a>), dan efektivitasnya bergantung pada keadaan anda.
+Setiap transports yang terdaftar dalam menu Peluncur Tor bekerja dengan cara berbeda (untuk detil, lihat laman<a href="/transports">Angkutan Colok</a>), dan efektivitasnya bergantung pada keadaan anda.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
+Jika anda mencoba mengelak dari koneksi yang diblokir untuk pertama kali, anda perlu mencoba angkutan yang berbeda: obfs3, obfs4, ScrambeSuit, fte, meek-azure, Snowflake.
 
-Jika anda mencoba semua opsi yang tersedia, dan tidak ada yang membuat anda daring, anda oerlu untuk memasukkan alamat jembatan secara manual. Baca bagian<a href="bridges">Jembatan-jembatan</a> untuk mempelajari apa itu jembatan dan bagaimana mendapatkannya.
+Jika anda mencoba semua opsi yang tersedia, dan tidak ada yang membuat anda daring, anda oerlu untuk memasukkan alamat jembatan secara manual. Baca bagian<a href="/bridges/">Jembatan-jembatan</a> untuk mempelajari apa itu jembatan dan bagaimana mendapatkannya.

@@ -4,7 +4,7 @@ title: Устранение неполадок
 ---
 description: Что делать, если Tor Browser не работает
 ---
-seo_slug: troubleshooting
+seo_slug: Устранение-неполадок
 ---
 key: 11
 ---
@@ -25,8 +25,8 @@ body:
 
 ##### Ваше интернет-соединение цензурируется?
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+Если вы все еще не можете подключиться, ваш поставщик услуг Интернета может подвергать цензуре подключения к сети Tor. Прочтите раздел <a href="/circumvention">Circumvention</a> для возможных решений.
 
 ##### Известные проблемы
 
-Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+Tor Browser находится в постоянном развитии, и некоторые проблемы известны, но еще не исправлены. Пожалуйста проверьте страницу <a href="/known-issues">Известные проблемы</a>, чтобы узнать, есть ли там проблема, с которой вы столкнулись.

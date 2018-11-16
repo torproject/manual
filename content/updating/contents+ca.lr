@@ -9,25 +9,25 @@ seo_slug: Actualitzant
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+El navegador Tor ha d'estar actualitzat. Si continua amb l'ús de versions obsoletes, pot ser vulnerable a seriosos problemes de seguretat, comprometent la seva seguretat i anonimat.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+El navegador Tor mostrarà quan es pot actualitzar un cop la última versió sigui alliberada: La icona Tor mostrarà un triangle groc amb un indicador d'actualització. Es pot realitzar de forma manual o automàtica.
 
 ##### Updating Tor Browser automatically
   <img width="400" src="media/updating/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+Quan sigui requerit a actualitzar el navegador Tor, faci clic en la icona Tor i seleccioni "comprovar actualitzacions".
 
   <img width="600" src="media/updating/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+Quan el navegador Tor hagi finalitzat la comprovació d'actualitzacions, faci clic en el botó "Actualitzar".
 
   <img width="600" src="media/updating/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+Esperi a la descarrega de l'actualització i posterior instal·lació, reiniciar el programa. Finalment s'executarà la última versió.
 
 ##### Updating Tor Browser manually
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+Quan se li requereixi l'actualització del navegador Tor, acabi la seva navegació i tanqui el programa.
 
 Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
 

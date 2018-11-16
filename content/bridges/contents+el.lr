@@ -2,9 +2,9 @@ _model: topic
 ---
 title: Γέφυρες
 ---
-description: Τα περισσότερα <a href="transports">Pluggable Transports</a>, όπως το obfs3 και το obfs4, βασίζονται στη χρήση κόμβων "γέφυρας".
+description: Τα περισσότερα Pluggable Transports, όπως το obfs3 και το obfs4, βασίζονται στη χρήση κόμβων "γέφυρας".
 ---
-seo_slug: bridges
+seo_slug: Γέφυρες
 ---
 key: 4
 ---
@@ -17,7 +17,7 @@ body:
 
 Επειδή οι διευθύνσεις γέφυρας δεν είναι δημόσιες, θα πρέπει να τις ζητήσετε εσείς οι ίδιοι. Έχετε δύο επιλογές:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Πήγαινε https://bridges.torproject.org/ και ακολούθησε τις οδηγίες, ή
 * Στείλε email στο bridges@torproject.org από ένα λογαριασμό Gmail, Yahoo ή Riseup ή
 
 ##### Εισαγωγή διευθύνσεων γεφυρών
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Εάν η σύνδεση αποτύχει, οι γέφυρες που λάβατε μπορεί να είναι εκτός λειτουργίας. Χρησιμοποιήστε μία από τις παραπάνω μεθόδους για να αποκτήσετε περισσότερες διευθύνσεις γέφυρας και δοκιμάστε ξανά.

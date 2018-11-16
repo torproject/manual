@@ -22,7 +22,7 @@ Per defecte, el navegador Tor no desa l'historial de navegació. Les galetes nom
 
 ##### Com funciona Tor
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Tor és una xarxa de túnels virtuals que permeten incrementar la privacitat i la seguretat a Internet. Tor funciona enviant el tràfic de dades a 3 servidors aleatòris (també anomenats com *relés*) a la xarxa Tor. L'últim relé del circuit (el relé de sortida) envia la informació al Internet públic.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 

@@ -4,7 +4,7 @@ title: Ceangail Shlána
 ---
 description: Foghlaim conas is féidir do chuid sonraí a chosaint le Brabhsálaí Tor agus HTTPS
 ---
-seo_slug: secure-connections
+seo_slug: Ceangail-Shlána
 ---
 key: 7
 ---
@@ -27,7 +27,7 @@ Taispeánann an pictiúr seo an t-eolas atá cúléisteoirí in ann a fheiceáil
 <dl>
 
 <dt>
-Site.com
+Tuairisc.ie
 </dt>
   <dd>
     An suíomh a dtugtar cuairt air.
@@ -41,14 +41,14 @@ user / pw
   </dd>
 
 <dt>
-data
+sonraí
 </dt>
   <dd>
     Na sonraí á n-aistriú.
   </dd>
 
 <dt>
-location
+suíomh
 </dt>
   <dd>
     Seoladh an ríomhaire a úsáideadh chun cuairt a thabhairt ar an suíomh (an seoladh IP poiblí).

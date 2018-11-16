@@ -21,7 +21,7 @@ JavaScript est un langage de programmation que les sites Web utilisent pour offr
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
 <img class="col-md-6" src="/static/images/noscript_menu.png">
-Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+Les utilisateurs qui exigent un niveau de sécurité élevé quand ils parcourent le Web devraient régler le curseur de sécurité du Navigateur Tor à « Plus sûr » (ce qui désactive le JavaScript pour les sites Web sans HTTPS) ou « Le plus sûr » (ce qui le fait pour tous les sites Web). Cependant, la désactivation du JavaScript empêchera de nombreux sites Web de s’afficher correctement, et c’est pourquoi les paramètres par défaut du Navigateur Tor permettent à tous les sites Web d’exécuter des scripts en mode « Normal ».
 
 ##### Browser Add-ons
 

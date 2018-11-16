@@ -34,7 +34,7 @@ Site.com
   </dd>
 
 <dt>
-user / pw
+usuario / contraseña
 </dt>
   <dd>
     Nombre de usuario y contraseña usados para la autentificación.
@@ -48,7 +48,7 @@ datos
   </dd>
 
 <dt>
-location
+ubicación
 </dt>
   <dd>
     La ubicación de red del ordenador usado para visitar el sitio web (la dirección IP pública).

@@ -10,11 +10,11 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+La manera segura i simple de descarregar el navegador Tor és mitjançant la pàgina oficial del projecte Tor en el web https://www.torproject.org. La connexió s'estableix de forma segura mitjançat <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, que permet evitar les falsificacions.
 
 Com sigui, hi han diverses maneres d'evitar l'accés al web del Projecte Tor: per exemple, el bloqueig en la xarxa d'accés. Si això succeïx, pot utilitzar un dels llocs de descàrrega que es citen a continuació.
 
-##### GetTor
+##### Obtenir Tor
 
 GetTor és un servei que respon automàticament a missatges amb enllaços a la versió més recent del navegador de Tor, allotjada en diverses ubicacions, com ara Dropbox, Google Drive i GitHub.
 

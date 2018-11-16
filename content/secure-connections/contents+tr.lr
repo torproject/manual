@@ -34,21 +34,21 @@ Site.com
   </dd>
 
 <dt>
-user / pw
+kul / par
 </dt>
   <dd>
     Kimlik doğrulaması için kullanılan kullanıcı adı ve parola.
   </dd>
 
 <dt>
-data
+veri
 </dt>
   <dd>
     İletilen veriler.
   </dd>
 
 <dt>
-location
+konum
 </dt>
   <dd>
     Web sitesini ziyaret eden bilgisayarın ağ konumu (herkese açık IP adresi).

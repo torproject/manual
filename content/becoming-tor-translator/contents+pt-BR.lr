@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Tornando-se um tradutor Tor
 ---
-description: Tornado-se um tradutor para o projeto Tor
+description: Tornando-se um tradutor para o Projeto Tor
 ---
 seo_slug: becoming-tor-translator
 ---
@@ -15,11 +15,11 @@ Se você estiver interessado em ajudar o projeto traduzindo o manual ou o Navega
 ##### Signing up on Transifex
 
 * Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
-  Enter your information into the fields and click the 'Sign Up' button:
+  Entre com suas informações nos campos e clique no botão "inscrever-se":
 
 <img class="col-md-6" src="/static/images/tr1.png">
 
-* Fill out the next page with your name and select "Localization" and "Translator" from the drop-down menus:
+* Preencha a próxima página com o seu nome e selecione "Localização" e "Tradutor" nos menus de listagem:
 
 <img class="col-md-6" src="/static/images/tr2.png">
 

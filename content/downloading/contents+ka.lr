@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+ყველაზე მეტად უსაფრთხო და მარტივი გზა Tor-ბრაუზერის ჩამოსატვირთად, Tor-პროექტის ოფიციალური ვებსაიტია https://www.torproject.org. თქვენი კავშირი საიტთან დაცულია <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>-კავშირით, რომელიც არ აძლევს უცხო პირებს კავშირში ჩართვის ან გვერდის გაყალბების საშუალებას.
 
 თუმცა, ზოგ შემთხვევაში, შესაძლოა არ იყოს შესაძლებელი Tor-პროექტის საიტთან წვდომა: მაგალითად, როცა შეზღუდულია თქვენი ქსელიდან. ასეთ შემთხვევებში, სანაცვლოდ შეგიძლიათ გამოიყენოთ ქვემოთ მითითებული გზები.
 
@@ -46,4 +46,4 @@ Tor-ბრაუზერის Satori-ს მეშვეობით ჩამ
 
 დაელოდეთ ჩამოტვირთვის დასრულებას, შემდეგ მონახეთ „ჰეშკოდის შექმნის“ (Generate Hash) განყოფილება Satori-ს მენიუში და დააწკაპეთ „ფაილების შერჩევაზე“ (Select Files).
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+აირჩიეთ ჩამოტვირთული ფაილი Tor-ბრაუზერის. Satori გაჩვენებთ ფაილის სადარჯამს, რომელიც შეგიძლიათ შეადაროთ პროგრამის თავდაპირველი ვერსიის შესაბამის სადარჯამს: მისი მონახვა შეგიძლიათ სიტყვა „სადარჯამზე“ (checksum) დაწკაპებით, ჩამოტვირთვის დაწყებაზე დაწკაპების შემდგომ. თუ ისინი დაემთხვევა, თქვენი ჩამოტვირთვა წარმატებულია და შეგიძლიათ <a href="https://tb-manual.torproject.org/en-US/first-time.html">დაიწყოთ Tor-ბრაუზერის გამოყენება</a>. თუ არ დაემთხვა, მაშინ ხელახლა ჩამოტვირთვა იქნება საჭირო, სხვა წყაროდან.

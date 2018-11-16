@@ -4,7 +4,7 @@ title: Sichere Verbindungen
 ---
 description: Erfahre, wie du deine Daten mithilfe des Tor-Browsers und HTTPS schützt
 ---
-seo_slug: secure-connections
+seo_slug: Sichere Verbindungen
 ---
 key: 7
 ---
@@ -27,7 +27,7 @@ Die folgende Visualisierung zeigt, welche Informationen Lauscher einsehen könne
 <dl>
 
 <dt>
-Site.com
+seite.de
 </dt>
   <dd>
     Die besuchte Seite.

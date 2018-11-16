@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+要获取 Tor 浏览器，最安全且简便的方式就是从洋葱路由官网 https://www.torproject.org 下载。访问该网站的网络连接受到<a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>机制保护，使其更难被篡改。
 
 然而，某些情况下您可能无法成功访问洋葱路由的官方网站：例如您所在的网络会屏蔽该网站。如果您遭遇到类似情况的话，可以利用下列几种不同的方式获取 Tor 浏览器。
 
@@ -46,4 +46,4 @@ Satori 是一个适用于 Chrome 或 Chromium 浏览器的扩展，允许您从�
 
 等下载完成以后，在 Satori 的功能清单中找到“Generate Hash”功能，并选择“Select Files”。
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+选择下载下来的 Tor 浏览器文件，此时 Satori 将会自动为该文件计算出其总和检查码，您需要亲自核对此检查码与软件原本的检查码是否完全符合：您可以在您下载该文件的超链接旁边找到“checksum”字样，点击后就可以看到软件原本的检查码，若两组检查码完全一致的话，表示您的下载已经成功，此时您可以直接<a href="https://tb-manual.torproject.org/en-US/first-time.html">开始使用 Tor 浏览器</a>，若两组检查码不相符的话，您可能需要再重新下载，或者选择不同的下载来源重新尝试。

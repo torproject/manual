@@ -20,7 +20,7 @@ Les services onion offrent plusieurs avantages par rapport aux services ordinair
 
 ##### How to access an onion service
 
-Comme tout autre site Web, vous devrez connaître l’adresse d’un service oignon afin de vous y connecter. Une adresse oignon est une chaîne de 16 (ou 56 en format V3) lettres et chiffres presque tous générés au hasard suivie par « .onion ».
+Comme tout autre site Web, vous devrez connaître l’adresse d’un service onion afin de vous y connecter. Une adresse onion est une chaîne de 16 lettres et chiffres (ou 56 en format V3) principalement générés au hasard, suivie par « .onion ».
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
@@ -30,4 +30,4 @@ Si vous ne pouvez pas atteindre le service onion dont vous avez besoin, assurez-
 
 Si vous n’arrivez toujours pas à vous connecter au service onion, veuillez ressayer ultérieurement. Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+Vous pouvez aussi vérifier si vous arrivez à vous connecter à d’autres services onion en vous connectant au <link href="http://3g2upl4pq6kufc4m.onion/">service onion de DuckDuckGo</a>.

@@ -27,28 +27,28 @@ La següent imatge mostra quina informació és visible a ulls del interceptors 
 <dl>
 
 <dt>
-Site.com
+Lloc.com
 </dt>
   <dd>
     El web visitat.
   </dd>
 
 <dt>
-user / pw
+usuari / pass
 </dt>
   <dd>
     Nom d'usuari i contrasenya usats per la autenticació.
   </dd>
 
 <dt>
-data
+dades
 </dt>
   <dd>
     Dades trameses.
   </dd>
 
 <dt>
-location
+lloc
 </dt>
   <dd>
     Localització del ordinador usat per la consulta del web (l'adreça pública IP).

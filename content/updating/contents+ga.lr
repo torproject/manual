@@ -9,25 +9,25 @@ seo_slug: Nuashonrú
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+Caithfidh tú Brabhsálaí Tor a choinneáil cothrom le dáta i gcónaí. Má úsáideann tú leagan den bhogearra atá as dáta, is dócha go mbeidh tú i mbaol ionsaithe mar gheall ar lochtanna tromchúiseacha slándála a d'fhéadfadh d'aitheantas nó do chuid sonraí pearsanta a nochtadh.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+Fiafróidh Brabhsálaí Tor díot ar mhaith leat an bogearra a nuashonrú chomh luath agus a bheidh leagan nua ar fáil: taispeánfaidh deilbhín an chnaipe Tor triantán buí, agus seans go bhfeicfidh tú táscaire scríofa faoin nuashonrú nuair a osclóidh Brabhsálaí Tor. Is féidir leat é a nuashonrú go huathoibríoch nó de láimh.
 
 ##### Updating Tor Browser automatically
   <img width="400" src="media/updating/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+Nuair a iarrfar ort Brabhsálaí Tor a nuashonrú, cliceáil an cnaipe Tor, ansin roghnaigh “Lorg Nuashonrú ar Bhrabhsálaí Tor”.
 
   <img width="600" src="media/updating/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+Tar éis do Bhrabhsálaí Tor nuashonruithe a lorg, cliceáil an cnaipe “Nuashonraigh”.
 
   <img width="600" src="media/updating/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+Fan go dtí go mbeidh an nuashonrú íoslódáilte agus suiteáilte, agus atosaigh Brabhsálaí Tor. Ansin, beidh an leagan is déanaí agat.
 
 ##### Updating Tor Browser manually
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+Nuair a iarrfar ort Brabhsálaí Tor a nuashonrú, críochnaigh an seisiún brabhsála agus dún an ríomhchlár.
 
 Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
 

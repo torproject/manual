@@ -16,7 +16,7 @@ Saat kamu menjalankan Tor Browser untuk pertama kali, kamu akan melihat laman Pe
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+Dalam kebanyakan kasus, memilih "Connect" akan memungkinkan Anda terhubung ke jaringan Tor tanpa konfigurasi lebih lanjut. Setelah diklik, bar status akan muncul, menunjukkan kemajuan koneksi Tor. Jika Anda berada pada koneksi yang relatif cepat, namun bar ini tampaknya terjebak pada titik tertentu, lihat halaman <a href="/troubleshooting">Pemecahan Masalah</a> untuk mendapatkan bantuan dalam menyelesaikan masalah.
 
 ##### Konfigurasikan
 
@@ -24,7 +24,7 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 Jika Anda tahu bahwa koneksi Anda disensor, atau menggunakan proxy, Anda harus memilih opsi ini. Tor Browser akan membawa Anda melalui serangkaian pilihan konfigurasi.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+Layar pertama menanyakan jika akses ke jaringan Tor di blokir atau di sensor pada koneksi anda. Jika anda tidak yakin hal ini menjadi kasus, pilih "No". Jika anda mengetahui bahwa jaringan di sensor, atau anda mencoba dan gagal terhubung dengan jaringan Tor dan tidak ada yang lain yang berhasil, pilih "yes". Anda akan dibawa pada <a href="/circumvention">circumvention</a> layar untuk mengkonfigurasi pluggable transport
 
 Layar selanjutnya menanyakan  jika koneksi anda menggunakan sebuah proxy.  Pada banyak kasus, hal ini tidak diperlukan. Biasanya anda akan mengetahui jika anda perlu menjawab "yes", sebagaimana pada pengaturan yang  digunakan oleh browser yang lain pada sistem anda. Jika memungkinkan, tanyakan pengelola jaringan untuk panduan. Jika koneksi tidak menggunakan sebuah proksi, klik "continue".
 

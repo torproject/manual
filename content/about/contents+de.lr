@@ -4,7 +4,7 @@ title: Über den Tor-Browser
 ---
 description: Erfahre, was der Tor-Browser tun kann, um deine Privatsphäre und Anonymität zu schützen
 ---
-seo_slug: about
+seo_slug: über
 ---
 key: 1
 ---
@@ -18,12 +18,12 @@ Der Tor-Browser benutzt das Tor Netzwerk, um deine Privatsphäre und Anonymität
 
 Außerdem ist der Tor Browser so eingerichtet, dass Webseiten vom "fingerprinting", oder der Identifizierung basierend auf deiner Browsereinstellung, abgehalten werden.
 
-Normalerweise speichert der Tor Browser keinen Verlauf. Cookies sind nur für eine einzige Sitzung gültig (bis der Tor Browser geschlossen wird oder um eine <a href="managing-identities#new-identity">neue Identität</a> gebeten wird).
+Normalerweise speichert der Tor Browser keinen Verlauf. Cookies sind nur für eine einzige Sitzung gültig (bis der Tor Browser geschlossen wird oder um eine <a href="/managing-identities.html#new-identity">neue Identität</a> gebeten wird).
 
 ##### Wie Tor funktioniert
 
 Tor ist ein Netzwerk aus virtuellen Tunneln, die es dir erlauben, deine Privatsphäre und Sicherheit im Internet zu verbessern. Tor funktioniert, indem es deinen Verkehr über drei zufällige Server (auch bekannt als <em>Relays</em>) im Tor-Netzwerk sendet. Das letzte Relay im Kanal (das "Ausgangsrelay") sendet dann den Verkehr in das öffentliche Internet.
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="/static/images/how-tor-works.png" alt="Wie der Tor Browser funktioniert"/>
 
 Das Bild oben stellt einen Nutzer dar, der verschiedene Webseiten über Tor besucht. Die grünen Computer in der Mitte stellen die Relays im Tor-Netzwerk dar, während die drei Schlüssel die Verschlüsselungsschichten zwischen dem Benutzer und jedem Relayserver darstellen.

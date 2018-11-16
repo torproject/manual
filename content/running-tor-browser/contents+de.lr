@@ -16,7 +16,7 @@ Wenn du den Tor Browser zum ersten Mal startest, wirst du das Fenster "Tor Netzw
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In den meisten Fällen kannst du dich ohne weitere Konfiguration durch das Wählen von "Verbinden" mit dem Tor Netzwerk verbinden. Nach dem Klicken wird eine Fortschrittsanzeige eingeblendet, die den Verbindungsprozess anzeigt. Wenn du über eine relativ schnelle Verbindung verfügst, aber die Fortschrittsanzeige an einem bestimmten Punkt festzuhängen scheint, schaue bitte auf der Seite <a href="troubleshooting">Fehlerbehebung</a> für weitere Hilfe um dieses Problem zu beheben.
+In den meisten Fällen kannst du dich ohne weitere Konfiguration durch das Wählen von "Verbinden" mit dem Tor Netzwerk verbinden. Nach dem Klicken wird eine Fortschrittsanzeige eingeblendet, die den Verbindungsprozess anzeigt. Wenn du über eine relativ schnelle Verbindung verfügst, aber die Fortschrittsanzeige an einem bestimmten Punkt festzuhängen scheint, schaue bitte auf der Seite <a href="/troubleshooting">Fehlerbehebung</a> für weitere Hilfe um dieses Problem zu beheben.
 
 ##### Konfigurieren
 
@@ -24,7 +24,7 @@ In den meisten Fällen kannst du dich ohne weitere Konfiguration durch das Wähl
 
 Wenn du weisst, dass deine Verbindung zensiert wird oder einen Proxy benutzt, dann solltest du diese Option wählen. Der Tor Browser wird dich durch eine Reihe von Konfigurationsoptionen führen.
 
-Die erste Anzeige fragt, ob der Zugriff auf das Tor Netzwerk auf deiner Verbindung blockiert oder zensiert wird. Wenn du nicht glaubst, dass dies der Fall ist, wähle "Nein". Wenn du weisst, dass deine Verbindung zensiert wird, oder du bereits versucht hast dich mit dem Tor Netzwerk zu verbinden und keine andere Möglichkeit funktioniert hat, wähle "Ja". Du wirst anschließend zum Fenster <a href="circumvention">Umgehungsmaßnahmen </a> geleitet, um eine andere Übertragungsart zu konfigurieren.
+Die erste Anzeige fragt, ob der Zugriff auf das Tor Netzwerk auf deiner Verbindung blockiert oder zensiert wird. Wenn du nicht glaubst, dass dies der Fall ist, wähle "Nein". Wenn du weisst, dass deine Verbindung zensiert wird, oder du bereits versucht hast dich mit dem Tor Netzwerk zu verbinden und keine andere Möglichkeit funktioniert hat, wähle "Ja". Du wirst anschließend zum Fenster <a href="/circumvention">Umgehungsmaßnahmen </a> geleitet, um eine andere Übertragungsart zu konfigurieren.
 
 Die nächste Anzeige fragt ob deine Verbindung einen Proxy benötigt. In den meisten Fällen ist dies nicht erforderlich. Normalerweise weisst du es, wenn du hier "Ja" antworten musst, da die Einstellungen auch für andere Browser auf deinem System benutzt werden. Wenn möglich bitte deinen Netzwerkadministrator um Hilfe. Wenn deine Verbindung keinen Proxy verwendet, klicke auf "Fortfahren".
 

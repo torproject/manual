@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Мосты
 ---
-description: Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
 seo_slug: Мосты
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+Большинство <a href="/transports">Pluggable Transports</a>, такие как obfs3 и obfs4, полагаются на использование «мостовых» реле. Как обычные ретрансляторы Tor, мосты управляются добровольцами; в отличие от обычных реле, они не публикуются публично, поэтому противник не может легко идентифицировать их. Использование мостов в сочетании с подключаемыми транспортами помогает скрыть тот факт, что вы используете Tor.
 
 Другие подключаемые транспорты, такие как meek, используют разные методы против цензуры, которые не полагаются на мосты. Вам не нужно получать адреса моста, чтобы использовать эти транспорты.
 
@@ -17,7 +17,7 @@ Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, re
 
 Поскольку адреса мостов не являются публичными, нужно запросить их самостоятельно. У вас есть два варианта:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Посетите https://bridges.torproject.org/ и следуйте инструкциям, или
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
 ##### Введите адреса мостов
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Если соединение не удалось, мосты, которые вы получили, могут быть недоступны. Для получения большего количества адресов моста используйте один из приведенных выше методов и повторите попытку.

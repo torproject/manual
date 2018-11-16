@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Jembatan-jembatan
 ---
-description: * Kebanyakan <a href="transports">Angkutan Colok</a>, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay.
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
 seo_slug: jembatan-jembatan
 ---
 key: 4
 ---
 body:
-Kebanyakan <a href="transports">Angkutan Colok</a>, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay. Seperti relay-relay Tor biasa, jembatan-jembatan ini dijalankan oleh para relawan; namun tidak seperti relay pada umumnya, mereka tidak terdaftar secara publik, sehingga seorang lawan tidak dapat mengidentifikasi pengguna dengan mudah. Menggunakan jembatan-jembatan dikombinasikan dengan angkutan colok membantu menyamarkan fakta bahwa anda sedang menggunakan Tor.
+Kebanyakan <a href="/transports">Angkutan Colok</a>, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay. Seperti relay-relay Tor biasa, jembatan-jembatan ini dijalankan oleh para relawan; namun tidak seperti relay pada umumnya, mereka tidak terdaftar secara publik, sehingga seorang lawan tidak dapat mengidentifikasi pengguna dengan mudah. Menggunakan jembatan-jembatan dikombinasikan dengan angkutan colok membantu menyamarkan fakta bahwa anda sedang menggunakan Tor.
 
 Diska lepas yang lain, seperti meek, menggunakan teknik anti-sensor berbeda yang tidak mengandalkan jembatan-jembatan. Anda tidak perlu mencari alamat-alamat jembatan untuk menggunakannya.
 
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Jika koneksi gagal, jembatan-jembatan yang anda terima mungkin sedang mati. Gunakan salah satu metode di atas untuk mendapatkan alamat-alamat jembatan, dan coba lagi.

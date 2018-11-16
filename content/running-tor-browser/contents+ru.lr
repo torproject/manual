@@ -4,7 +4,7 @@ title: Запуск Tor Browser в первый раз
 ---
 description: Узнайте как использовать Tor Browser впервые
 ---
-seo_slug: running-tor-browser
+seo_slug: Запуск-Tor-Browser-в-первый-раз
 ---
 key: 3
 ---
@@ -16,7 +16,7 @@ body:
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+В большинстве случае, выбор пункта "Подключить" позволит вам подключиться к сети Tor без какой-либо дополнительной конфигурации. После нажатия на него, появится панель состояния, отображающая прогресс подключения к Tor. Если у вас достаточно быстрое подключение, но эта панель застрянет на какой-то точке, то обратитесь к странице <a href="/troubleshooting">решения проблем</a>, чтобы получить помощь по решению это проблемы.
 
 ##### Настроить
 
@@ -24,7 +24,7 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 Если вам известно, что ваше подключение подвержено цензуре или происходит через прокси, выберите эту опцию. Вы пройдете через ряд настроек.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+Первое окно спросит, правда ли, что ваш доступ к сети Tor заблокирован или подвержен цензуре. Если вы считаете, что это не так, нажмите "Нет". Если ваше подключение все-таки подвержено цензуре или если вы пытались и не смогли подключиться к сети Tor и ничто другое не помогло, выберите "Да". Вы попадете в окно настройки подключаемых транспортов для <a href="/circumvention">обхода блокировок</a>.
 
 Следующее окно спросит, используете ли вы прокси для подключения к сети. В большинстве случаев прокси не используется. Обычно вы заранее знаете, если прокси используется, так как те же настройки используются в других браузерах вашей системы. По возможности попросите вашего системного администратора помочь вам. Если прокси не используется, нажмите "Продолжить".
 

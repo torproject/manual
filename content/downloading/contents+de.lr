@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Der sicherste und einfachste Weg, um den Tor Browser herunterzuladen, ist die offizielle Tor Project Webseite unter https://www.torproject.org. Deine Verbindung zu dieser Seite wird mit <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a> gesichert. Dies macht es für andere wesentlich schwieriger, die Verbindung zu manipulieren.
 
 Wie auch immer, es kann sein dass du auf die Internetseite des Tor Projekts nicht zugreifen kannst, wenn du zum Beispiel in deinem Netzwerk blockiert wurdest. Wenn dies passiert kannst du eine der unten aufgeführten Methoden zum Herunterladen benutzen.
 
@@ -46,4 +46,4 @@ Wenn sich Satori öffnet, klicke auf die von dir bevorzugte Sprache. Es wird sic
 
 Warte bis dein Download abgeschlossen ist, wähle den Punkt "Generierter Hash" in Satoris Menü aus und klicke auf "ausgewählte Dateien".
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+Wähle die heruntergeladene Tor Browser Datei aus. Satori wird dann die Prüfsumme der Datei anzeigen, die du mit der Prüfsumme der originalen Software vergleichen solltest: Du kannst diese herausfinden, indem du nach dem Link, auf den du geklickt habst, um den Download zu starten, das Wort "checksum" anklickst. Wenn die Prüfsummen übereinstimmen, war dein Download erfolgreich, und du kannst beginnen, <a href="https://tb-manual.torproject.org/en-US/first-time.html">den Tor Browser zu benutzen</a>. Sollten die Prüfsummen nicht übereinstimmen, musst du die Datei eventuell erneut oder von einer anderen Quelle herunterladen.

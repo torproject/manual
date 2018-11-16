@@ -27,28 +27,28 @@ Questa visualizzazione mostra quali informazioni sono visibili agli intercettato
 <dl>
 
 <dt>
-Site.com
+Sito.com
 </dt>
   <dd>
     Il sito sta venendo visitato.
   </dd>
 
 <dt>
-user / pw
+utente / password
 </dt>
   <dd>
     Username a password utilizzate per l'autenticazione.
   </dd>
 
 <dt>
-data
+dati
 </dt>
   <dd>
     I dati stanno venendo trasmessi.
   </dd>
 
 <dt>
-location
+posizione
 </dt>
   <dd>
     Posizione di rete del computer utilizzato per visitare il sito Web (l'indirizzo IP pubblico).

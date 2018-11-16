@@ -10,13 +10,13 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Cara aman dan mudah untuk mengunduh TOR Browser yaitu berasal dari situs resmi TOR Project  https:/www.torproject.org. Koneksi ke situs akan terlindungi dengan menggunakan <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, sehingga ini akan membuat seseorang sulit melakukan gangguan.
 
 Namun, dalam sejumlah kasus anda tak bisa mengakses situs TOR Project: misalnya, situs ini diblokir oleh jaringan Anda. Jika ini terjadi, Anda bisa menggunakan sejumlah jalur alternatif unduhan seperti daftar di bawah ini.
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+GetTor adalah sebuah servise yang secara otomatis menjawab pesan dengan tautan pada versi terakhir dari TorBrowser, penerima diberbagai lokasi, seperti Dropbox, Google Drive dan GitHub..
 
 ##### Menggunakan GetTor lewat email:
 
@@ -28,7 +28,7 @@ GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket
 
 Untuk mendapatkan tautan guna mengunduh Tor browser dalam bahasa Inggris pada OS X, kirimlah email langsung ke @get_tor dengan subjek  "osx en"  (anda tidak perlu mengikuti akun tersebut).
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Untuk menggunakan GetTor melalui Jabber/XMPP (Jitsi, CoyIM):
 
 Untuk  mendapatkan tautan guna mengunduh Tor Browser dalam bahasa China untu Linux, kirimkan sebuah email ke gettor@torproject.org dengan subjek "linux zh".
 
@@ -46,4 +46,4 @@ Ketika Satori dibuka, Klik pada bahasa yang anda inginkan.  Menu A akan membuka 
 
 Tunggu hingga unduhan anda selesai, kemudian temukan  "Generate Hash" pada menu Satori, lalu klik "Select Files".
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+Pilih pengunduh file Tor Browser . Satori akan memunculkan checksum dari seuah fil, yang mana anda harus membandingkan dengan perangkat lunak checksum yang asli: anda dapat menemukannya dengan mengklik kata "checksum" setelah tautan yang ada klik mulai mengunduh. Jika the checksum cocok, anda telah berhasil mengunduh, sehingga anda dapat : <a href="https://tb-manual.torproject.org/en-US/first-time.html">memulai Tor Browser</a>,  jika tidak cocok, maka anda perlu mencoba mengunduh kembali, atau mencoba dari sumber yang berbeda. 

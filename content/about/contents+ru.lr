@@ -4,7 +4,7 @@ title: О браузере Tor
 ---
 description: Узнайте, что может сделать браузер Tor, чтобы защитить Вашу конфиденциальность и анонимность
 ---
-seo_slug: about
+seo_slug: О нас
 ---
 key: 1
 ---
@@ -22,7 +22,7 @@ body:
 
 ##### Как работает Tor
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Анонимная сеть Tor использует виртуальные туннели для максимально приватного и безопасного серфинга интернет страниц. Сеть Tor направляет ваш трафик через три сервера (также известные как *ретрансляторы) выбранные случайным способом. После последней подмены цепочки соединений (называющейся выходным ретранслятором), ваш трафик перенаправляется в открытый интернет.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 

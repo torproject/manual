@@ -27,28 +27,28 @@ body:
 <dl>
 
 <dt>
-Site.com
+网站.com
 </dt>
   <dd>
     被访问的网站。
   </dd>
 
 <dt>
-user / pw
+用户名/密码
 </dt>
   <dd>
     用于身份验证的用户名和密码。
   </dd>
 
 <dt>
-data
+数据
 </dt>
   <dd>
     被传输的数据。
   </dd>
 
 <dt>
-location
+所处位置
 </dt>
   <dd>
     访问网站的计算机的网络位置（公网IP地址）。
