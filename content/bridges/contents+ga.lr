@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Droichid
 ---
-description: Úsáideann an chuid is mó de na <a href="transports">Córais Iompair Ionphlugáilte</a>, mar shampla obfs3 agus obfs4, athsheachadáin "droichid".
+description: Úsáideann an chuid is mó de na Córais Iompair Ionphlugáilte, mar shampla obfs3 agus obfs4, athsheachadáin "droichid".
 ---
 seo_slug: Droichid
 ---
@@ -17,7 +17,7 @@ body:
 
 Toisc nach bhfuil seoltaí droichid ar fáil go poiblí, caithfidh tú iad a iarraidh as do stuaim féin. Tá dhá rogha agat:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Tabhair cuairt ar https://bridges.torproject.org/ agus lean na treoracha, nó
 * Seol ríomhphost chuig bridges@torproject.org ó sheoladh Gmail, Yahoo, nó Riseup, nó
 
 ##### Seoltaí droichid a chur isteach

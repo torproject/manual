@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Jembatan-jembatan
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Kebanyakan Angkutan Colok, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay.
 ---
 seo_slug: jembatan-jembatan
 ---
@@ -17,8 +17,8 @@ Diska lepas yang lain, seperti meek, menggunakan teknik anti-sensor berbeda yang
 
 Karena alamat-alamat jembatan tidak terbuka untuk umum, anda perlu membuat permintaan sendiri. Anda punya dua pilihan:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Kunjungi https://bridges.torproject.org/ dan ikuti petunjuk, atau
+* Email bridges@torproject.org melalui alamat email Gmail, Yahoo, atau Riseup
 
 ##### Memasukkan alamat-alamat jembatan
 

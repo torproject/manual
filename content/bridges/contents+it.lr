@@ -2,7 +2,7 @@ _model: topic
 ---
 title: ponti
 ---
-description: La maggior parte dei <a href="transports">Pluggable transports</a>, come obfs3 e ofsf4, si basano su dei nodi relay.
+description: La maggior parte dei Pluggable transports, come obfs3 e ofsf4, si basano su dei nodi relay.
 ---
 seo_slug: ponti
 ---

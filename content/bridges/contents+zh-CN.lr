@@ -2,7 +2,7 @@ _model: topic
 ---
 title: 网桥
 ---
-description: 大多数<a href="transports">可插拔传输</a>（诸如 obfs3 和 obfs4）依赖于使用“网桥”中继。
+description: 大多数 可插拔传输（诸如 obfs3 和 obfs4）依赖于使用“网桥”中继。
 ---
 seo_slug: 网桥
 ---
@@ -17,7 +17,7 @@ body:
 
 因为网桥地址非公开，您需要自行请求。您有两个选项：
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* 访问 https://bridges.torproject.org/ 并按照流程操作，或者
 * 使用 Gmail、Yahoo 或 Riseup 的邮箱服务发送电子邮件至 bridges@torproject.org ，或者
 
 ##### 输入网桥地址
