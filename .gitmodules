@@ -1,0 +1,4 @@
+[submodule "i18n"]
+	path = i18n
+	url = https://git.torproject.org/translation.git
+	branch = tbmanual-contentspot
