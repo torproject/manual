@@ -5,7 +5,7 @@ url_style = absolute
 locale = en-US
 
 [alternatives.en-US]
-name = English
+name = English (en-US)
 primary = yes
 url_prefix = /
 locale = en-US
@@ -42,7 +42,7 @@ locale = es
 
 [alternatives.es-AR]
 name = Español Arg. (es-AR)
-url_prefix = /es/
+url_prefix = /es-AR/
 locale = es-AR
 
 [alternatives.fr]
