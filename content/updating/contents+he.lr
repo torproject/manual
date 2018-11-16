@@ -14,15 +14,15 @@ body:
 דפדפן Tor יבקש ממך לעדכן את התוכנה ברגע שגרסה חדשה תשוחרר. הצלמית של כפתור Tor תציג משולש צהוב, ואתה עשוי לראות מד כתוב של עדכון כאשר דפדפן Tor ייפתח. אתה יכול לעדכן באופן אוטומטי או באופן ידני.
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 כשתתבקש לעדכן את דפדפן Tor, לחץ על הצלמית של כפתור Tor ואז בחר “בדוק אחר עדכון לדפדפן Tor“.
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 כשדפדפן Tor יסיים לבדוק אחר עדכונים, לחץ על הכפתור ”עדכן”.
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 המתן לעדכון שיירד ויותקן, ואז הפעל מחדש את דפדפן Tor. תריץ כעת את הגרסה האחרונה.
 
 ##### Updating Tor Browser manually

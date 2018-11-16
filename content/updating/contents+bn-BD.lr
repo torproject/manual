@@ -14,15 +14,15 @@ body:
 টর্ ব্রাউজার আপনাকে নতুন সফ্টওয়্যার আপডেট করার জন্য সফ্টওয়্যারটি আপডেট করতে বলবে: Torbutton আইকনটি একটি হলুদ ত্রিভুজ প্রদর্শন করবে এবং টর ব্রাউজার খোলার পর আপনি একটি লিখিত আপডেট নির্দেশক দেখতে পাবেন। আপনি স্বয়ংক্রিয়ভাবে বা ম্যানুয়াল আপডেট করতে পারেন।
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 টর ব্রাউজার আপডেট করার জন্য আপনাকে পরামর্শ দেওয়া হলে Torbutton আইকনে ক্লিক করুন, তারপর "টর ব্রাউজার আপডেটের জন্য চেক করুন" নির্বাচন করুন।
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 যখন টর ব্রাউজার আপডেটগুলির জন্য পরীক্ষা সমাপ্ত করে, তখন "আপডেট" বোতামে ক্লিক করুন।
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 ডাউনলোড এবং ইনস্টল করার আপডেটের জন্য অপেক্ষা করুন, তারপর টর ব্রাউজার পুনরায় চালু করুন। আপনি এখন সর্বশেষ সংস্করণ চলমান হবে।
 
 ##### Updating Tor Browser manually

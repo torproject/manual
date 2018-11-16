@@ -14,15 +14,15 @@ El navegador Tor ha d'estar actualitzat. Si continua amb l'ús de versions obsol
 El navegador Tor mostrarà quan es pot actualitzar un cop la última versió sigui alliberada: La icona Tor mostrarà un triangle groc amb un indicador d'actualització. Es pot realitzar de forma manual o automàtica.
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 Quan sigui requerit a actualitzar el navegador Tor, faci clic en la icona Tor i seleccioni "comprovar actualitzacions".
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 Quan el navegador Tor hagi finalitzat la comprovació d'actualitzacions, faci clic en el botó "Actualitzar".
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 Esperi a la descarrega de l'actualització i posterior instal·lació, reiniciar el programa. Finalment s'executarà la última versió.
 
 ##### Updating Tor Browser manually

@@ -14,15 +14,15 @@ Tor Browser mora biti ažuriran stalno. Ako nastavite koristiti neažuriranu ver
 Tor Browser će Vas pitati želite li ažurirati software svaki put kad izađe nova verzija: ikona Torbuttona će prikazati žuti trokut i možda ćete vidjeti pisani indikator ažuriranja kad se Tor Browser otvori. Možete ažurirati automatski ili ručno.
 
 ##### Automatsko ažuriranje Tor Browsera 
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 Kad Vas se pita da ažurirate Tor Browser, kliknite na Torbutton ikonu, odaberite "Provjeri ima li ažuriranja za Tor Browser".
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 Kad je Tor Browser završio provjeru ažuriranja, kliknite na gumb "Ažuriraj".
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 Pričekajte da se ažuriranje preuzme i instalira, zatim ponovno pokrenite Tor Browser. Sad imate najnoviju verziju.
 
 ##### Ručno ažuriranje Tor Browsera

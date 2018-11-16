@@ -14,15 +14,15 @@ Caithfidh tú Brabhsálaí Tor a choinneáil cothrom le dáta i gcónaí. Má ú
 Fiafróidh Brabhsálaí Tor díot ar mhaith leat an bogearra a nuashonrú chomh luath agus a bheidh leagan nua ar fáil: taispeánfaidh deilbhín an chnaipe Tor triantán buí, agus seans go bhfeicfidh tú táscaire scríofa faoin nuashonrú nuair a osclóidh Brabhsálaí Tor. Is féidir leat é a nuashonrú go huathoibríoch nó de láimh.
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 Nuair a iarrfar ort Brabhsálaí Tor a nuashonrú, cliceáil an cnaipe Tor, ansin roghnaigh “Lorg Nuashonrú ar Bhrabhsálaí Tor”.
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 Tar éis do Bhrabhsálaí Tor nuashonruithe a lorg, cliceáil an cnaipe “Nuashonraigh”.
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 Fan go dtí go mbeidh an nuashonrú íoslódáilte agus suiteáilte, agus atosaigh Brabhsálaí Tor. Ansin, beidh an leagan is déanaí agat.
 
 ##### Updating Tor Browser manually

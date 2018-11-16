@@ -14,15 +14,15 @@ Tor Browser мора да биде ажуриран цело време. Ако 
 Tor Browser ќе ве извести да го ажурирате софтверот веднаш кога нова верзија ќе биде објавена: Torbutton иконата ќе појави жолт триаголник, а може ќе видите и пишан индикатор за ажурирање кога Tor Browser се отвора. Можете да го ажурирате автоматски или рачно.
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 Кога ќе бидете известени да го ажурирате Tor Browser, кликнете на Torbutton иконата, потоа одберете "Провери за ажурирање на Tor Browser".
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 Кога Tor Browser ќе заврши со проверувањето за ажурирања, кликнете на копчето "Ажурирај".
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 Почекајте го ажурирањето да се преземе и инсталира, потоа рестартирајте го Tor Browser. Вие сега ја користите последната верзија на Tor Browser.
 
 ##### Updating Tor Browser manually

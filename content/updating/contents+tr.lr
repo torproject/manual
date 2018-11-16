@@ -14,15 +14,15 @@ Tor Browser her zaman güncel tutulmalıdır. Uygulamanın eski bir sürümünü
 Yeni bir Tor Browser sürümünün yayınlandığı size bildirilerek güncellemeniz istenir: Torbutton simgesinde sarı bir üçgen görüntülenir ve Tor Browser açıldığında bir güncelleme bildirimi görüntülenebilir. Güncelleme işlemini otomatik ya da el ile yapabilirsiniz.
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 Tor Browser güncellemesi bildirildiğinde, Torbutton simgesine ve "Tor Browser Güncelleme Denetimi" üzerine tıklayın.
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 Tor Browser güncellemeleri denetlendiğinde "Güncelle" düğmesine tıklayın.
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 Güncellemenin indirilip kurulmasını bekleyin. Ardından Tor Browser uygulamasını yeniden başlatın. Böylece en son sürüm ile çalışmaya başlayabilirsiniz.
 
 ##### Updating Tor Browser manually

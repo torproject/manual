@@ -14,15 +14,15 @@ Tor Browser akan tetap menyimpan pembaruan selama mungkin. Jika Anda tetap melan
 Tor Browser akan meminta Anda untuk memperbarui perangkat lunak untuk versi terakhir yang baru dikeluarkan: ikon Torbutton akan menampilkan segitiga kuning, dan anda akan melihat tulisan indikator pembaruan ketika Tor Browser terbuka. Anda dapat memperbaruinya secara otomatis atau manual.
 
 ##### Updating Tor Browser automatically
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 Ketika Anda diminta untuk memperbarui Tor Browser, click ikon Torbutton, kemudian pilih "Check for Tor Browser Update"
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 Saat Tor Browser telah selesai untuk pembaruan, click tombol "Update".
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 Tunggu pembaruan untuk mengunduh dan pemasangan, lalu hidupkan kembali Tor Browser. Setelah itu, Anda akan menjalankan versi terbaru.
 
 ##### Updating Tor Browser manually

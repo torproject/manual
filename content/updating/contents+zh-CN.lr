@@ -14,15 +14,15 @@ Tor 浏览器必须要随时保持在最新版本状态，若您使用较旧版�
 每当 Tor 浏览器有更新版被发布时，都会有提示自动出现：Torbutton 功能按钮会出现黄色三角形图标，且当您打开 Tor 浏览器时，也会以文本说明通知您，此时您可以手动或自动的方式来更新。
 
 ##### 自动更新 Tor 浏览器
-  <img width="400" src="media/updating/update1.png" />
+  <img width="400" src="/static/images/update1.png" />
 
 在您被提示应更新 Tor 浏览器时，点击 Torbutton 图标，然后选择“Tor Browser 检查更新”。
 
-  <img width="600" src="media/updating/update3.png" />
+  <img width="600" src="/static/images/update3.png" />
 
 在 Tor 浏览器完成检查更新后，点击“更新”按钮。
 
-  <img width="600" src="media/updating/update4.png" />
+  <img width="600" src="/static/images/update4.png" />
 等待更新自动下载和安装，然后重启 Tor 浏览器。然后您就运行有最新版本了。
 
 ##### 手动更新 Tor 浏览器
