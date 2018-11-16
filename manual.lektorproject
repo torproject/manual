@@ -30,6 +30,11 @@ name = Ελληνικά (el)
 url_prefix = /el/
 locale = el
 
+[alternatives.en-US]
+name = English
+url_prefix = /en-US/
+locale = en-US
+
 [alternatives.es]
 name = Español (es)
 url_prefix = /es/
