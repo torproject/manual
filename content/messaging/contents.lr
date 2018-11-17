@@ -10,12 +10,13 @@ key: 14
 ---
 body:
 
-Several instant messaging protocols and pieces of IM software are compatible with Tor. This page aims to document the most widely used and commonly accepted forms of anonymous instant messaging, as well as security advisories of potential vulnerabilities.
+Several instant messaging protocols and pieces of IM software are compatible with Tor.
+This page aims to document the most widely used and commonly accepted forms of anonymous instant messaging, as well as security advisories of potential vulnerabilities.
 
 #### Reasonably secure software
 ##### Internet Relay Chat (IRC) clients
-
-For general information on IRC security, see [IRC](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IRC). Guides on specific IRC clients:
+For general information on IRC security, see [IRC](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IRC).
+Guides on specific IRC clients:
 * [HexChat](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/HexChat)
 * [irssi](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/irssi)
 * [WeeChat](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/WeeChat)
@@ -23,11 +24,20 @@ For general information on IRC security, see [IRC](https://trac.torproject.org/p
 ##### Other
 ###### Signal Messenger
 
-**Warning:** While Signal does have a desktop version and provides strong encryption by default as well as location anonymity when paired with Tor, maintained access to a valid phone number is required to use it. Signal only requires one verification message in order to work, but if access to the physical number is lost, someone else could hypothetically take over the account. This can be done more securely by using a paid online SMS service, purchasing a pay-as-you-go phone with cash from a local store or another pseudo-anonymous choice. **DO NOT USE FREE SERVICES / TEMPORARY NUMBERS!**
+**Warning:**
+While Signal does have a desktop version and provides strong encryption by default as well as location anonymity when paired with Tor, maintained access to a valid phone number is required to use it.
+Signal only requires one verification message in order to work, but if access to the physical number is lost, someone else could hypothetically take over the account.
+This can be done more securely by using a paid online SMS service, purchasing a pay-as-you-go phone with cash from a local store or another pseudo-anonymous choice.
+**DO NOT USE FREE SERVICES / TEMPORARY NUMBERS!**
 
-Signal is an encrypted communications app for Android and iOS, though a desktop version is also available for Linux, Windows, and macOS. It sends one-to-one as well as group messages which can include files, voice notes, images and videos. Signal can also make one-to-one voice and video calls. Signal uses standard cellular mobile numbers as identifiers and has built-in mechanisms for the independent verification of the recipient. It also uses end-to-end encryption to secure all communications with other Signal users.
+Signal is an encrypted communications app for Android and iOS, though a desktop version is also available for Linux, Windows, and macOS.
+It sends one-to-one as well as group messages which can include files, voice notes, images and videos.
+Signal can also make one-to-one voice and video calls.
+Signal uses standard cellular mobile numbers as identifiers and has built-in mechanisms for the independent verification of the recipient.
+It also uses end-to-end encryption to secure all communications with other Signal users.
 
-Torifying the Signal desktop application is not very straight forward. There is currently a very lengthy [open ticket](https://github.com/signalapp/Signal-Desktop/issues/1632) with constant reports of the apps inability connect at all via a proxy, or experiencing bypasses or leaks.
+Torifying the Signal desktop application is not very straight forward.
+There is currently a very lengthy [open ticket](https://github.com/signalapp/Signal-Desktop/issues/1632) with constant reports of the apps inability connect at all via a proxy, or experiencing bypasses or leaks.
 
 **Testing underway for mobile integrity.**
 
@@ -35,31 +45,42 @@ Official site: ​[Signal.org](https://Signal.org)
 
 #### Potentially dangerous software
 ##### Early development
-While software projects under this header are reasonably secure, they are very early in development and at times have received little to no formal security auditing. It is therefore impossible to determine if critical flaws exist that have yet to be discovered, and a degree of caution should be taken when using them for any sort of sensitive activity.
+While software projects under this header are reasonably secure, they are very early in development and at times have received little to no formal security auditing.
+It is therefore impossible to determine if critical flaws exist that have yet to be discovered, and a degree of caution should be taken when using them for any sort of sensitive activity.
 
 ##### Tox
-**Notice:** Tox is very early in development.
+**Notice:**
+Tox is very early in development.
 
-Tox is a peer-to-peer, end-to-end encrypted protocol which originally began development in 2013. It facilitates private instant messaging and video calls. The stated goal of the project is to provide secure yet easily accessible communication for everyone. A reference implementation of the protocol is published as free and open-source software under the terms of the GNU General Public License (GPL) version 3 or later.
+Tox is a peer-to-peer, end-to-end encrypted protocol which originally began development in 2013.
+It facilitates private instant messaging and video calls.
+The stated goal of the project is to provide secure yet easily accessible communication for everyone.
+A reference implementation of the protocol is published as free and open-source software under the terms of the GNU General Public License (GPL) version 3 or later.
 
 You can find instructions on using Tox over Tor on [this page](https://wiki.tox.chat/users/tox_over_tor_tot) of their documentation.
 
 Official site: ​[Tox.Chat](https://Tox.Chat)
 
 ##### CoyIM
-**Notice:** CoyIM is both very early in development and has not received auditing.
+**Notice:**
+CoyIM is both very early in development and has not received auditing.
 
-CoyIM is a chat client with a focus on safety and security that only supports the XMPP (also known as *Jabber*) protocol. It is available for download on Windows, Linux and MacOS and also has built-in (and enabled by default) support for Tor, OTR and TLS. Since the discontinuatiuon of Tor Messenger, CoyIM is becoming a more favorable option.
+CoyIM is a chat client with a focus on safety and security that only supports the XMPP (also known as *Jabber*) protocol.
+It is available for download on Windows, Linux and MacOS and also has built-in (and enabled by default) support for Tor, OTR and TLS.
+Since the discontinuatiuon of Tor Messenger, CoyIM is becoming a more favorable option.
 
 As Tor is a default setting, no torifying instructions are necessary.
 
 Official site: ​[Coy.im](https://Coy.im)
 
 ##### Libpurple-based clients
-**Warning:** Libpurple has been proven critically flawed in recent years. While problems do continually come up related to that and most times they are subsequently patched, the long-term vulnerability of the platform is inevitable and therefore it is recommended against using any of the software listed below.
+**Warning:**
+Libpurple has been proven critically flawed in recent years.
+While problems do continually come up related to that and most times they are subsequently patched, the long-term vulnerability of the platform is inevitable and therefore it is recommended against using any of the software listed below.
 
 ###### Pidgin
-Pidgin (formerly named Gaim) is an open-source instant messaging client available for Windows and GNU/Linux. It is based on a library named libpurple that has support for many instant messaging protocols, allowing the user to simultaneously log into various services from one application.
+Pidgin (formerly named Gaim) is an open-source instant messaging client available for Windows and GNU/Linux.
+It is based on a library named libpurple that has support for many instant messaging protocols, allowing the user to simultaneously log into various services from one application.
 
 You can torify Pidgin by doing the following:
 * Select *Modify account settings*
@@ -77,11 +98,12 @@ Pidgin OTR: [otr.cypherpunks.ca](https://otr.cypherpunks.ca)
 Official site: ​[Pidgin.im](https://Pidgin.im)
 
 ###### Adium (OSX)
-Adium is a free and open source instant messaging client for macOS that supports multiple instant messaging networks and Protocols.
+Adium is a free and open source instant messaging client for macOS that supports multiple instant messaging networks and protocols.
 
 You can torify Adium by doing the following:
 * Navigate to Adium menu > Preferences menu item > Account tab
-* Edit the settings of the account you wish to Torify. Click proxy tab
+* Edit the settings of the account you wish to Torify.
+  *Click proxy tab*
 * Check *Connect using a proxy* and enter these settings:
 ```
 Type: SOCKS5
@@ -95,39 +117,58 @@ Official site: ​[Adium.im](https://Adium.im)
 
 ##### Misc. clients
 ###### Ricochet
-Ricochet IM is an open-source, decentralized instant messenger project that utilities the Tor network by design. Development stalled in November 2016, though it has been relatively stable in the time since.
+Ricochet IM is an open-source, decentralized instant messenger project that utilizes the Tor network by design.
+Development stalled in November 2016, though it has been relatively stable in the time since.
 
 Ricochet starts a Tor onion service on the users local system and facilitates communication with other Ricochet users whom are also running their own Ricochet-created Tor onion service, providing End-to-End encryption by never allowing the connection to leave the Tor network.
 
-**Warning:** On some operating systems, Ricochet ships with Tor 0.2.8.9. Tor 0.2.8.9 has several known onion service security issues, including [TROVE-2016-12-002 and later](https://trac.torproject.org/projects/tor/wiki/TROVE). Tor 0.2.8 has not been supported since 1 January 2018. Please update to a [supported tor version](https://trac.torproject.org/projects/tor/wiki/org/teams/NetworkTeam/CoreTorReleases) before launching Ricochet.
+**Warning:**
+On some operating systems, Ricochet ships with Tor 0.2.8.9.
+Tor 0.2.8.9 has several known onion service security issues, including [TROVE-2016-12-002 and later](https://trac.torproject.org/projects/tor/wiki/TROVE).
+Tor 0.2.8 has not been supported since January 1st 2018.
+Please update to a [supported tor version](https://trac.torproject.org/projects/tor/wiki/org/teams/NetworkTeam/CoreTorReleases) before launching Ricochet.
 
 Official site: [Ricochet.im](https://Ricochet.im)
 
 #### Discontinued software
-Software listed here has become depreciated and development has ceased. They are therefore considered unsafe and it is highly recommended to avoid using them. This section is here purely for historical value.
+Software listed here has become deprecated and development is ceased.
+They are therefore considered unsafe and it is highly recommended to avoid using them.
+This section is here purely for historical value.
 
 ##### Tor Messenger
-[Tor Messenger](https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger) is an instant messaging client based on ​Instantbird and was officially discontinued in March 2018. It ensures all of its traffic is routed over Tor, uses OTR (Off-the-Record) messaging by default, has an easy-to-use graphical user interface and has the ability to connect to a variety of networks. 
+[Tor Messenger](https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger) is an instant messaging client based on ​Instantbird and was officially discontinued in March 2018.
+It ensures all of its traffic is routed over Tor, uses OTR (Off-the-Record) messaging by default, has an easy-to-use graphical user interface and has the ability to connect to a variety of networks. 
 
 #### Dangerous / leaky software
-The software below is considered outright dangerous for various reasons and should not be used. This could be due to leaky protocols or unsafe handling of data. Regardless, this section is simply here for reference, and it is highly advised to avoid seeking out torifying instructions for its contents.
+The software below is considered outright dangerous for various reasons and should not be used.
+This could be due to leaky protocols or unsafe handling of data.
+Regardless, this section is simply here for reference, and it is highly advised to avoid seeking out torifying instructions for its contents.
 
 ##### Skype
-Skype has **several critical and insurmountable flaws** and therefore it is more than recommended to avoid using it. To name a few, it is known to bypass firewall settings (and in fact can be a good tool to test firewall integrity), is fully closed-source, allows for easy IP resolution of users and Skype maintains full access to conversations and decryption keys. There is much safer alternatives to Skype for video calling - please use them!
+Skype has **several critical and insurmountable flaws** and therefore it is more than recommended to avoid using it.
+To name a few, it is known to bypass firewall settings (and in fact can be a good tool to test firewall integrity), is fully closed-source, allows for easy IP resolution of users and Skype maintains full access to conversations and decryption keys.
+There is much safer alternatives to Skype for video calling - please use them!
 
 ##### Konversation
-**Warning:** See [KDE warnings](#KDEWarnings).
+**Warning:**
+See [KDE warnings](#KDEWarnings).
 
-Konversation is an open-source IRC client built for the KDE environment. It is currently maintained in the KDE Extragear Network module, which means that it has its own release cycle which is independent from the main KDE applications. Konversation is released under the terms of the GNU General Public License. 
+Konversation is an open-source IRC client built for the KDE environment.
+It is currently maintained in the KDE Extragear Network module, which means that it has its own release cycle which is independent from the main KDE applications.
+Konversation is released under the terms of the GNU General Public License.
 
 ##### Kopete
-**Warning:** See [KDE warnings](#KDEWarnings).
+**Warning:**
+See [KDE warnings](#KDEWarnings).
 
-Kopete is an open-source, multi-protocol instant messaging client released in 2001 in the wake of ICQ blocking Licq from their network. It is part of the KDE software compilation, however it is capable of running in numerous environments including Gnome and XFCE.
+Kopete is an open-source, multi-protocol instant messaging client released in 2001 in the wake of ICQ blocking Licq from their network.
+It is part of the KDE software compilation, however it is capable of running in numerous environments including Gnome and XFCE.
 
 #### Additional warnings
 ##### KDE warnings
 * KDE proxy settings are global for all KDE applications, thus identity correlation through circuit sharing is at risk!
 * [Bug 308682 - per application proxy settings](https://bugs.kde.org/show_bug.cgi?id=308682)
-* KDE Applications such as Kopete, Konversation (basically everything that is not HTTP) respect only the global Socks proxy settings. In order to use them with Tor, you seed to first *socksify* the environment and redirect the socks proxy to Tor.
-* DNS requests will not go through Tor, and can probably be insecure. **Needs testing**.
+* KDE Applications such as Kopete, Konversation (basically everything that is not HTTP) respect only the global Socks proxy settings.
+  In order to use them with Tor, you need to first *socksify* the environment and redirect the socks proxy to Tor.
+* DNS requests will not go through Tor, and can probably be insecure.
+**Needs testing**.
