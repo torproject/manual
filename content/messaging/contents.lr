@@ -52,8 +52,8 @@ While software projects under this header are reasonably secure, they are very e
 It is therefore impossible to determine if critical flaws exist that have yet to be discovered, and a degree of caution should be taken when using them for any sort of sensitive activity.
 
 ###### Tox
-**Notice:**
-Tox is very early in development.
+**Warning:**
+Tox is not optimized for Tor and [probably won't be](https://github.com/qTox/qTox/issues/1350).
 
 Tox is a peer-to-peer, end-to-end encrypted protocol which originally began development in 2013.
 It facilitates private instant messaging and video calls.
@@ -75,6 +75,16 @@ Since the discontinuatiuon of Tor Messenger, CoyIM is becoming a more favorable 
 As Tor is a default setting, no torifying instructions are necessary.
 
 Official site: [Coy.im](https://Coy.im)
+
+###### Cwtch
+**Warning:**
+Cwtch is an experimental prototype.
+Please do not use it for anything where security, privacy, or anonymity is critical.
+
+Like Ricochet it uses onion services for end-to-end-encrypted communication.
+The goal is a *Privacy Preserving Infrastructure for Asynchronous, Decentralized, Multi-Party, and Metadata Resistant Applications*.
+
+Official site: [cwtch.im](https://cwtch.im)
 
 ##### Libpurple-based clients
 **Warning:**
