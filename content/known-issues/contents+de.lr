@@ -29,3 +29,5 @@ body:
 * Der Tor-Browser kann auch mit folgendem Befehl aus dem Tor-Browser-Verzeichnis über die Kommandozeile gestartet werden:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

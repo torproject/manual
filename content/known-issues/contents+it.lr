@@ -29,3 +29,5 @@ body:
 * il browser Tor puo essere lanciato anche da riga di comando eseguendo il seguente comando all'interno della cartella del Browser Tor:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

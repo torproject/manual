@@ -29,3 +29,5 @@ body:
 * টর ব্রাউজারের ভিতর থেকে নিম্নোক্ত কমান্ডটি চালানোর মাধ্যমে কমান্ড লাইন থেকে টর ব্রাউজারটি চালু করা যায়:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

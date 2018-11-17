@@ -29,3 +29,5 @@ body:
 * Tor-браузер можно запустить с командной строки при помощи следующей команды, запущенной из папки Tor-браузера:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

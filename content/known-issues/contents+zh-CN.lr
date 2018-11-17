@@ -29,3 +29,5 @@ body:
 * Tor 浏览器也可在 Tor 浏览器的目录内运行下列命令行来启动：
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

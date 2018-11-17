@@ -29,3 +29,5 @@ body:
 * Nó is féidir leat Brabhsálaí Tor a thosú ó líne na n-orduithe tríd an ordú seo a leanas a rith laistigh de chomhadlann Bhrabhsálaí Tor:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
