@@ -31,19 +31,3 @@ GetTor 将会自动回复一封电子邮件给您，信中会带有 Tor 浏览�
 ##### 通过 Jabber/XMPP（Jitsi, CoyIM 等） 使用 GetTor：
 
 若要获取可于 Linux 平台上使用的中文版 Tor 浏览器下载链接，可以将“linux zh”字串写在电子邮件里并发送到 gettor@torproject.org。
-
-##### Satori
-
-Satori 是一个适用于 Chrome 或 Chromium 浏览器的扩展，允许您从不同来源下载多种安全和隐私程序。
-
-要使用 Satori 下载 Tor 浏览器：
-
-从 Chrome 网上应用店安装 Satori。
-
-从您的浏览器的应用菜单选择 Satori。
-
-当 Satori 打开后，您可以选择您所想要使用的语言接口，下载清单将会自动罗列出对应该语言的可用下载链接，此时您只需要找到符合您电脑系统版本的 Tor 浏览器，并在“A”或“B”两个不同的下载来源中，任选一个以开始下载进程。
-
-等下载完成以后，在 Satori 的功能清单中找到“Generate Hash”功能，并选择“Select Files”。
-
-选择下载下来的 Tor 浏览器文件，此时 Satori 将会自动为该文件计算出其总和检查码，您需要亲自核对此检查码与软件原本的检查码是否完全符合：您可以在您下载该文件的超链接旁边找到“checksum”字样，点击后就可以看到软件原本的检查码，若两组检查码完全一致的话，表示您的下载已经成功，此时您可以直接<a href="https://tb-manual.torproject.org/en-US/first-time.html">开始使用 Tor 浏览器</a>，若两组检查码不相符的话，您可能需要再重新下载，或者选择不同的下载来源重新尝试。

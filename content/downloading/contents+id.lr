@@ -31,19 +31,3 @@ Untuk mendapatkan tautan guna mengunduh Tor browser dalam bahasa Inggris pada OS
 ##### Untuk menggunakan GetTor melalui Jabber/XMPP (Jitsi, CoyIM):
 
 Untuk  mendapatkan tautan guna mengunduh Tor Browser dalam bahasa China untu Linux, kirimkan sebuah email ke gettor@torproject.org dengan subjek "linux zh".
-
-##### Satori
-
-Satori adalah  sebuah tambahan untuk  peramban chrome atau chromium yang mengijinkan anda mengunduh beberapa program keamanan dan privasi dari  sumber yang berbeda.
-
-Gunakan Satori untuk menguduh Tor Browser:
-
-Pasang Satori pada Chrome apps store.
-
-Seleksi Satori dari browser apps menu anda.
-
-Ketika Satori dibuka, Klik pada bahasa yang anda inginkan.  Menu A akan membuka daftar mengunduh yang tersedia untuk bahasa tersebut. Temukan akses untuk TorBrowser dengan nama sistem operasi Anda. Pilih "A" atau "B" setelah nama program - masing-masing mewakili sumber yang berbeda untuk mendapatkan perangkat lunak. Unduhan anda akan di mulai.
-
-Tunggu hingga unduhan anda selesai, kemudian temukan  "Generate Hash" pada menu Satori, lalu klik "Select Files".
-
-Pilih pengunduh file Tor Browser . Satori akan memunculkan checksum dari seuah fil, yang mana anda harus membandingkan dengan perangkat lunak checksum yang asli: anda dapat menemukannya dengan mengklik kata "checksum" setelah tautan yang ada klik mulai mengunduh. Jika the checksum cocok, anda telah berhasil mengunduh, sehingga anda dapat : <a href="https://tb-manual.torproject.org/en-US/running-tor-browser/">memulai Tor Browser</a>,  jika tidak cocok, maka anda perlu mencoba mengunduh kembali, atau mencoba dari sumber yang berbeda. 

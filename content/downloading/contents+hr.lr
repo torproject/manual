@@ -31,19 +31,3 @@ Da bi dobili poveznice za preuzimanje Tor Browsera na engleskom za OS X, pošalj
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
 Da bi dobili poveznice za preuzimanje Tor Browsera na kineskom za Linux, pošaljite poruku na gettor@torproject.org s riječima "linux zh" unutra.
-
-##### Satori
-
-Satori je dodatak za Chrome i Chromium preglednike koji Vam omogućuje da preuzmete nekoliko programa za sigurnost i privatnost sa različitih izvora.
-
-Kako bi preuzeli Tor Browser koristeći Satori:
-
-Instalirajte Satori iz Chrome App trgovine.
-
-Odaberite Satori iz izbornika aplikacija Vašeg preglednika.
-
-Kad se Satori otvori, kliknite na preferirani jezik. Otvorit će se izbornik koji će prikazati dostupna preuzimanja za taj jezik. Nađite unos za Tor Browser pod imenom Vašeg operativnog sustava. Odaberite "A" ili "B" nakon imena programa - svaka opcija predstavlja drugačiji izvor preuzimanja softwarea. Vaše preuzimanje će samo započeti.
-
-Pričekajte da se preuzimanje dovrši, pronađite "Generiraj hash" dio u Satori izborniku i kliknite "Odaberi datoteke".
-
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/running-tor-browser/">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

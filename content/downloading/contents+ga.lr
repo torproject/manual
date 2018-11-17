@@ -31,19 +31,3 @@ Más mian leat Brabhsálaí Tor i mBéarla ar OS X a íoslódáil, seol Teachtai
 ##### Le GetTor a úsáid trí Jabber/XMPP (Jitsi, CoyIM, srl.):
 
 Más mian leat Brabhsálaí Tor i Sínis ar Linux a íoslódáil, seol teachtaireacht chuig gettor@torproject.org leis na focail "linux zh" inti agus gheobhaidh tú nasc lena íoslódáil.
-
-##### Satori
-
-Is breiseán do bhrabhsálaí Chrome nó Chromium é Satori a ligeann duit roinnt feidhmchlár slándála agus uirlisí príobháideachais a íoslódáil ó fhoinsí éagsúla.
-
-Le Brabhsálaí Tor a íoslódáil trí Satori:
-
-Suiteáil Satori ó Shiopa Chrome.
-
-Roghnaigh Satori sa roghchlár Apps i do bhrabhsálaí.
-
-Nuair a osclaíonn Satori, cliceáil do rogha teanga. Osclóidh roghchlár a thaispeánann na híoslódálacha atá ar fáil don teanga sin. Aimsigh an iontráil do Bhrabhsálaí Tor faoi ainm do chórais oibriúcháin. Roghnaigh “A” nó “B” tar éis ainm an fheidhmchláir — seasann siad d'fhoinsí éagsúla ónar féidir leat an bogearra a fháil. Ansin tosóidh an íoslódáil.
-
-Fan go gcríochnóidh an íoslódáil, ansin aimsigh an rannán “Generate Hash” i roghchlár Satori agus cliceáil “Select Files”.
-
-Roghnaigh an pacáiste do Bhrabhsálaí Tor a d'íoslódáil tú. Taispeánfaidh Satori suim sheiceála an phacáiste agus ba chóir duit í a chur i gcomparáid leis an tsuim sheiceála a tháinig leis an mbogearra féin. Is féidir leat an uimhir seo a fháil trí “checksum” a chliceáil in aice leis an nasc a d'úsáid tú chun an pacáiste a íoslódáil. Más ionann na suimeanna seiceála, d'éirigh leis an íoslódáil, agus tá tú in ann <a href="https://tb-manual.torproject.org/en-US/running-tor-browser/">Brabhsálaí Tor a úsáid</a>. Murab ionann iad, ba chóir duit an pacáiste a íoslódáil arís, b'fhéidir ó fhoinse difriúil.

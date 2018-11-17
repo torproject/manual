@@ -31,19 +31,3 @@ To get links for downloading Tor Browser in English for OS X, send a Direct Mess
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
 To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
-
-##### Satori
-
-Satori is an add-on for the Chrome or Chromium browsers that allows you to download several security and privacy programs from different sources.
-
-To download Tor Browser using Satori:
-
-Install Satori from the Chrome App Store.
-
-Select Satori from your browser’s Apps menu.
-
-When Satori opens, click on your preferred language. A menu will open listing the available downloads for that language. Find the entry for Tor Browser under the name of your operating system. Select either “A” or “B” after the name of the program — each one represents a different source from which to get the software. Your download will then begin.
-
-Wait for your download to finish, then find the “Generate Hash” section in Satori’s menu and click “Select Files”.
-
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/running-tor-browser/">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

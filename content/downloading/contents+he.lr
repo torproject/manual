@@ -31,19 +31,3 @@ GetTor יגיב עם דוא"ל המכיל קישורים מהם אתה יכול 
 ###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
 כדי להשיג קישורים עבור הורדת דפדפן Tor בסינית עבור לינוקס, שלח הודעה אל gettor@torproject.org עם המילים "linux zh" בתוכה.
-
-##### Satori
-
-Satori הוא תוספת עבור כרום או דפדפני כרומיום המתיר לך להוריד מספר תוכניות של אבטחה ופרטיות ממקורות שונים.
-
-כדי להוריד את Tor ע"י שימוש ב-Satori:
-
-התקן את Satori מחנות היישומים של כרום.
-
-בחר ב-Satori מתוך תפריט היישומים של הדפדפן.
-
-כאשר Satori ייפתח, לחץ על השפה המועדפת עליך. תפריט ייפתח ויציג ברשימה את ההורדות הזמינות עבור שפה זו. מצא את הכניסה עבור דפדפן Tor תחת השם של מערכת ההפעלה שלך. בחר “A” או “B” אחרי שם התוכנית — כל אחד מייצג מקור שונה להשגת התוכנה. ההורדה שלך תתחיל לאחר מכן.
-
-המתן שההורדה שלך תסתיים, לאחר מכן מצא את הפלג “חולל גיבוב“ בתפריט של Satori ולחץ “בחר קבצים“.
-
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.

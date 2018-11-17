@@ -31,19 +31,3 @@ OS X üzerinde çalışacak İngilizce Tor Browser indirme bağlantılarını al
 ##### Jabber/XMPP ile GetTor kullanımı (Jitsi, CoyIM, vb):
 
 Linux üzerinde çalışacak Çince Tor Browser indirme bağlantılarını almak için gettor@torproject.org adresine içinde "linux zh" sözcükleri bulunan bir ileti gönderin.
-
-##### Satori
-
-Satori farklı kaynaklardan güvenlik ve gizlilik programları indirmenizi sağlayan, Chrome veya Chromium tarayıcıları tabanlı bir eklentidir.
-
-Tor Browser indirmek için Satori kullanımı:
-
-Chrome Uygulama Mağazasından Satori uygulamasını kurun.
-
-Tarayıcınızın eklentiler menüsünden Satori'yi seçin.
-
-Satori açıldığında, kullanmayı yeğlediğiniz dile tıklayarak bu dildeki indirmelerin listesini görüntüleyen menüyü açabilirsiniz. İşletim sisteminizin adı altındaki Tor Browser kaydını bulun. Programın adından sonra "A" ya da "B" seçeneğini seçin - bu seçenekler farklı yazılım kaynaklarını belirtir. Böylece indirme işlemi başlar.
-
-İndirme işleminin bitmesini bekleyin. Ardından Satori menüsünde "Karma Üret" bölümünü bulun ve "Dosyaları Seçin" üzerine tıklayın.
-
-İndirilen Tor Browser dosyasını seçin. Satori üzerinde, yazılımın özgün sağlaması ile karşılaştırmanız gereken dosya sağlaması görüntülenir: Sağlama değerini almak için, indirmeyi başlatmak için tıkladığınız bağlantının yanındaki "checksum" sözcüğüne tıklayın. Sağlama doğru ise, indirdiğiniz dosya doğrudur ve <a href="https://tb-manual.torproject.org/en-US/running-tor-browser/">Tor Browser kullanmaya başlayabilirsiniz </a>. Sağlama yanlış ise, dosyayı yeniden ya da farklı bir kaynaktan indirmeniz gerekebilir.
