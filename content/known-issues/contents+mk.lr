@@ -4,28 +4,28 @@ title: Познати проблеми
 ---
 description: Познати проблеми
 ---
-seo_slug: uninstalling
+seo_slug: Деинсталирање
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* На Tor му е потребно вашиот часовник (со вашата временска зона) на системот да биде наместен на точно време.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Следниот софтвер за заштитен ѕид е познто дека влегува во конфликт со Tor и можеби треба да биде привремено оневозможен:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Видеата кои бараат Adobe Flash се оневозможени. Flash е оневозможен од безбедносни причини.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor не може да користи мост ако има поставено прокси.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Tor Browser пакетот е датиран на 1-ви јануари 2000 година во 00:00:00 координирано универзално време. Ова е за да се обезбеди секоја верзија на софтверот да биде точно репродуцибилна.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* За да се стартува Tor Browser на Ubuntu, корисниците треба да покренат shell скрипта. Отвори "Датотеки" (Unity's explorer), отвори Параметри → Таб Однесување → Поставете од "Стартувај ги извршните текст датотеки кога се отворени" на "Прашај секогаш", а потоа кликнете ОК.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Tor Browser исто така може да биде стартуван од командната линија со покренување на следната команда внатре од Tor Browser директориумот:
 
 	./start-tor-browser.desktop

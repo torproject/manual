@@ -22,7 +22,7 @@ Tor Browser ја користи Tor мрежата за да ја заштити
 
 ##### Како Tor работи
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Tor е мрежа од виртуелни тунели кои ви дозволуваат да ја подобрите вашата приватност и безбедност на Интернет. Tor работи со праќање на вашиот сообраќај низ произволно избрани сервери (исто така познати како *релеа*) во Tor мрежата. Последното реле во кругот (излезното реле) го препраќа сообраќајот кон јавниот Интернет.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 
