@@ -4,11 +4,11 @@ url = https://manual.torproject.org/
 url_style = absolute
 locale = en-US
 
-[alternatives.en-US]
+[alternatives.en]
 name = English (en-US)
 primary = yes
 url_prefix = /
-locale = en-US
+locale = en
 
 [alternatives.bn-BD]
 name = বাংলা ভাষা  (bn)
