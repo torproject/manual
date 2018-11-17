@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Pode acontecer de o acesso direto à rede Tor ser bloqueado pelo seu provedor de serviço de Internet ou por algum governo. O Navegador Tor inclui algumas ferramentas anticensura para driblar esses bloqueios.  Essas ferramentas são chamadas "transportadores plugáveis". Consulte a página  <a href="/en-US/transports">Transportadores Plugáveis</a> para saber mais sobre os tipos de transportadores atualmente disponíveis.
 
 ##### Usando transportes plugáveis
 
@@ -28,8 +28,8 @@ Clique em "Conectar usando pontes fornecidas". Atualmente, o Navegador Tor possu
 
 ##### Which transport should I use?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Cada um dos transportadores listados no menu do Tor Launcher funciona de maneira diferente (para mais detalhes, consultar <a href="/en-US/transports">Transportadores Plugáveis</a>) e a eficácia deles depende do seu caso individual. 
 
 Se você está tentando contornar uma conexão bloqueada pela primeira vez, você deve tentar diferentes transportes: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Se você tentar todas essas opções e ainda assim não conseguir conectar-se, será preciso inserir os endereços de ponte manualmente. Leia a seção <a href="/en-US/bridges/">Pontes</a> para saber mais sobre o que são pontes e como obtê-las.

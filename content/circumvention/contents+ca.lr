@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor d'Internet o pel govern. El navegador Tor incorpora una serie de programari per evitar-ho. Aquestes eines s'anomenen "connectors de transport". Consulti <a href="transports">connectors de transport</a> per a més informació del tipus de transport disponible.
+L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor d'Internet o pel govern. El navegador Tor incorpora una serie de programari per evitar-ho. Aquestes eines s'anomenen "connectors de transport". Consulti <a href="/en-US/transports">connectors de transport</a> per a més informació del tipus de transport disponible.
 
 ##### Utilització de connectors de transport
 
@@ -28,7 +28,7 @@ Seleccioni "Connectar amb ponts". El navegador Tor actualment té sis connectors
 
 ##### Quin tipus de transport vol utilitzar?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Cadascun dels transports llistat en el menú d'iniciador Tor treballa de manera diferent (per més informació, consultar <a href="/en-US/transports">connectors de transport</a> pàgina) per saber la seva efectivitat depenen de les circumstàncies individuals. 
 
 Si esteu intentant evitar una connexió bloquejada per primera vegada, heu de provar els diferents transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure i Snowflake.
 

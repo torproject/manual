@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Der direkte Zugang zum Tor Netzwerk ist eventuell durch deinen Internetdienstanbieter oder die Regierung blockiert. Der Tor Browser enthält einige Werkzeuge, um diese Blockaden zu umgehen. Diese Werkzeugt werden "austauschbare Übertragungsarten" genannt. Schaue auf der Seite für <a href="/transports">austauschbare Übertragungsarten</a> für mehr Informationen über die Typen von zur Zeit verfügbaren Übertragungsarten.
+Der direkte Zugang zum Tor Netzwerk ist eventuell durch deinen Internetdienstanbieter oder die Regierung blockiert. Der Tor Browser enthält einige Werkzeuge, um diese Blockaden zu umgehen. Diese Werkzeugt werden "austauschbare Übertragungsarten" genannt. Schaue auf der Seite für <a href="/en-US/transports">austauschbare Übertragungsarten</a> für mehr Informationen über die Typen von zur Zeit verfügbaren Übertragungsarten.
 
 ##### Mit austauschbaren Übertragungsarten
 
@@ -28,7 +28,7 @@ Wähle "ja" aus, wenn du danach gefragt wirst, ob dein Internetprovider Verbindu
 
 ##### Welche Übertragung sollte ich verwenden?
 
-Jede der im Tor Starter aufgeführten austauschbaren Übertragungsarten arbeitet auf eine unterschiedliche Weise (für mehr Informationen sieh dir die Seite <a href="/transports">austauschbare Übertragungsarten</a> an) und ihre Effektivität hängt von deinen individuellen Umständen ab.
+Jede der im Tor Starter aufgeführten austauschbaren Übertragungsarten arbeitet auf eine unterschiedliche Weise (für mehr Informationen sieh dir die Seite <a href="/en-US/transports">austauschbare Übertragungsarten</a> an) und ihre Effektivität hängt von deinen individuellen Umständen ab.
 
 Wenn du zum ersten Mal versuchst eine blockierte Verbindung zu umgehen, solltest du die verschiedenen Transporte ausprobieren: obfs3, obfs4, ScrambleSuit, fte, meek-azure und Snowflake.
 

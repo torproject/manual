@@ -20,7 +20,7 @@ body:
 
 * Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor não pode usar pontes se um proxy estiver configurado.
 
 * The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
 
