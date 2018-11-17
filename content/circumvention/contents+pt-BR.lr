@@ -26,7 +26,7 @@ Responda "sim" à questão sobre se o seu provedor de serviço de Internet bloqu
 
 Clique em "Conectar usando pontes fornecidas". Atualmente, o Navegador Tor possui seis opções de transportadores plugáveis para você escolher.
 
-##### Which transport should I use?
+##### Qual transportador utilizar?
 
 Cada um dos transportadores listados no menu do Tor Launcher funciona de maneira diferente (para mais detalhes, consultar <a href="/en-US/transports">Transportadores Plugáveis</a>) e a eficácia deles depende do seu caso individual. 
 

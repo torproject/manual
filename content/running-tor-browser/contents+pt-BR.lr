@@ -12,13 +12,13 @@ body:
 
 Ao executar o Navegador Tor pela primeira vez, você verá a janela Parâmetros da Rede Tor. Você poderá escolher entre conectar-se diretamente à rede Tor ou configurar o Navegador Tor de acordo com a sua conexão.
 
-##### Connect
+##### Conectar
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+Na maior parte dos casos, escolher "Conectar-se" será o bastante para conectar-se à rede Tor sem necessidade de outras configurações. Após clicar em "Conectar-se" a barra de status aparecerá, mostrando a progressão da conexão. Se você dispuser de uma conexão rápida, mas essa barra parar a um certo ponto, consulte a página <a href="/troubleshooting">Como solucionar problemas</a> para obter ajuda.
 
-##### Configure
+##### Configurar
 
 <img class="col-md-6" src="/static/images/configure.png">
 

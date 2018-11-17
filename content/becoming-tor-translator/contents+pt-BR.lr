@@ -12,9 +12,9 @@ body:
 
 Se você estiver interessado em ajudar o projeto traduzindo o manual ou o Navegador Tor para o seu idioma, sua ajuda será muito apreciada! Para começar a contribuir, você terá que se inscrever no Transifex, um terceiro que facilita nossas traduções. Abaixo está um resumo de como se inscrever e começar.
 
-##### Signing up on Transifex
+##### Registrando-se no Transifex
 
-* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
+* Dirija-se à <a href="https://transifex.com/signup/">página de registro no Transifex</a>.
   Entre com suas informações nos campos e clique no botão "inscrever-se":
 
 <img class="col-md-6" src="/static/images/tr1.png">
@@ -23,19 +23,19 @@ Se você estiver interessado em ajudar o projeto traduzindo o manual ou o Navega
 
 <img class="col-md-6" src="/static/images/tr2.png">
 
-* On the next page, select 'Join an existing project' and continue.
-* On the next page, select the languages you speak from the drop-down menu and continue.
-* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
-* Click the blue 'Join Team' button on the far right:
+* Na próxima página, selecione 'Participar de um projeto existente' e continue.
+* Na próxima página, selecione os idiomas que você fala a partir do menu suspenso e continue.
+* Você agora está cadastrado! Vá para <a href="https://www.transifex.com/otf/torproject/">página Tor Transifex </a>.
+* Clique no botão "Junte-se a nós" no canto direito.
 
 <img class="col-md-6" src="/static/images/tr3.png">
 
-* Select the language you would like to translate from the dropdown menu:
+* Selecione o idioma que você gostaria de traduzir a partir do menu suspenso:
 
 <img class="col-md-6" src="/static/images/tr4.png">
 
-* A notification will now show up on the top of the page like so:
+* Uma notificação será exibida na parte superior da página da seguinte maneira:
 
 <img class="col-md-6" src="/static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!
+Depois que sua afiliação for aprovada, vocẽ poderá começar a traduzir; simplesmente navegue de volta à <a href="https://www.transifex.com/otf/torproject/">Página do Tor no Transifex</a> quando estiver pronto para começar. Muito obrigado pelo seu interesse em ajudar o projeto!

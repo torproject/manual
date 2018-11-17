@@ -11,13 +11,13 @@ key: 8
 body:
 O Navegador Tor inclui uma "Barra de Segurança" que lhe permite aumentar a sua segurança desativando certas funções da web que podem ser usadas para atacar a sua segurança e o seu anonimato. Aumentar o nível de segurança do Navegador Tor fará com que certos websites funcionem incorretamente. Assim, você deve contrabalancar as suas necessidades de segurança e o grau de usabilidade que você necessita.
 
-##### Accessing the Security Slider
+##### Acessando a Barra de Segurança
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 O "Controle Deslizante de Segurança" se localiza no menu "Configurações de Segurança" do Torbutton.
 
-##### Security Levels
+##### Níveis de segurança
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,7 +34,7 @@ Nesse nível, mídias de vídeo e áudio HTML5 tornam-se clique-para-tocar atrav
 Mais seguro
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+Nesse nível, mídias de vídeo e áudio HTML5 tornam-se clique-para-tocar através do NoScript; toda otimização de performance JavaScript é desativada; algumas equações matemáticas podem não ser exibidas corretamente; alguns componentes de processamento de fonte são desativados; alguns tipos de imagens são desativados; Javascript é desativado como padrão em todos os sites que não sejam <a href="/secure-connections">HTTPS</a>.
 </dd>
 <dt>
 Padrão

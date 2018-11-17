@@ -25,7 +25,7 @@ Projeye yardımcı olmak için kullanım kitabını ya da Tor Browser uygulamas�
 
 * Sonraki sayfada 'Var olan bir projeye katılın' seçeneğini seçin ve ilerleyin.
 * Sonraki sayfada açılan menüden konuştuğunuz dilleri seçin ve ilerleyin.
-Hesabınız açıldı! <a href="https://www.transifex.com/otf/torproject/">Tor Transifex sayfasına</a> geçin.
+* Hesabınız açıldı! <a href="https://www.transifex.com/otf/torproject/">Tor Transifex sayfasına</a> geçin.
 * Sağ taraftaki mavi 'Takıma Katılın' düğmesine tıklayın:
 
 <img class="col-md-6" src="/static/images/tr3.png">
@@ -34,7 +34,7 @@ Hesabınız açıldı! <a href="https://www.transifex.com/otf/torproject/">Tor T
 
 <img class="col-md-6" src="/static/images/tr4.png">
 
-* A notification will now show up on the top of the page like so:
+* Sayfanın üst bölümünde şu şekilde bir bildirim görüntülenir:
 
 <img class="col-md-6" src="/static/images/tr5.png">
 

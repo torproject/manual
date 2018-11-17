@@ -17,16 +17,16 @@ Você deve conseguir começar a navegar na web utilizando o Navegador Tor logo a
 
 Caso o Navegador Tor não se conecte, provavelmente haverá uma solução simples a ser encontrada. Tente as seguintes:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
-* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
-* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
-* Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* O relógio de sistema do seu computador tem de ser configurado corretamente. Caso contrário, o Tor nao conseguira se conectar. 
+* Certifique-se de que um outro Navegador Tor não esteja já em funcionamento. Se você não tiver certeza, reinicie o computador.
+* Certifique-se de que nenhum programa antivírus instalado esteja impedindo o funcionamento do Tor. Caso não saiba como proceder, consulte a documentação do seu programa de antivírus. 
+* Desative temporariamente o seu firewall.
+* Apague o Navegador Tor e instale-o novamente. Ao fazer uma atualização, em vez de simplesmente sobrepor novos arquivos aos antigos, verifique que estes sejam totalmente apagados.
 
-##### Is your connection censored?
+##### A sua conexão é censurada?
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+Se ainda assim você não conseguir se conectar, talvez o seu Provedor de Serviço de Internet esteja censurando conexões à rede Tor. Leia a seção <a href="/circumvention">Driblar a censura</a> para encontrar possíveis soluções. 
 
 ##### Problemas conhecidos
 
-Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+O Navegador Tor está em constante desenvolvimento. Alguns problemas são conhecidos, mas ainda não solucionados. Por favor, consulte a página <a href="/known-issues">Problemas conhecidos</a> para ver se o problema que você está encontrando já foi listado lá.
