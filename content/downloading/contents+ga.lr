@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Is é íoslódáil ó shuíomh oifigiúil Tor https://www.torproject.org an bealach is fusa is sábháilte chun Brabhsálaí Tor a fháil. Ceanglóidh tú leis an suíomh trí <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, ionas go mbeidh sé níos deacra do bhradaí ionsaí a dhéanamh ar an gceangal. 
 
 Uaireanta ní bheidh tú in ann suíomh oifigiúil Thionscadal Tor a rochtain; mar shampla, dá mbeadh cosc air ar do líonra. Má tharlaíonn sé seo, is féidir leat ceann de na modhanna malartacha seo a leanas a úsáid chun Tor a íoslódáil.
 
@@ -46,4 +46,4 @@ Nuair a osclaíonn Satori, cliceáil do rogha teanga. Osclóidh roghchlár a tha
 
 Fan go gcríochnóidh an íoslódáil, ansin aimsigh an rannán “Generate Hash” i roghchlár Satori agus cliceáil “Select Files”.
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+Roghnaigh an pacáiste do Bhrabhsálaí Tor a d'íoslódáil tú. Taispeánfaidh Satori suim sheiceála an phacáiste agus ba chóir duit í a chur i gcomparáid leis an tsuim sheiceála a tháinig leis an mbogearra féin. Is féidir leat an uimhir seo a fháil trí “checksum” a chliceáil in aice leis an nasc a d'úsáid tú chun an pacáiste a íoslódáil. Más ionann na suimeanna seiceála, d'éirigh leis an íoslódáil, agus tá tú in ann <a href="https://tb-manual.torproject.org/en-US/first-time.html">Brabhsálaí Tor a úsáid</a>. Murab ionann iad, ba chóir duit an pacáiste a íoslódáil arís, b'fhéidir ó fhoinse difriúil.
