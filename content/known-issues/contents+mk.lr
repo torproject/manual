@@ -29,3 +29,5 @@ body:
 * Tor Browser исто така може да биде стартуван од командната линија со покренување на следната команда внатре од Tor Browser директориумот:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

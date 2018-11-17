@@ -29,3 +29,5 @@ body:
 * Tor Browser bisa juga di mulai dari garis command dengan menjalankan perintah dari dalam direktori Tor Browser
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

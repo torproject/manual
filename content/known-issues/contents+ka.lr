@@ -29,3 +29,5 @@ body:
 * Tor-ბრაუზერი ასევე შესაძლებელია გაეშვას ბრძანებების ფანჯრიდან, შემდეგი ბრძანებით Tor-ბრაუზერის საქაღალდეში:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

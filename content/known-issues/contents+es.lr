@@ -29,3 +29,5 @@ body:
 * El Navegador Tor también se puede iniciar desde la línea de comando ejecutando el siguiente comando desde el interior del directorio del Navegador Tor:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

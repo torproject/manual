@@ -29,3 +29,5 @@ Tor necesita que tu reloj de sistema (y tu huso horario) estén ajustados en for
 * El navegador Tor también puede ser arrancado desde la línea de comandos corriendo el siguiente comando desde dentro del directorio del navegador Tor:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

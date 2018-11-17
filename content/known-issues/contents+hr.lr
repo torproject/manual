@@ -29,3 +29,5 @@ body:
 * Tor Browser može biti pokrenut iz naredbenog retka unošenjem sljedeće naredbe unutar Tor Browser direktorija:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).

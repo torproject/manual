@@ -13,7 +13,7 @@ Caithfidh tú Brabhsálaí Tor a choinneáil cothrom le dáta i gcónaí. Má ú
 
 Fiafróidh Brabhsálaí Tor díot ar mhaith leat an bogearra a nuashonrú chomh luath agus a bheidh leagan nua ar fáil: taispeánfaidh deilbhín an chnaipe Tor triantán buí, agus seans go bhfeicfidh tú táscaire scríofa faoin nuashonrú nuair a osclóidh Brabhsálaí Tor. Is féidir leat é a nuashonrú go huathoibríoch nó de láimh.
 
-##### Updating Tor Browser automatically
+##### Nuashonrú uathoibríoch ar Bhrabhsálaí Tor
   <img width="400" src="/static/images/update1.png" />
 
 Nuair a iarrfar ort Brabhsálaí Tor a nuashonrú, cliceáil an cnaipe Tor, ansin roghnaigh “Lorg Nuashonrú ar Bhrabhsálaí Tor”.
@@ -25,10 +25,10 @@ Tar éis do Bhrabhsálaí Tor nuashonruithe a lorg, cliceáil an cnaipe “Nuash
   <img width="600" src="/static/images/update4.png" />
 Fan go dtí go mbeidh an nuashonrú íoslódáilte agus suiteáilte, agus atosaigh Brabhsálaí Tor. Ansin, beidh an leagan is déanaí agat.
 
-##### Updating Tor Browser manually
+##### Nuashonrú de láimh ar Bhrabhsálaí Tor
 
 Nuair a iarrfar ort Brabhsálaí Tor a nuashonrú, críochnaigh an seisiún brabhsála agus dún an ríomhchlár.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+Chun Brabhsálaí Tor a bhaint de do chóras, scrios an fillteán ina bhfuil sé (féach ar <a href='uninstalling'>Díshuiteáil</a> le tuilleadh eolais a fháil).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+Tabhair cuairt ar <a href="https://www.torproject.org/projects/torbrowser.html.en"> https://www.torproject.org/projects/torbrowser.html.en</a> agus íoslódáil cóip den leagan is déanaí de Bhrabhsálaí Tor, agus suiteáil é mar a rinne tú roimhe seo.

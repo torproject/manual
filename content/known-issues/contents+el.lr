@@ -29,3 +29,5 @@ body:
 * Ο Tor Browser μπορεί επίσης να ξεκινήσει από τη γραμμή εντολών, εκτελώντας την ακόλουθη εντολή μέσα στο φάκελο του Tor Browser:
 
 	./start-tor-browser.desktop
+
+* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
