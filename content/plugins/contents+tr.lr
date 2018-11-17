@@ -21,7 +21,7 @@ JavaScript, web sitelerinin görüntü, animasyon, ses ve durum ilerlemesi gibi 
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
 <img class="col-md-6" src="/static/images/noscript_menu.png">
-Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+Web sitelerinde gezinirken yüksek derecede güvenlik isteyen kullanıcılar, Tor Browser üzerindeki <a href="/security-slider">Güvenlik Kaydırıcısı</a> ayarını "Daha Güvenli" (HTTPS olmayan web siteleri için JavaScript devre dışı) ya da "En Güvenli" (tüm web siteleri için JavaScript devre dışı) olarak seçmelidir. Bununla birlikte, JavaScript devre dışı bırakıldığında birçok web sitesi düzgün görünmeyebilir. Bu nedenle Tor Browser varsayılan olarak "Standart" güvenlik düzeyinde tüm web sitelerinin betikleri çalıştırmasına izin verir.
 
 ##### Tarayıcı Eklentileri
 

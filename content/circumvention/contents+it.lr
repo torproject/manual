@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-L'accesso diretto alla rete Tor potrebbe essere bloccato dal tuo Provider di servizi Internet o dal governo. Il browser Tor include alcune strumenti per superare questi ostacoli, e sono chiamati "pluggable transports". Vai alla pagina <a href="transports"> Pluggable Transports</a> per ulteriori informazioni.
+L'accesso diretto alla rete Tor potrebbe essere bloccato dal tuo Provider di servizi Internet o dal governo. Il browser Tor include alcune strumenti per superare questi ostacoli, e sono chiamati "pluggable transports". Vai alla pagina <a href="/en-US/transports">Pluggable Transports</a> per ulteriori informazioni.
 
 ##### Utilizzare i pluggable transports
 
@@ -28,8 +28,8 @@ Seleziona " Connetti con i ponti predefiniti". Il browser Tor ha sei diversi opz
 
 ##### Che trasporto dovrei utilizzare?
 
-Ciasacun trasporto riportato nel menu principale di Tor funziona in maniera differente ( per maggiori dettagli controlla la pagina <a href="transports">Pluggable transports</a>) e la loro efficacia dipende dalle diverse circostanze
+Ciasacun trasporto riportato nel menu principale di Tor funziona in maniera differente ( per maggiori dettagli controlla la pagina <a href="/en-US/transports">Pluggable transports</a>) e la loro efficacia dipende dalle diverse circostanze
 
 Se stai tentando di aggirare una connessione bloccata per la prima volta, dovresti provare i diversi tipi di trasporto: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
 
-Nel caso abbiate provato ad utilizzare tutti questi trasporti e nessuno di essi vi riesce a portare online dovrete inserire l'indirizzo del ponte manualmente. Leggete la sezione <a href="/bridges">ponti</a>per imparare cosa sono i nodi e come ottenerli
+Nel caso abbiate provato ad utilizzare tutti questi trasporti e nessuno di essi vi riesce a portare online dovrete inserire l'indirizzo del ponte manualmente. Leggete la sezione <a href="/en-US/bridges/">ponti</a> per imparare cosa sono i nodi e come ottenerli

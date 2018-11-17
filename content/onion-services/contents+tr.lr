@@ -14,9 +14,9 @@ Onion hizmetleri (eskiden "gizli hizmetler" denirdi) yalnızca Tor ağı üzerin
 
 Onion hizmetleri, web üzerindeki gizli olmayan sıradan hizmetlere göre çeşitli avantajlar sunar:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Bir Onion hizmetinin konumu ve IP adresi gizlidir. Böylece engellenmeleri ya da bağlı oldukları ya da işletmecilerin kullandığı hizmet sağlayıcıların belirlenmesi zorlaştırılmış olur.
+Tor kullanıcıları ile Onion hizmetleri arasındaki tüm trafik uçtan uca şifrelenir. Bu nedenle <a href="/secure-connections">HTTPS bağlantısı kurmak</a> hakkında endişelenmenize gerek yoktur.
+* Bir Onion hizmetinin adresi otomatik olarak üretilir. Böylece işletmecilerin bir alan adı satın alması gerekmez. .onion adresinin kullanılması ayrıca Tor bağlantısının doğru konuma yapıldığından ve bağlantıya müdahale edilmediğinden emin olunmasını sağlar.
 
 ##### Onion hizmetine nasıl erişilir
 

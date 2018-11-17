@@ -29,6 +29,6 @@ Tor-ბრაუზერი ამოგიგდებთ განახლ�
 
 მას შემდეგ რაც Tor-ბრაუზერის განახლება ამოვარდება, დაასრულეთ მუშაობა და დახურეთ პროგრამა.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+ამოშალეთ Tor-ბრაუზერი სისტემიდან, მისი საქაღალდის წაშლით (იხილეთ განყოფილება <a href='uninstalling'>ამოშლა</a>, დამატებითი ინფორმაციისთვის).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+ეწვიეთ გვერდს <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> და ჩამოტვირთეთ Tor-ბრაუზერის უახლესი გამოშვება, შემდეგ კი ჩვეულებრივ დააყენეთ.

@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Tor Browser uygulamasını indirmenin en güvenli ve basit yolu, https://www.torproject.org adresindeki resmi Tor Project web sitesinden indirmektir. Siteyle olan bağlantınızın güvenliği <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a> kullanılarak sağlanır ve bu da bazı kişilerin bağlantınızı kurcalamasını oldukça zorlaştırır.
 
 Bununla birlikte, Tor Project web sitesine erişemediğiniz zamanlar olabilir: örneğin, ağınızda Tor engellenmiş olabilir. Böyle bir durumda, aşağıda listelenen alternatif indirme yöntemlerinden birini kullanabilirsiniz.
 
@@ -46,4 +46,4 @@ Satori açıldığında, kullanmayı yeğlediğiniz dile tıklayarak bu dildeki 
 
 İndirme işleminin bitmesini bekleyin. Ardından Satori menüsünde "Karma Üret" bölümünü bulun ve "Dosyaları Seçin" üzerine tıklayın.
 
-Select the downloaded Tor Browser file. Satori will display the checksum of the file, which you should compare with the software’s original checksum: you can find this by clicking the word “checksum” after the link you clicked on to start the download. If the checksums match, your download was successful, and you can <a href="https://tb-manual.torproject.org/en-US/first-time.html">begin using Tor Browser</a>. If they do not match, you may need to try downloading again, or from a different source.
+İndirilen Tor Browser dosyasını seçin. Satori üzerinde, yazılımın özgün sağlaması ile karşılaştırmanız gereken dosya sağlaması görüntülenir: Sağlama değerini almak için, indirmeyi başlatmak için tıkladığınız bağlantının yanındaki "checksum" sözcüğüne tıklayın. Sağlama doğru ise, indirdiğiniz dosya doğrudur ve <a href="https://tb-manual.torproject.org/en-US/running-tor-browser/">Tor Browser kullanmaya başlayabilirsiniz </a>. Sağlama yanlış ise, dosyayı yeniden ya da farklı bir kaynaktan indirmeniz gerekebilir.

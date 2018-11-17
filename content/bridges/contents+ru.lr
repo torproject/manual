@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Мосты
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Большинство Pluggable Transports, такие как obfs3 и obfs4, полагаются на использование «мостовых» реле.
 ---
 seo_slug: Мосты
 ---

@@ -35,21 +35,13 @@ Tá sé cinn de chórais iompair ionphlugáilte ar fáil faoi láthair, ach tái
 </tr>
 <tr class="odd">
 <td>
-    Scramblesuit
-</td>
-<td>
-    Córas cosúil le obfs4 é ScrambleSuit, ach úsáideann sé droichid dhifriúla.
-</td>
-</tr>
-<tr class="even">
-<td>
 FTE
 </td>
 <td>
     Cuireann FTE (criptiúchán trasfhoirmithe) cuma ghnáth-thrácht Gréasáin (HTTP) ar thrácht Tor.
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
 meek
 </td>
@@ -57,7 +49,7 @@ meek
     Nuair a úsáideann tú na córais iompair seo, dealraíonn sé go bhfuil tú ag brabhsáil suíomh éigin mór-le-rá in áit Tor. Mar shampla, le meek-amazon, dealraíonn sé go bhfuil tú ag úsáid Seirbhísí Gréasáin Amazon; le meek-azure, go bhfuil tú ag úsáid suímh de chuid Microsoft; agus le meek-google, go bhfuil tú ag déanamh cuardaigh Google.
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>
     Snowflake
 </td>

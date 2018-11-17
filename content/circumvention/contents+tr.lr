@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Tor ağına doğrudan erişim, bazen Internet Hizmeti Sağlayıcınız ya da hükümet tarafından engellenebilir. Bu engellemeleri aşmak için Tor Browser uygulamasında bazı araçlar bulunur. Bu araçlara "Takılabilir Aktarımlar" denir. Kullanılabilecek aktarım türleri hakkında ayrıntılı bilgi almak için <a href="/en-US/transports"> Takılabilir Aktarımlar </a> bölümüne bakabilirsiniz.
 
 ##### Takılabilir aktarımları kullanma
 
@@ -28,8 +28,8 @@ Ayrıca, Tor Browser çalışırken, adres çubuğunuzun yakınındaki yeşil so
 
 ##### Hangi aktarımı kullanmalıyım?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Tor Başlatıcı menüsünde görüntülenen aktarımlardan her biri farklı bir şekilde çalışır (ayrıntılı bilgi almak için <a href="/en-US/transports">Takılabilir Aktarımlar</a> sayfasına bakabilirsiniz) ve etkinlikleri size özel koşullara bağlıdır.
 
 Engellenen bir bağlantıyı ilk kez aşmaya çalışıyorsanız farklı aktarımları denemelisiniz: obfs3, obfs4, ScrambleSuit, fte, meek-azure, meek-amazon ve Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Bu seçeneklerin tümünü denediğiniz halde hiçbiri çevrimiçi olmanızı sağlayamıyor ise, köprü adreslerini el ile yazmanız gerekir. Köprülerin ne olduğunu ve bilgilerini nasıl edinebileceğinizi öğrenmek için <a href="/en-US/bridges/">Köprüler</a> bölümüne bakabilirsiniz.

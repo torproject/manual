@@ -2,7 +2,7 @@ _model: topic
 ---
 title: ব্রিজ
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: সর্বাধিক প্ল্যাগেবল ট্রান্সপোর্ট, যেমন obfs3 এবং obfs4 হিসাবে, "ব্রিজ" relays ব্যবহারের উপর নির্ভর করে।
 ---
 seo_slug: ব্রিজ
 ---
@@ -17,7 +17,7 @@ body:
 
 যেহেতু ব্রিজগুলি ঠিকানাগুলি সর্বজনীন নয় তাই আপনাকে তাদের নিজের কাছে অনুরোধ করতে হবে। আপনার দুটি বিকল্প আছে:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* https://bridges.torproject.org/ দেখুন এবং নির্দেশাবলী অনুসরণ করুন, অথবা
 * ইমেইল, bridges@torproject.org একটি জিমেইল, ইয়াহু, বা রিয়েপ ইমেল ঠিকানা, বা
 
 ##### ব্রিজ ঠিকানাগুলি প্রবেশ করানো
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+সংযোগ ব্যর্থ হলে, আপনি যে ব্রিজগুলি পেয়েছেন তা নিচে হতে পারে। আরও সেতু ঠিকানা প্রাপ্ত করার জন্য উপরের পদ্ধতিগুলির একটি ব্যবহার করুন, এবং আবার চেষ্টা করুন।

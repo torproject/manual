@@ -10,23 +10,23 @@ key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor uygulamasının çalışabilmesi için saat ve saat dilimi ayarları doğru olmalıdır.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Şu güvenlik duvarı ayarlarının Tor ile sorun çıkarabilir ve geçici olarak devre dışı bırakılması gerekebilir:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Adobe Flash gerektiren görüntüler kullanılamaz. Güvenlik nedeniyle Flash devre dışı bırakılmıştır. 
 
-* Tor can not use a bridge if a proxy is set.
+* Bir vekil sunucu ayarlandığında Tor köprüleri kullanılamaz.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Tor Browser paketinin tarihi 1 Ocak 2000 00:00: 00 UTC şeklindedir. Böylece her bir yazılım yapımının tam olarak yeniden üretilebilir olduğundan emin olunabilir.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Ubuntu üzerinde Tor Browser çalıştırmak için kullanıcıların bir kabuk komut dosyası çalıştırmaları gerekir. "Dosyalar" (Unity dosya yöneticisi) uygulamasını açıp, Ayarlar → Davranış Sekmesi → "Çalıştırılabilir metin dosyalarını açıldıklarında Çalıştır" seçeneğini "Her zaman sorulsun" olarak ayarlayın, ardından Tamam üzereine tıklayın.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Ayrıca Tor Browser komut satırından Tor Browser klasörünün içinden şu komut çalıştırılarak başlatılabilir:
 
 	./start-tor-browser.desktop
 

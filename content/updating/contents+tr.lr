@@ -13,7 +13,7 @@ Tor Browser her zaman güncel tutulmalıdır. Uygulamanın eski bir sürümünü
 
 Yeni bir Tor Browser sürümünün yayınlandığı size bildirilerek güncellemeniz istenir: Torbutton simgesinde sarı bir üçgen görüntülenir ve Tor Browser açıldığında bir güncelleme bildirimi görüntülenebilir. Güncelleme işlemini otomatik ya da el ile yapabilirsiniz.
 
-##### Updating Tor Browser automatically
+##### Otomatik Tor Browser güncellemesi
   <img width="400" src="/static/images/update1.png" />
 
 Tor Browser güncellemesi bildirildiğinde, Torbutton simgesine ve "Tor Browser Güncelleme Denetimi" üzerine tıklayın.
@@ -25,10 +25,10 @@ Tor Browser güncellemeleri denetlendiğinde "Güncelle" düğmesine tıklayın.
   <img width="600" src="/static/images/update4.png" />
 Güncellemenin indirilip kurulmasını bekleyin. Ardından Tor Browser uygulamasını yeniden başlatın. Böylece en son sürüm ile çalışmaya başlayabilirsiniz.
 
-##### Updating Tor Browser manually
+##### Tor Browser el ile nasıl güncellenir
 
 Tor Browser güncellemesi bildirildiğinde, web sitelerindeki gezinmenizi bitirin ve programı kapatın.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+Tor Browser uygulamasının bulunduğu klasörü silerek sisteminizden kaldırın (ayrıntılı bilgi almak için <a href='uninstalling'>Kaldırma</a> bölümüne bakın).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+<a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> adresine giderek en son Tor Browser sürümünün bir kopyasını indirin. Ardından daha önce olduğu gibi kurun.

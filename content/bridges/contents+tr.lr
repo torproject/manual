@@ -2,14 +2,14 @@ _model: topic
 ---
 title: Köprüler
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: obfs3 ve obfs4 gibi çoğu Eklenebilir Aktarımlar, “köprü” aktarıcılar kullanır. 
 ---
 seo_slug: Köprüler
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+obfs3 ve obfs4 gibi çoğu <a href="/transports">Eklenebilir Aktarımlar</a>, “köprü” aktarıcılar kullanır. Sıradan Tor aktarıcıları gibi köprüler de gönüllüler tarafından işletilir. Ancak sıradan aktarıcılardan farklı olarak herkese açık olarak duyurulmazlar. Böylece izleme yapanlar köprüleri kolayca belirleyemez. Köprülerin Eklenebilir Aktarımlar ile birlikte kullanılması Tor üzerinden gizlenme amacınıza yardımcı olur.
 
 Meek gibi diğer eklenebilir aktarımlar, köprülerden yararlanan farklı anti-sansür teknikleri kullanır. Bu aktarımları kullanmak için köprü adreslerinin eklenmesi gerekmez.
 
@@ -17,7 +17,7 @@ Meek gibi diğer eklenebilir aktarımlar, köprülerden yararlanan farklı anti-
 
 Köprü adresleri herkese açık olarak duyurulmadığından, istekte bulunmanız gerekir. Kullanılabilecek iki seçenek vardır:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* https://bridges.torproject.org/ adresine giderek yönergeleri izleyin
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
 ##### Köprü adreslerini yazma

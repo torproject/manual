@@ -32,4 +32,4 @@ Jede der im Tor Starter aufgeführten austauschbaren Übertragungsarten arbeitet
 
 Wenn du zum ersten Mal versuchst eine blockierte Verbindung zu umgehen, solltest du die verschiedenen Transporte ausprobieren: obfs3, obfs4, ScrambleSuit, fte, meek-azure und Snowflake.
 
-Wenn du alle diese Optionen ausprobierst und keine davon dich online bringt, musst du die Brücken-Adressen manuell eingeben. Lies den Abschnitt <a href="/bridges/">Brücken</a>, um zu erfahren, was Brücken sind und wie du sie erhalten kannst.
+Wenn du alle diese Optionen ausprobierst und keine davon dich online bringt, musst du die Brücken-Adressen manuell eingeben. Lies den Abschnitt <a href="/en-US/bridges/">Brücken</a>, um zu erfahren, was Brücken sind und wie du sie erhalten kannst.

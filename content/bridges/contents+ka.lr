@@ -2,7 +2,7 @@ _model: topic
 ---
 title: გადამცემი ხიდები
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: მისაერთებელი გადამყვანების  დიდი ნაწილი, მათ შორის obfs3 და obfs4, ეფუძნება „ხიდურ“ გადამცემებს.
 ---
 seo_slug: გადამცემი ხიდები
 ---
@@ -17,7 +17,7 @@ body:
 
 ვინაიდან, გადამცემი ხიდები არაა საჯაროდ ხელმისაწვდომი, დაგჭირდებათ მისი მოთხოვნა. გაქვთ ორი არჩევანი:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
+* ეწვიოთ https://bridges.torproject.org/ საიტს და მიჰყვეთ მითითებებს ან
 * ელფოსტის გამოგზავნა მისამართზე bridges@torproject.org Gmail-იდან, Yahoo-დან ან Riseup ელფოსტიდან, ან
 
 ##### გადამცემი ხიდის მისამართების შეყვანა

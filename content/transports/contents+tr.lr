@@ -35,21 +35,13 @@ Takılabilir aktarımlar, Tor tarafından gönderilen veri trafiğinin gizlenmes
 </tr>
 <tr class="odd">
 <td>
-    ScrambleSuit
-</td>
-<td>
-    ScrambleSuit obfs4'e benzer ancak farklı bir köprü takımına sahiptir.
-</td>
-</tr>
-<tr class="even">
-<td>
 FTE
 </td>
 <td>
     FTE (format-transforming encryption; biçim dönüştüren şifreleme), Tor trafiğini sıradan bir web (HTTP) trafiği gibi gizler.
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
 meek
 </td>
@@ -57,7 +49,7 @@ meek
     Bu aktarımların hepsi Tor kullanıyor gibi görünmek yerine büyük bir web sitesinde geziliyormuş gibi görünmeyi sağlar. meek-amazon Amazon Web Hizmetleri kullanılıyormuş gibi; meek-azure, Microsoft web sitesi kullanılıyormuş gibi; meek-google, Google araması kullanılıyormuş gibi görünmeyi sağlar.
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>
     Snowflake
 </td>

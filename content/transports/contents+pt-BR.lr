@@ -35,21 +35,13 @@ Atualmente, há seis transportadores plugáveis disponíveis e outros estão sen
 </tr>
 <tr class="odd">
 <td>
-    Scramblesuit
-</td>
-<td>
-    ScrambleSuit é parecido com obfs4, mas possui um outro conjunto de pontes.
-</td>
-</tr>
-<tr class="even">
-<td>
 FTE
 </td>
 <td>
     FTE (format-transforming encryption) mascara o tráfego do Tor, que aparece como tráfego de rede comum (HTTP).
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
 meek
 </td>
@@ -57,7 +49,7 @@ meek
     Todos esses transportadores fazem com que pareça que você está acessando um dos grandes sites da web, e não que você usa Tor. meek-amazon faz com que pareça que você utiliza Amazon;  meek-azure, Microsoft; e meek-google faz parecer que você está usando a pesquisa do Google.
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>
     Snowflake
 </td>

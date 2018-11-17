@@ -35,21 +35,13 @@ body:
 </tr>
 <tr class="odd">
 <td>
-    ScrambleSuit
-</td>
-<td>
-    ScrambleSuit похож на obfs4, но использует другое множество мостов.
-</td>
-</tr>
-<tr class="even">
-<td>
 FTE
 </td>
 <td>
     FTE (передающее формат шифрование) маскирует трафик Tor под видом обычного веб-трафика (HTTP).
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
 meek
 </td>
@@ -57,7 +49,7 @@ meek
     Этот тип транспорта позволяет делать вид, что вы просматриваете какой-то популярный веб-сайт вместо использования Tor. meek-amazon делает вид, что вы используете Amazon Web Services; meek-azure делает вид, что вы используете веб-сайт Microsoft, а meek-google делает вид, как будто вы пользуетесь поиском Google.
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>
     Снежинка
 </td>

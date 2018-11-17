@@ -16,7 +16,7 @@ Tor Browser ilk kez çalıştırıldığında, Tor Ağ Ayarları penceresi gör�
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+Çoğu durumda, "Bağlan" üzerine tıklamak başka bir yapılandırmaya gerek duymadan Tor ağına bağlanmanızı sağlar. Bağlan üzerine tıklandığında, Tor bağlantısının ilerleme durumunu gösteren bir durum çubuğu görüntülenir. Nispeten hızlı bir bağlantınız olduğu halde durum çubuğu belli bir noktada takılıp kalıyorsa, sorunu çözmek üzere yardım almak için <a href="/troubleshooting">Sorun Giderme</a> bölümüne bakabilirsiniz.
 
 ##### Yapılandırma
 
@@ -24,7 +24,7 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 Bağlantınızın sansürlendiğini ya da vekil sunucu kullandığını biliyorsanız, bu seçeneği seçmelisiniz. Tor Browser size bir dizi yapılandırma seçeneği sunar.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+İlk bölümde, bağlantınız üzerinden Tor ağına erişimin engellenmesi ya da sansürlenmesi ile ilgili bilgi alınır. Durumun böyle olmadığını düşünüyorsanız, "Hayır" üzerine tıklayın. Bağlantınızın sansürlendiğini biliyorsanız ya da Tor ağına bağlanmayı deneyip bağlanamadıysanız ve başka bir çözüm işe yaramadıysa, "Evet" üzerine tıklayın. Böylece, takılabilir bir aktarımı yapılandırabileceğiniz <a href="/circumvention">Engelleri Aşma</a> bölümüne yönlendirilirsiniz.
 
 Sonraki bölümde bağlantınızın bir vekil sunucu kullanıp kullanmadığı hakkında bilgi alınır. Çoğu durumda, bu gerekli değildir. Sisteminizdeki diğer tarayıcılar için de aynı ayarlar kullanıldığından "Evet" olarak seçmeniz gerekiyorsa genellikle bunu bilirsiniz. Olabiliyorsa, ağ yöneticinizden yardım isteyin. Bağlantınız bir vekil sunucu kullanmıyorsa, "Devam" üzerine tıklayın.
 

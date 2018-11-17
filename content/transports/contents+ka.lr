@@ -35,21 +35,13 @@ body:
 </tr>
 <tr class="odd">
 <td>
-    Scramblesuit
-</td>
-<td>
-    ScrambleSuit მსგავსია obfs4-ის მაგრამ გადამცემების განსხვავებული კრებული გააჩნია.
-</td>
-</tr>
-<tr class="even">
-<td>
 FTE
 </td>
 <td>
     ფორმატის გარდამქმნელი დაშიფვრა (format-transforming encryption – FTE) ნიღბავს Tor-ით მიმოცვლილ მონაცემებს, ჩვეულებრივი კავშირის (HTTP) სახით.
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
 meek
 </td>
@@ -57,7 +49,7 @@ meek
     ამ სახის გადამყვანები გადაცემულ მონაცემებს აძლევს ისეთ სახეს, თითქოს მომხმარებელი ცნობილ საიტებს უკავშირდება, ნაცვლად Tor-ქსელისა. meek-amazon ყველა კავშირს წარმოაჩენს ისე, თითქოს Amazon-ის ვებმომსახურებებს იყენებდეთ; meek-azure წარმოაჩენს ისე, თითქოს Microsoft-ის ვებმომსახურებებს იყენებდეთ; ხოლო meek-google წარმოაჩენს ისე, თითქოს Google-ის საძიებოთი სარგებლობდეთ.
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>
     Snowflake
 </td>

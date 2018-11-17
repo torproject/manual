@@ -2,7 +2,7 @@ _model: topic
 ---
 title: Mostovi
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Većina priključnih transports, kao obfs3 i obfs4, se oslanja na korištenje "mostova" kao releja. 
 ---
 seo_slug: Mostovi
 ---
