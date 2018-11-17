@@ -13,6 +13,8 @@ body:
 Several instant messaging protocols and pieces of IM software are compatible with Tor.
 This page aims to document the most widely used and commonly accepted forms of anonymous instant messaging, as well as security advisories of potential vulnerabilities.
 
+----
+
 #### Reasonably secure software
 ##### Internet Relay Chat (IRC) clients
 For general information on IRC security, see [IRC](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/IRC).
@@ -21,8 +23,7 @@ Guides on specific IRC clients:
 * [irssi](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/irssi)
 * [WeeChat](https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/WeeChat)
 
-##### Other
-###### Signal Messenger
+##### Signal Messenger
 
 **Warning:**
 While Signal does have a desktop version and provides strong encryption by default as well as location anonymity when paired with Tor, maintained access to a valid phone number is required to use it.
@@ -41,14 +42,16 @@ There is currently a very lengthy [open ticket](https://github.com/signalapp/Sig
 
 **Testing underway for mobile integrity.**
 
-Official site: ​[Signal.org](https://Signal.org)
+Official site: [Signal.org](https://Signal.org)
+
+----
 
 #### Potentially dangerous software
 ##### Early development
 While software projects under this header are reasonably secure, they are very early in development and at times have received little to no formal security auditing.
 It is therefore impossible to determine if critical flaws exist that have yet to be discovered, and a degree of caution should be taken when using them for any sort of sensitive activity.
 
-##### Tox
+###### Tox
 **Notice:**
 Tox is very early in development.
 
@@ -59,9 +62,9 @@ A reference implementation of the protocol is published as free and open-source 
 
 You can find instructions on using Tox over Tor on [this page](https://wiki.tox.chat/users/tox_over_tor_tot) of their documentation.
 
-Official site: ​[Tox.Chat](https://Tox.Chat)
+Official site: [Tox.Chat](https://Tox.Chat)
 
-##### CoyIM
+###### CoyIM
 **Notice:**
 CoyIM is both very early in development and has not received auditing.
 
@@ -71,7 +74,7 @@ Since the discontinuatiuon of Tor Messenger, CoyIM is becoming a more favorable 
 
 As Tor is a default setting, no torifying instructions are necessary.
 
-Official site: ​[Coy.im](https://Coy.im)
+Official site: [Coy.im](https://Coy.im)
 
 ##### Libpurple-based clients
 **Warning:**
@@ -113,10 +116,9 @@ Password: [none needed]
 ```
 * Click OK.
 
-Official site: ​[Adium.im](https://Adium.im)
+Official site: [Adium.im](https://Adium.im)
 
-##### Misc. clients
-###### Ricochet
+##### Ricochet
 Ricochet IM is an open-source, decentralized instant messenger project that utilizes the Tor network by design.
 Development stalled in November 2016, though it has been relatively stable in the time since.
 
@@ -130,14 +132,18 @@ Please update to a [supported tor version](https://trac.torproject.org/projects/
 
 Official site: [Ricochet.im](https://Ricochet.im)
 
-#### Discontinued software
+----
+
+#### Discontinued projects
 Software listed here has become deprecated and development is ceased.
 They are therefore considered unsafe and it is highly recommended to avoid using them.
 This section is here purely for historical value.
 
 ##### Tor Messenger
-[Tor Messenger](https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger) is an instant messaging client based on ​Instantbird and was officially discontinued in March 2018.
+[Tor Messenger](https://trac.torproject.org/projects/tor/wiki/doc/TorMessenger) is an instant messaging client based on Instantbird and was officially discontinued in March 2018.
 It ensures all of its traffic is routed over Tor, uses OTR (Off-the-Record) messaging by default, has an easy-to-use graphical user interface and has the ability to connect to a variety of networks. 
+
+----
 
 #### Dangerous / leaky software
 The software below is considered outright dangerous for various reasons and should not be used.
@@ -151,7 +157,7 @@ There is much safer alternatives to Skype for video calling - please use them!
 
 ##### Konversation
 **Warning:**
-See [KDE warnings](#KDEWarnings).
+See [KDE warnings](#KDE).
 
 Konversation is an open-source IRC client built for the KDE environment.
 It is currently maintained in the KDE Extragear Network module, which means that it has its own release cycle which is independent from the main KDE applications.
@@ -159,13 +165,15 @@ Konversation is released under the terms of the GNU General Public License.
 
 ##### Kopete
 **Warning:**
-See [KDE warnings](#KDEWarnings).
+See [KDE warnings](#KDE).
 
 Kopete is an open-source, multi-protocol instant messaging client released in 2001 in the wake of ICQ blocking Licq from their network.
 It is part of the KDE software compilation, however it is capable of running in numerous environments including Gnome and XFCE.
 
+----
+
 #### Additional warnings
-##### KDE warnings
+##### KDE Warnings<a name="KDE"></a>
 * KDE proxy settings are global for all KDE applications, thus identity correlation through circuit sharing is at risk!
 * [Bug 308682 - per application proxy settings](https://bugs.kde.org/show_bug.cgi?id=308682)
 * KDE Applications such as Kopete, Konversation (basically everything that is not HTTP) respect only the global Socks proxy settings.
