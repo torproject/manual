@@ -9,7 +9,7 @@ seo_slug: plugins
 key: 10
 ---
 body:
-##### Flash Player
+##### Le lecteur Flash
 
 Les sites Web vidéo tels que Vimeo utilisent le greffon du lecteur Flash pour afficher les contenus vidéo. Malheureusement, ce logiciel fonctionne indépendamment du Navigateur Tor et il peut être difficile de le faire obéir aux paramètres de serveur mandataire du Navigateur Tor. Il peut par conséquent divulguer vos position et adresse IP réels aux exploitants du site Web ou à un observateur extérieur. C’est pour cela que Flash est désactivé par défaut dans le navigateur, et il n’est pas recommandé de l’activer.
 
@@ -19,11 +19,11 @@ Certains sites Web vidéo (comme YouTube) offrent d’autres méthodes de livrai
 
 JavaScript est un langage de programmation que les sites Web utilisent pour offrir des éléments interactifs tels que de la vidéo, des animations, de l’audio et des états de progression. Malheureusement, JavaScript permet aussi d’attaquer la sécurité du navigateur, ce qui pourrait compromettre l’anonymisation.
 
-Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+Le Navigateur Tor comprend un module complémentaire appelé NoScript, accessible grâce à l’icône « S » en haut à droit de la fenêtre. NoScript vous permet de contrôler le JavaScript (et autres scripts) exécuté par les différentes pages Web, ou de le bloquer complètement. 
 <img class="col-md-6" src="/static/images/noscript_menu.png">
 Les utilisateurs qui exigent un niveau de sécurité élevé quand ils parcourent le Web devraient régler le curseur de sécurité du Navigateur Tor à « Plus sûr » (ce qui désactive le JavaScript pour les sites Web sans HTTPS) ou « Le plus sûr » (ce qui le fait pour tous les sites Web). Cependant, la désactivation du JavaScript empêchera de nombreux sites Web de s’afficher correctement, et c’est pourquoi les paramètres par défaut du Navigateur Tor permettent à tous les sites Web d’exécuter des scripts en mode « Normal ».
 
-##### Browser Add-ons
+##### Les modules complémentaires pour navigateur
 
 Le Navigateur Tor est fondé sur Firefox, et tout module complémentaire ou thème compatible avec Firefox peut aussi être installé dans le Navigateur Tor.
 

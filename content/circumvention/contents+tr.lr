@@ -30,6 +30,6 @@ Ayrıca, Tor Browser çalışırken, adres çubuğunuzun yakınındaki yeşil so
 
 Tor Başlatıcı menüsünde görüntülenen aktarımlardan her biri farklı bir şekilde çalışır (ayrıntılı bilgi almak için <a href="/en-US/transports">Takılabilir Aktarımlar</a> sayfasına bakabilirsiniz) ve etkinlikleri size özel koşullara bağlıdır.
 
-Engellenen bir bağlantıyı ilk kez aşmaya çalışıyorsanız farklı aktarımları denemelisiniz: obfs3, obfs4, ScrambleSuit, fte, meek-azure, meek-amazon ve Snowflake.
+Engellenen bir bağlantıyı ilk kez aşmaya çalışıyorsanız farklı aktarımları denemelisiniz: obfs3, obfs4, fte, meek-azure, meek-amazon ve Snowflake.
 
 Bu seçeneklerin tümünü denediğiniz halde hiçbiri çevrimiçi olmanızı sağlayamıyor ise, köprü adreslerini el ile yazmanız gerekir. Köprülerin ne olduğunu ve bilgilerini nasıl edinebileceğinizi öğrenmek için <a href="/en-US/bridges/">Köprüler</a> bölümüne bakabilirsiniz.

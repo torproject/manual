@@ -17,12 +17,12 @@ La visualisation suivante montre quelles informations sont visibles pour les sys
 
 <img class="" src="/static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* Cliquez sur le bouton « Tor » pour voir quelles données sont visibles pour les observateurs quand vous utilisez Tor. Le bouton deviendra vert pour indiquer que Tor est activé.
+* Cliquez sur le bouton « HTTPS » pour voir quelles données sont visibles pour les observateurs quand vous utilisez HTTPS. Le bouton deviendra vert pour indiquer que HTTPS est activé.
+* Quand les deux boutons sont verts, vous voyez les données qui sont visibles pour les observateurs quand vous utilisez les deux outils.
+* Quand les deux boutons sont gris, vous voyez les données qui sont visibles pour les observateurs quand vous n’utilisez aucun des deux outils.
 
-##### Potentially visible data
+##### Les données potentiellement visibles
 
 <dl>
 

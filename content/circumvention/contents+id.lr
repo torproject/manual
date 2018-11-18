@@ -30,6 +30,6 @@ PIlih "Connect with provided bridges". Peramban Tor saat ini memiliki enam opsi 
 
 Setiap transports yang terdaftar dalam menu Peluncur Tor bekerja dengan cara berbeda (untuk detil, lihat laman<a href="/en-US/transports">Angkutan Colok</a>), dan efektivitasnya bergantung pada keadaan anda.
 
-Jika anda mencoba mengelak dari koneksi yang diblokir untuk pertama kali, anda perlu mencoba angkutan yang berbeda: obfs3, obfs4, ScrambeSuit, fte, meek-azure, Snowflake.
+Jika anda mencoba mengelak dari koneksi yang diblokir untuk pertama kali, anda perlu mencoba angkutan yang berbeda: obfs3, obfs4, fte, meek-azure, Snowflake.
 
 Jika anda mencoba semua opsi yang tersedia, dan tidak ada yang membuat anda daring, anda oerlu untuk memasukkan alamat jembatan secara manual. Baca bagian<a href="/en-US/bridges/">Jembatan-jembatan</a> untuk mempelajari apa itu jembatan dan bagaimana mendapatkannya.

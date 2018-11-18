@@ -30,6 +30,6 @@ Clique em "Conectar usando pontes fornecidas". Atualmente, o Navegador Tor possu
 
 Cada um dos transportadores listados no menu do Tor Launcher funciona de maneira diferente (para mais detalhes, consultar <a href="/en-US/transports">Transportadores Plugáveis</a>) e a eficácia deles depende do seu caso individual. 
 
-Se você está tentando contornar uma conexão bloqueada pela primeira vez, você deve tentar diferentes transportes: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
+Se você está tentando contornar uma conexão bloqueada pela primeira vez, você deve tentar diferentes transportes: obfs3, obfs4, fte, meek-azure e Snowflake.
 
 Se você tentar todas essas opções e ainda assim não conseguir conectar-se, será preciso inserir os endereços de ponte manualmente. Leia a seção <a href="/en-US/bridges/">Pontes</a> para saber mais sobre o que são pontes e como obtê-las.

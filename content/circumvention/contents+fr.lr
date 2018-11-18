@@ -10,9 +10,9 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+L’accès direct au réseau Tor pourrait parfois être bloqué par votre fournisseur d’accès à internet ou par un gouvernement. Le Navigateur Tor comprend des outils de contournement de ces blocages. On appelle ces outils des « transports enfichables ». La page <a href="/fr/transports">Les transports enfichables</a> contient des informations supplémentaires sur les types de transports proposés actuellement.
 
-##### Using pluggable transports
+##### Utiliser des transports enfichables
 
 <img class="col-md-6" src="/static/images/configure.png">
 
@@ -26,10 +26,10 @@ Sélectionnez « Oui » quand on vous demandera si votre fournisseur d’accè
 
 Sélectionnez « Se connecter avec les ponts fournis ». Le Navigateur Tor offre actuellement six options de transports enfichables parmi lesquelles choisir.
 
-##### Which transport should I use?
+##### Quel transport devrais-je utiliser ?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Chacun des transports répertoriés dans le menu du lanceur Tor fonctionne d’une façon différente (pour davantage de détails, consulter la page <a href="transports">Les transports enfichables</a>) et leur efficacité dépend de vos circonstances particulières.
 
-Si vous essayez de contourner pour la première fois une connexion bloquée, vous devriez essayer les différents transports : obfs3, obfs4, ScrambleSuit, fte, meek-azure et Snowflake.
+Si vous essayer the contourner une connection bloquée pour la premier fois, vous devez essayer different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Si vous avez essayé toutes ces actions et qu’aucune ne vous permet de vous connecter, vous devrez saisir des adresses de pont manuellement. Lisez la section <a href="/bridges">Les ponts </a> pour apprendre ce que sont les ponts et comment en obtenir.

@@ -30,4 +30,4 @@ body:
 
 	./start-tor-browser.desktop
 
-* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+* <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">即使通过 Tor 网络，BitTorrent 也不是匿名的</a></mark>。

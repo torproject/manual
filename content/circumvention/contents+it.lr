@@ -30,6 +30,6 @@ Seleziona " Connetti con i ponti predefiniti". Il browser Tor ha sei diversi opz
 
 Ciasacun trasporto riportato nel menu principale di Tor funziona in maniera differente ( per maggiori dettagli controlla la pagina <a href="/en-US/transports">Pluggable transports</a>) e la loro efficacia dipende dalle diverse circostanze
 
-Se stai tentando di aggirare una connessione bloccata per la prima volta, dovresti provare i diversi tipi di trasporto: obfs3, obfs4, ScrambleSuit, fte, meek-azure e Snowflake.
+Se stai tentando di aggirare una connessione bloccata per la prima volta, dovresti provare i diversi tipi di trasporto: obfs3, obfs4, fte, meek-azure e Snowflake.
 
 Nel caso abbiate provato ad utilizzare tutti questi trasporti e nessuno di essi vi riesce a portare online dovrete inserire l'indirizzo del ponte manualmente. Leggete la sezione <a href="/en-US/bridges/">ponti</a> per imparare cosa sono i nodi e come ottenerli

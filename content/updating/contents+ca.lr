@@ -13,7 +13,7 @@ El navegador Tor ha d'estar actualitzat. Si continua amb l'ús de versions obsol
 
 El navegador Tor mostrarà quan es pot actualitzar un cop la última versió sigui alliberada: La icona Tor mostrarà un triangle groc amb un indicador d'actualització. Es pot realitzar de forma manual o automàtica.
 
-##### Updating Tor Browser automatically
+##### Actualització automàtica del navegador Tor
   <img width="400" src="/static/images/update1.png" />
 
 Quan sigui requerit a actualitzar el navegador Tor, faci clic en la icona Tor i seleccioni "comprovar actualitzacions".
@@ -25,10 +25,10 @@ Quan el navegador Tor hagi finalitzat la comprovació d'actualitzacions, faci cl
   <img width="600" src="/static/images/update4.png" />
 Esperi a la descarrega de l'actualització i posterior instal·lació, reiniciar el programa. Finalment s'executarà la última versió.
 
-##### Updating Tor Browser manually
+##### Actualització manual del navegador Tor
 
 Quan se li requereixi l'actualització del navegador Tor, acabi la seva navegació i tanqui el programa.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+Suprimir el navegador Tor del sistema amb la supressió de la carpeta que conté (consultar l'enllaç <a href="Desinstal·lar>Uninstalling</a> d'un sistema operatiu).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+Visitar <a href="https://www.torproject.org/projects/torbrowser.html.en"> https://www.torproject.org/projects/torbrowser.html.en</a> i descarregar una còpia de l'última versió del navegador Tor, posteriorment instal·lar.

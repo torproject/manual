@@ -11,13 +11,13 @@ key: 8
 body:
 Le Navigateur Tor inclut un « curseur de sécurité » qui vous permet d’augmenter votre sécurité en désactivant certaines fonctions Web qui peuvent être utilisées pour attaquer votre sécurité et votre anonymat. En augmentant le niveau de sécurité du Navigateur Tor, vous empêcherez le bon fonctionnement de certaines pages Web et vous devriez prendre en considération vos besoins de sécurité ainsi que le niveau de facilité d’emploi.
 
-##### Accessing the Security Slider
+##### Accéder au bouton de sécurité coulissant
 
 <img class="col-md-6" src="/static/images/slider.png">
 
 Le curseur de sécurité se trouve dans le menu « Paramètres de sécurité » du BoutonTor.
 
-##### Security Levels
+##### Les niveaux de sécurité
 
 <img class="col-md-6" src="/static/images/slider_window.png">
 
@@ -34,8 +34,8 @@ Le plus sûr
 Plus sûr
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
-</dd>
+À ce niveau, les contenus multimédias HTML5 deviennent cliquer-pour-lire avec NoScript ; toutes les optimisations des performances JavaScript sont désactivées ; certaines équations mathématiques pourraient ne pas s’afficher correctement ; certaines fonctions de rendu des polices sont désactivées ; certains types d’images sont désactivés ; et JavaScript est désactivé par défaut pour tous les sites <a href="/secure-connections">non HTTPS</a>.
+<dd>
 <dt>
 Normal
 </dt>

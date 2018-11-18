@@ -13,10 +13,10 @@ Le Navigateur Tor n’affecte aucun logiciel existant ou paramètre de votre ord
 
 Il est simple de supprimer le Navigateur Tor de votre système :
 
-1. Locate your Tor Browser folder. The default location on Windows is the Desktop; on Mac OS X it is the Applications folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+1. Repérez le dossier de votre Navigateur Tor. L’emplacement par défaut est le bureau sous Windows et le dossier Applications sous macOS (OS X). Sous Linux, il n’y a pas d’emplacement par défaut, cependant le dossier sera nommé « tor-browser_fr » si vous utilisez la version en français du Navigateur Tor.
 
-2. Delete the Tor Browser folder.
+2. Supprimez le dossier du Navigateur Tor.
 
-3. Empty your Trash
+3. Videz votre corbeille.
 
 Prenez note que javascript:;l’utilitaire habituel de désinstallation de votre système d’exploitation n’est pas utilisé.

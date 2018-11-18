@@ -30,6 +30,6 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-אם אתה מנסה לעקוף חיבור חסום בפעם הראשונה, אתה צריך לנסות את התובלות השונות: obfs3, obfs4, ScrambleSuit, fte, meek-azure ו־Snowflake.
+אם אתה מנסה לעקוף חיבור חסום בפעם הראשונה, אתה צריך לנסות את התובלות השונות: obfs3, obfs4, fte, meek-azure ו־Snowflake.
 
 If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

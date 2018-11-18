@@ -10,24 +10,24 @@ key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor exige que votre horloge système soit réglée à l’heure juste (et que votre fuseau horaire soit bien défini).
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Les logiciels pare-feu suivants sont reconnus pour interférer avec Tor et il pourrait être nécessaire de les désactiver temporairement :
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * Sophos Antivirus pour Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Les vidéos qui exigent Adobe Flash ne sont pas proposées. Flash ait désactivé pour des raisons de sécurité.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor ne peut pas utiliser un pont si un mandataire est défini.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Le paquet du navigateur Tor est daté janvier 1er, 2000 00:00:00 UTC, cela afin de garantir que chaque version du logiciel est exactement reproductible.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Pour faire fonctionner le Navigateur Tor sur Ubuntu, les utilisateurs doivent exécuter un script en ligne de commande. Ouvrez « Fichiers » (le gestionnaire de fichiers d’Unity), puis Préférences → onglet Comportement → définissez « Fichiers texte exécutables » à « Demander quoi faire », puis fermez la fenêtre de dialogue.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Le navigateur Tor peut aussi être lancé à partir de la ligne de commande en exécutant la commande suivante dans le répertoire du navigateur :
 
 	./start-tor-browser.desktop
 
-* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+* BitTorrent en particulier <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">n’est pas anonyme avec Tor</a></mark>.

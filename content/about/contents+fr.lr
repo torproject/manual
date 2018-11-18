@@ -18,9 +18,9 @@ Le Navigateur Tor utilise le réseau Tor pour protéger vos données personnelle
 
 De plus, le Navigateur Tor est conçu pour empêcher le pistage par empreinte numérique unique ou votre identification par les sites Web d’après la configuration de votre navigateur.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
+Par défaut, le Navigateur Tor ne conserve aucun historique de navigation. Les fichiers témoins ne sont valides que le temps d’une seule session (jusqu’à la fermeture de Tor ou jusqu’à ce qu’une <a href="/managing-identities#new-identity">nouvelle identité</a> soit demandée).
 
-##### How Tor works
+##### Comment Tor fonctionne-t-il ?
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
 

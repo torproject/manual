@@ -30,6 +30,6 @@ Odaberite "Spoji se sa dostupnim mostovima". Tor Browser trenutno ima šest opci
 
 Svaki transport izlistan izborniku Tor Launchera radi na drugačiji način (za više detalja, pogledajte stranicu o <a href="/en-US/transports">priključnim transportima</a>), i njihova efikasnost ovisi o Vašim individualnim okolnostima.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure and Snowflake.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
 
 Ako pokušate sve ove opcije i nijedna vas ne spoji, morat ćete ručno unijeti adrese mostova. Pročitajte dio o <a href="/en-US/bridges/">Mostovima</a> kako bi naučili što su mostovi i kako ih dobiti.

@@ -10,7 +10,7 @@ key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+La façon la plus sûre et la plus simple de télécharger le Navigateur Tor est à partir du site Web officiel du Projet Tor https://www.torproject.org . Votre connexion au site sera sécurisée par <a href="secure-connections">HTTPS</a> et il sera ainsi plus difficile pour quelqu’un de l’altérer.
 
 Cependant, l’accès au site Web du Projet Tor pourrait parfois être impossible, par exemple s’il est bloqué sur votre réseau. Si cela se produit, vous pouvez utiliser une des méthodes de téléchargement répertoriées ci-dessous.
 

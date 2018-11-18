@@ -4,7 +4,7 @@ title: Serveis Ceba
 ---
 description: Serveis que només són accessibles utilitzant Tor
 ---
-seo_slug: onion-services
+seo_slug: serveis-ceba
 ---
 key: 6
 ---
@@ -20,14 +20,14 @@ Els serveis ceba permeten tenir diferents avantatges a diferència dels serveis 
 
 ##### Com accedir a un servei ceba
 
-Igual que qualsevol altre lloc web, haurà de conèixer l'adreça d'un servei de onion per connectar-s'hi. Una adreça de onion és una cadena de 16 caràcters (i en format V3, 56), principalment lletres i números aleatoris, seguit de ".onion".
+Igual que qualsevol altre lloc web, haurà de conèixer l'adreça d'un servei ceba per connectar-s'hi. Una adreça de ceba és una cadena de 16 caràcters (i en format V3, 56), principalment lletres i números aleatoris, seguit de ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
 ##### Detecció d'errors
 
-Si no podeu arribar al servei de onion que necessiteu, assegureu-vos que heu introduït correctament l'adreça de onion: fins i tot un petit error deixarà que el navegador Tor no pugui accedir al lloc.
+Si no podeu arribar al servei ceba que necessiteu, assegureu-vos que heu introduït correctament l'adreça de onion: fins i tot un petit error deixarà que el navegador Tor no pugui accedir al lloc.
 
 Si encara no pot establir connexió amb un servei ceba, si us plau provi-ho posteriorment. Pot estar esdeveniment una connexió errònia de forma temporal o els operadors de xarxa han permès estar fóra de línia sense un advertència.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+També podeu assegurar-vos que podeu accedir a altres serveis de onion connectant-vos al <a href="http://3g2upl4pq6kufc4m.onion/">servei ceba de DuckDuckGo</a>.

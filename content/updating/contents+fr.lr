@@ -13,7 +13,7 @@ Le Navigateur Tor doit toujours être gardé à jour. Si vous continuez à utili
 
 Le Navigateur Tor vous demandera de mettre à jour le logiciel quand une nouvelle version paraîtra : l’icône du BoutonTor affichera un triangle jaune et un indicateur écrit de mise à jour pourrait apparaître lors du démarrage du Navigateur Tor. Vous pouvez mettre à jour automatiquement ou manuellement.
 
-##### Updating Tor Browser automatically
+##### La mise à jour automatique du navigateur Tor
   <img width="400" src="/static/images/update1.png" />
 
 Si l’on vous demande de mettre à jour le Navigateur Tor, cliquez sur l’icône du BoutonTor, puis sur « Vérifier les mises à jour du Navigateur Tor ».
@@ -25,10 +25,10 @@ Une fois que le Navigateur Tor a fini de vérifier la disponibilité des mises �
   <img width="600" src="/static/images/update4.png" />
 Attendez la fin du téléchargement et de l’installation, puis redémarrez le Navigateur Tor. Vous utiliserez alors la version la plus récente.
 
-##### Updating Tor Browser manually
+##### La mise à jour manuelle du navigateur Tor
 
 Quand on vous demande de mettre à jour le Navigateur Tor, terminez la session de navigation et fermez le programme.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+Retirez le Navigateur Tor de votre système en supprimant le dossier qui le contient (consultez le paragraphe <a href="uninstalling">La désinstallation</a> pour plus d’informations).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+Visitez <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html</a>, téléchargez la version la plus récente du Navigateur Tor et installez-la comme avant.

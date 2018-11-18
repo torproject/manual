@@ -14,17 +14,17 @@ Les services onion (anciennement « services cachés ») sont des services (tels
 
 Les services onion offrent plusieurs avantages par rapport aux services ordinaires du Web non privé :
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Le lieu et l'adresse IP d'un service oignon sont cachés, et il est donc difficile pour ses adversaires de le censurer ou d'identifier ses opérateurs.
+* Tout le trafic entre les utilisateurs de Tor et les services onion est chiffré de bout en bout, donc vous n’avez pas à vous soucier de vous <a href="/secure-connections">connecter par HTTPS</a>.
+* L'adresse d'un service oignon est générée automatiquement, donc les opérateurs n'ont pas à acheter un nom de domaine ; l'URL .onion aide aussi Tor à s'assurer qu'il se connecte au bon endroit et que la connexion n'a pas été altérée.
 
-##### How to access an onion service
+##### Comment accéder à un service oignon ?
 
 Comme tout autre site Web, vous devrez connaître l’adresse d’un service onion afin de vous y connecter. Une adresse onion est une chaîne de 16 lettres et chiffres (ou 56 en format V3) principalement générés au hasard, suivie par « .onion ».
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### Dépannage
 
 Si vous ne pouvez pas atteindre le service onion dont vous avez besoin, assurez-vous d’avoir correctement saisi l’adresse onion : même une petite erreur empêchera le Navigateur Tor d’atteindre le site.
 

@@ -2,25 +2,25 @@ _model: topic
 ---
 title: Les ponts
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: La plupart des transports enfichables, tels que obfs3 et obfs4, reposent sur l’utilisation de relais-ponts.
 ---
 seo_slug: Les ponts
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+La plupart des <a href="/transports">transports enfichables</a>, tels que obfs3 et obfs4, reposent sur l’utilisation de relais-ponts. Comme les relais ordinaires, les ponts sont gérés par des bénévoles ; cependant, contrairement aux relais ordinaires, ils ne sont pas répertoriés publiquement et un adversaire ne peut donc pas les identifier facilement. L’utilisation de ponts combinée à des transports enfichables aide à dissimuler le fait que vous utilisez Tor.
 
 D’autres transports enfichables, comme meek, utilisent différentes techniques d’anticensure qui ne reposent pas sur des ponts. Vous ne devez pas obtenir des adresses de ponts  pour utiliser ces transports.
 
-##### Getting bridge addresses
+##### Obtenir des adresses de ponts
 
 Les adresses de ponts n’étant pas publiques, vous devrez les demander. Deux options s’offrent à vous :
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Visitez https://bridges.torproject.org/ et suivez les instructions, ou
+* Envoyez un courriel à bridges@torproject.org à partir d'une adresse courriel Gmail, Yahoo ou Riseup.
 
-##### Entering bridge addresses
+##### Saisir des adresses de ponts
 
 Une fois que vous aurez obtenu des adresses de ponts, vous devrez les saisir dans le lanceur Tor.
 
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Si la connexion échoue, les ponts que vous avez reçus pourraient être hors service. Utilisez l'une des méthodes ci-dessus afin d'obtenir d'autres adresses de ponts et ressayez.

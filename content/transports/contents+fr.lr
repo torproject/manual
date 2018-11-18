@@ -4,14 +4,14 @@ title: Les transports enfichables
 ---
 description: Les transports enfichables sont des outils que Tor peut utiliser pour déguiser le trafic qu’il envoie.
 ---
-seo_slug: plugable-transports
+seo_slug: transports-enfichables
 ---
 key: 4
 ---
 body:
 Les transports enfichables sont des outils que Tor peut utiliser pour déguiser le trafic qu’il envoie. Ils peuvent se révéler utiles dans les cas où un fournisseur d’accès à Internet ou une autre autorité bloque activement les connexions vers le réseau Tor.
 
-##### Types of pluggable transport
+##### Les types de transports enfichables
 
 Six transports enfichables sont proposés actuellement, mais d’autres sont en cours de développement.
 
