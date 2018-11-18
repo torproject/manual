@@ -4,12 +4,12 @@ title: Droichid
 ---
 description: Úsáideann an chuid is mó de na Córais Iompair Ionphlugáilte, mar shampla obfs3 agus obfs4, athsheachadáin "droichid".
 ---
-seo_slug: Droichid
+seo_slug: bridges
 ---
 key: 4
 ---
 body:
-Úsáideann an chuid is mó de na <a href="transports">Córais Iompair Ionphlugáilte</a>, mar shampla obfs3 agus obfs4, athsheachadáin "droichid". Cosúil le gnáth-athsheachadáin Tor, is iad saorálaithe atá i gceannas ar na droichid seo; ach, murab ionann is gnáth-athsheachadán, ní fhoilsítear go poiblí iad, sa chaoi nárbh fhéidir le namhaid iad a aithint go héasca. Nuair a úsáideann tú droichead in éineacht le córas iompair inphlugáilte, níl sé soiléir go bhfuil tú ag úsáid Tor.
+Úsáideann an chuid is mó de na <a href="/transports">Córais Iompair Ionphlugáilte</a>, mar shampla obfs3 agus obfs4, athsheachadáin "droichid". Cosúil le gnáth-athsheachadáin Tor, is iad saorálaithe atá i gceannas ar na droichid seo; ach, murab ionann is gnáth-athsheachadán, ní fhoilsítear go poiblí iad, sa chaoi nárbh fhéidir le namhaid iad a aithint go héasca. Nuair a úsáideann tú droichead in éineacht le córas iompair inphlugáilte, níl sé soiléir go bhfuil tú ag úsáid Tor.
 
 Úsáideann córais iompair ionphlugáilte eile, mar shampla meek, modhanna frithchinsireachta difriúla nach bhfuil ag brath ar dhroichid ar chor ar bith. Ní gá duit seoladh droichid a fháil chun na córais iompair seo a úsáid.
 
@@ -18,7 +18,7 @@ body:
 Toisc nach bhfuil seoltaí droichid ar fáil go poiblí, caithfidh tú iad a iarraidh as do stuaim féin. Tá dhá rogha agat:
 
 * Tabhair cuairt ar https://bridges.torproject.org/ agus lean na treoracha, nó
-* Seol ríomhphost chuig bridges@torproject.org ó sheoladh Gmail, Yahoo, nó Riseup, nó
+* Seol ríomhphost chuig bridges@torproject.org ó sheoladh Gmail, Yahoo, nó Riseup
 
 ##### Seoltaí droichid a chur isteach
 

@@ -4,7 +4,7 @@ title: Ceangail Shlána
 ---
 description: Foghlaim conas is féidir do chuid sonraí a chosaint le Brabhsálaí Tor agus HTTPS
 ---
-seo_slug: Ceangail-Shlána
+seo_slug: secure-connections
 ---
 key: 7
 ---
@@ -34,7 +34,7 @@ Tuairisc.ie
   </dd>
 
 <dt>
-user / pw
+úsáideoir / focal faire
 </dt>
   <dd>
     Ainm úsáideora agus focal faire a úsáidtear le fíordheimhniú.

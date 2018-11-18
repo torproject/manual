@@ -15,7 +15,7 @@ Is éard atá i Seirbhísí Onion ("seirbhísí folaithe" roimhe seo) ná seirbh
 Tá roinnt buntáistí ag seirbhísí Onion ar ghnáthsheirbhísí an Ghréasáin phoiblí:
 
 * Coinnítear an áit ina bhfuil an tseirbhís onion i bhfolach, chomh maith lena seoladh IP, sa chaoi go mbeadh sé níos deacra cinsireacht a dhéanamh uirthi, nó stiúrthóirí na seirbhíse a aithint.
-* Déantar criptiú ar an trácht go léir idir úsáideoirí Tor agus seirbhísí Onion ó cheann go ceann, sa dóigh nach gá duit <a href="secure-connections">ceangal HTTPS a úsáid</a> riamh.
+* Déantar criptiú ar an trácht go léir idir úsáideoirí Tor agus seirbhísí Onion ó cheann go ceann, sa dóigh nach gá duit <a href="/secure-connections">ceangal HTTPS a úsáid</a> riamh.
 * Gintear seoladh na seirbhíse Onion go huathoibríoch. Mar sin, ní gá don oibreoir ainm fearainn a cheannach, agus cinntíonn an URL .onion go bhfuil Tor ag ceangal leis an suíomh ceart agus nach bhfuil aon duine ag cur isteach ar an gceangal.
 
 ##### Conas Seirbhís Onion a rochtain
@@ -30,4 +30,4 @@ Murar féidir leat an tseirbhís onion atá uait a bhaint amach, deimhnigh gur c
 
 Murar féidir leat ceangal leis an tseirbhís onion fós, bain triail eile as ar ball. B'fhéidir go bhfuil fadhb shealadach leis an líonra, nó b'fhéidir gur lig stiúrthóirí an tsuímh dó dul as líne gan rabhadh.
 
-Agus is féidir leat deimhniú go bhfuil tú in ann seirbhísí Onion eile a rochtain trí cheangal a bhunú le <a href="http://3g2upl4pq6kufc4m.onion">Seirbhís Onion DuckDuckGo</a>
+Agus is féidir leat deimhniú go bhfuil tú in ann seirbhísí Onion eile a rochtain trí cheangal a bhunú le <a href="http://3g2upl4pq6kufc4m.onion/">Seirbhís Onion DuckDuckGo</a>

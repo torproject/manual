@@ -4,7 +4,7 @@ title: Plugins, Erweiterungen und JavaScript
 ---
 description: Wie der Tor Browser Erweiterungen, Plugins und JavaScript behandelt
 ---
-seo_slug: plugins
+seo_slug: Plugins
 ---
 key: 10
 ---
@@ -19,7 +19,7 @@ Einige Video-Internetseiten (so wie Youtube) benutzen kein Flash und bieten alte
 
 JavaScript ist eine Programmiersprache, die Internetseiten benutzen, um interaktive Elemente wie Videos, Animationen, Audio oder Status-Timelines darzustellen. Unglücklicherweise kann JavaScript auch Attacken gegen die Sicherheit deines Browsers ermöglichen, was unter Umständen zu einer Deanonymisierung führt.
 
-Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+Der Tor Browser enthält ein Add-on namens NoScript, das über das "S"-Symbol oben rechts im Fenster zugänglich ist. NoScript ermöglicht es, das JavaScript (und andere Skripte) zu steuern, das auf einzelnen Webseiten ausgeführt wird, oder es vollständig zu blockieren.
 <img class="col-md-6" src="/static/images/noscript_menu.png">
 Benutzer, die ein hohes Maß an Sicherheit beim Surfen im Internet benötigen, sollten den <a href="/security-slider">Security Slider</a> von Tor Browser auf "Safer" (deaktiviert JavaScript für Nicht-HTTPS-Websites) oder "Safest" (tut dies für alle Websites) einstellen. Das Deaktivieren von JavaScript verhindert jedoch, dass viele Websites korrekt angezeigt werden. Daher ist es die Standardeinstellung von Tor Browser, dass alle Websites Skripte im "Standard"-Modus ausführen können.
 

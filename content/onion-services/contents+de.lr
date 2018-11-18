@@ -22,7 +22,7 @@ Onion-Dienste bieten einige Vorteile gegenüber herkömmlichen Dienstleistungen 
 
 Genau wie auf jeder anderen Website musst du die Adresse eines Onion-Dienstes kennen, um sich mit ihm zu verbinden. Eine Onion-Adresse ist eine Zeichenkette von 16 (und im V3-Format, 56) meist zufälligen Buchstaben und Zahlen, gefolgt von ".onion".
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+Wenn du auf eine Website zugreifst, die einen Onion-Dienst verwendet, zeigt Tor Browser in der URL-Leiste ein Symbol einer kleinen grünen Zwiebel an, das den Status deiner Verbindung anzeigt: sicher und mit einem Onion-Dienst. Und wenn du auf eine Website mit https- und Onion-Dienst zugreifst, wird ein Symbol für eine grüne Zwiebel und ein Vorhängeschloss angezeigt.
 
 ##### Fehlerbehebung
 

@@ -4,7 +4,7 @@ title: Austauschbare Übertragungsarten
 ---
 description: Austauschbare Übertragungsarten sind Werkzeuge, die Tor benutzen kann, um den ausgehenden Verkehr zu tarnen. Dies kann in Situationen hilfreich sein, in denen ein Internetdienstanbieter oder eine andere Autorität aktiv Verbindungen zum Tor Netzwerk blockiert.
 ---
-seo_slug: plugable-transports
+seo_slug: steckbare-transporte
 ---
 key: 4
 ---

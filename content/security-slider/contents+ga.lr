@@ -4,7 +4,7 @@ title: An Sleamhnán Slándála
 ---
 description: Brabhsálaí Tor a chumrú ar son slándála agus inúsáidteachta
 ---
-seo_slug: An Sleamhnán Slándála
+seo_slug: security-slider
 ---
 key: 8
 ---
@@ -34,7 +34,7 @@ Ag an leibhéal seo, caithfidh tú físeáin agus comhaid fuaime HTML5 a chlice�
 Níos Sábháilte
 </dt>
 <dd>
-Ag an leibhéal seo, caithfidh tú físeáin agus comhaid fuaime HTML5 a chliceáil chun iad a sheinm trí NoScript; ní chuirtear aon optamú JavaScript i bhfeidhm; seans nach dtaispeántar cothromóidí áirithe matamaiticiúla i gceart; ní úsáidtear gnéithe áirithe agus clófhoirne á dtarraingt ar an scáileán; ní thaispeántar cineálacha áirithe íomhá; agus tá JavaScript díchumasaithe de réir réamhshocraithe ar gach suíomh nach mbaineann úsáid as <a href="secure-connections">HTTPS</a>.
+Ag an leibhéal seo, caithfidh tú físeáin agus comhaid fuaime HTML5 a chliceáil chun iad a sheinm trí NoScript; ní chuirtear aon optamú JavaScript i bhfeidhm; seans nach dtaispeántar cothromóidí áirithe matamaiticiúla i gceart; ní úsáidtear gnéithe áirithe agus clófhoirne á dtarraingt ar an scáileán; ní thaispeántar cineálacha áirithe íomhá; agus tá JavaScript díchumasaithe de réir réamhshocraithe ar gach suíomh nach mbaineann úsáid as <a href="/secure-connections">HTTPS</a>.
 </dd>
 <dt>
 Gnáthshlándáil
