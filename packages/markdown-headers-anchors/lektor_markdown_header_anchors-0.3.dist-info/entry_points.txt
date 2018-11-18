@@ -1,0 +1,3 @@
+[lektor.plugins]
+markdown-header-anchors = lektor_markdown_header_anchors:MarkdownHeaderAnchorsPlugin
+

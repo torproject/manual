@@ -30,6 +30,6 @@ Selecciona "Conectar con los puentes proporcionados". El Navegador Tor actualmen
 
 Cada uno de los transportes listados en el menú del Arranque de Tor funciona de una forma diferente (para más detalles, lee la página <a href="/en-US/transports">Transportes conectables</a>), y la efectividad de cada uno depende de tu situación.
 
-Si, por primera vez, estás intentando eludir una conexión bloqueada, has de intentar los los diferentes transportes: obfs3, obfs4, ScrambleSuit, fte, mae-blue y Snowflake.
+Si, por primera vez, estás intentando eludir una conexión bloqueada, has de intentar los los diferentes transportes: obfs3, obfs4, fte, meek-azure y Snowflake.
 
 Si pruebas todas estas opciones y no consigues conectar con ninguna de ellas, necesitarás introducir direcciones de puentes de red manualmente. Lee la sección <a href="/en-US/bridges/">Puentes</a> para saber qué son los repetidores puente y cómo obtenerlos.

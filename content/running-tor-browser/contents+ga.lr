@@ -16,7 +16,7 @@ Nuair a úsáidfidh tú Brabhsálaí Tor den chéad uair, feicfidh tú an fhuinn
 
 <img class="col-md-6" src="/static/images/connect.png">
 
-De ghnáth, bíonn tú ceangailte le líonra Tor tar éis duit "Ceangail" a chliceáil, gan chumraíocht sa bhreis a dhéanamh. Ansin, feicfidh tú barra stádais a thaispeánann dul chun cinn an cheangail. Má théann an barra seo in abar agus ceangal Idirlín measartha maith agat, féach ar an leathanach <a href="troubleshooting">Fabhtcheartú</a> chun cúnamh a fháil.
+De ghnáth, bíonn tú ceangailte le líonra Tor tar éis duit "Ceangail" a chliceáil, gan chumraíocht sa bhreis a dhéanamh. Ansin, feicfidh tú barra stádais a thaispeánann dul chun cinn an cheangail. Má théann an barra seo in abar agus ceangal Idirlín measartha maith agat, féach ar an leathanach <a href="/troubleshooting">Fabhtcheartú</a> chun cúnamh a fháil.
 
 ##### Cumraigh
 
@@ -24,7 +24,7 @@ De ghnáth, bíonn tú ceangailte le líonra Tor tar éis duit "Ceangail" a chli
 
 Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, nó má úsáideann sé seachfhreastalaí, ba chóir duit é seo a roghnú. Treoróidh Brabhsálaí Tor tríd an bpróiseas cumraíochta thú.
 
-Fiafraítear díot ar an chéad scáileán an bhfuil cosc ar líonra Tor nó an bhfuil sé faoi chinsireacht ar do cheangal. Mura gcreideann tú go bhfuil, roghnaigh “Níl”. Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, nó má theip ort ceangal a bhunú le líonra Tor gan aon réiteach ar an bhfadhb, roghnaigh “Tá”. Sa chás sin, osclófar an scáileán <a href="circumvention">Timpeallú</a>, áit ar féidir leat córas iompair ionphlugáilte a shocrú.
+Fiafraítear díot ar an chéad scáileán an bhfuil cosc ar líonra Tor nó an bhfuil sé faoi chinsireacht ar do cheangal. Mura gcreideann tú go bhfuil, roghnaigh “Níl”. Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, nó má theip ort ceangal a bhunú le líonra Tor gan aon réiteach ar an bhfadhb, roghnaigh “Tá”. Sa chás sin, osclófar an scáileán <a href="/circumvention">Timpeallú</a>, áit ar féidir leat córas iompair ionphlugáilte a shocrú.
 
 Fiafraítear díot ar an chéad scáileán eile an úsáideann do cheangal seachfhreastalaí. Níl seachfhreastalaí ag teastáil an chuid is mó den am, agus dá mbeadh sé ag teastáil uaitse, is dócha go mbeadh a fhios agat cheana, toisc gur ghá na socruithe céanna a úsáid leis na brabhsálaithe eile ar do chóras. Más féidir, cuir ceist ar riarthóir do líonra. Mura n-úsáideann do cheangal seachfhreastalaí, cliceáil “Ar Aghaidh”.
 

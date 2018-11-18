@@ -28,7 +28,7 @@ Si estás iniciando el navegador Tor por primera vez, cliqueá 'Configurar' para
 
 En la ventana Ajustes de red de Tor, seleccioná 'Tor está censurado en mi país'. Luego, seleccioná 'Proveer un puente que conozco' e ingresá cada dirección de puente en una línea separada.
 
-<img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
+<img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
 Cliqueá "Aceptar" para salvar tus cambios. El uso de puentes puede hacer la conexión más lenta comparado con el uso de relevos Tor ordinarios.
 Si la conexión falla, los puentes que recibiste pueden estar caídos. Por favor usá uno de los métodos mencionados más arriba para obtener más direcciones de puente, y tratá de nuevo.

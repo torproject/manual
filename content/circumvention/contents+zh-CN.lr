@@ -30,6 +30,6 @@ body:
 
 在洋葱路由启动器中所罗列的可插拔传输层，其运作原理各不相同（请参考 <a href="/en-US/transports">可插拔传输层</a>以了解更多相关信息），且产生的效果也会视您的的实际情况而定。
 
-如果您第一次运行时希望规避审查，您应该尝试不同的可插拔传输层：obfs3, obfs4, ScrambleSuit, fte, meek-azure 和 Snowflake.
+如果您第一次运行时希望规避审查，您应该尝试不同的可插拔传输层：obfs3, obfs4, fte, meek-azure 和 Snowflake.
 
 如果您试过了上述的全部选项后还是不能上网，那就得手动输入网桥地址了。请参考<a href="/en-US/bridges/">网桥</a>部分以进一步了解网桥的运作原理与获取方式。

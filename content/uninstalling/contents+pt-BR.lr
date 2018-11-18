@@ -15,8 +15,8 @@ Remover o Navegador Tor do seu sistema é simples:
 
 1. Localize a pasta do seu Navegador Tor. O local padrão no Windows é o Desktop; no macOS, é a pasta de aplicações. No Linux, não há local padrão, mas, se você estiver usando o Navegador Tor em Inglês, a pasta é nomeada "tor-browser_en-US" .
 
-2. Apagar a pasta do Navegador Tor.
+2. Apague a pasta do Navegador Tor.
 
-3. Limpar a lixeira
+3. Limpe a lixeira
 
 Note que o serviço padrão de "Desinstalação"  do seu sistema operacional não é utilizado.

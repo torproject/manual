@@ -30,6 +30,6 @@ Seleccioni "Connectar amb ponts". El navegador Tor actualment té sis connectors
 
 Cadascun dels transports llistat en el menú d'iniciador Tor treballa de manera diferent (per més informació, consultar <a href="/en-US/transports">connectors de transport</a> pàgina) per saber la seva efectivitat depenen de les circumstàncies individuals. 
 
-Si esteu intentant evitar una connexió bloquejada per primera vegada, heu de provar els diferents transports: obfs3, obfs4, ScrambleSuit, fte, meek-azure i Snowflake.
+Si esteu intentant evitar una connexió bloquejada per primera vegada, heu de provar els diferents transports: obfs3, obfs4, fte, meek-azure i Snowflake.
 
 Si priva totes aquestes opcions, i cap resulta amb una connexió vàlida, haurà d'introduir una adreça de pont de forma manual. Llegeixi la secció d'aprenentatge sobre <a href="/en-US/bridges/">ponts</a> per saber com fer-ho.

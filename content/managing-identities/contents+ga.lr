@@ -4,7 +4,7 @@ title: Aitheantais a bhainistiú
 ---
 description: Foghlaim conas is féidir sonraí pearsanta a rialú i mBrabhsálaí Tor
 ---
-seo_slug: Aitheantais-a-bhainistiú
+seo_slug: managing-identities
 ---
 key: 5
 ---
@@ -22,19 +22,19 @@ Os a choinne sin, déanfar gach ceangal le suíomh amháin ar an gciorcad céann
 
 <img class="col-md-6" src="/static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Is féidir leat léaráid den chiorcad atá Brabhsálaí Tor ag úsáid sa chluaisín reatha a fháil sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+Is é an Garda nó an nód iontrála an chéad athsheachadán sa chiorcad. Roghnaíonn Tor go huathoibríoch agus go randamach é. Ach ní ionann é agus na hathsheachadáin eile sa chiorcad. Mar chosaint ar ionsaí aitheanta próifílithe, fanfaidh sé mar an chéad nód i do chiorcad ar feadh 2-3 mhí, i gcomparáid leis na hathsheachadáin eile a athraíonn gach uair a dtugann tú cuairt ar shuíomh nua. Chun tuilleadh eolais maidir le Gardaí a fháil, féach na <a href="https://www.torproject.org/docs/faq#EntryGuards">Ceisteanna Coitianta</a> agus an <a href="https://support.torproject.org/tbb/tbb-2/">Suíomh Tacaíochta</a>.
 
 ##### Logáil isteach trí Tor
 
-Cé cur dearadh Brabhsálaí Tor chun cabhrú leat d'aitheantas a choinneáil i bhfolach ar an nGréasán, uaireanta tá sé ciallmhar Tor a úsáid ar shuímh Ghréasáin a éilíonn ainm úsáideora, focal faire, nó faisnéis phearsanta eile.
+Cé gur dearadh Brabhsálaí Tor chun cabhrú leat d'aitheantas a choinneáil i bhfolach ar an nGréasán, uaireanta tá sé ciallmhar Tor a úsáid ar shuímh Ghréasáin a éilíonn ainm úsáideora, focal faire, nó faisnéis phearsanta eile.
 
 Nuair a logálann tú isteach i suíomh Gréasáin trí ghnáthbhrabhsálaí, nochtann tú do sheoladh IP agus do láthair gheografach sa phróiseas. Is ionann an cás nuair a sheolann tú ríomhphost. Ach nuair a úsáideann tú Brabhsálaí Tor chun logáil isteach i gcuntas ríomhphoist nó i suíomh sóisialta, bíonn tú in ann an t-eolas a nochtann tú don suíomh a rialú. Tá Brabhsálaí Tor áisiúil freisin sa chás go bhfuil an suíomh atá tú ag iarraidh baint amach faoi chinsireacht ar do líonra.
 
 Roinnt pointí ba chóir duit a choinneáil i gcuimhne nuair a logálann tú isteach i suíomh Gréasáin trí Tor:
 
-* Féach ar an leathanach <a href="secure-connections">Ceangail Shlána</a> chun eolas tábhachtach a fháil maidir le conas is féidir do cheangal a dhaingniú nuair a logálann tú isteach.
+* Féach ar an leathanach <a href="/secure-connections">Ceangail Shlána</a> chun eolas tábhachtach a fháil maidir le conas is féidir do cheangal a dhaingniú nuair a logálann tú isteach.
 * Nuair a úsáideann tú Brabhsálaí Tor, is minic go ndealraíonn sé go bhfuil do cheangal ag teacht ó áit éigin go hiomlán difriúil ar domhan. Dá bharr seo, seans go gceapfaidh suímh áirithe, mar shampla bainc nó soláthraithe ríomhphoist, gur bhris bradaí isteach i do chuntas agus cuirfidh siad do chuntas faoi ghlas. Is é an bealach amháin leis seo a réiteach ná an próiseas athshlánaithe cuntais ar an suíomh a leanúint, nó dul i dteagmháil le stiúrthóirí an tsuímh chun cúrsaí a mhíniú.
 
 ##### Aitheantais agus ciorcaid a athrú
@@ -50,4 +50,4 @@ Tá roghanna "Aitheantas Nua" agus "Ciorcad Nua Tor don Suíomh seo" ar fáil, i
 ##### Ciorcad Nua Tor don Suíomh seo
 
    Tá an rogha seo úsáideach mura bhfuil <a href="/about/#how-tor-works">an t-athsheachadán amach</a>  a úsáideann tú in ann ceangal a bhunú leis an suíomh atá uait, nó mura bhfuil sé ag lódáil i gceart. Má roghnaíonn tú é seo, athlódálfar an cluaisín nó an fhuinneog ghníomhach ar chiorcad nua Tor. Úsáidfidh cluaisíní nó fuinneoga oscailte eile ón suíomh céanna an ciorcad nua seo freisin chomh luath is a athlódálfar iad. Ní ghlanann an rogha seo aon fhaisnéis phríobháideach, ní dhínascann sé do ghníomhaíocht, agus ní théann sé i bhfeidhm ar cheangail le suímh eile.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   Gheobhaidh tú an rogha seo freisin sa taispeáint ar chiorcaid nua, sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.

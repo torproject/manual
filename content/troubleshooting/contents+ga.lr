@@ -4,7 +4,7 @@ title: Fabhtcheartú
 ---
 description: Cad is féidir a dhéanamh mura bhfuil Brabhsálaí Tor ag obair
 ---
-seo_slug: Fabhtcheartú
+seo_slug: troubleshooting
 ---
 key: 11
 ---
@@ -25,8 +25,8 @@ Murar féidir le Brabhsálaí Tor ceangal leis an líonra, seans go bhfuil réit
 
 ##### An bhfuil do cheangal faoi chinsireacht?
 
-Mura bhfuil tú in ann ceangal fós, b'fhéidir go bhfuil do Sholáthraí Seirbhíse Idirlín ag déanamh cinsireacht ar líonra Tor. Léigh an leathanach <a href="circumvention">Timpeallú</a>le foghlaim conas is féidir an fhadhb a réiteach.
+Mura bhfuil tú in ann ceangal fós, b'fhéidir go bhfuil do Sholáthraí Seirbhíse Idirlín ag déanamh cinsireacht ar líonra Tor. Léigh an leathanach <a href="/circumvention">Timpeallú</a> le foghlaim conas is féidir an fhadhb a réiteach.
 
 ##### Fadhbanna ar eolas
 
-Tá Brabhsálaí Tor á fhorbairt ar bhonn leanúnach, agus tá a fhios againn faoi roinnt fadhbanna nach bhfuil réiteach orthu fós. Féach ar an leathanach <a href="known-issues">Fadhbanna ar eolas</a> le féachaint an bhfuil an fhadhb a fheiceann tusa ann cheana.
+Tá Brabhsálaí Tor á fhorbairt ar bhonn leanúnach, agus tá a fhios againn faoi roinnt fadhbanna nach bhfuil réiteach orthu fós. Féach ar an leathanach <a href="/known-issues">Fadhbanna ar eolas</a> le féachaint an bhfuil an fhadhb a fheiceann tusa ann cheana.

@@ -28,7 +28,7 @@ If you're starting Tor Browser for the first time, click 'Configure' to open the
 
 In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
-<img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
+<img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
 Si la connexió falla, el ponts obtinguts hauràn caigut. Si us plau, utilitzi un del mencionats a sobre per obtindre més direccions ponts, i provi-ho posteriorment.

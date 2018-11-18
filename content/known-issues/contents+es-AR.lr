@@ -30,4 +30,4 @@ Tor necesita que tu reloj de sistema (y tu huso horario) estén ajustados en for
 
 	./start-tor-browser.desktop
 
-* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+* Específicamente, BitTorrent <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">no es anónimo sobre Tor</a></mark>.

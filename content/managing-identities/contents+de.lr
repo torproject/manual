@@ -4,7 +4,7 @@ title: Identitäten verwalten
 ---
 description: Lerne, wie du bei der Nutzung des Tor-Browsers personenbezogene Informationen kontrollieren kannst
 ---
-seo_slug: managing-identities
+seo_slug: management-identitäten
 ---
 key: 5
 ---
@@ -22,9 +22,9 @@ Auf der anderen Seite werden alle Verbindungen zu einer einzelnen Internetseite 
 
 <img class="col-md-6" src="/static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Du kannst ein Diagramm des Schaltkreises sehen, den Tor-Browser für die aktuelle Registerkarte im Seiteninformationsmenü in der URL-Leiste verwendet.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+In der Schaltung ist der Guard oder Einstiegsknoten der erste Knoten und wird automatisch und zufällig von Tor ausgewählt. Aber es unterscheidet sich von den anderen Knoten in der Schaltung. Um Profilangriffe zu vermeiden, ändert sich der Guard-Knoten erst nach 2-3 Monaten, im Gegensatz zu den anderen Knoten, die sich mit jeder neuen Domain ändern. Weitere Informationen über Guards finden Sie in den <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> und im <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 
 ##### Über Tor anmelden
 
@@ -50,4 +50,4 @@ Der Tor-Browser bietet die Funktionen "Neue Identität" und "Neuer Tor-Kanal fü
 ##### Neuer Kanal für diese Seite
 
    Diese Option ist hilfreich wenn der von Ihnen verwendete <a href="/about/#how-tor-works">Exit-Relay</a> nicht in der Lage ist, sich mit der von Ihnen gewünschten Internetseite zu verbinden oder diese nicht korrekt lädt. Wenn Sie dies auswählen wird dafür sorgen dass die aktuell geöffneten Reiter oder Fenster über einen neuen Schaltkreis neu geladen werden. Andere offene Reiter und Fenster werden den neuen Schaltkreis ebenfalls benutzen nachdem sie neu geladen wurden. Diese Option löscht keine privaten Informationen oder Verbindungen zwischen Ihren Aktivitäten und betrifft auch nicht die aktuellen Verbindungen mit anderen Internetseiten.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   Du kannst diese Option auch in der neuen Schaltkreisanzeige, im Menü für Standortinformationen und in der URL-Leiste aufrufen.

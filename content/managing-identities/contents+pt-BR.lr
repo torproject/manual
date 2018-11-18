@@ -14,7 +14,7 @@ Quando você se conecta a um site, não é apenas os operadores daquele site que
 
 O uso da rede Tor impede que observadores possam descobrir a sua localização exata e o seu endereço IP. No entanto, mesmo sem essas informações, é possível associar informações de origens diversas. Por isso, o Navegador Tor inclui algumas funcionalidades adicionais para ajudar a controlar quais informações podem ser associadas à sua identidade.
 
-##### A barra URL
+##### A barra de URL
 
 O Navegador Tor centra a sua experiência de navegação em torno da sua interação com sites na barra de endereços. Mesmo que você se conecte a dois sites diferentes que usem o mesmo serviço de rastreamento oferecido por terceiros, o Navegador Tor forçará o tráfego do conteúdo por dois diferentes circuitos do Tor. Assim, o rastreador não saberá que ambas as conexões se originam no seu navegador.
 
@@ -26,7 +26,7 @@ You can see a diagram of the circuit that Tor Browser is using for the current t
 
 In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 
-##### Fazendo logging através do Tor
+##### Fazendo login através do Tor
 
 Ainda que o Navegador Tor seja concebido para possibilitar uma total anonimidade de seus usuários na Internet, em algumas situações também faz sentido usar Tor para visitar sites que requerem nomes, senhas ou outras informacoes de identificacao.
 
