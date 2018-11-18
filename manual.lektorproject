@@ -65,16 +65,6 @@ name = Italia
 url_prefix = /it/
 locale = it
 
-[alternatives.he]
-name = עברית (he)
-url_prefix = /he/
-locale = he
-
-[alternatives.hr]
-name = Croatian (hr)
-url_prefix = /hr/
-locale = hr
-
 [alternatives.ka]
 name = Georgian (ka)
 url_prefix = /ka/
