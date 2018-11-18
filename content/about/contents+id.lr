@@ -18,7 +18,7 @@ Tor Browser menggunakan jaringan Tor untuk melindungi privasi dan kerahasiaan an
 
 Tambahan, Tor Browser telah di desain untuk mencegah situs melakukan "fingerprinting" atau mengidentifikasi anda berdasarkan pengaturan browser.
 
-Secara bawaan, Tor Browser tidak menyimpan sejarah perambahan. Cookies hanya valid untuk sesi tunggal (hingga keluar dari Tor Browser atau sebuah<a href="/managing-identities.html#new-identity">Identitas Baru</a>diminta).
+Secara bawaan, Tor Browser tidak menyimpan sejarah perambahan. Cookies hanya valid untuk sesi tunggal (hingga keluar dari Tor Browser atau sebuah<a href="/managing-identities/#new-identity">Identitas Baru</a>diminta).
 
 ##### Bagaimana Tor bekerja
 

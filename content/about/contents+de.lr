@@ -18,7 +18,7 @@ Der Tor-Browser benutzt das Tor Netzwerk, um deine Privatsphäre und Anonymität
 
 Außerdem ist der Tor Browser so eingerichtet, dass Webseiten vom "fingerprinting", oder der Identifizierung basierend auf deiner Browsereinstellung, abgehalten werden.
 
-Normalerweise speichert der Tor Browser keinen Verlauf. Cookies sind nur für eine einzige Sitzung gültig (bis der Tor Browser geschlossen wird oder um eine <a href="/managing-identities.html#new-identity">neue Identität</a> gebeten wird).
+Normalerweise speichert der Tor Browser keinen Verlauf. Cookies sind nur für eine einzige Sitzung gültig (bis der Tor Browser geschlossen wird oder um eine <a href="/managing-identities/#new-identity">neue Identität</a> gebeten wird).
 
 ##### Wie Tor funktioniert
 

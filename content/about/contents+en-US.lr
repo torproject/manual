@@ -18,7 +18,7 @@ Tor Browser uses the Tor network to protect your privacy and anonymity. Using th
 
 In addition, Tor Browser is designed to prevent websites from “fingerprinting” or identifying you based on your browser configuration.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities.html#new-identity">New Identity</a> is requested).
+By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
 
 ##### How Tor works
 

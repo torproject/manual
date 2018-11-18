@@ -18,7 +18,7 @@ Tor Browser kişisel gizliliğinizi ve ağ üzerinde anonim kalmanızı sağlama
 
 Ek olarak Tor Browser, web sitelerinin "parmak izi" taraması yapmasını ya da web tarayıcı ayarlarınıza göre sizin kim olduğunuzun belirlenmesini engeller.
 
-Varsayılan olarak Tor Browser tarama geçmişini kaydetmez. Çerezler yalnız tek bir oturum için geçerlidir (Tor Browser kapatılana ya da <a href="/managing-identities.html#new-identity">Yeni Kimlik</a> bağlantısına tıklanana kadar).
+Varsayılan olarak Tor Browser tarama geçmişini kaydetmez. Çerezler yalnız tek bir oturum için geçerlidir (Tor Browser kapatılana ya da <a href="/managing-identities/#new-identity">Yeni Kimlik</a> bağlantısına tıklanana kadar).
 
 ##### Tor nasıl çalışır
 
