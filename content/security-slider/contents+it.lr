@@ -13,13 +13,13 @@ Il browser Tor include una "Tab di Sicurezza" che permette di  disabilitare alcu
 
 ##### Accesso alla Tab di Sicurezza
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 Il livello di sicurezza si trova nelle "Impostazioni di sicurezza" del pulsante Tor.
 
 ##### Livelli di sicurezza
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Aumentendo il livello della Tab di sicurezza disabiliterà totalmente o parzialmente alcune caratteristiche del browser  per proteggervi contro possibili attacchi.
 

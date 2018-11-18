@@ -11,7 +11,7 @@ key: 11
 body:
 You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Quick fixes
 

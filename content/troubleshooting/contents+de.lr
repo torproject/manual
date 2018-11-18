@@ -11,7 +11,7 @@ key: 11
 body:
 Wenn du den Tor Browser das erste Mal verwendest, solltest du kurze Zeit nach seinem Start und dem Klicken auf "Verbinden" in der Lage sein, Internetseiten aufzurufen.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Schnelle Lösungen
 

@@ -13,13 +13,13 @@ Der Tor Browser enthält einen "Sicherheits-Schieberegler" der dich die Sicherhe
 
 ##### Zugriff auf den Sicherheitsschieber
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 Der Security Slider befindet sich im Menü "Security Settings" von Torbutton.
 
 ##### Sicherheitsstufen
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Durch das Erhöhen der Stufe des Sicherheitsschiebereglers werden bestimmte Browserfunktionen deaktiviert oder teilweise deaktiviert, um dich vor möglichen Angriffen zu schützen.
 

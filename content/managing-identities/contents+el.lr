@@ -20,7 +20,7 @@ body:
 
 Από την άλλη όλες οι συνδέσεις σε μία ιστοσελίδα θα γίνονται από το ίδιο κύκλωμα του Tor, που σημαίνει ότι μπορείς να περιηγηθείτε στις σελίδες μιας ιστοσελίδας σε ξεχωριστές καρτέλες ή παράθυρα χωρίς να χάνουν λειτουργικότητα.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### Αλλάζοντας ταυτότητες και δίκτυα
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 

@@ -14,15 +14,15 @@ Il browser Tor va mantenuto sempre aggiornato. Se continuate a usare una vecchai
 Il browser Tor avviserà automaticamente la presenza di una nuova versione e sull'icona Torbutton apparirà un triangolo giallo ed eventualmente una schermata all'avvio del browser. Potrete decidere se aggiornare manualmente o automaticamente il browser
 
 ##### Aggiorna il Browser Tor automaticamente
-  <img width="400" src="/static/images/update1.png" />
+  <img width="400" src="../../static/images/update1.png" />
 
 Per aggiornare il browser Tor basta cliccare sull'icona Torbutton e selezionare la voce "Controlla aggiornamenti browser Tor"
 
-  <img width="600" src="/static/images/update3.png" />
+  <img width="600" src="../../static/images/update3.png" />
 
 Quando Tor Browser ha finito di controllare gli aggiornamenti, clicca sul pulsante aggiorna.
 
-  <img width="600" src="/static/images/update4.png" />
+  <img width="600" src="../../static/images/update4.png" />
 Attendi che gli aggiornamenti vengano scaricati ed installati, poi riavvia Tor Browser. Ora saprai se hai l'ultima versione
 
 ##### Aggiorna il Browser Tor manualmente

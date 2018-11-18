@@ -14,7 +14,7 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 ##### Using pluggable transports
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
 
@@ -22,7 +22,7 @@ You can also configure pluggable transports while Tor Browser is running, by cli
 
 Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
 

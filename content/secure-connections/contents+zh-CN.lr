@@ -11,11 +11,11 @@ key: 7
 body:
 如果登录帐号及密码等个人数据是以未经加密的形态在网络上发送，那任何网络监听者都可以轻易地拦截和窃取此信息。因此，每当您尝试登录某个网站时，应当要先确认该网站是否有提供 HTTPS 加密连接，以确保您的个人数据安全。确认的方式非常简单，只需注意观察其网址的部分，若是以“https://”开头，则表示连接处于加密状态，但若开头为“http://”，则该连接上所传输的数据都未被加密。
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 下方的展示呈现了有使用以及没有使用 Tor 浏览器与 HTTPS 加密连接时，网络监听者可以拦截窃取到的数据种类：
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * 点击“Tor”按钮可以查看当您未使用洋葱路由时，有哪些数据可以让网络监听者直接拦截获取，当此按钮呈现绿色状态时，表示洋葱路由功能已经启动。
 * 您可以点击“HTTPS”功能按钮来查看当 HTTPS 启用时，有哪些数据仍然可能被网络监听者拦截窃取。而当此按钮呈现绿色状态时，表示 HTTPS 功能已经启动。

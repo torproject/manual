@@ -14,7 +14,7 @@ L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor d'Intern
 
 ##### Utilització de connectors de transport
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Per l'utilització de connectors de transport, faci clic a "Paràmetres" en el iniciador de Tor que apareix qua  s'utilitza per primer cop.
 
@@ -22,7 +22,7 @@ També pot configurar els connectors de transport mentre el navegador Tor està 
 
 Seleccioni "Si" quan sigui preguntat si el seu proveïdor d'Internet bloqueja les connexions de la xarxa Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Seleccioni "Connectar amb ponts". El navegador Tor actualment té sis connectors de transport disponibles.
 

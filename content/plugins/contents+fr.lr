@@ -20,7 +20,7 @@ Certains sites Web vidéo (comme YouTube) offrent d’autres méthodes de livrai
 JavaScript est un langage de programmation que les sites Web utilisent pour offrir des éléments interactifs tels que de la vidéo, des animations, de l’audio et des états de progression. Malheureusement, JavaScript permet aussi d’attaquer la sécurité du navigateur, ce qui pourrait compromettre l’anonymisation.
 
 Le Navigateur Tor comprend un module complémentaire appelé NoScript, accessible grâce à l’icône « S » en haut à droit de la fenêtre. NoScript vous permet de contrôler le JavaScript (et autres scripts) exécuté par les différentes pages Web, ou de le bloquer complètement. 
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Les utilisateurs qui exigent un niveau de sécurité élevé quand ils parcourent le Web devraient régler le curseur de sécurité du Navigateur Tor à « Plus sûr » (ce qui désactive le JavaScript pour les sites Web sans HTTPS) ou « Le plus sûr » (ce qui le fait pour tous les sites Web). Cependant, la désactivation du JavaScript empêchera de nombreux sites Web de s’afficher correctement, et c’est pourquoi les paramètres par défaut du Navigateur Tor permettent à tous les sites Web d’exécuter des scripts en mode « Normal ».
 
 ##### Les modules complémentaires pour navigateur

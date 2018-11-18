@@ -13,13 +13,13 @@ El Navegador Tor incluye un "Control deslizante de seguridad" que te permite inc
 
 ##### Acceder al 'Control deslizante de seguridad'
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 La barra de Seguridad se encuentra en el menú "Configuración de Seguridad" de Torbutton.
 
 ##### Niveles de seguridad
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Incrementar el nivel del 'Control deslizante de seguridad' deshabilitará total o parcialmente algunas características para proteger contra posibles ataques.
 

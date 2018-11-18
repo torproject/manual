@@ -17,25 +17,25 @@ body:
 Перейдите на <a href="https://transifex.com/signup/">страницу регистрации</a> Transifex
   Введите свои данные в поля и нажмите кнопку 'Заренистрироваться':
 
-<img class="col-md-6" src="/static/images/tr1.png">
+<img class="col-md-6" src="../../static/images/tr1.png">
 
 * На следующей странице введите своё имя и выберите в раскрывающемся меню "Локализация" и "Переводчик":
 
-<img class="col-md-6" src="/static/images/tr2.png">
+<img class="col-md-6" src="../../static/images/tr2.png">
 
 * На следующей странице выберите 'Присоединиться к существующему проекту' и продолжайте.
 * На следующей странице в раскрывающемся меню выберите языки, на которых вы говорите, и продолжайте.
 * Теперь вы зарегистрированы! Переходите на <a href="https://www.transifex.com/otf/torproject/">страницу Tor на Transifex</a>.
 * Нажмите синюю кнопку 'Присоединиться к команде' справа:
 
-<img class="col-md-6" src="/static/images/tr3.png">
+<img class="col-md-6" src="../../static/images/tr3.png">
 
 * Выберите язык из всплывающего меню на котором вы хотите переводить:
 
-<img class="col-md-6" src="/static/images/tr4.png">
+<img class="col-md-6" src="../../static/images/tr4.png">
 
 * Уведомление теперь будет отображаться в верхней части страницы, как это:
 
-<img class="col-md-6" src="/static/images/tr5.png">
+<img class="col-md-6" src="../../static/images/tr5.png">
 
 После того, как ваше членство будет одобрено, вы можете начать перевод; просто вернитесь на <a href="https://www.transifex.com/otf/torproject/">страницу Tor Transifex</a>, когда будете готовы начать перевод. Спасибо за желание помочь проекту!

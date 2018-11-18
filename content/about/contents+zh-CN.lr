@@ -24,6 +24,6 @@ Tor 浏览器使用 Tor 网络保护您的隐私和匿名性。使用 Tor 网络
 
 Tor 是一个由虚拟通道组成的网络，使您可以提高自己在互联网上的隐私和安全性。Tor 会将您的流量通过 Tor 网络内的三个随机的服务器（也称*中继*）发送、链路中的最后一个中继（“出口中继”）将流量发送到公共互联网。
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../../static/images/how-tor-works.png" alt="How Tor Browser works">
 
 上图展示了用户如何通过 Tor 网络来浏览不同的网站。在中间的绿色计算机表示 Tor 网络中的中继服务器；三把钥匙表示用户与每个中继之间的加密层。

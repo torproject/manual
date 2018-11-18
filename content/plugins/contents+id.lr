@@ -20,7 +20,7 @@ Sejumlah situs video (misalnya Youtube) menawarkan metode pengiriman alternatif 
 JavaScript merupakan bahasa pemograman yang digunakan peramban yang menawarkan elemen interaktif semisal video, animasi, audio, dan linemasa. Sayangnya, JavaScript juga memudahkan serangan keamanan terhadap peramban yang bisa mengarah pada hilangnya anonimitas.
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Pengguna yang menginginkan tingkat keamanan yang tinggi pada situs jelajahnya sebaiknya mengatur Tor Browser: <a href="/security-slider">slider pengamanan</a>,  pada 'Safer" (yang menon-aktifkan JavaScript untuk situs non-HTTPS) atau "Safest" (yang melakukan hal seperti itu pada semua situs) Namun, menonaktifkan JavaScript akan menyebabkan  banyak situs tidak muncul dengan betul, jadi pengaturan Tor Browser pada default adalah untuk memperbolehkan setiap situs untuk menjalankan skrip. 
 
 ##### Peraban Add-ons

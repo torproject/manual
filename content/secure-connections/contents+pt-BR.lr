@@ -11,11 +11,11 @@ key: 7
 body:
 Se informações pessoais, tais como senhas de login, viajarem pela Internet sem serem criptografadas, elas poderão facilmente ser interceptadas por um espião. Se você estiver fazendo o login em qualquer website, certifique-se de que esse site oferece criptografia HTTPS, o que protege contra esse tipo de espionagem. Você pode verificar isso na barra de endereços: se sua conexão for criptografada, o endereço começará com “https://” ao invés de “http://”.
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 A seguinte visualização mostra quais tipos de informações são visíveis para espiões com e sem o Navegador Tor e a criptografia HTTPS:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Clique no botão "Tor" para ver quais dados são visíveis a observadores quando você usa o Tor. Esse botão ficará verde para indicar que o Tor está ativo.
 * Clique no botão "HTTPS" para ver quais dados são visíveis a observadores quando você usa HTTPS. Esse botão ficará verde para indicar que o HTTPS está ativo.

@@ -20,7 +20,7 @@ El navegador Tor enfoca tu experiencia web en torno a tu relación con el sitio 
 
 Por otra parte, todas las conexiones a una sola dirección de sitio web se realizarán sobre el mismo circuito de Tor, lo que significa que puedes navegar por diferentes páginas de un solo sitio web en pestañas o ventanas independientes sin pérdida de funcionalidad.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 Puedes ver un diagrama del circuito que el Navegador Tor está usando para la pestaña actual en el menú de información del sitio, en la barra URL.
 
@@ -39,7 +39,7 @@ Cuando inicies sesión en un sitio web Tor, hay varios puntos que deberías tene
 
 ##### Cambiar identidades y circuitos
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 El navegador Tor presenta las opciones "Nueva identidad" y "Nuevo circuito de Tor para este sitio", colocadas en el menú de Torbutton (el menú hamburguesa).
 

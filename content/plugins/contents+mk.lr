@@ -20,7 +20,7 @@ body:
 JavaScript е јазик за програмирање кои што веб страните го користат за да понудат интерактивни елементи како што се видео, анимација, аудио и статусна временска линија. За жал, JavaScript исто така може да овозможи напади на безбедноста на вашиот прелистувач, кои може да доведат до ваша деанонимизација.
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Корсиниците кои бараат висок степен на сигурност за нивното веб пребарување треба да го постават Tor Browser <a href="/security-slider">Безбедносниот Лизгач</a> на "Побезбедно" (кој што ја оневозможува JavaScript за не-HTTPS веб страните) или на "Најбезбедно" (кој го прави ова за сите веб страни). Како и да е, оневозможувањето на JavaScript ќе спречи многу од веб страните да се прикажат правилно, па Tor Browser стандардната поставка ќе овозможи сите веб страни да стартуваат скрипти на мод "Стандардно".
 
 ##### Додатоци на прелистувачот

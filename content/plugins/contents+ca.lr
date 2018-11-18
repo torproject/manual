@@ -20,7 +20,7 @@ Algunes pàgines web de vídeos (com per exemple Youtube) permeten la visualitza
 JavaScript és un llenguatge de programació que els webs utilitzen per augmentar els ginys interactius, com els vídeos, animacions, àudio i estats de cronologies. Malauradament, JavaScript és vulnerables a atacs de seguretats, que poden causar la descoberta de l'anonimat.
 
 El navegador Tor inclou un complement anomenat NoScript, que es pot accedir a través de la icona "S" a la part superior dreta de la finestra. NoScript us permet controlar el codi JavaScript (i altres scripts) que s'executa en pàgines web individuals o bé bloquejar-les completament.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Els usuaris que requereixin un alt grau de seguretat en la seva navegació web haurien de configurar el <a href="security-slider">control deslizador</a>de seguretat del navegador Tor a "Més segur" (que desabilita JavaScript per a llocs web que no siguin d'HTTPS) o "Seguretat" (que ho fa per a tots els llocs web). Tanmateix, la desactivació de JavaScript evitarà que molts llocs web es mostrin correctament, de manera que la configuració predeterminada del navegador Tor és permetre que tots els llocs web executin scripts en el mode "Estàndard".
 
 ##### Complements

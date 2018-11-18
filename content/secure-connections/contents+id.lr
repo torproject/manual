@@ -11,11 +11,11 @@ key: 7
 body:
 Bila informasi personal seperti kata sandi dikirimkan ke internet tanpa enkripsi bisa dengan mudah disadap. Bila anda masuk ke sebuah situs web, anda harus memastikan apakah situs tersebut menawarkan enkripsi HTTPS, yang melindungi anda dari penyadapan seperti ini. Anda bisa memverifikasi ini di kolom URL: Bila koneksi anda terenkripsi, alamat situs tersebut diawali dengan "https://, bukan "http://".
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 Visualisasi berikut ini menunjukkan informasi apa yang bisa dilihat oleh penyusup dengan atau tanpa Tor Browser dan enskripsi HTTPS:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Click tombol "Tor" untuk melihat apakah data ditampilkan kepada pengamat ketika Anda menggunakan Tor. Tombol akan berubah menjadi hijau untuk menandakan Tor sedang aktif.
 * Click tombol "HTTPS" untuk melihat apakah data ditampilkan kepada pengamat saat Anda  menggunakan HTTPS, tombol akan berubah menjadi hijau untuk menandakan HTTPS sedang aktif.

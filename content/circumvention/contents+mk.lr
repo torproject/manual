@@ -14,7 +14,7 @@ body:
 
 ##### Користење на pluggable transports
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 За да ги користите pluggable transports кликнете „Конфигурирај“ во Tor Launcher прозорецот што се појавува кога прв пат ќе го уклучите Tor Browser.
 
@@ -22,7 +22,7 @@ body:
 
 Одберете „да“ кога ќе бидете прашани дали вашиот Интернет сервис провајдер ги блокира поврзувања кон Tor мрежата.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Одбери „Поврзи со обезбедените мостови“. Tor Browser во моментот има 6 pluggable transport опции помеѓу кои можете да одберете.
 

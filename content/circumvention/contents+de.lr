@@ -14,7 +14,7 @@ Der direkte Zugang zum Tor Netzwerk ist eventuell durch deinen Internetdienstanb
 
 ##### Mit austauschbaren Übertragungsarten
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Klicke im Tor Launcher-Fenster beim ersten Start auf "Konfigurieren", um autauschbare Übertragungsarten zu nutzen.
 
@@ -22,7 +22,7 @@ Du kannst die austauschbaren Übertragungsarten auch während der Tor Browser l�
 
 Wähle "ja" aus, wenn du danach gefragt wirst, ob dein Internetprovider Verbindungen zum Tor-Netzwerk blockiert.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 "Mit bereitgestellten Brücken verbinden" auswählen. Tor-Browser hat aktuell sechs Transportoptionen zur Auswahl.
 

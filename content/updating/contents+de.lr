@@ -14,15 +14,15 @@ Der Tor-Browser muss immer auf dem neusten Stand gehalten werden. Wenn du weiter
 Der Tor-Browser wird dich auffordern, die Software zu aktualisieren, sobald eine neue Version veröffentlicht wurde. Beim Öffnen des Tor-Browsers wird der Torbutton ein gelbes Dreieck anzeigen, und du wirst einen schriftlichen Aktualisierungshinweis sehen können. Du kannst den Tor-Browser automatisch oder manuell aktualisieren. 
 
 ##### Tor-Browser automatisch aktualisieren
-  <img width="400" src="/static/images/update1.png" />
+  <img width="400" src="../../static/images/update1.png" />
 
 Wenn du dazu aufgefordert wirst, den Tor-Browser zu aktualisieren, klicke auf das Torbutton-Icon und wähle dann "Auf Aktualisierung des Tor-Browser prüfen".
 
-  <img width="600" src="/static/images/update3.png" />
+  <img width="600" src="../../static/images/update3.png" />
 
 Wenn der Tor-Browser seine Suche nach Aktualisierungen abgeschlossen hat, klicke auf "Aktualisieren".
 
-  <img width="600" src="/static/images/update4.png" />
+  <img width="600" src="../../static/images/update4.png" />
 Warte bis die Aktualisierung heruntergeladen und installiert ist, starte dann den Tor-Browser neu.
 
 ##### Tor-Browser manuell aktualisieren

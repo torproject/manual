@@ -14,7 +14,7 @@ L'accesso diretto alla rete Tor potrebbe essere bloccato dal tuo Provider di ser
 
 ##### Utilizzare i pluggable transports
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Per utilizzare i pluggable transports schiacciare il pulsante "Configura" nella finestra di avvio che apparirà la prima volta che utilizzerete il browser Tor.
 
@@ -22,7 +22,7 @@ Puoi anche configurare i pluggable transports con il browser Tor in esecuzione; 
 
 Seleziona "Si", quando richiesto, se il tuo fornitore di servizi Internet blocca la connessione alla rete Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Seleziona " Connetti con i ponti predefiniti". Il browser Tor ha sei diversi opzioni di pluggable transports selezionabili.
 

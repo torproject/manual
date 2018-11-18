@@ -14,7 +14,7 @@ El acceso directo a la red Tor a veces puede estar bloqueado por tu Proveedor de
 
 ##### Usar transportes conectables
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Para usar transportes conectables, pulsa "Configurar" en la ventana de Arranque de Tor que aparece la primera vez que ejecutas el Navegador Tor.
 
@@ -22,7 +22,7 @@ También puedes configurar transportes conectables mientras Tor se está ejecuta
 
 Selecciona "sí" cuando se te pregunte si tu Proveedor de Servicios de Internet (ISP) bloquea conexiones a la red Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Selecciona "Conectar con los puentes proporcionados". El Navegador Tor actualmente tiene seis transportes conectables entre los que elegir.
 

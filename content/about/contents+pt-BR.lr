@@ -24,6 +24,6 @@ Por padrão, o Navegador Tor não mantém nenhum histórico de navegação. Os c
 
 Tor é uma rede de túneis virtuais que permite melhorar a sua privacidade e segurança na Internet. O Tor envia o seu tráfego através de três servidores aleatórios (também conhecidos como *relés*) na rede Tor. O último relé do circuito (o "relé de saída") envia o tráfego para fora e para a Internet pública.
 
-<img class="" src="/static/images/how-tor-works.png" alt="Como o navegador Tor funciona"/>
+<img class="" src="../../static/images/how-tor-works.png" alt="Como o navegador Tor funciona"/>
 
 A imagem acima ilustra uma pessoa que visita diversos sites usando Tor. Os computadores verdes do meio representam retransmissores da rede Tor, enquanto as três chaves representam camadas de criptografia entre aquela pessoa e cada retransmissor.

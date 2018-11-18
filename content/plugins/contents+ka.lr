@@ -20,7 +20,7 @@ body:
 JavaScript არის დაპროგრამების ენა, რომელიც ვებსაიტებს საშუალებას აძლევს მომხმარებლებს შესთავაზონ ურთიერთქმედების ისეთი ელემენტები, როგორიცაა ვიდეო, ანიმაცია ან ხმოვანი ფაილები და მათი გადახვევის შესაძლებლობა. თუმცა, სამწუხაროდ, JavaScript აგრეთვე გამოიყენება ბრაუზერის უსაფრთხოებაზე შეტევებისთვის, რაც წინაპირობა შეიძლება გახდეს ვინაობის გამჟღავნების.
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 მომხმარებლები, რომლებსაც მაღალი ხარისხის უსაფრთხოებას ითხოვენ ვებგვერდების მონახულებისას, Tor-ბრაუზერის <a href="/security-slider">უსაფრთხოების რბია</a> აუცილებლად უდნა დააყენონ „მეტად დაცულზე“ (რომელიც გათიშავს JavaScript-ს HTTPS-ს არმქონე საიტებზე) ან „სრულიად დაცულზე“ (რომელიც იმავეს გააკეთებს ყველა ვებსაიტზე). თუმცა, JavaScript-ის გათიშვა ხელს შეუშლის საიტების გამართულად მუშაობას, ასე რომ Tor-ბრაუზერში ნაგულისხმევად დაშვებულია ყველა საიტზე სკრიპტების გაშვება „ჩვეულებრივ“ რეჟიმში.
 
 ##### ბრაუზერის დამატებები

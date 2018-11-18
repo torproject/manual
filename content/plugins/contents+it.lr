@@ -20,7 +20,7 @@ Alcuni siti web ( ad esempio Youtube) offrono alternative per la visualizzazione
 JavaScript è un linguaggio di programmazione utilizzato dai siti Web per offrire elementi interattivi quali video, animazioni, audio e timeline. Sfortunatamente, JavaScript può anche attivare attacchi alla sicurezza del browser, che potrebbero portare alla perdita dell'anonimato.
 
 Tor Browser include un componente aggiuntivo chiamato NoScript, accessibile tramite l'icona "S" in alto a destra della finestra. NoScript ti permette di controllare JavaScript (e altri script) che gira su singole pagine web, o di bloccarlo completamente.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Gli utenti che richiedono un alto livello di sicurezza durante la navigazione dovrebbero impostare il <a href="/security-slider">Livello di sicurezza</a> a "Sicuro" (che disattiva JavaScript per i siti non-HTTPS) o "Molto sicuro" (che lo fa per tutti i siti). Tuttavia, disattivando JavaScript, alcuni siti potrebbero avere problemi di visualizzazione, per cui le impostazioni predefinite di Tor Browser permettono a tutti i siti di eseguire script in modalità "Standard".
 
 ##### Add-on per il browser

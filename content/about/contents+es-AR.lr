@@ -24,6 +24,6 @@ Por defecto, el Navegador Tor no guarda ningún historial de navegación. Las Co
 
 Tor es una red de túneles virtuales que te permite mejorar tu privacidad y seguridad en internet. Tor funciona enviando tu tráfico a través de tres servidores aleatorios (también conocidos como *relevos*) en la red de Tor. El último relevo del circuito (el "relevo de salida") envía el tráfico hacia la zona pública de internet.
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../../static/images/how-tor-works.png" alt="How Tor Browser works">
 
 La imagen superior ilustra el caso de un usuario navegando diferentes sitios a través de Tor. Las computadoras verdes del medio representan relevos en la red de Tor, mientras que las tres llaves representan las capas de encriptación entre el usuario y cada relevo. 

@@ -14,13 +14,13 @@ Tor Browser ilk kez çalıştırıldığında, Tor Ağ Ayarları penceresi gör�
 
 ##### Bağlanma
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 Çoğu durumda, "Bağlan" üzerine tıklamak başka bir yapılandırmaya gerek duymadan Tor ağına bağlanmanızı sağlar. Bağlan üzerine tıklandığında, Tor bağlantısının ilerleme durumunu gösteren bir durum çubuğu görüntülenir. Nispeten hızlı bir bağlantınız olduğu halde durum çubuğu belli bir noktada takılıp kalıyorsa, sorunu çözmek üzere yardım almak için <a href="/troubleshooting">Sorun Giderme</a> bölümüne bakabilirsiniz.
 
 ##### Yapılandırma
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Bağlantınızın sansürlendiğini ya da vekil sunucu kullandığını biliyorsanız, bu seçeneği seçmelisiniz. Tor Browser size bir dizi yapılandırma seçeneği sunar.
 
@@ -28,6 +28,6 @@ Bağlantınızın sansürlendiğini ya da vekil sunucu kullandığını biliyors
 
 Sonraki bölümde bağlantınızın bir vekil sunucu kullanıp kullanmadığı hakkında bilgi alınır. Çoğu durumda, bu gerekli değildir. Sisteminizdeki diğer tarayıcılar için de aynı ayarlar kullanıldığından "Evet" olarak seçmeniz gerekiyorsa genellikle bunu bilirsiniz. Olabiliyorsa, ağ yöneticinizden yardım isteyin. Bağlantınız bir vekil sunucu kullanmıyorsa, "Devam" üzerine tıklayın.
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

@@ -14,13 +14,13 @@ Quan s'executi per primer cop el navegador Tor, s'obriran els paràmetres de xar
 
 ##### Conecta't
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 En molts casos, escollint "Connectat" permetrà la connexió a la xarxa Tor sense més configuració. Un cop fet clic, la barra d'estat apareixerà, mostrat la progressió de la connexió Tor. La progressió dependrà de la velocitat de connexió, si experimentà algun problema, consulti <a href="troubleshooting">Resolució de problemes</a> la pàgina per tronar una solució.
 
 ##### Configura
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Si coneix que les seves connexions pateixen censura, o utilitza un servidor intermedi, seleccioni aquesta opció. El navegador Tor permetrà fer les configuracions pertinents.
 
@@ -28,6 +28,6 @@ La primera pantalla pregunta si l'accés a la xarxa Tor està bloquejada o censu
 
 La pròxima pantalla pregunta si la seva connexió utilitza un servidor intermedi. En molts casos, no és necessari. En cas afirmatiu cliqui "Si", els mateixos paràmetres seran aplicats a tots els navegadors del sistema. Si és possible, pregunti al seu administrador de xarxa. Si la connexió no utilitza un servidor intermedi, cliqui "Continuar".
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

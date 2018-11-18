@@ -14,7 +14,7 @@ Uaireanta ní féidir leat rochtain dhíreach a fháil ar líonra Tor, mar gheal
 
 ##### Córais iompair ionphlugáilte a úsáid
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Chun córas iompair ionphlugáilte a úsáid, cliceáil "Cumraigh" i bhfuinneog Thosaitheoir Tor a fheiceann tú nuair a ritheann tú Brabhsálaí Tor den chéad uair.
 
@@ -22,7 +22,7 @@ Nó is féidir córais iompair ionphlugáilte a chumrú agus Brabhsálaí Tor ar
 
 Roghnaigh "tá" nuair a fhiafraítear díot an bhfuil do Sholáthraí Seirbhíse Idirlín ag cur cosc ar cheangail le líonra Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Roghnaigh "Ceangail le droichead ionsuite". Tá sé cinn de chórais iompair ionphlugáilte ar fáil i mbrabhsálaí Tor faoi láthair.
 

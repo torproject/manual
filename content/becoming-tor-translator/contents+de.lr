@@ -17,25 +17,25 @@ Wenn du daran interessiert bist, das Projekt durch die Übersetzung des Handbuch
 Gehe zur <link href="https://transifex.com/signup/">Anmeldeseite von Transifex</link>.
   Gib deine Daten in die Felder ein und klicke auf die Schaltfläche "Anmelden":
 
-<img class="col-md-6" src="/static/images/tr1.png">
+<img class="col-md-6" src="../../static/images/tr1.png">
 
 * Fülle die nächste Seite mit deinem Namen aus und wähle "Lokalisierung" und "Übersetzer" aus den Dropdown-Menüs:
 
-<img class="col-md-6" src="/static/images/tr2.png">
+<img class="col-md-6" src="../../static/images/tr2.png">
 
 * Wähle auf der nächsten Seite "An einem bestehenden Projekt teilnehmen", und fahre fort.
 * Wähle auf der nächsten Seite die Sprachen, die du sprichst, aus dem Dropdown-Menü aus, und fahre fort.
 * Du bist jetzt angemeldet! Gehe zur <a href="https://www.transifex.com/otf/torproject/">Tor Transifex Seite</a>.
 * Klicke auf die blaue Schaltfläche "Team beitreten" ganz rechts:
 
-<img class="col-md-6" src="/static/images/tr3.png">
+<img class="col-md-6" src="../../static/images/tr3.png">
 
 * Wähle die Sprache, die du übersetzen möchtest, aus dem Dropdown-Menü:
 
-<img class="col-md-6" src="/static/images/tr4.png">
+<img class="col-md-6" src="../../static/images/tr4.png">
 
 * Eine Benachrichtigung erscheint nun wie gewohnt oben auf der Seite:
 
-<img class="col-md-6" src="/static/images/tr5.png">
+<img class="col-md-6" src="../../static/images/tr5.png">
 
 Nachdem deine Mitgliedschaft genehmigt wurde, kannst du mit dem Übersetzen beginnen; navigiere  einfach zurück zur <a href="https://www.transifex.com/otf/torproject/">Tor Transifex Seite</a>, wenn du bereit bist zu beginnen. Vielen Dank für dein Interesse an der Unterstützung des Projekts!

@@ -13,13 +13,13 @@ El navegador Tor inclou un "control lliscant de seguretat" que permet incrementa
 
 ##### Accedint al control lliscant de seguretat
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 El Control deslizador de seguretat es troba al menú "Paràmetres de seguretat" del botó Tor.
 
 ##### Nivells de seguretat
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Augmentant el nivell de seguretat mitjançant el control lliscant es pot deshabilitar parcialment característiques de protecció davant d'atacs.
 

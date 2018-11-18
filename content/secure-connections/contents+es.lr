@@ -11,11 +11,11 @@ key: 7
 body:
 Si la información personal como nombre de usuario y contraseña viaja cifrada por Internet, puede ser interceptada muy fácilmente por alguien a la escucha. Si estás iniciando sesión en cualquier sitio web, debes asegurarte de que el sitio ofrece cifrado HTTPS, que protege contra esta clase de escuchas. Puedes verificar esto en la barra de URLs: Si tu conexión está cifrada, la dirección comenzará con “https://”, en lugar de “http://”.
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 La siguiente visualización muestra qué información es visible a quienes estén a la escucha, tanto si usa como si no el Navegador Tor y el cifrado HTTPS:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Haz clic en el botón "Tor" para ver qué datos son visibles para los observadores cuando estás usando Tor. El botón se pondrá verde para indicar que Tor está activado.
 * Pulsa el botón "HTTPS" para ver qué datos son visibles a los observadores cuando estás usando HTTPS. El botón se pondrá verde para indicar que HTTPS está activado.

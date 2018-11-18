@@ -20,7 +20,7 @@ body:
 
 অন্যদিকে, একক ওয়েবসাইটের সমস্ত ঠিকানা একই টর সার্কিটে তৈরি করা হবে, যার মানে আপনি কার্যকরী কোন ক্ষতি ছাড়া পৃথক ট্যাব বা উইন্ডোতে একক ওয়েবসাইটের বিভিন্ন পৃষ্ঠা ব্রাউজ করতে পারেন।
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### সনাক্তকরণ এবং সার্কিট পরিবর্তন
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 

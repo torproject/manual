@@ -20,7 +20,7 @@ Tor Browser го центрира вашето веб искуство окол�
 
 Од друга страна, сите поврзувања на една веб страна ќе бидат преку истиот Tor круг, што значи дека ќе можете да прелистувате различни страни не една веб страна во одделни табои или прозорци, без да изгубите од функционалноста.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### Менување идентитети и кругови
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 

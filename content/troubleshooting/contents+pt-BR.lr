@@ -11,7 +11,7 @@ key: 11
 body:
 Você deve conseguir começar a navegar na web utilizando o Navegador Tor logo após executar o programa e clicar no botão "Connect", se você estiver usando-o pela primeira vez.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Correções rápidas
 

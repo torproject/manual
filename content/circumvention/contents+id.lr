@@ -14,7 +14,7 @@ Akses langsung pada jaringan Tor terkadang bisa diblokir oleh penyedia layanan i
 
 ##### Menggunakan pluggable transports
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Untuk menggunakan angkutan colok, klik "Configure" dalam jendela Peluncur Tor yang muncul ketika anda menjalankan Peramban Tor pertama kali.
 
@@ -22,7 +22,7 @@ Anda juga bisa mengatur pluggable transports sembari Tor Browser sedang berjalan
 
 Pilih "yes" ketika ditanya jika penyedia layanan internet anda memblokir koneksi ke jaringan Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 PIlih "Connect with provided bridges". Peramban Tor saat ini memiliki enam opsi angkutan colok untuk dipilih.
 

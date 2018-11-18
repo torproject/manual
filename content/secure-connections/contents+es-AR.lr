@@ -11,11 +11,11 @@ key: 7
 body:
 Si información personal tal como una contraseña de inicio de sesión viaja sin encriptación sobre Internet, puede ser fácilmente interceptada por un observador hostil. Si estás iniciando sesión en cualquier sitio web, deberías asegurarte que el sitio ofrece encriptación HTTPS, la cual protege contra éste tipo de observación hostil. Podés verificar ésto en la barra URL: si tu conexión está encriptada, la dirección empezará con "https://" en vez de "http://".
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 La siguiente visualización muestra qué información es visible a observadores hostiles con y sin el navegador Tor y encriptación HTTPS:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Cliqueá el botón Tor para ver qué datos son visibles a observadores cuando estás usando Tor. El botón se tornará verde para indicar que Tor está activado.
 * Cliqueá el botón "HTTPS" para ver qué datos son visibles a observadores cuando estás usando HTTPS. El botón se tornará verde para indicar que HTTPS está activado.

@@ -14,7 +14,7 @@ body:
 
 ##### Использование подключаемых транспортов
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Для использования подключаемых транспортов, нажмите кнопку «Настройка» в окне запуска Tor, которое появляется при первом запуске Tor Browser.
 
@@ -22,7 +22,7 @@ body:
 
 Выберите «Да», если ваш интернет-провайдер блокирует подключения к сети Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Выберите «Подключиться с предоставленными мостами». Tor Browser в настоящее время имеет шесть транспортных вариантов подключения на выбор.
 

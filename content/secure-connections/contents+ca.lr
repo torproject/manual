@@ -11,11 +11,11 @@ key: 7
 body:
 Si informació personal d'inici de sessió viatge desencriptada per Internet, pot ser fàcilment interceptada per escoltes clandestines. Si inicia sessió cal assegurar-se que s'estableix una connexió HTTPS encriptada, que el protegeix. Ho pot comprovar en al barra URL quan les primeres lletres siguin "https://", en contra de "http://".
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 La següent imatge mostra quina informació és visible a ulls del interceptors de dades sense el navegador Tor i una encriptació sota HTTPS:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Faci clic en el icona "Tor" per saber quines dades són visibles als observadors quan s'utilitzi Tor. El icona es tornarà de color verd per indicar que Tor està en marxa.
 * Faci clic al botó "HTTPS" per saber quines dades són visibles als observador quan s'utilitzi HTTPS. El botó es tornarà verd per indicar que HTTPS està en marxa.

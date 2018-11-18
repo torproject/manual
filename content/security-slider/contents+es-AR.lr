@@ -13,13 +13,13 @@ El navegador Tor incluye una "Regla deslizante de seguridad" que te permite incr
 
 ##### Accediendo la regla deslizante de seguridad
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 La regla deslizante de seguridad está localizada en el menú "Ajustes de seguridad" del botón Tor.
 
 ##### Niveles de seguridad
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Incrementando el nivel de la regla deslizante de seguridad deshabilitará total o parcialmente ciertas características del navegador para protegerte contra posibles ataques.
 

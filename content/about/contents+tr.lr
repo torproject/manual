@@ -24,6 +24,6 @@ Varsayılan olarak Tor Browser tarama geçmişini kaydetmez. Çerezler yalnız t
 
 Tor, Internet üzerinde kişisel gizliliğinizi ve güvenliğinizi arttıran bir sanal tüneller ağıdır. Tor trafiğinizi rastgele seçilmiş üç sunucu üzerinden Internet üzerine ulaştırır (bunlar *aktarıcı* olarak da bilinir). Devredeki son aktarıcı ("çıkış aktarıcısı") trafiği herkese açık İnternet üzerine aktarır.
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../../static/images/how-tor-works.png" alt="How Tor Browser works">
 
 Yukarıdaki görsel farklı sitelere Tor üzerinden nasıl erişildiğini gösterir. Ortadaki yeşil bilgisayarlar Tor ağındaki aktarıcıları, üç anahtar da kullanıcı ve her bir aktarıcı arasındaki şifreleme katmanlarını temsil eder.

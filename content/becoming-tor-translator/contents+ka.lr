@@ -17,25 +17,25 @@ body:
 * გადადით <a href="https://transifex.com/signup/">Transifex-ის ანგარიშის შექმნის გვერდზე</a>.
   შეიყვანეთ თქვენი მონაცემები შესაბამის ველებში და დააწყაპეთ „Sign up“ ღილაკს:
 
-<img class="col-md-6" src="/static/images/tr1.png">
+<img class="col-md-6" src="../../static/images/tr1.png">
 
 * შეიყვანეთ შემდეგ გვერდზე თქვენი სახელი და მიუთითეთ „Localization“ და „Translator“ ჩამოსაშლელი მენიუდან.
 
-<img class="col-md-6" src="/static/images/tr2.png">
+<img class="col-md-6" src="../../static/images/tr2.png">
 
 * შემდეგ გვერდზე, აირჩიეთ „Join an existing project“ პროექტში ჩასართავად.
 * მომდევნო გვერდზე კი აირჩიეთ ენა, რომელზეც საუბრობთ, ჩამოსაშლელი მენიუდან და განაგრძეთ.
 * თქვენი ანგარიში უკვე შექმნილია! გადადით <a href="https://www.transifex.com/otf/torproject/">Tor-ის Transifex-გვერდზე</a>.
 * დააწკაპეთ მარჯვნივ არსებულ ლურჯ ღილაკს „Join Team“ გუნდში შემოერთებისთვის:
 
-<img class="col-md-6" src="/static/images/tr3.png">
+<img class="col-md-6" src="../../static/images/tr3.png">
 
 * მიუთითეთ ენა, რომლიდანაც გსურთ თარგმნოთ, ჩამოსაშლელი მენიუდან:
 
-<img class="col-md-6" src="/static/images/tr4.png">
+<img class="col-md-6" src="../../static/images/tr4.png">
 
 * შეტყობინება ნაჩვენები იქნება გვერდის თავში ამგვარად:
 
-<img class="col-md-6" src="/static/images/tr5.png">
+<img class="col-md-6" src="../../static/images/tr5.png">
 
 როდესაც თქვენი წევრად მიღება დადასტურდება, შეგიძლიათ თარგმნის დაწყება; უბრალოდ გადადით უკან <a href="https://www.transifex.com/otf/torproject/">Tor-ის Transifex-გვერდზე</a>, როდესაც მზად იქნებით მუშაობის დასაწყებად. გმადლობთ, რომ სურვილი გაქვთ დაეხმაროთ პროექტს!

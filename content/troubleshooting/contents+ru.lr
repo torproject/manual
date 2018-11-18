@@ -11,7 +11,7 @@ key: 11
 body:
 Вы сможете начать просмотр веб-страниц через Tor Browser вскоре после запуска программы и щелкнуть по кнопке «Connect», если вы используете его в первый раз.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Быстрые исправления
 

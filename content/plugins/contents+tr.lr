@@ -20,7 +20,7 @@ Bazı görüntü web siteleri (YouTube gibi), Flash kullanmayan alternatif gör�
 JavaScript, web sitelerinin görüntü, animasyon, ses ve durum ilerlemesi gibi etkileşimli ögeler sunmak için kullandığı bir programlama dilidir. Maalesef, JavaScript tarayıcı güvenliğine yönelik saldırılar yapılmasına ve kimliğinizin açığa çıkmasına neden olabilir.
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Web sitelerinde gezinirken yüksek derecede güvenlik isteyen kullanıcılar, Tor Browser üzerindeki <a href="/security-slider">Güvenlik Kaydırıcısı</a> ayarını "Daha Güvenli" (HTTPS olmayan web siteleri için JavaScript devre dışı) ya da "En Güvenli" (tüm web siteleri için JavaScript devre dışı) olarak seçmelidir. Bununla birlikte, JavaScript devre dışı bırakıldığında birçok web sitesi düzgün görünmeyebilir. Bu nedenle Tor Browser varsayılan olarak "Standart" güvenlik düzeyinde tüm web sitelerinin betikleri çalıştırmasına izin verir.
 
 ##### Tarayıcı Eklentileri

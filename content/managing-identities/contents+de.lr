@@ -20,7 +20,7 @@ Der Tor Browser zentriert deine Interneterfahrung rund um deine Verbindung zu de
 
 Auf der anderen Seite werden alle Verbindungen zu einer einzelnen Internetseite über denselben Schaltkreis aufgebaut. Das heißt, dass du verschiedene Seiten einer Internetseite in separaten Reitern oder Fenstern ohne Funktionseinbußen aufrufen kannst.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 Du kannst ein Diagramm des Schaltkreises sehen, den Tor-Browser für die aktuelle Registerkarte im Seiteninformationsmenü in der URL-Leiste verwendet.
 
@@ -39,7 +39,7 @@ Wenn du dich auf einer Webseite über Tor anmeldest, solltest du einige Punkte b
 
 ##### Identitäten und Kanäle wechseln
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Der Tor-Browser bietet die Funktionen "Neue Identität" und "Neuer Tor-Kanal für diese Seite" im Torbutton-Menü an.
 

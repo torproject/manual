@@ -20,7 +20,7 @@ body:
 JavaScript - это язык программирования, который веб-сайты используют для создания интерактивных элементов, таких как видео, анимация, аудио и позиция времени. К сожалению, JavaScript также может осуществлять атаки на безопасность браузера, что может привести к деанонимизации.
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Пользователям, которым требуется высокая степень безопасности при просмотре веб-страниц, необходимо установить <a href="/security-slider">Security Slider</a> (Ползунок Безопасности) на “Safer”, что отключит исполнение JavaScript на страницах, не использующих HTTPS, или “Safest” (что делает то же, но на всех страницах). Тем не менее отключение JavaScript не дает многим страницам отображаться правильным образом, поэтому стандартно Tor Browser разрешает всем страницам использнять скрипты.
 
 ##### Дополнения

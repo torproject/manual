@@ -13,13 +13,13 @@ Tor 浏览器包含一个“安全滑块”，它可以让您通过禁用某些�
 
 ##### 操作安全滑块
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 安全滑块位于 TorButton 中菜单中的 “安全设置” 内。
 
 ##### 安全级别
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 增加安全级别将禁用或部分禁用某些浏览器功能以防止可能的攻击。
 

@@ -13,13 +13,13 @@ body:
 
 ##### Accessing the Security Slider
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 The Security Slider is located in Torbutton’s “Security Settings” menu.
 
 ##### নিরাপত্তা স্তর
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
 

@@ -11,7 +11,7 @@ key: 11
 body:
 Uygulamayı çalıştırdıktan ve ilk kez kullanıyorsanız "Bağlan" düğmesine tıklayın. Kısa bir süre sonra Tor Browser ile web üzerinde gezinmeye başlayabilmeniz gerekir.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Hızlı düzeltmeler
 

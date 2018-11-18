@@ -14,7 +14,7 @@ El acceso directo a la red de Tor puede ser bloqueado a veces por tu Proveedor d
 
 ##### Usando transportes insertables
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Para usar transportes insertables, cliqueá "Configurar" en la ventana del Lanzador de Tor que aparece cuando corrés el navegador Tor por primera vez.
 
@@ -22,7 +22,7 @@ También podés configurar los transportes insertables mientras el navegador Tor
 
 Seleccioná "sí" cuando te sea preguntado si tu Proveedor de Servicio de Internet bloquea conexiones a la red de Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Seleccioná "Conectar con los puentes provistos". El navegador Tor cuenta actualmente con seis opciones de transporte insertable entre las cuales elegir.
 

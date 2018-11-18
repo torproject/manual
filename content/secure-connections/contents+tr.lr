@@ -11,11 +11,11 @@ key: 7
 body:
 Oturum açma parolası gibi kişisel bilgiler şifrelenmemiş olarak İnternet üzerine gönderilirse, ağı izleyebilecek bir kişi ya da kuruluş tarafından kolayca elde edilebilir. Herhangi bir web sitesinde oturum açıyorsanız, sitenin bu tür bir izlemeye karşı HTTPS şifreleme hizmeti sunduğundan emin olmanız gerekir. Bunu adres çubuğundan görebilirsiniz: Bağlantınız şifreli ise, adresin başında "http://" yerine "https://" bulunur.
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 Tor Browser ve HTTPS şifrelemesinin bulunduğu ve bulunmadığı durumlarda sizi izleyebilecek kişi ya da kuruluşların hangi bilgilere erişebileceğini aşağıda görebilirsiniz:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Tor kullanırken ağı izleyenlerin elde edebileceği bilgileri görmek için "Tor" düğmesine tıklayın. Tor açık olduğunda düğme yeşil renkte olur.
 * HTTPS kullanırken ağı izleyenlerin elde edebileceği bilgileri görmek için "HTTPS" düğmesine tıklayın. HTTPS açık olduğunda düğme yeşil renkte olur.

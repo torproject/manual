@@ -11,7 +11,7 @@ key: 11
 body:
 Vous devriez pouvoir commencer à parcourir le Web avec le Navigateur Tor peu de temps après avoir lancé le programme et avoir cliqué sur le bouton « Se connecter » si vous l’utilisez pour la première fois.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Solutions rapides
 

@@ -14,7 +14,7 @@ Tor ağına doğrudan erişim, bazen Internet Hizmeti Sağlayıcınız ya da hü
 
 ##### Takılabilir aktarımları kullanma
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Takılabilir aktarımları kullanmak için, Tor Browser uygulamasını ilk kez çalıştırdığınızda görüntülenen Tor Başlatıcı penceresindeki "Yapılandır" düğmesine tıklayın.
 
@@ -22,7 +22,7 @@ Ayrıca, Tor Browser çalışırken, adres çubuğunuzun yakınındaki yeşil so
 
 İnternet Hizmeti Sağlayıcınızın, Tor ağına olan bağlantıları engelleyip engellemediği sorulduğunda "Evet" seçin.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 "Hazır köprüler ile bağlan" seçeneğini seçin. Tor Browser altı farklı takılabilir aktarım seçeneği sunar.
 

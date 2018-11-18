@@ -14,7 +14,7 @@ L’accès direct au réseau Tor pourrait parfois être bloqué par votre fourni
 
 ##### Utiliser des transports enfichables
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Pour utiliser des transports enfichables, cliquez sur « Configurer » dans la fenêtre du lanceur Tor qui apparaît lors du premier lancement du navigateur
 
@@ -22,7 +22,7 @@ Vous pouvez aussi configurer les transports enfichables pendant que le Navigateu
 
 Sélectionnez « Oui » quand on vous demandera si votre fournisseur d’accès à Internet bloque les connexions au réseau Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Sélectionnez « Se connecter avec les ponts fournis ». Le Navigateur Tor offre actuellement six options de transports enfichables parmi lesquelles choisir.
 

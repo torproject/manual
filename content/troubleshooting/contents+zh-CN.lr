@@ -11,7 +11,7 @@ key: 11
 body:
 理论上来说，当 Tor 浏览器启动后您应该可以直接开始浏览网页，若是首次启动的话，顶多只需要再点击“连接”按钮即可开始上网。
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### 快速修复
 

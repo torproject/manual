@@ -14,7 +14,7 @@ body:
 
 ##### Χρησιμοποιούνται pluggable transports
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Για να χρησιμοποιήσετε pluggable transports, κάντε κλικ στην επιλογή "Διαμόρφωση" στο παράθυρο του Tor Launcher που εμφανίζεται όταν ξεκινάτε για πρώτη φορά τον Tor Browser.
 
@@ -22,7 +22,7 @@ body:
 
 Επιλέξτε "Ναι" όταν ερωτηθείτε αν ο πάροχός σας του ίντερνετ μπλοκάρει συνδέσεις προς το δίκτυο Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Επιλέξτε "Σύνδεση με παρεχόμενες γέφυρες". Ο Tor Browser διαθέτει έξι επιλογές pluggable transport από τα οποία μπορείτε να επιλέξετε.
 

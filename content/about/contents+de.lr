@@ -24,6 +24,6 @@ Normalerweise speichert der Tor Browser keinen Verlauf. Cookies sind nur für ei
 
 Tor ist ein Netzwerk aus virtuellen Tunneln, die es dir erlauben, deine Privatsphäre und Sicherheit im Internet zu verbessern. Tor funktioniert, indem es deinen Verkehr über drei zufällige Server (auch bekannt als <em>Relays</em>) im Tor-Netzwerk sendet. Das letzte Relay im Kanal (das "Ausgangsrelay") sendet dann den Verkehr in das öffentliche Internet.
 
-<img class="" src="/static/images/how-tor-works.png" alt="Wie der Tor Browser funktioniert"/>
+<img class="" src="../../static/images/how-tor-works.png" alt="Wie der Tor Browser funktioniert"/>
 
 Das Bild oben stellt einen Nutzer dar, der verschiedene Webseiten über Tor besucht. Die grünen Computer in der Mitte stellen die Relays im Tor-Netzwerk dar, während die drei Schlüssel die Verschlüsselungsschichten zwischen dem Benutzer und jedem Relayserver darstellen.

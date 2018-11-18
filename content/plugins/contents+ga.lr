@@ -20,7 +20,7 @@ Cuireann suímh áirithe (mar shampla YouTube) modhanna malartacha le físeáin 
 Is teanga ríomhchlárúcháin é JavaScript a úsáidtear ar shuímh Ghréasáin chun gnéithe idirghníomhacha a chur ar fáil, mar shampla físeáin, beochan, fuaim, agus amlínte stádas. Faraor, éascaíonn JavaScript ionsaithe áirithe ar shlándáil an bhrabhsálaí, ionsaithe a d'fhéadfadh d'aitheantas a nochtadh.
 
 Tá breiseán darb ainm NoScript ag gabháil le Brabhsálaí Tor, ar fáil tríd an deilbhín “S” ag barr na fuinneoige ar dheis. Ligeann NoScript duit smacht a choinneáil ar an gcód JavaScript (agus scripteanna eile) a ritheann ar leathanaigh ar leith, nó cosc iomlán a chur air.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 Ba chóir d'úsáideoirí a dteastaíonn slándáil an-daingean uathu an <a href="/security-slider">Sleamhnán Slándála</a> i mBrabhsálaí Tor a shocrú go dtí “Níos Sábháilte” (a dhíchumasaíonn JavaScript ar shuímh nach n-úsáideann HTTPS) nó “Is Sábháilte” (a dhíchumasaíonn ar gach suíomh é). Ach, má dhíchumasaíonn tú JavaScript, ní fheidhmeoidh go leor suíomh mar is ceart, agus dá bharr sin ligeann Brabhsálaí Tor do gach suíomh scripteanna a rith de réir réamhshocraithe.
 
 ##### Breiseáin Bhrabhsálaí

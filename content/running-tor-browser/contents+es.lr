@@ -14,13 +14,13 @@ Cuando ejecutes Tor por primera vez verás la ventana de Configuración de la Re
 
 ##### Conectar
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 En la mayoría de los casos escoger "Conectar" te permitirá conectar a la red Tor sin ninguna configuración adicional. Una vez hagas clic aparecerá una barra de estado mostrando el progreso de la conexión de Tor. Si tienes una conexión relativamente rápida pero la barra parece haberse quedado fija en un determinado punto, lee la página <a href="troubleshooting">Solución de problemas</a> para obtener ayuda para solucionar el problema.
 
 ##### Configurar
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Si sabes que tu conexión está censurada o usas un proxy, debes seleccionar esta opción. Tor te llevará a través de una serie de opciones de configuración.
 
@@ -28,6 +28,6 @@ La primera pantalla, pregunta si el acceso a la red Tor está bloqueado o censur
 
 La siguiente pantalla pregunta si tu conexión usa un proxy. En la mayoría de los casos esto no es necesario. Normalmente sabrás si debe responder "Sí", ya que estarás usando la misma configuración para otros navegadores en tu sistema. Si puedes, pide información a tu administrador de red. Si tu conexión no usa un proxy, pulsa "Continuar".
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

@@ -11,11 +11,11 @@ key: 7
 body:
 Se le informazioni personali, quali login e/o password, viaggiano in chiaro sulla rete  potrebbero essere facilmente ascoltate da un intercettatore. Se stai accedendo a qualsiasi sito web sii sicuro che il sito offra una cifratura HTTPS che protegge i dati dalle intercettazioni. Puoi verificare che la connessione è cifrata se l'indirizzo inizia per "https://" al posto di "http://".
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 Questa visualizzazione mostra quali informazioni sono visibili agli intercettatori con e senza la cifratura del Browser Tor e HTTPS:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Cliccate sul pulsante "Tor" per vedere quali dati sono visibili ad un osservatore quando state utilizzando la rete Tor. Il bottone diventerà verde quando Tor è attivato
 * Cliccate sul pulsante "HTTPS" per vedere quali dati sono visibili ad un osservatore quando state usando il protocollo HTTPS. Il pulsante diventerà verde quando HTTPS è attivo

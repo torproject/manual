@@ -14,13 +14,13 @@ Saat kamu menjalankan Tor Browser untuk pertama kali, kamu akan melihat laman Pe
 
 ##### Sambung
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 Dalam kebanyakan kasus, memilih "Connect" akan memungkinkan Anda terhubung ke jaringan Tor tanpa konfigurasi lebih lanjut. Setelah diklik, bar status akan muncul, menunjukkan kemajuan koneksi Tor. Jika Anda berada pada koneksi yang relatif cepat, namun bar ini tampaknya terjebak pada titik tertentu, lihat halaman <a href="/troubleshooting">Pemecahan Masalah</a> untuk mendapatkan bantuan dalam menyelesaikan masalah.
 
 ##### Konfigurasikan
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Jika Anda tahu bahwa koneksi Anda disensor, atau menggunakan proxy, Anda harus memilih opsi ini. Tor Browser akan membawa Anda melalui serangkaian pilihan konfigurasi.
 
@@ -28,6 +28,6 @@ Layar pertama menanyakan jika akses ke jaringan Tor di blokir atau di sensor pad
 
 Layar selanjutnya menanyakan  jika koneksi anda menggunakan sebuah proxy.  Pada banyak kasus, hal ini tidak diperlukan. Biasanya anda akan mengetahui jika anda perlu menjawab "yes", sebagaimana pada pengaturan yang  digunakan oleh browser yang lain pada sistem anda. Jika memungkinkan, tanyakan pengelola jaringan untuk panduan. Jika koneksi tidak menggunakan sebuah proksi, klik "continue".
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

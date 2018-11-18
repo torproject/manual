@@ -20,7 +20,7 @@ Tor 浏览器会以您在网址列中的网站名称为中心，来维护您与�
 
 从另一方面而言，所有通往同一网站的连接都将会透过同一条洋葱路由回路来达成，因此即使您在浏览器中打开多个不同的页签来阅览同一网站中的不同网页，其网站的功能也不会受到影响。
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### 变更身份和线路
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 

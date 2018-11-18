@@ -11,11 +11,11 @@ key: 7
 body:
 Má sheolann tú sonraí phearsanta, mar shampla focail fhaire, ar an Idirlíon gan chriptiú, tá sé an-éasca do chúléisteoir iad a idircheapadh. Má tá tú ag logáil isteach i suíomh Gréasáin, ba chóir duit deimhniú go n-úsáideann an suíomh criptiú HTTPS, rud a chosnaíonn ar an sórt seo cúléisteachta thú.  Is féidir leat é seo a dheimhniú sa bharra URL: má tá do cheangal criptithe, tosóidh an seoladh le “https://”, in áit “http://”.
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 Taispeánann an pictiúr seo an t-eolas atá cúléisteoirí in ann a fheiceáil le Brabhsálaí Tor agus criptiú HTTPS, agus gan iad:
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Tar éis duit an cnaipe “Tor” a chliceáil, taispeánfar na sonraí a bhíonn cúléisteoirí in ann a fheiceáil nuair a úsáideann tú Tor. Iompóidh an cnaipe uaine mar léiriú go bhfuil Tor ar siúl.
 * Tar éis duit an cnaipe “HTTPS” a chliceáil, taispeánfar na sonraí a bhíonn cúléisteoirí in ann a fheiceáil nuair a úsáideann tú HTTPS. Iompóidh an cnaipe uaine mar léiriú go bhfuil HTTPS ar siúl.

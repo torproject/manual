@@ -24,6 +24,6 @@ De réir réamhshocraithe, ní choinníonn Brabhsálaí Tor aon stair bhrabhsál
 
 Is líonra tollán fíorúil é Tor a chabhraíonn leat do phríobháideachas agus do shlándáil ar an Idirlíon a fheabhsú. Seolann Tor do chuid tráchta trí trí fhreastalaí randamacha (a dtugtar *athsheachadáin* orthu) i líonra Tor. Ansin seolann an t-athsheachadán deireanach sa chiorcad ("an t-athsheachadán amach") an trácht amach go dtí an tIdirlíon poiblí.
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../../static/images/how-tor-works.png" alt="How Tor Browser works">
 
 Léiríonn an pictiúr thuas úsáideoir ag brabhsáil suíomhanna éagsúla thar Tor. Athsheachadáin i líonra Tor is ea na ríomhairí uaine sa lár, agus léiríonn na trí eochair na trí shraith chriptithe idir an úsáideoir agus gach athsheachadán.

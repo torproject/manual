@@ -14,13 +14,13 @@ Lors du premier lancement du navigateur, vous apercevrez la fenêtre des paramè
 
 ##### Connecter
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 Dans la plupart des cas, « Se connecter » vous permettra de vous connecter au réseau Tor sans autre configuration. Une fois que vous aurez cliqué, une barre d’état apparaîtra et affichera l’avancement de la connexion de Tor. Si votre connexion est plutôt rapide, mais que la barre d’état semble bloquer à un certain niveau, la page <a href="/troubleshooting">Dépannage</a> vous aidera à régler le problème.
 
 ##### Configurer
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Si vous savez que votre connexion est censurée ou utilise un mandataire, vous devriez sélectionner cette option. Le Navigateur Tor vous fera passer en revue une série d’options de configuration.
 
@@ -28,6 +28,6 @@ Le premier écran demande si l’accès au réseau Tor est bloqué ou censuré s
 
 Le prochain écran vous demande si votre connexion utilise un serveur mandataire. Dans la plupart des cas, ce n’est pas requis. Vous saurez habituellement si vous devez répondre « Oui », car les mêmes paramètres seront utilisés pour les autres navigateurs de votre système. Si possible, posez la question à votre administrateur réseau. Si votre connexion n’utilise pas de mandataire, cliquez sur « Continuer ».
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

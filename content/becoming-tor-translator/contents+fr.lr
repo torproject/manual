@@ -17,25 +17,25 @@ Si vous souhaitez aider le projet en traduisant le manuel ou le Navigateur Tor d
 * Rendez-vous sur la page d'inscription de Transifex.
   Remplissez les champs avec vos renseignements et cliquez sur le bouton « S’inscrire » :
 
-<img class="col-md-6" src="/static/images/tr1.png">
+<img class="col-md-6" src="../../static/images/tr1.png">
 
 * Remplissez la page suivante avec votre nom et choisissez « Localisation » et « Traducteur » dans les menus déroulants :
 
-<img class="col-md-6" src="/static/images/tr2.png">
+<img class="col-md-6" src="../../static/images/tr2.png">
 
 * Sur la page suivante, sélectionnez « Se joindre à un projet existant » et poursuivez.
 * Sur la page suivante, sélectionnez dans le menu déroulant les langues que vous parlez et poursuivez.
 * Vous êtes maintenant inscrit ! Rendez-vous sur la page Transifex de Tor.
 * Cliquez sur le bouton bleu « Se joindre à l’équipe » situé complètement à droite :
 
-<img class="col-md-6" src="/static/images/tr3.png">
+<img class="col-md-6" src="../../static/images/tr3.png">
 
 * Sélectionnez dans le menu déroulant la langue vers laquelle vous souhaitez traduire :
 
-<img class="col-md-6" src="/static/images/tr4.png">
+<img class="col-md-6" src="../../static/images/tr4.png">
 
 * Une notification comme celle-ci apparaîtra maintenant en haut de la page comme suit :
 
-<img class="col-md-6" src="/static/images/tr5.png">
+<img class="col-md-6" src="../../static/images/tr5.png">
 
 Une fois que votre adhésion sera approuvée, vous pourrez commencer à traduire ; retournez simplement vers la <a href="https://www.transifex.com/otf/torproject/">page Transifex de Tor</a> quand vous serez prêt à commencer. Nous vous remercions de votre intérêt à aider le projet !

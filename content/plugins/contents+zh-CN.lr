@@ -20,7 +20,7 @@ body:
 JavaScript 是一种内嵌于网页中的编程语言，它可以提供网站的各种交互式组件，像是视频、音乐、动画、时间状态等。而遗憾的是，JavaScript 也可能被利用来发动破解浏览器安全防护机制的攻击，其结果有可能会让用户的真实身份曝光。
 
 Tor Browser includes an add-on called NoScript, accessible through the “S” icon at the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
-<img class="col-md-6" src="/static/images/noscript_menu.png">
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
 在浏览中需要更高安全性的用户应该调整 Tor 浏览器的 <a href="/security-slider">安全滑块</a> 到“中等安全性”（在非 HTTPS 网站上禁用 JavaScript）或“最高安全性”（在所有网站禁用 JavaScript）等级。不过因为禁用 JavaScript 可能会使网站无法正常显示， Tor 浏览器是默认设置是允许所有网站运行脚本的“标准安全性”等级。
 
 ##### 浏览器附加组件

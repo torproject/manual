@@ -20,7 +20,7 @@ Tor Browser, adres çubuğundaki web sitesi ile olan ilişkinizi web deneyiminiz
 
 Diğer taraftan, tek bir web sitesi adresine yapılan bağlantılar, aynı Tor devresini kullanır. Yani, tek bir web sitesinin farklı sayfalarında ayrı sekme ya da pencerelerde herhangi bir işlev kaybı olmadan gezinebilirsiniz.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ Tor kullanarak bir web sitesinde oturum açarken unutmamanız gereken bazı konu
 
 ##### Kimlik ve devre değiştirme
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 

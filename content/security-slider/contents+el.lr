@@ -13,13 +13,13 @@ body:
 
 ##### Πρόσβαση στον Slider Ασφαλείας
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 Ο Slider Ασφαλείας βρίσκεται στο Torbutton, στο μενού "Ρυθμίσεις Ασφάλειας".
 
 ##### Επίπεδα Ασφαλείας
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Η αύξηση του επιπέδου του Slider Ασφαλείας θα απενεργοποιήσει πλήρως ή μερικώς κάποιες λειτουργίες του περιηγητή, για να σας προστατέψει από πιθανές επιθέσεις.
 

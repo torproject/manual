@@ -13,13 +13,13 @@ Tor Browser termasuk "Security Slider" akan mengajak Anda untuk meningkatkan kea
 
 ##### Mengakses Security Slider
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 The Security Slider is located in Torbutton’s “Security Settings” menu.
 
 ##### Tingkat Keamanan
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Peningkatan level Security Slider akan di-nonaktif-kan atau sebagian di-nonaktif-kan khususnya fitur peramban untuk melindungi pelbagai kemungkinan serangan.
 

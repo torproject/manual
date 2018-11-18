@@ -14,13 +14,13 @@ body:
 
 ##### 连接
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 在大多数情况下，点击“连接”可以让您不作任何进一步的设置就直接连上洋葱路由网络，点击后将会出现一条状态栏显示目前洋葱路由的连接创建过程，如果您的网络带宽充足但是此状态栏却长时间停滞在某个点上无法完成连接创建，请参考<a href="troubleshooting">错误处理</a>页面以寻求解决问题的协助。
 
 ##### 配置
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 如果您使用的网络有被过滤阻挡，或是您有使用代理服务器，那您就必须要选择此项目，Tor 浏览器将会引导您进行一连串的相关设置进程。
 
@@ -28,6 +28,6 @@ body:
 
 在下一个画面中，您必须要回答您的网络连接是否有透过代理服务器来连上网络，通常您应该很清楚自己是否有使用代理服务器，因为这部分的设置在您电脑中的每个网络浏览器里都会一样。若您不确定的话，可以询问您的网络管理员，若您确定无使用代理服务器的话，请点击“继续”。
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

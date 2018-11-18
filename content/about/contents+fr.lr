@@ -24,6 +24,6 @@ Par défaut, le Navigateur Tor ne conserve aucun historique de navigation. Les f
 
 Tor est un réseau de tunnels virtuels qui vous permet d’améliorer la protection de vos données personnelles et votre sécurité sur Internet. Tor fonctionne en acheminant votre trafic par trois serveurs aléatoires (aussi appelés *relais*) dans le réseau Tor. Le dernier relais du circuit (le « relais de sortie ») envoie ensuite le trafic vers l’Internet public.
 
-<img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../../static/images/how-tor-works.png" alt="How Tor Browser works">
 
 L’image ci-dessous illustre un utilisateur qui navigue vers différents sites Web avec Tor. Les ordinateurs verts situés au milieu représentent les relais du réseau Tor, alors que les trois clés représentent les couches de chiffrement entre l’utilisateur et chaque relais.

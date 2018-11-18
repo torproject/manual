@@ -13,13 +13,13 @@ Tor Browser üzerinde, güvenlik ve anonimliğinizi azaltmak için kullanılabil
 
 ##### Güvenlik Kaydırıcısına Erişmek
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 Güvenlik Kaydırıcısı, Torbutton "Güvenlik Ayarları" menüsünde bulunur.
 
 ##### Güvenlik Düzeyleri
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Güvenlik Kaydırıcısının düzeyi arttırıldığında olası saldırılara karşı koruma sağlamak için belirli tarayıcı özellikleri tamamen ya da kısmen devre dışı bırakılır.
 

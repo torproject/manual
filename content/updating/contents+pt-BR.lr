@@ -14,15 +14,15 @@ O Navegador Tor deve ser atualizado sempre. Ao continuar usando uma versão obso
 O Navegador Tor exibirá um alerta para que você atualize o programa assim que uma nova versão for publicada: o ícone do Torbutton exibirá um triângulo amarelo, e você verá um indicação escrita de atualização quando o Navegador Tor abrir. Você poderá atualizar Tor automática ou manualmente. 
 
 ##### Como atualizar o Navegador Tor automaticamente
-  <img width="400" src="/static/images/update1.png" />
+  <img width="400" src="../../static/images/update1.png" />
 
 Ao ver o alerta para atualizar o Navegador Tor, clique no ícone do Torbutton. Em seguida, selecione “Aplicar a Atualização do Navegador Tor”. 
 
-  <img width="600" src="/static/images/update3.png" />
+  <img width="600" src="../../static/images/update3.png" />
 
 Quando o Navegador Tor tiver acabado de procurar atualizações, clique no botão "Atualizar".
 
-  <img width="600" src="/static/images/update4.png" />
+  <img width="600" src="../../static/images/update4.png" />
 Espere a atualização ser baixada e instalada e depois reinicie o Navegador Tor. Agora, você estará rodando a última versão.
 
 ##### Como atualizar o Navegador Tor manualmente

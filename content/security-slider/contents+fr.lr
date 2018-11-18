@@ -13,13 +13,13 @@ Le Navigateur Tor inclut un « curseur de sécurité » qui vous permet d’au
 
 ##### Accéder au bouton de sécurité coulissant
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 Le curseur de sécurité se trouve dans le menu « Paramètres de sécurité » du BoutonTor.
 
 ##### Les niveaux de sécurité
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 En augmentant le niveau du curseur de sécurité, vous désactiverez complètement ou partiellement certaines fonctions du navigateur afin de vous protéger contre les attaques potentielles.
 

@@ -20,7 +20,7 @@ Tor Browser memusatkan aktifitas berinternet seputar hubungan anda dengan situs 
 
 Disamping itu, setiap koneksi untuk alamat situs tunggal akan dibuat dengan sirkuit Tor yang sama, artinya anda dapat menjelajahi halaman yang berbeda pada sebuat situs tunggal pada tabs atau jendela yang berbeda, tanpa kehilangan satupun funsionalitas.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ Ketika anda masuk ke sebuah website memakai TOR, ada sejumlah hal yang mesti and
 
 ##### Mengubah identitas dan sirkuit
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 

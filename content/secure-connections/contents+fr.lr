@@ -11,11 +11,11 @@ key: 7
 body:
 Si des informations personnelles telles que des mots de passe de connexion voyagent sur Internet sans chiffrement, elles pourraient facilement être interceptées par des systèmes d’écoute. Si vous vous connectez dans des sites Web, vous devriez vous assurer que ces sites offrent le chiffrement HTTPS, chiffrement qui vous protège contre ce genre d’écoute. Vous pouvez le vérifier dans la barre d’URL :  si votre connexion est chiffrée, l’adresse commencera par « https:// » plutôt que par « http:// ».
 
-<img class="col-md-6" src="/static/images/https.png">
+<img class="col-md-6" src="../../static/images/https.png">
 
 La visualisation suivante montre quelles informations sont visibles pour les systèmes d’écoute avec et sans le Navigateur Tor et le chiffrement HTTPS :
 
-<img class="" src="/static/images/tor-and-https.svg">
+<img class="" src="../../static/images/tor-and-https.svg">
 
 * Cliquez sur le bouton « Tor » pour voir quelles données sont visibles pour les observateurs quand vous utilisez Tor. Le bouton deviendra vert pour indiquer que Tor est activé.
 * Cliquez sur le bouton « HTTPS » pour voir quelles données sont visibles pour les observateurs quand vous utilisez HTTPS. Le bouton deviendra vert pour indiquer que HTTPS est activé.

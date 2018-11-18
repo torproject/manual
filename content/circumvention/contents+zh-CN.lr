@@ -14,7 +14,7 @@ body:
 
 ##### 使用可插拔传输
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 为使用可插拔传输，在您初次运行 Tor 浏览器时点击 Tor 启动器窗口中的“配置”。
 
@@ -22,7 +22,7 @@ body:
 
 在询问您的互联网服务提供商 (ISP) 是否封锁了 Tor 网络连接时选择“是”。
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 选择“使用集成的网桥连接”，目前 Tor 浏览器有提供六个可插拔传输层供您选择。
 

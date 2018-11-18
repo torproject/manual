@@ -14,13 +14,13 @@ Nuair a úsáidfidh tú Brabhsálaí Tor den chéad uair, feicfidh tú an fhuinn
 
 ##### Ceangail
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 De ghnáth, bíonn tú ceangailte le líonra Tor tar éis duit "Ceangail" a chliceáil, gan chumraíocht sa bhreis a dhéanamh. Ansin, feicfidh tú barra stádais a thaispeánann dul chun cinn an cheangail. Má théann an barra seo in abar agus ceangal Idirlín measartha maith agat, féach ar an leathanach <a href="/troubleshooting">Fabhtcheartú</a> chun cúnamh a fháil.
 
 ##### Cumraigh
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Má tá a fhios agat go bhfuil do cheangal faoi chinsireacht, nó má úsáideann sé seachfhreastalaí, ba chóir duit é seo a roghnú. Treoróidh Brabhsálaí Tor tríd an bpróiseas cumraíochta thú.
 
@@ -28,6 +28,6 @@ Fiafraítear díot ar an chéad scáileán an bhfuil cosc ar líonra Tor nó an 
 
 Fiafraítear díot ar an chéad scáileán eile an úsáideann do cheangal seachfhreastalaí. Níl seachfhreastalaí ag teastáil an chuid is mó den am, agus dá mbeadh sé ag teastáil uaitse, is dócha go mbeadh a fhios agat cheana, toisc gur ghá na socruithe céanna a úsáid leis na brabhsálaithe eile ar do chóras. Más féidir, cuir ceist ar riarthóir do líonra. Mura n-úsáideann do cheangal seachfhreastalaí, cliceáil “Ar Aghaidh”.
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

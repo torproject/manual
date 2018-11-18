@@ -20,7 +20,7 @@ Le Navigateur Tor centre votre expérience Web sur votre relation avec le site W
 
 Par ailleurs, toutes les connexions vers une même adresse de site Web seront acheminées par le même circuit Tor, ce qui signifie que vous pouvez parcourir différentes pages d’un même site Web dans des onglets ou des fenêtres différents sans perte de fonctionnalité.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ En vous connectant à un site Web en utilisant Tor, il y a plusieurs considérat
 
 ##### Changer d’identité et de circuit
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Le navigateur Tor propose les options « Nouvelle identité » et « Nouveau circuit Tor pour ce site », situées dans le menu BoutonTor.
 

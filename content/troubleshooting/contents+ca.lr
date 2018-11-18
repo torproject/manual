@@ -11,7 +11,7 @@ key: 11
 body:
 Hauria de poder navegar pels webs mitjançant el navegador Tor executant el programa i fent clic a "Connectar" si l'està utilitzant per primer cop.
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 ##### Correccions ràpides
 

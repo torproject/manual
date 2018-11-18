@@ -20,7 +20,7 @@ Díríonn Brabhsálaí Tor d'eispéireas Gréasáin ar an ngaol idir tusa agus a
 
 Os a choinne sin, déanfar gach ceangal le suíomh amháin ar an gciorcad céanna Tor, rud a chiallaíonn gur féidir leat leathanaigh éagsúla ó shuíomh Gréasáin amháin a bhrabhsáil i gcluaisíní nó i bhfuinneoga éagsúla, gan chur isteach ar fheidhmiú an tsuímh.
 
-<img class="col-md-6" src="/static/images/circuit_full.png">
+<img class="col-md-6" src="../../static/images/circuit_full.png">
 
 Is féidir leat léaráid den chiorcad atá Brabhsálaí Tor ag úsáid sa chluaisín reatha a fháil sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.
 
@@ -39,7 +39,7 @@ Roinnt pointí ba chóir duit a choinneáil i gcuimhne nuair a logálann tú ist
 
 ##### Aitheantais agus ciorcaid a athrú
 
-<img class="col-md-6" src="/static/images/new_identity.png">
+<img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tá roghanna "Aitheantas Nua" agus "Ciorcad Nua Tor don Suíomh seo" ar fáil, i roghchlár an chnaipe Tor.
 

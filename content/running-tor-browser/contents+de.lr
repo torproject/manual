@@ -14,13 +14,13 @@ Wenn du den Tor Browser zum ersten Mal startest, wirst du das Fenster "Tor Netzw
 
 ##### Verbinden
 
-<img class="col-md-6" src="/static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png">
 
 In den meisten Fällen kannst du dich ohne weitere Konfiguration durch das Wählen von "Verbinden" mit dem Tor Netzwerk verbinden. Nach dem Klicken wird eine Fortschrittsanzeige eingeblendet, die den Verbindungsprozess anzeigt. Wenn du über eine relativ schnelle Verbindung verfügst, aber die Fortschrittsanzeige an einem bestimmten Punkt festzuhängen scheint, schaue bitte auf der Seite <a href="/troubleshooting">Fehlerbehebung</a> für weitere Hilfe um dieses Problem zu beheben.
 
 ##### Konfigurieren
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Wenn du weisst, dass deine Verbindung zensiert wird oder einen Proxy benutzt, dann solltest du diese Option wählen. Der Tor Browser wird dich durch eine Reihe von Konfigurationsoptionen führen.
 
@@ -28,6 +28,6 @@ Die erste Anzeige fragt, ob der Zugriff auf das Tor Netzwerk auf deiner Verbindu
 
 Die nächste Anzeige fragt ob deine Verbindung einen Proxy benötigt. In den meisten Fällen ist dies nicht erforderlich. Normalerweise weisst du es, wenn du hier "Ja" antworten musst, da die Einstellungen auch für andere Browser auf deinem System benutzt werden. Wenn möglich bitte deinen Netzwerkadministrator um Hilfe. Wenn deine Verbindung keinen Proxy verwendet, klicke auf "Fortfahren".
 
-<img class="col-md-6" src="/static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png">
 
-<img class="col-md-6" src="/static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png">

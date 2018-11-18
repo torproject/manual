@@ -14,7 +14,7 @@ Pode acontecer de o acesso direto à rede Tor ser bloqueado pelo seu provedor de
 
 ##### Usando transportes plugáveis
 
-<img class="col-md-6" src="/static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png">
 
 Para usar transportadores plugáveis, clique em "Configurar" na janela do Tor Launcher que aparece quando você começa a executar o Navegador Tor.
 
@@ -22,7 +22,7 @@ Você também pode configurar os transportadores plugáveis enquanto o Navegador
 
 Responda "sim" à questão sobre se o seu provedor de serviço de Internet bloqueia conexões à rede Tor.
 
-<img class="col-md-6" src="/static/images/bridges.png">
+<img class="col-md-6" src="../../static/images/bridges.png">
 
 Clique em "Conectar usando pontes fornecidas". Atualmente, o Navegador Tor possui seis opções de transportadores plugáveis para você escolher.
 

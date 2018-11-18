@@ -13,13 +13,13 @@ body:
 
 ##### Доступ к Slider безопасности
 
-<img class="col-md-6" src="/static/images/slider.png">
+<img class="col-md-6" src="../../static/images/slider.png">
 
 Ползунок управления уровнем безопасности расположен в меню настройках безопасности и конфиденциальности Torbutton.
 
 ##### Уровни безопасности
 
-<img class="col-md-6" src="/static/images/slider_window.png">
+<img class="col-md-6" src="../../static/images/slider_window.png">
 
 Увеличение уровня в переключателе безопасности отключает полностью или частично определенные возможности, чтобы защищать от возможных атак.
 
