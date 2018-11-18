@@ -30,4 +30,4 @@ body:
 
 	./start-tor-browser.desktop
 
-* Torrenting over Tor [doesn't hide your IP address](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+* BitTorrent  পরিস্কারভাবে <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">টর'র মধ্যে অজ্ঞাত নয়</a></mark>.

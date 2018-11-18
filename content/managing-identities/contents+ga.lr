@@ -22,9 +22,9 @@ Os a choinne sin, déanfar gach ceangal le suíomh amháin ar an gciorcad céann
 
 <img class="col-md-6" src="/static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Is féidir leat léaráid den chiorcad atá Brabhsálaí Tor ag úsáid sa chluaisín reatha a fháil sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+Is é an Garda (nó an nód iontrála) an chéad athsheachadán sa chiorcad. Roghnaíonn Tor go huathoibríoch agus go randamach é. Ach ní ionann é agus na hathsheachadáin eile sa chiorcad. Mar chosaint ar ionsaí aitheanta próifílithe, fanfaidh sé mar an chéad nód i do chiorcad ar feadh 2-3 mhí, i gcomparáid leis na hathsheachadáin eile a athraíonn gach uair a dtugann tú cuairt ar shuíomh nua. Chun tuilleadh eolais maidir le Gardaí a fháil, féach na <a href="https://www.torproject.org/docs/faq#EntryGuards">Ceisteanna Coitianta</a> agus an <a href="https://support.torproject.org/tbb/tbb-2/">Suíomh Tacaíochta</a>.
 
 ##### Logáil isteach trí Tor
 
@@ -50,4 +50,4 @@ Tá roghanna "Aitheantas Nua" agus "Ciorcad Nua Tor don Suíomh seo" ar fáil, i
 ##### Ciorcad Nua Tor don Suíomh seo
 
    Tá an rogha seo úsáideach mura bhfuil <a href="/about/#how-tor-works">an t-athsheachadán amach</a>  a úsáideann tú in ann ceangal a bhunú leis an suíomh atá uait, nó mura bhfuil sé ag lódáil i gceart. Má roghnaíonn tú é seo, athlódálfar an cluaisín nó an fhuinneog ghníomhach ar chiorcad nua Tor. Úsáidfidh cluaisíní nó fuinneoga oscailte eile ón suíomh céanna an ciorcad nua seo freisin chomh luath is a athlódálfar iad. Ní ghlanann an rogha seo aon fhaisnéis phríobháideach, ní dhínascann sé do ghníomhaíocht, agus ní théann sé i bhfeidhm ar cheangail le suímh eile.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   Gheobhaidh tú an rogha seo freisin sa taispeáint ar chiorcaid nua, sa roghchlár a thugann eolas faoin suíomh, sa mbarra URL.

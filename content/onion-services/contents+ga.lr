@@ -22,7 +22,7 @@ Tá roinnt buntáistí ag seirbhísí Onion ar ghnáthsheirbhísí an Ghréasái
 
 Go díreach cosúil le haon suíomh Gréasáin eile, teastaíonn uait seoladh na seirbhíse onion chun ceangal léi. Is éard atá i seoladh onion ná teaghrán de 16 (agus i bhformáid V3, 56) litir agus uimhir, randamach den chuid is mó, agus “.onion” ag an deireadh.
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+Nuair a thugann tú cuairt ar shuíomh a úsáideann seirbhís onion, taispeánann Brabhsálaí Tor oinniún beag glas sa mbarra URL a léiríonn staid an cheangail: slán agus seirbhís onion i bhfeidhm. Agus nuair a thugann tú cuairt ar shuíomh a úsáideann https agus seirbhís onion, taispeánann sé oinniún beag glas agus glas fraincín.
 
 ##### Fabhtcheartú
 

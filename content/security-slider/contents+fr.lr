@@ -35,7 +35,7 @@ Plus sûr
 </dt>
 <dd>
 À ce niveau, les contenus multimédias HTML5 deviennent cliquer-pour-lire avec NoScript ; toutes les optimisations des performances JavaScript sont désactivées ; certaines équations mathématiques pourraient ne pas s’afficher correctement ; certaines fonctions de rendu des polices sont désactivées ; certains types d’images sont désactivés ; et JavaScript est désactivé par défaut pour tous les sites <a href="/secure-connections">non HTTPS</a>.
-<dd>
+</dd>
 <dt>
 Normal
 </dt>

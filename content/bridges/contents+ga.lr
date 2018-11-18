@@ -24,11 +24,11 @@ Toisc nach bhfuil seoltaí droichid ar fáil go poiblí, caithfidh tú iad a iar
 
 Tar éis duit roinnt seoltaí droichid a fháil, caithfidh tú iad a chur isteach i dTosaitheoir Tor.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+Má tá tú ag úsáid Brabhsálaí Tor den chéad uair, cliceáil 'Cumraigh' chun Socruithe Líonra Tor a oscailt. Nó, cliceáil an cnaipe Tor ar chlé den bharra URL, ansin roghnaigh 'Socruithe Líonra Tor...' chun teacht ar na roghanna seo.
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+San fhuinneog Socruithe Líonra Tor, roghnaigh 'Déantar cinsireacht ar Tor sa tír seo.' Ansin, roghnaigh 'Úsáid droichead ar m'eolas' agus cuir gach seoladh droichid ar a líne féin.
 
-<img class="col-md-6" src="/static/images/tor-launcher-custom-bridges.png">
+<img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+Cliceáil "OK" chun na socruithe a shábháil. D'fhéadfadh sé go gcuirfidh na droichid moill ar an gceangal i gcomparáid le gnáthsheachadáin Tor.
 Má theipeann ar an gceangal, b'fhéidir go bhfuil na droichid a fuair tú as fearas. Sa chás sin, ba chóir duit tuilleadh droichead a fháil trí cheann de na modhanna thuas, ansin iarracht eile a dhéanamh.

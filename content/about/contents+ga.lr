@@ -4,7 +4,7 @@ title: Maidir le Brabhsálaí Tor
 ---
 description: Foghlaim conas is féidir Brabhsálaí Tor a úsáid chun do phríobháideachas agus d'aitheantas a chosaint ar líne
 ---
-seo_slug: about
+seo_slug: eolas
 ---
 key: 1
 ---
@@ -18,11 +18,11 @@ body:
 
 Chomh maith leis sin, déanann Brabhsálaí Tor a dhícheall cosc a chur ar “mhéarlorgaireacht”, is é sin bheith do d'aithint bunaithe ar chumraíocht do bhrabhsálaí.
 
-De réir réamhshocraithe, ní choinníonn Brabhsálaí Tor aon stair bhrabhsála. Bíonn fianáin bailí ar feadh seisiúin amháin (go dtí go scoirfidh tú de Tor, nó go dtí go n-iarrfaidh tú <a href="managing-identities#new-identity">Aitheantas Nua</a>).
+De réir réamhshocraithe, ní choinníonn Brabhsálaí Tor aon stair bhrabhsála. Bíonn fianáin bailí ar feadh seisiúin amháin (go dtí go scoirfidh tú de Tor, nó go dtí go n-iarrfaidh tú <a href="/managing-identities.html#new-identity">Aitheantas Nua</a>).
 
 ##### Cén chaoi a n-oibríonn Tor
 
-Is líonra tollán fíorúil é Tor a chabhraíonn leat do phríobháideachas agus do shlándáil ar an Idirlíon a fheabhsú. Seolann Tor do chuid tráchta trí trí fhreastalaí randamacha (a dtugtar <em>athsheachadáin</em> orthu) i líonra Tor. Ansin seolann an t-athsheachadán deireanach sa chiorcad ("an t-athsheachadán amach") an trácht amach go dtí an tIdirlíon poiblí.
+Is líonra tollán fíorúil é Tor a chabhraíonn leat do phríobháideachas agus do shlándáil ar an Idirlíon a fheabhsú. Seolann Tor do chuid tráchta trí trí fhreastalaí randamacha (a dtugtar *athsheachadáin* orthu) i líonra Tor. Ansin seolann an t-athsheachadán deireanach sa chiorcad ("an t-athsheachadán amach") an trácht amach go dtí an tIdirlíon poiblí.
 
 <img class="" src="/static/images/how-tor-works.png" alt="How Tor Browser works">
 
