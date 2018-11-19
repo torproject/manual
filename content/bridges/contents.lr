@@ -9,26 +9,303 @@ seo_slug: bridges
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
+[Obfuscated Bridges and Pluggable Transports](../transports) are [censorship circumvention tools](../circumvention) that manipulate all Tor traffic between the client and its first hop such that it is not identifiable as a Tor connection.
+If the censor can't decide if the connection is a Tor connection, then they are less likely to block it.
+This can be useful in situations where an Internet Service Provider or other anauthority is actively blocking connections to the Tor network.
+
+Bridge relays (or "bridges" for short) are Tor relays that aren't listed in the main Tor directory.
+Since there is no complete public list of them, even if your ISP is filtering connections to all the known Tor relays, they probably won't be able to block all the bridges.
+If you suspect your access to the Tor network is being blocked, you may want to use bridges.
+
+The addition of bridges to Tor is a step forward in the blocking resistance race.
+It is perfectly possible that even if your ISP filters the Internet, you do not require a bridge to use Tor.
+So you should try to use Tor without bridges first, since it might work.
+
+Otherwise you'll need to configure Tor Browser with whichever bridge address you intend to use.
+If your Internet connection requires the use of a proxy, you'll probably need to configure Tor Browser to use it first.
+If you don't think you need to configure a proxy for your Internet connection, you probably don't.
+
+To [use a bridge](#UsingBridges), you have several options.
+Tor Browser now provides some bridges by default.
+You can enable these easily.
+* [When Tor *does* work](#AddTorWorks)
+* [When Tor *doesn't* work](#AddTorNotWorks)
+
+Unfortunately, because these bridges are publically distributed, it is easy for censors to block some of them, so some of them may not work.
+In this case, you'll need to locate different bridges.
+* [Finding more bridges for Tor](#FindingMore)
+
+Give it a try and if you have issues, see the [troubleshooting](#Troubleshooting) section.
+
+If you want to contribute see [running a bridge](#RunningABridge).
+
+----
+
+<a id="Understanding"></a>
+
+##### Understanding A Bridge Configuration Line
+
+As an example, when you obtain a bridge from https://bridges.torproject.org, you'll get a bridge entry that looks like the following:
+```
+141.201.27.48:443 4352e58420e68f5e40bf7c74faddccd9d1349413
+```
+
+Understanding the components of a bridge line isn't strictly required but may prove useful.
+You can skip this section if you'd like.
+
+The first element is the IP address of the bridge: *'141.201.27.48'*
+
+The second element is the port number: *'443'*
+
+The third element, the fingerprint (unique identifier of the bridge), is optional:
+
+*'4352e58420e68f5e40bf7c74faddccd9d1349413'*
+
+![Obfsproxy](../static/images/bridges/icon-Obfsproxy.jpg "Obfsproxy")
+**Pluggable transports tip:**
+
+If your bridge line looks like this:
+```
+obfs4 141.201.27.48:420 4352e58420e68f5e40bf7c74faddccd9d1349413
+```
+
+The first element is the name of the pluggable transport technology used by the bridge.
+For example, in the case above, the bridge is using the *obfs4* pluggable transport.
+
+----
+
+<a id="UsingBridges"></a>
+
+##### Using bridges with Tor Browser
+
+Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
+
+* [Wen Tor *does* work](#AddTorWorks)
+* [When Tor *doesn't* work](#AddTorNotWorks)
+* [Finding more bridges for Tor](#FindingMore)
+* [Troubleshooting](#Troubleshooting)
+
+----
+
+<!-- TODO some screenshots in this section show Tor Launcher instead of Tor Browser's network settings -->
+<a id="AddTorWorks"></a>
+
+##### Using bridges in Tor Browser when Tor *does* work
+
+The following instructions assume Tor Browser successfully loads and you are able to surf the web.
+If you do not see the web browser when you run Tor Browser (like in step (1) below), you may need to follow the instructions for [when Tor *doesn't* work](#AddTorNotWorks)
+
+##### 1) Start Tor Browser
+
+![Tor Browser's Front Page](../static/images/tb-frontpage.png "Tor Browser's Front Page")
+
+##### 2) Network settings
+
+To begin using bridges, cick the Torbutton icon to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+![Tor Browser's Network settings](../static/images/tb-tor-button-menu.png "Tor Browser's Network settings")
+
+##### 3) Enable bridge
+
+Select "My Internet Service Provider (ISP) blocks connections to the Tor network".
+
+![tor launcher - select bridge](../static/images/bridges/tor-launcher-bridges.png "tor launcher - select bridge")
+
+##### 4) Select bridge
+
+Now you have three configuration options. You can use bridges which are preconfigured and provided with Tor Browser, you can request new bridges, or specify your own bridge(s).
+
+![Tor Browser's Bridge Configuration](../static/images/bridges/tor-launcher-bridges.png "Tor Browser's Bridge Configuration")
+
+##### 5a) Use provided bridge
+
+If you want to use one of the provided bridges, then choose one of the offered transport types. 
+
+![Tor Browser's Bridge Configuration page - provided bridges](../static/images/bridges/tor-launcher-bridges-provided.png "Tor Browser's Bridge Configuration page - provided bridges")
+
+obfs4 is currently recommend, but depending on where you are located [another one](../transports) may work better for you.
+
+![Tor Browser's Bridge Configuration - obfs4](../static/images/bridges/tor-launcher-obfs4.png "Tor Browser's Bridge Configuration - obfs4")
+
+##### 5b) Request bridge (moat)
+
+If none of the provided bridges works for you, try "Request a bridge from torproject.org":
+
+![Tor Browser's Bridge Configuration page - request bridges](../static/images/bridges/tor-launcher-request-bridges.png "Tor Browser's Bridge Configuration page - request bridges")
+
+![Tor Browser's Bridge Configuration page - connect to request bridges](../static/images/bridges/tor-launcher-request-bridges-connect.png "Tor Browser's Bridge Configuration page - connect to request bridges")
+
+![Tor Browser's Bridge Configuration page - enter captcha to request bridges](../static/images/bridges/tor-launcher-request-bridges-captcha.png "Tor Browser's Bridge Configuration page - enter captcha to request bridges")
+
+![Tor Browser's Bridge Configuration page - received bridges](../static/images/bridges/tor-launcher-request-bridges-success.png "Tor Browser's Bridge Configuration page - received bridges")
+
+##### 5c) Use custom bridge
+
+To use a [custom bridge](#FindingMore) select "Provide a bridge I know".
+
+![Tor Browser's Bridge Configuration page - provide bridges](../static/images/bridges/tor-launcher-provide-bridge.png "Tor Browser's Bridge Configuration page - provide bridges")
+
+Tor will only use one bridge at a time, but it is good to add more than one bridge so you can continue using Tor even if your first bridge becomes unavailable.
+
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please read on to obtain more bridge addresses, and try again.
+
+If this does not work, see the [troubleshooting section](#Troubleshooting) below.
+
+----
+
+<a id="AddTorNotWorks"></a>
+
+##### Using bridges in Tor Browser when Tor *does not* work
+
+First, you should read the [FAQ about problems with running Tor properly](https://www.torproject.org/docs/faq.html.en#DoesntWork) when you have issues.
+Sometimes Tor does not work due to a silly mistake rather than your ISP interfering with your Internet connection.
+
+###### 1) Configuration page
+
+To use a bridge, follow the instructions on screen. Click the "Configure" button.
+
+![Tor Browser's Initial Configuration page](../static/images/bridges/tor-launcher-startup.png "Tor Browser's Initial Configuration page")
+
+###### 2) Network settings
+
+Proxy and Censorship prevention settings are now on one page.
+If your Internet Service Provider (ISP) blocks or otherwise censors connections to the Tor Network, tick this checkbox.
+
+![Tor Browser's Network settings](../static/images/bridges/tor-launcher-network-settings.png "Tor Browser's Network settings")
+
+###### 3) Proxy settings
+
+ If you must configure a proxy then, activate the second checkbox and enter the details.
+
+![Tor Browser's Proxy settings](../static/images/bridges/tor-launcher-proxy.png "Tor Browser's Proxy settings")
+
+###### 4) Bridge Configuration
+
+Now you have three configuration options. You can use bridges which are preconfigured and provided with Tor Browser, you can specify your own bridge(s), or request bridges.
+
+![Tor Browser's Bridge Configuration](../static/images/bridges/tor-launcher-bridges.png "Tor Browser's Bridge Configuration")
+
+###### 5a) Provided bridges
+
+If you want to use one of the provided bridges, then choose one of the offered transport types.
+
+![Tor Browser's Bridge Configuration - provided bridges](../static/images/bridges/tor-launcher-bridges-provided.png "Tor Browser's Bridge Configuration page - provided bridges")
+
+obfs4 is currently recommend, but depending on where you are located [another one](../transports) may work better for you.
+
+![Tor Browser's Bridge Configuration - obfs4](../static/images/bridges/tor-launcher-obfs4.png "Tor Browser's Bridge Configuration - obfs4")
+
+###### 5b) Request bridge (moat)
+
+If none of the provided bridges works for you, try to request one:
+
+![Tor Browser's Bridge Configuration page - request bridges](../static/images/bridges/tor-launcher-request-bridges.png "Tor Browser's Bridge Configuration page - request bridges")
+
+![Tor Browser's Bridge Configuration page - connect to request bridges](../static/images/bridges/tor-launcher-request-bridges-connect.png "Tor Browser's Bridge Configuration page - connect to request bridges")
+
+![Tor Browser's Bridge Configuration page - enter captcha to request bridges](../static/images/bridges/tor-launcher-request-bridges-captcha.png "Tor Browser's Bridge Configuration page - enter captcha to request bridges")
+
+![Tor Browser's Bridge Configuration page - received bridges](../static/images/bridges/tor-launcher-request-bridges-success.png "Tor Browser's Bridge Configuration page - received bridges")
+
+###### 5c) Use custom bridge
+
+To use a [custom bridge](#FindingMore) select "Provide a bridge I know".
+
+![Tor Browser's Bridge Configuration page - provide bridge(s)](../static/images/bridges/tor-launcher-provide-bridge.png "Tor Browser's Bridge Configuration page - provide bridge(s)")
+
+###### 6) Connect to a bridge
+
+After you decide which bridges you want to use, click "Connect". Tor should now be able to load successfully and the browser window should appear.
+
+![Tor Browser's Front Page](../static/images/tb-frontpage.png "Tor Browser's Front Page")
+
+----
+
+<a id="Troubleshooting"></a>
+
+##### Troubleshooting
+
+Sometimes the bootstrapping gets stuck at some point, for example when a bridge went offline, the connection is blocked, or when the Pluggable Transport is hit by a bug.
+
+![Tor Browser's Bootstrapping](../static/images/bridges/tor-launcher-bootstrap.png "Tor Browser's Bootstrapping")
+
+![Tor Browser's Bootstrapping](../static/images/bridges/tor-launcher-bootstrap-failed.png "Tor Browser's Bootstrapping")
+
+Note that it's also possible that Tor is non-functional for other reasons.
+The latest version of [Tor Browser](/about) tries to give you better hints about why Tor is having problems connecting.
+You should also read [the FAQ about problems with running Tor properly](https://www.torproject.org/docs/faq.html.en#DoesntWork) when you have issues.
+If you feel that the issue is clearly related to Tor being blocked, or you'd simply like to try because you're unsure or feeling adventurous, please read on.
+Ensure that you're using the [latest Tor Browser for your platform](/downloading).
+
+Ideally it works after some tries, using a different bridge, or restarting the browser.
+If not, remove the Tor Browser folder and extract the archive again.
+It should work now.
+If it still fails, we want to [hear from you](https://www.torproject.org/about/contact.html.en#support)!
+
+If you have any questions, please [contact us](https://www.torproject.org/about/contact.html.en#support)
+
+----
+
+<a id="FindingMore"></a>
 
 ##### Getting bridge addresses
 
 Because bridge addresses are not public, you will need to request them yourself. You have two options:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+If you need to get bridges, you can get a bridge by visiting [bridges.torproject.org](https://bridges.torproject.org) with your web browser.
 
-##### Entering bridge addresses
+You can also get bridges by sending en email to *bridges@bridges.torproject.org* with the line *"get bridges"* by itself in the body of the mail.
+You'll need to send this request from a Gmail, Riseup!, or Yahoo! account, though &mdash; we only accept these providers because otherwise we make it too easy for an attacker to make a lot of email addresses and learn about all the bridges.
+Almost instantly, you'll receive a reply that includes:
+```
+Here are your bridges:
 
-Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
+60.16.182.53:9001
+87.237.118.139:444
+60.63.97.221:443
+```
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+Similarly, if you need bridges with a specific pluggable transport, the process is just as easy.
+First, decide which type you want.
+Currently we provide obfs2, obfs3, obfs4, scramblesuit, and fte.
+If you don't know which one you should choose, then obfs4 is usually a good choice.
+Send an email to *bridges@bridges.torproject.org* with *"get transport obfs4"* by itself in the body of the email (replace "obfs4" with whichever pluggable transport you want to use).
+You should receive an email like this:
+```
+Here are your bridges:
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+obfs4 60.16.182.53:9001 cc8ca10a63aae8176a52ca5129ce816d011523f5
+obfs4 87.237.118.139:444 0ed110497858f784dfd32d448dc8c0b93fee20ca
+obfs4 60.63.97.221:443 daa5e435819275f88d695cb7fce73ed986878cf3
+```
 
-<img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
+Once you've received the email with bridge information, you can continue the configuration steps outlined [above](#UsingBridges).
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+----
+
+<!-- TODO this section may be out of date and should be checked against the current relay guide -->
+<a id="RunningABridge"></a>
+
+##### Running a Tor Bridge
+
+If you want to help out, you should [decide whether you want to run a normal Tor relay or a bridge relay](https://www.torproject.org/docs/faq.html.en#RelayOrBridge).
+You can configure your bridge either manually or graphically:
+
+* manually [edit your torrc file](https://www.torproject.org/docs/faq.html.en#torrc) to be just these four lines:
+```
+SocksPort 0
+ORPort auto
+BridgeRelay 1
+Exitpolicy reject *:*
+```
+
+When configured as a bridge, your server will **not** appear in the public Tor network.
+
+Your bridge relay will automatically publish its address to the bridge authority, which will give it out via https or email as above.
+You can construct the bridge address using the [format above](#Understanding) (you can find the fingerprint in your Tor log files or in */var/lib/tor/fingerprint* depending on your platform).
+
+If you would like to learn more about our bridge design from a technical standpoint, please read the [Tor bridges specification](https://gitweb.torproject.org/torspec.git/tree/attic/bridges-spec.txt.
+If you're interested in running an unpublished bridge or other non-standard uses, please do read the specification.
+
