@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Seirbhísí Onion
+title: Onion Services
 ---
-description: Seirbhísí ar fáil trí Tor amháin
+description: Services that are only accessible using Tor
 ---
 seo_slug: onion-services
 ---
@@ -10,24 +10,24 @@ key: 6
 ---
 body:
 
-Is éard atá i Seirbhísí Onion ("seirbhísí folaithe" roimhe seo) ná seirbhísí (ar nós suíomh Gréasáin) nach bhfuil ar fáil ach trí Líonra Tor.
+Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
 
-Tá roinnt buntáistí ag seirbhísí Onion ar ghnáthsheirbhísí an Ghréasáin phoiblí:
+Onion services offer several advantages over ordinary services on the non-private web:
 
-* Coinnítear an áit ina bhfuil an tseirbhís onion i bhfolach, chomh maith lena seoladh IP, sa chaoi go mbeadh sé níos deacra cinsireacht a dhéanamh uirthi, nó stiúrthóirí na seirbhíse a aithint.
-* Déantar criptiú ar an trácht go léir idir úsáideoirí Tor agus seirbhísí Onion ó cheann go ceann, sa dóigh nach gá duit <a href="/secure-connections">ceangal HTTPS a úsáid</a> riamh.
-* Gintear seoladh na seirbhíse Onion go huathoibríoch. Mar sin, ní gá don oibreoir ainm fearainn a cheannach, agus cinntíonn an URL .onion go bhfuil Tor ag ceangal leis an suíomh ceart agus nach bhfuil aon duine ag cur isteach ar an gceangal.
+* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
+* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
+* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
 
-##### Conas Seirbhís Onion a rochtain
+##### How to access an onion service
 
-Go díreach cosúil le haon suíomh Gréasáin eile, teastaíonn uait seoladh na seirbhíse onion chun ceangal léi. Is éard atá i seoladh onion ná teaghrán de 16 (agus i bhformáid V3, 56) litir agus uimhir, randamach den chuid is mó, agus “.onion” ag an deireadh.
+Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
 
-Nuair a thugann tú cuairt ar shuíomh a úsáideann seirbhís onion, taispeánann Brabhsálaí Tor oinniún beag glas sa mbarra URL a léiríonn staid an cheangail: slán agus seirbhís onion i bhfeidhm. Agus nuair a thugann tú cuairt ar shuíomh a úsáideann https agus seirbhís onion, taispeánann sé oinniún beag glas agus glas fraincín.
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Fabhtcheartú
+##### Troubleshooting
 
-Murar féidir leat an tseirbhís onion atá uait a bhaint amach, deimhnigh gur chuir tú an seoladh onion isteach i gceart: chuirfeadh fiú botún beag Brabhsálaí Tor ar strae agus ní bheadh Brabhsálaí Tor in ann an tseirbhís a bhaint amach.
+If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
 
-Murar féidir leat ceangal leis an tseirbhís onion fós, bain triail eile as ar ball. B'fhéidir go bhfuil fadhb shealadach leis an líonra, nó b'fhéidir gur lig stiúrthóirí an tsuímh dó dul as líne gan rabhadh.
+If you are still unable to connect to the onion service, please try again later. There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
 
-Agus is féidir leat deimhniú go bhfuil tú in ann seirbhísí Onion eile a rochtain trí cheangal a bhunú le <a href="http://3g2upl4pq6kufc4m.onion/">Seirbhís Onion DuckDuckGo</a>
+You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

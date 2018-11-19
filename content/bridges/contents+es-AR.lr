@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: Puentes
+title: Bridges
 ---
-description: La mayoría de los transportes insertables, tales como obfs3 y obfs4, se apoyan para su funcionamiento en el uso de relevos "puente".
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
-seo_slug: puentes
+seo_slug: bridges
 ---
 key: 4
 ---
 body:
-La mayoría de los <a href="/transports">transportes insertables</a>, tales como obfs3 y obfs4, se apoyan para su funcionamiento en el uso de relevos "puente". Como los relevos Tor ordinarios, los puentes son operados por voluntarios; sin embargo, y a diferencia de éstos, no son listados públicamente, por lo que un adversario no puede identificarlos fácilmente. Usando puentes en combinación con transportes insertables ayuda a enmascarar el hecho de que estás usando Tor.
+Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Otros transportes insertables, como meek, usan distintas técnicas anti-censura que no requieren puentes. No necesitás obtener direcciones de puente para poder utilizar estos transportes.
+Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
-##### Obteniendo direcciones de puentes
+##### Getting bridge addresses
 
-Porque para un puente las direcciones no son públicas, necesitarás requerirlos por vos mismo. Tenés dos opciones:
+Because bridge addresses are not public, you will need to request them yourself. You have two options:
 
-* Visitá https://bridges.torproject.org/ y seguí las instrucciones, o
-* Enviá un correo electrónico a bridges@torproject.org desde una dirección de Gmail, Yahoo o Riseup
+* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Introduciendo direcciones de puente
+##### Entering bridge addresses
 
-Una vez que hayas obtenido algunas direcciones de puentes, necesitarás entrarlas en el lanzador de Tor.
+Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
-Si estás iniciando el navegador Tor por primera vez, cliqueá 'Configurar' para abrir la ventana Ajustes de red de Tor. De otra manera, cliqueá el Botón Tor a la izquierda de de la barra URL, luego seleccioná 'Ajustes de red de Tor...' para acceder a éstas opciones.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 
-En la ventana Ajustes de red de Tor, seleccioná 'Tor está censurado en mi país'. Luego, seleccioná 'Proveer un puente que conozco' e ingresá cada dirección de puente en una línea separada.
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Cliqueá "Aceptar" para salvar tus cambios. El uso de puentes puede hacer la conexión más lenta comparado con el uso de relevos Tor ordinarios.
-Si la conexión falla, los puentes que recibiste pueden estar caídos. Por favor usá uno de los métodos mencionados más arriba para obtener más direcciones de puente, y tratá de nuevo.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

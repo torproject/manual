@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Íoslódáil
+title: Downloading
 ---
-description: Conas Brabhsálaí Tor a íoslódáil
+description: How to download Tor Browser
 ---
 seo_slug: downloading
 ---
@@ -10,24 +10,24 @@ key: 2
 ---
 body:
 
-Is é íoslódáil ó shuíomh oifigiúil Tor https://www.torproject.org an bealach is fusa is sábháilte chun Brabhsálaí Tor a fháil. Ceanglóidh tú leis an suíomh trí <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, ionas go mbeidh sé níos deacra do bhradaí ionsaí a dhéanamh ar an gceangal. 
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-Uaireanta ní bheidh tú in ann suíomh oifigiúil Thionscadal Tor a rochtain; mar shampla, dá mbeadh cosc air ar do líonra. Má tharlaíonn sé seo, is féidir leat ceann de na modhanna malartacha seo a leanas a úsáid chun Tor a íoslódáil.
+However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
 
 ##### GetTor
 
-Is éard atá in GetTor ná seirbhís a fhreagraíonn teachtaireachtaí le nascanna leis an leagan is déanaí de Bhrabhsálaí Tor, óstáilte in áiteanna éagsúla, ar nós Dropbox, Tiomántán Google, agus Github.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-##### Le GetTor a úsáid trí ríomhphost:
+###### To use GetTor via email:
 
-Seol teachtaireacht rphoist chuig gettor@torproject.org agus cuir an focal amháín “windows”, “osx”, nó “linux” (gan comharthaí athfhriotail) i gcorp na teachtaireachta, ag brath ar an gcóras oibriúcháin atá agat.
+Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
-Seolfaidh GetTor ríomhphost ar ais chugat ina bhfuil nascanna le pacáiste Brabhsálaí Tor, leis an síniú cripteagrafach (chun an íoslódáil a dheimhniú), le méarlorg na heochrach a úsáideadh chun an síniú a dhéanamh, agus le suim sheiceála an phacáiste. Seans go mbeidh deis agat leagan “32-giotán” nó “64-giotán” a íoslódáil; braitheann sé ar an ríomhaire a úsáideann tú.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
-##### Le GetTor a úsáid trí Twitter:
+###### To use GetTor via Twitter:
 
-Más mian leat Brabhsálaí Tor i mBéarla ar OS X a íoslódáil, seol Teachtaireacht Dhíreach chuig @get_tor leis na focail "osx en" (ní gá duit an cuntas a leanúint), agus gheobhaidh tú nasc lena íoslódáil.
+To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
 
-##### Le GetTor a úsáid trí Jabber/XMPP (Jitsi, CoyIM, srl.):
+###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-Más mian leat Brabhsálaí Tor i Sínis ar Linux a íoslódáil, seol teachtaireacht chuig gettor@torproject.org leis na focail "linux zh" inti agus gheobhaidh tú nasc lena íoslódáil.
+To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Γνωστά ζητήματα
+title: Known issues
 ---
-description: Γνωστά ζητήματα
+description: Known issues
 ---
 seo_slug: uninstalling
 ---
@@ -10,24 +10,24 @@ key: 12
 ---
 body:
 
-* Το Tor χρειάζεται να είναι το ρολόι συστήματος (και η ζώνη ώρας) ρυθμισμένα στη σωστή ώρα.
+* Tor needs your system clock (and your time zone) set to the correct time.
 
-* Τα ακόλουθα προγράμματα τείχους προστασίας είναι γνωστό οτι παρεμβαίνουν στο Tor και μπορεί να χρειαστεί να απενεργοποιηθούν προσωρινά.
+* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac
   * Microsoft Security Essentials
 
-* Βίντεο που χρειάζονται Adobe Flash δεν είναι διαθέσιμα. Το Flash είναι απενεργοποιημένο για λόγους ασφαλείας.
+* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
 
-* Το Tor δεν μπορεί να χρησιμοποιήσει γέφυρες αν έχει οριστεί proxy.
+* Tor can not use a bridge if a proxy is set.
 
-* Το πακέτο του Tor Browser έχει ρυθμισμένη ημερομηνία την 1η Ιανουαρίου του 2000 και ώρα 00:00:00 UTC. Αυτό γίνεται για να διασφαλιστεί ότι κάθε αντίγραφο του λογισμικού είναι ακριβώς ίδιο με τα υπόλοιπα. 
+* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
 
-* Για να εκτελέσετε τον Tor Browser στο Ubuntu, οι χρήστες πρέπει να εκτελέσουν ένα shell script.. Ανοίξτε την επιλογή "Αρχεία" (Unity's explorer), ανοίξτε τις Προτιμήσεις → Καρτέλα Συμπεριφοράς → Ορίστε "Εκτέλεση εκτελέσιμων αρχείων κειμένου όταν έχουν ανοιχθεί" στο "Ρώτα κάθε φορά" και, στη συνέχεια, κάντε κλικ στο OK.
+* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
 
-* Ο Tor Browser μπορεί επίσης να ξεκινήσει από τη γραμμή εντολών, εκτελώντας την ακόλουθη εντολή μέσα στο φάκελο του Tor Browser:
+* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
 
 	./start-tor-browser.desktop
 
-* Το BitTorrent συγκεκριμένα <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">δεν είναι ανώνυμο μέσω του Tor</a></mark>.
+* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.

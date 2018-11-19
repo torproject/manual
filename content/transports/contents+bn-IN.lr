@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: প্ল্যাগেবল ট্রান্সপোর্টগুলি
+title: Pluggable transports
 ---
 description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
 ---
@@ -9,11 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-প্ল্যাগেবল ট্রান্সফর্মগুলি এমন সরঞ্জামগুলি যা টরকে ট্র্যাফিকের ছদ্মবেশে ব্যবহার করতে পারে। এটি একটি ইন্টারনেট পরিষেবা সরবরাহকারী বা অন্য কর্তৃপক্ষ সক্রিয়ভাবে টর নেটওয়ার্ক সংযোগ সংযোগ অবরোধ যেখানে পরিস্থিতিতে দরকারী হতে পারে।
+Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
 
-##### প্ল্যাগেবল ট্রান্সপোর্টের ধরন
+##### Types of pluggable transport
 
-বর্তমানে ছয়টি প্ল্যাগেবল ট্রান্সপোর্টগুলি পাওয়া যায়, তবে আরো উন্নত করা হচ্ছে।
+Currently there are six pluggable transports available, but more are being developed.
 
 <table>
 <tbody>
@@ -30,7 +30,7 @@ body:
     obfs4
 </td>
 <td>
-    obfs4 টর ট্র্যাফিকটি অ্যামফস 3 এর মতো র্যান্ডম দেখায়, এবং ইন্টারনেট স্ক্যানিং দ্বারা ব্রিজ খুঁজে পেতে সেন্সরগুলিকেও প্রতিরোধ করে। obfs4 ব্রিজ obfs3 ব্রিজের চেয়ে ব্লক করা সম্ভবত কম।
+    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ body:
 FTE
 </td>
 <td>
-    FTE (ফরম্যাট-রূপান্তর এনক্রিপশন) সাধারণ ওয়েব (HTTP) ট্র্যাফিক হিসাবে টর ট্রাফিক ছদ্মবেশ।
+    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    এই সব transports আপনি টর ব্যবহার করার পরিবর্তে একটি প্রধান ওয়েব সাইট ব্রাউজ করা হয় মত দেখতে এটি। নমস্কার-আ্যামোজান এটি দেখায় যে আপনি অ্যামাজন ওয়েব পরিষেবা ব্যবহার করছেন; মেকার-অজর এটি একটি মাইক্রোসফ্ট ওয়েব সাইট ব্যবহার করে দেখায়; এবং নিখুঁত-গুগল এটি দেখায় যে আপনি গুগল অনুসন্ধান ব্যবহার করছেন।
+    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
 <tr class="odd">

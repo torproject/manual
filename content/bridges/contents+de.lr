@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: Brücken
+title: Bridges
 ---
-description: Die meisten austauschbaren Übertragungsarten wie obfs3 und obfs 4 sind auf das Benutzen von "Brücken"-Relays angewiesen.
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
-seo_slug: Brücken
+seo_slug: bridges
 ---
 key: 4
 ---
 body:
-Die meisten <a href="/transports">austauschbaren Übertragungsarten</a> wie obfs3 und obfs 4 sind auf das Benutzen von "Brücken"-Relays angewiesen. Wie normale Tor-Relays werden Brücken von ehrenamtlichen Helfern betrieben. Im Gegensatz zu normalen Relays sind diese jedoch nicht öffentlich gelistet, sodass sie von einem Angreifer nicht so einfach identifiziert werden können. Brücken in Kombination mit austauschbaren Übertragungsarten zu verwenden hilft, zu verbergen dass du Tor benutzt.
+Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Andere austauschbare Übertragungsarten wie meek benutzen verschiedene Anti-Zensur-Techniken, welche nicht auf Brücken vertrauen. Du musst dir keine Adresse einer Brücke beschaffen, um diese Übertragungsarten zu verwenden.
+Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
-##### Erhalte die Adressen der Brücken
+##### Getting bridge addresses
 
-Weil die Adressen der Brücken nicht öffentlich sind, musst du sie selber anfragen. Du hast zwei Möglichkeiten:
+Because bridge addresses are not public, you will need to request them yourself. You have two options:
 
-* Besuche https://bridges.torproject.org/ und folge den Anweisungen oder
-* Schreibe eine E-Mail an bridges@torproject.org von einer Gmail-, Yahoo- oder Riseup-E-Mail-Adresse oder
+* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Eingeben der Brücken Adressen
+##### Entering bridge addresses
 
-Solltest du einmal einige Brücken Adressen erhalten haben, wirst du sie im Tor Launcher eingeben müssen.
+Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
-Wenn du den Tor-Browser zum ersten Mal startest, klickst du auf "Konfigurieren", um das Fenster Tor-Netzwerkeinstellungen zu öffnen. Andernfalls klickst du auf den Torbutton links neben der URL-Leiste und wählst dann'Tor Network Settings...', um auf diese Optionen zuzugreifen.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 
-Wähle im Fenster Tor-Netzwerkeinstellungen die Option "Tor wird in meinem Land zensiert". Wähle dann 'Eine mir bekannte Brücke bereitstellen' und gib jede Brückenadresse in eine separate Zeile ein.
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Klicke auf "OK", um deine Einstellungen zu speichern. Die Verwendung von Brücken kann die Verbindung im Vergleich zu herkömmlichen Tor-Relays verlangsamen.
-Wenn die Verbindung fehlschlägt, kann es daran liegen, dass die Brücken nicht mehr aktiv sind. Bitte verwende eine der oben genannten Methoden, um mehr Brückenadressen zu erhalten und versuche es noch einmal. 
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

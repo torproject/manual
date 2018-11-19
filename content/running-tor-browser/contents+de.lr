@@ -1,32 +1,32 @@
 _model: topic
 ---
-title: Tor Browser zum ersten Mal ausführen
+title: Running Tor Browser for the first time
 ---
-description: Erfahre, wie du den Tor-Browser zum ersten Mal verwendest
+description: Learn how to use Tor Browser for the first time
 ---
-seo_slug: laufender-tor-browser
+seo_slug: running-tor-browser
 ---
 key: 3
 ---
 body:
 
-Wenn du den Tor Browser zum ersten Mal startest, wirst du das Fenster "Tor Netzwerkeinstellungen" sehen. Es bietet Optionen, sich direkt mit dem Tor Netzwerk zu verbinden oder den Tor Browser für deine Verbindung zu konfigurieren.
+When you run Tor Browser for the first time, you will see the Tor Network Settings window. This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
 
-##### Verbinden
+##### Connect
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-In den meisten Fällen kannst du dich ohne weitere Konfiguration durch das Wählen von "Verbinden" mit dem Tor Netzwerk verbinden. Nach dem Klicken wird eine Fortschrittsanzeige eingeblendet, die den Verbindungsprozess anzeigt. Wenn du über eine relativ schnelle Verbindung verfügst, aber die Fortschrittsanzeige an einem bestimmten Punkt festzuhängen scheint, schaue bitte auf der Seite <a href="/troubleshooting">Fehlerbehebung</a> für weitere Hilfe um dieses Problem zu beheben.
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### Konfigurieren
+##### Configure
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-Wenn du weisst, dass deine Verbindung zensiert wird oder einen Proxy benutzt, dann solltest du diese Option wählen. Der Tor Browser wird dich durch eine Reihe von Konfigurationsoptionen führen.
+If you know that your connection is censored, or uses a proxy, you should select this option. Tor Browser will take you through a series of configuration options.
 
-Die erste Anzeige fragt, ob der Zugriff auf das Tor Netzwerk auf deiner Verbindung blockiert oder zensiert wird. Wenn du nicht glaubst, dass dies der Fall ist, wähle "Nein". Wenn du weisst, dass deine Verbindung zensiert wird, oder du bereits versucht hast dich mit dem Tor Netzwerk zu verbinden und keine andere Möglichkeit funktioniert hat, wähle "Ja". Du wirst anschließend zum Fenster <a href="/circumvention">Umgehungsmaßnahmen </a> geleitet, um eine andere Übertragungsart zu konfigurieren.
+The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-Die nächste Anzeige fragt ob deine Verbindung einen Proxy benötigt. In den meisten Fällen ist dies nicht erforderlich. Normalerweise weisst du es, wenn du hier "Ja" antworten musst, da die Einstellungen auch für andere Browser auf deinem System benutzt werden. Wenn möglich bitte deinen Netzwerkadministrator um Hilfe. Wenn deine Verbindung keinen Proxy verwendet, klicke auf "Fortfahren".
+The next screen asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Continue”.
 
 <img class="col-md-6" src="../../static/images/proxy_question.png">
 

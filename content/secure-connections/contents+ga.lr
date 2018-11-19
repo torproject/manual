@@ -1,64 +1,64 @@
 _model: topic
 ---
-title: Ceangail Shlána
+title: Secure Connections
 ---
-description: Foghlaim conas is féidir do chuid sonraí a chosaint le Brabhsálaí Tor agus HTTPS
+description: Learn how to protect your data using Tor Browser and HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-Má sheolann tú sonraí phearsanta, mar shampla focail fhaire, ar an Idirlíon gan chriptiú, tá sé an-éasca do chúléisteoir iad a idircheapadh. Má tá tú ag logáil isteach i suíomh Gréasáin, ba chóir duit deimhniú go n-úsáideann an suíomh criptiú HTTPS, rud a chosnaíonn ar an sórt seo cúléisteachta thú.  Is féidir leat é seo a dheimhniú sa bharra URL: má tá do cheangal criptithe, tosóidh an seoladh le “https://”, in áit “http://”.
+If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
 
 <img class="col-md-6" src="../../static/images/https.png">
 
-Taispeánann an pictiúr seo an t-eolas atá cúléisteoirí in ann a fheiceáil le Brabhsálaí Tor agus criptiú HTTPS, agus gan iad:
+The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
 
 <img class="" src="../../static/images/tor-and-https.svg">
 
-* Tar éis duit an cnaipe “Tor” a chliceáil, taispeánfar na sonraí a bhíonn cúléisteoirí in ann a fheiceáil nuair a úsáideann tú Tor. Iompóidh an cnaipe uaine mar léiriú go bhfuil Tor ar siúl.
-* Tar éis duit an cnaipe “HTTPS” a chliceáil, taispeánfar na sonraí a bhíonn cúléisteoirí in ann a fheiceáil nuair a úsáideann tú HTTPS. Iompóidh an cnaipe uaine mar léiriú go bhfuil HTTPS ar siúl.
-* Nuair a bhíonn an dá chnaipe uaine, léiríonn sé na sonraí a bhíonn cúléisteoirí in ann a fheiceáil nuair a úsáideann tú Tor agus HTTPS le chéile.
-* Nuair a bhíonn an dá chnaipe liath, léiríonn sé na sonraí a bhíonn cúléisteoirí in ann a fheiceáil nuair nach n-úsáideann tú Tor ná HTTPS.
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
+* When both buttons are green, you see the data that is visible to observers when you are using both tools.
+* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
-##### Sonraí a d'fhéadfadh a bheith infheicthe
+##### Potentially visible data
 
 <dl>
 
 <dt>
-Tuairisc.ie
+Site.com
 </dt>
   <dd>
-    An suíomh a dtugtar cuairt air.
+    The site being visited.
   </dd>
 
 <dt>
-úsáideoir / focal faire
+user / pw
 </dt>
   <dd>
-    Ainm úsáideora agus focal faire a úsáidtear le fíordheimhniú.
+    Username and password used for authentication.
   </dd>
 
 <dt>
-sonraí
+data
 </dt>
   <dd>
-    Na sonraí á n-aistriú.
+    Data being transmitted.
   </dd>
 
 <dt>
-suíomh
+location
 </dt>
   <dd>
-    Seoladh an ríomhaire a úsáideadh chun cuairt a thabhairt ar an suíomh (an seoladh IP poiblí).
+    Network location of the computer used to visit the website (the public IP address).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    An bhfuil Tor in úsáid nó nach bhfuil.
+    Whether or not Tor is being used.
   </dd>
 
 </dl>

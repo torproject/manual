@@ -1,64 +1,64 @@
 _model: topic
 ---
-title: 安全连接
+title: Secure Connections
 ---
-description: 了解如何使用 Tor 浏览器与 HTTPS 保护您的数据
+description: Learn how to protect your data using Tor Browser and HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-如果登录帐号及密码等个人数据是以未经加密的形态在网络上发送，那任何网络监听者都可以轻易地拦截和窃取此信息。因此，每当您尝试登录某个网站时，应当要先确认该网站是否有提供 HTTPS 加密连接，以确保您的个人数据安全。确认的方式非常简单，只需注意观察其网址的部分，若是以“https://”开头，则表示连接处于加密状态，但若开头为“http://”，则该连接上所传输的数据都未被加密。
+If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
 
 <img class="col-md-6" src="../../static/images/https.png">
 
-下方的展示呈现了有使用以及没有使用 Tor 浏览器与 HTTPS 加密连接时，网络监听者可以拦截窃取到的数据种类：
+The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
 
 <img class="" src="../../static/images/tor-and-https.svg">
 
-* 点击“Tor”按钮可以查看当您未使用洋葱路由时，有哪些数据可以让网络监听者直接拦截获取，当此按钮呈现绿色状态时，表示洋葱路由功能已经启动。
-* 您可以点击“HTTPS”功能按钮来查看当 HTTPS 启用时，有哪些数据仍然可能被网络监听者拦截窃取。而当此按钮呈现绿色状态时，表示 HTTPS 功能已经启动。
-* 当两个按钮都为绿色状态时，您可以看到在这两个功能都同时启动的状态下，网络监听者依能够窃取到的数据有哪些。
-* 而当这两个按钮都呈现灰色时，您则可以查看当这两个功能都在关闭的状态下时，网络监听者能够拦截窃取到的数据有哪些。
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
+* When both buttons are green, you see the data that is visible to observers when you are using both tools.
+* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
-##### 潜在的可见数据
+##### Potentially visible data
 
 <dl>
 
 <dt>
-网站.com
+Site.com
 </dt>
   <dd>
-    被访问的网站。
+    The site being visited.
   </dd>
 
 <dt>
-用户名/密码
+user / pw
 </dt>
   <dd>
-    用于身份验证的用户名和密码。
+    Username and password used for authentication.
   </dd>
 
 <dt>
-数据
+data
 </dt>
   <dd>
-    被传输的数据。
+    Data being transmitted.
   </dd>
 
 <dt>
-所处位置
+location
 </dt>
   <dd>
-    访问网站的计算机的网络位置（公网IP地址）。
+    Network location of the computer used to visit the website (the public IP address).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    是否使用了 Tor。
+    Whether or not Tor is being used.
   </dd>
 
 </dl>

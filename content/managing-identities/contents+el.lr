@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Διαχείριση ταυτοτήτων
+title: Managing identities
 ---
-description: Μάθετε πώς να ελέγχετε τις πληροφορίες προσωπικής ταυτοποίησης στον Tor Browser
+description: Learn how to control personally-identifying information in Tor Browser
 ---
 seo_slug: managing-identities
 ---
@@ -10,15 +10,15 @@ key: 5
 ---
 body:
 
-Όταν συνδέεστε σε μία ιστοσελίδα, μόνο οι διαχειριστές αυτής της ιστοσελίδας μπορούν να καταγράψουν πληροφορίες σχετικά με την επίσκεψή σας. Οι περισσότερες ιστοσελίδες χρησιμοποιούν πολλές τρίτες υπηρεσίες, συμπεριλαμβανομένων και των "Like" στα κοινωνικά δίκτυα, των εντοπιστών ανάλυσης και των διαφημήσεων, που όλα τους μπορούν να συνδέσουν την δραστηριότητά σας σε διάφορα σάιτ.
+When you connect to a website, it is not only the operators of that website who can record information about your visit. Most websites now use numerous third-party services, including social networking “Like” buttons, analytics trackers, and advertising beacons, all of which can link your activity across different sites.
 
-Η χρήση του Tor σταματάει τους παρατηρητές από το να βρουν την ακριβή τοποθεσία σας και την διεύθυνση ΙΡ σας, αλλά και χωρίς αυτές τις πληροφορίες μπορούν να συνδέσουν την δραστηριότητά σας σε διάφορους χώρους. Γι' αυτόν το λόγο ο Tor Browser περιλαμβάνει επιπρόσθετες υπηρεσίες που σας βοηθούν να ελέγξετε ποιες πληροφορίες θα συνδεθούν με την ταυτότητά σας.
+Using the Tor network stops observers from being able to discover your exact location and IP address, but even without this information they might be able to link different areas of your activity together. For this reason, Tor Browser includes some additional features that help you control what information can be tied to your identity.
 
-##### Η γραμμή διευθύνσεων
+##### The URL bar
 
-Ο Tor Browser επικεντρώνει την εμπειρία σας στο διαδίκτυο γύρω από τη σχέση σας με την ιστοσελίδα στη γραμμή διεύθυνσης. Ακόμα και αν συνδεθείτε σε δύο διαφορετικούς ιστοσελίδες που χρησιμοποιούν την ίδια υπηρεσία παρακολούθησης τρίτου μέρους, ο Tor Browser θα αναγκάσει το περιεχόμενο να προβάλλεται σε δύο διαφορετικά κυκλώματα Tor, οπότε ο tracker δεν θα γνωρίζει ότι και οι δύο συνδέσεις προέρχονται από το browser σας.
+Tor Browser centers your web experience around your relationship with the website in the URL bar. Even if you connect to two different sites that use the same third-party tracking service, Tor Browser will force the content to be served over two different Tor circuits, so the tracker will not know that both connections originate from your browser.
 
-Από την άλλη όλες οι συνδέσεις σε μία ιστοσελίδα θα γίνονται από το ίδιο κύκλωμα του Tor, που σημαίνει ότι μπορείς να περιηγηθείτε στις σελίδες μιας ιστοσελίδας σε ξεχωριστές καρτέλες ή παράθυρα χωρίς να χάνουν λειτουργικότητα.
+On the other hand, all connections to a single website address will be made over the same Tor circuit, meaning you can browse different pages of a single website in separate tabs or windows, without any loss of functionality.
 
 <img class="col-md-6" src="../../static/images/circuit_full.png">
 
@@ -26,28 +26,28 @@ You can see a diagram of the circuit that Tor Browser is using for the current t
 
 In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 
-##### Σύνδεση μέσω Tor
+##### Logging in over Tor
 
-Παρόλο που ο Tor Browser έχει σχεδιαστεί για να επιτρέπει την πλήρη ανωνυμία του χρήστη στον ιστό, ενδέχεται να υπάρχουν καταστάσεις όπου έχει νόημα η χρήση του Tor με ιστοσελίδες που απαιτούν ονόματα χρήστη, κωδικούς πρόσβασης ή άλλες πληροφορίες ταυτοποίησης.
+Although Tor Browser is designed to enable total user anonymity on the web, there may be situations in which it makes sense to use Tor with websites that require usernames, passwords, or other identifying information.
 
-Αν συνδεθείτε σε μια ιστοσελίδα χρησιμοποιώντας έναν κανονικό περιηγητή, αποκαλύπτετε επίσης τη διεύθυνση IP και τη γεωγραφική θέση σας κατά διαδικασία. Το ίδιο ισχύει συχνά όταν στέλνετε ένα email. Η σύνδεση με τους λογαριασμούς κοινωνικής δικτύωσης ή λογαριασμούς email χρησιμοποιώντας τον Tor Browser σας επιτρέπει να επιλέξετε ακριβώς ποιες πληροφορίες αποκαλύπτετε στις ιστοσελίδες που περιηγείστε. Η σύνδεση με τον Tor Browser είναι επίσης χρήσιμη εάν η ιστοσελίδα που προσπαθείτε να επισκεφθείτε έχει λογοκριθεί στο δίκτυό σας.
+If you log into a website using a regular browser, you also reveal your IP address and geographical location in the process. The same is often true when you send an email. Logging into your social networking or email accounts using Tor Browser allows you to choose exactly which information you reveal to the websites you browse. Logging in using Tor Browser is also useful if the website you are trying to reach is censored on your network.
 
-Όταν συνδέεστε σε έναν ιστότοπο μέσω του Tor, υπάρχουν πολλά σημεία που πρέπει να έχετε κατά νου:
+When you log in to a website over Tor, there are several points you should bear in mind:
 
-* Ανατρέξτε στη σελίδα <a href="secure-connections">Ασφαλείς Συνδέσεις</a> για σημαντικές πληροφορίες σχετικά με το πως να ασφαλίσετε τη σύνδεσή σας όταν συνδέεστε.
-* Ο Tor Browser συχνά κάνει τη σύνδεσή σας να εμφανίζεται σαν να προέρχεται από ένα εντελώς διαφορετικό μέρος του κόσμου. Ορισμένες ιστοσελίδες, όπως τράπεζες ή πάροχοι email, ενδέχεται να το ερμηνεύσουν ως σημάδι ότι ο λογαριασμός σας έχει παραβιαστεί και να κλειδώσουν το λογαριασμό σας. Ο μόνος τρόπος για να επιλυθεί αυτό είναι να ακολουθήσετε τη διαδικασία που προτείνεται στην ιστοσελίδα για την επαναφορά λογαριασμού, ή να επικοινωνήσετε με τους διαχειριστές της και να εξηγήσετε την κατάσταση.
+* See the  <a href="/secure-connections">Secure Connections</a> page for important information on how to secure your connection when logging in.
+* Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
 
-##### Αλλάζοντας ταυτότητες και δίκτυα
+##### Changing identities and circuits
 
 <img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 
-##### Νέα Ταυτότητα
+###### New Identity
 
-   Η επιλογή αυτή είναι χρήσιμη αν θέλετε να αποφύγετε να συνδέεται η δράση του περιηγητή σας με όσα κάνατε στο παρελθόν. Η επιλογή αυτή θα κλείσει όλες τις ανοιχτές καρτέλες και τα παράθυρά σας, θα διαγράψει τις προσωπικές σας πληροφορίες, όπως τα cookies και το ιστορικό σας και θα κάνει χρήση νέων κυκλωμάτων του Tor ανά σύνδεση. Ο περιηγητής Tor θα σας προειδοποιήσει για να σταματήσετε κάθε δραστηριότητα και κατέβασμα. Όποτε θυμηθείτε τα αυτά, πριν επιλέξετε τη "Νέα Ταυτότητα".
+   This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
 
-##### Νέο κύκλωμα Tor για αυτήν την ιστοσελίδα
+###### New Tor circuit for this site
 
-   Αυτή η επιλογή είναι χρήσιμη εάν ο <a href="/about/#how-tor-works">κόμβος εξόδου</a> που χρησιμοποιείτε δεν είναι σε θέση να συνδεθεί στην ιστοσελίδα που χρειάζεστε ή δεν την φορτώνει σωστά. Η επιλογή του θα προκαλέσει την επαναφόρτωση της τρέχουσας καρτέλας ή του παραθύρου μέσω ενός νέου κυκλώματος Tor. Άλλες ανοιχτές καρτέλες και παράθυρα από την ίδια ιστοσελίδα θα χρησιμοποιήσουν το νέο κύκλωμα μόλις φορτωθούν ξανά. Αυτή η επιλογή δεν εκκαθαρίζει καμία ιδιωτική πληροφορία ούτε αποσυνδέει τη δραστηριότητά σας, ούτε επηρεάζει τις τρέχουσες συνδέσεις σας με άλλες ιστοσελίδες.
+   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
    You can also access this option in the new circuit display, in the site information menu, in the URL bar.

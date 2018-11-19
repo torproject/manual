@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: La gestion des identités
+title: Managing identities
 ---
-description: Apprenez à contrôler dans le Navigateur Tor les renseignements permettant d’identifier quelqu’un
+description: Learn how to control personally-identifying information in Tor Browser
 ---
 seo_slug: managing-identities
 ---
@@ -10,15 +10,15 @@ key: 5
 ---
 body:
 
-Quand vous vous connectez à un site Web, les exploitants de ce site Web ne sont pas les seuls à pouvoir enregistrer les informations concernant votre visite. La plupart des sites Web utilisent maintenant de nombreux services tiers, incluant les boutons « J’aime » du réseautage social, les systèmes de suivi analytique et les balises publicitaires qui peuvent tous associer votre activité d’un site à l’autre.
+When you connect to a website, it is not only the operators of that website who can record information about your visit. Most websites now use numerous third-party services, including social networking “Like” buttons, analytics trackers, and advertising beacons, all of which can link your activity across different sites.
 
-L’utilisation du réseau Tor empêche ceux qui vous observent  de découvrir votre lieu exact et votre adresse IP, mais même sans ces informations, ils pourraient associer vos différentes activités. Pour cette raison, le Navigateur Tor comprend des fonctions supplémentaires qui vous aident à contrôler les informations qui peuvent être liées à votre identité.
+Using the Tor network stops observers from being able to discover your exact location and IP address, but even without this information they might be able to link different areas of your activity together. For this reason, Tor Browser includes some additional features that help you control what information can be tied to your identity.
 
-##### La barre d’URL
+##### The URL bar
 
-Le Navigateur Tor centre votre expérience Web sur votre relation avec le site Web dans la barre d’URL. Même si vous vous connectez à deux sites différents qui utilisent le même service tiers de suivi à la trace, le Navigateur Tor forcera que le contenu soit servi par deux circuits Tor différents, et ainsi le service de suivi ne saura pas que les deux connexions proviennent de votre navigateur.
+Tor Browser centers your web experience around your relationship with the website in the URL bar. Even if you connect to two different sites that use the same third-party tracking service, Tor Browser will force the content to be served over two different Tor circuits, so the tracker will not know that both connections originate from your browser.
 
-Par ailleurs, toutes les connexions vers une même adresse de site Web seront acheminées par le même circuit Tor, ce qui signifie que vous pouvez parcourir différentes pages d’un même site Web dans des onglets ou des fenêtres différents sans perte de fonctionnalité.
+On the other hand, all connections to a single website address will be made over the same Tor circuit, meaning you can browse different pages of a single website in separate tabs or windows, without any loss of functionality.
 
 <img class="col-md-6" src="../../static/images/circuit_full.png">
 
@@ -26,28 +26,28 @@ You can see a diagram of the circuit that Tor Browser is using for the current t
 
 In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 
-##### Se connecter en utilisant Tor
+##### Logging in over Tor
 
-Bien que le Navigateur Tor est conçu pour permettre l’anonymat absolu de l’utilisateur sur le Web, certaines situations pourraient justifier d’utiliser Tor avec des sites Web qui exigent des noms d’utilisateur, des mots de passe ou d’autres informations permettant de vous identifier.
+Although Tor Browser is designed to enable total user anonymity on the web, there may be situations in which it makes sense to use Tor with websites that require usernames, passwords, or other identifying information.
 
-Si vous vous connectez à un site Web en utilisant un navigateur ordinaire, vous révélez aussi votre adresse IP et votre emplacement géographique. C’est souvent aussi le cas quand vous envoyez un courriel. En vous connectant à vos comptes de réseautage social ou de courriel en utilisant le Navigateur Tor vous pouvez choisir exactement les informations que vous révélez aux sites Web que vous parcourez. Il est aussi utile de vous connecter avec le Navigateur Tor si le site Web que vous tentez de joindre est censuré sur votre réseau.
+If you log into a website using a regular browser, you also reveal your IP address and geographical location in the process. The same is often true when you send an email. Logging into your social networking or email accounts using Tor Browser allows you to choose exactly which information you reveal to the websites you browse. Logging in using Tor Browser is also useful if the website you are trying to reach is censored on your network.
 
-En vous connectant à un site Web en utilisant Tor, il y a plusieurs considérations que vous devriez garder à l’esprit :
+When you log in to a website over Tor, there are several points you should bear in mind:
 
-* Consultez la page <a href="secure-connections">Les connexions sécurisées</a> pour obtenir des informations importantes sur la sécurisation de votre connexion lors d’une authentification.
-* Avec le Navigateur Tor, votre connexion semble souvent provenir d’une partie du monde totalement différente. Certains sites Web tels que les banques et les fournisseurs de service de courriel pourraient l’interpréter comme un signe que votre compte a été piraté ou compromis et vous interdire l’accès. La seule façon de résoudre ce problème est en suivant la procédure de récupération de compte recommandée par le site, ou en contactant les exploitants des sites et en expliquant la situation.
+* See the  <a href="/secure-connections">Secure Connections</a> page for important information on how to secure your connection when logging in.
+* Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
 
-##### Changer d’identité et de circuit
+##### Changing identities and circuits
 
 <img class="col-md-6" src="../../static/images/new_identity.png">
 
-Le navigateur Tor propose les options « Nouvelle identité » et « Nouveau circuit Tor pour ce site », situées dans le menu BoutonTor.
+Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 
-##### Nouvelle identité
+###### New Identity
 
-   Cette action est utile si vous souhaitez empêcher que l’activité  ultérieure de votre navigateur ne puisse être reliée à ce que vous faisiez avant. En la sélectionnant, tous vos fenêtres et onglets ouverts seront fermés, toutes les informations confidentielles telles que les fichiers témoins et l’historique de navigation seront effacées, et de nouveaux circuits Tor seront utilisés pour toutes les connexions. Le Navigateur Tor vous avertira de l’arrêt de toutes les activités et téléchargements. Prenez-le donc en compte avant de cliquer sur « Nouvelle identité ».
+   This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
 
-##### Nouveau circuit Tor pour ce site
+###### New Tor circuit for this site
 
-   Cette option est utile si le <a href="/about-tor-browser#how-tor-works">relais de sortie</a> ne peut pas se connecter au site Web que vous demandez, ou ne le charge pas correctement. En la sélectionnant, la fenêtre ou l’onglet actif sera rechargé sur un nouveau circuit Tor. Les autres fenêtres ou onglets ouverts à partir du même site Web utiliseront aussi le nouveau circuit après avoir été rechargés. Cette option n’efface aucune information confidentielle, ne délie pas votre activité, ni n’affecte vos connexions actuelles vers d’autres sites Web.
+   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
    You can also access this option in the new circuit display, in the site information menu, in the URL bar.

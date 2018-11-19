@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: 可插拔传输
+title: Pluggable transports
 ---
 description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
 ---
@@ -9,11 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-可插拔传输层 是一种洋葱路由用来伪装其传输的数据信号之特殊工具，当您的网络服务供应商或所处的网络环境会过滤阻挡通往洋葱路由网络的连接时，此工具即可发挥其功用。
+Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
 
-##### 可插拔传输的类型
+##### Types of pluggable transport
 
-目前有六种可插拔传输可用，更多机制正在开发。
+Currently there are six pluggable transports available, but more are being developed.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ body:
     obfs3
 </td>
 <td>
-    obfs3使洋葱路由的流量看起来像是随机，从而使网络过滤阻档机制难以判定此网络连接是洋葱路由或是其他网络协议。虽然仍然包含在默认选项之下，但我们建议用户使用obfs4，因为它比obfs3有多处安全性改进。
+    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ body:
     obfs4
 </td>
 <td>
-    obfs4 可以像 obfs3 一样让洋葱路由所发送的网络信号看起来像是随机乱数一般，并且还可以避免网络过滤监控机制利用网段扫描法找出网桥的地址，因此相较之下 obfs4 网桥更难以被网络监控过滤机制阻挡。
+    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ body:
 FTE
 </td>
 <td>
-    FTE（变形加密）可将 Tor 的网络传输乔装打扮为普通网络（HTTP）数据。
+    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    这些 可插拔传输层 都可以让您在使用洋葱路由来上网时，在网络上传输的数据信号看起来就像是在浏览普通网站一样，meek-amazon 可以让您的网络信号看起来像是在访问亚马逊网络服务一样；meek-azure 则可以让您的网络信号看起来像是正在使用微软的网络云端服务一般；而 meek-google 会让您的网络信号看起来像是在使用谷歌搜索引擎一样。
+    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake是对Flashproxy的改进。 它通过WebRTC发送您的流量，WebRTC是一种具有内置网络地址转换（NAT）穿透的对等（P2P）协议。
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>

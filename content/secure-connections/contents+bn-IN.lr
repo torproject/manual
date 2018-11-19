@@ -1,28 +1,28 @@
 _model: topic
 ---
-title: নিরাপদ সংযোগগুলি
+title: Secure Connections
 ---
-description: টর ব্রাউজার এবং HTTPS ব্যবহার করে আপনার ডেটা সুরক্ষিত করার পদ্ধতি শিখুন
+description: Learn how to protect your data using Tor Browser and HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-যদি কোনও ব্যক্তিগত তথ্য যেমন লগইন পাসওয়ার্ড ইন্টারনেটে অ্যানক্রিপটেড ভ্রমণ করে, তবে এটি খুব সহজেই একটি ছলচাতুরী দ্বারা আটকানো যায়। যদি আপনি কোনও ওয়েবসাইটে লগ ইন করেন, তবে আপনি নিশ্চিত হবেন যে এই সাইটটি HTTPS এনক্রিপশন অফার করে, যা এই ধরনের eavesdropping এর বিরুদ্ধে রক্ষা করে। আপনি URL বারে এটি যাচাই করতে পারেন: আপনার সংযোগ এনক্রিপ্ট করা হলে, ঠিকানাটি "http: //" এর পরিবর্তে "https: //" দিয়ে শুরু হবে।
+If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
 
 <img class="col-md-6" src="../../static/images/https.png">
 
-নীচের ভিজ্যুয়ালাইজেশানটি দেখায় যে টর ব্রাউজার এবং HTTPS এনক্রিপশনের সাথে এবং ছাড়া ছাড়া কী eavesdroppers দেখতে হয়:
+The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
 
 <img class="" src="../../static/images/tor-and-https.svg">
 
-* আপনি Tor ব্যবহার করছেন যখন পর্যবেক্ষক দৃশ্যমান কি দেখতে "টর" বোতাম ক্লিক করুন। যে টরটি চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।
-* আপনি যখন HTTPS ব্যবহার করছেন তখন পর্যবেক্ষকদের কাছে যে ডেটা দৃশ্যমান তা দেখতে "HTTPS" বোতামটি ক্লিক করুন। যে HTTPS চালু আছে তা নির্দেশ করার জন্য বোতামটি সবুজ হয়ে যাবে।
-* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।
-* যখন উভয় বোতামগুলি সবুজ হয়, তখন আপনি দেখতে পান যে আপনি উভয় সরঞ্জামগুলি ব্যবহার করছেন তখন আপনি দেখতে পাবেন এমন ডেটা দেখুন।
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
+* When both buttons are green, you see the data that is visible to observers when you are using both tools.
+* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
-##### সম্ভাব্য দৃশ্যমান ডেটা
+##### Potentially visible data
 
 <dl>
 
@@ -30,35 +30,35 @@ body:
 Site.com
 </dt>
   <dd>
-    সাইট পরিদর্শন করা হচ্ছে।
+    The site being visited.
   </dd>
 
 <dt>
 user / pw
 </dt>
   <dd>
-    ব্যবহারকারীর নাম এবং পাসওয়ার্ড প্রমাণীকরণের জন্য ব্যবহৃত।
+    Username and password used for authentication.
   </dd>
 
 <dt>
-ডাটা
+data
 </dt>
   <dd>
-    তথ্য প্রেরণ করা হচ্ছে।
+    Data being transmitted.
   </dd>
 
 <dt>
-অবস্থান
+location
 </dt>
   <dd>
-    ওয়েবসাইটের জন্য ব্যবহৃত কম্পিউটারের নেটওয়ার্ক স্থান (পাবলিক আইপি ঠিকানা)।
+    Network location of the computer used to visit the website (the public IP address).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    টর্চ ব্যবহার করা হচ্ছে কিনা বা না।
+    Whether or not Tor is being used.
   </dd>
 
 </dl>

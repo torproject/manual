@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Mengunduh
+title: Downloading
 ---
-description: Bagaimana mengunduh Tor Browser
+description: How to download Tor Browser
 ---
-seo_slug: Mengunduh
+seo_slug: downloading
 ---
 key: 2
 ---
 body:
 
-Cara aman dan mudah untuk mengunduh TOR Browser yaitu berasal dari situs resmi TOR Project  https:/www.torproject.org. Koneksi ke situs akan terlindungi dengan menggunakan <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, sehingga ini akan membuat seseorang sulit melakukan gangguan.
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-Namun, dalam sejumlah kasus anda tak bisa mengakses situs TOR Project: misalnya, situs ini diblokir oleh jaringan Anda. Jika ini terjadi, Anda bisa menggunakan sejumlah jalur alternatif unduhan seperti daftar di bawah ini.
+However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
 
 ##### GetTor
 
-GetTor adalah sebuah servise yang secara otomatis menjawab pesan dengan tautan pada versi terakhir dari TorBrowser, penerima diberbagai lokasi, seperti Dropbox, Google Drive dan GitHub..
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-##### Menggunakan GetTor lewat email:
+###### To use GetTor via email:
 
-Kirim email ke gettor@torproject.org, dan di dalam pesan tulislah "windows", "osx", atau "linux", (tanpa tanda kutip) tergantung sistem operasi ada.
+Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
-GetTor akan merespon dengan email yang memuat tautan dari sumber pengunduh paket Tor Browser, tanda tangan kriptografi (diperlukan untuk memverikasi unduhan), sidik jari pengguna utama yang akan digunakan untuk membuat tanda tangan, dan paket checksum. Anda akan di tawarkan dengan  dua pilihan  perangkat lunak: '32 bit" atau 64 bit. Pilihan ini tergantung dengan model komputer yang anda gunakan.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
-##### Mengunakan GetTor melalui Twitter
+###### To use GetTor via Twitter:
 
-Untuk mendapatkan tautan guna mengunduh Tor browser dalam bahasa Inggris pada OS X, kirimlah email langsung ke @get_tor dengan subjek  "osx en"  (anda tidak perlu mengikuti akun tersebut).
+To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
 
-##### Untuk menggunakan GetTor melalui Jabber/XMPP (Jitsi, CoyIM):
+###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-Untuk  mendapatkan tautan guna mengunduh Tor Browser dalam bahasa China untu Linux, kirimkan sebuah email ke gettor@torproject.org dengan subjek "linux zh".
+To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.

@@ -1,28 +1,28 @@
 _model: topic
 ---
-title: Güvenli Bağlantılar
+title: Secure Connections
 ---
-description: Verilerinizi Tor Browser ve HTTPS kullanarak nasıl koruyabilirsiniz
+description: Learn how to protect your data using Tor Browser and HTTPS
 ---
 seo_slug: secure-connections
 ---
 key: 7
 ---
 body:
-Oturum açma parolası gibi kişisel bilgiler şifrelenmemiş olarak İnternet üzerine gönderilirse, ağı izleyebilecek bir kişi ya da kuruluş tarafından kolayca elde edilebilir. Herhangi bir web sitesinde oturum açıyorsanız, sitenin bu tür bir izlemeye karşı HTTPS şifreleme hizmeti sunduğundan emin olmanız gerekir. Bunu adres çubuğundan görebilirsiniz: Bağlantınız şifreli ise, adresin başında "http://" yerine "https://" bulunur.
+If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
 
 <img class="col-md-6" src="../../static/images/https.png">
 
-Tor Browser ve HTTPS şifrelemesinin bulunduğu ve bulunmadığı durumlarda sizi izleyebilecek kişi ya da kuruluşların hangi bilgilere erişebileceğini aşağıda görebilirsiniz:
+The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
 
 <img class="" src="../../static/images/tor-and-https.svg">
 
-* Tor kullanırken ağı izleyenlerin elde edebileceği bilgileri görmek için "Tor" düğmesine tıklayın. Tor açık olduğunda düğme yeşil renkte olur.
-* HTTPS kullanırken ağı izleyenlerin elde edebileceği bilgileri görmek için "HTTPS" düğmesine tıklayın. HTTPS açık olduğunda düğme yeşil renkte olur.
-* Her iki düğme de yeşil renk olduğunda, her iki araç kullanılırken ağı izleyenlerin elde edebileceği bilgileri görürsünüz.
-* Her iki düğmede gri renkte olduğunda, her iki araç kullanılmazken ağı izleyenlerin elde edebileceği bilgileri görürsünüz.
+* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
+* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
+* When both buttons are green, you see the data that is visible to observers when you are using both tools.
+* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
-##### Elde edilebilecek bilgiler
+##### Potentially visible data
 
 <dl>
 
@@ -30,35 +30,35 @@ Tor Browser ve HTTPS şifrelemesinin bulunduğu ve bulunmadığı durumlarda siz
 Site.com
 </dt>
   <dd>
-    Ziyaret edilen site.
+    The site being visited.
   </dd>
 
 <dt>
-kul / par
+user / pw
 </dt>
   <dd>
-    Kimlik doğrulaması için kullanılan kullanıcı adı ve parola.
+    Username and password used for authentication.
   </dd>
 
 <dt>
-veri
+data
 </dt>
   <dd>
-    İletilen veriler.
+    Data being transmitted.
   </dd>
 
 <dt>
-konum
+location
 </dt>
   <dd>
-    Web sitesini ziyaret eden bilgisayarın ağ konumu (herkese açık IP adresi).
+    Network location of the computer used to visit the website (the public IP address).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    Tor kullanılıp kullanılmadığı.
+    Whether or not Tor is being used.
   </dd>
 
 </dl>

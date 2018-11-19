@@ -1,22 +1,22 @@
 _model: topic
 ---
-title: Deinstallieren
+title: Uninstalling
 ---
-description: So entfernst du den Tor-Browser von deinem System
+description: How to remove Tor Browser from your system
 ---
-seo_slug: Deinstallieren
+seo_slug: uninstalling
 ---
 key: 12
 ---
 body:
-Der Tor Browser beeinträchtigt keine andere existierende Anwendung oder Einstellungen auf deinem Computer. Das Deinstallieren des Tor Browsers wird sich nicht auf die Anwendungen oder Einstellungen deines Systems auswirken.
+Tor Browser does not affect any of the existing software or settings on your computer. Uninstalling Tor Browser will not affect your system’s software or settings.
 
-Das Entfernen des Tor-Browsers von deinem System ist einfach:
+Removing Tor Browser from your system is simple:
 
-1. Platziere den Ordner für den Tor-Browser. Der Standardort befindet sich unter Windows auf dem Desktop, und auf Mac OS X im Ordner Programme. Auf Linux ist kein Standardort festgelegt, jedoch wird der Ordner bei Verwendung des englischen Tor-Browsers "tor-browser_en-US" genannt werden.
+1. Locate your Tor Browser folder. The default location on Windows is the Desktop; on Mac OS X it is the Applications folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
 
-2. Lösche den Tor-Browser-Ordner.
+2. Delete the Tor Browser folder.
 
-3. Leere deinen Papierkorb
+3. Empty your Trash
 
-Beachte, dass das standardmäßige Dienstprogramm "Uninstall" deines Betriebssystems nicht verwendet wird.
+Note that your operating system’s standard “Uninstall” utility is not used.

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Преземање
+title: Downloading
 ---
-description: Како да го преземете Tor Browser
+description: How to download Tor Browser
 ---
 seo_slug: downloading
 ---
@@ -10,24 +10,24 @@ key: 2
 ---
 body:
 
-Најбезбедниот и наједноставниот начин за преземање на Tor Browser е од официјалната Tor Project веб страна на https://www.torproject.org. Вашата конекција до страната ќе биде обезбедена со користење на <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, што ќе направи да биде многу потешко за некој да го пресретне Интернет сообраќајот.
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-Како и да е, постојат случаи кога нема да можете да пристапите на страната на Tor Project, на пример: може да биде блокирана на вашата мрежа. Ако ова се случи, можете да користите еден од алтернативните методи за преземање од листата подолу. 
+However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
 
 ##### GetTor
 
-GetTor е услуга која што автоматски одговара на пораки со линкови до најновите верзии на Tor Browser, хостирани на различни локации, како што се Dropbox, Google Drive and GitHub.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-##### Да го користите GetTor преку е-пошта:
+###### To use GetTor via email:
 
-Пратете е-пошта на gettor@torproject.org, и во пораката пишете единствено „windows“, „osx“, или „linux“, (без наводниците) зависно од вашиот оперативен систем.
+Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
-GetTor ќе ви одговори со е-пошта што содржи линкови од кои можете да го преземете Tor Browser пакетот, криптираниот потпис (потребен за верификација на преземањето), отпечатокот од клучот користен за создавање на потписот, и контолната сума или попозната како хаш вредноста на пакетот. Може ќе ви бидете понуден избор помеѓу 32-битен и 64-битен софтвер: ова зависи од моделот на компјутер кој го користите.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
-##### За да користите GetTor преку Твитер:
+###### To use GetTor via Twitter:
 
-За да добиете линкови за преземање на Tor Browser на англиски за OS X, испратете директна порака на @get_tor со зборовите "osx en" во неа (не е потребено да го следите и сметката).
+To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
 
-##### За да го користите GetTor преку Jabber/XMPP (Jitsi, CoyIM, итн.):
+###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-За да добиете линкови за преземање на Tor Browser на кинески за Линукс, испратете порака на gettor@torproject.org со зборовите "linux zh" во неа.
+To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.

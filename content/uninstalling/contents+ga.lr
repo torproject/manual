@@ -1,22 +1,22 @@
 _model: topic
 ---
-title: Díshuiteáil
+title: Uninstalling
 ---
-description: Conas Brabhsálaí Tor a bhaint de do chóras
+description: How to remove Tor Browser from your system
 ---
 seo_slug: uninstalling
 ---
 key: 12
 ---
 body:
-Ní théann Brabhsálaí Tor i bhfeidhm ar aon bhogearraí eile ar do ríomhaire, ná ar shocruithe do chórais. Má bhaineann tú Brabhsálaí Tor de do ríomhaire, ní rachaidh sé i bhfeidhm ar bhogearraí ná ar shocruithe do chórais.
+Tor Browser does not affect any of the existing software or settings on your computer. Uninstalling Tor Browser will not affect your system’s software or settings.
 
-Tá sé an-éasca Brabhsálaí Tor a bhaint de do chóras:
+Removing Tor Browser from your system is simple:
 
-1. Aimsigh fillteán Bhrabhsálaí Tor. Seo é an Deasc de réir réamhshocraithe ar Windows, agus an fillteán Applications ar Mac OS X. Níl aon suíomh réamhshocraithe ar Linux, ach is é "tor-browser_en-US" ainm an fhillteáin má tá an leagan Béarla agat.
+1. Locate your Tor Browser folder. The default location on Windows is the Desktop; on Mac OS X it is the Applications folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
 
-2. Scrios fillteán Bhrabhsálaí Tor.
+2. Delete the Tor Browser folder.
 
-3. Folmhaigh an Bruscar
+3. Empty your Trash
 
-Tabhair faoi deara nach mbaintear úsáid as an ngnáthuirlis "Uninstall" ar do chóras.
+Note that your operating system’s standard “Uninstall” utility is not used.

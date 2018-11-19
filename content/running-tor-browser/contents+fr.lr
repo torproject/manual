@@ -1,32 +1,32 @@
 _model: topic
 ---
-title: Premier lancement du Navigateur Tor
+title: Running Tor Browser for the first time
 ---
-description: Apprenez à utiliser le Navigateur Tor pour la première fois
+description: Learn how to use Tor Browser for the first time
 ---
-seo_slug: Premier-lancement-du-navigateur-Tor
+seo_slug: running-tor-browser
 ---
 key: 3
 ---
 body:
 
-Lors du premier lancement du navigateur, vous apercevrez la fenêtre des paramètres du réseau Tor. Elle vous proposera soit de vous connecter directement, soit de configurer le Navigateur Tor pour votre connexion.
+When you run Tor Browser for the first time, you will see the Tor Network Settings window. This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
 
-##### Connecter
+##### Connect
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-Dans la plupart des cas, « Se connecter » vous permettra de vous connecter au réseau Tor sans autre configuration. Une fois que vous aurez cliqué, une barre d’état apparaîtra et affichera l’avancement de la connexion de Tor. Si votre connexion est plutôt rapide, mais que la barre d’état semble bloquer à un certain niveau, la page <a href="/troubleshooting">Dépannage</a> vous aidera à régler le problème.
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### Configurer
+##### Configure
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-Si vous savez que votre connexion est censurée ou utilise un mandataire, vous devriez sélectionner cette option. Le Navigateur Tor vous fera passer en revue une série d’options de configuration.
+If you know that your connection is censored, or uses a proxy, you should select this option. Tor Browser will take you through a series of configuration options.
 
-Le premier écran demande si l’accès au réseau Tor est bloqué ou censuré sur votre connexion. Si vous ne pensez pas que c’est le cas, sélectionnez « Non ». Si vous savez que votre connexion est censurée, ou si vous avez tenté sans succès de vous connecter au réseau Tor et qu’aucune autre solution n’a fonctionné, sélectionnez « Oui ». L’écran <a href="/circumvention">Contournement</a> apparaîtra alors afin que vous configuriez un transport enfichable.
+The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-Le prochain écran vous demande si votre connexion utilise un serveur mandataire. Dans la plupart des cas, ce n’est pas requis. Vous saurez habituellement si vous devez répondre « Oui », car les mêmes paramètres seront utilisés pour les autres navigateurs de votre système. Si possible, posez la question à votre administrateur réseau. Si votre connexion n’utilise pas de mandataire, cliquez sur « Continuer ».
+The next screen asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Continue”.
 
 <img class="col-md-6" src="../../static/images/proxy_question.png">
 

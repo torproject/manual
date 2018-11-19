@@ -1,45 +1,45 @@
 _model: topic
 ---
-title: An Sleamhnán Slándála
+title: Security Slider
 ---
-description: Brabhsálaí Tor a chumrú ar son slándála agus inúsáidteachta
+description: Configuring Tor Browser for security and usability
 ---
 seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-Tá “Sleamhnán Slándála” ar fáil mar chuid de Bhrabhsálaí Tor, rud a neartaíonn do shlándáil trí ghnéithe áirithe sa bhrabhsálaí a dhíchumasú, go háirithe gnéithe a úsáidtear chun ionsaí a dhéanamh ort. Má ardaíonn tú an leibhéal slándála i mBrabhsálaí Tor, ní fheidhmeoidh leathanaigh áirithe mar is ceart, agus dá bharr sin caithfidh tú do shlándáil a mheas in aghaidh inúsáidteacht na suíomh a dtugann tú cuairt orthu.
+Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
 
-##### Rochtain ar an Sleamhnán Slándála
+##### Accessing the Security Slider
 
 <img class="col-md-6" src="../../static/images/slider.png">
 
-Gheobhaidh tú an Sleamhnán Slándála i roghchlár an chnaipe Tor faoi “Socruithe Slándála”.
+The Security Slider is located in Torbutton’s “Security Settings” menu.
 
-##### Leibhéil Slándála
+##### Security Levels
 
 <img class="col-md-6" src="../../static/images/slider_window.png">
 
-Má ardaíonn tú leibhéal an tSleamhnáin Slándála, díchumasófar gnéithe áirithe sa bhrabhsálaí mar chosaint ar ionsaithe.
+Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
 
 <dl>
 <dt>
-Is Sábháilte
+Safest
 </dt>
 <dd>
-Ag an leibhéal seo, caithfidh tú físeáin agus comhaid fuaime HTML5 a chliceáil chun iad a sheinm trí NoScript; ní chuirtear aon optamú JavaScript i bhfeidhm; seans nach dtaispeántar cothromóidí áirithe matamaiticiúla i gceart; ní úsáidtear gnéithe áirithe agus clófhoirne á dtarraingt ar an scáileán; ní thaispeántar cineálacha áirithe íomhá; tá JavaScript díchumasaithe de réir réamhshocraithe ar gach suíomh; tá an chuid is mó de na formáidí físe agus fuaime díchumasaithe; agus ní thaispeántar roinnt clófhoirne agus deilbhíní i gceart.
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
 </dd>
 <dt>
-Níos Sábháilte
+Safer
 </dt>
 <dd>
-Ag an leibhéal seo, caithfidh tú físeáin agus comhaid fuaime HTML5 a chliceáil chun iad a sheinm trí NoScript; ní chuirtear aon optamú JavaScript i bhfeidhm; seans nach dtaispeántar cothromóidí áirithe matamaiticiúla i gceart; ní úsáidtear gnéithe áirithe agus clófhoirne á dtarraingt ar an scáileán; ní thaispeántar cineálacha áirithe íomhá; agus tá JavaScript díchumasaithe de réir réamhshocraithe ar gach suíomh nach mbaineann úsáid as <a href="/secure-connections">HTTPS</a>.
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
 </dd>
 <dt>
-Gnáthshlándáil
+Standard
 </dt>
 <dd>
-Ag an leibhéal seo, tá gach gné cumasaithe. Seo an rogha is inúsáidte.
+At this level, all browser features are enabled. This is the most usable option.
 </dd>
 </dl>
