@@ -1,13 +1,8 @@
 [project]
 name = Tor Browser Manual
 url = https://manual.torproject.org/
-<<<<<<< HEAD
-url_style = absolute
-locale = en-US
-=======
 url_style = relative
-locale = en_US
->>>>>>> Make urls relatives
+locale = en-US
 
 [alternatives.en]
 name = English (en-US)
