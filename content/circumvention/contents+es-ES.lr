@@ -1,0 +1,35 @@
+_model: topic
+---
+title: Evasión
+---
+description: Qué hacer si la red Tor está bloqueada
+---
+seo_slug: evasión
+---
+key: 4
+---
+body:
+
+El acceso directo a la red Tor a veces puede estar bloqueado por tu Proveedor de Servicios de Internet (ISP) o por un gobierno. El Navegador Tor incluye algunas herramientas de evasión para evitar estos bloqueos. Estas herramientas se llaman "transportes conectables". Lee la página <a href="/en-US/transports">Transportes Conectables</a> para más información sobre los tipos de transporte que están disponibles actualmente.
+
+##### Usar transportes conectables
+
+<img class="col-md-6" src="../../static/images/configure.png">
+
+Para usar transportes conectables, pulsa "Configurar" en la ventana de Arranque de Tor que aparece la primera vez que ejecutas el Navegador Tor.
+
+También puedes configurar transportes conectables mientras Tor se está ejecutando, pulsando sobre la cebolla verde junto a la barra de direcciones y seleccionando "Configuración de la Red Tor".
+
+Selecciona "sí" cuando se te pregunte si tu Proveedor de Servicios de Internet (ISP) bloquea conexiones a la red Tor.
+
+<img class="col-md-6" src="../../static/images/bridges.png">
+
+Selecciona "Conectar con los puentes proporcionados". El Navegador Tor actualmente tiene seis transportes conectables entre los que elegir.
+
+##### ¿Qué transporte debo usar?
+
+Cada uno de los transportes listados en el menú del Arranque de Tor funciona de una forma diferente (para más detalles, lee la página <a href="/en-US/transports">Transportes conectables</a>), y la efectividad de cada uno depende de tu situación.
+
+Si, por primera vez, estás intentando eludir una conexión bloqueada, has de intentar los los diferentes transportes: obfs3, obfs4, fte, meek-azure y Snowflake.
+
+Si pruebas todas estas opciones y no consigues conectar con ninguna de ellas, necesitarás introducir direcciones de puentes de red manualmente. Lee la sección <a href="/en-US/bridges/">Puentes</a> para saber qué son los repetidores puente y cómo obtenerlos.

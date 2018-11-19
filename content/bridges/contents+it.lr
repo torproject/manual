@@ -24,11 +24,11 @@ Siccome gli indirizzi dei ponti non sono pubblici, dovrai richiederli tu stesso.
 
 Una volta che hai ottenute degli indirizzi di ponti, dovrai inserirli nel Launcher Tor.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+Se stai avviando Tor Browser per la prima volta, clicca 'Configura' per aprire la finestra Impostazioni di rete Tor. Altrimenti, clicca il pulsante Tor a sinistra della barra URL, poi seleziona 'Impostazioni di rete Tor...' per accedere a queste opzioni.
 
 In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+Clicca “OK” per salvare le impostazioni. Usare i bridge potrebbe rallentare la connessione rispetto all'uso dei normali relay Tor.
 Se la connessione non va a buon fine, il ponte che hai ricevuto potrebbe essere disattivo. Utilizza uno dei metodi qui sopra per ottenere più ponti e riprova.

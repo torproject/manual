@@ -1,0 +1,30 @@
+_model: topic
+---
+title: Plugins, complementos y JavaScript
+---
+description: Cómo maneja el Navegador Tor los complementos, plugins y JavaScript
+---
+seo_slug: plugins
+---
+key: 10
+---
+body:
+##### Flash Player
+
+Sitios web de vídeo, como Vimeo, hacen uso del plugin Flash Player para mostrar contenido de vídeo. Desafortunadamente, este software opera de forma independiente al Navegador Tor y no se puede hacer que obedezca fácilmente a la configuración proxy del Navegador Tor, y por tanto puede revelar tu ubicación y dirección IP reales a los operadores de sitios web, o a un observador externo. Por esta razón Flash está deshabilitado por defecto en el Navegador Tor, y no se recomienda habilitarlo.
+
+Algunos sitios web (como YouTube) ofrecen métodos alternativos de entrega de vídeo que no usan Flash. Estos métodos pueden ser compatibles con el Navegador Tor.
+
+##### JavaScript
+
+JavaScript es un lenguaje de programación que los sitios web usan para ofrecer elementos interactivos como vídeo, animación, audio, y estados en líneas de tiempo. Por desgracia, JavaScript también puede habilitar ataques a la seguridad del navegador, lo que puede llevar a la pérdida del anonimato.
+
+El navegador Tor incluye un complemento llamado NoScript, al que se accede mediante el icono "S" en la esquina superior derecha de la ventana. NoScript te permite controlar JavaScript (y otros scrips) que se ejecutan en páginas web individuales, o bloquearlo por completo.
+<img class="col-md-6" src="../../static/images/noscript_menu.png">
+Los usuarios que requieran un alto grado de seguridad en su navegación deben de configurar la <a href="/security-slider">Seguridad </a> a “Segura” en el navegador Tor (que deshabilita JavaScript para sitios web no HTTPS) o "Más segura" (que lo hace para todos los sitios web). Sin embargo, la desactivación de JavaScript evitará que muchos sitios web se muestren correctamente, por lo que la configuración predeterminada del navegador Tor es permitir que todos los sitios web ejecuten scripts en el modo "Estándar"
+
+##### Complementos de navegador
+
+El Navegador Tor está basado en Firefox, y cualquier complemento de navegador o tema decorativo que sea compatible con Firefox también puede ser instalado en el Navegador Tor.
+
+Sin embargo, los únicos complementos que han sido probados para su uso con el Navegador Tor son aquellos incluidos de forma predeterminada. Instalar cualquier otro complemento de navegador puede desbaratar la funcionalidad en el Navegador Tor o causar problemas más serios que afectarán a tu privacidad y seguridad. Se recomienda firmemente no instalar complementos adicionales. Además Tor Project no ofrecerá soporte para estas configuraciones.

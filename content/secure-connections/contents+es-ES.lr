@@ -1,0 +1,64 @@
+_model: topic
+---
+title: Conexiones seguras
+---
+description: Aprende cómo proteger tus datos usando el Navegador Tor y HTTPS
+---
+seo_slug: conexiones-seguras
+---
+key: 7
+---
+body:
+Si la información personal como nombre de usuario y contraseña viaja cifrada por Internet, puede ser interceptada muy fácilmente por alguien a la escucha. Si estás iniciando sesión en cualquier sitio web, debes asegurarte de que el sitio ofrece cifrado HTTPS, que protege contra esta clase de escuchas. Puedes verificar esto en la barra de URLs: Si tu conexión está cifrada, la dirección comenzará con “https://”, en lugar de “http://”.
+
+<img class="col-md-6" src="../../static/images/https.png">
+
+La siguiente visualización muestra qué información es visible a quienes estén a la escucha, tanto si usa como si no el Navegador Tor y el cifrado HTTPS:
+
+<img class="" src="../../static/images/tor-and-https.svg">
+
+* Haz clic en el botón "Tor" para ver qué datos son visibles para los observadores cuando estás usando Tor. El botón se pondrá verde para indicar que Tor está activado.
+* Pulsa el botón "HTTPS" para ver qué datos son visibles a los observadores cuando estás usando HTTPS. El botón se pondrá verde para indicar que HTTPS está activado.
+* Cuando ambos botones están en verde, verás los datos que son visibles para los observadores cuando estás usando ambas herramientas.
+* Cuando ambos botones están en gris, verás los datos que son visibles para los observadores cuando no usas ninguna de las dos herramientas.
+
+##### Datos potencialmente visibles
+
+<dl>
+
+<dt>
+Site.com
+</dt>
+  <dd>
+    El sitio que estás visitando.
+  </dd>
+
+<dt>
+usuario / contraseña
+</dt>
+  <dd>
+    Nombre de usuario y contraseña usados para la autentificación.
+  </dd>
+
+<dt>
+datos
+</dt>
+  <dd>
+    Datos que se están transmitiendo.
+  </dd>
+
+<dt>
+ubicación
+</dt>
+  <dd>
+    La ubicación de red del ordenador usado para visitar el sitio web (la dirección IP pública).
+  </dd>
+
+<dt>
+Tor
+</dt>
+  <dd>
+    Si se está usando Tor o no.
+  </dd>
+
+</dl>

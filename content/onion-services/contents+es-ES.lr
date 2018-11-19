@@ -1,0 +1,33 @@
+_model: topic
+---
+title: Servicios cebolla
+---
+description: Servicios que sólo son accesibles usando Tor
+---
+seo_slug: onion-services
+---
+key: 6
+---
+body:
+
+Los servicios cebolla (anteriormente conocidos como "servicios ocultos") son servicios (como pueden ser los sitios web) que sólo son accesibles a través de la red Tor.
+
+Los servicios cebolla ofrecen varias ventajas sobre los servicios ordinarios en la web no-privada:
+
+* La ubicación y direcciones IP de un servicio cebolla están ocultas, dificultando que los adversarios puedan censurarlo o identificar a sus operadores.
+* Todo el tráfico entre los usuarios de Tor y los servicios cebolla está cifrado de extremo-a-extremo, por lo que no hace falta preocuparse de <a href="/secure-connections">conectar a través de HTTPS</a>.
+* La dirección de un servicio cebolla se genera automáticamente, de forma que los operadores no necesitan comprar un nombre de dominio; la URL .onion también ayuda a Tor a asegurarse de que estás conectando a la ubicación correcta y que la conexión no está siendo alterada.
+
+##### Cómo acceder a un servicio cebolla
+
+Al igual que en cualquier otro sitio web, deberás conocer la dirección de un servicio cebolla para poder conectarte. Una dirección cebolla es una cadena de 16 (y en formato V3, 56) en su mayoría letras y números aleatorios, seguidos de ".onion".
+
+Cuando accedas a un sitio web que utiliza un servicio cebolla, el Navegador Tor mostrará en la barra de URL un icono de una pequeña cebolla verde que muestra el estado de tu conexión: segura y usando un servicio onion. Y si accedes a un sitio web con https y sevicio onion, mostrará un icono de una cebolla verde y un candado.
+
+##### Resolución de problemas
+
+Si no puedes acceder al servicio cebolla que necesitas, asegúrate de haber ingresado correctamente la dirección cebolla: incluso un pequeño error puede impedir que el  navegador Tor acceda al sitio.
+
+Si todavía no puedes conectar al servicio cebolla, por favor, inténtalo de nuevo más tarde. Puede haber un problema temporal de conexión, o los operadores del sitio pueden haber permitido que los usuarios sean desconectados sin avisar.
+
+También puedes asegurarte de poder acceder a otros servicios cebolla conectando al <a href="http://3g2upl4pq6kufc4m.onion">servicio cebolla de DuckDuckGo</a>

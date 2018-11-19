@@ -1,0 +1,8 @@
+_discoverable: yes
+---
+_model: showcase
+---
+_template: jumbotron.html
+---
+title: আমরা কিভাবে সাহায্য করতে পারি?
+---

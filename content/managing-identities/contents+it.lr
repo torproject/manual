@@ -4,7 +4,7 @@ title: Gestire le identità
 ---
 description: Impara come controllare le informazoni personali che possono identificarti nel browser Tor
 ---
-seo_slug: managing-identities
+seo_slug: gestire-identità
 ---
 key: 5
 ---
@@ -22,7 +22,7 @@ D'altra parte, tutte le connessioni ad un singolo indirizzo del sito web saranno
 
 <img class="col-md-6" src="../../static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Puoi vedere un diagramma del circuito utilizzato dal browser Tor per la scheda attiva nel menu informazioni del sito, nella barra URL.
 
 In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 
@@ -50,4 +50,4 @@ Tor Browser features “New Identity” and “New Tor Circuit for this Site” 
 ##### Nuovo circuito Tor per questo sito
 
    Questa opzione è utile se <a href="about-tor-browser#how-tor-works">l'exit relay</a> che stai utilizzando non è in grado di connettersi al sito web richiesto o non riesce a caricarlo correttamente. Selezionandolo, la scheda o la finestra attualmente attive verranno ricaricate su un nuovo circuito Tor. Altre schede aperte e finestre dello stesso sito Web utilizzeranno anch'esse il nuovo circuito una volta ricaricate. Questa opzione non cancella informazioni private o scollega la vostra attività, né influisce tanto-meno sulle vostre attuali connessioni ad altri siti web.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   Puoi accedere a questa opzione anche nel nuovo circuito, nel menu informazioni del sito, nella barra URL.

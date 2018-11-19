@@ -1,0 +1,45 @@
+_model: topic
+---
+title: Control deslizante de seguridad
+---
+description: Configurar el Navegador Tor para seguridad y usabilidad
+---
+seo_slug: control-deslizante-de-seguridad
+---
+key: 8
+---
+body:
+El Navegador Tor incluye un "Control deslizante de seguridad" que te permite incrementar tu seguridad deshabilitando ciertas características de la web que se pueden usar para atacar tu seguridad y anonimato. Incrementar el nivel de seguridad del Navegador Tor evitará que algunas páginas web funcionen adecuadamente, así que debes sopesar tus necesidades de seguridad con respecto al grado de usabilidad que necesitas.
+
+##### Acceder al 'Control deslizante de seguridad'
+
+<img class="col-md-6" src="../../static/images/slider.png">
+
+La barra de Seguridad se encuentra en el menú "Configuración de Seguridad" de Torbutton.
+
+##### Niveles de seguridad
+
+<img class="col-md-6" src="../../static/images/slider_window.png">
+
+Incrementar el nivel del 'Control deslizante de seguridad' deshabilitará total o parcialmente algunas características para proteger contra posibles ataques.
+
+<dl>
+<dt>
+La más segura
+</dt>
+<dd>
+En este nivel, los audiovisuales HTML5 funcionan en modo clic-para-reproducir mediante NoScript; se deshabilitan todas las optimizaciones de rendimiento de JavaScript; algunas ecuaciones matemáticas puede que no se muestren adecuadamente; algunas características de renderización de fuentes están deshabilitadas; algunos tipos de imagen están deshabilitados; JavaScript está deshabilitado por defecto en todos los sitios; la mayoría de formatos de vídeo y audio están deshabilitados; y algunas fuentes e iconos puede que no se muestren correctamente.
+</dd>
+<dt>
+Más segura
+</dt>
+<dd>
+En este nivel, el vídeo y el audio HTML5 se comportan en modo clic-para-reproducir mediante NoScript; se deshabilitan todas las optimizaciones de rendimiento; algunas ecuaciones matemáticas puede que no se muestren adecuadamente; algunas características de renderización están deshabilitadas; algunos tipos de imagen están deshabilitados; y JavaScript está deshabilitado por defecto en todos los sitios no-<a href="secure-connections">HTTPS</a>.
+</dd>
+<dt>
+Estándar
+</dt>
+<dd>
+En este nivel, todas las características del navegador están habilitadas. Esta es la opción más fácil de usar.
+</dd>
+</dl>

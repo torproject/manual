@@ -1,0 +1,41 @@
+_model: topic
+---
+title: Conviértete en traductor de Tor
+---
+description: Conviértete en traductor del Proyecto Tor
+---
+seo_slug: traducir-tor
+---
+key: 13
+---
+body:
+
+Si estás interesado en ayudar con el proyecto traduciendo el manual o el navegador Tor a tu idioma, ¡te agradeceríamos la ayuda! Para comenzar a contribuir tendrás que registrarte con Transifex, página que facilita nuestras traducciones. A continuación aparece un resumen de cómo registrarse y comenzar.
+
+##### Registrarse en Transifex
+
+* Dírigete a la <a href="https://transifex.com/signup/">página de registro de Transifex</a>.
+  Ingresa la información en los campos y clic en el botón 'Registrarse':
+
+<img class="col-md-6" src="../../static/images/tr1.png">
+
+* Completa la siguiente página con tu nombre y selecciona "Localización" y "Traductor" en los menús desplegables:
+
+<img class="col-md-6" src="../../static/images/tr2.png">
+
+* En la siguiente página, selecciona "unirse a un proyecto existente" y continúa.
+* En la siguiente página, selecciona los idiomas que hablas en el menú desplegable y continúa.
+* ¡Ya has firmado! Ve a la <a href="https://www.transifex.com/otf/torproject/">página de Tor en Transifex</a>.
+* Clic en el botón azul "Unirse al Equipo" en el lado derecho:
+
+<img class="col-md-6" src="../../static/images/tr3.png">
+
+* Selecciona el menú que desearías traducir en el menú desplegable:
+
+<img class="col-md-6" src="../../static/images/tr4.png">
+
+* Se mostrará una notificación como esta en lo alto de la página:
+
+<img class="col-md-6" src="../../static/images/tr5.png">
+
+* Después de que se apruebe tu membresía, puedes comenzar a traducir; sencillamente dirigite a la <a href="https://www.transifex.com/otf/torproject/">página Tor Transifex</a> cuando estés lista para comenzar. ¡Gracias por tu interés en apoyar el proyecto!

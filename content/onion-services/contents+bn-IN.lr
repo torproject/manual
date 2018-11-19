@@ -1,0 +1,33 @@
+_model: topic
+---
+title: ওনিওন সেবা
+---
+description: পরিষেবাগুলি কেবল টর ব্যবহার করে অ্যাক্সেসযোগ্য
+---
+seo_slug: ওনিওন-সেবা
+---
+key: 6
+---
+body:
+
+Onion পরিষেবাগুলি (পূর্বে "লুকানো পরিষেবাগুলি" নামে পরিচিত) সেবাগুলি (যেমন ওয়েবসাইট) যা টর নেটওয়ার্ক এর মাধ্যমে অ্যাক্সেসযোগ্য।
+
+Onion পরিষেবাগুলি অ-প্রাইভেট ওয়েবের সাধারণ পরিষেবাগুলির উপর অনেক সুবিধা প্রদান করে:
+
+* একটি onion পরিষেবাগুলির অবস্থান এবং IP ঠিকানা লুকানো আছে, বিরোধীদের পক্ষে এটি সেন্সর করা বা তার অপারেটরদের সনাক্ত করা কঠিন করে তোলে।
+* টর ব্যবহারকারীদের এবং onion পরিষেবাগুলির মধ্যে সমস্ত ট্র্যাফিক শেষ-থেকে-শেষ এনক্রিপ্ট হয়েছে, তাই আপনাকে <a href="/secure-connections">HTTPS</a> এর সাথে সংযোগের বিষয়ে চিন্তা করতে হবে না।
+* একটি onion পরিষেবা ঠিকানা স্বয়ংক্রিয়ভাবে উত্পন্ন হয়, তাই অপারেটর একটি ডোমেন নাম ক্রয় করতে হবে না; .ওন ইউআরএল টরকে নিশ্চিত করে যে এটি সঠিক অবস্থানের সাথে সংযোগ স্থাপন করছে এবং সংযোগ বিচ্ছিন্ন করা হচ্ছে না।
+
+##### একটি onion পরিষেবা অ্যাক্সেস কিভাবে
+
+Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
+
+When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+
+##### সমস্যা সমাধান
+
+If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+
+যদি আপনি এখনও পেঁয়াজ পরিষেবা সংযোগ করতে অক্ষম হন, তাহলে পরে আবার চেষ্টা করুন। একটি অস্থায়ী সংযোগ সমস্যা হতে পারে, বা সাইট অপারেটর এটি সতর্কবার্তা ছাড়া অফলাইনে যেতে অনুমতি দেওয়া হতে পারে।
+
+আপনি নিশ্চিত করতে পারেন যে আপনি <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion</a> পরিষেবাতে সংযুক্ত করে অন্যান্য পেঁয়াজ পরিষেবাগুলি অ্যাক্সেস করতে সক্ষম হচ্ছেন
