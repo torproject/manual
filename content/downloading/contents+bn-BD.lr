@@ -14,6 +14,10 @@ body:
 
 যাইহোক, এমন সময় হতে পারে যখন আপনি টর প্রকল্প ওয়েবসাইট অ্যাক্সেস করতে পারবেন না: উদাহরণস্বরূপ, এটি আপনার নেটওয়ার্কে ব্লক করা যেতে পারে। যদি এটি ঘটে, আপনি নীচে তালিকাভুক্ত বিকল্প ডাউনলোড পদ্ধতিগুলির মধ্যে একটি ব্যবহার করতে পারেন।
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 জেটটি এমন একটি পরিষেবা যা স্বয়ংক্রিয়ভাবে টর ব্রাউজারের সর্বশেষ সংস্করণে লিঙ্ক দেয়, যেমন ড্রপ-বক্স্, Google ড্রাইভ এবং গিটহাব ।

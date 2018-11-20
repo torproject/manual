@@ -14,6 +14,10 @@ body:
 
 然而，某些情况下您可能无法成功访问洋葱路由的官方网站：例如您所在的网络会屏蔽该网站。如果您遭遇到类似情况的话，可以利用下列几种不同的方式获取 Tor 浏览器。
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor 是一项通过不同方式自动回复最新版 Tor 浏览器下载链接的服务。这些链接由不同处所托管，例如 Dropbox 、Google Drive 和 GitHub.

@@ -14,6 +14,10 @@ La manera segura i simple de descarregar el navegador Tor és mitjançant la pà
 
 Com sigui, hi han diverses maneres d'evitar l'accés al web del Projecte Tor: per exemple, el bloqueig en la xarxa d'accés. Si això succeïx, pot utilitzar un dels llocs de descàrrega que es citen a continuació.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### Obtenir Tor
 
 GetTor és un servei que respon automàticament a missatges amb enllaços a la versió més recent del navegador de Tor, allotjada en diverses ubicacions, com ara Dropbox, Google Drive i GitHub.

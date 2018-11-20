@@ -14,6 +14,10 @@ Der sicherste und einfachste Weg, um den Tor Browser herunterzuladen, ist die of
 
 Wie auch immer, es kann sein dass du auf die Internetseite des Tor Projekts nicht zugreifen kannst, wenn du zum Beispiel in deinem Netzwerk blockiert wurdest. Wenn dies passiert kannst du eine der unten aufgeführten Methoden zum Herunterladen benutzen.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor ist ein Dienst, der automatisch auf Nachrichten mit Links zur neuesten Version des Tor-Browsers reagiert, die an verschiedenen Orten wie Dropbox, Google Drive und GitHub gehostet werden.

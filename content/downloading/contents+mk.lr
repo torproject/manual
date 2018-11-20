@@ -14,6 +14,10 @@ body:
 
 Како и да е, постојат случаи кога нема да можете да пристапите на страната на Tor Project, на пример: може да биде блокирана на вашата мрежа. Ако ова се случи, можете да користите еден од алтернативните методи за преземање од листата подолу. 
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor е услуга која што автоматски одговара на пораки со линкови до најновите верзии на Tor Browser, хостирани на различни локации, како што се Dropbox, Google Drive and GitHub.

@@ -14,6 +14,10 @@ Is é íoslódáil ó shuíomh oifigiúil Tor https://www.torproject.org an beal
 
 Uaireanta ní bheidh tú in ann suíomh oifigiúil Thionscadal Tor a rochtain; mar shampla, dá mbeadh cosc air ar do líonra. Má tharlaíonn sé seo, is féidir leat ceann de na modhanna malartacha seo a leanas a úsáid chun Tor a íoslódáil.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 Is éard atá in GetTor ná seirbhís a fhreagraíonn teachtaireachtaí le nascanna leis an leagan is déanaí de Bhrabhsálaí Tor, óstáilte in áiteanna éagsúla, ar nós Dropbox, Tiomántán Google, agus Github.

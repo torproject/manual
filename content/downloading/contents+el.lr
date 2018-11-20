@@ -14,6 +14,10 @@ body:
 
 Ωστόσο, ίσως να υπάρξουν φορές που δεν θα μπορέσετε να αποκτήσετε πρόσβαση στην ιστοσελίδα του Tor Project: για παράδειγμα, θα μπορούσε να είναι αποκλεισμένη στο δίκτυό σας. Εάν συμβεί αυτό, μπορείτε να χρησιμοποιήσετε μία από τις εναλλακτικές μεθόδους λήψης που αναφέρονται παρακάτω.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 Το GetTor είναι μια υπηρεσία που απαντά αυτόματα σε μηνύματα με συνδέσμους της τελευταίας έκδοσης του Tor Browser, που βρίσκεται σε διάφορες τοποθεσίες, όπως το Dropbox, το Google Drive και το GitHub.

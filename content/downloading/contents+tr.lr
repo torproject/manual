@@ -14,6 +14,10 @@ Tor Browser uygulamasını indirmenin en güvenli ve basit yolu, https://www.tor
 
 Bununla birlikte, Tor Project web sitesine erişemediğiniz zamanlar olabilir: örneğin, ağınızda Tor engellenmiş olabilir. Böyle bir durumda, aşağıda listelenen alternatif indirme yöntemlerinden birini kullanabilirsiniz.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor; iletileri otomatik olarak yanıtlayarak, Dropbox, Google Drive ve GitHub gibi çeşitli konumlarda barındırılan en son Tor Browser sürümü bağlantılarını gönderen bir hizmettir.

@@ -14,6 +14,10 @@ The safest and simplest way to download Tor Browser is from the official Tor Pro
 
 However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.

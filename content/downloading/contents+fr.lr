@@ -14,6 +14,10 @@ La façon la plus sûre et la plus simple de télécharger le Navigateur Tor est
 
 Cependant, l’accès au site Web du Projet Tor pourrait parfois être impossible, par exemple s’il est bloqué sur votre réseau. Si cela se produit, vous pouvez utiliser une des méthodes de téléchargement répertoriées ci-dessous.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor est un service qui répond automatiquement aux messages en incluant des liens vers la dernière version du Navigateur Tor, hébergée en divers endroits qui risquent moins d’être censurée, tels que Dropbox, le disque Google Drive ou GitHub.

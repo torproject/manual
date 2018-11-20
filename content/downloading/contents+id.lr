@@ -14,6 +14,10 @@ Cara aman dan mudah untuk mengunduh TOR Browser yaitu berasal dari situs resmi T
 
 Namun, dalam sejumlah kasus anda tak bisa mengakses situs TOR Project: misalnya, situs ini diblokir oleh jaringan Anda. Jika ini terjadi, Anda bisa menggunakan sejumlah jalur alternatif unduhan seperti daftar di bawah ini.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor adalah sebuah servise yang secara otomatis menjawab pesan dengan tautan pada versi terakhir dari TorBrowser, penerima diberbagai lokasi, seperti Dropbox, Google Drive dan GitHub..

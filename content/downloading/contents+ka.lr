@@ -14,6 +14,10 @@ body:
 
 თუმცა, ზოგ შემთხვევაში, შესაძლოა არ იყოს შესაძლებელი Tor-პროექტის საიტთან წვდომა: მაგალითად, როცა შეზღუდულია თქვენი ქსელიდან. ასეთ შემთხვევებში, სანაცვლოდ შეგიძლიათ გამოიყენოთ ქვემოთ მითითებული გზები.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor წარმოადგენს მომსახურებას, რომელიც წერილზე პასუხის სახით ავტომატურად აგზავნის ბმულებს Tor-ბრაუზერის უახლესი ვერსიების, რომლებიც განთავსებულია სხვადასხვა საიტებზე, როგორიცაა Dropbox, Google Drive და GitHub.

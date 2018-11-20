@@ -14,6 +14,10 @@ body:
 
 Однако могут возникнуть случаи, когда не удается получить доступ к веб-сайту Tor Project: например, он может быть заблокирован в вашей сети. В этом случае можно использовать один из альтернативных способов загрузки, перечисленных ниже.
 
+##### Mirrors
+
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+
 ##### GetTor
 
 GetTor - сервис который автоматически обновляет ссылки на последние версии Tor Browser, который размещён на различных сервисах, таких как Dropbox, Google Диск и GitHub.
