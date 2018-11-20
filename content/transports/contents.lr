@@ -2,13 +2,16 @@ _model: topic
 ---
 title: Pluggable transports
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Pluggable transports are used to prevent recognition of tor traffic to a bridge.
 ---
 seo_slug: plugable-transports
 ---
 key: 4
 ---
 body:
+A pluggable transport is a program that is used between the user’s Tor client, such as Tor Browser, and a Tor bridge.
+The pluggable transport’s job is to change the appearance of the data that flows between itself and the bridge so that a censor won’t be able to recognize it as Tor traffic.
+
 Over the last few years, censors have found ways to block Tor even when clients are using bridges.
 They usually do this by installing special boxes at ISPs that peek into network traffic and detect Tor;
 when Tor is detected they block the traffic flow.
@@ -17,7 +20,7 @@ To circumvent such sophisticated censorship Tor introduced pluggable transports.
 These transports manipulate all Tor traffic between the client and its first hop such that it is not identifiable as a Tor connection.
 If the censor can't decide if the connection is a Tor connection, then they are less likely to block it.
 
-Tor Browser includes some pre-configured [bridges](../bridges) and you can get more from [BridgeDB](#FindingMore), if those don't work.
+Tor Browser includes some pre-configured [bridges](../bridges) and you can get more from [BridgeDB](../bridges#getting-bridge-addresses), if those don't work.
 
 Sadly, pluggable transports are not immune to detection, if a censor is given enough time.
 In the past, we promoted obfs and obfs2 as safe transports.
@@ -25,7 +28,7 @@ These are now deprecated and were replaced by obfs3, scramblesuit, fte, and obfs
 
 ----
 
-##### Types of pluggable transport
+##### Types of Pluggable Transports
 
 Most pluggable transports, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 

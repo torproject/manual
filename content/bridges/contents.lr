@@ -29,23 +29,21 @@ When Tor fails to bootsrap (when connecting hangs for several minutes) you will 
 To [use a bridge](#UsingBridges), you have several options.
 Tor Browser now provides some bridges by default.
 You can enable these easily.
-* [When Tor *does* work](#AddTorWorks)
-* [When Tor *doesn't* work](#AddTorNotWorks)
+* [When Tor works](#when-tor-works)
+* [When Tor *doesn't* work](#when-tor-does-not-work)
 
 If you are using Tails you need to [configure the bridges when starting](https://tails.boum.org/doc/first_steps/startup_options/bridge_mode/), you cannot do it after you connect to Internet.
 
 Unfortunately, because these bridges are publically distributed, it is easy for censors to block some of them, so some of them may not work.
 In this case, you'll need to locate different bridges.
 Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
-* [Finding more bridges for Tor](#FindingMore)
+* [Finding more bridges for Tor](#getting-bridge-addresses)
 
-Give it a try and if you have issues, see the [troubleshooting](#Troubleshooting) section.
+Give it a try and if you have issues, see the [troubleshooting](#troubleshooting) section.
 
-If you want to contribute see [running a bridge](#RunningABridge).
+If you want to contribute see [running a bridge](#running-a-tor-bridge).
 
 ----
-
-<a id="Understanding"></a>
 
 ##### Understanding A Bridge Configuration Line
 
@@ -74,12 +72,11 @@ For example, in the case above, the bridge is using the *obfs4* pluggable transp
 ----
 
 <!-- TODO some screenshots in this section show Tor Launcher instead of Tor Browser's network settings -->
-<a id="AddTorWorks"></a>
 
-##### Using bridges in Tor Browser when Tor *does* work
+##### When Tor works
 
 The following instructions assume Tor Browser successfully loads and you are able to surf the web.
-If you do not see the web browser when you run Tor Browser (like in step (1) below), you may need to follow the instructions for [when Tor *doesn't* work](#AddTorNotWorks)
+If you do not see the web browser when you run Tor Browser (like in step (1) below), you may need to follow the instructions for [when Tor *doesn't* work](#when-tor-does-not-work)
 
 ##### 1) Start Tor Browser
 
@@ -127,7 +124,7 @@ If none of the provided bridges works for you, try "Request a bridge from torpro
 
 ##### 5c) Use custom bridge
 
-To use a [custom bridge](#FindingMore) select "Provide a bridge I know".
+To use a [custom bridge](#getting-bridge-addresses) select "Provide a bridge I know".
 
 ![Tor Browser's Bridge Configuration page - provide bridges](../static/images/bridges/tor-launcher-provide-bridge.png "Tor Browser's Bridge Configuration page - provide bridges")
 
@@ -140,9 +137,7 @@ If this does not work, see the [troubleshooting section](#Troubleshooting) below
 
 ----
 
-<a id="AddTorNotWorks"></a>
-
-##### Using bridges in Tor Browser when Tor *does not* work
+##### When Tor *does not* work
 
 First, you should read the [FAQ about problems with running Tor properly](https://www.torproject.org/docs/faq.html.en#DoesntWork) when you have issues.
 Sometimes Tor does not work due to a silly mistake rather than your ISP interfering with your Internet connection.
@@ -199,7 +194,7 @@ If none of the provided bridges works for you, try to request one:
 
 ###### 5c) Use custom bridge
 
-To use a [custom bridge](#FindingMore) select "Provide a bridge I know".
+To use a [custom bridge](#getting-bridge-addresses) select "Provide a bridge I know".
 
 ![Tor Browser's Bridge Configuration page - provide bridge(s)](../static/images/bridges/tor-launcher-provide-bridge.png "Tor Browser's Bridge Configuration page - provide bridge(s)")
 
@@ -210,8 +205,6 @@ After you decide which bridges you want to use, click "Connect". Tor should now 
 ![Tor Browser's Front Page](../static/images/tb-frontpage.png "Tor Browser's Front Page")
 
 ----
-
-<a id="Troubleshooting"></a>
 
 ##### Troubleshooting
 
@@ -235,8 +228,6 @@ If it still fails, we want to [hear from you](https://www.torproject.org/about/c
 If you have any questions, please [contact us](https://www.torproject.org/about/contact.html.en#support)
 
 ----
-
-<a id="FindingMore"></a>
 
 ##### Getting bridge addresses
 
@@ -274,7 +265,6 @@ Once you've received the email with bridge information, you can continue the con
 ----
 
 <!-- TODO this section may be out of date and should be checked against the current relay guide -->
-<a id="RunningABridge"></a>
 
 ##### Running a Tor Bridge
 
