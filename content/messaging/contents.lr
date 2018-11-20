@@ -167,7 +167,7 @@ There is much safer alternatives to Skype for video calling - please use them!
 
 ##### Konversation
 **Warning:**
-See [KDE warnings](#KDE).
+See [KDE warnings](#kde-warnings).
 
 Konversation is an open-source IRC client built for the KDE environment.
 It is currently maintained in the KDE Extragear Network module, which means that it has its own release cycle which is independent from the main KDE applications.
@@ -175,7 +175,7 @@ Konversation is released under the terms of the GNU General Public License.
 
 ##### Kopete
 **Warning:**
-See [KDE warnings](#KDE).
+See [KDE warnings](#kde-warnings).
 
 Kopete is an open-source, multi-protocol instant messaging client released in 2001 in the wake of ICQ blocking Licq from their network.
 It is part of the KDE software compilation, however it is capable of running in numerous environments including Gnome and XFCE.
@@ -183,7 +183,7 @@ It is part of the KDE software compilation, however it is capable of running in 
 ----
 
 #### Additional warnings
-##### KDE Warnings<a name="KDE"></a>
+##### KDE Warnings
 * KDE proxy settings are global for all KDE applications, thus identity correlation through circuit sharing is at risk!
 * [Bug 308682 - per application proxy settings](https://bugs.kde.org/show_bug.cgi?id=308682)
 * KDE Applications such as Kopete, Konversation (basically everything that is not HTTP) respect only the global Socks proxy settings.
