@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: Droichid
+title: Bridges
 ---
-description: Úsáideann an chuid is mó de na Córais Iompair Ionphlugáilte, mar shampla obfs3 agus obfs4, athsheachadáin "droichid".
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
 seo_slug: bridges
 ---
 key: 4
 ---
 body:
-Úsáideann an chuid is mó de na <a href="/transports">Córais Iompair Ionphlugáilte</a>, mar shampla obfs3 agus obfs4, athsheachadáin "droichid". Cosúil le gnáth-athsheachadáin Tor, is iad saorálaithe atá i gceannas ar na droichid seo; ach, murab ionann is gnáth-athsheachadán, ní fhoilsítear go poiblí iad, sa chaoi nárbh fhéidir le namhaid iad a aithint go héasca. Nuair a úsáideann tú droichead in éineacht le córas iompair inphlugáilte, níl sé soiléir go bhfuil tú ag úsáid Tor.
+Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Úsáideann córais iompair ionphlugáilte eile, mar shampla meek, modhanna frithchinsireachta difriúla nach bhfuil ag brath ar dhroichid ar chor ar bith. Ní gá duit seoladh droichid a fháil chun na córais iompair seo a úsáid.
+Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
-##### Seoltaí droichid á bhfáil
+##### Getting bridge addresses
 
-Toisc nach bhfuil seoltaí droichid ar fáil go poiblí, caithfidh tú iad a iarraidh as do stuaim féin. Tá dhá rogha agat:
+Because bridge addresses are not public, you will need to request them yourself. You have two options:
 
-* Tabhair cuairt ar https://bridges.torproject.org/ agus lean na treoracha, nó
-* Seol ríomhphost chuig bridges@torproject.org ó sheoladh Gmail, Yahoo, nó Riseup
+* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Seoltaí droichid a chur isteach
+##### Entering bridge addresses
 
-Tar éis duit roinnt seoltaí droichid a fháil, caithfidh tú iad a chur isteach i dTosaitheoir Tor.
+Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
-Má tá tú ag úsáid Brabhsálaí Tor den chéad uair, cliceáil 'Cumraigh' chun Socruithe Líonra Tor a oscailt. Nó, cliceáil an cnaipe Tor ar chlé den bharra URL, ansin roghnaigh 'Socruithe Líonra Tor...' chun teacht ar na roghanna seo.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 
-San fhuinneog Socruithe Líonra Tor, roghnaigh 'Déantar cinsireacht ar Tor sa tír seo.' Ansin, roghnaigh 'Úsáid droichead ar m'eolas' agus cuir gach seoladh droichid ar a líne féin.
+In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Cliceáil "OK" chun na socruithe a shábháil. D'fhéadfadh sé go gcuirfidh na droichid moill ar an gceangal i gcomparáid le gnáthsheachadáin Tor.
-Má theipeann ar an gceangal, b'fhéidir go bhfuil na droichid a fuair tú as fearas. Sa chás sin, ba chóir duit tuilleadh droichead a fháil trí cheann de na modhanna thuas, ansin iarracht eile a dhéanamh.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

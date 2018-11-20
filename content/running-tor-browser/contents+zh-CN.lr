@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: 初次运行 Tor 浏览器
+title: Running Tor Browser for the first time
 ---
-description: 了解如何初次使用 Tor 浏览器
+description: Learn how to use Tor Browser for the first time
 ---
 seo_slug: running-tor-browser
 ---
@@ -10,23 +10,23 @@ key: 3
 ---
 body:
 
-当您首次启动 Tor 浏览器时，您会看到洋葱路由网络的设置窗口，此处您可以选择要浏览器直接连上洋葱路由网络，或者是要设置不同的连接方式。
+When you run Tor Browser for the first time, you will see the Tor Network Settings window. This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
 
-##### 连接
+##### Connect
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-在大多数情况下，点击“连接”可以让您不作任何进一步的设置就直接连上洋葱路由网络，点击后将会出现一条状态栏显示目前洋葱路由的连接创建过程，如果您的网络带宽充足但是此状态栏却长时间停滞在某个点上无法完成连接创建，请参考<a href="troubleshooting">错误处理</a>页面以寻求解决问题的协助。
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### 配置
+##### Configure
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-如果您使用的网络有被过滤阻挡，或是您有使用代理服务器，那您就必须要选择此项目，Tor 浏览器将会引导您进行一连串的相关设置进程。
+If you know that your connection is censored, or uses a proxy, you should select this option. Tor Browser will take you through a series of configuration options.
 
-在第一个画面中您必须回答您所处的网络环境是否会过滤阻挡通往洋葱路由网络的连接，若您认为不会的话，请选择“否”。否则若您的网络有被过滤阻挡，或您已经尝试过各种连上洋葱路由网络的方法但都失败的话，请选择“是”，本程序将会带领您前往<a href="circumvention">审查规避</a>画面进行 可插拔传输层 的相关设置。
+The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-在下一个画面中，您必须要回答您的网络连接是否有透过代理服务器来连上网络，通常您应该很清楚自己是否有使用代理服务器，因为这部分的设置在您电脑中的每个网络浏览器里都会一样。若您不确定的话，可以询问您的网络管理员，若您确定无使用代理服务器的话，请点击“继续”。
+The next screen asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Continue”.
 
 <img class="col-md-6" src="../../static/images/proxy_question.png">
 

@@ -1,35 +1,35 @@
 _model: topic
 ---
-title: Elusió
+title: Circumvention
 ---
-description: Que fer si la xarxa Tor està bloquejada
+description: What to do if the Tor network is blocked
 ---
-seo_slug: Elusió
+seo_slug: circumvention
 ---
 key: 4
 ---
 body:
 
-L'accés a la xarxa Tor pot tot sovint ser bloquejat pel seu proveïdor d'Internet o pel govern. El navegador Tor incorpora una serie de programari per evitar-ho. Aquestes eines s'anomenen "connectors de transport". Consulti <a href="/en-US/transports">connectors de transport</a> per a més informació del tipus de transport disponible.
+Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
 
-##### Utilització de connectors de transport
+##### Using pluggable transports
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-Per l'utilització de connectors de transport, faci clic a "Paràmetres" en el iniciador de Tor que apareix qua  s'utilitza per primer cop.
+To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
 
-També pot configurar els connectors de transport mentre el navegador Tor està executant-se, amb el clic en la ceba verda aprop de la barra d'adreces i seleccionar "Paràmetres de xarxa Tor".
+You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
 
-Seleccioni "Si" quan sigui preguntat si el seu proveïdor d'Internet bloqueja les connexions de la xarxa Tor.
+Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-Seleccioni "Connectar amb ponts". El navegador Tor actualment té sis connectors de transport disponibles.
+Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
 
-##### Quin tipus de transport vol utilitzar?
+##### Which transport should I use?
 
-Cadascun dels transports llistat en el menú d'iniciador Tor treballa de manera diferent (per més informació, consultar <a href="/en-US/transports">connectors de transport</a> pàgina) per saber la seva efectivitat depenen de les circumstàncies individuals. 
+Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-Si esteu intentant evitar una connexió bloquejada per primera vegada, heu de provar els diferents transports: obfs3, obfs4, fte, meek-azure i Snowflake.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
 
-Si priva totes aquestes opcions, i cap resulta amb una connexió vàlida, haurà d'introduir una adreça de pont de forma manual. Llegeixi la secció d'aprenentatge sobre <a href="/en-US/bridges/">ponts</a> per saber com fer-ho.
+If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

@@ -1,35 +1,35 @@
 _model: topic
 ---
-title: Обход
+title: Circumvention
 ---
-description: Что делать, если сеть Tor заблокирована
+description: What to do if the Tor network is blocked
 ---
-seo_slug: Обход
+seo_slug: circumvention
 ---
 key: 4
 ---
 body:
 
-Прямой доступ к сети Tor иногда может блокироваться вашим интернет-провайдером или правительством. Tor Browser включает некоторые инструменты обхода, чтобы обойти эти блокировки. Эти инструменты называются подключаемыми транспортами <a href="/en-US/transports">«Pluggable Transports».</a> Дополнительную информацию о типах транспорта, доступных в настоящее время, смотрите на странице Pluggable Transports.
+Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
 
-##### Использование подключаемых транспортов
+##### Using pluggable transports
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-Для использования подключаемых транспортов, нажмите кнопку «Настройка» в окне запуска Tor, которое появляется при первом запуске Tor Browser.
+To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
 
-Вы можете настроить подключаемые транспорты и после запуска Tor Browser, нажав на зеленую луковицу рядом с адресной строкой и выбрав «Настройки сети Tor».
+You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
 
-Выберите «Да», если ваш интернет-провайдер блокирует подключения к сети Tor.
+Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-Выберите «Подключиться с предоставленными мостами». Tor Browser в настоящее время имеет шесть транспортных вариантов подключения на выбор.
+Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
 
-##### Какой транспорт следует использовать?
+##### Which transport should I use?
 
-Каждый из транспортов, перечисленных в меню запуска Tor, работает по-разному (более подробную информацию см. на странице <a href="/en-US/transports">подключаемых транспортов</a>), и их эффективность зависит от конкретных обстоятельств.
+Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-Если вы пытаетесь обойти заблокированное соединение в первый раз,  вам следует попробовать различные транспорты: obfs3, obfs4, fte, meek-azure и Snowflake.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
 
-Если вы попробуете все эти параметры, и ни один из них не поможет вам получить доступ в Интернет, вам нужно будет ввести адреса мостов вручную. Прочтите мосты -  <a href="/en-US/bridges/">Bridges</a>, чтобы узнать, какие бывают мосты и как их получить.
+If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

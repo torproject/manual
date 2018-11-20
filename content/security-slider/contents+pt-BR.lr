@@ -1,45 +1,45 @@
 _model: topic
 ---
-title: Barra de Segurança
+title: Security Slider
 ---
-description: Configurando segurança e usabilidade no Navegador Tor
+description: Configuring Tor Browser for security and usability
 ---
-seo_slug: slider de segurança
+seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-O Navegador Tor inclui uma "Barra de Segurança" que lhe permite aumentar a sua segurança desativando certas funções da web que podem ser usadas para atacar a sua segurança e o seu anonimato. Aumentar o nível de segurança do Navegador Tor fará com que certos websites funcionem incorretamente. Assim, você deve contrabalancar as suas necessidades de segurança e o grau de usabilidade que você necessita.
+Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
 
-##### Acessando a Barra de Segurança
+##### Accessing the Security Slider
 
 <img class="col-md-6" src="../../static/images/slider.png">
 
-O "Controle Deslizante de Segurança" se localiza no menu "Configurações de Segurança" do Torbutton.
+The Security Slider is located in Torbutton’s “Security Settings” menu.
 
-##### Níveis de segurança
+##### Security Levels
 
 <img class="col-md-6" src="../../static/images/slider_window.png">
 
-Aumentar o nível da Barra de Segurança desabilitará total ou parcialmente alguns componentes do navegador para proteger contra possíveis ataques.
+Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
 
 <dl>
 <dt>
-Mais seguro
+Safest
 </dt>
 <dd>
-Nesse nível, mídias de vídeo e áudio HTML5 tornam-se clique-para-tocar através do NoScript; toda otimização de performance JavaScript é desativada; algumas equações matemáticas podem não ser exibidas corretamente; alguns componentes de processamento de fonte são desativados; alguns tipos de imagens são desativados; Javascript é desativado como padrão em todos os sites; a maioria dos formatos de vídeo e áudio é desativado; algumas fontes e ícones podem não ser exibidos corretamente.
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
 </dd>
 <dt>
-Mais seguro
+Safer
 </dt>
 <dd>
-Nesse nível, mídias de vídeo e áudio HTML5 tornam-se clique-para-tocar através do NoScript; toda otimização de performance JavaScript é desativada; algumas equações matemáticas podem não ser exibidas corretamente; alguns componentes de processamento de fonte são desativados; alguns tipos de imagens são desativados; Javascript é desativado como padrão em todos os sites que não sejam <a href="/secure-connections">HTTPS</a>.
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
 </dd>
 <dt>
-Padrão
+Standard
 </dt>
 <dd>
-Nesse nível, todas as funcionalidades de navegação são habilitadas. Esta é a opção que garante mais usabilidade.
+At this level, all browser features are enabled. This is the most usable option.
 </dd>
 </dl>

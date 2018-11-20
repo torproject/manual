@@ -1,35 +1,35 @@
 _model: topic
 ---
-title: გვერდის ავლა
+title: Circumvention
 ---
-description: რა უნდა მოიმოქმედოთ თუ Tor-ქსელი შეზღუდულია
+description: What to do if the Tor network is blocked
 ---
-seo_slug: გვერდის ავლა
+seo_slug: circumvention
 ---
 key: 4
 ---
 body:
 
-Tor-ქსელთან პირდაპირი კავშირი ზოგჯერ შეზღუდულია ხოლმე ინტერნეტ-მომსახურების მომწოდებლის ან მთავრობის მიერ. Tor-ბრაუზერს გააჩნია გარკვეული სახის გვერდის ავლის საშუალებები, ამ შეზღუდვების ასარიდებლად. მათ ეწოდება „მისაერთებელი გადამყვანები“. იხილეთ გვერდი <a href="/en-US/transports">მისაერთებელი გადამყვანები</a> დამატებითი ინფორმაციისთვის, თუ რა სახის გადამყვანებია ამჟამად ხელმისაწვდომი.
+Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
 
-##### მისაერთებელი გადამყვანების გამოყენება
+##### Using pluggable transports
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-მისაერთებელი გადამყვანების გამოსაყენებლად, დააწკაპეთ „გამართვას“ Tor-ის გამშვებ ფანჯარაში, რომელიც გამოდის Tor-ბრაუზერის პირველი ჩართვისას.
+To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
 
-მისაერთებელი გადამყვანების გამართვა ასევე შესაძლებელია გაშვებული Tor-ბრაუზერიდანაც, მისამართების ველის გვერდზე არსებულ მწვანე ხახვის ნიშანზე დაწკაპებით და „Tor-ქსელის პარამეტრების“ არჩევით.
+You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
 
-აირჩიეთ „დიახ“ პასუხი შეკითხვაზე იმ შემთხვევაში, თუ თქვენი ინტერნეტ-მომსახურების მომწოდებელი ზღუდავს Tor-ქსელთან კავშირს.
+Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-მიუთითეთ „მოცემულ გადამცემ ხიდებთან დაკავშირება“. Tor-ბრაუზერს ამჟამად გააჩნია ექვსი მისაერთებელი გადამყვანის არჩევის საშუალება.
+Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
 
-##### რომელი გადამყვანი უნდა გამოვიყენო?
+##### Which transport should I use?
 
-Tor-ის გამშვების მენიუში მუშაობს მოცემული თითოეული გადამყვანი, სხვადასხვაგვარად (ვრცლად, იხილეთ <a href="/en-US/transports">მისაერთებელი გადამყვანების</a> შესახებ გვერდი) და მათი შედეგიანობა დამოკიდებულია გვერდის ავლის თავისებურებებზე.
+Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-თუ თქვენი პირველი მცდელობაა შეზღუდვისთვის გვერდის ავლის, გირჩევთ სცადოთ სხვადასხვა გადამყვანები: obfs3, obfs4, fte, meek-azure და Snowflake.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
 
-თუ ცდით ყველა მათგანს და ვერცერთი ვერ დაგაკავშირებთ ინტერნეტთან, დაგჭირდებათ გადამცემი ხიდის მისამართების ხელით მითითება. წაიკითხეთ <a href="/en-US/bridges/">ხიდების</a> შესახებ განყოფილება და შეიტყვეთ, თუ რას წარმოადგენს ხიდები და როგორ ხდება მათი მოპოვება.
+If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.

@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: ponti
+title: Bridges
 ---
-description: La maggior parte dei Pluggable transports, come obfs3 e ofsf4, si basano su dei nodi relay.
+description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
 ---
-seo_slug: ponti
+seo_slug: bridges
 ---
 key: 4
 ---
 body:
-La maggior parte dei <a href="transports">Pluggable transports</a>, come obfs3 e ofsf4, si basano su dei nodi relay. Come i nodi ordinari di Tor anche i nodi relay sono mantenuti da volontari; a differenza dei nodi ordinari gli indirizzi dei nodi relay non sono pubblici. Per questo motivo un attaccante non può identificarli facilmente. La combinazione di nodi e pluggable transports aiuta a mascherare il fatto che si stia utilizzando la rete Tor.
+Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
 
-Altri pluggable transport, come meek, usano differenti sistemi anti censura che non fanno affidamento su ponti. Non avrete bisogno di utilizzare indirizzi di ponti per utilizzare questi pluggable transports.
+Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
-##### Ottieni gli indirizzi dei ponti
+##### Getting bridge addresses
 
-Siccome gli indirizzi dei ponti non sono pubblici, dovrai richiederli tu stesso. Hai due opzioni:
+Because bridge addresses are not public, you will need to request them yourself. You have two options:
 
-* Visita https://bridges.torproject.org/  e segui le istruzioni
-* Invia un'email a bridges@torproject.org da un indirizzo email Gmail, Yahoo, Riseup, oppure
+* Visit https://bridges.torproject.org/ and follow the instructions, or
+* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
 
-##### Inserisci l'indirizzo ponte
+##### Entering bridge addresses
 
-Una volta che hai ottenute degli indirizzi di ponti, dovrai inserirli nel Launcher Tor.
+Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
-Se stai avviando Tor Browser per la prima volta, clicca 'Configura' per aprire la finestra Impostazioni di rete Tor. Altrimenti, clicca il pulsante Tor a sinistra della barra URL, poi seleziona 'Impostazioni di rete Tor...' per accedere a queste opzioni.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 
 In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Clicca “OK” per salvare le impostazioni. Usare i bridge potrebbe rallentare la connessione rispetto all'uso dei normali relay Tor.
-Se la connessione non va a buon fine, il ponte che hai ricevuto potrebbe essere disattivo. Utilizza uno dei metodi qui sopra per ottenere più ponti e riprova.
+Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

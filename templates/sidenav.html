@@ -16,7 +16,12 @@
 	{% set topicbag = 'topics+en' %}
 	{% for id, item in bag(topicbag).items() %}
 	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
-            <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{% if this.alt != "en"%}/{{ this.alt }}{% endif%}/{{ item.path }}">{{ _(item.label) }} </a>
+    {% if this.alt != "en" %}
+    {% set p = '/' + this.alt + '/' + item.path %}
+    {% else %}
+    {% set p = '/' + item.path %}
+    {% endif %}
+    <a role="button" {% if this.is_child_of(item.path) %} class="side-nav active" {% else %} class="side-nav" {% endif %}  href="{{ p|url }}">{{ _(item.label) }} </a>
 	</li>
 
 	{% endfor %}
@@ -32,7 +37,12 @@
       {% set topicbag = 'topics+en' %}
       {% for id, item in bag(topicbag).items() %}
       <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
-              <a role="button" {% if this.is_child_of(item.path) %} class="nav-link active" {% else %} class="nav-link" {% endif %}  href="{% if this.alt != "en"%}/{{ this.alt }}{% endif%}/{{ item.path }}">{{ _(item.label) }}</a>
+      {% if this.alt != "en" %}
+      {% set p = '/' + this.alt + '/' + item.path %}
+      {% else %}
+      {% set p = '/' + item.path %}
+      {% endif %}
+        <a role="button" {% if this.is_child_of(item.path) %} class="nav-link active" {% else %} class="nav-link" {% endif %}  href="{{ p|url }}">{{ _(item.label) }}</a>
       </li>
 
       {% endfor %}

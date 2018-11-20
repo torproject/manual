@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Les services onion
+title: Onion Services
 ---
-description: Les services qui ne sont accessibles qu’en utilisant Tor
+description: Services that are only accessible using Tor
 ---
-seo_slug: services-oignon
+seo_slug: onion-services
 ---
 key: 6
 ---
 body:
 
-Les services onion (anciennement « services cachés ») sont des services (tels que des sites Web) qui ne sont accessibles que par le réseau Tor.
+Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
 
-Les services onion offrent plusieurs avantages par rapport aux services ordinaires du Web non privé :
+Onion services offer several advantages over ordinary services on the non-private web:
 
-* Le lieu et l'adresse IP d'un service oignon sont cachés, et il est donc difficile pour ses adversaires de le censurer ou d'identifier ses opérateurs.
-* Tout le trafic entre les utilisateurs de Tor et les services onion est chiffré de bout en bout, donc vous n’avez pas à vous soucier de vous <a href="/secure-connections">connecter par HTTPS</a>.
-* L'adresse d'un service oignon est générée automatiquement, donc les opérateurs n'ont pas à acheter un nom de domaine ; l'URL .onion aide aussi Tor à s'assurer qu'il se connecte au bon endroit et que la connexion n'a pas été altérée.
+* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
+* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
+* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
 
-##### Comment accéder à un service oignon ?
+##### How to access an onion service
 
-Comme tout autre site Web, vous devrez connaître l’adresse d’un service onion afin de vous y connecter. Une adresse onion est une chaîne de 16 lettres et chiffres (ou 56 en format V3) principalement générés au hasard, suivie par « .onion ».
+Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Dépannage
+##### Troubleshooting
 
-Si vous ne pouvez pas atteindre le service onion dont vous avez besoin, assurez-vous d’avoir correctement saisi l’adresse onion : même une petite erreur empêchera le Navigateur Tor d’atteindre le site.
+If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
 
-Si vous n’arrivez toujours pas à vous connecter au service onion, veuillez ressayer ultérieurement. Il pourrait y avoir un problème temporaire de connexion ou les exploitants du site pourraient l’avoir désactivé sans avertissement.
+If you are still unable to connect to the onion service, please try again later. There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
 
-Vous pouvez aussi vérifier si vous arrivez à vous connecter à d’autres services onion en vous connectant au <a href="http://3g2upl4pq6kufc4m.onion/">service onion de DuckDuckGo</a>.
+You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>

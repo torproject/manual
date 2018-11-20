@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Eolas maidir le haistriúchán Tor
+title: Becoming a Tor Translator
 ---
-description: Bí i d'aistritheoir ar Thionscadal Tor
+description: Becoming a translator for the Tor Project
 ---
 seo_slug: becoming-tor-translator
 ---
@@ -10,32 +10,32 @@ key: 13
 ---
 body:
 
-Más mian leat cabhrú leis an tionscadal trí aistriúchán a dhéanamh ar an lámhleabhar nó ar bhrabhsálaí Tor féin, bheimis an-bhuíoch díot! Len é seo a dhéanamh, caithfidh tú clárú leis an suíomh Transifex, tríú páirtí a éascaíonn ár bpróiseas aistriúcháin. Seo duit na treoracha cláraithe.
+If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated! In order to begin contributing you will have to sign up with Transifex, the third-party that faciliates our translations. Below is an outline of how to sign up and begin.
 
-##### Clárú le Transifex
+##### Signing up on Transifex
 
-* Tabhair cuairt ar <a href="https://transifex.com/signup/">leathanach cláraithe Transifex</a>.
-  Cuir do shonraí isteach agus cliceáil an cnaipe 'Sign Up':
+* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
+  Enter your information into the fields and click the 'Sign Up' button:
 
 <img class="col-md-6" src="../../static/images/tr1.png">
 
-* Líon isteach an chéad leathanach eile agus roghnaigh "Localization" agus "Translator" ó na roghchláir aníos:
+* Fill out the next page with your name and select "Localization" and "Translator" from the drop-down menus:
 
 <img class="col-md-6" src="../../static/images/tr2.png">
 
-* Ar an chéad leathanach eile, roghnaigh 'Join an existing project' agus lean ar aghaidh.
-* Ar an chéad leathanach eile, roghnaigh na teangacha ar do thoil agat ón roghchlár aníos agus lean ar aghaidh.
-* Tá tú cláraithe anois! Tabhair cuairt ar <a href="https://www.transifex.com/otf/torproject/">leathanach Tor ar Transifex</a>.
-* Cliceáil an cnaipe gorm 'Join Team' ar dheis ar fad:
+* On the next page, select 'Join an existing project' and continue.
+* On the next page, select the languages you speak from the drop-down menu and continue.
+* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
+* Click the blue 'Join Team' button on the far right:
 
 <img class="col-md-6" src="../../static/images/tr3.png">
 
-* Roghnaigh do theanga ón roghchlár aníos:
+* Select the language you would like to translate from the dropdown menu:
 
 <img class="col-md-6" src="../../static/images/tr4.png">
 
-* Feicfidh tú fógra ar bharr an leathanaigh mar seo:
+* A notification will now show up on the top of the page like so:
 
 <img class="col-md-6" src="../../static/images/tr5.png">
 
-Tar éis go nglacfar leat mar aistritheoir, is féidir leat tosú ag obair; níl i gceist ach cuairt a thabhairt ar <a href="https://www.transifex.com/otf/torproject/">leathanach Tor ar Transifex</a> nuair a bheidh tú réidh. Go raibh maith agat as cabhrú linn!
+After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!

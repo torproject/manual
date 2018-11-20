@@ -1,32 +1,32 @@
 _model: topic
 ---
-title: Detecció d'errors
+title: Troubleshooting
 ---
-description: Què fer si el navegador Tor no funciona
+description: What to do if Tor Browser doesn’t work
 ---
-seo_slug: Detecció d'errors
+seo_slug: troubleshooting
 ---
 key: 11
 ---
 body:
-Hauria de poder navegar pels webs mitjançant el navegador Tor executant el programa i fent clic a "Connectar" si l'està utilitzant per primer cop.
+You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-##### Correccions ràpides
+##### Quick fixes
 
-Si el navegador Tor no es connecta, pot haver una solució fàcil. Provi alguna de les següents opcions:
+If Tor Browser doesn’t connect, there may be a simple solution. Try each of the following:
 
-* El rellotge de sistema s'hauria de configurar correctament o Tor no podrà connectar-se.
-* Comprovi que el navegador Tor no s'està executant en aquest moment. Si no està segur, reinicii el ordinador.
-* Comprovi que cap programa d'antivirus instal·lat està intentant evitar que Tor s'executi. Haurà de consultar la documentació del antivirus si no sap com realitzar-ho.
-* Deshabiliti de forma temporal el tallafoc.
-* Suprimir el navegador Tor i tornar a instal·lar. Si l'actualització no ha reescrit la versió anterior del navegador Tor, comprovi que s'han eliminat tots els arxius.
+* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
+* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
+* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
+* Temporarily disable your firewall.
+* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
 
-##### Està la seva connexió en censura?
+##### Is your connection censored?
 
-Si continua sense poder connectar-se, el seu proveïdor d'Internet probablement està censurant les connexions a la xarxa Tor. Per a més informació <a href="eludir">Circumvention</a> per trobar possibles solucions.
+If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
 
-##### Assumptes coneguts
+##### Known issues
 
-El navegador Tor està en constant desenvolupament, i alguns aspectes s'han d'arranjar en el futur. Si us plau comprovi a <a href="més informació">Known Issues</a> si el problema que experimenta ha estat llistat. 
+Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.

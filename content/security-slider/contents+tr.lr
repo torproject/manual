@@ -1,45 +1,45 @@
 _model: topic
 ---
-title: Güvenlik Kaydırıcısı
+title: Security Slider
 ---
-description: Güvenlik ve kullanışlılık için Tor Browser yapılandırması
+description: Configuring Tor Browser for security and usability
 ---
 seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-Tor Browser üzerinde, güvenlik ve anonimliğinizi azaltmak için kullanılabilecek belirli web özelliklerini devre dışı bırakarak güvenliğinizi arttırmanıza sağlayan bir "Güvenlik Kaydırıcısı" bulunur. Tor Browser güvenlik düzeyini arttırmak, bazı web sayfalarının düzgün çalışmasını engeller. Bu nedenle, güvenlik düzeyini, gerek duyduğunuz kullanışlılık derecesine göre seçmelisiniz.
+Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
 
-##### Güvenlik Kaydırıcısına Erişmek
+##### Accessing the Security Slider
 
 <img class="col-md-6" src="../../static/images/slider.png">
 
-Güvenlik Kaydırıcısı, Torbutton "Güvenlik Ayarları" menüsünde bulunur.
+The Security Slider is located in Torbutton’s “Security Settings” menu.
 
-##### Güvenlik Düzeyleri
+##### Security Levels
 
 <img class="col-md-6" src="../../static/images/slider_window.png">
 
-Güvenlik Kaydırıcısının düzeyi arttırıldığında olası saldırılara karşı koruma sağlamak için belirli tarayıcı özellikleri tamamen ya da kısmen devre dışı bırakılır.
+Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
 
 <dl>
 <dt>
-En Güvenli
+Safest
 </dt>
 <dd>
-Bu düzeyde, HTML5 görüntü ve ses ortamları NoScript üzerinden tıkla-oynat ile kullanılabilir. Tüm JavaScript başarım iyileştirmeleri devre dışı bırakılır. Bazı matematik denklemleri düzgün şekilde görüntülenmeyebilir. Bazı yazı türü görüntüleme özellikleri devre dışı bırakılır. Bazı görsel türleri devre dışı bırakılır. JavaScript varsayılan olarak tüm sitelerde devre dışıdır. Çoğu görüntü ve ses biçimi devre dışı bırakılır. Bazı yazı türleri ve simgeler doğru görüntülenmeyebilir.
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
 </dd>
 <dt>
-Daha Güvenli
+Safer
 </dt>
 <dd>
-Bu düzeyde, HTML5 görüntü ve ses ortamları NoScript üzerinden tıkla-oynat ile kullanılabilir. Tüm JavaScript başarım iyileştirmeleri devre dışı bırakılır. Bazı matematik denklemleri düzgün şekilde görüntülenmeyebilir. Bazı yazı türü görüntüleme özellikleri devre dışı bırakılır. Bazı görsel türleri devre dışı bırakılır. JavaScript, varsayılan olarak <a href="secure-connections">HTTPS</a> olmayan tüm sitelerde devre dışı bırakılır.
+At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
 </dd>
 <dt>
-Standart
+Standard
 </dt>
 <dd>
-Bu düzeyde, tüm tarayıcı özellikleri etkin olur. En kullanışlı seçenek budur.
+At this level, all browser features are enabled. This is the most usable option.
 </dd>
 </dl>

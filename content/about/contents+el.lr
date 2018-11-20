@@ -1,29 +1,29 @@
 _model: topic
 ---
-title: Σχετικά με τον Tor Browser
+title: About Tor Browser
 ---
-description: Μάθετε τι μπορεί να κάνει ο Tor Browser για να να προστατευθεί η ιδιωτικότητα και η ανωνυμία σας
+description: Learn what Tor Browser can do to protect your privacy and anonymity
 ---
-seo_slug: Σχετικά
+seo_slug: about
 ---
 key: 1
 ---
 body:
 
-Ο Tor Browser χρησιμοποιεί το δίκτυο Tor  για την προστασία της ιδιωτικότητας και της ανωνυμίας σας. Η χρήση του δικτύου Tor έχει δύο κύριες ιδιότητες:
+Tor Browser uses the Tor network to protect your privacy and anonymity. Using the Tor network has two main properties:
 
-* Ο πάροχος δικτύου σας, και οποιοσδήποτε άλλος που παρακολουθεί τοπικά την σύνδεσή σας, δεν θα μπορεί να ανιχνέυσει την δικτυακή σας δραστηριότητα, συμπεριλαμβανομένων των ονομάτων και διευθύνσεων των ιστοσελίδων που επισκέπτεστε.
+* Your internet service provider, and anyone watching your connection locally, will not be able to track your internet activity, including the names and addresses of the websites you visit.
 
-* Οι διαχειριστές των ιστοσελίδων και των υπηρεσιών που χρησιμοποιείτε, και οποιοσδήποτε τις παρακολουθεί, θα βλέπει μια σύνδεση που προέρχεται από το δίκτυο Tor, αντί της πραγματικής σας διεύθυνσης ίντερνετ (IP), και δεν θα γνωρίζει ποιος είστε εκτός εάν εσκεμμένα το αποκαλύψετε.
+* The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
 
-Επιπλέον, ο Tor Browser έχει σχεδιαστεί να αποτρέπει ιστοσελίδες από το να σε "ταυτοποιήσουν" βάση των ρυθμίσεων του browser σας.
+In addition, Tor Browser is designed to prevent websites from “fingerprinting” or identifying you based on your browser configuration.
 
-Από προεπιλογή, ο Tor Browser δεν κρατά κανένα ιστορικό περιήγησης. Τα cookies είναι έγκυρα μόνο για μια συνεδρία (μέχρι να κλείσει ο Tor Browser ή να ζητηθεί μια <a href="managing-identities#new-identity">Νέα Ταυτότητα</a>).
+By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
 
-##### Πώς λειτουργεί το Tor
+##### How Tor works
 
-* Το Tor είναι ένα δίκτυο εικονικών σηράγγων που σας επιτρέπει να βελτιώσετε το απόρρητο και την ασφάλειά σας στο Διαδίκτυο. Το Tor λειτουργεί αποστέλλοντας την κυκλοφορία σας μέσω τριών τυχαίων διακομιστών (επίσης γνωστών ως *κόμβοι*) στο δίκτυο Tor. Το τελευταίο ρελέ στο κύκλωμα (ο "κόμβος εξόδου") στέλνει τότε την κυκλοφορία στο δημόσιο διαδίκτυο.
+Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
 
-<img class="" src="../../static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../static/images/how-tor-works.png" alt="How Tor Browser works">
 
-Παραπάνω απεικονίζεται η περιήγηση σε διάφορες ιστοσελίδες μέσω του Tor. Οι πράσινες οθόνες παριστάνουν κόμβους στο δίκτυο Tor, ενώ τα τρία κλειδιά παριστάνουν τα στρώματα κρυπτογράφησης μεταξύ του χρήστη και του κάθε κόμβου.
+The image above illustrates a user browsing to different websites over Tor. The green middle computers represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.

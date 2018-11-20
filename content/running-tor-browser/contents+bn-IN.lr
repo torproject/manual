@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: প্রথমবার রান টর ব্রাউজার
+title: Running Tor Browser for the first time
 ---
-description: প্রথমবার টর ব্রাউজার কিভাবে ব্যবহার করবেন জানুন
+description: Learn how to use Tor Browser for the first time
 ---
 seo_slug: running-tor-browser
 ---
@@ -10,23 +10,23 @@ key: 3
 ---
 body:
 
-আপনি প্রথমবার টর ব্রাউজার চালানোর সময়, আপনি টর নেটওয়ার্ক সেটিংস উইন্ডো দেখতে পাবেন। এটি আপনাকে টর নেটওয়ার্কে সরাসরি সংযোগের বিকল্প প্রদান করে, অথবা আপনার সংযোগের জন্য টর ব্রাউজার কনফিগার করতে দেয়।
+When you run Tor Browser for the first time, you will see the Tor Network Settings window. This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
 
-##### সংযোগ করা
+##### Connect
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-বেশিরভাগ ক্ষেত্রে, "সংযোগ" নির্বাচন করা হলে আপনি আর টা নেটওয়ার্ক থেকে সংযোগ স্থাপনের অনুমতি দেবে না। একবার ক্লিক করলে, টর এর সংযোগ অগ্রগতি দেখানো হবে, একটি স্ট্যাটাস বার প্রদর্শিত হবে। যদি আপনি একটি অপেক্ষাকৃত দ্রুত সংযোগ আছে, কিন্তু এই বার একটি নির্দিষ্ট সময়ে আটকে মনে হয়, <a href="troubleshooting">সমস্যার সমাধান</a> সাহায্যের জন্য সমস্যা সমাধান পৃষ্ঠা দেখুন।
+In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
 
-##### কনফিগার করুন
+##### Configure
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-যদি আপনি জানেন যে আপনার সংযোগ সেন্সর করা হয়, বা প্রক্সি ব্যবহার করে, আপনি এই বিকল্পটি নির্বাচন করা উচিত। টর ব্রাউজার কনফিগারেশন বিকল্পগুলির একটি সিরিজ মাধ্যমে আপনাকে নিয়ে যাবে।
+If you know that your connection is censored, or uses a proxy, you should select this option. Tor Browser will take you through a series of configuration options.
 
-টর নেটওয়ার্ক অ্যাক্সেস আপনার সংযোগ ব্লক বা সেন্সর করা হয় কিনা প্রথম পর্দা জিজ্ঞাসা। যদি আপনি বিশ্বাস করেন না এটি এই ক্ষেত্রে, "না" নির্বাচন করুন যদি আপনি জানেন যে আপনার সংযোগ সেন্সর করা হয়েছে, বা আপনি চেষ্টা করেছেন এবং টর নেটওয়ার্কে সংযোগ করতে ব্যর্থ হয়েছেন এবং অন্য কোনো সমাধান কাজ করেনি, "হ্যাঁ" নির্বাচন করুন। একটি প্ল্যাগেবল ট্রান্সপোর্ট কনফিগার করার জন্য আপনি তারপর <a href="/circumvention">সার্কোমাম্পশন</a> স্ক্রীনে নিয়ে যাবেন।
+The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
 
-আপনার সংযোগ একটি প্রক্সি ব্যবহার করে পরের স্ক্রিন জিজ্ঞেস করে। বেশিরভাগ ক্ষেত্রে, এটি প্রয়োজনীয় নয়। আপনি যদি "হ্যাঁ" উত্তর দিতে চান তবে আপনি সাধারণত জানতে পারবেন, একই সেটিংস আপনার সিস্টেমের অন্যান্য ব্রাউজারের জন্য ব্যবহার করা হবে। যদি সম্ভব হয় তাহলে, নির্দেশিকাটির জন্য আপনার নেটওয়ার্ক প্রশাসকের কাছে জিজ্ঞাসা করুন। যদি আপনার সংযোগ কোনও প্রক্সি ব্যবহার না করে, "অবিরত" ক্লিক করুন।
+The next screen asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Continue”.
 
 <img class="col-md-6" src="../../static/images/proxy_question.png">
 
