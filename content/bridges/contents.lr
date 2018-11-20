@@ -22,9 +22,9 @@ The addition of bridges to Tor is a step forward in the blocking resistance race
 It is perfectly possible that even if your ISP filters the Internet, you do not require a bridge to use Tor.
 So you should try to use Tor without bridges first, since it might work.
 
-Otherwise you'll need to configure Tor Browser with whichever bridge address you intend to use.
-If your Internet connection requires the use of a proxy, you'll probably need to configure Tor Browser to use it first.
-If you don't think you need to configure a proxy for your Internet connection, you probably don't.
+##### Using bridges with Tor Browser
+
+When Tor fails to bootsrap (when connecting hangs for several minutes) you will need to configure Tor Browser to use a bridge.
 
 To [use a bridge](#UsingBridges), you have several options.
 Tor Browser now provides some bridges by default.
@@ -32,8 +32,11 @@ You can enable these easily.
 * [When Tor *does* work](#AddTorWorks)
 * [When Tor *doesn't* work](#AddTorNotWorks)
 
+If you are using Tails you need to [configure the bridges when starting](https://tails.boum.org/doc/first_steps/startup_options/bridge_mode/), you cannot do it after you connect to Internet.
+
 Unfortunately, because these bridges are publically distributed, it is easy for censors to block some of them, so some of them may not work.
 In this case, you'll need to locate different bridges.
+Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 * [Finding more bridges for Tor](#FindingMore)
 
 Give it a try and if you have issues, see the [troubleshooting](#Troubleshooting) section.
@@ -50,16 +53,11 @@ As an example, when you obtain a bridge from https://bridges.torproject.org, you
 ```
 141.201.27.48:443 4352e58420e68f5e40bf7c74faddccd9d1349413
 ```
-
 Understanding the components of a bridge line isn't strictly required but may prove useful.
 You can skip this section if you'd like.
-
-The first element is the IP address of the bridge: *'141.201.27.48'*
-
-The second element is the port number: *'443'*
-
-The third element, the fingerprint (unique identifier of the bridge), is optional:
-
+- The first element is the IP address of the bridge: *'141.201.27.48'*
+- The second element is the port number: *'443'*
+- The third element, the fingerprint (unique identifier of the bridge), is optional:
 *'4352e58420e68f5e40bf7c74faddccd9d1349413'*
 
 ![Obfsproxy](../static/images/bridges/icon-Obfsproxy.jpg "Obfsproxy")
@@ -72,19 +70,6 @@ obfs4 141.201.27.48:420 4352e58420e68f5e40bf7c74faddccd9d1349413
 
 The first element is the name of the pluggable transport technology used by the bridge.
 For example, in the case above, the bridge is using the *obfs4* pluggable transport.
-
-----
-
-<a id="UsingBridges"></a>
-
-##### Using bridges with Tor Browser
-
-Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
-
-* [Wen Tor *does* work](#AddTorWorks)
-* [When Tor *doesn't* work](#AddTorNotWorks)
-* [Finding more bridges for Tor](#FindingMore)
-* [Troubleshooting](#Troubleshooting)
 
 ----
 
@@ -177,7 +162,10 @@ If your Internet Service Provider (ISP) blocks or otherwise censors connections 
 
 ###### 3) Proxy settings
 
- If you must configure a proxy then, activate the second checkbox and enter the details.
+If your Internet connection requires the use of a proxy, you'll probably need to configure Tor Browser to use it first.
+If you don't think you need to configure a proxy for your Internet connection, you probably don't.
+
+If you must configure a proxy activate the second checkbox and enter the details.
 
 ![Tor Browser's Proxy settings](../static/images/bridges/tor-launcher-proxy.png "Tor Browser's Proxy settings")
 
