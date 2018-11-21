@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Circumvention
+title: Заобиколување
 ---
-description: What to do if the Tor network is blocked
+description: Што да правите ако Tor мрежата е блокирана
 ---
 seo_slug: circumvention
 ---
@@ -10,26 +10,26 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Директниот пристап до Tor мрежата може понекогаш да биде блокиран од вашиот Интернет сервис провајдер или од Владата. Tor Browser вклучува некои заобиколувачки алатки за да ги заобиколите овие блокади. Овие алатки се наречени „pluggable transports“ што во превод значи „приклучни транспортери“. Погледнете ја <a href="/en-US/transports">Pluggable Transports</a> страницата за повеќе информации кои типови на транспорт се моментално возможни.
 
-##### Using pluggable transports
+##### Користење на pluggable transports
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
+За да ги користите pluggable transports кликнете „Конфигурирај“ во Tor Launcher прозорецот што се појавува кога прв пат ќе го уклучите Tor Browser.
 
-You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
+Можете да ги конфигурирате pluggable transports додека е Tor Browser стартуван, со кликање на зелениот кромид/оnion близу адресната лента и одбирање на „Tor мрежни поставки“.
 
-Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
+Одберете „да“ кога ќе бидете прашани дали вашиот Интернет сервис провајдер ги блокира поврзувања кон Tor мрежата.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
+Одбери „Поврзи со обезбедените мостови“. Tor Browser во моментот има 6 pluggable transport опции помеѓу кои можете да одберете.
 
-##### Which transport should I use?
+##### Кој транспорт треба да го користам?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Секој од транспортите излистан во Tor Launcher менито работи на различен начин (за повеќе детали, видете <a href="/en-US/transports">Pluggable Transports</a> страната), и нивниот ефект зависи конкретно од вашите околности.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
+Ако се обидувате да го заобиколите блокираното поврзување за првпат, треба да се обидете со поинкави транспорти: obfs3, obfs4, fte, meek-azure и Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Ако се обидовте со сите овие опции, и со ниту една не се поврзавте онлајн, треба рачно да внесете мост адреси. Прочитајте за <a href="/en-US/bridges/">Мостови</a> секцијата и научете што се мостови и како да ги добиете.

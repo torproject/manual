@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: Updating
+title: განახლება
 ---
-description: How to update Tor Browser
+description: როგორ განვაახლოთ Tor-ბრაუზერი
 ---
-seo_slug: updating
+seo_slug: განახლება
 ---
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+Tor-ბრაუზერი მუდმივად განახლებული უნდა იყოს. თუ თქვენ განაგრძობთ მოძველებული ვერსიის გამოყენებას, დაუცველი იქნებით უსაფრთხოების ხვრელების მიმართ, რის შედეგადაც საფრთხე შეექმნება თქვენი პირადი მონაცემების დაცვასა და ვინაობის გაუმხელობას.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+Tor-ბრაუზერი ამოგიგდებთ განახლებას, როდესაც ახალი ვერსია იქნება ხელმისაწვდომი: Torbutton-ის ხატულზე გამოჩნდება ყვითელი სამკუთხედი და ასევე შეიძლება იხილოთ განახლების მაჩვენებელი წარწერა Tor-ბრაუზერის გახსნისას. განახლება შეგიძლიათ როგორც ავტომატურად, ასევე ხელით.
 
-##### Updating Tor Browser automatically
+##### Tor-ბრაუზერის ავტომატური განახლება
   <img width="400" src="../../static/images/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+როდესაც Tor-ბრაუზერი განახლებას ამოაგდებს, დააწკაპეთ Torbutton-ის ხატულაზე, შემდეგ აირჩიეთ „Tor-ბრაუზერის განახლებებზე შემოწმება“.
 
   <img width="600" src="../../static/images/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+როდესაც Tor-ბრაუზერი დაასრულებს განახლებებზე შემოწმებას, დააწკაპეთ ღილაკზე „განახლება“.
 
   <img width="600" src="../../static/images/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+დაელოდეთ განახლების ჩამოტვირთვასა და დაყენებას, შემდეგ კი ხელახლა გაუშვით Tor-ბრაუზერი. უკვე გექნებათ განახლებული Tor-ბრაუზერი.
 
-##### Updating Tor Browser manually
+##### Tor Browser-ის ხელით განახლება
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+მას შემდეგ რაც Tor-ბრაუზერის განახლება ამოვარდება, დაასრულეთ მუშაობა და დახურეთ პროგრამა.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+ამოშალეთ Tor-ბრაუზერი სისტემიდან, მისი საქაღალდის წაშლით (იხილეთ განყოფილება <a href='uninstalling'>ამოშლა</a>, დამატებითი ინფორმაციისთვის).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+ეწვიეთ გვერდს <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> და ჩამოტვირთეთ Tor-ბრაუზერის უახლესი გამოშვება, შემდეგ კი ჩვეულებრივ დააყენეთ.

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Circumvention
+title: Παράκαμψη
 ---
-description: What to do if the Tor network is blocked
+description: Τι να κάνετε αν το δίκτυο Tor είναι μπλοκαρισμένο
 ---
 seo_slug: circumvention
 ---
@@ -10,26 +10,26 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Η άμεση πρόσβαση στο δίκτυο Tor μπορεί μερικές φορές να παρεμποδίζεται από τον Πάροχο Υπηρεσιών Διαδικτύου (ISP) ή από κάποια κυβέρνηση. Ο Tor Browser περιλαμβάνει ορισμένα εργαλεία για την παράκαμψη των φραγμών αυτών. Αυτά τα εργαλεία ονομάζονται "pluggable transports". Για περισσότερες πληροφορίες σχετικά με τους τύπους των transport που είναι διαθέσιμα αυτήν τη στιγμή, ανατρέξτε στη σελίδα <a href="/en-US/transports">Pluggable Transports</a>.
 
-##### Using pluggable transports
+##### Χρησιμοποιούνται pluggable transports
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
+Για να χρησιμοποιήσετε pluggable transports, κάντε κλικ στην επιλογή "Διαμόρφωση" στο παράθυρο του Tor Launcher που εμφανίζεται όταν ξεκινάτε για πρώτη φορά τον Tor Browser.
 
-You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
+Μπορείτε επίσης να διαμορφωσετε τα pluggable transports ενώ ο Tor Browser εκτελείται, κάνοντας κλικ στο κρεμμύδι κοντά στη γραμμή διευθύνσεών σας και επιλέγοντας "Ρυθμίσεις Δικτύου Tor".
 
-Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
+Επιλέξτε "Ναι" όταν ερωτηθείτε αν ο πάροχός σας του ίντερνετ μπλοκάρει συνδέσεις προς το δίκτυο Tor.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
+Επιλέξτε "Σύνδεση με παρεχόμενες γέφυρες". Ο Tor Browser διαθέτει έξι επιλογές pluggable transport από τα οποία μπορείτε να επιλέξετε.
 
-##### Which transport should I use?
+##### Τι μέσο πρέπει να χρησιμοποιήσω;
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Κάθε ένα από τα transports που αναγράφονται στο μενού του Tor Launcher λειτουργεί με διαφορετικό τρόπο (για περισσότερες λεπτομέρειες, ανατρέξτε στη σελίδα <a href="/en-US/transports">Pluggable Transports</a>) και η αποτελεσματικότητά τους εξαρτάται από την περίπτωσή σας.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
+Αν προσπαθείς για πρώτη φορά να παρακάμψεις μία μπλοκαρισμένη σύνδεση, δοκίμασε τις μεταφορές: obfs3, obfs4, fte, meek-azure και Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+* Αν δοκιμάσετε όλες αυτές τις λύσεις, και παρ' όλα αυτά δεν καταφέρατε να συνδεθείτε, θα χρειαστεί να καταχωρίσετε χειροκίνητα τις διευθύνσεις γέφυρας. Διαβάστε την ενότητα <a href="/en-US/bridges/"> Γέφυρες</a> για να μάθετε τι είναι οι γέφυρες και πώς να τις αποκτήσετε.

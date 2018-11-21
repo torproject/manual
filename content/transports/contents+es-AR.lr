@@ -1,19 +1,19 @@
 _model: topic
 ---
-title: Pluggable transports
+title: Transportes insertables
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Los transportes insertables son herramientas que Tor puede usar para enmascarar el tráfico saliente originado.
 ---
-seo_slug: plugable-transports
+seo_slug: transportes-insertables
 ---
 key: 4
 ---
 body:
-Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
+Transportes insertables son herramientas que Tor puede usar para enmascarar el tráfico que envía hacia afuera. Esto puede ser útil en situaciones donde un proveedor de servicio de Internet u otra autoridad está bloqueando activamente conexiones a la red de Tor.
 
-##### Types of pluggable transport
+##### Tipos de transporte insertable
 
-Currently there are six pluggable transports available, but more are being developed.
+Corrientemente, hay seis transportes insertables disponibles, pero más están siendo desarrollados.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ Currently there are six pluggable transports available, but more are being devel
     obfs3
 </td>
 <td>
-    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+    obsf3 hace que el tráfico de Tor parezca aleatorio, de manera que no luzca como el protocolo de Tor, ni ningún otro protocolo. Aunque aún se lo incluye de forma predeterminada, se recomienda utilizar en su lugar obsf4, ya que posee varias mejoras de seguridad sobre obsf3.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ Currently there are six pluggable transports available, but more are being devel
     obfs4
 </td>
 <td>
-    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
+    obfs4 hace que el tráfico Tor luzca aleatorio como obfs3, y también previene que los censores encuentren puentes mediante el escaneo de Internet. Puentes obfs4 son menos probables de ser bloqueados que puentes obfs3.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ Currently there are six pluggable transports available, but more are being devel
 FTE
 </td>
 <td>
-    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+    FTE (encriptación por transformación de formato) enmascara el tráfico Tor como si fuera tráfico web común (HTTP).
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+    Todos estos transportes hacen que parezca que vos estás usando un sitio web de envergadura en vez de Tor. meek-amazon hace parecer que estás usando Servicios Web Amazon; meek-azure hace parecer que estás usando un sitio web de Microsoft y meek-google hace parecer que estás usando la búsqueda de Google.
 </td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+    Snowflake es una mejora sobre Flashproxy. Envía tu tráfico a través de WebRTC, un protocolo par-a-par con atravesamiento de NAT incorporado.
 </td>
 </tr>
 </tbody>

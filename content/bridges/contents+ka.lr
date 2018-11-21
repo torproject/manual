@@ -1,28 +1,28 @@
 _model: topic
 ---
-title: Bridges
+title: გადამცემი ხიდები
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: მისაერთებელი გადამყვანების  დიდი ნაწილი, მათ შორის obfs3 და obfs4, ეფუძნება „ხიდურ“ გადამცემებს.
 ---
-seo_slug: bridges
+seo_slug: გადამცემი ხიდები
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+<a href="/transports">მისაერთებელი გადამყვანების</a> დიდი ნაწილი, მათ შორის obfs3 და obfs4, ეფუძნება „ხიდურ“ გადამცემებს. ჩვეულებრივი Tor-გადამცემების მსგავსად,  გადამცემი ხიდებიც მოხალისეების მიერაა უზრუნველყოფილი; თუმცა, განსხვავებით ჩვეულებრივი გადამცემებისა, ისინი არაა საჯაროდ აღნუსხული, ასე რომ, მოწინააღმდეგეები მარტივად ვერ მოახერხებენ მათ აღმოჩენას. ასეთი გადამცემების გამოყენება მისაერთებელ გადამყვანებთან ერთად, გამოსადეგია Tor-ით სარგებლობის შესანიღბად.
 
-Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
+სხვა მისაერთებელი გადამყვანები, როგორიცაა meek, იყენებს ცენზურის ასარიდებელ განსხვავებულ საშუალებებს, რომლებიც არაა დაფუძნებული გადამცემ ხიდებზე. თქვენ არ დაგჭირდებათ ხიდების მისამართების მოპოვება, ამ გადამყვანების გამოსაყენებლად.
 
-##### Getting bridge addresses
+##### გადამცემი ხიდების მისამართების მიღება
 
-Because bridge addresses are not public, you will need to request them yourself. You have two options:
+ვინაიდან, გადამცემი ხიდები არაა საჯაროდ ხელმისაწვდომი, დაგჭირდებათ მისი მოთხოვნა. გაქვთ ორი არჩევანი:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* ეწვიოთ https://bridges.torproject.org/ საიტს და მიჰყვეთ მითითებებს ან
+* ელფოსტის გამოგზავნა მისამართზე bridges@torproject.org Gmail-იდან, Yahoo-დან ან Riseup ელფოსტიდან, ან
 
-##### Entering bridge addresses
+##### გადამცემი ხიდის მისამართების შეყვანა
 
-Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
+მას შემდეგ რაც მოიპოვებთ ხიდის მისამართებს, საჭიროა მათი მითითება Tor-ის გამშვებში.
 
 If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 

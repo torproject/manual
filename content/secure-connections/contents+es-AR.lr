@@ -1,28 +1,28 @@
 _model: topic
 ---
-title: Secure Connections
+title: Conexiones seguras
 ---
-description: Learn how to protect your data using Tor Browser and HTTPS
+description: Aprendé como proteger tus datos usando el navegador Tor y HTTPS
 ---
-seo_slug: secure-connections
+seo_slug: conexiones-seguras
 ---
 key: 7
 ---
 body:
-If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
+Si información personal tal como una contraseña de inicio de sesión viaja sin encriptación sobre Internet, puede ser fácilmente interceptada por un observador hostil. Si estás iniciando sesión en cualquier sitio web, deberías asegurarte que el sitio ofrece encriptación HTTPS, la cual protege contra éste tipo de observación hostil. Podés verificar ésto en la barra URL: si tu conexión está encriptada, la dirección empezará con "https://" en vez de "http://".
 
 <img class="col-md-6" src="../../static/images/https.png">
 
-The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
+La siguiente visualización muestra qué información es visible a observadores hostiles con y sin el navegador Tor y encriptación HTTPS:
 
 <img class="" src="../../static/images/tor-and-https.svg">
 
-* Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
-* Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
-* When both buttons are green, you see the data that is visible to observers when you are using both tools.
-* When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
+* Cliqueá el botón Tor para ver qué datos son visibles a observadores cuando estás usando Tor. El botón se tornará verde para indicar que Tor está activado.
+* Cliqueá el botón "HTTPS" para ver qué datos son visibles a observadores cuando estás usando HTTPS. El botón se tornará verde para indicar que HTTPS está activado.
+* Cuando ambos botones están verdes, ves los datos que son visibles a observadores cuando estás usando ambas herramientas.
+* Cuando ambos botones están grises, ves los datos que son visibles a observadores cuando no estás usando ninguna de las herramientas.
 
-##### Potentially visible data
+##### Datos potencialmente visibles
 
 <dl>
 
@@ -30,35 +30,35 @@ The following visualization shows what information is visible to eavesdroppers w
 Site.com
 </dt>
   <dd>
-    The site being visited.
+    El sitio siendo visitado.
   </dd>
 
 <dt>
-user / pw
+usuario / clave
 </dt>
   <dd>
-    Username and password used for authentication.
+    Nombre de usuario y contraseña usados para autenticación.
   </dd>
 
 <dt>
-data
+datos
 </dt>
   <dd>
-    Data being transmitted.
+    Datos siendo transmitidos.
   </dd>
 
 <dt>
-location
+ubicación
 </dt>
   <dd>
-    Network location of the computer used to visit the website (the public IP address).
+    Ubicación de red de la computadora usada para visitar el sitio web (la dirección IP pública).
   </dd>
 
 <dt>
 Tor
 </dt>
   <dd>
-    Whether or not Tor is being used.
+    Si Tor está o no siendo usado.
   </dd>
 
 </dl>

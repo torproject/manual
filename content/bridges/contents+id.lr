@@ -1,28 +1,28 @@
 _model: topic
 ---
-title: Bridges
+title: Jembatan-jembatan
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Kebanyakan Angkutan Colok, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay.
 ---
-seo_slug: bridges
+seo_slug: jembatan-jembatan
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+Kebanyakan <a href="/transports">Angkutan Colok</a>, seperti obfs3 dan obfs4, bergantung pada penggunaan "jembatan" relay. Seperti relay-relay Tor biasa, jembatan-jembatan ini dijalankan oleh para relawan; namun tidak seperti relay pada umumnya, mereka tidak terdaftar secara publik, sehingga seorang lawan tidak dapat mengidentifikasi pengguna dengan mudah. Menggunakan jembatan-jembatan dikombinasikan dengan angkutan colok membantu menyamarkan fakta bahwa anda sedang menggunakan Tor.
 
-Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
+Diska lepas yang lain, seperti meek, menggunakan teknik anti-sensor berbeda yang tidak mengandalkan jembatan-jembatan. Anda tidak perlu mencari alamat-alamat jembatan untuk menggunakannya.
 
-##### Getting bridge addresses
+##### Mendapatkan alamat-alamat jembatan
 
-Because bridge addresses are not public, you will need to request them yourself. You have two options:
+Karena alamat-alamat jembatan tidak terbuka untuk umum, anda perlu membuat permintaan sendiri. Anda punya dua pilihan:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Kunjungi https://bridges.torproject.org/ dan ikuti petunjuk, atau
+* Email bridges@torproject.org melalui alamat email Gmail, Yahoo, atau Riseup
 
-##### Entering bridge addresses
+##### Memasukkan alamat-alamat jembatan
 
-Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
+Begitu anda mendapatkan beberapa alamat jembatan, anda perlu untuk memasukkannya ke dalam Peluncur Tor.
 
 If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Jika koneksi gagal, jembatan-jembatan yang anda terima mungkin sedang mati. Gunakan salah satu metode di atas untuk mendapatkan alamat-alamat jembatan, dan coba lagi.

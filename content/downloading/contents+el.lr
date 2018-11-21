@@ -1,18 +1,18 @@
 _model: topic
 ---
-title: Downloading
+title: Γίνεται λήψη
 ---
-description: How to download Tor Browser
+description: Πως να κατεβάσετε τον Tor Browser
 ---
-seo_slug: downloading
+seo_slug: Γίνεται λήψη
 ---
 key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Ο ασφαλέστερος και πιο απλός τρόπος για να κατεβάσετε τον Tor Browser είναι από την επίσημη ιστοσελίδα του Tor Project στο https://www.torproject.org. Η σύνδεσή σας με την ιστοσελίδα θα διασφαλίζεται με <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, το οποίο το κάνει πολύ πιο δύσκολο για κάποιον να το παραβιάσει.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
+Ωστόσο, ίσως να υπάρξουν φορές που δεν θα μπορέσετε να αποκτήσετε πρόσβαση στην ιστοσελίδα του Tor Project: για παράδειγμα, θα μπορούσε να είναι αποκλεισμένη στο δίκτυό σας. Εάν συμβεί αυτό, μπορείτε να χρησιμοποιήσετε μία από τις εναλλακτικές μεθόδους λήψης που αναφέρονται παρακάτω.
 
 ##### Mirrors
 
@@ -20,18 +20,18 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+Το GetTor είναι μια υπηρεσία που απαντά αυτόματα σε μηνύματα με συνδέσμους της τελευταίας έκδοσης του Tor Browser, που βρίσκεται σε διάφορες τοποθεσίες, όπως το Dropbox, το Google Drive και το GitHub.
 
-###### To use GetTor via email:
+##### Για να χρησιμοποιήσετε το GetTor μέσω email:
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+Στείλτε ένα email στο gettor@torproject.org, και στο σώμα του μηνύματος απλά γράψτε "windows", "osx" ή "linux" (χωρίς τα εισαγωγικά) ανάλογα με το λειτουργικό σας σύστημα.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+Το GetTor θα απαντήσει με ένα email που θα περιέχει συνδέσμους από τους οποίους θα μπορέσετε να κατεβάσετε το πακέτο του Tor Browser, την κρυπτογραφική υπογραφή (απαραίτητη για την επιβεβαίωση του αρχείου λήψης), το δακτυλικό αποτύπωμα του κλειδιού που χρησιμοποιήθηκε για την υπογραφή, και το checksum του πακέτου. Μπορεί να σας δοθεί η επιλογή για λογισμικό 32 ή 64 bit. Επιλέξτε ανάλογα με το μοντέλο του υπολογιστή που χρησιμοποιείτε.
 
-###### To use GetTor via Twitter:
+##### Για να χρησιμοποιήσετε το GetTor μέσω Twitter:
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+Για να λάβετε συνδέσμους για λήψη του Tor Browser στα Αγγλικά για OS X, στείλτε ένα άμεσο μήνυμα στο @get_tor με τις λέξεις "osx en" (δεν χρειάζεται να ακολουθήσετε τον λογαριασμό).
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Για να χρησιμοποιήσεις το GetTor μέσω του Jabber/XMPP (Jitsi, CoyIM, κ.λπ.):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+Για να λάβετε συνδέσμους για λήψη του Tor Browser στα κινεζικά για Linux, στείλτε ένα μήνυμα στο gettor@torproject.org με τις λέξεις "linux zh".

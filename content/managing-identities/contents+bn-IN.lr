@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Managing identities
+title: সনাক্তকরণ পরিচালনা
 ---
-description: Learn how to control personally-identifying information in Tor Browser
+description: টর ব্রাউজারে ব্যক্তিগতভাবে সনাক্তকারী তথ্য কীভাবে নিয়ন্ত্রণ করবেন তা জানুন
 ---
 seo_slug: managing-identities
 ---
@@ -10,15 +10,15 @@ key: 5
 ---
 body:
 
-When you connect to a website, it is not only the operators of that website who can record information about your visit. Most websites now use numerous third-party services, including social networking “Like” buttons, analytics trackers, and advertising beacons, all of which can link your activity across different sites.
+যখন আপনি কোনও ওয়েবসাইটের সাথে সংযুক্ত হন, এটি কেবল সেই ওয়েবসাইটের অপারেটর নয় যা আপনার দর্শন সম্পর্কে তথ্য রেকর্ড করতে পারে। বেশিরভাগ ওয়েবসাইট এখন সোশ্যাল নেটওয়ার্কিং "বোতামগুলি", এনালিটিক্স ট্র্যাকার্স এবং বিজ্ঞাপন বীকন সহ বিভিন্ন তৃতীয় পক্ষের পরিষেবাগুলি ব্যবহার করে, যা সমস্ত বিভিন্ন সাইট জুড়ে আপনার কার্যকলাপ লিঙ্ক করতে পারে।
 
-Using the Tor network stops observers from being able to discover your exact location and IP address, but even without this information they might be able to link different areas of your activity together. For this reason, Tor Browser includes some additional features that help you control what information can be tied to your identity.
+টর নেটওয়ার্ক ব্যবহার করে আপনার সঠিক অবস্থান এবং IP ঠিকানা আবিষ্কার করতে পর্যবেক্ষকদের স্টপ করে, কিন্তু এই তথ্য ছাড়াও তারা আপনার কার্যকলাপের বিভিন্ন ক্ষেত্রগুলি একসঙ্গে সংযুক্ত করতে সক্ষম হতে পারে। এই কারণে, টর ব্রাউজারে কিছু অতিরিক্ত বৈশিষ্ট্য রয়েছে যা আপনাকে আপনার পরিচয় থেকে কি তথ্য সংযুক্ত করতে পারে তা নিয়ন্ত্রণে সহায়তা করে।
 
-##### The URL bar
+##### URL বার
 
-Tor Browser centers your web experience around your relationship with the website in the URL bar. Even if you connect to two different sites that use the same third-party tracking service, Tor Browser will force the content to be served over two different Tor circuits, so the tracker will not know that both connections originate from your browser.
+টর ব্রাউজার ইউআরএল বারে ওয়েবসাইটের সাথে আপনার সম্পর্কের কাছাকাছি আপনার ওয়েব অভিজ্ঞতাকে কেন্দ্র করে। এমনকি যদি আপনি একই তৃতীয় পক্ষের ট্র্যাকিং পরিষেবা ব্যবহার করে এমন দুটি ভিন্ন সাইটগুলির সাথে সংযুক্ত হন, তবে টর ব্রাউজারটি সামগ্রীটি দুটি ভিন্ন টর সার্কিটগুলিতে পরিবেশিত করতে বাধ্য করবে, তাই ট্র্যাকার জানেন না যে উভয় সংযোগ আপনার ব্রাউজার থেকে উদ্ভূত হবে।
 
-On the other hand, all connections to a single website address will be made over the same Tor circuit, meaning you can browse different pages of a single website in separate tabs or windows, without any loss of functionality.
+অন্যদিকে, একক ওয়েবসাইটের সমস্ত ঠিকানা একই টর সার্কিটে তৈরি করা হবে, যার মানে আপনি কার্যকরী কোন ক্ষতি ছাড়া পৃথক ট্যাব বা উইন্ডোতে একক ওয়েবসাইটের বিভিন্ন পৃষ্ঠা ব্রাউজ করতে পারেন।
 
 <img class="col-md-6" src="../../static/images/circuit_full.png">
 
@@ -28,26 +28,26 @@ In the circuit, the Guard or entry node is the first node and it's automatically
 
 ##### Logging in over Tor
 
-Although Tor Browser is designed to enable total user anonymity on the web, there may be situations in which it makes sense to use Tor with websites that require usernames, passwords, or other identifying information.
+যদিও টর ব্রাউজারটি ওয়েবে সর্বজনীন অজ্ঞাততা সক্ষম করার জন্য ডিজাইন করা হয়েছে, তবু এমন পরিস্থিতিতে থাকতে পারে যেগুলি এমন ওয়েবসাইটগুলির সাথে টর ব্যবহার করতে বোঝায় যা ব্যবহারকারীর নাম, পাসওয়ার্ড বা অন্য সনাক্তকারী তথ্যগুলির প্রয়োজন।
 
-If you log into a website using a regular browser, you also reveal your IP address and geographical location in the process. The same is often true when you send an email. Logging into your social networking or email accounts using Tor Browser allows you to choose exactly which information you reveal to the websites you browse. Logging in using Tor Browser is also useful if the website you are trying to reach is censored on your network.
+যদি আপনি একটি নিয়মিত ব্রাউজার ব্যবহার করে একটি ওয়েবসাইট লগ ইন, আপনি প্রক্রিয়া আপনার IP ঠিকানা এবং ভৌগলিক অবস্থান প্রকাশ। আপনি যখন একটি ইমেল পাঠান তখন একই কথা প্রায়ই সত্য হয়। টর ব্রাউজার ব্যবহার করে আপনার সোশ্যাল নেটওয়ার্কিং বা ইমেইল অ্যাকাউন্টে লগইন করার মাধ্যমে আপনি যে ওয়েবসাইটগুলি ব্রাউজ করেন সেই তথ্যগুলি আপনি প্রকাশ করতে পারবেন। টর ব্রাউজার ব্যবহার করে লগ ইন করাও দরকারী যদি আপনার কাছে পৌঁছানোর চেষ্টা করা ওয়েবসাইটটি আপনার নেটওয়ার্কের উপর সেন্সর করা হয়।
 
-When you log in to a website over Tor, there are several points you should bear in mind:
+আপনি টর উপর একটি ওয়েবসাইটে লগ ইন করার সময়, আপনি মনে করা উচিত বিভিন্ন পয়েন্ট আছে:
 
-* See the  <a href="/secure-connections">Secure Connections</a> page for important information on how to secure your connection when logging in.
-* Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
+* লগ ইন ইন করার সময় কীভাবে আপনার সংযোগ সুরক্ষিত রাখতে গুরুত্বপূর্ণ তথ্যের <a href="secure-connections">নিরাপদ সংযোগগুলি</a> পৃষ্ঠাটি দেখুন।
+* টর ব্রাউজার প্রায়ই আপনার সংযোগ প্রদর্শিত হয় যেন এটি বিশ্বের একটি সম্পূর্ণ ভিন্ন অংশ থেকে আসছে। কিছু ওয়েবসাইট, যেমন ব্যাঙ্ক বা ইমেল প্রদানকারী, আপনার অ্যাকাউন্ট হ্যাক বা আপোস করা হয়েছে এমন একটি চিহ্ন হিসাবে এটি ব্যাখ্যা করতে পারে, এবং আপনাকে লক আউট এটি সমাধান করার একমাত্র উপায় অ্যাকাউন্ট পুনরুদ্ধারের জন্য সাইটের প্রস্তাবিত পদ্ধতি অনুসরণ করে, বা অপারেটরদের সাথে যোগাযোগ করা এবং পরিস্থিতি ব্যাখ্যা করে।
 
-##### Changing identities and circuits
+##### সনাক্তকরণ এবং সার্কিট পরিবর্তন
 
 <img class="col-md-6" src="../../static/images/new_identity.png">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
 
-###### New Identity
+##### নতুন পরিচয়
 
-   This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
+   এই বিকল্পটি উপকারী যদি আপনি আপনার পরবর্তী ব্রাউজারের ক্রিয়াকলাপকে আপনি আগে কি করছেন তা লিঙ্কযোগ্য হতে প্রতিরোধ করতে চাইলে এটি নির্বাচন করলে আপনার সব খোলা ট্যাব এবং উইন্ডো বন্ধ হয়ে যাবে, কুকিজ এবং ব্রাউজিংয়ের ইতিহাসের মতো সমস্ত ব্যক্তিগত তথ্য মুছে ফেলা হবে এবং সমস্ত সংযোগগুলির জন্য নতুন টর সার্কিট ব্যবহার করবে। টর ব্রাউজার আপনাকে সতর্ক করবে যে সমস্ত কার্যকলাপ এবং ডাউনলোডগুলি বন্ধ হয়ে যাবে, তাই "নতুন পরিচয়" ক্লিক করার পূর্বে এটি বিবেচনা করুন।
 
-###### New Tor circuit for this site
+##### এই সাইটের জন্য নতুন টর সার্কিট
 
    This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
    You can also access this option in the new circuit display, in the site information menu, in the URL bar.

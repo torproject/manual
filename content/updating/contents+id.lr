@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: Updating
+title: Pembaruan
 ---
-description: How to update Tor Browser
+description: Cara untuk memperbarui Tor Browser
 ---
-seo_slug: updating
+seo_slug: Pembaruan
 ---
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+Tor Browser akan tetap menyimpan pembaruan selama mungkin. Jika Anda tetap melanjutkan menggunakan versi lama, maka kemanan privasi dan anonimitas Anda akan mudah diserang.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+Tor Browser akan meminta Anda untuk memperbarui perangkat lunak untuk versi terakhir yang baru dikeluarkan: ikon Torbutton akan menampilkan segitiga kuning, dan anda akan melihat tulisan indikator pembaruan ketika Tor Browser terbuka. Anda dapat memperbaruinya secara otomatis atau manual.
 
-##### Updating Tor Browser automatically
+##### Pembaruan Tor Browser secara otomatis
   <img width="400" src="../../static/images/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+Ketika Anda diminta untuk memperbarui Tor Browser, click ikon Torbutton, kemudian pilih "Check for Tor Browser Update"
 
   <img width="600" src="../../static/images/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+Saat Tor Browser telah selesai untuk pembaruan, click tombol "Update".
 
   <img width="600" src="../../static/images/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+Tunggu pembaruan untuk mengunduh dan pemasangan, lalu hidupkan kembali Tor Browser. Setelah itu, Anda akan menjalankan versi terbaru.
 
-##### Updating Tor Browser manually
+##### Perbarui Tor Browser secara manual
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+Ketika Anda diminta untuk memperbarui Tor Brower, selesaikan dulu aktivitas berselancar dan tutup program ini
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+Copot Tor Browser dari sistem Anda dengan cara menghapus folder yang berisi file terkait (lihat <a href='uninstalling'>copot perangkat</a> bagian untuk informasi lanjut).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+Kunjungi <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> dan unduh sebuah salinan dari versi terakhir Tor Browser, lalu pasang sebelumnya.

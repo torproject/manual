@@ -1,29 +1,29 @@
 _model: topic
 ---
-title: About Tor Browser
+title: Acerca del navegador Tor
 ---
-description: Learn what Tor Browser can do to protect your privacy and anonymity
+description: Conocé lo que puede hacer el navegador Tor para proteger tu privacidad y anonimato
 ---
-seo_slug: about
+seo_slug: acerca de
 ---
 key: 1
 ---
 body:
 
-Tor Browser uses the Tor network to protect your privacy and anonymity. Using the Tor network has two main properties:
+El navegador Tor usa la red Tor para proteger tu privacidad y anonimato. Usar la red Tor tiene dos propiedades principales:
 
-* Your internet service provider, and anyone watching your connection locally, will not be able to track your internet activity, including the names and addresses of the websites you visit.
+Tu proveedor de internet, y cualquiera que esté observando tu conexión local, no podrá rastrear tu actividad en internet, incluyendo los nombres y direcciones de los sitios web que visités. 
 
-* The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
+Los operadores de los sitios web y servicios que usés, y cualquiera que los esté observando, verán una conexión proveniente de la red de Tor, en lugar de tu dirección (IP) real, y no sabrán  quién sos, a no ser que te identifiques explícitamente. 
 
-In addition, Tor Browser is designed to prevent websites from “fingerprinting” or identifying you based on your browser configuration.
+Además, el navegador Tor está diseñado para evitar que los sitios web obtengan tu "huella digital" o te identifiquen con base en la configuración de tu navegador.
 
 By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
 
-##### How Tor works
+##### Cómo funciona Tor
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Tor es una red de túneles virtuales que te permite mejorar tu privacidad y seguridad en internet. Tor funciona enviando tu tráfico a través de tres servidores aleatorios (también conocidos como *relevos*) en la red de Tor. El último relevo del circuito (el "relevo de salida") envía el tráfico hacia la zona pública de internet.
 
 <img class="" src="../static/images/how-tor-works.png" alt="How Tor Browser works">
 
-The image above illustrates a user browsing to different websites over Tor. The green middle computers represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.
+La imagen superior ilustra el caso de un usuario navegando diferentes sitios a través de Tor. Las computadoras verdes del medio representan relevos en la red de Tor, mientras que las tres llaves representan las capas de encriptación entre el usuario y cada relevo. 

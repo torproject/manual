@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: Pluggable transports
+title: Pluggable Transports
 ---
 description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
 ---
@@ -9,11 +9,11 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
+Pluggable Transports се алатки кои Tor може да ги користи за да го маскира сообраќајот што го испраќа. Ова може да биде корисно во ситуации кога Интернет Сервис Провајдерот или друг авторитет актвино ги блокира поврзувањата на Tor мрежата.
 
-##### Types of pluggable transport
+##### Типови на pluggable transport
 
-Currently there are six pluggable transports available, but more are being developed.
+Моментално има достапни шест pluggable transports, но се развиваат и повеќе.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ Currently there are six pluggable transports available, but more are being devel
     obfs3
 </td>
 <td>
-    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+    obfs3 го прави Tor сообраќајот да изгледа како да е по случаен избор, па така тој не изгледа како Tor или некој друг протокол. Иако е сеуште стандардно вклучен, наместо obfs3, се препорачува користење на obfs4, бидејќи има неколку безбедносни подобрувања во однос на obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ Currently there are six pluggable transports available, but more are being devel
     obfs4
 </td>
 <td>
-    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
+    obfs4 прави Tor сообраќајот да изгледа како да е по случаен избор како и obfs3, и исто така спречува цензурирачите да ги најдат мостовите со скенирање на Интернетот. obfs4 мостовите е помалку веројатно да бидат блокирани отколку obfs3 мостовите.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ Currently there are six pluggable transports available, but more are being devel
 FTE
 </td>
 <td>
-    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+    FTE (формат-трансформабилна енкрипција) го маскира Tor сообраќајот како да е обичен веб (HTTP) сообраќај.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+    Сите овие транспорти прават да изгледа дека вие прелистувате позната веб страна наместо дека користите Tor. meek-amazon прави да изгледа дека користите Amazon Web Services; meek-azure прави да изгледа дека користите Микрософт веб страна; и meek-google прави да изгледа дека користите Google пребарувач.
 </td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+    Snowflake е подобрување на Flashproxy. Таа го испраќа вашиот сообраќај преку WebRTC, корисник-до-корисник протокол со вграден NET удирач.
 </td>
 </tr>
 </tbody>

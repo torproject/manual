@@ -1,28 +1,28 @@
 _model: topic
 ---
-title: Bridges
+title: Ponts
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: La majoria dels Transports connectors, com obfs3 i obfs4, utilitzen els relés de "pont".
 ---
-seo_slug: bridges
+seo_slug: Ponts
 ---
 key: 4
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+La majoria <a href="transports">Transports connectors</a>, com obfs3 i obfs4, utilitzen els relés de "pont". Com el relés estàndard de Tor, els ponts són usuaris voluntaris; a diferència els relés tradicionals, independentment, no estan llistat, d'aquesta manera no poden ser fàcilment identificats. La utilització de ponts en combinació amb els transports connectors ajuden a disfressar la utilització de Tor.
 
-Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
+Altres transports connectors, com Meek, utilitzant altres tècniques anit-censura sense ponts. No es precisen l'obtenció de direccions ponts.
 
-##### Getting bridge addresses
+##### Obtenció de direcció pont
 
-Because bridge addresses are not public, you will need to request them yourself. You have two options:
+Com que les direccions ponts no són públiques, s'hauran de demanar en l'instant. Existeixen dos opcions:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Visita https://bridges.torproject.org/ i segueixi les instruccions, o
+* Envia correu electrònic  a bridges@torproject.org des de Gmail, Yahoo, o Riseup
 
-##### Entering bridge addresses
+##### Entri la direcció pont
 
-Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
+Un cop s'hagi obtingut alguna direcció pont, l'haurà d'introduir en el Tor Launcher.
 
 If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
 
@@ -31,4 +31,4 @@ In the Tor Network Settings window, select 'Tor is censored in my country.' Then
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
 Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+Si la connexió falla, el ponts obtinguts hauràn caigut. Si us plau, utilitzi un del mencionats a sobre per obtindre més direccions ponts, i provi-ho posteriorment.

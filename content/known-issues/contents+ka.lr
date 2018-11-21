@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Known issues
+title: ცნობილი ხარვეზები
 ---
-description: Known issues
+description: ცნობილი ხარვეზები
 ---
-seo_slug: uninstalling
+seo_slug: ამოშლა
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor საჭიროებს თქვენი სისტემის საათს (თან დროის სარტყელს) დროის სწორად მითითებისთვის.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* მოცემული ქსელის ფარი ცნობილია, რომ ურთიერთქმედებს Tor-ზე შესაძლოა, მისი დროებით გათიშვა იყოს საჭირო:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * Sophos Antivirus Mac-ისთვის
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* ვიდეოები რომლებიც საჭიროებს Adobe Flash-ის გამშვებს, მიუწვდომელია. Flash შეზღუდულია უსაფრთხოების მიზნებით.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor-ს შეუძლია გადამცემი ხიდის გამოყენება შეაჩეროს, თუ პროქსია დაყენებული.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Tor-ბრაუზერის კრებული დათარიღებულია 2000 წლის 1 იანვრით, 00:00:00 UTC. ეს იმის უზრუნველსაყოფადაა, რომ თითოეული ანაწყობის კვლავწარმოება იყოს შესაძლებელი.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Tor-ბრაუზერის Ubuntu-ზე გასაშვებად, საჭიროა პროგრამული გარსით სკრიპტის გაშვება. გახსენით „Files“ (Unity-ის ფაილების მმართველი) → Preferences (თვისებები) → Behavior Tab (მოქმედებების ჩანართი) → ჩაანაცვლეთ „Run executable text files when they are opened“ პარამეტრი „Ask every time“ (შეკითხვა ყოველ ჯერზე) პარამეტრით, შემდეგ კი „OK“.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Tor-ბრაუზერი ასევე შესაძლებელია გაეშვას ბრძანებების ფანჯრიდან, შემდეგი ბრძანებით Tor-ბრაუზერის საქაღალდეში:
 
 	./start-tor-browser.desktop
 
-* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+* ვრცლად, გთხოვთ გაეცნოთ ჩვენს <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">სვეტზე სტატიას მოცემულ თემაზე</a></mark>

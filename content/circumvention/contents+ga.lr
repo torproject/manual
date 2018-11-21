@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Circumvention
+title: Timpeallú
 ---
-description: What to do if the Tor network is blocked
+description: Má tá cosc ar líonra Tor
 ---
 seo_slug: circumvention
 ---
@@ -10,26 +10,26 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Uaireanta ní féidir leat rochtain dhíreach a fháil ar líonra Tor, mar gheall ar bhac a chuir do Sholáthraí Seirbhíse Idirlín nó rialtas romhat. Cuireann Brabhsálaí Tor roinnt uirlisí ar fáil a chabhraíonn leat na baic seo a sheachaint, darb ainm "córais iompair ionphlugáilte". Féach ar <a href="/en-US/transports">an leathanach seo</a> chun tuilleadh eolais a fháil faoi na córais iompair atá ar fáil faoi láthair.
 
-##### Using pluggable transports
+##### Córais iompair ionphlugáilte a úsáid
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
+Chun córas iompair ionphlugáilte a úsáid, cliceáil "Cumraigh" i bhfuinneog Thosaitheoir Tor a fheiceann tú nuair a ritheann tú Brabhsálaí Tor den chéad uair.
 
-You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
+Nó is féidir córais iompair ionphlugáilte a chumrú agus Brabhsálaí Tor ar siúl, tríd an oinniún glas in aice leis an mbarra suímh a chliceáil agus "Socruithe Líonra Tor" a roghnú.
 
-Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
+Roghnaigh "tá" nuair a fhiafraítear díot an bhfuil do Sholáthraí Seirbhíse Idirlín ag cur cosc ar cheangail le líonra Tor.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
+Roghnaigh "Ceangail le droichead ionsuite". Tá sé cinn de chórais iompair ionphlugáilte ar fáil i mbrabhsálaí Tor faoi láthair.
 
-##### Which transport should I use?
+##### Cén cineál iompair ba chóir dom a úsáid?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Feidhmíonn gach ceann de na córais iompair i dTosaitheoir Tor ar bhealach difriúil (féach an leathanach <a href="/en-US/transports">Córais Iompair Ionphlugáilte</a> chun tuilleadh eolais a fháil), agus braitheann a n-éifeachtacht ar na cúinsí speisialta a bhaineann leatsa féin.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
+Má tá tú ag iarraidh bac a sheachaint den chéad uair, ba chóir duit triail a bhaint as na cineálacha iompair éagsúla: obfs3, obfs4, fte, meek-azure, agus Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Má bhain tú triail as na roghanna seo go léir agus ní féidir leat dul ar líne fós, ní mór duit seoltaí droichid a chur isteach de láimh. Léigh an rannóg maidir le <a href="/en-US/bridges/">Droichid</a> le foghlaim cad is droichead ann agus conas is féidir iad a fháil.

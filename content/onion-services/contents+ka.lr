@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Onion Services
+title: Onion-მომსახურებები
 ---
-description: Services that are only accessible using Tor
+description: მომსახურებები, რომლებიც მხოლოდ Tor-იდანაა ხელმისაწვდომი
 ---
-seo_slug: onion-services
+seo_slug: Onion-მომსახურებები
 ---
 key: 6
 ---
 body:
 
-Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
+Onion-მომსახურებები (ცნობილი, როგორც „ჩრდილოვანი ქსელი“) წარმოადგენს მომსახურებებს (აგრეთვე საიტებს) რომლებიც მხოლოდ Tor-ქსელის საშუალებითაა ხელმისაწვდომი.
 
-Onion services offer several advantages over ordinary services on the non-private web:
+Onion-მომსახურებებს გააჩნია გარკვეული უპირატესობები, ჩვეულებრივ, დაუცველ ქსელთან შედარებით:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about <a href="/secure-connections">connecting over HTTPS</a>.
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* Onion-მომსახურებების მდებარეობა და IP-მისამართები დამალულია, რაც ართულებს ზედამხედველებისა და ცენზორების მიერ მათ აღმოჩენასა და მართვას.
+* მიმოცვლილი მონაცემები Tor-ის მომხმარებლებსა და Onion-მომსახურებებს შორის დაცულია პირდაპირი დაშიფვრით, ასე რომ შეგიძლიათ არ იდარდოთ <a href="/secure-connections">HTTPS-ით დაკავშირებაზე</a>.
+* Onion-მომსახურების მისამართი თავისით იქმნება, ასე რომ საიტის მმართველს, არ ესაჭიროება დომენური სახელის შეძენა; მისამართის .onion დაბოლოება, აგრეთვე ეხმარება Tor-ს იმის დამოწმებაში, რომ კავშირი სწორადაა დამყარებული და არ ხდება უნებართვო ჩარევა.
 
-##### How to access an onion service
+##### როგორ ხდება Onion-მომსახურებასთან წვდომა
 
-Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by “.onion”.
+სხვა ვებსაიტების მსგავსად, გესაჭიროებათ Onion-მომსახურების ზუსტი მისამართის ცოდნა, მასთან დასაკავშირებლად. Onion-მისამართი შედგება 16 (და V3-ფორმატში 56), უმეტესად შემთხვევით შერჩეული ასობგერისა და ციფრისგან, დაბოლოებით „.onion“.
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-##### Troubleshooting
+##### გაუმართაობის აღმოფხვრა
 
-If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+თუ საჭირო Onion-მომსახურებასთან წვდომას ვერ ახერხებთ, დარწმუნდით რომ მისამართი სწორად შეგყავთ: მცირე შეცდომაც კი არ მისცემს Tor-ბრაუზერს საიტთან წვდომის საშუალებას.
 
-If you are still unable to connect to the onion service, please try again later. There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
+თუ მაინც ვერ ახერხებთ დაკავშირებას Onion-სერვისთან, გთხოვთ სცადოთ ხელახლა მოგვიანებით. შესაძლოა დროებითი შეფერხება იყოს ან საიტის მმართველებმა გაუფრთხილებლად შეაჩერეს ინტერნეტკავშირი.
 
-You can also ensure that you're able to access other onion services by connecting to <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo's Onion Service</a>
+ამასთან, Onion-მომსახურებებთან წვდომის შესაძლებლობა შეგიძლიათ გადაამოწმოთ <a href="http://3g2upl4pq6kufc4m.onion/">DuckDuckGo-ს Onion-მომსახურებასთან</a> დაკავშირებით

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Becoming a Tor Translator
+title: Converteix-te en un traductor de Tor
 ---
-description: Becoming a translator for the Tor Project
+description: Convertir-se en un traductor del projecte Tor
 ---
 seo_slug: becoming-tor-translator
 ---
@@ -10,32 +10,32 @@ key: 13
 ---
 body:
 
-If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated! In order to begin contributing you will have to sign up with Transifex, the third-party that faciliates our translations. Below is an outline of how to sign up and begin.
+Si esteu interessat a ajudar el projecte traduint el manual o el navegador Tor al vostre idioma, la vostra ajuda seria molt apreciada. Per començar a contribuir, hauràs d'inscriure't amb Transifex, un tercer que facilita les nostres traduccions. A continuació es mostra un resum de com inscriure's i començar.
 
-##### Signing up on Transifex
+##### Registra't a Transifex
 
-* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
-  Enter your information into the fields and click the 'Sign Up' button:
+* Passeu a la <a href="https://transifex.com/signup/">pàgina d'inscripció de Transifex</a>.
+  Introduïu la vostra informació als camps i feu clic al botó "Registra't":
 
 <img class="col-md-6" src="../../static/images/tr1.png">
 
-* Fill out the next page with your name and select "Localization" and "Translator" from the drop-down menus:
+* Ompliu la pàgina següent amb el vostre nom i seleccioneu "Localització" i "Traductor" al menú desplegable:
 
 <img class="col-md-6" src="../../static/images/tr2.png">
 
-* On the next page, select 'Join an existing project' and continue.
-* On the next page, select the languages you speak from the drop-down menu and continue.
-* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
-* Click the blue 'Join Team' button on the far right:
+* A la pàgina següent, seleccioneu "Uniu-vos a un projecte existent" i continueu.
+* A la pàgina següent, seleccioneu els idiomes que parleu al menú desplegable i continueu.
+* Ja t'has inscrit! Aneu a la pàgina de <a href="https://www.transifex.com/otf/torproject/">Tor Transifex</a>.
+* Feu clic al botó blau "Uneix-te a l'equip" a l'extrem dret:
 
 <img class="col-md-6" src="../../static/images/tr3.png">
 
-* Select the language you would like to translate from the dropdown menu:
+* Seleccioneu l'idioma que voleu traduir al menú desplegable:
 
 <img class="col-md-6" src="../../static/images/tr4.png">
 
-* A notification will now show up on the top of the page like so:
+* Ara, una notificació apareixerà a la part superior de la pàgina:
 
 <img class="col-md-6" src="../../static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin. Thanks for your interest in helping the project!
+Un cop aprovada la vostra membresia, podeu començar a traduir; simplement, torneu a la <a href="https://www.transifex.com/otf/torproject/">pàgina Tor Transifex</a> quan estigueu a punt per començar. Gràcies pel vostre interès per ajudar el projecte!

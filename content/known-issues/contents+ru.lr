@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Known issues
+title: Известные проблемы
 ---
-description: Known issues
+description: Известные проблемы
 ---
-seo_slug: uninstalling
+seo_slug: Удаление
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Для работы Tor надо правильно выставить время на системных часах и часовой пояс.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Известны случаи, когда нижеперечисленное программное обеспечение мешало работе Tor. Возможно, его придется временно отключить:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * Sophos Antivirus для Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Недоступны видео-ролики, которым требуется Adobe Flash. Flash отключили из соображений безопасности.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor не может пользоваться мостом, если включен прокси.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* На пакете Tor-браузера проставлена дата 1 января 2000 года, 00:00:00 UTC. Это сделано для полной воспроизводимости сборки программы.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Чтобы запустить Tor-браузер на Ubuntu, надо исполнить шелл-скрипт. Откройте "Files" (проводник Unity), откройте Preferences → Behavior Tab → Выставите значение "Run executable text files when they are opened" в "Ask every time" и щелкните OK.
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Tor-браузер можно запустить с командной строки при помощи следующей команды, запущенной из папки Tor-браузера:
 
 	./start-tor-browser.desktop
 
-* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+* В частности, BitTorrent <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">не позволяет оставаться анонимным в сети Tor</a></mark>.

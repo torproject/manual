@@ -1,45 +1,45 @@
 _model: topic
 ---
-title: Security Slider
+title: 安全滑块
 ---
-description: Configuring Tor Browser for security and usability
+description: 为安全和易用而配置 Tor 浏览器
 ---
 seo_slug: security-slider
 ---
 key: 8
 ---
 body:
-Tor Browser includes a “Security Slider” that lets you increase your security by disabling certain web features that can be used to attack your security and anonymity. Increasing Tor Browser’s security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+Tor 浏览器包含一个“安全滑块”，它可以让您通过禁用某些可能被用于攻击的功能以增加自己的安全级别。增加 Tor 浏览器的安全级别将影响部分网页的功能的正常运行，因此您应该平衡自己所需要的功能与安全性。
 
-##### Accessing the Security Slider
+##### 操作安全滑块
 
 <img class="col-md-6" src="../../static/images/slider.png">
 
-The Security Slider is located in Torbutton’s “Security Settings” menu.
+安全滑块位于 TorButton 中菜单中的 “安全设置” 内。
 
-##### Security Levels
+##### 安全级别
 
 <img class="col-md-6" src="../../static/images/slider_window.png">
 
-Increasing the level of the Security Slider will disable or partially disable certain browser features to protect against possible attacks.
+增加安全级别将禁用或部分禁用某些浏览器功能以防止可能的攻击。
 
 <dl>
 <dt>
-Safest
+最高安全性
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; Javascript is disabled by default on all sites; most video and audio formats are disabled; and some fonts and icons may not display correctly.
+在此安全性等级下，以 HTML 5 建构的视频和音频可通过 NoScript 扩展程序来随点即播；所有的 JavaScript 性能优化皆被关闭；某些数学函数可能无法正常显示；某些字体渲染功能被关闭；部分格式的图形显示被关闭；所有网站上的 JavaScript 功能被关闭；大部分视频与音频格式的支持被关闭；以及某些字体以及图标可能无法正常显示。
 </dd>
 <dt>
-Safer
+中等安全性
 </dt>
 <dd>
-At this level, HTML5 video and audio media become click-to-play via NoScript; all JavaScript performance optimizations are disabled; some mathematical equations may not display properly; some font rendering features are disabled; some types of image are disabled; and JavaScript is disabled by default on all non-<a href="/secure-connections">HTTPS</a> sites.
+在此安全性等级下，以 HTML 5 建构的视频和音频可通过 NoScript 扩展程序来随点即播；所有 JavaScript 性能优化皆会被关闭；某些数学函数可能无法正常显示；某些字体渲染功能被关闭；部分格式的图形显示功能被关闭；针对不支持< a href="secure-connections">HTTPS</a> 加密连接的网站会关闭 JavaScript 功能。
 </dd>
 <dt>
-Standard
+标准安全性
 </dt>
 <dd>
-At this level, all browser features are enabled. This is the most usable option.
+在此安全性等级下，所有浏览器的功能都将被启用，这是可用性最高的安全性模式。
 </dd>
 </dl>

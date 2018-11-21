@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Running Tor Browser for the first time
+title: Εκτέλεση του Tor Browser για πρώτη φορά
 ---
-description: Learn how to use Tor Browser for the first time
+description: Μάθετε πως να χρησιμοποιήσετε τον Tor Browser για πρώτη φορά
 ---
 seo_slug: running-tor-browser
 ---
@@ -10,23 +10,23 @@ key: 3
 ---
 body:
 
-When you run Tor Browser for the first time, you will see the Tor Network Settings window. This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
+Όταν εκτελέσετε τον Tor Browser για πρώτη φορά, θα δείτε το παράθυρο ρυθμίσεων δικτύου του Tor. Αυτό σας δίνει την επιλογή να συνδεθείτε απευθείας στο δίκτυο Tor, ή να διαμορφώσετε τον Tor Browser για τη σύνδεσή σας.
 
-##### Connect
+##### Σύνδεση
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration. Once clicked, a status bar will appear, showing Tor’s connection progress. If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the <a href="/troubleshooting">Troubleshooting</a> page for help solving the problem.
+Στις περισσότερες περιπτώσεις, επιλέγοντας τη "Σύνδεση" θα σας επιτρέψει να συνδεθείτε στο δίκτυο Tor χωρίς περαιτέρω παραμετροποίηση. Όταν το πατήσετε, θα εμφανιστεί μια μπάρα κατάστασης που θα σας δείχνει την πορεία της σύνδεσης του Tor. Αν χρησιμοποιείτε μια αρκετά γρήγορη σύνδεση στο διαδίκτυο αλλά αυτή η μπάρα φαίνεται να έχει κολλήσει σε κάποιο σημείο, δείτε την σελίδα <a href="troubleshooting">Αντιμετώπιση προβλημάτων</a> για βοήθεια για την επίλυση του προβλήματος
 
-##### Configure
+##### Διαμόρφωση 
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-If you know that your connection is censored, or uses a proxy, you should select this option. Tor Browser will take you through a series of configuration options.
+Αν γνωρίζετε πως η σύνδεσή σας λογοκρίνεται ή χρησιμοποιεί proxy, επιλέξτε αυτή την επιλογή. Ο Tor Browser θα σας οδηγήσει σε μια σειρά από ρυθμίσεις και επιλογές.
 
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the <a href="/circumvention">Circumvention</a> screen to configure a pluggable transport.
+Η πρώτη οθόνη ρωτά εάν η πρόσβαση στο δίκτυο Tor είναι αποκλεισμένη ή λογοκρίνεται η σύνδεσή σας. Εάν δεν πιστεύετε ότι συμβαίνει αυτό, επιλέξτε "Όχι". Αν γνωρίζετε ότι η σύνδεσή σας υπόκειται σε λογοκρισία ή έχετε δοκιμάσει και αποτύχατε να συνδεθείτε στο δίκτυο Tor και δεν έχει δουλέψει καμία άλλη λύση, επιλέξτε "Ναι". Στη συνέχεια, θα μεταφερθείτε στην οθόνη <a href="circumvention">Παράκαμψη</a> για να διαμορφώσετε ένα pluggable transport..
 
-The next screen asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Continue”.
+Η επόμενη οθόνη ρωτάει αν η σύνδεσή σας χρησιμοποιεί proxy. Στις περισσότερες περιπτώσεις, αυτό δεν είναι απαραίτητο. Συνήθως θα γνωρίζετε αν πρέπει να απαντήσετε "Ναι", καθώς οι ίδιες ρυθμίσεις θα χρησιμοποιηθούν για άλλα προγράμματα περιήγησης στο σύστημά σας. Εάν είναι δυνατόν, ζητήστε καθοδήγηση από το διαχειριστή του δικτύου σας. Εάν η σύνδεσή σας δεν χρησιμοποιεί proxy μεσολάβησης, κάντε κλικ στην επιλογή "Συνέχεια".
 
 <img class="col-md-6" src="../../static/images/proxy_question.png">
 

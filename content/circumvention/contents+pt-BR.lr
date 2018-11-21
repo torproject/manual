@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Circumvention
+title: Driblar a censura
 ---
-description: What to do if the Tor network is blocked
+description: O que fazer se a rede Tor estiver bloqueada
 ---
 seo_slug: circumvention
 ---
@@ -10,26 +10,26 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Pode acontecer de o acesso direto à rede Tor ser bloqueado pelo seu provedor de serviço de Internet ou por algum governo. O Navegador Tor inclui algumas ferramentas anticensura para driblar esses bloqueios.  Essas ferramentas são chamadas "transportadores plugáveis". Consulte a página  <a href="/en-US/transports">Transportadores Plugáveis</a> para saber mais sobre os tipos de transportadores atualmente disponíveis.
 
-##### Using pluggable transports
+##### Usando transportes plugáveis
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-To use pluggable transports, click "Configure" in the Tor Launcher window that appears when you first run Tor Browser.
+Para usar transportadores plugáveis, clique em "Configurar" na janela do Tor Launcher que aparece quando você começa a executar o Navegador Tor.
 
-You can also configure pluggable transports while Tor Browser is running, by clicking on the green onion near your address bar and selecting “Tor Network Settings”.
+Você também pode configurar os transportadores plugáveis enquanto o Navegador Tor estiver em uso, clicando na cebola, perto da sua barra de endereços. Selecione "Parâmetros da rede Tor".
 
-Select “yes” when asked if your Internet Service Provider blocks connections to the Tor network.
+Responda "sim" à questão sobre se o seu provedor de serviço de Internet bloqueia conexões à rede Tor.
 
 <img class="col-md-6" src="../../static/images/bridges.png">
 
-Select “Connect with provided bridges”. Tor Browser currently has six pluggable transport options to choose from.
+Clique em "Conectar usando pontes fornecidas". Atualmente, o Navegador Tor possui seis opções de transportadores plugáveis para você escolher.
 
-##### Which transport should I use?
+##### Qual transportador utilizar?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Cada um dos transportadores listados no menu do Tor Launcher funciona de maneira diferente (para mais detalhes, consultar <a href="/en-US/transports">Transportadores Plugáveis</a>) e a eficácia deles depende do seu caso individual. 
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, meek-azure and Snowflake.
+Se você está tentando contornar uma conexão bloqueada pela primeira vez, você deve tentar diferentes transportes: obfs3, obfs4, fte, meek-azure e Snowflake.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+Se você tentar todas essas opções e ainda assim não conseguir conectar-se, será preciso inserir os endereços de ponte manualmente. Leia a seção <a href="/en-US/bridges/">Pontes</a> para saber mais sobre o que são pontes e como obtê-las.

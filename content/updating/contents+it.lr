@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: Updating
+title: Aggiorna
 ---
-description: How to update Tor Browser
+description: Come aggiornare Tor Browser
 ---
-seo_slug: updating
+seo_slug: Aggiorna
 ---
 key: 9
 ---
 body:
-Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
+Il browser Tor va mantenuto sempre aggiornato. Se continuate a usare una vecchai versione del browser potreste essere vulnerabili a gravi falle di sicurezza che comprometterebbero la vostra privacy e il vostro anonimato
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+Il browser Tor avviserà automaticamente la presenza di una nuova versione e sull'icona Torbutton apparirà un triangolo giallo ed eventualmente una schermata all'avvio del browser. Potrete decidere se aggiornare manualmente o automaticamente il browser
 
-##### Updating Tor Browser automatically
+##### Aggiorna il Browser Tor automaticamente
   <img width="400" src="../../static/images/update1.png" />
 
-When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
+Per aggiornare il browser Tor basta cliccare sull'icona Torbutton e selezionare la voce "Controlla aggiornamenti browser Tor"
 
   <img width="600" src="../../static/images/update3.png" />
 
-When Tor Browser has finished checking for updates, click on the “Update” button.
+Quando Tor Browser ha finito di controllare gli aggiornamenti, clicca sul pulsante aggiorna.
 
   <img width="600" src="../../static/images/update4.png" />
-Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
+Attendi che gli aggiornamenti vengano scaricati ed installati, poi riavvia Tor Browser. Ora saprai se hai l'ultima versione
 
-##### Updating Tor Browser manually
+##### Aggiorna il Browser Tor manualmente
 
-When you are prompted to update Tor Browser, finish the browsing session and close the program.
+Quando vi verrà indicato di aggiornare il browser Tor, finite la sessione di navigazione e  chiudete il programma
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
+Rimuovi il browser Tor dal tuo sistema la cancellando la directory che lo contiene ( guarda la sezione <a href='uninstalling'>Disinstalla</a>  per maggiori informazioni)
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+Visitate <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> e scaricate una copia dell'ultima versione del browser Tor, quindi installatela come prima.

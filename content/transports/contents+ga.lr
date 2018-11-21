@@ -1,19 +1,19 @@
 _model: topic
 ---
-title: Pluggable transports
+title: Córais Iompair Ionphlugáilte
 ---
-description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
+description: Is éard atá i gcóras iompair ionphlugáilte ná uirlis a chuireann bréagriocht ar an trácht Idirlín a sheolann Tor amach.
 ---
 seo_slug: plugable-transports
 ---
 key: 4
 ---
 body:
-Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
+Is éard atá i gcóras iompair ionphlugáilte ná uirlis a chuireann bréagriocht ar an trácht Idirlín a sheolann Tor amach. Tá sé seo úsáideach nuair a chuireann Soláthraí Seirbhíse Idirlín nó údarás eile bac ar cheangail le líonra Tor.
 
-##### Types of pluggable transport
+##### Cineálacha iompair ionphlugáilte
 
-Currently there are six pluggable transports available, but more are being developed.
+Tá sé cinn de chórais iompair ionphlugáilte ar fáil faoi láthair, ach táimid i mbun oibre ar chinn eile.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ Currently there are six pluggable transports available, but more are being devel
     obfs3
 </td>
 <td>
-    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
+    Cuireann obfs3 cuma randamach ar thrácht Tor, sa dóigh nach mbeadh cosúlacht aige le gnáth-thrácht Tor ná le haon phrótacal eile. Cé go bhfuil obfs3 ar fáil fós de réir réamhshocraithe, molaimid duit obfs4 a úsáid ina áit, toisc go bhfuil sé níos fearr ná obfs3 ó thaobh slándála.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ Currently there are six pluggable transports available, but more are being devel
     obfs4
 </td>
 <td>
-    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
+    Cuireann obfs4 cuma randamach ar thrácht Tor go díreach cosúil le obfs3, agus cuireann sé cosc ar chinsirí droichid a aimsiú trí scanadh an Idirlín. Níos lú an seans go gcuirtear cosc ar dhroichead obfs4 ná ar dhroichead obfs3.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ Currently there are six pluggable transports available, but more are being devel
 FTE
 </td>
 <td>
-    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+    Cuireann FTE (criptiúchán trasfhoirmithe) cuma ghnáth-thrácht Gréasáin (HTTP) ar thrácht Tor.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+    Nuair a úsáideann tú na córais iompair seo, dealraíonn sé go bhfuil tú ag brabhsáil suíomh éigin mór-le-rá in áit Tor. Mar shampla, le meek-amazon, dealraíonn sé go bhfuil tú ag úsáid Seirbhísí Gréasáin Amazon; le meek-azure, go bhfuil tú ag úsáid suímh de chuid Microsoft; agus le meek-google, go bhfuil tú ag déanamh cuardaigh Google.
 </td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+    Leagan feabhsaithe de Flashproxy is ea Snowflake. Seolann sé do chuid tráchta trí WebRTC, prótacal ó ríomhaire go ríomhaire a bhfuil cumas tollta NAT ionsuite ann.
 </td>
 </tr>
 </tbody>

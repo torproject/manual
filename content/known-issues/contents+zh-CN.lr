@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Known issues
+title: 已知问题
 ---
-description: Known issues
+description: 已知问题
 ---
-seo_slug: uninstalling
+seo_slug: 卸载
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor 需要您的系统时钟（及您的时区）设为正确的时间。
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* 下列防火墙软件已知会干扰 Tor 并可能需暂时禁用：
   * Webroot SecureAnywhere
-  * Kaspersky Internet Security 2012
+  * 卡巴斯基 Internet Security 2012
   * Sophos Antivirus for Mac
-  * Microsoft Security Essentials
+  * Microsoft Security Essentials (MSE)
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* 需要 Adobe Flash 的视频不可用。Flash 已因安全考虑而禁用。
 
-* Tor can not use a bridge if a proxy is set.
+* Tor 在已使用代理时无法使用一个网桥。
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* Tor 浏览器的软件包日期被设定为 2000年1月1日00:00:00 UTC。这是为了确保软件包构建（编译）后的结果完全可重复。
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* 要在 Ubuntu 上运行 Tor 浏览器，用户需要执行一个 shell 脚本。打开“文件”（Unity 的浏览器），打开 首选项 → 行为选项卡 → 设置“打开时运行可执行文本文件” 为“始终询问”，然后点击确定。
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* Tor 浏览器也可在 Tor 浏览器的目录内运行下列命令行来启动：
 
 	./start-tor-browser.desktop
 
-* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+* <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">即使通过 Tor 网络，BitTorrent 也不是匿名的</a></mark>。

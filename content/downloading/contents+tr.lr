@@ -1,18 +1,18 @@
 _model: topic
 ---
-title: Downloading
+title: İndirme
 ---
-description: How to download Tor Browser
+description: Tor Browser nasıl indirilir
 ---
-seo_slug: downloading
+seo_slug: İndirme
 ---
 key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+Tor Browser uygulamasını indirmenin en güvenli ve basit yolu, https://www.torproject.org adresindeki resmi Tor Project web sitesinden indirmektir. Siteyle olan bağlantınızın güvenliği <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a> kullanılarak sağlanır ve bu da bazı kişilerin bağlantınızı kurcalamasını oldukça zorlaştırır.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
+Bununla birlikte, Tor Project web sitesine erişemediğiniz zamanlar olabilir: örneğin, ağınızda Tor engellenmiş olabilir. Böyle bir durumda, aşağıda listelenen alternatif indirme yöntemlerinden birini kullanabilirsiniz.
 
 ##### Mirrors
 
@@ -20,18 +20,18 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+GetTor; iletileri otomatik olarak yanıtlayarak, Dropbox, Google Drive ve GitHub gibi çeşitli konumlarda barındırılan en son Tor Browser sürümü bağlantılarını gönderen bir hizmettir.
 
-###### To use GetTor via email:
+##### E-posta ile GetTor kullanımı:
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+gettor@torproject.org adresine bir e-posta gönderin ve ileti metnine işletim sisteminize bağlı olarak "windows", "osx" ya da "linux" (tırnak işaretleri olmadan) yazın.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor, Tor Browser paketini indirebileceğiniz bağlantılar, şifrelenmiş imza (indirmeyi doğrulamak için), imzayı oluşturmak için kullanılan parmak izi ve paketin sağlama değerini içeren bir e-posta ile yanıt verir. Kullandığınız bilgisayarın modeline bağlı olarak "32-bit" ya da "64-bit" uygulamalardan birini seçmeniz istenebilir.
 
-###### To use GetTor via Twitter:
+##### Twitter ile GetTor kullanımı:
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+OS X üzerinde çalışacak İngilizce Tor Browser indirme bağlantılarını almak için @get_tor'a içinde "osx en" sözcükleri bulunan doğrudan bir ileti gönderin (hesabı takip etmeniz gerekmez).
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Jabber/XMPP ile GetTor kullanımı (Jitsi, CoyIM, vb):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+Linux üzerinde çalışacak Çince Tor Browser indirme bağlantılarını almak için gettor@torproject.org adresine içinde "linux zh" sözcükleri bulunan bir ileti gönderin.

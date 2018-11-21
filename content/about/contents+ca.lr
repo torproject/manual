@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: About Tor Browser
+title: Sobre el navegador Tor
 ---
-description: Learn what Tor Browser can do to protect your privacy and anonymity
+description: Aprengui com pot el navegador Tor protegir-lo amb anonimat i privacitat
 ---
 seo_slug: about
 ---
@@ -10,20 +10,20 @@ key: 1
 ---
 body:
 
-Tor Browser uses the Tor network to protect your privacy and anonymity. Using the Tor network has two main properties:
+El navegador Tor utilitza la xarxa Tor per protegir l'anonimat i la privacitat. Utilitzant la xarxa Tor existeixen 2 propietats:
 
-* Your internet service provider, and anyone watching your connection locally, will not be able to track your internet activity, including the names and addresses of the websites you visit.
+* El proveïdor d'Internet i qualsevulla persona que observi la connexió local, no podran fer seguiment de la activitat d'Internet, incloent el nom i direcció dels webs que visiti.
 
-* The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
+*  Els administradors de webs i serveis que s'utilitzin, o qualsevol que sigui observant de la connexió, veurà una connexió que prové de la xarxa Tor en lloc de l'adreça (IP) real, i no podrà saber la seva identitat a menys que ho expliciti.
 
-In addition, Tor Browser is designed to prevent websites from “fingerprinting” or identifying you based on your browser configuration.
+A més, el navegador Tor està dissenyat per prevenir pàgines web amb identificació per empremta digital o identificació mitjançant els paràmetres del navegador.
 
 By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
 
-##### How Tor works
+##### Com funciona Tor
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Tor és una xarxa de túnels virtuals que permeten incrementar la privacitat i la seguretat a Internet. Tor funciona enviant el tràfic de dades a 3 servidors aleatòris (també anomenats com *relés*) a la xarxa Tor. L'últim relé del circuit (el relé de sortida) envia la informació al Internet públic.
 
 <img class="" src="../static/images/how-tor-works.png" alt="How Tor Browser works">
 
-The image above illustrates a user browsing to different websites over Tor. The green middle computers represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.
+La imatge superior mostra un navegador d'usuari amb diferents webs mitjançant Tor. L'ordinador verd del centre representa el relé en la xarxa Tor, mentre que les 3 claus representen les capes d'encriptació entre l'usuari i el relé.

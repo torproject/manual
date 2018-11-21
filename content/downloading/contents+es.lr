@@ -1,18 +1,18 @@
 _model: topic
 ---
-title: Downloading
+title: Descargar
 ---
-description: How to download Tor Browser
+description: Cómo descargar el Navegador Tor
 ---
-seo_slug: downloading
+seo_slug: Descargar
 ---
 key: 2
 ---
 body:
 
-The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
+La forma más fácil y simple de descargar Tor es desde el sitio web oficial del Proyecto Tor en https://www.torproject.org. Asegura la conexión al sitio usando <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, que se lo pone mucho más difícil a cualquiera el manipularla.
 
-However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
+Sin embargo, puede haber ocasiones en las que no puedas acceder al sitio web del Proyecto Tor: por ejemplo podría estar bloqueado en tu red. Si esto sucede, puedes usar uno de los métodos de descarga alternativos listados debajo.
 
 ##### Mirrors
 
@@ -20,18 +20,18 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 ##### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+GetTor es un servicio que responde automáticamente a los mensajes con enlaces a la última versión del navegador Tor, alojado en diferentes lugares, tales como Dropbox, Google Drive y GitHub.
 
-###### To use GetTor via email:
+##### Usar GetTor vía correo electrónico:
 
-Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+Envía un correo a gettor@torproject.org, y en el cuerpo del mensaje escribe simplemente “windows”, “osx”, o “linux”, (sin las comillas) dependiendo de tu sistema operativo.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor responderá con un correo conteniendo enlaces desde los que puedes descargar el paquete Tor, la firma criptográfica (necesaria para verificar la descarga), la huella de validación (fingerprint) de la clave usada para hacer la firma, y la suma de verificación (checksum) del paquete. Puede que se te ofrezca la elección entre software de "32-bit" o de "64-bit": la elección dependerá del modelo del ordenador donde se vaya a usar.
 
-###### To use GetTor via Twitter:
+##### Usar GetTor vía Twitter:
 
-To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
+Para obtener enlaces para descargar el Navegador Tor en inglés para OS X, envía un Mensaje Directo a @get_tor con las palabras "osx en" (sin las comillas) en él (no necesitas seguir la cuenta).
 
-###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
+##### Para usar GetTor vía Jabber/XMPP (Tor Messenger, Jitsi, CoyIM):
 
-To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.
+Para obtener enlaces para descargar Tor en chino para Linux envía un mensaje a gettor@torproject.org con las palabras "linux zh" en él.

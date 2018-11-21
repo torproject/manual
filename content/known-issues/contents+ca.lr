@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Known issues
+title: Assumptes coneguts
 ---
-description: Known issues
+description: Assumptes coneguts
 ---
-seo_slug: uninstalling
+seo_slug: Desinstal·lant
 ---
 key: 12
 ---
 body:
 
-* Tor needs your system clock (and your time zone) set to the correct time.
+* Tor necessita el rellotge de sistema (i el fus horari) per configurar el temps correctament.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* El següent programari tallafoc ha interferit amb Tor i s'hauria de deshabilitar de forma temporal:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
-  * Sophos Antivirus for Mac
+  * Sophos Antivirus per Mac
   * Microsoft Security Essentials
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* Els vídeos que precisen d'Adobe Flash són inaccessibles per motius de seguretat.
 
-* Tor can not use a bridge if a proxy is set.
+* Tor no pot utilitzar un pont si el servidor intermedi està configurat.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* El paquet d'aplicació del navegador Tor està datat a 1 de gener,  2000 00:00:00 UTC. Això permet assegurar que la versió és reproduïble.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Per executar el navegador Tor sobre Ubuntu, s'haurà d'executar mitjançant shell script. Per això accedir a "Arxius" (navegador unificat),  Paràmetres → Comportament pestanyes → Configurar, executar l'arxiu de text quan s'obri la pantalla emergent a "Preguntar cada cop" i fer clic a "Acceptar".
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* El navegador Tor pot ser inicialitzat per línia de comanda mitjançant la següent instrucció en el director del navegador Tor:
 
 	./start-tor-browser.desktop
 
-* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+* BitTorrent en concret <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">no és anònim sobre Tor</a></mark>.

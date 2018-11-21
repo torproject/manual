@@ -1,32 +1,32 @@
 _model: topic
 ---
-title: Troubleshooting
+title: Решавање проблеми
 ---
-description: What to do if Tor Browser doesn’t work
+description: Што да направите ако Tor Browser не работи
 ---
 seo_slug: troubleshooting
 ---
 key: 11
 ---
 body:
-You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
+Вие треба да можете да започнете да прелистувате на веб користејќи го Tor Browser кратко откако ќе ја стартувате програмата, и со кликнување на копчето "Поврзи" ако го користите за првпат.
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-##### Quick fixes
+##### Брзи поправки
 
-If Tor Browser doesn’t connect, there may be a simple solution. Try each of the following:
+Ако Tor Browser не се поврзува, може да има едноставно решение. Пробајте некое од следниве:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
-* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
-* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
-* Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* Часовникот на вашиот компјутерски систем мора да биде точно поставен, или Tor нема да може да се поврзе.
+* Бидете сигурни дека друг Tor Browser не е веќе стартуван. Ако не сте сигурни дали Tor Browser е веќе во функција, рестартирајте го вашиот компјутер.
+* Бидете сигурни дека секоја антивирусна програма што сте ја инсталирале не го спречува Tor да работи. Можеби ќе треба да се консултирате со документацијата за вашиот антивирусен софтвер ако не знаете како да го направите ова.
+* Привремено оневозможете го вашиот заштитен ѕид.
+* Избишете го Tor Browser и инсталирајте го повторно. Ако се надградува, не ги презапишувајте фајловите од претходниот Tor Browser; осигурајте се дека се целосно избиршани претходно.
 
-##### Is your connection censored?
+##### Дали вашето поврзување е цензурирано?
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the <a href="/circumvention">Circumvention</a> section for possible solutions.
+Ако сеуште не можете да се поврзете, вашиот Интернет Сервис Провајдер можно е да го цензурира поврзувањето на Tor  мрежата. Прочитајте ја <a href="/circumvention">Заобиколување</a> секцијата за можни решенија.
 
-##### Known issues
+##### Познати проблеми
 
-Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the <a href="/known-issues">Known Issues</a> page to see if the problem you are experiencing is already listed there.
+Tor Browser е под постојано развивање, и некои проблеми се познати но сеуште не се поправени. Ве молиме проверете на <a href="/known-issues">Познати Проблеми</a> страницата да видите дали проблемот со кој се соочувате е веќе излистан таму.
