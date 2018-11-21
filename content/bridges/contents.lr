@@ -26,6 +26,8 @@ So you should try to use Tor without bridges first, since it might work.
 
 When Tor fails to bootsrap (when connecting hangs for several minutes) you will need to configure Tor Browser to use a bridge.
 
+![How to use pluggable transports](../static/images/bridges/PT.png "How to use pluggable transports")
+
 To [use a bridge](#UsingBridges), you have several options.
 Tor Browser now provides some bridges by default.
 You can enable these easily.

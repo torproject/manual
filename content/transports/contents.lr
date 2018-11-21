@@ -9,8 +9,16 @@ seo_slug: plugable-transports
 key: 4
 ---
 body:
-A pluggable transport is a program that is used between the user’s Tor client, such as Tor Browser, and a Tor bridge.
-The pluggable transport’s job is to change the appearance of the data that flows between itself and the bridge so that a censor won’t be able to recognize it as Tor traffic.
+A pluggable transport (PT) is a program that transforms the traffic between the user’s Tor client such as Tor Browser and a Tor bridge.
+Its job is to change the appearance of the data that flows between itself and the bridge so that a censor won’t be able to recognize it as Tor traffic.
+
+If connections to the Tor network are being blocked by your ISP or country, follow these instructions.
+Tor Browser includes some pre-configured [bridges](../bridges) and you can get more from [BridgeDB](../bridges#getting-bridge-addresses), if those don't work.
+
+##### Why pluggable transports
+
+Sometimes the Tor network is censored, and you can't connect to it.
+Pluggable Transports help you bypass censorship against Tor.
 
 Over the last few years, censors have found ways to block Tor even when clients are using bridges.
 They usually do this by installing special boxes at ISPs that peek into network traffic and detect Tor;
@@ -20,13 +28,8 @@ To circumvent such sophisticated censorship Tor introduced pluggable transports.
 These transports manipulate all Tor traffic between the client and its first hop such that it is not identifiable as a Tor connection.
 If the censor can't decide if the connection is a Tor connection, then they are less likely to block it.
 
-Tor Browser includes some pre-configured [bridges](../bridges) and you can get more from [BridgeDB](../bridges#getting-bridge-addresses), if those don't work.
-
-Sadly, pluggable transports are not immune to detection, if a censor is given enough time.
-In the past, we promoted obfs and obfs2 as safe transports.
-These are now deprecated and were replaced by obfs3, scramblesuit, fte, and obfs4.
-
-----
+This way, censors who monitor traffic between the client and the bridge will see innocent-looking transformed traffic instead of the actual Tor traffic.
+External programs can talk to Tor clients and Tor bridges using the [pluggable transport API](https://spec.torproject.org/pt-spec), to make it easier to build interoperable programs.
 
 ##### Types of Pluggable Transports
 
@@ -35,6 +38,8 @@ Most pluggable transports, such as obfs3 and obfs4, rely on the use of “bridge
 Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
 Currently there are six pluggable transports available, but more are being developed.
+
+----
 
 <table>
 <tbody>
@@ -80,3 +85,15 @@ meek
 </tr>
 </tbody>
 </table>
+
+----
+
+Sadly, pluggable transports are not immune to detection, if a censor is given enough time.
+In the past, we promoted obfs and obfs2 as safe transports.
+These are now deprecated and were replaced by obfs3, scramblesuit, fte, and obfs4.
+
+Our goal is to have a wide variety of designs, check out the [full list in our wiki](https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports/list).
+Many are at the research phase now, so it's a perfect time to play with them or suggest new designs.
+
+For more information on how to become a bridge operator or developer see our [wiki page on pluggable transports](https://trac.torproject.org/projects/tor/wiki/doc/PluggableTransports).
+Please let us know if you find or start other projects that could be useful for making Tor's traffic flows more DPI-resistant!
