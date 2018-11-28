@@ -1,18 +1,18 @@
 _model: topic
 ---
-title: ডাউনলোড হচ্ছে
+title: Downloading
 ---
-description: টর ব্রাউজার ডাউনলোড কিভাবে?
+description: How to download Tor Browser
 ---
-seo_slug: ডাউনলোড হচ্ছে
+seo_slug: downloading
 ---
 key: 2
 ---
 body:
 
-টর ব্রাউজার ডাউনলোড করার সবচেয়ে নিরাপদ এবং সহজ উপায়টি হল https://www.torproject.org এ অফিসিয়াল টর প্রকল্প ওয়েবসাইট থেকে। সাইটটিতে আপনার সংযোগটি <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a> ব্যবহার করে সুরক্ষিত থাকবে, যার সাহায্যে কাউকে কাউকে ছিঁড়ে ফেলা হবে।
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-যাইহোক, এমন সময় হতে পারে যখন আপনি টর প্রকল্প ওয়েবসাইট অ্যাক্সেস করতে পারবেন না: উদাহরণস্বরূপ, এটি আপনার নেটওয়ার্কে ব্লক করা যেতে পারে। যদি এটি ঘটে, আপনি নীচে তালিকাভুক্ত বিকল্প ডাউনলোড পদ্ধতিগুলির মধ্যে একটি ব্যবহার করতে পারেন।
+However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
 
 ##### Mirrors
 
@@ -20,18 +20,18 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 ##### GetTor
 
-জেটটি এমন একটি পরিষেবা যা স্বয়ংক্রিয়ভাবে টর ব্রাউজারের সর্বশেষ সংস্করণে লিঙ্ক দেয়, যেমন ড্রপ-বক্স্, Google ড্রাইভ এবং গিটহাব ।
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-##### ইমেলের মাধ্যমে GetTor ব্যবহার করতে:
+###### To use GetTor via email:
 
-Gettor@torproject.org- এ একটি ইমেল পাঠান, এবং বার্তাটি আপনার অপারেটিং সিস্টেমের উপর নির্ভর করে শুধু "উইন্ডোজ", "ওএসএক্স", বা "লিনাক্স" (উদ্ধৃতি চিহ্ন ছাড়াই) লিখুন।
+Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
-GetTor একটি ইমেল ধারণকারী লিঙ্কে সাড়া দেবে যার থেকে আপনি টর ব্রাউজার প্যাকেজ ডাউনলোড করতে পারেন, ক্রিপ্টোগ্রাফিক স্বাক্ষর (ডাউনলোড যাচাই করার জন্য প্রয়োজনীয়), স্বাক্ষর করার জন্য ব্যবহৃত কীটির আঙ্গুলের ছাপ এবং প্যাকেজের চেকসাম। আপনি "32-বিট" বা "64-বিট" সফ্টওয়্যার চয়ন করতে পারেন: এটি আপনার ব্যবহার করা কম্পিউটারের মডেলের উপর নির্ভর করে।
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
-##### টুইটারের মাধ্যমে GetTor ব্যবহার করতে:
+###### To use GetTor via Twitter:
 
-ওএস এক্সের জন্য ইংরেজিতে টর ব্রাউজার ডাউনলোড করার জন্য লিঙ্ক পেতে, এটিতে "ওএসএক্স এন" শব্দটি দিয়ে (এটি আপনাকে অ্যাকাউন্টটি অনুসরণ করতে হবে না) দিয়ে @get_tor- এ একটি সরাসরি বার্তা পাঠান।
+To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
 
-##### Jabber/XMPP (Jitsi, CoyIM, etc.) মাধ্যমে জেটটি ব্যবহার করতে:
+###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-লিনাক্সের জন্য চীনে টর ব্রাউজার ডাউনলোড করার জন্য লিঙ্ক পেতে <a>Gettor@torproject.org</a>- এ একটি বার্তা পাঠান যাতে "linux zh" শব্দটি ব্যবহার করুন।
+To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.

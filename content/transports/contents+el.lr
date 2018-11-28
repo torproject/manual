@@ -1,19 +1,19 @@
 _model: topic
 ---
-title: Pluggable Transports
+title: Pluggable transports
 ---
-description: Τα Pluggable transports είναι εργαλεία τα οποία μπορεί να χρησιμοποιήσει ο Tor για να κρύψει την κίνηση που εκπέμπει.
+description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
 ---
 seo_slug: plugable-transports
 ---
 key: 4
 ---
 body:
-Τα Pluggable transports είναι εργαλεία τα οποία μπορεί να χρησιμοποιήσει ο Tor για να κρύψει την κίνηση που εκπέμπει. Αυτό μπορεί να χρησιμεύσει στην περίπτωση που ένας πάροχος ίντερνετ ή κάποια άλλη αρχή εμποδίζει ενεργά τις συνδέσεις στο δίκτυο του Tor.
+Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
 
-##### Τύποι των pluggable transport
+##### Types of pluggable transport
 
-Προς το παρόν υπάρχουν τρια pluggable transports διαθέσιμα, αλλά δημιουργούνται κι άλλα.
+Currently there are six pluggable transports available, but more are being developed.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ body:
     obfs3
 </td>
 <td>
-    Το obfs3 κάνει την κίνηση στον Tor να μοιάζει τυχαία κι έτσι δεν μοιάζει με τον Tor ή με κάποιο άλλο πρωτόκολο. Παρ' όλο που έχει τεθεί ως προεπιλογή, συνιστάται να χρησιμοποιείται αντί αυτού το obfs4 , επειδή έχει πολλές βελτιώσεις συγκριτικά με τον obfs3.
+    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ body:
     obfs4
 </td>
 <td>
-    Ο obfs4 κάνει την κίνηση του Tor να μοιάζει τυχαία όπως ο obfs3 και ταυτόχρονα δεν επιτρέπει σε λογοκριτές να βρίσκουν τις γέφυρες σκανάροντας το διαδίκτυο. Οι γέφυρες του obfs4 είναι πολύ λιγότερο πιθανό να μπλοκαριστούν απ' ότι οι γέφυρες του obfs3.
+    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ body:
 FTE
 </td>
 <td>
-    Τα FTE (κρυπτογράφηση που αλλάζει το φόρματ) κρύβει την κίνηση του Tor σαν κανονική κίνηση στο διαδίκτυο (ΗΤΤΡ).
+    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    Όλες αυτές οι μεταφορές σε κάνουν να μοιάζεις σαν να χρησιμοποιείς έναν από τους κύριους περιηγητές κι όχι τον Tor. To meek-amazon σε κάνει να μοιάζεις σαν να χρησιμοποιείς τις ηλεκτρονικές υπηρείες του Amazon. Το meek-azure σε κάνει να μοιάζεις σαν να χρησιμοποιείς σελίδες της Microsoft και το meek-google σε κάνει να μοιάζεις σαν να χρησιμοποιείς την αναζήτηση της Google.
+    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ meek
     Snowflake
 </td>
 <td>
-    Το Snowflake είναι μία βελτίωση στο Flashproxy. Στέλνει την κίνησή σας μέσα από το WebRTC, έναν έλεγχο peer-to-peer με προσαρτημένη εκκίνηση ΝΑΤ.
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>

@@ -1,8 +1,8 @@
 _model: topic
 ---
-title: Problemas conhecidos
+title: Known issues
 ---
-description: Problemas conhecidos
+description: Known issues
 ---
 seo_slug: uninstalling
 ---
@@ -10,24 +10,24 @@ key: 12
 ---
 body:
 
-* Tor precisa que o seu relógio de sistema (e a sua zona horária) estejam definidos corretamente.
+* Tor needs your system clock (and your time zone) set to the correct time.
 
-* Os seguintes programas de firewall são conhecidos por interferirem no Tor e precisam ser desabilitados temporariamente:
+* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac
   * Microsoft Security Essentials
 
-* Vídeos que requerem Adobe Flash não são disponíveis. Flash foi desabilitado por questões de segurança. 
+* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
 
-* Tor não pode usar pontes se um proxy estiver configurado.
+* Tor can not use a bridge if a proxy is set.
 
-* O pacote do Navegador Tor data de "January 1, 2000 00:00:00 UTC". Essa notação garante que todos as compilações do programa sejam reproduzíveis com exatidão.
+* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
 
-* Para rodar o Navegador Tor no Ubuntu, é preciso executar um shell script. Abra "Files" (Unity's explorer), abra Preferences → Behavior Tab → Defina "Run executable text files when they are opened" como "Ask every time", em seguida encerre o diálogo.
+* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
 
-* O Navegador Tor também pode ser iniciado a partir da linha de comando, executando o seguinte comando no diretório do Navegador Tor:
+* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
 
 	./start-tor-browser.desktop
 
-* BitTorrent, especificamente, <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">não é anônimo quando quando conecta-se via Tor</a></mark>.
+* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.

@@ -1,18 +1,18 @@
 _model: topic
 ---
-title: Загрузка
+title: Downloading
 ---
-description: Как скачать Tor Browser
+description: How to download Tor Browser
 ---
-seo_slug: загрузка
+seo_slug: downloading
 ---
 key: 2
 ---
 body:
 
-Безопасно скачать Tor Browser можно с официального сайта Tor Project https://www.torproject.org. Соединение с сайтом использует протокол безопасности <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, что усложняет перехват вашего трафика сторонними пользователями. 
+The safest and simplest way to download Tor Browser is from the official Tor Project website at https://www.torproject.org. Your connection to the site will be secured using <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>, which makes it much harder for somebody to tamper with.
 
-Однако могут возникнуть случаи, когда не удается получить доступ к веб-сайту Tor Project: например, он может быть заблокирован в вашей сети. В этом случае можно использовать один из альтернативных способов загрузки, перечисленных ниже.
+However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network. If this happens, you can use one of the alternative download methods listed below.
 
 ##### Mirrors
 
@@ -20,18 +20,18 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 ##### GetTor
 
-GetTor - сервис который автоматически обновляет ссылки на последние версии Tor Browser, который размещён на различных сервисах, таких как Dropbox, Google Диск и GitHub.
+GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-##### Чтобы использовать GetTor через e-mail:
+###### To use GetTor via email:
 
-Отправьте сообщение электронной почты на адрес gettor@torproject.org, а в теле сообщения просто напишите "windows", "osx" или "linux" (без кавычек) в зависимости от вашей операционной системы.
+Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
-GetTor ответит электронным письмом, содержащим ссылки для загрузки Tor Browser, цифровую подпись (необходима для проверки загрузки), отпечаток ключа, используемого для создания подписи и контрольную сумму пакета. Может быть предложено выбрать "32-bit" или "64-bit" версию: это зависит от модели используемого компьютера.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
-##### Для использования GetTor через Twitter:
+###### To use GetTor via Twitter:
 
-Чтобы получить ссылки для скачивания Tor Browser на русском языке для OS X, отправьте сообщение для @get_tor со словами «osx ru» (при этом подписываться на аккаунт не нужно).
+To get links for downloading Tor Browser in English for OS X, send a Direct Message to @get_tor with the words "osx en" in it (you don't need to follow the account).
 
-##### Для использования GetTor через Jabber/XMPP (Jitsi, CoyIM,и т.д.):
+###### To use GetTor via Jabber/XMPP (Jitsi, CoyIM, etc.):
 
-Для получения ссылки для скачивания Tor Browser на русском языке для Linux, отправьте сообщение gettor@torproject.org со словами «linux ru».
+To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.

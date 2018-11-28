@@ -4,6 +4,6 @@ _model: showcase
 ---
 _template: jumbotron.html
 ---
-title: Le guide d’utilisation du Navigateur Tor
+title: Tor Browser User Manual
 ---
 Welcome to the Tor Browser User Manual.

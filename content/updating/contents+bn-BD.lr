@@ -1,34 +1,34 @@
 _model: topic
 ---
-title: আপডেট করা হচ্ছে
+title: Updating
 ---
-description: টর ব্রাউজার আপডেট কিভাবে
+description: How to update Tor Browser
 ---
-seo_slug: আপডেট করা হচ্ছে
+seo_slug: updating
 ---
 key: 9
 ---
 body:
-টর ব্রাউজার সব সময়ে আপডেট করা আবশ্যক। আপনি যদি সফ্টওয়্যারের একটি পুরোনো সংস্করণ ব্যবহার করা চালিয়ে যান, তাহলে আপনার গোপনীয়তা এবং গোপনীয়তার সাথে আপস করে এমন গুরুতর নিরাপত্তা ত্রুটিগুলির জন্য আপনি দুর্বল হতে পারেন।
+Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
 
-টর্ ব্রাউজার আপনাকে নতুন সফ্টওয়্যার আপডেট করার জন্য সফ্টওয়্যারটি আপডেট করতে বলবে: Torbutton আইকনটি একটি হলুদ ত্রিভুজ প্রদর্শন করবে এবং টর ব্রাউজার খোলার পর আপনি একটি লিখিত আপডেট নির্দেশক দেখতে পাবেন। আপনি স্বয়ংক্রিয়ভাবে বা ম্যানুয়াল আপডেট করতে পারেন।
+Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
 
-##### টর ব্রাউজার স্বয়ংক্রিয়ভাবে আপডেট হচ্ছে
+##### Updating Tor Browser automatically
   <img width="400" src="../../static/images/update1.png" />
 
-টর ব্রাউজার আপডেট করার জন্য আপনাকে পরামর্শ দেওয়া হলে Torbutton আইকনে ক্লিক করুন, তারপর "টর ব্রাউজার আপডেটের জন্য চেক করুন" নির্বাচন করুন।
+When you are prompted to update Tor Browser, click on the Torbutton icon, then select “Check for Tor Browser Update”.
 
   <img width="600" src="../../static/images/update3.png" />
 
-যখন টর ব্রাউজার আপডেটগুলির জন্য পরীক্ষা সমাপ্ত করে, তখন "আপডেট" বোতামে ক্লিক করুন।
+When Tor Browser has finished checking for updates, click on the “Update” button.
 
   <img width="600" src="../../static/images/update4.png" />
-ডাউনলোড এবং ইনস্টল করার আপডেটের জন্য অপেক্ষা করুন, তারপর টর ব্রাউজার পুনরায় চালু করুন। আপনি এখন সর্বশেষ সংস্করণ চলমান হবে।
+Wait for the update to download and install, then restart Tor Browser. You will now be running the latest version.
 
-##### টর ব্রাউজার আপডেট হচ্ছে ম্যানুয়ালি
+##### Updating Tor Browser manually
 
-আপনি টর ব্রাউজার আপডেট করার অনুরোধ জানানো হলে, ব্রাউজিং অধিবেশন শেষ করুন এবং প্রোগ্রাম বন্ধ করুন।
+When you are prompted to update Tor Browser, finish the browsing session and close the program.
 
 Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
 
-<a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html</a> এ যান এবং সর্বশেষ টর ব্রাউজার রিলিজের একটি অনুলিপি ডাউনলোড করুন, তারপরে এটি আগের মতো ইনস্টল করুন
+Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.

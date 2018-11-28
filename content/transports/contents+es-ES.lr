@@ -1,19 +1,19 @@
 _model: topic
 ---
-title: Transportes conectables
+title: Pluggable transports
 ---
-description: Los transportes conectables son herramientas que Tor puede usar para camuflar el tráfico que envía.
+description: Pluggable transports are tools that Tor can use to disguise the traffic it sends out.
 ---
-seo_slug: transportes-conectables
+seo_slug: plugable-transports
 ---
 key: 4
 ---
 body:
-Los transportes conectables son herramientas que Tor puede usar para camuflar el tráfico que envía. Esto puede ser útil en situaciones donde un Proveedor de Servicios de Internet (ISP), u otra autoridad está bloqueando activamente conexiones a la red Tor.
+Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
 
-##### Tipos de transporte conectable
+##### Types of pluggable transport
 
-Actualmente hay seis transportes conectables disponibles, pero se están desarrollando más.
+Currently there are six pluggable transports available, but more are being developed.
 
 <table>
 <tbody>
@@ -22,7 +22,7 @@ Actualmente hay seis transportes conectables disponibles, pero se están desarro
     obfs3
 </td>
 <td>
-    obfs3 hace que el tráfico de Tor parezca aleatorio, así no se parece a Tor ni a ningún otro protocolo. Si bien todavía está incluido por defecto, se recomienda usar obfs4 en su lugar, ya que tiene varias mejoras de seguridad sobre obfs3.
+    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
 </td>
 </tr>
 <tr class="even">
@@ -30,7 +30,7 @@ Actualmente hay seis transportes conectables disponibles, pero se están desarro
     obfs4
 </td>
 <td>
-    obfs4 hace que el tráfico de Tor tenga apariencia aleatoria, como obfs3, y además evita que los censores encuentren puentes de red mediante el escaneado de Internet. Resulta menos probable que bloqueen los puentes de red obfs4 que los puentes obfs3.
+    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ Actualmente hay seis transportes conectables disponibles, pero se están desarro
 FTE
 </td>
 <td>
-    FTE (cifrado transformador de formato) camufla el tráfico de Tor como tráfico web ordinario (HTTP).
+    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
 </td>
 </tr>
 <tr class="even">
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    Todos estos transportes hacen que parezca que estás navegando por uno de los principales sitios web en lugar de estar usando Tor. meek-amazon hace que parezca que estás usando Amazon Web Services; meek-azure hace que parezca que estás usando un sitio web de Microsoft; y meek-google hace que parezca que estás usando la búsqueda de Google.
+    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
 <tr class="odd">
@@ -54,7 +54,7 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake es una mejora de Flashproxy. Envía tu tráfico a través de WebRTC, un protocolo punto a punto con punteo NAT incorporado.
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
 </td>
 </tr>
 </tbody>

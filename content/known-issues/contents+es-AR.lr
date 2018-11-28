@@ -1,33 +1,33 @@
 _model: topic
 ---
-title: Dificultades conocidas
+title: Known issues
 ---
-description: Dificultades conocidas
+description: Known issues
 ---
-seo_slug: desinstalando
+seo_slug: uninstalling
 ---
 key: 12
 ---
 body:
 
-Tor necesita que tu reloj de sistema (y tu huso horario) estén ajustados en forma correcta.
+* Tor needs your system clock (and your time zone) set to the correct time.
 
-* De los siguientes programas cortafuegos ha sido conocido que interfieren con Tor y pueden necesitar ser deshabilitados temporariamente:
+* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac
   * Microsoft Security Essentials
 
-* Videos que requieren Adobe Flash no están disponibles. Flash está deshabilitado por razones de seguridad.
+* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
 
-* Tor no puede usar un puente si hay un proxy configurado.
+* Tor can not use a bridge if a proxy is set.
 
-* El paquete del navegador Tor está fechado 1 de Enero, 2000 00:00:00 UTC. Esto es para asegurar que cada compilación del programa sea exactamente reproducible.
+* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
 
-* Para correr el navegador Tor en Ubuntu, los usuarios necesitan correr un archivo ejecutable por el intérprete de comandos. Abrí "Archivos" (en el explorador Unity), abrí "Preferencias" → pestaña "Comportamiento" → Ajustá "Correr archivos de texto ejecutables cuando sean abiertos" a "Preguntar cada vez", luego cerrá el diálogo.
+* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
 
-* El navegador Tor también puede ser arrancado desde la línea de comandos corriendo el siguiente comando desde dentro del directorio del navegador Tor:
+* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
 
 	./start-tor-browser.desktop
 
-* Específicamente, BitTorrent <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">no es anónimo sobre Tor</a></mark>.
+* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
