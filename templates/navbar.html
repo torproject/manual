@@ -31,7 +31,7 @@
       <div class="dropdown-menu">
         {% for id, item in bag('alternatives').items() %}
           {% if this.alt != id %}
-            <a class="dropdown-item" href="{{ this.path|url }}">{{ item.language }}</a>
+            <a class="dropdown-item" href="{{ this.url|url }}">{{ item.language }}</a>
           {% endif %}
         {% endfor %}
       </div>
