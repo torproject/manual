@@ -10,17 +10,17 @@ key: 2
 ---
 body:
 
-ყველაზე მეტად უსაფრთხო და მარტივი გზა Tor-ბრაუზერის ჩამოსატვირთად, Tor-პროექტის ოფიციალური ვებსაიტია https://www.torproject.org. თქვენი კავშირი საიტთან დაცულია <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>-კავშირით, რომელიც არ აძლევს უცხო პირებს კავშირში ჩართვის ან გვერდის გაყალბების საშუალებას.
+ყველაზე მეტად უსაფრთხო და მარტივი გზა Tor-ბრაუზერის ჩამოსატვირთად, Tor-პროექტის ოფიციალური ვებსაიტია https://www.torproject.org. წვდომა საიტთან დაცულია <a href="https://tb-manual.torproject.org/en-US/secure-connections.html">HTTPS</a>-კავშირით, რომელიც არ აძლევს უცხო პირებს კავშირში ჩართვის ან გვერდის გაყალბების საშუალებას.
 
 თუმცა, ზოგ შემთხვევაში, შესაძლოა არ იყოს შესაძლებელი Tor-პროექტის საიტთან წვდომა: მაგალითად, როცა შეზღუდულია თქვენი ქსელიდან. ასეთ შემთხვევებში, სანაცვლოდ შეგიძლიათ გამოიყენოთ ქვემოთ მითითებული გზები.
 
-##### Mirrors
+##### ასლები
 
-If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+თუ ვერ ახერხებთ Tor-ბრაუზერის ჩამოტვირთვას Tor-პროექტის მთავარი საიტიდან, სანაცვლოდ შეგიძლიათ გამოიყენოთ ბმულის ოფიციალური ასლები, ან [EFF](https://tor.eff.org), ან [Calyx Institute](https://tor.calyxinstitute.org).
 
 ##### GetTor
 
-GetTor წარმოადგენს მომსახურებას, რომელიც წერილზე პასუხის სახით ავტომატურად აგზავნის ბმულებს Tor-ბრაუზერის უახლესი ვერსიების, რომლებიც განთავსებულია სხვადასხვა საიტებზე, როგორიცაა Dropbox, Google Drive და GitHub.
+GetTor წარმოადგენს მომსახურებას, რომელიც წერილზე პასუხის სახით ავტომატურად აგზავნის Tor-ბრაუზერის უახლესი ვერსიების ჩამოსატვირთ ბმულებს, განთავსებულს სხვადასხვა საიტებზე, როგორიცაა Dropbox, Google Drive და GitHub.
 
 ##### GetTor-ის ელფოსტით გამოსაყენებლად:
 

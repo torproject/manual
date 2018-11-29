@@ -18,7 +18,7 @@ Los operadores de los sitios web y servicios que usés, y cualquiera que los est
 
 Además, el navegador Tor está diseñado para evitar que los sitios web obtengan tu "huella digital" o te identifiquen con base en la configuración de tu navegador.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
+Por defecto, el Navegador Tor no guarda ningún historial de navegación. Las Cookies son válidas para una sola sesión (hasta que el Navegador Tor sea cerrado o una <a href="/managing-identities/#new-identity">Nueva Identidad</a> sea solicitada).
 
 ##### Cómo funciona Tor
 

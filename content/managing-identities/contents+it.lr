@@ -24,7 +24,7 @@ D'altra parte, tutte le connessioni ad un singolo indirizzo del sito web saranno
 
 Puoi vedere un diagramma del circuito utilizzato dal browser Tor per la scheda attiva nel menu informazioni del sito, nella barra URL.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+Nel circuito, il nodo Guard o entry è il primo nodo ed è selezionato automaticamente e casualmente da Tor. Ma è diverso dagli altri nodi nel circuito. Al fine di evitare attacchi di profilazione, il nodo Guard cambia solo dopo 2-3 mesi, a differenza degli altri nodi, che cambiano con ogni nuovo dominio. Per ulteriori informazioni sulle guardie, consultare le <a href="https://www.torproject.org/docs/faq#EntryGuards">domande frequenti</a> e il <a href="https://support.torproject.org/tbb/tbb-2/">portale di supporto.</a>
 
 ##### Connettersi attraverso Tor
 
@@ -41,7 +41,7 @@ Quando ti connetti in un sito attraverso Tor, ci sono diverse considerazioni che
 
 <img class="col-md-6" src="../../static/images/new_identity.png">
 
-Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
+Tor Browser offre le opzioni "Nuova identità" e "Nuovo circuito Tor per questo sito", situate nel menu principale (menu hamburger).
 
 ##### Nuova identità
 

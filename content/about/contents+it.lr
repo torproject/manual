@@ -18,12 +18,12 @@ Tor Browser utilizza la rete Tor per proteggere la tua privacy e anonimato. L'ut
 
 In più, il browser Tor è progettato per evitare che i siti raccolgano le tue "impronte digitali" o ti identifichino in base alla configurazione del tuo browser.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
+Per default, il browser Tor non tiene traccia della cronologia. I cookie sono validi solo per la singola sessione di navigazione (fino a che non si chiude il Browser o <a href="/it/managing-identities/#nuova-identit">è richiesta Nuova identità</a> )
 
 ##### Come funziona Tor
 
 Tor è una rete di tunnel virtuali che permette di migliorare la privacy e la sicurezza in rete. Tor agisce inviando il tuo traffico attraverso tre server scelti a caso (anche noti come *relay*) sulla rete Tor. Sarà quindi l'ultimo relay del circuito (detto "relay d'uscita") a inviare il traffico sulla rete pubblica.
 
-<img class="" src="../static/images/how-tor-works.png" alt="How Tor Browser works">
+<img class="" src="../../static/images/how-tor-works.png" alt="Come funziona Tor">
 
 L'immagine qui sopra rappresenta un utente che visita diversi siti web attraverso Tor. I monitor verdi rappresentano dei relay nel network Tor, mentre le tre chiavi rappresentano i tunnel crittografici tra l'utente e ogni relay.

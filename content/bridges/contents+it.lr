@@ -26,7 +26,7 @@ Una volta che hai ottenute degli indirizzi di ponti, dovrai inserirli nel Launch
 
 Se stai avviando Tor Browser per la prima volta, clicca 'Configura' per aprire la finestra Impostazioni di rete Tor. Altrimenti, clicca il pulsante Tor a sinistra della barra URL, poi seleziona 'Impostazioni di rete Tor...' per accedere a queste opzioni.
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+Nella finestra Impostazioni di rete di Tor, seleziona "Tor è censurato nel mio paese". Quindi, seleziona "Fornisci un ponte che conosco" e inserisci ciascun indirizzo del bridge su una linea separata.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 

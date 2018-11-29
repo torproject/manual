@@ -18,17 +18,17 @@ D’autres transports enfichables, comme meek, utilisent différentes techniques
 Les adresses de ponts n’étant pas publiques, vous devrez les demander. Deux options s’offrent à vous :
 
 * Visitez https://bridges.torproject.org/ et suivez les instructions, ou
-* Envoyez un courriel à bridges@torproject.org à partir d'une adresse courriel Gmail, Yahoo ou Riseup.
+* Envoyez un courriel à bridges@torproject.org à partir d’une adresse courriel Gmail, Yahoo ou Riseup.
 
 ##### Saisir des adresses de ponts
 
 Une fois que vous aurez obtenu des adresses de ponts, vous devrez les saisir dans le lanceur Tor.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+Si vous démarrez Tor Browser pour la première fois, cliquez sur ’Configurer’ pour ouvrir la fenêtre Tor Network Settings. Sinon, cliquez sur le bouton Tor à gauche de la barre URL, puis sélectionnez ’Tor Network Settings...’ pour accéder à ces options.
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+Dans la fenêtre Paramètres du réseau Tor, sélectionnez ’Tor est censuré dans mon pays’. Ensuite, sélectionnez ’Fournir un pont que je connais’ et entrez chaque adresse de pont sur une ligne séparée.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-Si la connexion échoue, les ponts que vous avez reçus pourraient être hors service. Utilisez l'une des méthodes ci-dessus afin d'obtenir d'autres adresses de ponts et ressayez.
+Cliquez sur "OK" pour enregistrer vos paramètres. L’utilisation de passerelles peut ralentir la connexion par rapport à l’utilisation de relays Tor ordinaires.
+Si la connexion échoue, les ponts que vous avez reçus pourraient être hors service. Utilisez l’une des méthodes ci-dessus afin d’obtenir d’autres adresses de ponts et ressayez.

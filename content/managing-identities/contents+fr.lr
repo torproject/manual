@@ -4,7 +4,7 @@ title: La gestion des identités
 ---
 description: Apprenez à contrôler dans le Navigateur Tor les renseignements permettant d’identifier quelqu’un
 ---
-seo_slug: managing-identities
+seo_slug: gestion-d’identités
 ---
 key: 5
 ---
@@ -22,9 +22,9 @@ Par ailleurs, toutes les connexions vers une même adresse de site Web seront ac
 
 <img class="col-md-6" src="../../static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Vous pouvez voir un diagramme du circuit que Tor Browser utilise pour l’onglet courant dans le menu des informations du site, dans la barre URL.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+Dans le circuit, le nœud Garde ou nœud d’entrée est le premier nœud et il est automatiquement et aléatoirement sélectionné par Tor. Mais il est différent des autres nœuds du circuit. Afin d’éviter les attaques de profilage, le nœud Guard ne change qu’après 2-3 mois, contrairement aux autres nœuds, qui changent à chaque nouveau domaine. Pour plus d’informations sur Guards, consultez la <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> et le <a href="https://support.torproject.org/tbb/tbb-2/">Portail de support</a>.
 
 ##### Se connecter en utilisant Tor
 
@@ -50,4 +50,4 @@ Le navigateur Tor propose les options « Nouvelle identité » et « Nouveau cir
 ##### Nouveau circuit Tor pour ce site
 
    Cette option est utile si le <a href="/about-tor-browser#how-tor-works">relais de sortie</a> ne peut pas se connecter au site Web que vous demandez, ou ne le charge pas correctement. En la sélectionnant, la fenêtre ou l’onglet actif sera rechargé sur un nouveau circuit Tor. Les autres fenêtres ou onglets ouverts à partir du même site Web utiliseront aussi le nouveau circuit après avoir été rechargés. Cette option n’efface aucune information confidentielle, ne délie pas votre activité, ni n’affecte vos connexions actuelles vers d’autres sites Web.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+   Vous pouvez également accéder à cette option dans le nouvel affichage du circuit, dans le menu des informations du site, dans la barre URL.

@@ -18,7 +18,7 @@ Tor 浏览器使用 Tor 网络保护您的隐私和匿名性。使用 Tor 网络
 
 此外，Tor 浏览器的设计包括防止网站根据您的浏览器配置而收集“指纹”或识别您。
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
+* 默认情况下，Tor 浏览器不保存任何浏览记录。Cookie 仅在单次会话中有效（到 Tor 浏览器退出或者需要 <a href="/managing-identities#new-identity">新身份</a> 时失效）。
 
 ##### Tor 如何工作
 

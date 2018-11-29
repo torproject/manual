@@ -18,7 +18,7 @@ body:
 
 Επιπλέον, ο Tor Browser έχει σχεδιαστεί να αποτρέπει ιστοσελίδες από το να σε "ταυτοποιήσουν" βάση των ρυθμίσεων του browser σας.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
+Από προεπιλογή, ο Tor Browser δεν κρατά κανένα ιστορικό περιήγησης. Τα cookies είναι έγκυρα μόνο για μια συνεδρία (μέχρι να κλείσει ο Tor Browser ή να ζητηθεί μια <a href="/managing-identities/#new-identity">Νέα Ταυτότητα</a>).
 
 ##### Πώς λειτουργεί το Tor
 

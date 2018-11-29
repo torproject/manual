@@ -4,7 +4,7 @@ title: Pontes
 ---
 description: A maioria dos Transportadores Plugáveis, como obfs3 e obfs4, baseiam-se no uso de retransmissores "ponte".
 ---
-seo_slug: bridges
+seo_slug: Conexões de ponte
 ---
 key: 4
 ---
@@ -24,11 +24,11 @@ Como os endereços de pontes não são públicos, você vai precisar solicitá-l
 
 Assim que você tiver obtido alguns endereços de pontes, será necessário inseri-los no Tor Launcher.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+Se você estiver iniciando o Navegador Tor pela primeira vez, clique em "Configurar" para abrir a janela de Configurações da Rede Tor. Caso contrário, clique o Torbutton localizado no lado esquerdo da barra de endereços e, então, selecione "Configurações da Rede Tor..." para acessar estas opções.
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+Na janela de Configurações da Rede Tor, selecione "Tor está censurado em meu país". Em seguida, selecione "Fornecer uma conexão de ponte que você conhece" e digite cada endereço de provedor de ponte em uma linha separada.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
+Clique "OK" para salvar suas configurações. O uso de conexões de ponte pode tornar sua conexão mais lenta em comparação com o uso de retransmissores Tor comuns.
 Se a sua conexão falhar, as pontes recebidas poderão não funcionar. Nesse caso, por favor, use um dos métodos acima para obter mais endereços de pontes e tente de novo.

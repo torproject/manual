@@ -22,7 +22,7 @@ body:
 
 <img class="col-md-6" src="../../static/images/circuit_full.png">
 
-You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
+Μπορείτε να δείτε ένα διάγραμμα του κυκλώματος που χρησιμοποιεί το Tor Browser για την τρέχουσα καρτέλα στο μενού πληροφοριών της σελίδας, στη γραμμή διευθύνσεων URL.
 
 In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
 

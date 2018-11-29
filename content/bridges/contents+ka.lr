@@ -18,17 +18,17 @@ body:
 ვინაიდან, გადამცემი ხიდები არაა საჯაროდ ხელმისაწვდომი, დაგჭირდებათ მისი მოთხოვნა. გაქვთ ორი არჩევანი:
 
 * ეწვიოთ https://bridges.torproject.org/ საიტს და მიჰყვეთ მითითებებს ან
-* ელფოსტის გამოგზავნა მისამართზე bridges@torproject.org Gmail-იდან, Yahoo-დან ან Riseup ელფოსტიდან, ან
+* გამოგზავნოთ წერილი მისამართზე bridges@torproject.org Gmail, Yahoo ან Riseup ელფოსტიდან
 
 ##### გადამცემი ხიდის მისამართების შეყვანა
 
 მას შემდეგ რაც მოიპოვებთ ხიდის მისამართებს, საჭიროა მათი მითითება Tor-ის გამშვებში.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+თუ პირველად უშვებთ Tor-ბრაუზერს, დაწკაპეთ „გამართვას“ Tor-ქსელის პარამეტრების ფანჯრის გასახსნელად. სხვა შემთხვევაში, დაწკაპეთ  მისამართების ველის მარცხნივ მდებარე Torbutton-ზე, შემდეგ კი აირჩიეთ „Tor-ქსელის პარამეტრები“... გასამართად.
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+Tor-ქსელის პარამეტრების ფანჯარაში, აირჩიეთ „Tor შეზღუდულია ჩემს ქვეყნაში“. შემდეგ კი აირჩიეთ „ნაცნობი გადამცემი ხიდის მითითება“ და შეიყვანეთ თითოეული ხიდის მისამართი, ახალ ხაზზე.
 
 <img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
 
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
-If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+დაწკაპეთ „კარგი“, პარამეტრების შესანახად. ხიდების გამოყენებამ, შესაძლოა მეტნაკლებად შეანელოს კავშირი, ჩვეულებრივ გადამცემებთან შედარებით.
+თუ დაკავშირება ვერ მოხერხდა, მოცემული გადამცემი ხიდები შესაძლოა აღარ იყოს მოქმედი. გთხოვთ, ზემოთ აღნიშნული გზების საშუალებით მოითხოვოთ სხვა ხიდების მისამართები და სცადოთ ხელახლა.

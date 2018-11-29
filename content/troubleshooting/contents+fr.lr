@@ -17,9 +17,9 @@ Vous devriez pouvoir commencer à parcourir le Web avec le Navigateur Tor peu de
 
 Si le Navigateur Tor ne se connecte pas, il existe peut-être une solution simple. Essayez une des suivantes :
 
-* L'horloge système de votre ordinateur doit être ajustée correctement ou Tor ne pourra pas se connecter.
-* Assurez-vous qu'un autre navigateur Tor n'est pas déjà en cours d'exécution. Si vous n'en êtes pas certain, redémarrez votre ordinateur.
-* Assurez-vous qu'un antivirus que vous avez installé n'empêche pas Tor de fonctionner. Si vous ne savez pas comment le faire, consultez la documentation de votre antivirus.
+* L’horloge système de votre ordinateur doit être ajustée correctement ou Tor ne pourra pas se connecter.
+* Assurez-vous qu’un autre navigateur Tor n’est pas déjà en cours d’exécution. Si vous n’en êtes pas certain, redémarrez votre ordinateur.
+* Assurez-vous qu’un antivirus que vous avez installé n’empêche pas Tor de fonctionner. Si vous ne savez pas comment le faire, consultez la documentation de votre antivirus.
 * Désactivez temporairement votre pare-feu.
 * Supprimez le Navigateur Tor et réinstallez-le. Si vous procédez à une mise à jour, n’écrasez pas vos anciens fichiers du Navigateur Tor ; assurez-vous de les supprimer complètement avant.
 

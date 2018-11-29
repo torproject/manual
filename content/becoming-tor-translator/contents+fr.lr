@@ -10,11 +10,11 @@ key: 13
 ---
 body:
 
-Si vous souhaitez aider le projet en traduisant le manuel ou le Navigateur Tor dans votre langue, nous vous serions très reconnaissants ! Avant de commencer à contribuer au projet, vous devrez vous inscrire à Transifex, la plateforme de localisation qui facilite nos traductions. Vous trouverez ci-dessous une description brève qui explique comment s’inscrire et commencer à traduire.
+If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated! Tor Project localization is hosted in the [Localization Lab](https://www.localizationlab.org) Hub on Transifex, a third-party  translation tool. In order to begin contributing you will have to sign up with Transifex. Below is an outline of how to sign up and begin.
 
 ##### S’inscrire sur Transifex
 
-* Rendez-vous sur la page d'inscription de Transifex.
+* Rendez-vous sur la page d’inscription de Transifex.
   Remplissez les champs avec vos renseignements et cliquez sur le bouton « S’inscrire » :
 
 <img class="col-md-6" src="../../static/images/tr1.png">

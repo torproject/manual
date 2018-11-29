@@ -14,9 +14,9 @@ A maneira mais segura e simples de baixar o Tor Browser é no site oficial do Pr
 
 Porém, pode acontecer de você não conseguir acessar o site do Tor Project: por exemplo, ele pode estar bloqueado na sua rede. Se isso acontecer, você pode usar um dos métodos de download alternativos listados abaixo.
 
-##### Mirrors
+##### Servidores espelhos
 
-If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+Caso você não consiga fazer download do Navegador Tor diretamente do  website oficial do Projeto Tor, você poderá, em vez disso, tentar baixá-lo a partir de um de nossos espelhos oficiais, seja através da [EFF](https://tor.eff.org) ou do [Calyx Institute](https://tor.calyxinstitute.org).
 
 ##### GetTor
 

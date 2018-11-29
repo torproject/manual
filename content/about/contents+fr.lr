@@ -4,7 +4,7 @@ title: À propos du Navigateur Tor
 ---
 description: Apprenez ce que le navigateur Tor peut faire pour protéger vos données personnelles et votre anonymat
 ---
-seo_slug: about
+seo_slug: à propos
 ---
 key: 1
 ---
@@ -18,7 +18,7 @@ Le Navigateur Tor utilise le réseau Tor pour protéger vos données personnelle
 
 De plus, le Navigateur Tor est conçu pour empêcher le pistage par empreinte numérique unique ou votre identification par les sites Web d’après la configuration de votre navigateur.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
+Par défaut, Tor Browser ne conserve aucun historique de navigation. Les cookies ne sont valides que pour une seule session (jusqu’à ce que Tor Browser soit quitté ou qu’une <a href="/managing-identities/#new-identity">nouvelle identité</a> soit demandée).
 
 ##### Comment Tor fonctionne-t-il ?
 

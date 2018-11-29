@@ -22,7 +22,7 @@ body:
 
 Όπως και με κάθε άλλη ιστοσελίδα, θα πρέπει να γνωρίζετε τη διεύθυνση μιας υπηρεσίας onion για να συνδεθείτε σε αυτήν. Μια διεύθυνση onion είναι μια συμβολοσειρά 16 (και σε μορφή V3, 56) κυρίως τυχαίων γραμμάτων και αριθμών, που ακολουθείται από το ".onion".
 
-When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
+Όταν επισκέπτεστε μια ιστοσελίδα που χρησιμοποιεί μια υπηρεσία onion, ο Tor Browser θα εμφανίσει στη γραμμή URL ένα εικονίδιο με ένα μικρό πράσινο κρεμμύδι που θα δείχνει την κατάσταση της σύνδεσής σας: ασφαλής και χρήση υπηρεσίας onion. Και αν επισκέπτεστε μια ιστοσελίδα με υπηρεσία https και onion, θα εμφανιστεί ένα εικονίδιο με ένα πράσινο κρεμμύδι και ένα λουκέτο.
 
 ##### Αντιμετώπιση προβλημάτων
 

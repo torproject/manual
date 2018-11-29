@@ -18,7 +18,7 @@ O Navegador Tor utiliza a rede Tor para proteger a sua privacidade e anonimato. 
 
 Além disso, o Navegador Tor é concebido para impedir que sites coletem as suas "impressões digitais" identificando-a/o a partir das configurações do seu navegador.
 
-By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
+Por padrão, o Navegador Tor não mantém registros de histórico de navegação. Os cookies são válidos apenas por uma sessão (isto é, até que o usuário feche o Navegador Tor ou requisite uma <a href="/managing-identities/#new-identity">Nova Identidade</a>).
 
 ##### Como Tor funciona
 
