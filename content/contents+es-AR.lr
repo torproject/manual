@@ -1,9 +1,0 @@
-_discoverable: yes
----
-_model: showcase
----
-_template: jumbotron.html
----
-title: Manual de Usuario del Navegador Tor
----
-Welcome to the Tor Browser User Manual.
