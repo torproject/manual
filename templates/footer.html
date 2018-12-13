@@ -9,7 +9,7 @@
           {% set menubag = 'menu+' + this.alt %}
           {% for id, item in bag(menubag).items() %}
           <li{% if this.is_child_of(item.path) %} class="nav-item active" {% else %} class="nav-item"{% endif %}>
-            <a class="nav-link text-light" href="{{ item.path }}">{{ item.label }}
+            <a class="nav-link text-light" href="{{ item.path }}">{{ _(item.label) }}
               {% if this.is_child_of(item.path) %}
               <span class="sr-only">(current)</span>
               {% endif %}
