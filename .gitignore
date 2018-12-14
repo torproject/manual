@@ -5,13 +5,14 @@ node_modules
 
 public
 
-# translation files, handled on jenkins
 contents+*.lr
-i18n/*
 
 *.egg-info
 *.pyc
 __pycache__
+
+### Lektor Temps ###
+*~*
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
