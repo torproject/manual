@@ -90,6 +90,11 @@ name = Gaeilge (ga)
 url_prefix = /ga/
 locale = ga
 
+[alternatives.he]
+name =  עברית (he)
+url_prefix = /he/
+locale = he
+
 [alternatives.hr]
 name = Hrvatski (hr)
 url_prefix = /hr/
