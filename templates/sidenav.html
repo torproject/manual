@@ -31,7 +31,7 @@
   </nav>
 
 
-  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky" id="sidenav-topics">
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky {{ bag('alternatives', this.alt, 'direction') }}" id="sidenav-topics">
           <h4 class="text-primary pl-4">{{ _('Topics') }}</h4>
     <ul class="nav nav-pills flex-column">
       {% set topicbag = 'topics+en' %}
