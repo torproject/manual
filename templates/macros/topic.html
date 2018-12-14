@@ -12,7 +12,7 @@
       </h5>
 
     </div>
-     <div id="{{ item._id }}" class="anchor-spacer" role="tabpanel" data-parent="#{{ t_id }}">
+     <div id="{{ item._id }}" class="anchor-spacer {{ bag('alternatives', alternative, 'direction') }}" role="tabpanel" data-parent="#{{ t_id }}">
       {{ item.body|safe }}
       <div>
         <a href="{{ item|url }}">{{ _("Permalink") }}</a>
