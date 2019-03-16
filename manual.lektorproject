@@ -100,10 +100,20 @@ name = Hrvatski (hr)
 url_prefix = /hr/
 locale = hr
 
+[alternatives.hu]
+name = Magyar nyelv (hu)
+url_prefix = /hu/
+locale = hu
+
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
 locale = id
+
+[alternatives.is]
+name = Íslenska (is)
+url_prefix = /is/
+locale = is
 
 [alternatives.it]
 name = Italia (it)
