@@ -135,10 +135,16 @@ name = Português (Brasil)
 url_prefix = /pt-BR/
 locale = pt-BR
 
-[alternatives.ru]
-name = Русский (ru)
-url_prefix = /ru/
-locale = ru
+[alternatives.ro]
+name = Română (ro)
+url_prefix = /ro/
+locale = ro
+
+[ru]
+direction = text-left
+order = order-last
+url = /ru/
+language = Русский (ru)
 
 [alternatives.sv-SE]
 name = Svenska (sv)
