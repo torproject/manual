@@ -150,11 +150,10 @@ name = Română (ro)
 url_prefix = /ro/
 locale = ro
 
-[ru]
-direction = text-left
-order = order-last
-url = /ru/
-language = Русский (ru)
+[alternatives.ru]
+name = Русский (ru)
+url_prefix = /ru/
+locale = ru
 
 [alternatives.sv-SE]
 name = Svenska (sv)
