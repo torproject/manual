@@ -13,7 +13,7 @@ Pluggable transports are tools that Tor can use to disguise the traffic it sends
 
 ##### Types of pluggable transport
 
-Currently there are six pluggable transports available, but more are being developed.
+Currently there are five pluggable transports available, but more are being developed.
 
 <table class="table table-striped">
 <tbody>
