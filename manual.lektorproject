@@ -10,6 +10,11 @@ primary = yes
 url_prefix = /
 locale = en
 
+[alternatives.ar]
+name = عربية (ar)
+url_prefix = /ar/
+locale = ar
+
 [alternatives.bn-BD]
 name = বাংলা ভাষা  (bn)
 url_prefix = /bn-BD/
