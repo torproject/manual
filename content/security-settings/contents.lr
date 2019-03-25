@@ -1,0 +1,56 @@
+_model: topic
+---
+title: Security Settings
+---
+description: Configuring Tor Browser for security and usability
+---
+seo_slug: security-settings
+---
+key: 8
+---
+body:
+By default, Tor Browser protects your security by encrypting your browsing data.
+You can further increase your security by choosing to disable certain web features that can be used to attack your security and anonymity.
+You can do this by increasing Tor Browser's Security Settings in the shield menu.
+Increasing Tor Browser's security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+
+##### Accessing the Security Settings
+
+<img class="col-md-6" src="../../static/images/slider.png">
+
+The Security Settings can be accessed by clicking the Shield icon next to the Tor Browser URL bar.
+To view and adjust your Security Settings, click the 'Advanced Security Settings...' button in the shield menu.
+
+##### Security Levels
+
+<img class="col-md-6" src="../../static/images/slider_window.png">
+
+Increasing the Security Level in the Tor Browser Security Settings will disable or partially disable certain browser features to protect against possible attacks.
+You can enable these settings again at any time by adjusting your Security Level.
+
+<dl>
+<dt>
+Standard
+</dt>
+<dd>
+At this level, all Tor Browser and website features are enabled.
+</dd>
+<dt>
+Safer
+</dt>
+<dd>
+This level disables website features that are often dangerous.
+This may cause some sites to lose functionality. 
+
+JavaScript is disabled on all non-<a href="/secure-connections">HTTPS</a> sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
+</dd>
+<dt>
+Safest
+</dt>
+<dd>
+This level only allows website features required for static sites and basic services.
+These changes affect images, media, and scripts.
+
+Javascript is disabled by default on all sites; some fonts,icons, math symbols, and images are disabled; audio and video (HTML5 media) are click-to-play.
+</dd>
+</dl>
