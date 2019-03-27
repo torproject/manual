@@ -90,15 +90,30 @@ name = Gaeilge (ga)
 url_prefix = /ga/
 locale = ga
 
+[alternatives.he]
+name =  עברית (he)
+url_prefix = /he/
+locale = he
+
 [alternatives.hr]
 name = Hrvatski (hr)
 url_prefix = /hr/
 locale = hr
 
+[alternatives.hu]
+name = Magyar nyelv (hu)
+url_prefix = /hu/
+locale = hu
+
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
 locale = id
+
+[alternatives.is]
+name = Íslenska (is)
+url_prefix = /is/
+locale = is
 
 [alternatives.it]
 name = Italia (it)
@@ -109,6 +124,11 @@ locale = it
 name = Georgian (ka)
 url_prefix = /ka/
 locale = ka
+
+[alternatives.ko]
+name = 한국어 (ko)
+url_prefix = /ko/
+locale = ko
 
 [alternatives.mk]
 name = Macedonian (mk)
@@ -129,6 +149,11 @@ locale = nl
 name = Português (Brasil)
 url_prefix = /pt-BR/
 locale = pt-BR
+
+[alternatives.ro]
+name = Română (ro)
+url_prefix = /ro/
+locale = ro
 
 [alternatives.ru]
 name = Русский (ru)
