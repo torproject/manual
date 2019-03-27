@@ -13,9 +13,9 @@ Pluggable transports are tools that Tor can use to disguise the traffic it sends
 
 ##### Types of pluggable transport
 
-Currently there are six pluggable transports available, but more are being developed.
+Currently there are five pluggable transports available, but more are being developed.
 
-<table>
+<table class="table table-striped">
 <tbody>
 <tr class="odd">
 <td>
@@ -46,7 +46,7 @@ FTE
 meek
 </td>
 <td>
-    These transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+    meek transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
 <tr class="odd">
@@ -59,3 +59,17 @@ meek
 </tr>
 </tbody>
 </table>
+
+##### How to use pluggable transports
+
+To use a pluggable transport, first click the onion icon to the left of the URL bar, or click 'Configure' when starting Tor Browser for the first time.
+
+Next, select 'Tor Network Settings' from the drop-down menu.
+
+In the window that appears, check 'Tor is censored in my country,' then click 'Select a built-in bridge.'
+
+From the drop-down menu, select whichever pluggable transport you'd like to use.
+
+<img class="col-md-6" src="../../static/images/pluggable_transport_network_settings.png">
+
+Once you've selected the pluggable transport you'd like to use, click 'OK' to save your settings.
