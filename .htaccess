@@ -11,11 +11,11 @@ RewriteRule ^en / [R=302,L]
 RewriteRule ^es-ES/(.*)$ /es/$1 [R=302,L]
 RewriteRule ^es-AR/(.*)$ /es/$1 [R=302,L]
 
+# support for old URLs
+RewriteRule ^(.*)/security-slider.html$ /$1/security-slider/ [R=302,L]
+
 # Rewrites for languages that have a Tor Browser release
-# but don't have a support page
+# but don't have a translated manual
 
 RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)/(.*)$ /$1 [R=302,L]
 RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)$ / [R=302,L]
-
-# support for old URLs
-RewriteRule ^(.*)/security-slider.html$ $1/security-slider/ [R=302,L]
