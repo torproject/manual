@@ -1,1 +1,56 @@
- 
+RewriteEngine On
+
+RewriteRule ^en-US/(.*)$ /$1 [R=302,L]
+
+# forward requests in /en to the root folder
+RewriteRule ^en/(.*)$ /$1 [R=302,L]
+RewriteRule ^en / [R=302,L]
+
+# Rewrites for languages that have a different mapping in the page
+RewriteRule ^es-ES/(.*)$ /es/$1 [R=302,L]
+RewriteRule ^es-AR/(.*)$ /es/$1 [R=302,L]
+
+# Rewrites for languages that have a Tor Browser release
+# but don't have a support page
+
+RewriteRule ^cs/(.*)$ /$1 [R=302,L]
+RewriteRule ^cs / [R=302,L]
+
+RewriteRule ^da/(.*)$ /$1 [R=302,L]
+RewriteRule ^da / [R=302,L]
+
+RewriteRule ^fa/(.*)$ /$1 [R=302,L]
+RewriteRule ^fa / [R=302,L]
+
+RewriteRule ^he/(.*)$ /$1 [R=302,L]
+RewriteRule ^he / [R=302,L]
+
+RewriteRule ^hu/(.*)$ /$1 [R=302,L]
+RewriteRule ^hu / [R=302,L]
+
+RewriteRule ^is/(.*)$ /$1 [R=302,L]
+RewriteRule ^is / [R=302,L]
+
+RewriteRule ^ja/(.*)$ /$1 [R=302,L]
+RewriteRule ^ja / [R=302,L]
+
+RewriteRule ^ko/(.*)$ /$1 [R=302,L]
+RewriteRule ^ko / [R=302,L]
+
+RewriteRule ^nb-NO/(.*)$ /$1 [R=302,L]
+RewriteRule ^nb-NO / [R=302,L]
+
+RewriteRule ^nl/(.*)$ /$1 [R=302,L]
+RewriteRule ^nl / [R=302,L]
+
+RewriteRule ^pl/(.*)$ /$1 [R=302,L]
+RewriteRule ^pl / [R=302,L]
+
+RewriteRule ^sv-SE/(.*)$ /$1 [R=302,L]
+RewriteRule ^sv-SE / [R=302,L]
+
+RewriteRule ^vi/(.*)$ /$1 [R=302,L]
+RewriteRule ^vi / [R=302,L]
+
+RewriteRule ^zh-TW/(.*)$ /$1 [R=302,L]
+RewriteRule ^zh-TW / [R=302,L]
