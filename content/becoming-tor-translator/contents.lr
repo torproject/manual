@@ -12,12 +12,14 @@ body:
 
 If you are interested in helping out the project by translating the manual or the Tor Browser to your language, your help would be greatly appreciated! Tor Project localization is hosted in the [Localization Lab](https://www.localizationlab.org) Hub on Transifex, a third-party  translation tool. In order to begin contributing you will have to sign up with Transifex. Below is an outline of how to sign up and begin.
 
+Before translating, please read through the Tor Project page on the [Localization Lab Wiki](https://wiki.localizationlab.org/index.php/Tor). There you will find translation guidelines and resources that will help you contribute to Tor translations.
+
 ##### Signing up on Transifex
 
-* Head over to the <a href="https://transifex.com/signup/">Transifex signup page</a>.
+* Head over to the [Transifex signup page](https://transifex.com/signup/).
   Enter your information into the fields and click the 'Sign Up' button:
 
-<img class="col-md-6" src="../../static/images/tr1.png">
+<img class="col-md-6" src="/static/images/tr1.png">
 
 * Fill out the next page with your name and select "Localization" and "Translator" from the drop-down menus:
 
@@ -25,7 +27,7 @@ If you are interested in helping out the project by translating the manual or th
 
 * On the next page, select 'Join an existing project' and continue.
 * On the next page, select the languages you speak from the drop-down menu and continue.
-* You are now signed up! Go to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a>.
+* You are now signed up! Go to the [Tor Transifex page](https://www.transifex.com/otf/torproject/).
 * Click the blue 'Join Team' button on the far right:
 
 <img class="col-md-6" src="../../static/images/tr3.png">
@@ -38,6 +40,8 @@ If you are interested in helping out the project by translating the manual or th
 
 <img class="col-md-6" src="../../static/images/tr5.png">
 
-After your membership is approved you can begin translating; simply navigate back to the <a href="https://www.transifex.com/otf/torproject/">Tor Transifex page</a> when you are ready to begin.
-Before translating, please read through the Tor Project page on the [Localization Lab Wiki](https://wiki.localizationlab.org/index.php/Tor). There you will find translation guidelines and resources that will help you contribute to Tor translations.
+After your membership is approved you can begin translating; there is a list of needed translations at [Tor Transifex page](https://www.transifex.com/otf/torproject/) when you are ready to begin.
+
+The [Localization Lab Wiki](https://wiki.localizationlab.org/index.php/Tor) also has information about the translations with bigger priority.
+
 Thanks for your interest in helping the project!
