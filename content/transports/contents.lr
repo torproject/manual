@@ -60,7 +60,7 @@ meek
 </tbody>
 </table>
 
-##### How to use pluggable transports
+##### Using pluggable transports
 
 To use a pluggable transport, first click the onion icon to the left of the URL bar, or click 'Configure' when starting Tor Browser for the first time.
 
