@@ -20,15 +20,10 @@ name = Български (Bəlgarski)
 url_prefix = /bg/
 locale = bg
 
-[alternatives.bn-BD]
+[alternatives.bn]
 name = বাংলা ভাষা  (bn)
-url_prefix = /bn-BD/
-locale = bn-BD
-
-[alternatives.bn-IN]
-name = বাংলা ভাষা  (bn-IN)
-url_prefix = /bn-IN/
-locale = bn-BD
+url_prefix = /bn/
+locale = bn
 
 [alternatives.ca]
 name = Catala (ca)
