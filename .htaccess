@@ -1,3 +1,3 @@
 # we have only one translation for this file
-RewriteRule ^bn-BD(.+)$ /bn$1 [302,L]
-RewriteRule ^bn-IN(.+)$ /bn$1 [302,L]
+RewriteRule ^bn-BD(.+)$ /bn$1 [R=302,L]
+RewriteRule ^bn-IN(.+)$ /bn$1 [R=302,L]
