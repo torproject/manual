@@ -15,15 +15,10 @@ name = عربية (ar)
 url_prefix = /ar/
 locale = ar
 
-[alternatives.bn-BD]
+[alternatives.bn]
 name = বাংলা ভাষা  (bn)
-url_prefix = /bn-BD/
-locale = bn-BD
-
-[alternatives.bn-IN]
-name = বাংলা ভাষা  (bn-IN)
-url_prefix = /bn-IN/
-locale = bn-BD
+url_prefix = /bn/
+locale = bn
 
 [alternatives.ca]
 name = Catala (ca)
@@ -54,11 +49,6 @@ locale = es
 name = Español Arg. (es-AR)
 url_prefix = /es-AR/
 locale = es-AR
-
-[alternatives.es-ES]
-name = Español (es-ES)
-url_prefix = /es-ES/
-locale = es
 
 [alternatives.fr]
 name = Français
