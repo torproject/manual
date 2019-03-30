@@ -140,11 +140,6 @@ name = Português Br. (pr-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
 
-[alternatives.pt-PT]
-name = Português Port. (pt-PT)
-url_prefix = /pt-PT/
-locale = pt-PT
-
 [alternatives.ro]
 name = Română (ro)
 url_prefix = /ro/
