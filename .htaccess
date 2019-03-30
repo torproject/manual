@@ -7,8 +7,7 @@ RewriteRule ^en(.*) $1 [R=302,L]
 
 
 # Rewrites for languages that have a different mapping in the page
-RewriteRule ^es-ES(.*) /es$1 [R=302,L]
-RewriteRule ^es-AR(.*) /es$1 [R=302,L]
+RewriteRule ^(es-ES|es-AR|es-MX|es-CO)(.*) /es$1 [R=302,L]
 
 # support for old URLs
 RewriteRule ^(.+)/security-slider.html$ /$1/security-slider/ [R=302,L]
