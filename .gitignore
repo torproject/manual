@@ -6,6 +6,7 @@ node_modules
 public
 
 contents+*.lr
+contents+*.po
 
 *.egg-info
 *.pyc
