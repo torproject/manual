@@ -115,6 +115,11 @@ name = Italia (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ja]
+name = 日本語 (ja)
+url_prefix = /ja/
+locale = ja
+
 [alternatives.ka]
 name = Georgian (ka)
 url_prefix = /ka/
