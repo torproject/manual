@@ -17,8 +17,8 @@ RewriteRule ^(.+)/security-slider.html$ /$1/security-slider/ [R=302,L]
 # but don't have a translated manual
 # this languages are the priority for translation of the Tor Browser User Manual!
 
-RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)/(.+)$ /$1 [R=302,L]
-RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)$ / [R=302,L]
-# we have only one translation for this file
+RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)(.+)$ /$1 [R=302,L]
+
+# we have only one translation for this locales
 RewriteRule ^bn-BD(.+)$ /bn$1 [R=302,L]
 RewriteRule ^bn-IN(.+)$ /bn$1 [R=302,L]
