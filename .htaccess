@@ -8,15 +8,15 @@ RewriteRule ^en / [R=302,L]
 
 
 # Rewrites for languages that have a different mapping in the page
-RewriteRule ^(es-ES|es-AR|es-MX|es-CO)$ /es$1 [R=302,L]
+RewriteRule ^(es-ES|es-AR|es-MX|es-CO)$ /es$2 [R=302,L]
 
 # support for old URLs
-RewriteRule ^/security-slider.html.$ /$1/security-slider/ [R=302,L]
+RewriteRule ^/security-slider.html.$ /$2/security-slider/ [R=302,L]
 
 # Rewrites for languages that have a Tor Browser release
 # but don't have a translated manual
 # this languages are the priority for translation of the Tor Browser User Manual!
-RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)$ /$1 [R=302,L]
+RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)$ /$2 [R=302,L]
 
 # we have only one translation for this locales
 RewriteRule ^bn-BD$ /bn$1 [R=302,L]
