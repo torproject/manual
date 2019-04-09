@@ -15,6 +15,10 @@ RewriteRule ^/security-slider.html.$ /$1/security-slider/ [R=302,L]
 # Rewrites for languages that have a Tor Browser release
 # but don't have a translated manual
 # this languages are the priority for translation of the Tor Browser User Manual!
+<<<<<<< HEAD
+=======
+RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
+>>>>>>> no // when forwarding
 
 RewriteRule ^(cs|da|fa|he|hu|is|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)(.*) $1 [R=302,L]
 
