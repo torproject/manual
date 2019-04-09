@@ -50,11 +50,6 @@ name = Ελληνικά (el)
 url_prefix = /el/
 locale = el
 
-[alternatives.en-US]
-name = English
-url_prefix = /en-US/
-locale = en-US
-
 [alternatives.es]
 name = Español (es)
 url_prefix = /es/
@@ -64,11 +59,6 @@ locale = es
 name = Español Arg. (es-AR)
 url_prefix = /es-AR/
 locale = es-AR
-
-[alternatives.es-ES]
-name = Español (es-ES)
-url_prefix = /es-ES/
-locale = es
 
 [alternatives.fa]
 name = ﻑﺍﺮﺳی (fa)
