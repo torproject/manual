@@ -9,7 +9,6 @@ RewriteRule ^en-US(.*) $1 [R=302,L]
 # forward requests in /en to the root folder
 RewriteRule ^en(.*) $1 [R=302,L]
 
-
 # Rewrites for languages that have a different mapping in the page
 RewriteRule ^(es-ES|es-MX|es-CO)(.*) /es$2 [R=302,L]
 
