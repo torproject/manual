@@ -1,8 +1,8 @@
 RewriteEngine On
 
 # support for old URLs
-RewriteRule ^security-slider.html $1/security-slider/ [R=302,L]
-RewriteRule ^security-slider.html.(.*)$ $2/security-slider/ [R=302,L]
+RewriteRule ^(.*)/security-slider.html$ $1/security-slider/ [R=302,L]
+RewriteRule ^security-slider.html$ /security-slider/ [R=302,L]
 
 RewriteRule ^en-US(.*) $1 [R=302,L]
 
