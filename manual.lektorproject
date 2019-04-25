@@ -135,6 +135,11 @@ name = Nederlands (nl)
 url_prefix = /nl/
 locale = nl
 
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
+
 [alternatives.pt-BR]
 name = Português Br. (pr-BR)
 url_prefix = /pt-BR/
