@@ -4,6 +4,10 @@ RewriteEngine On
 RewriteRule ^(.*)/security-slider.html$ /$1/security-slider/ [R=302,L]
 RewriteRule ^security-slider.html$ /security-slider/ [R=302,L]
 
+# support for old URLs
+RewriteRule ^(.*)/security-settings.html$ /$1/security-settings/ [R=302,L]
+RewriteRule ^security-settings.html$ /security-settings/ [R=302,L]
+
 # forward requests in /en to the root folder
 RewriteRule ^(en-US|en)$ / [R=302,L]
 RewriteRule ^(en-US|en)/(.*) /$2 [R=302,L]
