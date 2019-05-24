@@ -19,14 +19,14 @@ Increasing Tor Browser's security level will stop some web pages from functionin
 The Security Settings can be accessed by clicking the Shield icon next to the Tor Browser URL bar.
 To view and adjust your Security Settings, click the 'Advanced Security Settings...' button in the shield menu.
 
-<img class="col-md-6" src="../../static/images/security-settings-anim.gif">
+<img class="col-lg-6" src="../../static/images/security-settings-anim.gif">
 
 ##### Security Levels
 
 Increasing the Security Level in the Tor Browser Security Settings will disable or partially disable certain browser features to protect against possible attacks.
 You can enable these settings again at any time by adjusting your Security Level.
 
-<img class="col-md-6" src="../../static/images/security-settings-safest.png">
+<img class="col-lg-6" src="../../static/images/security-settings-safest.png">
 
 <dl>
 <dt>
