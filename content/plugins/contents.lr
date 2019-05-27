@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: PLUGINS, ADD-ONS AND JAVASCRIPT
+title: Plugins, add-ons and JavaScript
 ---
 description: How Tor Browser handles add-ons, plugins and JavaScript
 ---
@@ -9,13 +9,13 @@ seo_slug: plugins
 key: 10
 ---
 body:
-##### FLASH PLAYER
+##### Flash Player
 
 Video websites, such as Vimeo make use of the Flash Player plugin to display video content. Unfortunately, this software operates independently of Tor Browser and cannot easily be made to obey Tor Browser’s proxy settings. It can therefore reveal your real location and IP address to the website operators, or to an outside observer. For this reason, Flash is disabled by default in Tor Browser, and enabling it is not recommended.
 
 Some video websites (such as YouTube) offer alternative video delivery methods that do not use Flash. These methods may be compatible with Tor Browser.
 
-##### JAVASCRIPT
+##### JavaScript
 
 JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the browser, which might lead to deanonymization.
 
@@ -23,7 +23,7 @@ Tor Browser includes an add-on called NoScript, accessible through the “S” i
 <img class="col-md-6" src="../../static/images/noscript_menu.png">
 Users who require a high degree of security in their web browsing should set Tor Browser’s <a href="/security-slider">Security Slider</a> to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
-##### BROWSER ADD-ONS
+##### Browser Add-ons
 
 Tor Browser is based on Firefox, and any browser add-ons or themes that are compatible with Firefox can also be installed in Tor Browser.
 

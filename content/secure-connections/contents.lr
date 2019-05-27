@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: SECURE CONNECTIONS
+title: Secure Connections
 ---
 description: Learn how to protect your data using Tor Browser and HTTPS
 ---
@@ -22,7 +22,7 @@ The following visualization shows what information is visible to eavesdroppers w
 * When both buttons are green, you see the data that is visible to observers when you are using both tools.
 * When both buttons are grey, you see the data that is visible to observers when you don't use either tool.
 
-##### POTENTIALLY VISIBLE DATA
+##### Potentially visible data
 
 <dl>
 

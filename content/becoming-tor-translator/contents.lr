@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: BECOMING A TOR TRANSLATOR
+title: Becoming a Tor Translator
 ---
 description: Becoming a translator for the Tor Project
 ---
@@ -14,7 +14,7 @@ If you are interested in helping out the project by translating the manual or th
 
 Before translating, please read through the Tor Project page on the [Localization Lab Wiki](https://wiki.localizationlab.org/index.php/Tor). There you will find translation guidelines and resources that will help you contribute to Tor translations.
 
-##### SIGNING UP ON TRANSIFEX
+##### Signing up on Transifex
 
 * Head over to the [Transifex signup page](https://transifex.com/signup/).
   Enter your information into the fields and click the 'Sign Up' button:
