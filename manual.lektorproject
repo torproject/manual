@@ -55,6 +55,11 @@ name = Gaeilge (ga)
 url_prefix = /ga/
 locale = ga
 
+[alternatives.he]
+name =  עברית (he)
+url_prefix = /he/
+locale = he
+
 [alternatives.id]
 name = Indonesia
 url_prefix = /id/
@@ -64,6 +69,11 @@ locale = id
 name = Italia
 url_prefix = /it/
 locale = it
+
+[alternatives.is]
+name = Íslenska (is)
+url_prefix = /is/
+locale = is
 
 [alternatives.ka]
 name = Georgian (ka)
@@ -79,6 +89,11 @@ locale = mk
 name = Português (Brasil)
 url_prefix = /pt-BR/
 locale = pt-BR
+
+[alternatives.pt-PT]
+name = Português Port. (pt-PT)
+url_prefix = /pt-PT/
+locale = pt-PT
 
 [alternatives.ro]
 name = Română (ro)
