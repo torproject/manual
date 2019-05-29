@@ -31,4 +31,4 @@ When you are prompted to update Tor Browser, finish the browsing session and clo
 
 Remove Tor Browser from your system by deleting the folder that contains it (see the <a href='uninstalling'>Uninstalling</a> section for more information).
 
-Visit <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a> and download a copy of the latest Tor Browser release, then install it as before.
+Visit https://www.torproject.org/download/ and download a copy of the latest Tor Browser release, then install it as before.
