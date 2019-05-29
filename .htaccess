@@ -24,4 +24,4 @@ RewriteRule ^(cs|da|fa|hu|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
 
 # we have only one translation for this locales
 RewriteRule ^bn-(BD|IN)$ /bn [R=302,L]
-RewriteRule ^bn-(BD|IN)/(.*) /bn/$1 [R=302,L]
+RewriteRule ^bn-(BD|IN)/(.*) /bn/$2 [R=302,L]
