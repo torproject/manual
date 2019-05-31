@@ -14,11 +14,9 @@ RewriteRule ^(.*)/security-slider.html$ /$1/security-slider/ [R=302,L]
 # Rewrites for languages that have a Tor Browser release
 # but don't have a translated manual
 # this languages are the priority for translation of the Tor Browser User Manual!
+RewriteRule ^(cs|da|fa|hu|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)$ / [R=302,L]
+RewriteRule ^(cs|da|fa|hu|ja|ko|nb-NO|nl|pl|sv-SE|vi|zh-TW)/(.*) /$2 [R=302,L]
 
-RewriteRule ^(zh-TW)$ / [R=302,L]
-RewriteRule ^(zh-TW)/(.*) /$2 [R=302,L]
-
-
-# we have only one translation for this file
-RewriteRule ^bn-BD(.+)$ /bn$1 [R=302,L]
-RewriteRule ^bn-IN(.+)$ /bn$1 [R=302,L]
+# we have only one translation for this locales
+RewriteRule ^bn-(BD|IN)$ /bn [R=302,L]
+RewriteRule ^bn-(BD|IN)/(.*) /bn/$2 [R=302,L]

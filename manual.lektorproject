@@ -80,16 +80,6 @@ name =  עברית (he)
 url_prefix = /he/
 locale = he
 
-[alternatives.hr]
-name = Hrvatski (hr)
-url_prefix = /hr/
-locale = hr
-
-[alternatives.hu]
-name = Magyar nyelv (hu)
-url_prefix = /hu/
-locale = hu
-
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
@@ -105,10 +95,10 @@ name = Italia (it)
 url_prefix = /it/
 locale = it
 
-[alternatives.ja]
-name = 日本語 (ja)
-url_prefix = /ja/
-locale = ja
+[alternatives.is]
+name = Íslenska (is)
+url_prefix = /is/
+locale = is
 
 [alternatives.ka]
 name = Georgian (ka)
