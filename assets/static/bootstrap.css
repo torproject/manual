@@ -440,7 +440,7 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase; }
+  text-transform: none; }
 
 .blockquote {
   margin-bottom: 1rem;
@@ -6401,12 +6401,12 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: Source Sans Pro Bold; }
 
 h5 {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   color: #7D4698; }
 
 h6 {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   color: #7D4698; }
 
@@ -6593,7 +6593,7 @@ mark, .mark {
     padding: 20px !important; }
 
 .badge {
-  text-transform: uppercase; }
+  text-transform: none; }
 
 .breadcrumb {
   background-color: #fff; }
