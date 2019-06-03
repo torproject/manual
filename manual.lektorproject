@@ -155,6 +155,11 @@ name = Svenska (sv)
 url_prefix = /sv-SE/
 locale = sv-SE
 
+[alternatives.th]
+name = ภาษาไทย (th)
+url_prefix = /th/
+locale = th
+
 [alternatives.tr]
 name = Turkish (tr)
 url_prefix = /tr/
