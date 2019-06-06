@@ -4,8 +4,8 @@ RewriteRule ^(en-US|en)$ / [R=302,L]
 RewriteRule ^(en-US|en)/(.*) /$2 [R=302,L]
 
 # Rewrites for languages that have a different mapping in the page
-RewriteRule ^(es-ES|es-MXres-CO)$ /es/ [R=302,L]
-RewriteRule ^(es-ES|es-MXres-CO)/(.*) /es/$2 [R=302,L]
+RewriteRule ^(es-ES|es-MX/es-CO)$ /es/ [R=302,L]
+RewriteRule ^(es-ES|es-MX/es-CO)/(.*) /es/$2 [R=302,L]
 
 # support for old URLs
 RewriteRule ^/security-slider.html$ /security-slider/ [R=302,L]
