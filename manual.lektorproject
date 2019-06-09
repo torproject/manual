@@ -111,6 +111,6 @@ url_prefix = /tr/
 locale = tr
 
 [alternatives.zh-CN]
-name = 简体字 (zh-CN)
+name = 简体中文 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
