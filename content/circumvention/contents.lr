@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: Circumvention
+title: CIRCUMVENTION
 ---
 description: What to do if the Tor network is blocked
 ---
@@ -14,7 +14,7 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 
 Tor Browser currently has four pluggable transport options to choose from.
 
-##### Using pluggable transports
+##### USING PLUGGABLE TRANSPORTS
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
@@ -28,7 +28,7 @@ Select 'Tor is censored in my country,' then click 'Select a built-in bridge.' C
 
 Click 'OK' to save your settings.
 
-##### Which transport should I use?
+##### WHICH TRANSPORT SHOULD I USE?
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 

@@ -1,6 +1,6 @@
 _model: topic
 ---
-title: About Tor Browser
+title: ABOUT TOR BROWSER
 ---
 description: Learn what Tor Browser can do to protect your privacy and anonymity
 ---
@@ -20,7 +20,7 @@ In addition, Tor Browser is designed to prevent websites from “fingerprinting�
 
 By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a <a href="/managing-identities/#new-identity">New Identity</a> is requested).
 
-##### How Tor works
+##### HOW TOR WORKS
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
 
