@@ -105,6 +105,11 @@ name = Русский (ru)
 url_prefix = /ru/
 locale = ru
 
+[alternatives.th]
+name = ภาษาไทย (th)
+url_prefix = /th/
+locale = th
+
 [alternatives.tr]
 name = Turkish
 url_prefix = /tr/
