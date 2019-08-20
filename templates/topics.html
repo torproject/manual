@@ -1,5 +1,7 @@
 {% from "macros/topic.html" import render_topic %}
 <div id="#topics">
+  <br />
+  <br />
   {% for item in this.children %}
   <h5 class="text-muted mb-3 p-0 {{ bag('alternatives', this.alt, 'direction') }}">
     <a href="{{ item|url }}">{{ item.title }}</a>
