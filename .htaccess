@@ -6,7 +6,7 @@ RewriteRule ^security-slider.html$ /security-settings/ [R=302,L]
 
 # this document moved to the community portal
 RewriteRule ^(.*)/becoming-tor-translator$ https://community.torproject.org/localization/becoming-tor-translator/ [R=302,L]
-RewriteRule ^becoming-tor-translator/$ https://community.torproject.org/becoming-tor-translator/ [R=302,L]
+RewriteRule ^becoming-tor-translator/$ https://community.torproject.org/localization/becoming-tor-translator/ [R=302,L]
 
 # forward requests in /en to the root folder
 RewriteRule ^(en-US|en)$ / [R=302,L]
