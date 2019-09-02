@@ -9,14 +9,33 @@ seo_slug: uninstalling
 key: 12
 ---
 body:
-Tor Browser does not affect any of the existing software or settings on your computer. Uninstalling Tor Browser will not affect your system’s software or settings.
+Tor Browser does not affect any of the existing software or settings on your computer. Removing it from your system is simple:
 
-Removing Tor Browser from your system is simple:
+First locate your Tor Browser folder.
 
-1. Locate your Tor Browser folder. The default location on Windows is the Desktop; on macOS it is the Applications folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+- The default location on **Windows** is the Desktop or wherever you extracted the Tor Browser archive to.
 
-2. Delete the Tor Browser folder.
+- On **Linux**, there is no default location, however the folder will be named "tor-browser_en-US" if you installed the English Tor Browser.
 
-3. Empty your Trash
+  *Optional:* If you registered Tor as an application, now is the time to unregister it.
+  It provides a commandline option for that:
 
-Note that your operating system’s standard “Uninstall” utility is not used.
+```
+./Browser/start-tor-browser --unregister-app
+```
+
+Tor Browser does not install itself in the classical sense of applications.
+You can just delete it.
+
+- On **macOS** drag the Tor Browser application icon from the *Applications* folder to the trash as you would to uninstall any other application.
+  Now delete the directory which contains the Tor Browser profile.
+  If the Tor Browser application is in the Applications folder, the directory to remove is 
+```
+~/Library/Application Support/TorBrowser-Data
+```
+If it's not, the directory is next to the Tor Browser application.
+To get to it, press cmd-shift-g while in Finder and copy/paste that directory into the box that appears.
+
+Now empty your Trash and it is removed from your system.
+
+Note that your operating system's standard *Uninstall* utility is not used and uninstalling Tor Browser does not affect your system's software or settings.
