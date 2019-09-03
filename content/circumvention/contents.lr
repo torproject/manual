@@ -32,6 +32,6 @@ Click 'OK' to save your settings.
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, and meek-azure.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, fte, and meek-azure.
 
 If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
