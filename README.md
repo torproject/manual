@@ -9,9 +9,11 @@ To clone the code use either of
 `git clone http://dccbbv6cooddgcrq.onion/project/web/manual.git/`
 or browse it online: http://jqs44zhtxl2uo6gk.onion/project/web/manual.git
 
-The main ticket is #27621
-- https://bugs/torproject.org/27621
-- http://ea5faa5po25cf7fb.onion/projects/tor/ticket/27621
+How to report bugs or feedback
+==============================
+
+Please file a [trac ticket](https://trac.torproject.org) and choose the component: Community/Tor Browser Manual 
+
 
 What is Lektor?
 ===============
