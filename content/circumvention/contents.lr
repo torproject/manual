@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the <a href="/en-US/transports">Pluggable Transports</a> page for more information on the types of transport that are currently available.
+Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the [Pluggable Transports](/en-US/transports) page for more information on the types of transport that are currently available.
 
 Tor Browser currently has four pluggable transport options to choose from.
 
@@ -30,8 +30,8 @@ Click 'OK' to save your settings.
 
 ##### WHICH TRANSPORT SHOULD I USE?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the <a href="/en-US/transports">Pluggable Transports</a> page), and their effectiveness depends on your individual circumstances.
+Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the [Pluggable Transports](/en-US/transports) page), and their effectiveness depends on your individual circumstances.
 
 If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs3, obfs4, fte, and meek-azure.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the <a href="/en-US/bridges/">Bridges</a> section to learn what bridges are and how to obtain them.
+If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the [Bridges](/en-US/bridges/) section to learn what bridges are and how to obtain them.
