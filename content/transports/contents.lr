@@ -19,21 +19,13 @@ Currently there are five pluggable transports available, but more are being deve
 <tbody>
 <tr class="odd">
 <td>
-    obfs3
-</td>
-<td>
-    obfs3 makes Tor traffic look random, so that it does not look like Tor or any other protocol. While still included by default, it is reccomended to use obfs4 instead, as it has several security improvements over obfs3.
-</td>
-</tr>
-<tr class="even">
-<td>
     obfs4
 </td>
 <td>
     obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
 FTE
 </td>
@@ -41,7 +33,7 @@ FTE
     FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>
 meek
 </td>
@@ -49,7 +41,7 @@ meek
     meek transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>
     Snowflake
 </td>
