@@ -15,7 +15,7 @@ If personal information such as a login password travels unencrypted over the In
 
 The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:
 
-<img class="" src="../../static/images/tor-and-https.svg">
+<object data="../../static/images/tor-and-https.svg" type="image/svg+xml"></object>
 
 * Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.
 * Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.
