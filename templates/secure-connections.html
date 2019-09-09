@@ -1,9 +1,17 @@
+<p>The following visualization shows what information is visible to eavesdroppers with and without Tor Browser and HTTPS encryption:</p>
+
+<ul>
+  <li>Click the “Tor” button to see what data is visible to observers when you're using Tor. The button will turn green to indicate that Tor is on.</li>
+  <li>Click the “HTTPS” button to see what data is visible to observers when you're using HTTPS. The button will turn green to indicate that HTTPS is on.</li>
+  <li>When both buttons are green, you see the data that is visible to observers when you are using both tools.</li>
+  <li>When both buttons are grey, you see the data that is visible to observers when you don't use either tool.</li>
+</ul>
 <br />
-HTTPS
+<label>HTTPS</label>
 <input class="toggle" type="checkbox" id="https-switch"/>
 
 <br />
-TOR
+<label>TOR</label>
 <input class="toggle" type="checkbox" id="tor-switch"/>
 
 <div id="http" class="switch-off">
@@ -18,3 +26,44 @@ TOR
 <div id="https-tor" class="switch-on">
   <p>TOR + HTTPS!!!</p>
 </div>
+
+<h5>POTENTIALLY VISIBLE DATA</h5>
+
+<dl>
+
+<dt>
+Site.com
+</dt>
+  <dd>
+    The site being visited.
+  </dd>
+
+<dt>
+user / pw
+</dt>
+  <dd>
+    Username and password used for authentication.
+  </dd>
+
+<dt>
+data
+</dt>
+  <dd>
+    Data being transmitted.
+  </dd>
+
+<dt>
+location
+</dt>
+  <dd>
+    Network location of the computer used to visit the website (the public IP address).
+  </dd>
+
+<dt>
+Tor
+</dt>
+  <dd>
+    Whether or not Tor is being used.
+  </dd>
+
+</dl>
