@@ -19,7 +19,7 @@ For GNU/Linux:
 
 2. Navigate to the Tor Browser [download page](https://torproject.org/download).
 
-3. Download the Linux .tar.gz file and save it directly to your media.
+3. Download the Linux `.tar.gz` file and save it directly to your media.
 
 4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
@@ -32,11 +32,11 @@ For Windows:
 
 2. Navigate to the Tor Browser [download page](https://torproject.org/download).
 
-3. Download the Windows .exe file and save it directly to your media.
+3. Download the Windows `.exe` file and save it directly to your media.
 
 4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
-5. When the download is complete, click the .exe file and begin the installation process.
+5. When the download is complete, click the `.exe` file and begin the installation process.
 
 6. When the installer asks where to install Tor Browser, select your removable media.
 
@@ -47,10 +47,10 @@ For macOS:
 
 2. Navigate to the Tor Browser [download page](https://torproject.org/download).
 
-3. Download the macOS .dmg file and save it directly to your media.
+3. Download the macOS `.dmg` file and save it directly to your media.
 
 4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
-5. When the download is complete, click the .dmg file and begin the installation process.
+5. When the download is complete, click the `.dmg` file and begin the installation process.
 
 6. When the installer asks where to install Tor Browser, select your removable media.
