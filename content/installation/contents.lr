@@ -16,7 +16,7 @@ For GNU/Linux:
 
 2. Download the GNU/Linux `.tar.gz` file 
 
-3. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+3. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 4. When the download is complete, extract the archive with the command `tar -xzvf [TB archive]` or by using an archive manager.
 
@@ -29,7 +29,7 @@ For Windows:
 
 2. Download the Windows `.exe` file 
 
-3. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+3. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 4. When the download is complete, double click the `.exe` file. Complete the installation wizard process.
 
@@ -41,7 +41,7 @@ For macOS:
 
 2. Download the macOS `.dmg` file 
 
-3. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+3. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 4. When the download is complete, double click the `.dmg` file. Complete the installation wizard process.
 

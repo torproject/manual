@@ -2,7 +2,7 @@ _model: topic
 ---
 title: MAKE TOR BROWSER PORTABLE
 ---
-description: How install Tor Browser onto removable media
+description: How to install Tor Browser onto removable media
 ---
 seo_slug: make-tor-portable
 ---
@@ -21,7 +21,7 @@ For GNU/Linux:
 
 3. Download the Linux `.tar.gz` file and save it directly to your media.
 
-4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+4. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 5. When the download is complete, extract the archive onto the media as well.
 
@@ -34,7 +34,7 @@ For Windows:
 
 3. Download the Windows `.exe` file and save it directly to your media.
 
-4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+4. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 5. When the download is complete, click the `.exe` file and begin the installation process.
 
@@ -49,7 +49,7 @@ For macOS:
 
 3. Download the macOS `.dmg` file and save it directly to your media.
 
-4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+4. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 5. When the download is complete, click the `.dmg` file and begin the installation process.
 
