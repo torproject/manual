@@ -1,0 +1,47 @@
+_model: topic
+---
+title: INSTALLATION
+---
+description: Installing Tor Browser
+---
+seo_slug: installation
+---
+key: 3
+---
+body:
+
+For GNU/Linux:
+
+1. Navigate to the Tor Browser [download page](https://torproject.org/download).
+
+2. Download the GNU/Linux .tar.gz file 
+
+3. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+
+4. When the download is complete, extract the archive using the *tar* command or by using an archive manager.
+
+5. Navigate to the newly extracted Tor Browser directory. Double click the icon to start up Tor for the first time.
+
+
+For Windows:
+
+1. Navigate to the Tor Browser [download page](https://torproject.org/download).
+
+2. Download the Windows .exe file 
+
+3. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+
+4. When the download is complete, double click the .exe file. Complete the installation wizard process.
+
+
+
+For MacOS:
+
+1. Navigate to the Tor Browser [download page](https://torproject.org/download).
+
+2. Download the macOS .dmg file 
+
+3. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+
+4. When the download is complete, double click the .dmg file. Complete the installation wizard process.
+

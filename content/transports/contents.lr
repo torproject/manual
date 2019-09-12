@@ -6,7 +6,7 @@ description: Pluggable transports are tools that Tor can use to disguise the tra
 ---
 seo_slug: plugable-transports
 ---
-key: 4
+key: 5
 ---
 body:
 Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.

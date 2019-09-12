@@ -1,0 +1,42 @@
+_model: topic
+---
+title: MAKE TOR BROWSER PORTABLE
+---
+description: How install Tor Browser onto removable media
+---
+seo_slug: make-tor-portable
+---
+key: 16
+---
+body:
+
+If preferred, Tor Browser may be made portable by extracting it from its archive directly onto removable media such as a USB stick or SD card. It is recommended to use writable media so that Tor Browser can be updated as required.
+ 
+
+For GNU/Linux:
+
+1. Plug in your removable media and format it. Any filesystem type will work.
+
+2. Navigate to the Tor Browser [download page](https://torproject.org/download).
+
+3. Download the Linux .tar.gz file and save it directly to your media.
+
+4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+
+5. When the download is complete, extract the archive onto the media as well.
+
+
+For Windows:
+
+1. Plug in your removable media and format it. Any filesystem type will work.
+
+2. Navigate to the Tor Browser [download page](https://torproject.org/download).
+
+3. Download the Windows .exe file and save it directly to your media.
+
+4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+
+5. When the download is complete, click the .exe file and begin the installation process.
+
+6. When the installer asks where to install Tor Browser, select your removable media.
+

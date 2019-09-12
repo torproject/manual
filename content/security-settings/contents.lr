@@ -6,7 +6,7 @@ description: Configuring Tor Browser for security and usability
 ---
 seo_slug: security-settings
 ---
-key: 8
+key: 11
 ---
 body:
 By default, Tor Browser protects your security by encrypting your browsing data.
