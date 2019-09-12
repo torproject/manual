@@ -40,3 +40,17 @@ For Windows:
 
 6. When the installer asks where to install Tor Browser, select your removable media.
 
+
+For MacOS:
+
+1. Plug in your removable media and format it. You *must* use macOS Extended (Journaled) format.
+
+2. Navigate to the Tor Browser [download page](https://torproject.org/download).
+
+3. Download the macOS .dmg file and save it directly to your media.
+
+4. (Optional, but recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+
+5. When the download is complete, click the .dmg file and begin the installation process.
+
+6. When the installer asks where to install Tor Browser, select your removable media.
