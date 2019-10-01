@@ -1,0 +1,5 @@
+_model: redirect
+---
+target: ../security-settings/
+---
+_discoverable: no
