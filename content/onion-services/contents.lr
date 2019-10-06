@@ -10,13 +10,13 @@ key: 9
 ---
 body:
 
-Onion services (formerly known as “hidden services”) are services (like websites) that are only accessible through the Tor network.
+Onion services (formerly known as “hidden services”),are services like websites that are only accessible through the Tor network.
 
 Onion services offer several advantages over ordinary services on the non-private web:
 
-* An onion services’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
-* All traffic between Tor users and onion services is end-to-end encrypted, so you do not need to worry about [connecting over HTTPS](/secure-connections).
-* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the .onion URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
+* An onion service’s location and IP address are hidden, making it difficult for adversaries to censor it or identify its operators.
+* All traffics between Tor users and onion services are end-to-end encrypted, so you do not need to worry about [connecting over HTTPS](/secure-connections).
+* The address of an onion service is automatically generated, so the operators do not need to purchase a domain name; the ".onion" URL also helps Tor ensure that it is connecting to the right location and that the connection is not being tampered with.
 
 ##### HOW TO ACCESS AN ONION SERVICE
 
@@ -26,7 +26,7 @@ When accessing a website that uses an onion service, Tor Browser will show at th
 
 ##### TROUBLESHOOTING
 
-If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
+If you cannot reach the onion service you require, make sure that you have entered the onion address correctly; even a small mistake will stop Tor Browser from being able to reach the site.
 
 If you are still unable to connect to the onion service, please try again later. There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
 
