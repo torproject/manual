@@ -1,0 +1,62 @@
+_model: topic
+---
+title: Tor Browser for Android
+---
+description: Learn about Tor Browser for Android and how to install it
+---
+seo_slug: tor-broser-for-android
+---
+body:
+
+##### INTRODUCTION - A LITTLE BIT OF HISTORY
+
+[Mobile browsing](https://www.theguardian.com/technology/2016/nov/02/mobile-web-browsing-desktop-smartphones-tablets) 
+has increasingly become the primary way many people go online.
+In 2014, Tor Browser was used by millions of people on their desktop computers,
+ but there was not yet a way to use Tor on a mobile device.
+We recognized the need for protecting people's rights to privacy and freedom on mobile devices, 
+ but as a small nonprofit organization, we were not yet ready to meet that demand.
+That's when our friends at Guardian Project began exploring the possibility of providing Tor Browser on Android themselves. 
+Their answer was [Orfox](https://guardianproject.info/apps/orfox/).
+
+
+Orfox was built from the same source code as Tor Browser (which is built upon Firefox), 
+but with a few minor modifications to the privacy enhancing features to make them compatible 
+with Firefox for Android and the Android operating system.
+
+
+Orfox was first released [23 September 2015](https://github.com/guardianproject/Orfox/releases/tag/Fennec-38.1.0esr%2FTorBrowser-5.0%2FOrfox-1.0beta1). 
+Over the next three years, it continously improved and became a
+popular way for people to browse the internet with more privacy than standard browsers, 
+and Orfox was crucial for helping people circumvent censorship and access blocked sites 
+and critical resources. It was installed over 14 million times, and maintained over 1 million 
+active users.
+ 
+
+Because of Orfox's success, the development path for us was clearer and more in reach.
+In late 2017, we began working on our own [Tor Browser for Android](https://blog.torproject.org/blog/upping-support-mobile-browsing).
+We were able to build upon Guardian Project's work and bring a browser with the full protections of Tor Browser to Android. 
+We released the alpha version of Tor Browser for Android in [September 2018](https://blog.torproject.org/new-alpha-release-tor-browser-android) 
+and launched the stable version this May. 
+
+With Orfox and the alpha version of Tor Browser for Android, you also needed to install [Orbot](https://guardianproject.info/apps/orbot/)
+in order to connect to the Tor network. 
+Orbot is a free proxy app that empowers other apps to use the internet more securely. 
+Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world. 
+Since the stable version, you can download Tor Browser for Android as a standalone application.
+
+
+##### HOW TO INSTALL
+
+
+
+##### HOW TO USE BRIDGES AND KNOWN BUGS
+
+
+
+##### CHANGING IDENTITIES AND FEATURES THAT AREN'T AVAILABLE
+
+
+
+###### TROUBLESHOOTING
+
