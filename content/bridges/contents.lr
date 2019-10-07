@@ -15,10 +15,21 @@ Other pluggable transports, like meek, use different anti-censorship techniques 
 
 ##### GETTING BRIDGE ADDRESSES
 
-Because bridge addresses are not public, you will need to request them yourself. You have two options:
+Because bridge addresses are not public, you will need to request them yourself. You have a few options:
 
 * Visit https://bridges.torproject.org/ and follow the instructions, or
 * Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+* Use MOAT to fetch bridges from within Tor Browser.
+
+##### USING MOAT
+
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window.
+Otherwise, click the onion icon to the right of the URL bar, then select 'Tor Network Settings...' to access these options.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.'
+Then, select 'Request a bridge from torproject.org' and click 'Request a bridge...'
+
+Complete the CAPTCHA and click 'Submit'.
 
 ##### ENTERING BRIDGE ADDRESSES
 
