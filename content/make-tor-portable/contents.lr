@@ -10,7 +10,8 @@ key: 16
 ---
 body:
 
-If preferred, Tor Browser may be made portable by extracting it from its archive directly onto removable media such as a USB stick or SD card. It is recommended to use writable media so that Tor Browser can be updated as required.
+If preferred, Tor Browser may be made portable by extracting it from its archive directly onto removable media such as a USB stick or SD card.
+It is recommended to use writable media so that Tor Browser can be updated as required.
 
 
 For Windows:
@@ -21,7 +22,7 @@ For Windows:
 
 3. Download the Windows `.exe` file and save it directly to your media.
 
-4. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+4. (Recommended) Verify the [files signature](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 5. When the download is complete, click the `.exe` file and begin the installation process.
 
@@ -36,7 +37,7 @@ For macOS:
 
 3. Download the macOS `.dmg` file and save it directly to your media.
 
-4. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+4. (Recommended) Verify the [files signature](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 5. When the download is complete, click the `.dmg` file and begin the installation process.
 
@@ -51,6 +52,6 @@ For GNU/Linux:
 
 3. Download the Linux `.tar.xz` file and save it directly to your media.
 
-4. (Recommended) Verify the [files signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
+4. (Recommended) Verify the [files signature](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 5. When the download is complete, extract the archive onto the media as well.

@@ -14,7 +14,7 @@ For Windows:
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the Windows `.exe` file 
+2. Download the Windows `.exe` file
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
@@ -25,7 +25,7 @@ For macOS:
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the macOS `.dmg` file 
+2. Download the macOS `.dmg` file
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
@@ -36,14 +36,17 @@ For GNU/Linux:
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the GNU/Linux `.tar.xz` file 
+2. Download the GNU/Linux `.tar.xz` file
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
 4. When the download is complete, extract the archive with the command `tar -xf [TB archive]` or by using an archive manager.
 
-5. You'll need to tell your GNU/Linux that you want the ability to execute shell scripts from the graphical interface. Navigate to the newly extracted Tor Browser directory. Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program. Double-click the icon to start up Tor Browser for the first time.
+5. You'll need to tell your GNU/Linux that you want the ability to execute shell scripts from the graphical interface.
+   Navigate to the newly extracted Tor Browser directory.
+   Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
+   Double-click the icon to start up Tor Browser for the first time.
 
 6. Alternatively, from inside the Tor Browser directory, you can also start from the command line by running:
 
-`./start-tor-browser`
+   `./start-tor-browser`
