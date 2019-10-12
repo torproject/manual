@@ -26,4 +26,4 @@ Tor is a network of virtual tunnels that allows you to improve your privacy and 
 
 <img class="" src="../static/images/how-tor-works.png" alt="How Tor Browser works">
 
-The image above illustrates a user browsing different websites using Tor. The green computers in the middle,represents relays in the Tor network while the three keys represent the layers of encryption between the user and each relay.
+The image above illustrates a user browsing different websites using Tor. The green computers, in the middle, represent relays in the Tor network while the three keys represent the layers of encryption between the user and each relay.
