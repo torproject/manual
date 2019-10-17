@@ -46,14 +46,10 @@ meek
 
 ## USING PLUGGABLE TRANSPORTS
 
-To use a pluggable transport, first click on Preferences in the hamburger menu and then on Tor in the sidebar, or click 'Configure' when starting Tor Browser for the first time.
+To use a pluggable transport, click 'Configure' when starting Tor Browser for the first time. In the window that appears, from the drop-down menu, select whichever pluggable transport you'd like to use.
 
-Next, select 'Tor Network Settings' from the drop-down menu.
+Or, if you have Tor Browser running, click on 'Preferences' in the hamburger menu and then on 'Tor' in the sidebar. In 'Bridges' section, check the box 'Use a bridge', and from the drop-down menu 'Select a built-in bridge', choose whichever pluggable transport you'd like to use.
 
-In the window that appears, check 'Tor is censored in my country,' then click 'Select a built-in bridge.'
-
-From the drop-down menu, select whichever pluggable transport you'd like to use.
+Once you've selected the pluggable transport you'd like to use, click 'Connect' to save your settings.
 
 <img class="col-md-6" src="../../static/images/pluggable_transport_network_settings.png">
-
-Once you've selected the pluggable transport you'd like to use, click 'OK' to save your settings.
