@@ -46,7 +46,7 @@ meek
 
 ## USING PLUGGABLE TRANSPORTS
 
-To use a pluggable transport, first click the onion icon to the left of the URL bar, or click 'Configure' when starting Tor Browser for the first time.
+To use a pluggable transport, first click on Preferences in the hamburger menu and then on Tor in the sidebar, or click 'Configure' when starting Tor Browser for the first time.
 
 Next, select 'Tor Network Settings' from the drop-down menu.
 
