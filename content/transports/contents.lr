@@ -11,9 +11,9 @@ key: 5
 body:
 Pluggable transports are tools that Tor can use to disguise the traffic it sends out. This can be useful in situations where an Internet Service Provider or other authority is actively blocking connections to the Tor network.
 
-##### TYPES OF PLUGGABLE TRANSPORT
+## TYPES OF PLUGGABLE TRANSPORT
 
-Currently there are five pluggable transports available, but more are being developed.
+Currently there are three pluggable transports available, but more are being developed.
 
 <table class="table table-striped">
 <tbody>
@@ -22,15 +22,7 @@ Currently there are five pluggable transports available, but more are being deve
     obfs4
 </td>
 <td>
-    obfs4 makes Tor traffic look random like obfs3, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than obfs3 bridges.
-</td>
-</tr>
-<tr class="even">
-<td>
-FTE
-</td>
-<td>
-    FTE (format-transforming encryption) disguises Tor traffic as ordinary web (HTTP) traffic.
+    obfs4 makes Tor traffic look random, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than its predecessor, obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">
@@ -38,7 +30,7 @@ FTE
 meek
 </td>
 <td>
-    meek transports all make it look like you are browsing a major web site instead of using Tor. meek-amazon makes it look like you are using Amazon Web Services; meek-azure makes it look like you are using a Microsoft web site; and meek-google makes it look like you are using Google search.
+    meek transports all make it look like you are browsing a major web site instead of using Tor. meek-azure makes it look like you are using a Microsoft web site.
 </td>
 </tr>
 <tr class="even">
@@ -52,7 +44,7 @@ meek
 </tbody>
 </table>
 
-##### USING PLUGGABLE TRANSPORTS
+## USING PLUGGABLE TRANSPORTS
 
 To use a pluggable transport, first click the onion icon to the left of the URL bar, or click 'Configure' when starting Tor Browser for the first time.
 
