@@ -14,9 +14,9 @@ Direct access to the Tor network may sometimes be blocked by your Internet Servi
 Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”.
 See the [Pluggable Transports](/en-US/transports) page for more information on the types of transport that are currently available.
 
-Tor Browser currently has four pluggable transport options to choose from.
+Tor Browser currently has three pluggable transport options to choose from.
 
-##### USING PLUGGABLE TRANSPORTS
+## USING PLUGGABLE TRANSPORTS
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
@@ -30,7 +30,7 @@ Select 'Tor is censored in my country,' then click 'Select a built-in bridge.' C
 
 Click 'OK' to save your settings.
 
-##### WHICH TRANSPORT SHOULD I USE?
+### WHICH TRANSPORT SHOULD I USE?
 
 Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the [Pluggable Transports](/en-US/transports) page), and their effectiveness depends on your individual circumstances.
 
