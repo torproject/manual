@@ -30,4 +30,4 @@ body:
 
 	./start-tor-browser.desktop
 
-* BitTorrent in specific is [not anonymous over Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+* BitTorrent specifically is [not anonymous over Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
