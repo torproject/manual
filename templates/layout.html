@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="{{ '/static/css/eoy.css'|asseturl }}">
 
 <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
+<!-- Adding new stylesheet to fix font size issue of li element	 -->
+<link rel="stylesheet" href="{{ '/static/css/fix-li-size.css'|url }}">
 
 <title>{% block title %}{{ this.title }}{% endblock %} | {{ _("Tor Project | Tor Browser Manual") }}</title>
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
