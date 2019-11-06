@@ -1,8 +1,0 @@
-README
-lektor_i18n.py
-setup.py
-lektor_i18n.egg-info/PKG-INFO
-lektor_i18n.egg-info/SOURCES.txt
-lektor_i18n.egg-info/dependency_links.txt
-lektor_i18n.egg-info/entry_points.txt
-lektor_i18n.egg-info/top_level.txt

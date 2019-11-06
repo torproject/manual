@@ -2,33 +2,47 @@ _model: topic
 ---
 title: BRIDGES
 ---
-description: Most Pluggable Transports, such as obfs3 and obfs4, rely on the use of “bridge” relays.
+description: Most Pluggable Transports, such as obfs4, rely on the use of “bridge” relays.
 ---
 seo_slug: bridges
 ---
-key: 4
+key: 7
 ---
 body:
-Most <a href="/transports">Pluggable Transports</a>, such as obfs3 and obfs4, rely on the use of “bridge” relays. Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily. Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor.
+
+Most [Pluggable Transports](/circumvention), such as obfs4, rely on the use of “bridge” relays.
+Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
+
+Using bridges in combination with pluggable transports helps to disguise the fact that you are using Tor, but may slow down the connection compared to using ordinary Tor relays.
 
 Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
 ##### GETTING BRIDGE ADDRESSES
 
-Because bridge addresses are not public, you will need to request them yourself. You have two options:
+Because bridge addresses are not public, you will need to request them yourself. You have a few options:
 
-* Visit https://bridges.torproject.org/ and follow the instructions, or
-* Email bridges@torproject.org from a Gmail, Yahoo, or Riseup email address
+ * Visit https://bridges.torproject.org/ and follow the instructions, or
+ * Email bridges@torproject.org from a Gmail, or Riseup email address
+ * Use MOAT to fetch bridges from within Tor Browser.
 
 ##### ENTERING BRIDGE ADDRESSES
 
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window.
+Otherwise, click on 'Preferences' in the hamburger menu (main menu) and then on 'Tor' in the sidebar.
+
+In the Tor Network Settings window, select 'Tor is censored in my country.'
+Then, select 'Request a bridge from torproject.org' and click 'Request a bridge...'
+
+Complete the CAPTCHA and click 'Submit'. 
+
+### ENTERING BRIDGE ADDRESSES
+
+<img class="col-md-6" align="right" hspace="5" src="../../static/images/tor-launcher-custom-bridges.png">
+
 Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click the Torbutton to the left of the URL bar, then select 'Tor Network Settings...' to access these options.
+If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click on 'Preferences' in the hamburger menu (main menu) and then on 'Tor' in the sidebar to access these options.
 
-In the Tor Network Settings window, select 'Tor is censored in my country.' Then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+In 'Bridges' section, check the box 'Use a bridge', then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
 
-<img class="col-md-6" src="../../static/images/tor-launcher-custom-bridges.png">
-
-Click “OK” to save your settings. Using bridges may slow down the connection compared to using ordinary Tor relays.
 If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.

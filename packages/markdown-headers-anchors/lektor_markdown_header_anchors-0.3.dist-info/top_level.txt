@@ -1,1 +1,0 @@
-lektor_markdown_header_anchors

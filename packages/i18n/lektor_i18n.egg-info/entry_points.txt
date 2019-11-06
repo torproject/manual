@@ -1,3 +1,0 @@
-[lektor.plugins]
-i18n = lektor_i18n:I18NPlugin
-

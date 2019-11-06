@@ -1,4 +1,4 @@
-The is the repository of the new Tor Browser manual maintained with lektor.
+This the repository of the new Tor Browser manual maintained with lektor.
 
 The current online version of the manual can be found at
  - https://tb-manual.torproject.org
@@ -6,12 +6,14 @@ The current online version of the manual can be found at
 
 To clone the code use either of
 `git clone https://gitweb.torproject.org/project/web/manual.git/`
-`git clone http://dccbbv6cooddgcrq.onion/project/web/manual.git/`
+`torify git clone http://dccbbv6cooddgcrq.onion/project/web/manual.git/`
 or browse it online: http://jqs44zhtxl2uo6gk.onion/project/web/manual.git
 
-The main ticket is #27621
-- https://bugs/torproject.org/27621
-- http://ea5faa5po25cf7fb.onion/projects/tor/ticket/27621
+How to report bugs or feedback
+==============================
+
+Please file a [trac ticket](https://trac.torproject.org) and choose the component: Community/Tor Browser Manual 
+
 
 What is Lektor?
 ===============
@@ -24,19 +26,16 @@ Its code can be found at https://github.com/lektor/lektor
 Update translation
 ------------------
 
-To translate the manual, please join the Tor Project team in Transifex:
-https://www.transifex.com/
+To translate the Tor Browser Manual, please join the Tor Project team in Transifex. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
 
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
 
-To add new languages see
-https://trac.torproject.org/projects/tor/wiki/org/operations/services/support#Addanewlanguagetothesupportportal
-http://ea5faa5po25cf7fb.onion/projects/tor/wiki/org/operations/services/support#Addanewlanguagetothesupportportal
+To add new languages see [Add new languages to support portal documentation](https://trac.torproject.org/projects/tor/wiki/org/operations/services/support#Addanewlanguagetothesupportportal) | or via [Onion Services](http://ea5faa5po25cf7fb.onion/projects/tor/wiki/org/operations/services/support#Addanewlanguagetothesupportportal).
 
-See #28236 for translations of the tb-manual.
+See bug [#28236](https://trac.torproject.org/projects/tor/ticket/28236) for translations of the tb-manual.
 
 Generate screenshots
 ------------------
 
-This is currently work in progress, see #28235.
+This is currently work in progress, see [#28235](https://trac.torproject.org/projects/tor/ticket/28235).

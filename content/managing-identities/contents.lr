@@ -6,7 +6,7 @@ description: Learn how to control personally-identifying information in Tor Brow
 ---
 seo_slug: managing-identities
 ---
-key: 5
+key: 8
 ---
 body:
 
@@ -20,11 +20,11 @@ Tor Browser centers your web experience around your relationship with the websit
 
 On the other hand, all connections to a single website address will be made over the same Tor circuit, meaning you can browse different pages of a single website in separate tabs or windows, without any loss of functionality.
 
-<img class="col-md-6" src="../../static/images/circuit_full.png">
+<img class="col-md-6" align="right" hspace="5" src="../../static/images/circuit_full.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
-In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.
+In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the [FAQ](https://www.torproject.org/docs/faq#EntryGuards) and [Support Portal](https://support.torproject.org/tbb/tbb-2/).
 
 ##### LOGGING IN OVER TOR
 
@@ -34,20 +34,23 @@ If you log into a website using a regular browser, you also reveal your IP addre
 
 When you log in to a website over Tor, there are several points you should bear in mind:
 
-* See the  <a href="/secure-connections">Secure Connections</a> page for important information on how to secure your connection when logging in.
-* Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
+ * See the [Secure Connections](/secure-connections) page for important information on how to secure your connection when logging in.
+ * Tor Browser often makes your connection appear as though it is coming from an entirely different part of the world. Some websites, such as banks or email providers, might interpret this as a sign that your account has been hacked or compromised, and lock you out. The only way to resolve this is by following the site’s recommended procedure for account recovery, or contacting the operators and explaining the situation.
 
 ##### CHANGING IDENTITIES AND CIRCUITS
 
 <img class="col-md-6" src="../../static/images/new_identity.png">
 
-Tor Browser features “New Identity” and “New Tor Circuit for this Site” options, located in the main menu (hamburger menu).
+Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. There are also located in the main menu (hamburger menu).
 
 ###### NEW IDENTITY
 
-   This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
+This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
 
 ###### NEW TOR CIRCUIT FOR THIS SITE
 
-   This option is useful if the <a href="/about/#how-tor-works">exit relay</a> you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
-   You can also access this option in the new circuit display, in the site information menu, in the URL bar.
+### NEW TOR CIRCUIT FOR THIS SITE
+
+This option is useful if the [exit relay](/about/#how-tor-works) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+
+You can also access this option in the new circuit display, in the site information menu, in the URL bar.

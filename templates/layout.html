@@ -1,9 +1,12 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl"{% endif %}>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ this.alt }}" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl" {% endif %}>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="{{ '/static/bootstrap.css'|asseturl }}">
-<link rel="stylesheet" href="{{ '/static/fonts/open-iconic/font/css/open-iconic-bootstrap.css'|asseturl }}">
+<meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
+<link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
+<link rel="stylesheet" href="{{ '/static/css/eoy.css'|asseturl }}">
+
+<link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
 
 <title>{% block title %}{{ this.title }}{% endblock %} | {{ _("Tor Project | Tor Browser Manual") }}</title>
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
@@ -11,6 +14,12 @@
     {% include 'navbar.html' %}
   </header>
   <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">{{ this.title }}</h1>
+        <!-- {% include 'search.html' %} -->
+      </div>
+    </div>
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
 	{% include 'sidenav.html' %}
@@ -20,7 +29,5 @@
       </div>
     </div>
   </div>
-  <footer>
-    {% include 'footer.html' %}
-  </footer>
+  {% include 'footer.html' %}
 </body>

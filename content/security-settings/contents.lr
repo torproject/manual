@@ -6,7 +6,7 @@ description: Configuring Tor Browser for security and usability
 ---
 seo_slug: security-settings
 ---
-key: 8
+key: 11
 ---
 body:
 By default, Tor Browser protects your security by encrypting your browsing data.
@@ -28,29 +28,20 @@ You can enable these settings again at any time by adjusting your Security Level
 
 <img class="col-lg-6" src="../../static/images/security-settings-safest.png">
 
-<dl>
-<dt>
-Standard
-</dt>
-<dd>
-At this level, all Tor Browser and website features are enabled.
-</dd>
-<dt>
-Safer
-</dt>
-<dd>
-This level disables website features that are often dangerous.
-This may cause some sites to lose functionality. 
 
-JavaScript is disabled on all non-<a href="/secure-connections">HTTPS</a> sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
-</dd>
-<dt>
-Safest
-</dt>
-<dd>
-This level only allows website features required for static sites and basic services.
+###### Standard
+
+* At this level, all Tor Browser and website features are enabled.
+
+###### Safer
+
+* This level disables website features that are often dangerous. This may cause some sites to lose functionality.
+
+* JavaScript is disabled on all non-[HTTPS](/security-settings) sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
+
+###### Safest
+
+* This level only allows website features required for static sites and basic services.
 These changes affect images, media, and scripts.
 
-Javascript is disabled by default on all sites; some fonts,icons, math symbols, and images are disabled; audio and video (HTML5 media) are click-to-play.
-</dd>
-</dl>
+* Javascript is disabled by default on all sites; some fonts, icons, math symbols, and images are disabled; audio and video (HTML5 media) are click-to-play.

@@ -1,12 +1,12 @@
 _model: topic
 ---
-title: Known issues
+title: KNOWN ISSUES
 ---
 description: Known issues
 ---
 seo_slug: known-issues
 ---
-key: 12
+key: 15
 ---
 body:
 
@@ -30,4 +30,4 @@ body:
 
 	./start-tor-browser.desktop
 
-* BitTorrent in specific is <mark><a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">not anonymous over Tor</a></mark>.
+* BitTorrent in specific is [not anonymous over Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
