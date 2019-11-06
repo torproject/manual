@@ -1,5 +1,5 @@
 <!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl"{% endif %}>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ this.alt }}" {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}dir="rtl" {% endif %}>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
