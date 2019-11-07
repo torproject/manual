@@ -27,6 +27,7 @@ Update translation
 ------------------
 
 To translate the Tor Browser Manual, please join the Tor Project team in Transifex. Learn how you can [become a Tor translator](https://community.torproject.org/localization/becoming-tor-translator/).
+The transifex link is: https://www.transifex.com/otf/tor-project-support-community-portal/tbmanual-contentspot/
 
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
