@@ -13,7 +13,7 @@
 
     <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
       <ul class="nav nav-pills flex-column">
-	{% set topicbag = 'topics+en' %}
+	{% set topicbag = 'topics' %}
 	{% for id, item in bag(topicbag).items() %}
 	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
     {% if this.alt != "en" %}
@@ -34,7 +34,7 @@
   <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky {{ bag('alternatives', this.alt, 'direction') }}" id="sidenav-topics">
           <h4 class="text-primary pl-4">{{ _('Topics') }}</h4>
     <ul class="nav nav-pills flex-column">
-      {% set topicbag = 'topics+en' %}
+      {% set topicbag = 'topics' %}
       {% for id, item in bag(topicbag).items() %}
       <li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item" {% endif %}>
       {% if this.alt != "en" %}
