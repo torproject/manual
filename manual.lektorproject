@@ -21,7 +21,7 @@ url_prefix = /bn/
 locale = bn
 
 [alternatives.ca]
-name = Catala (ca)
+name = Català (ca)
 url_prefix = /ca/
 locale = ca
 
