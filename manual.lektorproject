@@ -15,6 +15,11 @@ name = عربية (ar)
 url_prefix = /ar/
 locale = ar
 
+[alternatives.bg]
+name = Български (Bəlgarski)
+url_prefix = /bg/
+locale = bg
+
 [alternatives.bn]
 name = বাংলা ভাষা  (bn)
 url_prefix = /bn/
@@ -24,6 +29,16 @@ locale = bn
 name = Català (ca)
 url_prefix = /ca/
 locale = ca
+
+[alternatives.cs]
+name = česky (cs)
+url_prefix = /cs/
+locale = cs
+
+[alternatives.da]
+name = Dansk (da)
+url_prefix = /da/
+locale = da
 
 [alternatives.de]
 name = Deutsch (de)
@@ -45,6 +60,11 @@ name = Español Arg. (es-AR)
 url_prefix = /es-AR/
 locale = es-AR
 
+[alternatives.fa]
+name = ﻑﺍﺮﺳی (fa)
+url_prefix = /fa/
+locale = fa
+
 [alternatives.fr]
 name = Français
 url_prefix = /fr/
@@ -61,12 +81,17 @@ url_prefix = /he/
 locale = he
 
 [alternatives.id]
-name = Indonesia
+name = Indonesia (id)
 url_prefix = /id/
 locale = id
 
+[alternatives.is]
+name = Íslenska (is)
+url_prefix = /is/
+locale = is
+
 [alternatives.it]
-name = Italia
+name = Italia (it)
 url_prefix = /it/
 locale = it
 
@@ -80,13 +105,48 @@ name = Georgian (ka)
 url_prefix = /ka/
 locale = ka
 
+[alternatives.ko]
+name = 한국어 (ko)
+url_prefix = /ko/
+locale = ko
+
+[alternatives.lt]
+name = lietuvių (lt)
+url_prefix = /lt/
+locale = lt
+
+[alternatives.ml]
+name =  മലയാളം (ml)
+url_prefix = /ml/
+locale = ml
+
 [alternatives.mk]
-name = Macedonian (mk)
+name = македонски (mk)
 url_prefix = /mk/
 locale = mk
 
+[alternatives.ms]
+name = Melayu (ms)
+url_prefix = /ms/
+locale = ms
+
+[alternatives.nb-NO]
+name = Norsk bokmål (nb-NO)
+url_prefix = /nb-NO/
+locale = nb-NO
+
+[alternatives.nl]
+name = Nederlands (nl)
+url_prefix = /nl/
+locale = nl
+
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
+
 [alternatives.pt-BR]
-name = Português (Brasil)
+name = Português Br. (pr-BR)
 url_prefix = /pt-BR/
 locale = pt-BR
 
@@ -105,17 +165,37 @@ name = Русский (ru)
 url_prefix = /ru/
 locale = ru
 
+[alternatives.sv-SE]
+name = Svenska (sv)
+url_prefix = /sv-SE/
+locale = sv-SE
+
 [alternatives.th]
 name = ภาษาไทย (th)
 url_prefix = /th/
 locale = th
 
 [alternatives.tr]
-name = Turkish
+name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
+
+[alternatives.vi]
+name = Tiếng Việt (vi)
+url_prefix = /vi/
+locale = vi
+
+[alternatives.uk]
+name = українська (uk)
+url_prefix = /uk/
+locale = uk
 
 [alternatives.zh-CN]
 name = 简体中文 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
+
+[alternatives.zh-TW]
+name = 正體字 (zh-TW)
+url_prefix = /zh-TW/
+locale = zh-TW
