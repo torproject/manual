@@ -1,5 +1,5 @@
 {% macro render_topic(item, alternative) %}
-{% set b_alt = 'topics+'+alternative %}
+{% set b_alt = 'topics' %}
 {% set t = bag(b_alt, item._id) %}
 <div class="item">
   <h3 class="text-primary">
