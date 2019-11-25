@@ -100,6 +100,11 @@ name = Íslenska (is)
 url_prefix = /is/
 locale = is
 
+[alternatives.ja]
+name = 日本語 (ja)
+url_prefix = /ja/
+locale = ja
+
 [alternatives.ka]
 name = Georgian (ka)
 url_prefix = /ka/
@@ -109,6 +114,11 @@ locale = ka
 name = 한국어 (ko)
 url_prefix = /ko/
 locale = ko
+
+[alternatives.lt]
+name = lietuvių (lt)
+url_prefix = /lt/
+locale = lt
 
 [alternatives.ml]
 name =  മലയാളം (ml)
