@@ -14,16 +14,20 @@
     </div>
      <div id="{{ item._id }}" class="anchor-spacer {{ bag('alternatives', alternative, 'direction') }}" role="tabpanel" data-parent="#{{ t_id }}">
       {{ item.body|safe }}
+      {% if item._id == "secure-connections" %}
+        {% include 'secure-connections.html' %}
+      {% endif %}
          <div class="card mt-5">
             <ul class="list-group list-group-flush">
                 <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to this page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
                 <li class="list-group-item">
-                        <a href="https://dip.torproject.org/web/manual/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
-                        <a href="https://dip.torproject.org/web/manual/issues/new?issue[assignee_id]=&issue[milestone_id]=&issue[title]=User feedback about {{ item.path }}">{{ _("Suggest Feedback") }}</a> -
+                        <a href="https://github.com/torproject/manual/edit/master/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">{{ _("Suggest Feedback") }}</a> -
                         <a href="{{ item|url }}">{{ _("Permalink") }}</a>
                 </li>
             </ul>
         </div>
+      </div>
   </div>
 </div>
 {% endmacro %}

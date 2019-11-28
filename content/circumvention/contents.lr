@@ -15,7 +15,7 @@ Tor Browser includes some circumvention tools for getting around these blocks. T
 
 ### TYPES OF PLUGGABLE TRANSPORT
 
-##### USING PLUGGABLE TRANSPORTS
+Currently there are three pluggable transports available, but more are being developed.
 
 <table class="table table-striped">
 <tbody>
@@ -55,7 +55,6 @@ Or, if you have Tor Browser running, click on 'Preferences' in the hamburger men
 
 Once you've selected the pluggable transport you'd like to use, click 'Connect' to save your settings.
 
-##### WHICH TRANSPORT SHOULD I USE?
 
 ### WHICH TRANSPORT SHOULD I USE?
 
