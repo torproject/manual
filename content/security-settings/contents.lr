@@ -37,7 +37,7 @@ You can enable these settings again at any time by adjusting your Security Level
 
 * This level disables website features that are often dangerous. This may cause some sites to lose functionality.
 
-* JavaScript is disabled on all non-[HTTPS](/security-settings) sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
+* JavaScript is disabled on all non-[HTTPS](/secure-connections) sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
 
 ###### Safest
 
