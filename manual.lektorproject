@@ -80,6 +80,11 @@ name = Georgian (ka)
 url_prefix = /ka/
 locale = ka
 
+[alternatives.lt]
+name = lietuvių (lt)
+url_prefix = /lt/
+locale = lt
+
 [alternatives.mk]
 name = Macedonian (mk)
 url_prefix = /mk/
