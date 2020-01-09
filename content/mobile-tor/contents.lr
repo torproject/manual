@@ -10,8 +10,6 @@ key: 15
 ---
 body:
 
-
-
 ### TOR FOR ANDROID
 
 #### Orfox
@@ -37,34 +35,40 @@ Some of the prime features of Tor Browser for Android include: blocking trackers
 
 ### DOWNLOADING AND INSTALLATION
 
+There exists Tor Browser for Android and Tor Browser for Android (alpha). 
+Non-technical users should get Tor Browser for Android, as this is stable and less prone to errors. 
+Tor Browser for Android is available on Play Store, F-droid and the Tor Project website. 
+It is very risky to download Tor Browser outside of these three platforms. 
+
 #### Google Play
 You can install Tor Browser for Android from [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser).
 
 
 #### F-Droid
-The Guardian Project provides Tor Browser for Android on their F-Droid repository. If you would prefer installing the app from F-Droid, please follow these steps:
+The Guardian Project provides Tor Browser for Android on their F-Droid repository. 
+If you would prefer installing the app from F-Droid, please follow these steps:
 
-1. Install the F-Droid app on your Android device from [the website](https://f-droid.org/)
+1. Install the F-Droid app on your Android device from [the F-droid website.](https://f-droid.org/)
 
 2. After installing F-Droid, open the app.
 
-3. At the lower-right-hand corner, open "Settings"
+3. At the lower-right-hand corner, open "Settings".
 
-4. Under the "My Apps" section, open Repositories
+4. Under the "My Apps" section, open Repositories.
 
-5. Toggle "Guardian Project Official Releases" as enabled
+5. Toggle "Guardian Project Official Releases" as enabled.
 
-6. Now F-Droid downloads the list of apps from the Guardian Project's repository (Note: this may take a few minutes)
+6. Now F-Droid downloads the list of apps from the Guardian Project's repository (Note: this may take a few minutes).
 
-7. Tap the Back button at the upper-left-hand corner
+7. Tap the Back button at the upper-left-hand corner.
 
-8. Open "Latest" at the lower-left-hand corner
+8. Open "Latest" at the lower-left-hand corner.
 
-10. Open the search screen by tapping the magnifying glass at the lower-right side
+10. Open the search screen by tapping the magnifying glass at the lower-right side.
 
-11. Search for "Tor Browser for Android"
+11. Search for "Tor Browser for Android".
 
-12. Open the query result by "The Tor Project" and install
+12. Open the query result by "The Tor Project" and install.
 
 
 #### The Tor Project website
@@ -78,7 +82,7 @@ or to configure Tor Browser for your connection with the settings icon.
 
 #### Connect
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-connect.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-connect.png" alt="Connect to Tor Browser for Android">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
 Once clicked, some text will appear, showing Tor’s connection progress.
@@ -87,9 +91,10 @@ see the [Troubleshooting](https://tb-manual.torproject.org/troubleshooting) page
 
 #### Configure
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-configure.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-configure.png" alt="Configure Tor Browser for Android">
 
-If you know that your connection is censored, you should select the settings icon. Tor Browser will take you through a series of configuration options.
+If you know that your connection is censored, you should select the settings icon. 
+Tor Browser will take you through a series of configuration options.
 The first screen asks if access to the Tor network is blocked or censored on your connection.
 If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked,
 click the switch. You will then be taken to the [Circumvention](/mobile-tor/#circumvention) screen to configure a pluggable transport.
@@ -99,29 +104,30 @@ click the switch. You will then be taken to the [Circumvention](/mobile-tor/#cir
 Bridge relays are Tor relays that are not listed in the public Tor directory.
 Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
 
-To use a pluggable transport, click on the settings icon when starting Tor Browser for the first time. The first screen asks if access to the Tor network is censored on your connection. Click on the switch to toggle it.
+To use a pluggable transport, click on the settings icon when starting Tor Browser for the first time. 
+The first screen asks if access to the Tor network is censored on your connection. Click on the switch to toggle it.
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android">
 
 The next screen provides the option to either use a built-in bridge or custom bridge.
 With the "Select a bridge" option, you will have two options: "obfs4" and "meek-azure".
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png" alt="Select a bridge on Tor Browser for Android">
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-selected-a-bridge.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-selected-a-bridge.png" alt="Selected a bridge on Tor Browser for Android">
 
 If you choose the "Provide a Bridge I know" option, then you have to enter a [bridge address](https://tb-manual.torproject.org/bridges/).
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-provide-a-bridge.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-provide-a-bridge.png" alt="Provide a bridge on Tor Browser for Android">
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-provided-a-bridge.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-provided-a-bridge.png" alt="Provide brigde addresses on Tor Browser for Android">
 
 
 ### MANAGING IDENTITIES
 
 #### New Identity
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-new-identity.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-new-identity.png" alt="New Identity on Tor Browser for Android">
 
 This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before.
 Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections.
@@ -131,7 +137,7 @@ Clicking on this button will provide you with a new identity.
 
 ### SECURITY SETTINGS
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-security-settings.gif">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-security-settings.gif" alt="Security settings and security slider on Tor Browser for Android">
 
 [Security settings](https://tb-manual.torproject.org/security-settings/) disable certain web features that can be used to attack your security and anonymity.
 Tor Browser for Android provides the same three security levels that are available on desktop.
@@ -151,15 +157,16 @@ This method assumes that you have either Google Play or F-droid installed on you
 
 ##### Google Play
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-google-play.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-google-play.png" alt="Updating Tor Browser for Android on Google Play">
 
 Click on the hamburger menu next to the search bar and navigate to "My apps and games" > "Updates".
 If you find Tor Browser on the list of apps which need updating, select it and click the "update" button.
 ##### F-Droid
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png" alt="Updating Tor Browser for Android on F-droid">
 
-Click on "Settings", then go to "Manage installed apps". On the next screen, select Tor Browser and finally click on the "update" button.
+Click on "Settings", then go to "Manage installed apps". 
+On the next screen, select Tor Browser and finally click on the "update" button.
 
 #### Updating Tor Browser for Android manually
 With Tor Browser closed, remove it from your system by [uninstalling](/mobile-tor/#uninstalling) it.
@@ -169,7 +176,7 @@ Visit F-droid, Google Play or the [Tor Project website](https://www.torproject.o
 ### UNINSTALLING
 Tor Browser for Android can be uninstalled directly from F-droid, Google Play or from your phone's app settings.
 
-## KNOWN ISSUES
+### KNOWN ISSUES
 
 At the moment, there are some features which are not available in Tor Browser for Android, but are currently available in Tor Browser for desktop.
 
@@ -190,8 +197,7 @@ At the moment, there are some features which are not available in Tor Browser fo
 
 ### Tor for iOS
 There is no Tor Browser for iOS.
-We recommend an iOS app called Onion Browser, which is open source, uses Tor routing,
-and is developed by someone who works closely with the Tor Project.
+We recommend an iOS app called Onion Browser, which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.
 However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser
 from having the same privacy protections as Tor Browser.
 
