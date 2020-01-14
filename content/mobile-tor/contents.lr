@@ -10,8 +10,6 @@ key: 15
 ---
 body:
 
-### TOR BROWSER FOR ANDROID
-
 #### Tor Browser for Android
 Tor Browser for Android is the only official mobile browser supported and developed by the Tor Project.
 It is like the desktop Tor Browser, but for your Android mobile device.
@@ -21,7 +19,7 @@ Some of the prime features of Tor Browser for Android include: blocking trackers
 Orfox was first released in 2015 by The Guardian Project, with the aim of giving Android users a way to browse the internet over Tor.
 Over the next three years, Orfox continously improved and became a popular way for people to browse the internet with more privacy
 than standard browsers, and Orfox was crucial for helping people circumvent censorship and access blocked sites and critical resources.
-In 2018, [Orfox was sunsetted](https://blog.torproject.org/orfox-paved-way-tor-browser-android) after the official Tor Browser for
+In 2019, [Orfox was sunsetted](https://blog.torproject.org/orfox-paved-way-tor-browser-android) after the official Tor Browser for
 Android was released.
 
 #### Orbot
