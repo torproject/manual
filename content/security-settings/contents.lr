@@ -11,7 +11,7 @@ key: 11
 body:
 By default, Tor Browser protects your security by encrypting your browsing data.
 You can further increase your security by choosing to disable certain web features that can be used to attack your security and anonymity.
-You can do this by increasing Tor Browser's Security Settings in the shield menu.
+You can do this by increasing Tor Browser's Security Levels in the shield menu.
 Increasing Tor Browser's security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
 
 ### ACCESSING THE SECURITY SETTINGS
@@ -37,7 +37,7 @@ You can enable these settings again at any time by adjusting your Security Level
 
 * This level disables website features that are often dangerous. This may cause some sites to lose functionality.
 
-* JavaScript is disabled on all non-[HTTPS](/security-settings) sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
+* JavaScript is disabled on all non-[HTTPS](/secure-connections) sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
 
 ###### Safest
 
