@@ -17,7 +17,7 @@ Using bridges in combination with pluggable transports helps to disguise the fac
 
 Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
-## GETTING BRIDGE ADDRESSES
+### GETTING BRIDGE ADDRESSES
 
 Because bridge addresses are not public, you will need to request them yourself. You have a few options:
 
@@ -25,7 +25,7 @@ Because bridge addresses are not public, you will need to request them yourself.
  * Email bridges@torproject.org from a Gmail, or Riseup email address
  * Use MOAT to fetch bridges from within Tor Browser.
 
-## USING MOAT
+### USING MOAT
 
 If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window.
 Otherwise, click on 'Preferences' in the hamburger menu (main menu) and then on 'Tor' in the sidebar.
@@ -35,7 +35,7 @@ Then, select 'Request a bridge from torproject.org' and click 'Request a bridge.
 
 Complete the CAPTCHA and click 'Submit'. 
 
-## ENTERING BRIDGE ADDRESSES
+### ENTERING BRIDGE ADDRESSES
 
 <img class="col-md-6" align="right" hspace="5" src="../../static/images/tor-launcher-custom-bridges.png">
 

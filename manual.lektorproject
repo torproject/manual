@@ -21,7 +21,7 @@ url_prefix = /bn/
 locale = bn
 
 [alternatives.ca]
-name = Catala (ca)
+name = Català (ca)
 url_prefix = /ca/
 locale = ca
 
@@ -46,7 +46,7 @@ url_prefix = /es-AR/
 locale = es-AR
 
 [alternatives.fr]
-name = Français
+name = Français (fr)
 url_prefix = /fr/
 locale = fr
 
@@ -61,12 +61,12 @@ url_prefix = /he/
 locale = he
 
 [alternatives.id]
-name = Indonesia
+name = Indonesia (id)
 url_prefix = /id/
 locale = id
 
 [alternatives.it]
-name = Italia
+name = Italiano (it)
 url_prefix = /it/
 locale = it
 
@@ -76,9 +76,14 @@ url_prefix = /is/
 locale = is
 
 [alternatives.ka]
-name = Georgian (ka)
+name = ქართული ენა (ka)
 url_prefix = /ka/
 locale = ka
+
+[alternatives.lt]
+name = lietuvių (lt)
+url_prefix = /lt/
+locale = lt
 
 [alternatives.mk]
 name = Macedonian (mk)

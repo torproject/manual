@@ -13,7 +13,7 @@ body:
 When you run Tor Browser for the first time, you will see the Tor Network Settings window.
 This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
 
-##### CONNECT
+### CONNECT
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
@@ -21,7 +21,7 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 Once clicked, a status bar will appear, showing Tor’s connection progress.
 If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the [Troubleshooting](/troubleshooting) page for help solving the problem.
 
-##### CONFIGURE
+### CONFIGURE
 
 <img class="col-md-6" src="../../static/images/configure.png">
 

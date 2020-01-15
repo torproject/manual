@@ -13,7 +13,7 @@ You should be able to start browsing the web using Tor Browser shortly after run
 
 <img class="col-md-6" src="../../static/images/connect.png">
 
-##### QUICK FIXES
+### QUICK FIXES
 
 If Tor Browser doesn’t connect, there may be a simple solution. Try each of the following:
 
@@ -23,10 +23,10 @@ If Tor Browser doesn’t connect, there may be a simple solution. Try each of th
 * Temporarily disable your firewall.
 * Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
 
-##### IS YOUR CONNECTION CENSORED?
+### IS YOUR CONNECTION CENSORED?
 
 If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the [Circumvention](/circumvention) section for possible solutions.
 
-##### KNOWN ISSUES
+### KNOWN ISSUES
 
 Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the [Known Issues](/known-issues) page to see if the problem you are experiencing is already listed there.
