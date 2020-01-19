@@ -13,7 +13,7 @@ body:
 #### Tor Browser for Android
 Tor Browser for Android is the only official mobile browser supported and developed by the Tor Project.
 It is like the desktop Tor Browser, but for your Android mobile device.
-Some of the prime features of Tor Browser for Android include: blocking trackers, defending against surveillance, resisting browser fingerprinting, and circumventing censorship.
+Some of the prime features of Tor Browser for Android include: reducing tracking across websites, defending against surveillance, resisting browser fingerprinting, and circumventing censorship.
 
 #### Orfox
 Orfox was first released in 2015 by The Guardian Project, with the aim of giving Android users a way to browse the internet over Tor.
@@ -82,7 +82,7 @@ or to configure Tor Browser for your connection with the settings icon.
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-connect.png" alt="Connect to Tor Browser for Android">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
-Once clicked, some text will appear, showing Tor’s connection progress.
+Once clicked, changing sentences will appear at the bottom of the screen, indicating Tor’s connection progress.
 If you are on a relatively fast connection, but this text seems to get stuck at a certain point,
 see the [Troubleshooting](https://tb-manual.torproject.org/troubleshooting) page for help solving the problem.
 
@@ -167,9 +167,12 @@ On the next screen, select Tor Browser and finally click on the "Update" button.
 
 #### Updating Tor Browser for Android manually
 
+
+Visit the [Tor Project website](https://www.torproject.org/download/#android) and download a copy of the latest Tor Browser release, then [install](/mobile-tor/#downloading-and-installation) it as before. 
+In most cases, this latest version of Tor Browser will install over the older version, thereby upgrading the browser. 
+If doing this fails to update the browser, you may have to uninstall Tor Browser before reinstalling it. 
 With Tor Browser closed, remove it from your system by uninstalling it using your device's settings.
-Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and click on the "Uninstall" button.
-Afterwards, visit the [Tor Project website](https://www.torproject.org/download/#android) and download a copy of the latest Tor Browser release, then [install](/mobile-tor/#downloading-and-installation) it as before.
+Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and click on the "Uninstall" button. Afterwards,download the latest Tor Browser release and install it. 
 
 
 ### UNINSTALLING
