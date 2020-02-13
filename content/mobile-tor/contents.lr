@@ -15,20 +15,6 @@ Tor Browser for Android is the only official mobile browser supported and develo
 It is like the desktop Tor Browser, but for your Android mobile device.
 Some of the prime features of Tor Browser for Android include: reducing tracking across websites, defending against surveillance, resisting browser fingerprinting, and circumventing censorship.
 
-#### Orfox
-Orfox was first released in 2015 by The Guardian Project, with the aim of giving Android users a way to browse the internet over Tor.
-Over the next three years, Orfox continously improved and became a popular way for people to browse the internet with more privacy
-than standard browsers, and Orfox was crucial for helping people circumvent censorship and access blocked sites and critical resources.
-In 2019, [Orfox was sunsetted](https://blog.torproject.org/orfox-paved-way-tor-browser-android) after the official Tor Browser for
-Android was released.
-
-#### Orbot
-Orbot is a free proxy app that empowers other apps to use the Tor network.
-Orbot uses Tor to encrypt your Internet traffic. Then you can use it with other apps installed on your mobile device to
-circumvent censorship and protect against surveillance.
-Orbot can be downloaded and installed from [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android).
-Check out [our Support portal](https://support.torproject.org/tormobile/tormobile-6/) to know if you need both Tor Browser for Android and Orbot or either one.
-
 
 ### DOWNLOADING AND INSTALLATION
 
@@ -208,6 +194,20 @@ At the moment, there are some features which are not available in Tor Browser fo
 * Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://trac.torproject.org/projects/tor/ticket/31814)
 * You can't take screenshots while using Tor Browser for Android. [#27987](https://trac.torproject.org/projects/tor/ticket/27987)
 * You can't save images. [#31013](https://trac.torproject.org/projects/tor/ticket/31013)
+
+#### Orfox
+Orfox was first released in 2015 by The Guardian Project, with the aim of giving Android users a way to browse the internet over Tor.
+Over the next three years, Orfox continously improved and became a popular way for people to browse the internet with more privacy
+than standard browsers, and Orfox was crucial for helping people circumvent censorship and access blocked sites and critical resources.
+In 2019, [Orfox was sunsetted](https://blog.torproject.org/orfox-paved-way-tor-browser-android) after the official Tor Browser for
+Android was released.
+
+#### Orbot
+Orbot is a free proxy app that empowers other apps to use the Tor network.
+Orbot uses Tor to encrypt your Internet traffic. Then you can use it with other apps installed on your mobile device to
+circumvent censorship and protect against surveillance.
+Orbot can be downloaded and installed from [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android).
+Check out [our Support portal](https://support.torproject.org/tormobile/tormobile-6/) to know if you need both Tor Browser for Android and Orbot or either one.
 
 
 ### Tor Browser for iOS
