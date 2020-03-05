@@ -24,7 +24,7 @@ Just like any other website, you will need to know the address of an onion servi
 
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little green onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website with https and onion service, it will show an icon of a green onion and a padlock.
 
-### CLIENT AUTH
+##### CLIENT AUTH
 
 An authenticated onion service is an onion service that requires the client to provide an authentication token before accessing the service. As a Tor user, you may authenticate yourself from your torrc file or directly in the Tor Browser user interface. Either way, you will need access credentials from the onion service operator. 
 
