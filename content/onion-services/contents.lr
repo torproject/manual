@@ -36,7 +36,6 @@ When accessing an authenticated onion service, Tor Browser will show at the URL 
 
 <img class="col-md-6" src="../../static/images/client-auth-prompt.png" alt="Client Authorization">
 
-
 ##### TROUBLESHOOTING
 
 If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
