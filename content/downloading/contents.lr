@@ -16,20 +16,20 @@ Your connection to the site will be secured using [HTTPS](/secure-connections), 
 However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
 If this happens, you can use one of the alternative download methods listed below.
 
-##### MIRRORS
+### MIRRORS
 
-If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute](https://tor.calyxinstitute.org).
+If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org), [Calyx Institute](https://tor.calyxinstitute.org) or [CCC](https://tor.ccc.de).
 
-##### GETTOR
+### GETTOR
 
 GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-###### TO USE GETTOR VIA EMAIL:
+### TO USE GETTOR VIA EMAIL:
 
 Send an email to gettor@torproject.org, and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 
 GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
 
-###### TO USE GETTOR VIA JABBER/XMPP (JITSI, COYIM, ETC.):
+### TO USE GETTOR VIA JABBER/XMPP (JITSI, COYIM, ETC.):
 
 To get links for downloading Tor Browser in Chinese for Linux, send a message to gettor@torproject.org with the words "linux zh" in it.

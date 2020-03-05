@@ -10,28 +10,58 @@ key: 6
 ---
 body:
 
-Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government. Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”. See the [Pluggable Transports](/en-US/transports) page for more information on the types of transport that are currently available.
+Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government.
+Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”.
 
-Tor Browser currently has four pluggable transport options to choose from.
+### TYPES OF PLUGGABLE TRANSPORT
 
-##### USING PLUGGABLE TRANSPORTS
+Currently there are three pluggable transports available, but more are being developed.
 
-<img class="col-md-6" src="../../static/images/configure.png">
+<table class="table table-striped">
+<tbody>
+<tr class="odd">
+<td>
+    obfs4
+</td>
+<td>
+    obfs4 makes Tor traffic look random, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than its predecessor, obfs3 bridges.
+</td>
+</tr>
+<tr class="odd">
+<td>
+meek
+</td>
+<td>
+    meek transports all make it look like you are browsing a major web site instead of using Tor. meek-azure makes it look like you are using a Microsoft web site.
+</td>
+</tr>
+<tr class="even">
+<td>
+    Snowflake
+</td>
+<td>
+    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+</td>
+</tr>
+</tbody>
+</table>
 
-To use pluggable transports, click 'Configure' in the Tor Launcher window that appears when you first run Tor Browser.
 
-You can also configure pluggable transports while Tor Browser is running by clicking on the onion icon to the left of the address bar, then selecting 'Tor Network Settings'.
+### USING PLUGGABLE TRANSPORTS
 
-Select 'Tor is censored in my country,' then click 'Select a built-in bridge.' Click on the drop-down menu and select the pluggable transport you'd like to use.
+To use a pluggable transport, click 'Configure' when starting Tor Browser for the first time. In the window that appears, from the drop-down menu, select whichever pluggable transport you'd like to use.
 
-<img class="col-md-6" src="../../static/images/bridges.png">
+Or, if you have Tor Browser running, click on 'Preferences' in the hamburger menu and then on 'Tor' in the sidebar. In 'Bridges' section, check the box 'Use a bridge', and from the drop-down menu 'Select a built-in bridge', choose whichever pluggable transport you'd like to use.
 
-Click 'OK' to save your settings.
+Once you've selected the pluggable transport you'd like to use, click 'Connect' to save your settings.
 
-##### WHICH TRANSPORT SHOULD I USE?
 
-Each of the transports listed in Tor Launcher’s menu works in a different way (for more details, see the [Pluggable Transports](/en-US/transports) page), and their effectiveness depends on your individual circumstances.
+### WHICH TRANSPORT SHOULD I USE?
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, fte, and meek-azure.
+Each of the transports listed in Tor Launcher’s menu works in a different way, and their effectiveness depends on your individual circumstances.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually. Read the [Bridges](/en-US/bridges/) section to learn what bridges are and how to obtain them.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, snowflake, and meek-azure.
+
+If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually.
+
+Read the [Bridges](/en-US/bridges/) section to learn what bridges are and how to obtain them.
