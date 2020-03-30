@@ -25,12 +25,16 @@ If you are on a relatively fast connection, but this bar seems to get stuck at a
 
 <img class="col-md-6" src="../../static/images/configure.png">
 
-If you know that your connection is censored, or uses a proxy, you should select this option. Tor Browser will take you through a series of configuration options.
-
-The first screen asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, select “No”. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select “Yes”. You will then be taken to the [Circumvention](/circumvention) screen to configure a pluggable transport.
-
-The next screen asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to answer “Yes”, as the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Continue”.
+If you know that your connection is censored or uses a proxy, you should select this option.
 
 <img class="col-md-6" src="../../static/images/proxy_question.png">
 
+Tor Browser will take you through a series of configuration options.
+
+<img class="col-md-6" src="../../static/images/pluggable-transport.png">
+
+The first checkbox asks if access to the Tor network is blocked or censored on your connection. If you do not believe this is the case, leave this unchecked. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, check the checkbox. This will display the [Circumvention](/circumvention) section to configure a pluggable transport.
+
 <img class="col-md-6" src="../../static/images/proxy.png">
+
+The second checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to check this checkbox because the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Connect”.
