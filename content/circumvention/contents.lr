@@ -32,7 +32,7 @@ Currently there are three pluggable transports available, but more are being dev
 meek
 </td>
 <td>
-    meek transports all make it look like you are browsing a major web site instead of using Tor. meek-azure makes it look like you are using a Microsoft web site.
+    meek transports make it look like you are browsing a major web site instead of using Tor. meek-azure makes it look like you are using a Microsoft web site.
 </td>
 </tr>
 <tr class="even">
@@ -49,19 +49,17 @@ meek
 
 ### USING PLUGGABLE TRANSPORTS
 
-To use a pluggable transport, click 'Configure' when starting Tor Browser for the first time. In the window that appears, from the drop-down menu, select whichever pluggable transport you'd like to use.
+To use a pluggable transport, click "Configure" when starting Tor Browser for the first time. After checking the checkbox "Tor is censored in my country," choose "Select a built-in bridge" option. From the dropdown, select whichever pluggable transport you'd like to use. Once you've selected the pluggable transport, click "Connect" to save your settings.
 
-Or, if you have Tor Browser running, click on 'Preferences' in the hamburger menu and then on 'Tor' in the sidebar. In 'Bridges' section, check the box 'Use a bridge', and from the drop-down menu 'Select a built-in bridge', choose whichever pluggable transport you'd like to use.
-
-Once you've selected the pluggable transport you'd like to use, click 'Connect' to save your settings.
+Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar. In the "Bridges" section, check the checkbox "Use a bridge", and from the dropdown "Select a built-in bridge", choose whichever pluggable transport you'd like to use. Your setting will automatically be saved once you close the tab.
 
 
 ### WHICH TRANSPORT SHOULD I USE?
 
 Each of the transports listed in Tor Launcher’s menu works in a different way, and their effectiveness depends on your individual circumstances.
 
-If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, snowflake, and meek-azure.
+If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, snowflake, or meek-azure.
 
-If you try all of these options, and none of them gets you online, you will need to enter bridge addresses manually.
+If you try all of these options and none of them gets you online, you can choose "Request a bridge from torproject.org" for BridgeDB to provide a bridge or "Provide a bridge I know" to manually enter bridge addresses.
 
 Read the [Bridges](/en-US/bridges/) section to learn what bridges are and how to obtain them.
