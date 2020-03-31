@@ -60,6 +60,6 @@ Each of the transports listed in Tor Launcher’s menu works in a different way,
 
 If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, snowflake, or meek-azure.
 
-If you try all of these options, and none of them gets you online, you will need to request a bridge or to manually enter bridge addresses.
+If you try all of these options, and none of them gets you online, you will need to request a bridge or manually enter bridge addresses.
 
 Read the [Bridges](/en-US/bridges/) section to learn what bridges are and how to obtain them.
