@@ -15,7 +15,7 @@
       <ul class="nav nav-pills flex-column">
 	{% set topicbag = 'topics' %}
 	{% for id, item in bag(topicbag).items() %}
-	<li{% if this.is_child_of(item.path) %} class="nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
+	<li{% if this.is_child_of(item.path) %} class="toc-entry toc-h2 active nav-item" {% else %} class="toc-entry toc-h2 nav-item"{% endif %}>
     {% if this.alt != "en" %}
     {% set p = '/' + this.alt + '/' + item.path %}
     {% else %}
