@@ -10,7 +10,7 @@ key: 15
 ---
 body:
 
-#### Tor Browser for Android
+### Tor Browser for Android
 Tor Browser for Android is the only official mobile browser supported and developed by the Tor Project.
 It is like the desktop Tor Browser, but for your Android mobile device.
 Some of the prime features of Tor Browser for Android include: reducing tracking across websites, defending against surveillance, resisting browser fingerprinting, and circumventing censorship.
@@ -194,6 +194,8 @@ At the moment, there are some features which are not available in Tor Browser fo
 * Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://trac.torproject.org/projects/tor/ticket/31814)
 * You can't take screenshots while using Tor Browser for Android. [#27987](https://trac.torproject.org/projects/tor/ticket/27987)
 * You can't save images. [#31013](https://trac.torproject.org/projects/tor/ticket/31013)
+
+### More about Tor on mobile devices
 
 #### Orfox
 Orfox was first released in 2015 by The Guardian Project, with the aim of giving Android users a way to browse the internet over Tor.
