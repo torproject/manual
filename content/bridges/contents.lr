@@ -27,13 +27,11 @@ Because bridge addresses are not public, you will need to request them yourself.
 
 ### USING MOAT
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window.
-Otherwise, click on 'Preferences' in the hamburger menu (main menu) and then on 'Tor' in the sidebar.
+<img class="col-md-6" align="right" hspace="5" src="../../static/images/request-a-bridge.png">
 
-In the Tor Network Settings window, select 'Tor is censored in my country.'
-Then, select 'Request a bridge from torproject.org' and click 'Request a bridge...'
+If you're starting Tor Browser for the first time, click "Configure" to open the Tor Network Settings window. After checking the checkbox "Tor is censored in my country," choose "Request a bridge from torproject.org" and click "Request a Bridge..." for BridgeDB to provide a bridge. Complete the CAPTCHA and click "Submit." Click "Connect" to save your settings.
 
-Complete the CAPTCHA and click 'Submit'. 
+Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar. In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Request a bridge from torproject.org," click "Request a New Bridge..." for BridgeDB to provide a bridge. Complete the CAPTCHA and click "Submit." Your setting will automatically be saved once you close the tab.
 
 ### ENTERING BRIDGE ADDRESSES
 
@@ -41,8 +39,8 @@ Complete the CAPTCHA and click 'Submit'.
 
 Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
-If you're starting Tor Browser for the first time, click 'Configure' to open the Tor Network Settings window. Otherwise, click on 'Preferences' in the hamburger menu (main menu) and then on 'Tor' in the sidebar to access these options.
+If you're starting Tor Browser for the first time, click "Configure" to open the Tor Network Settings window. After checking the checkbox "Tor is censored in my country," choose "Provide a bridge I know" and enter each bridge address on a separate line. Click "Connect" to save your settings.
 
-In 'Bridges' section, check the box 'Use a bridge', then, select 'Provide a bridge I know' and enter each bridge address on a separate line.
+Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar. In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Provide a bridge I know," enter each bridge address on a separate line. Your setting will automatically be saved once you close the tab.
 
 If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
