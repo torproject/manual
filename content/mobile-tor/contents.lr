@@ -60,8 +60,7 @@ You can also get Tor Browser for Android by downloading and installing the apk f
 
 ### RUNNING TOR BROWSER FOR ANDROID FOR THE FIRST TIME
 
-When you run Tor Browser for the first time, you will see the  option to connect directly to the Tor network,
-or to configure Tor Browser for your connection with the settings icon.
+When you run Tor Browser for the first time, you will see the  option to connect directly to the Tor network, or to configure Tor Browser for your connection with the settings icon.
 
 #### Connect
 
@@ -69,8 +68,7 @@ or to configure Tor Browser for your connection with the settings icon.
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
 Once clicked, changing sentences will appear at the bottom of the screen, indicating Tor’s connection progress.
-If you are on a relatively fast connection, but this text seems to get stuck at a certain point,
-see the [Troubleshooting](https://tb-manual.torproject.org/troubleshooting) page for help solving the problem.
+If you are on a relatively fast connection, but this text seems to get stuck at a certain point, see the [Troubleshooting](https://tb-manual.torproject.org/troubleshooting) page for help solving the problem.
 
 #### Configure
 
@@ -79,8 +77,8 @@ see the [Troubleshooting](https://tb-manual.torproject.org/troubleshooting) page
 If you know that your connection is censored, you should select the settings icon.
 Tor Browser will take you through a series of configuration options.
 The first screen asks if access to the Tor network is blocked or censored on your connection.
-If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked,
-click the switch. You will then be taken to the [Circumvention](/mobile-tor/#circumvention) screen to configure a pluggable transport.
+If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, click the switch.
+You will then be taken to the [Circumvention](/mobile-tor/#circumvention) screen to configure a pluggable transport.
 
 ### CIRCUMVENTION
 
@@ -154,11 +152,11 @@ On the next screen, select Tor Browser and finally click on the "Update" button.
 #### Updating Tor Browser for Android manually
 
 
-Visit the [Tor Project website](https://www.torproject.org/download/#android) and download a copy of the latest Tor Browser release, then [install](/mobile-tor/#downloading-and-installation) it as before. 
-In most cases, this latest version of Tor Browser will install over the older version, thereby upgrading the browser. 
-If doing this fails to update the browser, you may have to uninstall Tor Browser before reinstalling it. 
+Visit the [Tor Project website](https://www.torproject.org/download/#android) and download a copy of the latest Tor Browser release, then [install](/mobile-tor/#downloading-and-installation) it as before.
+In most cases, this latest version of Tor Browser will install over the older version, thereby upgrading the browser.
+If doing this fails to update the browser, you may have to uninstall Tor Browser before reinstalling it.
 With Tor Browser closed, remove it from your system by uninstalling it using your device's settings.
-Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and click on the "Uninstall" button. Afterwards,download the latest Tor Browser release and install it. 
+Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and click on the "Uninstall" button. Afterwards,download the latest Tor Browser release and install it.
 
 
 ### UNINSTALLING
@@ -215,8 +213,7 @@ Check out [our Support portal](https://support.torproject.org/tormobile/tormobil
 ### Tor Browser for iOS
 There is no Tor Browser for iOS.
 We recommend an iOS app called Onion Browser, which is open source, uses Tor routing, and is developed by someone who works closely with the Tor Project.
-However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser
-from having the same privacy protections as Tor Browser.
+However, Apple requires browsers on iOS to use something called Webkit, which prevents Onion Browser from having the same privacy protections as Tor Browser.
 
 [Learn more about Onion Browser](https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor).
 Download Onion Browser from the [App Store](https://itunes.apple.com/us/app/onion-browser/id519296448).
@@ -224,4 +221,3 @@ Download Onion Browser from the [App Store](https://itunes.apple.com/us/app/onio
 
 ### Tor Browser for Windows Phone
 There is currently no supported method for running Tor on Windows Phone.
-
