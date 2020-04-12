@@ -68,7 +68,7 @@ When you run Tor Browser for the first time, you will see the  option to connect
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
 Once clicked, changing sentences will appear at the bottom of the screen, indicating Tor’s connection progress.
-If you are on a relatively fast connection, but this text seems to get stuck at a certain point, see the [Troubleshooting](https://tb-manual.torproject.org/troubleshooting) page for help solving the problem.
+If you are on a relatively fast connection, but this text seems to get stuck at a certain point, see the [Troubleshooting](../troubleshooting) page for help solving the problem.
 
 #### Configure
 
@@ -78,7 +78,7 @@ If you know that your connection is censored, you should select the settings ico
 Tor Browser will take you through a series of configuration options.
 The first screen asks if access to the Tor network is blocked or censored on your connection.
 If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, click the switch.
-You will then be taken to the [Circumvention](/mobile-tor/#circumvention) screen to configure a pluggable transport.
+You will then be taken to the [Circumvention](../circumvention) screen to configure a pluggable transport.
 
 ### CIRCUMVENTION
 
@@ -97,7 +97,7 @@ With the "Select a bridge" option, you will have two options: "obfs4" and "meek-
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-selected-a-bridge.png" alt="Selected a bridge on Tor Browser for Android">
 
-If you choose the "Provide a Bridge I know" option, then you have to enter a [bridge address](https://tb-manual.torproject.org/bridges/).
+If you choose the "Provide a Bridge I know" option, then you have to enter a [bridge address](../bridges/).
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-provide-a-bridge.png" alt="Provide a bridge on Tor Browser for Android">
 
@@ -119,7 +119,7 @@ Selecting it will only change your Tor circuit.
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-security-settings.gif" alt="Security settings and security slider on Tor Browser for Android">
 
-[Security settings](https://tb-manual.torproject.org/security-settings/) disable certain web features that can be used to attack your security and anonymity.
+[Security settings](../security-settings/) disable certain web features that can be used to attack your security and anonymity.
 Tor Browser for Android provides the same three security levels that are available on desktop.
 You can modify the security level by following given steps:
 
