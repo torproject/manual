@@ -49,9 +49,14 @@ meek
 
 ### USING PLUGGABLE TRANSPORTS
 
-To use a pluggable transport, click "Configure" when starting Tor Browser for the first time. After checking the checkbox "Tor is censored in my country," choose the "Select a built-in bridge" option. From the dropdown, select whichever pluggable transport you'd like to use. Once you've selected the pluggable transport, click "Connect" to save your settings.
+To use a pluggable transport, click "Configure" when starting Tor Browser for the first time.
+After checking the checkbox "Tor is censored in my country," choose the "Select a built-in bridge" option.
+From the dropdown, select whichever pluggable transport you'd like to use.
+Once you've selected the pluggable transport, click "Connect" to save your settings.
 
-Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar. In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Select a built-in bridge," choose whichever pluggable transport you'd like to use from the dropdown. Your setting will automatically be saved once you close the tab.
+Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar.
+In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Select a built-in bridge," choose whichever pluggable transport you'd like to use from the dropdown.
+Your settings will automatically be saved once you close the tab.
 
 
 ### WHICH TRANSPORT SHOULD I USE?
@@ -62,4 +67,4 @@ If you are trying to circumvent a blocked connection for the first time, you sho
 
 If you try all of these options, and none of them gets you online, you will need to request a bridge or manually enter bridge addresses.
 
-Read the [Bridges](/en-US/bridges/) section to learn what bridges are and how to obtain them.
+Read the [Bridges](../bridges/) section to learn what bridges are and how to obtain them.

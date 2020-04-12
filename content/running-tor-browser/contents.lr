@@ -40,4 +40,6 @@ This will display the [Circumvention](../circumvention) section to configure a p
 
 <img class="col-md-6" src="../../static/images/proxy.png">
 
-The second checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to check this checkbox because the same settings will be used for other browsers on your system. If possible, ask your network administrator for guidance. If your connection does not use a proxy, click “Connect”.
+The second checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to check this checkbox because the same settings will be used for other browsers on your system.
+If possible, ask your network administrator for guidance.
+If your connection does not use a proxy, click “Connect”.
