@@ -22,7 +22,7 @@
     </div>
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
-	{% include 'sidenav.html' %}
+	      {% if this.title != "Tor Browser User Manual" %} {% include 'sidenav.html' %} {% endif %}
         <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 {{ bag('alternatives', this.alt, 'order') }}">
           {% block body %}{% endblock %}
         </main>
