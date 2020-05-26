@@ -30,6 +30,16 @@ Click on hamburger menu (≡), go to Preferences (or Options in Windows), click 
 Or if you're already running Tor Browser, you can click directly here: [Privacy & Security](about:preferences#privacy).
 When accessing a website that uses an onion service, Tor Browser will show at the URL bar an icon of a little black onion displaying the state of your connection: secure and using an onion service. And if you're accessing a website using https and onion service, it will show an icon of a black onion and the organization's name. You can learn more about the onionsite you are visiting by looking at the Circuit Display.
 
+## Onion service authentication
+
+An authenticated onion service is a service like an onionsite that requires the client to provide an authentication token before accessing the service.
+As a Tor user, you may authenticate yourself directly in the Tor Browser.
+In order to access this service, you will need access credentials from the onion service operator.
+When accessing an authenticated onion service, Tor Browser will show at the URL bar an icon of a little gray key, accompanied by a tooltip.
+Enter your valid private key into the input field.
+
+<img class="col-md-6" src="../../static/images/client-auth-prompt.png" alt="Client Authorization">
+
 ### TROUBLESHOOTING
 
 If you cannot reach the onion service you require, make sure that you have entered the onion address correctly: even a small mistake will stop Tor Browser from being able to reach the site.
