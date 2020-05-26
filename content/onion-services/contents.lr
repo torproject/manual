@@ -38,7 +38,7 @@ In order to access this service, you will need access credentials from the onion
 When accessing an authenticated onion service, Tor Browser will show at the URL bar an icon of a little gray key, accompanied by a tooltip.
 Enter your valid private key into the input field.
 
-<img class="col-md-6" src="../../static/images/client-auth-prompt.png" alt="Client Authorization">
+<img class="col-md-6" src="../../static/images/client-auth.png" alt="Client Authorization">
 
 ### TROUBLESHOOTING
 
