@@ -22,22 +22,22 @@ Onion services offer several advantages over ordinary services on the non-privat
 
 Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 16 (and in V3 format, 56) mostly random letters and numbers, followed by ".onion".
 
-When accessing a website that uses an onion service, Tor Browser will show in the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service. You can learn more about the onionsite that you are visiting by looking at the Circuit Display.
+When accessing a website that uses an onion service, Tor Browser will show in the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service. You can learn more about the onion site that you are visiting by looking at the Circuit Display.
 
-Another way to learn about an onionsite is if the website administrator has implemented a feature called Onion-Location.
+Another way to learn about an onion site is if the website administrator has implemented a feature called Onion-Location.
 Onion-Location is a non-standard HTTP header that websites can use to advertise their onion counterpart.
-If the website that you are visiting has an onionsite available, a purple suggestion pill will prompt at the URL bar in Tor Browser displaying ".onion available".
+If the website that you are visiting has an onion site available, a purple suggestion pill will prompt at the URL bar in Tor Browser displaying ".onion available".
 When you click on ".onion available", the website will be reloaded and redirected to its onion counterpart.
 
 <img class="col-md-6" src="../../static/images/onion-location.png" alt="Onion-Location">
 
-To prioritize an onionsite version of a website, you can enable automatic Onion-Location redirects.
+To prioritize an onion site version of a website, you can enable automatic Onion-Location redirects.
 Click on hamburger menu (≡), go to Preferences (or Options on Windows), click on Privacy & Security, and in the Onion Services section look for the entry "Prioritize .onion sites when known." and check the option "Always".
 Or, if you're already running Tor Browser, you can copy and paste this string in a new tab: `about:preferences#privacy` and change this setting.
 
 ## ONION SERVICE AUTHENTICATION
 
-An authenticated onion service is a service like an onionsite that requires the client to provide an authentication token before accessing the service.
+An authenticated onion service is a service like an onion site that requires the client to provide an authentication token before accessing the service.
 As a Tor user, you may authenticate yourself directly in the Tor Browser.
 In order to access this service, you will need access credentials from the onion service operator.
 When accessing an authenticated onion service, Tor Browser will show in the URL bar an icon of a little gray key, accompanied by a tooltip.
@@ -47,21 +47,21 @@ Enter your valid private key into the input field.
 
 ### ONION SERVICES ERRORS
 
-If you can't connect to an onionsite, Tor Browser will provide a specific error message informing why the website is unavailable. 
+If you can't connect to an onion site, Tor Browser will provide a specific error message informing why the website is unavailable. 
 Errors can happen in different layers: client errors, network errors or service errors.
 Some of these errors can be fixed by following the Troubleshooting section.
 The table below shows all the possible errors and which action you should take to solve the issue.
 
 | **Code** | **Error Title** | **Short Description** |
 |----------|-----------------|-----------------------|
-| XF0 | Onionsite Not Found | The most likely cause is that the onionsite is offline or disabled. Contact the onionsite administrator. |
-| XF1 | Onionsite Cannot Be Reached | The onionsite is unreachable due to an internal error. |
-| XF2 | Onionsite Has Disconnected | The most likely cause is that the onionsite is offline or disabled. Contact the onionsite administrator. |
-| XF3 | Unable to Connect to Onionsite | The onionsite is busy or the Tor network is overloaded. Try again later. |
-| XF4 | Onionsite Requires Authentication | Access to the onionsite requires a key but none was provided. |
-| XF5 | Onionsite Authentication Failed | The provided key is incorrect or has been revoked. Contact the onionsite administrator. |
-| XF6 | Invalid Onionsite Address | The provided onionsite address is invalid. Please check that you entered it correctly. |
-| XF7 | Onionsite Circuit Creation Timed Out | Failed to connect to the onionsite, possibly due to a poor network connection. |
+| XF0 | Onion site Not Found | The most likely cause is that the onion site is offline or disabled. Contact the onion site administrator. |
+| XF1 | Onion site Cannot Be Reached | The onion site is unreachable due to an internal error. |
+| XF2 | Onion site Has Disconnected | The most likely cause is that the onion site is offline or disabled. Contact the onion site administrator. |
+| XF3 | Unable to Connect to Onionsite | The onion site is busy or the Tor network is overloaded. Try again later. |
+| XF4 | Onion site Requires Authentication | Access to the onion site requires a key but none was provided. |
+| XF5 | Onion site Authentication Failed | The provided key is incorrect or has been revoked. Contact the onion site administrator. |
+| XF6 | Invalid Onionsite Address | The provided onion site address is invalid. Please check that you entered it correctly. |
+| XF7 | Onion site Circuit Creation Timed Out | Failed to connect to the onion site, possibly due to a poor network connection. |
 
 ### TROUBLESHOOTING
 
