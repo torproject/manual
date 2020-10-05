@@ -47,7 +47,7 @@ If you're starting Tor Browser for the first time, click "Configure" to open the
 After checking the checkbox "Tor is censored in my country," choose "Provide a bridge I know" and enter each bridge address on a separate line.
 Click "Connect" to save your settings.
 
-Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar.
+Or, if you have Tor Browser running, click on "Options" in the hamburger menu and then on "Tor" in the sidebar.
 In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Provide a bridge I know," enter each bridge address on a separate line.
 Your settings will automatically be saved once you close the tab.
 
