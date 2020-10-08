@@ -20,7 +20,7 @@ Tor Browser centers your web experience around your relationship with the websit
 
 On the other hand, all connections to a single website address will be made over the same Tor circuit, meaning you can browse different pages of a single website in separate tabs or windows, without any loss of functionality.
 
-<img class="col-md-6" align="right" hspace="5" src="../../static/images/site_icon.png">
+<img class="col-md-6" align="right" hspace="5" src="../../static/images/circuit_full2.png">
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
