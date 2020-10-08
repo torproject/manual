@@ -54,7 +54,7 @@ After checking the checkbox "Tor is censored in my country," choose the "Select 
 From the dropdown, select whichever pluggable transport you'd like to use.
 Once you've selected the pluggable transport, click "Connect" to save your settings.
 
-Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar.
+Or, if you have Tor Browser running, click on "Preferences (or Options on Windows)" in the hamburger menu (≡) and then on "Tor" in the sidebar.
 In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Select a built-in bridge," choose whichever pluggable transport you'd like to use from the dropdown.
 Your settings will automatically be saved once you close the tab.
 
