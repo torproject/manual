@@ -1,0 +1,1 @@
+This folder will store all the screenshots that i will be using to update the documentation. The old file path for the images https://github.com/torproject/manual/blob/master/static/images/ seems to have been deleted. The page cannot be found.
