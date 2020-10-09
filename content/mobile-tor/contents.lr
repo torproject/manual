@@ -67,7 +67,7 @@ When you run Tor Browser for the first time, you will see the  option to connect
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-connect.png" alt="Connect to Tor Browser for Android">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
-Once clicked, changing sentences will appear at the bottom of the screen, indicating Tor’s connection progress.
+Once tapped, changing sentences will appear at the bottom of the screen, indicating Tor’s connection progress.
 If you are on a relatively fast connection, but this text seems to get stuck at a certain point, see the [Troubleshooting](../troubleshooting) page for help solving the problem.
 
 #### Configure
@@ -77,7 +77,7 @@ If you are on a relatively fast connection, but this text seems to get stuck at 
 If you know that your connection is censored, you should select the settings icon.
 Tor Browser will take you through a series of configuration options.
 The first screen asks if access to the Tor network is blocked or censored on your connection.
-If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, click the switch.
+If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, tap the switch.
 You will then be taken to the [Circumvention](../circumvention) screen to configure a pluggable transport.
 
 ### CIRCUMVENTION
@@ -85,8 +85,8 @@ You will then be taken to the [Circumvention](../circumvention) screen to config
 Bridge relays are Tor relays that are not listed in the public Tor directory.
 Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
 
-To use a pluggable transport, click on the settings icon when starting Tor Browser for the first time.
-The first screen asks if access to the Tor network is censored on your connection. Click on the switch to toggle it.
+To use a pluggable transport, tap on the settings icon when starting Tor Browser for the first time.
+The first screen asks if access to the Tor network is censored on your connection. tap on the switch to toggle it.
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android">
 
@@ -111,7 +111,7 @@ If you choose the "Provide a Bridge I know" option, then you have to enter a [br
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-new-identity.png" alt="New Identity on Tor Browser for Android">
 
 When Tor Browser is running, you would see so in your phone's notification panel along with the button "NEW IDENTITY".
-Clicking on this button will provide you with a new identity.
+Tapping on this button will provide you with a new identity.
 Unlike in Tor Browser for Desktop, the "NEW IDENTITY" button in Tor Browser for Android does not prevent your subsequent browser activity from being linkable to what you were doing before.
 Selecting it will only change your Tor circuit.
 
@@ -139,15 +139,15 @@ This method assumes that you have either Google Play or F-droid installed on you
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-google-play.png" alt="Updating Tor Browser for Android on Google Play">
 
-Click on the hamburger menu next to the search bar and navigate to "My apps & games" > "Updates".
-If you find Tor Browser on the list of apps which need updating, select it and click the "Update" button.
+Tap on the hamburger menu (≡) next to the search bar and navigate to "My apps & games" > "Updates".
+If you find Tor Browser on the list of apps which need updating, select it and tap the "Update" button.
 
 ##### F-Droid
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png" alt="Updating Tor Browser for Android on F-droid">
 
-Click on "Settings", then go to "Manage installed apps".
-On the next screen, select Tor Browser and finally click on the "Update" button.
+Tap on "Settings", then go to "Manage installed apps".
+On the next screen, select Tor Browser and finally tap on the "Update" button.
 
 #### Updating Tor Browser for Android manually
 
@@ -156,7 +156,7 @@ Visit the [Tor Project website](https://www.torproject.org/download/#android) an
 In most cases, this latest version of Tor Browser will install over the older version, thereby upgrading the browser.
 If doing this fails to update the browser, you may have to uninstall Tor Browser before reinstalling it.
 With Tor Browser closed, remove it from your system by uninstalling it using your device's settings.
-Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and click on the "Uninstall" button. Afterwards,download the latest Tor Browser release and install it.
+Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and tap on the "Uninstall" button. Afterwards,download the latest Tor Browser release and install it.
 
 
 ### UNINSTALLING
@@ -166,21 +166,21 @@ Tor Browser for Android can be uninstalled directly from F-droid, Google Play or
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-google-play.png" alt="Uninstalling Tor Browser for Android on Google Play">
 
-Click on the hamburger menu next to the search bar and navigate to "My apps & games" > "Installed".
+Tap on the hamburger menu (≡) next to the search bar and navigate to "My apps & games" > "Installed".
 Select Tor Browser from the list of installed apps, then press the "Uninstall" button.
 
 #### F-Droid
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-f-droid.png" alt="Uninstalling Tor Browser for Android on F-droid">
 
-Click on "Settings", then go to "Manage installed apps".
-On the next screen, select Tor Browser and finally click on the "Uninstall" button.
+Tap on "Settings", then go to "Manage installed apps".
+On the next screen, select Tor Browser and finally tap on the "Uninstall" button.
 
 #### Mobile device app settings
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-device-settings.png" alt="Uninstalling Tor Browser for Android using device app settings">
 
-Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and click on the "Uninstall" button.
+Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and tap on the "Uninstall" button.
 
 ### KNOWN ISSUES
 
