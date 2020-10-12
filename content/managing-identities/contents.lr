@@ -41,7 +41,7 @@ When you log in to a website over Tor, there are several points you should bear 
 
 <img class="col-md-6" src="../../static/images/new_identity.png">
 
-Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. There are also located in the main menu (hamburger menu).
+Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. They are also located in the hamburger or main menu (≡).
 
 ### NEW IDENTITY
 
