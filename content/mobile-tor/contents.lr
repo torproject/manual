@@ -20,7 +20,7 @@ Some of the prime features of Tor Browser for Android include: reducing tracking
 
 There exists Tor Browser for Android and Tor Browser for Android (alpha).
 Non-technical users should get Tor Browser for Android, as this is stable and less prone to errors.
-Tor Browser for Android is available on Play Store, F-droid and the Tor Project website.
+Tor Browser for Android is available on Play Store, F-Droid and the Tor Project website.
 It is very risky to download Tor Browser outside of these three platforms.
 
 #### Google Play
@@ -31,7 +31,7 @@ You can install Tor Browser for Android from [Google Play Store](https://play.go
 The Guardian Project provides Tor Browser for Android on their F-Droid repository.
 If you would prefer installing the app from F-Droid, please follow these steps:
 
-1. Install the F-Droid app on your Android device from [the F-droid website.](https://f-droid.org/)
+1. Install the F-Droid app on your Android device from [the F-Droid website.](https://f-droid.org/)
 
 2. After installing F-Droid, open the app.
 
@@ -133,7 +133,7 @@ Tor Browser must be kept updated at all times. If you continue to use an outdate
 You can update Tor Browser automatically or manually.
 
 #### Updating Tor Browser for Android automatically
-This method assumes that you have either Google Play or F-droid installed on your mobile device.
+This method assumes that you have either Google Play or F-Droid installed on your mobile device.
 
 ##### Google Play
 
@@ -144,7 +144,7 @@ If you find Tor Browser on the list of apps which need updating, select it and t
 
 ##### F-Droid
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png" alt="Updating Tor Browser for Android on F-droid">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png" alt="Updating Tor Browser for Android on F-Droid">
 
 Tap on "Settings", then go to "Manage installed apps".
 On the next screen, select Tor Browser and finally tap on the "Update" button.
@@ -160,7 +160,7 @@ Depending on your mobile device's brand, navigate to Settings > Apps, then selec
 
 
 ### UNINSTALLING
-Tor Browser for Android can be uninstalled directly from F-droid, Google Play or from your mobile device's app settings.
+Tor Browser for Android can be uninstalled directly from F-Droid, Google Play or from your mobile device's app settings.
 
 #### Google Play
 
@@ -171,7 +171,7 @@ Select Tor Browser from the list of installed apps, then press the "Uninstall" b
 
 #### F-Droid
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-f-droid.png" alt="Uninstalling Tor Browser for Android on F-droid">
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-f-droid.png" alt="Uninstalling Tor Browser for Android on F-Droid">
 
 Tap on "Settings", then go to "Manage installed apps".
 On the next screen, select Tor Browser and finally tap on the "Uninstall" button.
