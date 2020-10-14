@@ -11,7 +11,7 @@ key: 12
 body:
 Tor Browser must be kept updated at all times. If you continue to use an outdated version of the software, you may be vulnerable to serious security flaws that compromise your privacy and anonymity.
 
-Tor Browser will prompt you to update the software once a new version has been released: the Torbutton icon will display a yellow triangle, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
+Tor Browser will prompt you to update the software once a new version has been released: the hamburger menu (main menu) will display a green circle with an upwards facing arrow in it, and you may see a written update indicator when Tor Browser opens. You can update either automatically or manually.
 
 ### UPDATING TOR BROWSER AUTOMATICALLY
 
