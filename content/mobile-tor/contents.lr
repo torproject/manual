@@ -156,7 +156,7 @@ Visit the [Tor Project website](https://www.torproject.org/download/#android) an
 In most cases, this latest version of Tor Browser will install over the older version, thereby upgrading the browser.
 If doing this fails to update the browser, you may have to uninstall Tor Browser before reinstalling it.
 With Tor Browser closed, remove it from your system by uninstalling it using your device's settings.
-Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and tap on the "Uninstall" button. Afterwards,download the latest Tor Browser release and install it.
+Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and tap on the "Uninstall" button. Afterwards, download the latest Tor Browser release and install it.
 
 
 ### UNINSTALLING
