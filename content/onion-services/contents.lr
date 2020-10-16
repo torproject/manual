@@ -57,10 +57,10 @@ The table below shows all the possible errors and which action you should take t
 | XF0 | Onion site Not Found | The most likely cause is that the onion site is offline or disabled. Contact the onion site administrator. |
 | XF1 | Onion site Cannot Be Reached | The onion site is unreachable due to an internal error. |
 | XF2 | Onion site Has Disconnected | The most likely cause is that the onion site is offline or disabled. Contact the onion site administrator. |
-| XF3 | Unable to Connect to Onionsite | The onion site is busy or the Tor network is overloaded. Try again later. |
+| XF3 | Unable to Connect to Onion site | The onion site is busy or the Tor network is overloaded. Try again later. |
 | XF4 | Onion site Requires Authentication | Access to the onion site requires a key but none was provided. |
 | XF5 | Onion site Authentication Failed | The provided key is incorrect or has been revoked. Contact the onion site administrator. |
-| XF6 | Invalid Onionsite Address | The provided onion site address is invalid. Please check that you entered it correctly. |
+| XF6 | Invalid Onion site Address | The provided onion site address is invalid. Please check that you entered it correctly. |
 | XF7 | Onion site Circuit Creation Timed Out | Failed to connect to the onion site, possibly due to a poor network connection. |
 
 ### TROUBLESHOOTING
