@@ -50,3 +50,6 @@ For GNU/Linux:
 6. Alternatively, from inside the Tor Browser directory, you can also start from the command line by running:
 
    `./start-tor-browser.desktop`
+
+
+See here on how to [update Tor Browser](https://tb-manual.torproject.org/updating/).
