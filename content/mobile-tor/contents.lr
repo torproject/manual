@@ -186,12 +186,10 @@ Depending on your mobile device's brand, navigate to Settings > Apps, then selec
 
 At the moment, there are some features which are not available in Tor Browser for Android, but are currently available in Tor Browser for desktop.
 
-* You can't see your Tor circuit. [#25764](https://trac.torproject.org/projects/tor/ticket/25764)
-* Custom obfs4 bridges not working. [#30767](https://trac.torproject.org/projects/tor/ticket/30767)
-* 'Clear private data' option does not clear browsing history. [#27592](https://trac.torproject.org/projects/tor/ticket/27592)
-* Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://trac.torproject.org/projects/tor/ticket/31814)
-* You can't take screenshots while using Tor Browser for Android. [#27987](https://trac.torproject.org/projects/tor/ticket/27987)
-* You can't save images. [#31013](https://trac.torproject.org/projects/tor/ticket/31013)
+* You can't see your Tor circuit. [#25764](https://gitlab.torproject.org/tpo/applications/torbutton/-/issues/25764)
+* Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814)
+* You can't take screenshots while using Tor Browser for Android. [#27987](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987)
+* You can't save images. [#31013](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31013)
 
 ### More about Tor on mobile devices
 
