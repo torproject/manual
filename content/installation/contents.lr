@@ -45,7 +45,7 @@ For GNU/Linux:
 5. You'll need to tell your GNU/Linux that you want the ability to execute shell scripts from the graphical interface.
    Navigate to the newly extracted Tor Browser directory.
    Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
-   Double-click the icon to start up Tor Browser for the first time.
+   Double-click the icon to start up Tor Browser for the first time. The file can also be executable via terminal command i.e., chmod +x start-tor-browser.desktop
 
 6. Alternatively, from inside the Tor Browser directory, you can also start from the command line by running:
 
