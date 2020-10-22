@@ -21,8 +21,8 @@ Other pluggable transports, like meek, use different anti-censorship techniques 
 
 Because bridge addresses are not public, you will need to request them yourself. You have a few options:
 
- * Visit https://bridges.torproject.org/ and follow the instructions, or
- * Email bridges@torproject.org from a Gmail, or Riseup email address
+ * Visit [this] (https://bridges.torproject.org/) and follow the instructions, or
+ * [Email] (mailto:bridges@torproject.org) from Gmail, or Riseup email address
  * Use MOAT to fetch bridges from within Tor Browser.
 
 ### USING MOAT
