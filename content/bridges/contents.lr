@@ -27,7 +27,7 @@ Because bridge addresses are not public, you will need to request them yourself.
 
 ### USING MOAT
 
-<img class="col-md-6" align="right" hspace="5" src="../../static/images/request-a-bridge.png">
+<img class="col-md-6" align="right" hspace="5" src="../../static/images/request-a-bridge.png" alt="Request a bridge from torproject.org">
 
 If you're starting Tor Browser for the first time, click "Configure" to open the Tor Network Settings window.
 After checking the checkbox "Tor is censored in my country," choose "Request a bridge from torproject.org" and click "Request a Bridge..." for BridgeDB to provide a bridge.
@@ -39,7 +39,7 @@ Complete the CAPTCHA and click "Submit." Your setting will automatically be save
 
 ### ENTERING BRIDGE ADDRESSES
 
-<img class="col-md-6" align="right" hspace="5" src="../../static/images/tor-launcher-custom-bridges.png">
+<img class="col-md-6" align="right" hspace="5" src="../../static/images/tor-launcher-custom-bridges.png" alt="Enter custom bridge addresses">
 
 Once you have obtained some bridge addresses, you will need to enter them into Tor Launcher.
 
