@@ -76,8 +76,8 @@ If you are on a relatively fast connection, but this text seems to get stuck at 
 
 If you know that your connection is censored, you should select the settings icon.
 Tor Browser will take you through a series of configuration options.
-The first screen asks if access to the Tor network is blocked or censored on your connection.
-If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, tap the switch.
+The first screen will tell you about the status of the Tor Network abd provide you the option to configure a Bridge ('Config Bridge').
+If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, tap on 'Config Bridge'.
 You will then be taken to the [Circumvention](../circumvention) screen to configure a pluggable transport.
 
 ### CIRCUMVENTION
@@ -86,12 +86,12 @@ Bridge relays are Tor relays that are not listed in the public Tor directory.
 Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
 
 To use a pluggable transport, tap on the settings icon when starting Tor Browser for the first time.
-The first screen asks if access to the Tor network is censored on your connection. Tap on the switch to toggle it.
+The first screen tells you about the status of the Tor network. Tap on 'Config Bridge' to configure a bridge.
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android">
 
 The next screen provides the option to either use a built-in bridge or custom bridge.
-With the "Select a bridge" option, you will have two options: "obfs4" and "meek-azure".
+With the "Use a Bridge" option, you will have two options: "obfs4" and "meek-azure".
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png" alt="Select a bridge on Tor Browser for Android">
 
@@ -125,7 +125,7 @@ You can modify the security level by following given steps:
 
 * Tap on a button of 3 vertical dots in URL bar.
 * Scroll down and tap on "Security Settings".
-* You can now select an option from the security level slider.
+* You can now select an option i.e. Standard, Safer or Safest.
 
 
 ### UPDATING
@@ -217,4 +217,4 @@ Download Onion Browser from the [App Store](https://itunes.apple.com/us/app/onio
 
 
 ### Tor Browser for Windows Phone
-There is currently no supported method for running Tor on Windows Phone.
+There is currently no supported method for running Tor on older Windows Phones but in case of the newer Microsoft-branded/promoted phones, same steps on [Tor Browser on Android](#tor-browser-for-android) can be followed.
