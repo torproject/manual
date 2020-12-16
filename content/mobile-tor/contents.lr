@@ -76,7 +76,7 @@ If you are on a relatively fast connection, but this text seems to get stuck at 
 
 If you know that your connection is censored, you should select the settings icon.
 Tor Browser will take you through a series of configuration options.
-The first screen will tell you about the status of the Tor Network abd provide you the option to configure a Bridge ('Config Bridge').
+The first screen will tell you about the status of the Tor Network and provide you the option to configure a Bridge ('Config Bridge').
 If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, tap on 'Config Bridge'.
 You will then be taken to the [Circumvention](../circumvention) screen to configure a pluggable transport.
 
