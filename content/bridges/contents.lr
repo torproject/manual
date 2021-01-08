@@ -31,11 +31,11 @@ Because bridge addresses are not public, you will need to request them yourself.
 
 If you're starting Tor Browser for the first time, click "Configure" to open the Tor Network Settings window.
 After checking the checkbox "Tor is censored in my country," choose "Request a bridge from torproject.org" and click "Request a Bridge..." for BridgeDB to provide a bridge.
-Complete the CAPTCHA and click "Submit." Click "Connect" to save your settings.
+Complete the Captcha and click "Submit." Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Preferences" in the hamburger menu and then on "Tor" in the sidebar.
 In the "Bridges" section, check the checkbox "Use a bridge," and from the option "Request a bridge from torproject.org," click "Request a New Bridge..." for BridgeDB to provide a bridge.
-Complete the CAPTCHA and click "Submit." Your setting will automatically be saved once you close the tab.
+Complete the Captcha and click "Submit." Your setting will automatically be saved once you close the tab.
 
 ### ENTERING BRIDGE ADDRESSES
 
