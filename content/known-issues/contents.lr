@@ -19,7 +19,7 @@ body:
   * Microsoft Security Essentials
   * Avast Antivirus
 
-* VPNs also tend to interfere with Tor and need to be disabled. We also do not recommend using VPN and Tor together unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy. You can find more detailed information about Tor + VPN at our [wiki](https://trac.torproject.org/projects/tor/wiki/doc/TorPlusVPN).
+* VPNs also tend to interfere with Tor and need to be disabled. We also do not recommend using VPN and Tor together unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy. You can find more detailed information about Tor + VPN at our [wiki](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN).
 
 * Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
 
