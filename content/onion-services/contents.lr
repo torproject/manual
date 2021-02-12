@@ -29,7 +29,7 @@ Onion-Location is a non-standard HTTP header that websites can use to advertise 
 If the website that you are visiting has an onion site available, a purple suggestion pill will prompt at the URL bar in Tor Browser displaying ".onion available".
 When you click on ".onion available", the website will be reloaded and redirected to its onion counterpart.
 
-<img class="col-md-6" src="../../static/images/onion-location.png" alt="Onion-Location">
+<img style="max-width:100%" class="col-md-6" src="../../static/images/onion-location.png" alt="Onion-Location">
 
 To prioritize an onion site version of a website, you can enable automatic Onion-Location redirects.
 Click on hamburger menu (≡), go to Preferences (or Options on Windows), click on Privacy & Security, and in the Onion Services section look for the entry "Prioritize .onion sites when known." and check the option "Always".
@@ -43,7 +43,7 @@ In order to access this service, you will need access credentials from the onion
 When accessing an authenticated onion service, Tor Browser will show in the URL bar an icon of a little gray key, accompanied by a tooltip.
 Enter your valid private key into the input field.
 
-<img class="col-md-6" src="../../static/images/client-auth.png" alt="Client Authorization">
+<img style="max-width:100%" class="col-md-6" src="../../static/images/client-auth.png" alt="Client Authorization">
 
 ### ONION SERVICES ERRORS
 

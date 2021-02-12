@@ -39,7 +39,7 @@ When you log in to a website over Tor, there are several points you should bear 
 
 ### CHANGING IDENTITIES AND CIRCUITS
 
-<img class="col-md-6" src="../../static/images/new_identity.png" alt="New Identity and New Tor Circuit options under main menu">
+<img style="max-width:100%" class="col-md-6" src="../../static/images/new_identity.png" alt="New Identity and New Tor Circuit options under main menu">
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. There are also located in the main menu (hamburger menu).
 
