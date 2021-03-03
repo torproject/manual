@@ -15,7 +15,7 @@ This offers you the option to connect directly to the Tor network, or to configu
 
 ### CONNECT
 
-<img class="col-md-6" src="../../static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png" alt="Click 'connect' to connect to Tor.">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
 Once clicked, a status bar will appear, showing Tor’s connection progress.
@@ -23,22 +23,22 @@ If you are on a relatively fast connection, but this bar seems to get stuck at a
 
 ### CONFIGURE
 
-<img class="col-md-6" src="../../static/images/configure.png">
+<img class="col-md-6" src="../../static/images/configure.png" alt="Click 'configure' to adjust network settings.">
 
 If you know that your connection is censored or uses a proxy, you should select this option.
 
-<img class="col-md-6" src="../../static/images/proxy_question.png">
+<img class="col-md-6" src="../../static/images/proxy_question.png" alt="Select options for censored connection or proxy use.">
 
 Tor Browser will take you through a series of configuration options.
 
-<img class="col-md-6" src="../../static/images/pluggable-transport.png">
+<img class="col-md-6" src="../../static/images/pluggable-transport.png" alt="Configure Tor bridge options">
 
 The first checkbox asks if access to the Tor network is blocked or censored on your connection.
 If you do not believe this is the case, leave this unchecked.
 If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, check the checkbox.
 This will display the [Circumvention](../circumvention) section to configure a pluggable transport.
 
-<img class="col-md-6" src="../../static/images/proxy.png">
+<img class="col-md-6" src="../../static/images/proxy.png" alt="Configure proxy options">
 
 The second checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to check this checkbox because the same settings will be used for other browsers on your system.
 If possible, ask your network administrator for guidance.

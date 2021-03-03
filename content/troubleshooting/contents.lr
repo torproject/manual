@@ -11,22 +11,49 @@ key: 12
 body:
 You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
 
-<img class="col-md-6" src="../../static/images/connect.png">
+<img class="col-md-6" src="../../static/images/connect.png" alt="Click 'Connect' to connect to Tor.">
 
 ### QUICK FIXES
 
-If Tor Browser doesn’t connect, there may be a simple solution. Try each of the following:
+If Tor Browser doesn’t connect, there may be a simple solution.
+Try each of the following:
 
 * Your computer’s system clock must be set correctly, or Tor will not be able to connect.
-* Make sure another Tor Browser is not already running. If you’re not sure if Tor Browser is running, restart your computer.
-* Make sure that any antivirus program you have installed is not preventing Tor from running. You may need to consult the documentation for your antivirus software if you do not know how to do this.
+* Make sure another Tor Browser or instance of 'Tor' is not already running on your system.
+  If you’re not sure if Tor Browser is running, restart your computer.
+* Make sure that any antivirus program you have installed is not preventing Tor from running.
+  You may need to consult the documentation for your antivirus software if you do not know how to do this.
 * Temporarily disable your firewall.
-* Delete Tor Browser and install it again. If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+* If Tor Browser was working before and is not working now your system may have been hibernating.
+  A reboot of your system will solve the issue.
+* Delete Tor Browser and install it again.
+  If updating, do not just overwrite your previous Tor Browser files; ensure they are fully deleted beforehand.
+
+### VIEW TOR LOGS
+
+In most cases, taking a look at the Tor logs can be helpful in diagnosing the issue.
+If you’re having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
+Then paste the Tor log into a text file or other document.
+
+If you don't see this option and you have Tor Browser open, you can navigate to the hamburger menu ("≡"), then click on "Preferences", and finally on "Tor" in the side bar.
+At the bottom of the page, next to the "View the Tor logs" text, click the button "View Logs...".
+
+Alternatively, on GNU/Linux, to view the logs right in the terminal, navigate to the Tor Browser directory and launch the Tor Browser from the command line by running:
+
+`./start-tor-browser.desktop --verbose`
+
+Or to save the logs to a file (default: tor-browser.log):
+
+`./start-tor-browser.desktop --log [file]`
+
+More information on this can be found on the [Support Portal](https://support.torproject.org/connecting/connecting-2/).
 
 ### IS YOUR CONNECTION CENSORED?
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network. Read the [Circumvention](/circumvention) section for possible solutions.
+If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network.
+Read the [Circumvention](/circumvention) section for possible solutions.
 
 ### KNOWN ISSUES
 
-Tor Browser is under constant development, and some issues are known about but not yet fixed. Please check the [Known Issues](/known-issues) page to see if the problem you are experiencing is already listed there.
+Tor Browser is under constant development, and some issues are known about but not yet fixed.
+Please check the [Known Issues](/known-issues) page to see if the problem you are experiencing is already listed there.

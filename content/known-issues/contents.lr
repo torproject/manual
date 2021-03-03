@@ -12,22 +12,33 @@ body:
 
 * Tor needs your system clock (and your time zone) set to the correct time.
 
-* The following firewall software have been known to interfere with Tor and may need to be temporarily disabled:
+* Antivirus or malware protection blocking users from accessing Tor Browser.
+Sometimes these also pop up with [false positives regarding malware and/or vulnerabilities](https://support.torproject.org/tbb/antivirus-false-positive/).
+You can read more about this on our [Support Portal](https://support.torproject.org/tbb/tbb-10/).
+The following antivirus and firewall software have been known to interfere with Tor and may need to be temporarily disabled:
   * Webroot SecureAnywhere
   * Kaspersky Internet Security 2012
   * Sophos Antivirus for Mac
   * Microsoft Security Essentials
+  * Avast Antivirus
 
-* Videos that require Adobe Flash are unavailable. Flash is disabled for security reasons.
+* VPNs also tend to interfere with Tor and need to be disabled.
+We also do not recommend using VPN and Tor together unless you're an advanced user who knows how to configure both in a way that doesn't compromise your privacy.
+You can find more detailed information about Tor + VPN at our [wiki](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN).
+
+* Videos that require Adobe Flash are unavailable.
+Flash is disabled for security reasons.
 
 * Tor can not use a bridge if a proxy is set.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC. This is to ensure that each software build is exactly reproducible.
+* The Tor Browser package is dated January 1, 2000 00:00:00 UTC.
+This is to ensure that each software build is exactly reproducible.
 
-* To run Tor Browser on Ubuntu, users need to execute a shell script. Open "Files" (Unity's explorer), open Preferences → Behavior Tab → Set "Run executable text files when they are opened" to "Ask every time", then click OK.
+* Issues with making Tor Browser as your [default browser](https://support.torproject.org/tbb/tbb-32/).
 
-* Tor Browser can also be started from the command line by running the following command from inside the Tor Browser directory:
+* If Tor Browser was working before and is not working now (especially after a re-install or an update), your system may have been hibernating.
+A reboot of your system, in that case, will solve the issue.
 
-	./start-tor-browser.desktop
+* Tor won't start on Windows when the [folder path contains non-ascii characters](https://gitlab.torproject.org/tpo/core/tor/-/issues/10416).
 
-* BitTorrent in specific is [not anonymous over Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+* BitTorrent [is not anonymous over Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
