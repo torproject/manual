@@ -4,9 +4,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ _('Defend yourself against tracking and surveillance. Circumvent censorship.') }} | {{ this.title }}">
 <link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
-<link rel="stylesheet" href="{{ '/static/css/eoy.css'|asseturl }}">
 
 <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="{{ '/static/images/favicon.ico'|asseturl }}">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="{{ '/static/images/favicon.png'|asseturl }}">
 
 <title>{% block title %}{{ this.title }}{% endblock %} | {{ _("Tor Project | Tor Browser Manual") }}</title>
 <body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
@@ -22,7 +25,7 @@
     </div>
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
-	{% include 'sidenav.html' %}
+        {% if this.title != _('Tor Browser User Manual') %} {% include 'sidenav.html' %} {% endif %}
         <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 {{ bag('alternatives', this.alt, 'order') }}">
           {% block body %}{% endblock %}
         </main>
