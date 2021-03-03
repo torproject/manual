@@ -42,7 +42,7 @@ Alternatively, on GNU/Linux, to view the logs right in the terminal, navigate to
 
 `./start-tor-browser.desktop --verbose`
 
-or to save the logs to a file (default: tor-browser.log)
+Or to save the logs to a file (default: tor-browser.log):
 
 `./start-tor-browser.desktop --log [file]`
 
