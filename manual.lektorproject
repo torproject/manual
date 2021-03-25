@@ -116,7 +116,7 @@ url_prefix = /th/
 locale = th
 
 [alternatives.tr]
-name = Turkish
+name = Türkçe
 url_prefix = /tr/
 locale = tr
 
