@@ -136,7 +136,7 @@ url_prefix = /ms/
 locale = ms
 
 [alternatives.my]
-name = Burmese (my)
+name = မြန်မာဘာသာ (my)
 url_prefix = /my/
 locale = my
 
