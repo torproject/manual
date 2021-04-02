@@ -135,6 +135,11 @@ name = Melayu (ms)
 url_prefix = /ms/
 locale = ms
 
+[alternatives.my]
+name = Burmese (my)
+url_prefix = /my/
+locale = my
+
 [alternatives.nb-NO]
 name = Norsk bokmål (nb-NO)
 url_prefix = /nb-NO/
