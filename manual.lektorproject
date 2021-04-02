@@ -55,11 +55,6 @@ name = Español (es)
 url_prefix = /es/
 locale = es
 
-[alternatives.es-AR]
-name = Español Arg. (es-AR)
-url_prefix = /es-AR/
-locale = es-AR
-
 [alternatives.fa]
 name = ﻑﺍﺮﺳی (fa)
 url_prefix = /fa/
