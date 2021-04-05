@@ -3,6 +3,8 @@ RewriteEngine On
 # support for old URLs
 RewriteRule ^(.*)/security-slider.html$ /$1/security-settings/ [R=302,L]
 RewriteRule ^security-slider.html$ /security-settings/ [R=302,L]
+# strip '.html' and redirect
+RewriteRule ^(.*)/(.*).html$ /$1/$2/ [r=302,L]
 
 # this document moved to the community portal
 RewriteRule ^(.*)/becoming-tor-translator https://community.torproject.org/localization/becoming-tor-translator/ [R=302,L]
