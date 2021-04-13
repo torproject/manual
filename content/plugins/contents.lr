@@ -23,6 +23,8 @@ Tor Browser includes an add-on called NoScript. It's accessible through 'Prefere
 
 Users who require a high degree of security in their web browsing should set Tor Browser’s [Security Level](../security-settings/) to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
+<img style="max-width:100%" class="col-lg-6" src="../../static/images/No_script2.gif" alt="Go to Customize then drag and drop NoScript plugin">
+
 ### BROWSER ADD-ONS
 
 Tor Browser is based on Firefox, and any browser add-ons or themes that are compatible with Firefox can also be installed in Tor Browser.
