@@ -11,8 +11,8 @@ key: 11
 body:
 By default, Tor Browser protects your security by encrypting your browsing data.
 You can further increase your security by choosing to disable certain web features that can be used to compromise your security and anonymity.
-You can do this by increasing Tor Browser's Security Levels in the shield menu.
-Increasing Tor Browser's security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+You can do this by increasing Tor Browser's Security Level in the shield menu.
+This will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
 
 ### ACCESSING THE SECURITY SETTINGS
 
