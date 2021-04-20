@@ -31,5 +31,6 @@ pages:
 check_l10n:
   stage: test
   script: 
-    - if [[ $(grep -r '] (' i18n/*.po) ]] ; then echo "TEST FAILED: broken links" && `grep -r '] (' i18n/*.po >&2` ; else echo "no broken links"; fi || true
+    - if [[ $(grep -r '] (' i18n/*.po) ]] ; then echo "TEST FAILED: broken links"
+    - grep -r '] (' i18n/*.po >&2 
     - allow_failure: true
