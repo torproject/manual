@@ -33,4 +33,4 @@ pages:
 check_l10n_links:
   stage: test
   script: 
-    - 'test-links=$(grep -r "] ("" i18n/*.po >&2 && echo "TEST FAILED: Broken links")'
+    - 'test-links=$(grep -r "] (" i18n/*.po >&2 && echo "TEST FAILED: Broken links")'
