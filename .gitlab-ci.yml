@@ -18,7 +18,8 @@ pages:
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout origin/master && cd ..
     - rm -rf public
-    - lektor build --output-path public
+    - lektor plugins reinstall
+    - lektor build --output-path public && lektor build --output-path public
   artifacts:
     paths:
       - public
