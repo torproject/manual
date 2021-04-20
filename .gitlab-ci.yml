@@ -13,7 +13,7 @@ pages:
     - pip3 install lektor
     - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
-    - cd i18n && git checkout support-portal && cd ..
+    - cd i18n && git checkout tbmanual-contentspot && cd ..
     - rm -rf lego
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout origin/master && cd ..
