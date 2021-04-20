@@ -30,8 +30,7 @@ pages:
       - i18n
   only:
     - translations
-check_l10n:
+check_l10n_links:
   stage: test
   script: 
     - 'test-links=$(grep -r "] ("" i18n/*.po >&2 && echo "TEST FAILED: Broken links")'
-    - test-links
