@@ -7,7 +7,7 @@ pages:
   stage: production
   script:
     - apt update
-    - DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-venv python3-openssl python3-cryptography -y
+    - DEBIAN_FRONTEND=noninteractive apt install --no-install-recommends gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-venv python3-openssl python3-cryptography -y
     - pip3 install babel
     - pip3 install wheel
     - pip3 install lektor
@@ -17,6 +17,7 @@ pages:
     - rm -rf lego
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout origin/master && cd ..
+    - rm -rf public
     - lektor build --output-path public
   artifacts:
     paths:
