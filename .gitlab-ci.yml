@@ -12,15 +12,17 @@ pages:
     - pip3 install babel
     - pip3 install wheel
     - pip3 install lektor
+    - echo 'checking out translations'
     - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
     - cd i18n && git checkout tbmanual-contentspot && cd ..
+    - echo 'checking out lego'
     - rm -rf lego
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout master && git pull && cd ..
     - rm -rf public
-    - lektor plugins reinstall
-    - lektor build --output-path public && lektor build --output-path public
+    - echo 'building lektor 3 times to get translations in place'
+    - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
 
   artifacts:
     paths:
@@ -31,6 +33,6 @@ pages:
 check_l10n:
   stage: test
   script: 
-    - if [[ $(grep -r '] (' i18n/*.po) ]] ; then echo "TEST FAILED: broken links"
-    - grep -r '] (' i18n/*.po >&2 
+    - grep -r '] (' i18n/*.po >&2
+    - if [[ $(grep -r '] (' i18n/*.po) ]] ; then echo "TEST FAILED: broken links" ;fi
     - allow_failure: true
