@@ -2,6 +2,7 @@ image: debian:buster-slim
 
 stages:
   - build
+  - test
 
 pages:
   stage: build
@@ -13,16 +14,20 @@ pages:
     - pip3 install lektor
     - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
-    - cd i18n && git checkout tbmanual-contentspot
-    - grep -r '] (' *.po && cd ..
+    - cd i18n && git checkout tbmanual-contentspot && cd ..
     - rm -rf lego
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout master && git pull && cd ..
     - rm -rf public
     - lektor plugins reinstall
     - lektor build --output-path public && lektor build --output-path public
+
   artifacts:
     paths:
       - public
   only:
     - translations
+check_l10n:
+  stage: test
+  script: 
+    - grep -r '] (' i18n/*.po >&2
