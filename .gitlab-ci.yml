@@ -25,6 +25,7 @@ pages:
   artifacts:
     paths:
       - public
+      - i18n
   only:
     - translations
 check_l10n:
