@@ -20,9 +20,9 @@ If this happens, you can use one of the alternative download methods listed belo
 
 If you're unable to download Tor Browser from the official Tor Project website, you can instead try downloading it from one of our official mirrors, either through [EFF](https://tor.eff.org), [Calyx Institute](https://tor.calyxinstitute.org) or [CCC](https://tor.ccc.de).
 
-### GETTOR
+### GetTor
 
-GetTor is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
+[GetTor](https://gettor.torproject.org/) is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
 ### TO USE GETTOR VIA EMAIL:
 
