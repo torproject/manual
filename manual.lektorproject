@@ -75,6 +75,11 @@ name =  עברית (he)
 url_prefix = /he/
 locale = he
 
+[alternatives.hi]
+name =  हिन्दी (hr)
+url_prefix = /hi/
+locale = hi
+
 [alternatives.hr]
 name =  hrvatski (hr)
 url_prefix = /hr/
