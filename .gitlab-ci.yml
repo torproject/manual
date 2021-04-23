@@ -12,6 +12,7 @@ pages:
     - pip3 install babel
     - pip3 install wheel
     - pip3 install lektor
+    - pip3 install pofile
     - echo 'checking out translations'
     - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
@@ -33,5 +34,5 @@ pages:
     - translations
 check_l10n_links:
   stage: test
-  script: 
-    - 'test-links=$(grep -r "] (" i18n/*.po >&2 && echo "TEST FAILED: Broken links")'
+  script:
+    - l10n/bin/check_markdown_links.py i18n/
