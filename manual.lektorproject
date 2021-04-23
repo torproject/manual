@@ -105,11 +105,6 @@ name = Italia (it)
 url_prefix = /it/
 locale = it
 
-[alternatives.is]
-name = Íslenska (is)
-url_prefix = /is/
-locale = is
-
 [alternatives.ka]
 name = Georgian (ka)
 url_prefix = /ka/
