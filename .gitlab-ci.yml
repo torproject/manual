@@ -12,7 +12,7 @@ pages:
     - pip3 install babel
     - pip3 install wheel
     - pip3 install lektor
-    - pip3 install pofile
+    - pip3 install polib
     - echo 'checking out translations'
     - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
