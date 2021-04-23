@@ -1,15 +1,28 @@
-image: debian:buster-slim
+image: python:3.9-slim-buster
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - .cache/pip
+    - venv/
+    - i18n
+    - lego
+
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
 
 stages:
   - build
   - test
+  - deploy
 
 pages:
   stage: build
-  script:
+  before_script:
     - apt-get update
     - DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-venv python3-openssl python3-cryptography i18nspector -y
-    - pip3 install babel
+    - virtualenv venv
+    - source venv/bin/activate
     - pip3 install wheel
     - pip3 install lektor
     - echo 'checking out translations'
@@ -21,6 +34,7 @@ pages:
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout master && git pull && cd ..
     - rm -rf public
+  script:
     - echo 'building lektor 3 times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
