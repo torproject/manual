@@ -23,6 +23,8 @@ pages:
     - rm -rf public
     - echo 'building lektor 3 times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
+    - l10n/bin/check_markdown_links.py i18n/
 
   artifacts:
     paths:
@@ -30,9 +32,3 @@ pages:
       - i18n
   only:
     - translations
-check_l10n_links:
-  stage: test
-  script:
-    - pip3 install polib
-    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
-    - l10n/bin/check_markdown_links.py i18n/
