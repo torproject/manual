@@ -27,23 +27,24 @@ pages:
     - pip3 install wheel
     - pip3 install lektor
     - echo 'checking out translations'
-    - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
     - cd i18n && git checkout tbmanual-contentspot && cd ..
-    - echo 'checking out lego'
-    - rm -rf lego
-    - git clone https://git.torproject.org/project/web/lego.git lego
-    - cd lego && git checkout master && git pull && cd ..
-    - rm -rf public
   script:
     - echo 'building lektor 3 times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
-    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
-    - l10n/bin/check_markdown_links.py i18n/
-
   artifacts:
     paths:
       - public
       - i18n
   only:
     - translations
+
+check_l10n:
+  stage: test
+  script:
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
+    - pip3 install polib
+    - l10n/bin/check_markdown_links.py i18n/
+  rules:
+    - changes:
+      - i18n/*
