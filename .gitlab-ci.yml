@@ -1,7 +1,7 @@
 image: python:3.9-slim-buster
 
 cache:
-  key: ${CI_COMMIT_REF_SLUG}
+  key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
   paths:
     - .cache/pip
     - packages
