@@ -20,6 +20,7 @@ pages:
     - rm -rf lego
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout master && git pull && cd ..
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - rm -rf public
     - echo 'building lektor 3 times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
