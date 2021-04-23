@@ -4,7 +4,8 @@ cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths:
     - .cache/pip
-    - venv/
+    - packages
+    - venv
     - i18n
     - lego
 
