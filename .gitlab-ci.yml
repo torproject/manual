@@ -12,7 +12,6 @@ pages:
     - pip3 install babel
     - pip3 install wheel
     - pip3 install lektor
-    - pip3 install polib
     - echo 'checking out translations'
     - rm -rf i18n
     - git clone https://git.torproject.org/translation.git i18n
@@ -21,7 +20,6 @@ pages:
     - rm -rf lego
     - git clone https://git.torproject.org/project/web/lego.git lego
     - cd lego && git checkout master && git pull && cd ..
-    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - rm -rf public
     - echo 'building lektor 3 times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
@@ -35,4 +33,6 @@ pages:
 check_l10n_links:
   stage: test
   script:
+    - pip3 install polib
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - l10n/bin/check_markdown_links.py i18n/
