@@ -47,9 +47,6 @@ before_script:
         git clone https://git.torproject.org/translation.git i18n
         cd i18n && git checkout tbmanual-contentspot && cd ..
       fi
-    - rm -rf i18n
-    - git clone https://git.torproject.org/translation.git i18n
-    - cd i18n && git checkout tbmanual-contentspot && cd ..
 
 pages:
   script:
