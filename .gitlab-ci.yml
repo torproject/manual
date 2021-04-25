@@ -1,0 +1,69 @@
+image: python:3.9-slim-buster
+
+cache:
+  key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
+  paths:
+    - packages
+    - venv
+    - i18n
+    - lego
+    - apt-cache
+
+# This template should be usable on any system that's based on apt.
+# taken from tor gitlabci
+
+.apt-template: &apt-template |
+      export LC_ALL=C.UTF-8
+      echo Etc/UTC > /etc/timezone
+      mkdir -p apt-cache
+      export APT_CACHE_DIR="$(pwd)/apt-cache"
+      echo 'quiet "1";' \
+           'APT::Install-Recommends "0";' \
+           'APT::Install-Suggests "0";' \
+           'APT::Acquire::Retries "20";' \
+           'APT::Get::Assume-Yes "true";' \
+           'Dpkg::Use-Pty "0";' \
+           "Dir::Cache::Archives \"${APT_CACHE_DIR}\"; " \
+        >> /etc/apt/apt.conf.d/99gitlab
+      apt-get update -qq
+      apt-get upgrade -qy
+
+variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+    - *apt-template
+    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector -y
+    - pip3 install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
+    - pip3 install wheel
+    - pip3 install lektor
+    - echo 'checking out translations'
+    - >
+      if [ "i18n" ]; then
+        cd i18n && git checkout tbmanual-contentspot && git reset --hard && git pull && cd ..
+      else
+        git clone https://git.torproject.org/translation.git i18n
+        cd i18n && git checkout tbmanual-contentspot && cd ..
+      fi
+    - rm -rf i18n
+    - git clone https://git.torproject.org/translation.git i18n
+    - cd i18n && git checkout tbmanual-contentspot && cd ..
+
+pages:
+  script:
+    - echo 'building lektor 3 times to get translations in place'
+    - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
+  artifacts:
+    paths:
+      - public
+      - i18n
+  only:
+    - master
+
+check_l10n:
+  script:
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
+    - pip3 install polib
+    - l10n/bin/check_markdown_links.py i18n/
