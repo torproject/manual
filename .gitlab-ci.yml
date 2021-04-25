@@ -60,13 +60,10 @@ pages:
       - public
       - i18n
   only:
-    - translations
+    - master
 
 check_l10n:
   script:
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - pip3 install polib
     - l10n/bin/check_markdown_links.py i18n/
-  rules:
-    - changes:
-      - i18n/*
