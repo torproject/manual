@@ -1,0 +1,3494 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-08 16:23+CET\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: https://tb-manual.torproject.org/ (content/contents+en.lr:showcase.title)
+msgid "Tor Browser User Manual"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "About"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Documentation"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Press"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Blog"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Newsletter"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Support"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Community"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Contact"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Jobs"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "About Tor Browser"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Downloading"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Running Tor Browser for the First Time"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Pluggable transports"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Circumvention"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Bridges"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Managing Identities"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Onion Services"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Secure Connections"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Security Settings"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Updating"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Plugins"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Troubleshooting"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Uninstalling"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.description)
+msgid "Known issues"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Mobile Tor"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Becoming a Tor Translator"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Making Tor Browser Portable"
+msgstr ""
+
+#: https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Installation"
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.title)
+msgid "ABOUT TOR BROWSER"
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.description)
+msgid "Learn what Tor Browser can do to protect your privacy and anonymity"
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser uses the Tor network to protect your privacy and anonymity. "
+"Using the Tor network has two main properties:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"* Your internet service provider, and anyone watching your connection "
+"locally, will not be able to track your internet activity, including the "
+"names and addresses of the websites you visit."
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"* The operators of the websites and services that you use, and anyone "
+"watching them, will see a connection coming from the Tor network instead of "
+"your real Internet (IP) address, and will not know who you are unless you "
+"explicitly identify yourself."
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"In addition, Tor Browser is designed to prevent websites from "
+"“fingerprinting” or identifying you based on your browser configuration."
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"By default, Tor Browser does not keep any browsing history. Cookies are only "
+"valid for a single session (until Tor Browser is exited or a [New Identity](/"
+"managing-identities/#new-identity) is requested)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid "### HOW TOR WORKS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"Tor is a network of virtual tunnels that allows you to improve your privacy "
+"and security on the Internet. Tor works by sending your traffic through "
+"three random servers (also known as *relays*) in the Tor network. The last "
+"relay in the circuit (the “exit relay”) then sends the traffic out onto the "
+"public Internet."
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"\" src=\"../static/images/how-tor-works.png\" alt=\"How Tor "
+"Browser works\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/about/
+#: (content/about/contents+en.lr:topic.body)
+msgid ""
+"The image above illustrates a user browsing to different websites over Tor. "
+"The green middle computers represent relays in the Tor network, while the "
+"three keys represent the layers of encryption between the user and each "
+"relay."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.title)
+msgid "DOWNLOADING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.description)
+msgid "How to download Tor Browser"
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"The safest and simplest way to download Tor Browser is from the official Tor "
+"Project website at https://www.torproject.org/download."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Your connection to the site will be secured using [HTTPS](/secure-"
+"connections), which makes it much harder for somebody to tamper with."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"However, there may be times when you cannot access the Tor Project website: "
+"for example, it could be blocked on your network."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"If this happens, you can use one of the alternative download methods listed "
+"below."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "### MIRRORS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"If you're unable to download Tor Browser from the official Tor Project "
+"website, you can instead try downloading it from one of our official "
+"mirrors, either through [EFF](https://tor.eff.org), [Calyx Institute]"
+"(https://tor.calyxinstitute.org) or [CCC](https://tor.ccc.de)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "### GetTor"
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"[GetTor](https://gettor.torproject.org/) is a service that automatically "
+"responds to messages with links to the latest version of Tor Browser, hosted "
+"at a variety of locations, such as Dropbox, Google Drive and GitHub."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "### TO USE GETTOR VIA EMAIL:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"Send an email to [gettor@torproject.org](mailto:gettor@torproject.org), and "
+"in the body of the message simply write “windows”, “osx”, or “linux”, "
+"(without quotation marks) depending on your operating system."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"GetTor will respond with an email containing links from which you can "
+"download the Tor Browser package, the cryptographic signature (needed for "
+"verifying the download), the fingerprint of the key used to make the "
+"signature, and the package’s checksum. You may be offered a choice of “32-"
+"bit” or “64-bit” software: this depends on the model of the computer you are "
+"using."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid "### TO USE GETTOR VIA JABBER/XMPP (JITSI, COYIM, ETC.):"
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"To get links for downloading Tor Browser in Chinese for Linux, send a "
+"message to [gettor@torproject.org](mailto:gettor@torproject.org) with the "
+"words \"linux zh\" in it."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.title)
+msgid "INSTALLATION"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.description)
+msgid "Installing Tor Browser"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid "For Windows:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"1. Navigate to the Tor Browser [download page](https://www.torproject.org/"
+"download)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid "2. Download the Windows `.exe` file"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"3. (Recommended) Verify the [file's signature](https://support.torproject."
+"org/en/tbb/how-to-verify-signature/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"4. When the download is complete, double click the `.exe` file. Complete the "
+"installation wizard process."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid "For macOS:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid "2. Download the macOS `.dmg` file"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"4. When the download is complete, double click the `.dmg` file. Complete the "
+"installation wizard process."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid "For GNU/Linux:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid "2. Download the GNU/Linux `.tar.xz` file"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"4. When the download is complete, extract the archive with the command `tar -"
+"xf [TB archive]` or by using an archive manager."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"5. You'll need to tell your GNU/Linux that you want the ability to execute "
+"shell scripts from the graphical interface or the command line."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid "Navigate to the newly extracted Tor Browser directory."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"Right click on `start-tor-browser.desktop`, open Properties or Preferences "
+"and change the permission to allow executing file as program."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid "Double-click the icon to start up Tor Browser for the first time."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"**Note:** On Ubuntu and some other distros if you try to launch the start-"
+"tor-browser.desktop file a text file might open up."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"To change this behavior and launch Tor Browser instead, follow this: Open "
+"\"Files\" (GNOME Files/Nautilus) → open Preferences → go to the 'Behavior' "
+"Tab → Select \"Run them\" or \"Ask what to do\" under \"Executable Text Files"
+"\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"If you choose the latter click on \"Run\" after launching the start-tor-"
+"browser.desktop file."
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"6. Alternatively, from inside the Tor Browser directory, you can also start "
+"from the command line by running:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid "`./start-tor-browser.desktop`"
+msgstr ""
+
+#: https://tb-manual.torproject.org/installation/
+#: (content/installation/contents+en.lr:topic.body)
+msgid ""
+"See here on how to [update Tor Browser](https://tb-manual.torproject.org/"
+"updating/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.title)
+msgid "RUNNING TOR BROWSER FOR THE FIRST TIME"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.description)
+msgid "Learn how to use Tor Browser for the first time"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"When you run Tor Browser for the first time, you will see the Tor Network "
+"Settings window."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"This offers you the option to connect directly to the Tor network, or to "
+"configure Tor Browser for your connection."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid "### CONNECT"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/connect.png\" alt=\"Click "
+"'connect' to connect to Tor.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"In most cases, choosing \"Connect\" will allow you to connect to the Tor "
+"network without any further configuration."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"Once clicked, a status bar will appear, showing Tor’s connection progress."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"If you are on a relatively fast connection, but this bar seems to get stuck "
+"at a certain point, see the [Troubleshooting](../troubleshooting) page for "
+"help solving the problem."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid "### CONFIGURE"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/configure.png\" alt="
+"\"Click 'configure' to adjust network settings.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"If you know that your connection is censored or uses a proxy, you should "
+"select this option."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\" alt="
+"\"Select options for censored connection or proxy use.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "Tor Browser will take you through a series of configuration options."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/pluggable-transport.png\" "
+"alt=\"Configure Tor bridge options\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"The first checkbox asks if access to the Tor network is blocked or censored "
+"on your connection."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid "If you do not believe this is the case, leave this unchecked."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"If you know your connection is censored, or you have tried and failed to "
+"connect to the Tor network and no other solutions have worked, check the "
+"checkbox."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"This will display the [Circumvention](../circumvention) section to configure "
+"a pluggable transport."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/proxy.png\" alt="
+"\"Configure proxy options\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"The second checkbox asks if your connection uses a proxy. In most cases, "
+"this is not necessary. You will usually know if you need to check this "
+"checkbox because the same settings will be used for other browsers on your "
+"system."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid "If possible, ask your network administrator for guidance."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid "If your connection does not use a proxy, click “Connect”."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.title)
+msgid "CIRCUMVENTION"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.description)
+msgid "What to do if the Tor network is blocked"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Direct access to the Tor network may sometimes be blocked by your Internet "
+"Service Provider or by a government."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser includes some circumvention tools for getting around these "
+"blocks. These tools are called “pluggable transports”."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "### TYPES OF PLUGGABLE TRANSPORT"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Currently there are three pluggable transports available, but more are being "
+"developed."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "<table class=\"table table-striped\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "<tbody>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "<tr class=\"odd\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "<td>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "obfs4"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "</td>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"obfs4 makes Tor traffic look random, and also prevents censors from finding "
+"bridges by Internet scanning. obfs4 bridges are less likely to be blocked "
+"than its predecessor, obfs3 bridges."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "</tr>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "meek"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"meek transports make it look like you are browsing a major web site instead "
+"of using Tor. meek-azure makes it look like you are using a Microsoft web "
+"site."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "<tr class=\"even\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "Snowflake"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Snowflake is an improvement upon Flashproxy. It sends your traffic through "
+"WebRTC, a peer-to-peer protocol with built-in NAT punching."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "</tbody>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "</table>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "### USING PLUGGABLE TRANSPORTS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"To use a pluggable transport, click \"Configure\" when starting Tor Browser "
+"for the first time."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"After checking the checkbox \"Tor is censored in my country,\" choose the "
+"\"Select a built-in bridge\" option."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"From the dropdown, select whichever pluggable transport you'd like to use."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Once you've selected the pluggable transport, click \"Connect\" to save your "
+"settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Or, if you have Tor Browser running, click on \"Preferences\" in the "
+"hamburger menu and then on \"Tor\" in the sidebar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"In the \"Bridges\" section, check the checkbox \"Use a bridge,\" and from "
+"the option \"Select a built-in bridge,\" choose whichever pluggable "
+"transport you'd like to use from the dropdown."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid "Your settings will automatically be saved once you close the tab."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid "### WHICH TRANSPORT SHOULD I USE?"
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Each of the transports listed in Tor Launcher’s menu works in a different "
+"way, and their effectiveness depends on your individual circumstances."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"If you are trying to circumvent a blocked connection for the first time, you "
+"should try the different transports: obfs4, snowflake, or meek-azure."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"If you try all of these options, and none of them gets you online, you will "
+"need to request a bridge or manually enter bridge addresses."
+msgstr ""
+
+#: https://tb-manual.torproject.org/circumvention/
+#: (content/circumvention/contents+en.lr:topic.body)
+msgid ""
+"Read the [Bridges](../bridges/) section to learn what bridges are and how to "
+"obtain them."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.title)
+msgid "BRIDGES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.description)
+msgid ""
+"Most Pluggable Transports, such as obfs4, rely on the use of “bridge” relays."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Most [Pluggable Transports](/circumvention), such as obfs4, rely on the use "
+"of “bridge” relays."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary "
+"relays, however, they are not listed publicly, so an adversary cannot "
+"identify them easily."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Using bridges in combination with pluggable transports helps to disguise the "
+"fact that you are using Tor, but may slow down the connection compared to "
+"using ordinary Tor relays."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Other pluggable transports, like meek, use different anti-censorship "
+"techniques that do not rely on bridges. You do not need to obtain bridge "
+"addresses in order to use these transports."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid "### GETTING BRIDGE ADDRESSES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Because bridge addresses are not public, you will need to request them "
+"yourself. You have a few options:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"* Visit [https://bridges.torproject.org/](https://bridges.torproject.org) "
+"and follow the instructions, or"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"* Email [bridges@torproject.org](mailto:bridges@torproject.org) from a "
+"Gmail, or Riseup email address"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid "* Use MOAT to fetch bridges from within Tor Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid "### USING MOAT"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" align=\"right\" hspace=\"5\" src=\"../../static/"
+"images/request-a-bridge.png\" alt=\"Request a bridge from torproject.org\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"If you're starting Tor Browser for the first time, click \"Configure\" to "
+"open the Tor Network Settings window."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"After checking the checkbox \"Tor is censored in my country,\" choose "
+"\"Request a bridge from torproject.org\" and click \"Request a Bridge...\" "
+"for BridgeDB to provide a bridge."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Complete the Captcha and click \"Submit.\" Click \"Connect\" to save your "
+"settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"In the \"Bridges\" section, check the checkbox \"Use a bridge,\" and from "
+"the option \"Request a bridge from torproject.org,\" click \"Request a New "
+"Bridge...\" for BridgeDB to provide a bridge."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Complete the Captcha and click \"Submit.\" Your setting will automatically "
+"be saved once you close the tab."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid "### ENTERING BRIDGE ADDRESSES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" align=\"right\" hspace=\"5\" src=\"../../static/"
+"images/tor-launcher-custom-bridges.png\" alt=\"Enter custom bridge addresses"
+"\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Once you have obtained some bridge addresses, you will need to enter them "
+"into Tor Launcher."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"After checking the checkbox \"Tor is censored in my country,\" choose "
+"\"Provide a bridge I know\" and enter each bridge address on a separate line."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid "Click \"Connect\" to save your settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"In the \"Bridges\" section, check the checkbox \"Use a bridge,\" and from "
+"the option \"Provide a bridge I know,\" enter each bridge address on a "
+"separate line."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"If the connection fails, the bridges you received may be down. Please use "
+"one of the above methods to obtain more bridge addresses, and try again."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.title)
+msgid "MANAGING IDENTITIES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.description)
+msgid "Learn how to control personally-identifying information in Tor Browser"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"When you connect to a website, it is not only the operators of that website "
+"who can record information about your visit. Most websites now use numerous "
+"third-party services, including social networking “Like” buttons, analytics "
+"trackers, and advertising beacons, all of which can link your activity "
+"across different sites."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"Using the Tor network stops observers from being able to discover your exact "
+"location and IP address, but even without this information they might be "
+"able to link different areas of your activity together. For this reason, Tor "
+"Browser includes some additional features that help you control what "
+"information can be tied to your identity."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid "### THE URL BAR"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser centers your web experience around your relationship with the "
+"website in the URL bar. Even if you connect to two different sites that use "
+"the same third-party tracking service, Tor Browser will force the content to "
+"be served over two different Tor circuits, so the tracker will not know that "
+"both connections originate from your browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"On the other hand, all connections to a single website address will be made "
+"over the same Tor circuit, meaning you can browse different pages of a "
+"single website in separate tabs or windows, without any loss of "
+"functionality."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" align=\"right\" hspace=\"5\" src=\"../../static/"
+"images/circuit_full.png\" alt=\"Display circuit diagram under the site "
+"information menu\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can see a diagram of the circuit that Tor Browser is using for the "
+"current tab in the site information menu, in the URL bar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"In the circuit, the Guard or entry node is the first node and it's "
+"automatically and randomly selected by Tor. But it is different from the "
+"other nodes in the circuit. In order to avoid profiling attacks, the Guard "
+"node changes only after 2-3 months, unlike the other nodes, which change "
+"with every new domain. For more information about Guards, consult the [FAQ]"
+"(https://www.torproject.org/docs/faq#EntryGuards) and [Support Portal]"
+"(https://support.torproject.org/tbb/tbb-2/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid "### LOGGING IN OVER TOR"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"Although Tor Browser is designed to enable total user anonymity on the web, "
+"there may be situations in which it makes sense to use Tor with websites "
+"that require usernames, passwords, or other identifying information."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"If you log into a website using a regular browser, you also reveal your IP "
+"address and geographical location in the process. The same is often true "
+"when you send an email. Logging into your social networking or email "
+"accounts using Tor Browser allows you to choose exactly which information "
+"you reveal to the websites you browse. Logging in using Tor Browser is also "
+"useful if the website you are trying to reach is censored on your network."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"When you log in to a website over Tor, there are several points you should "
+"bear in mind:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"* See the [Secure Connections](/secure-connections) page for important "
+"information on how to secure your connection when logging in."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"* Tor Browser often makes your connection appear as though it is coming from "
+"an entirely different part of the world. Some websites, such as banks or "
+"email providers, might interpret this as a sign that your account has been "
+"hacked or compromised, and lock you out. The only way to resolve this is by "
+"following the site’s recommended procedure for account recovery, or "
+"contacting the operators and explaining the situation."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid "### CHANGING IDENTITIES AND CIRCUITS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:100%\" class=\"col-md-6\" src=\"../../static/images/"
+"new_identity.png\" alt=\"New Identity and New Tor Circuit options under main "
+"menu\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
+"options. There are also located in the main menu (hamburger menu)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid "### NEW IDENTITY"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if you want to prevent your subsequent browser "
+"activity from being linkable to what you were doing before. Selecting it "
+"will close all your open tabs and windows, clear all private information "
+"such as cookies and browsing history, and use new Tor circuits for all "
+"connections. Tor Browser will warn you that all activity and downloads will "
+"be stopped, so take this into account before clicking “New Identity”."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"To use this option, you just need to click on 'New Identity' in Tor "
+"Browser's toolbar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid "### NEW TOR CIRCUIT FOR THIS SITE"
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"This option is useful if the [exit relay](/about/#how-tor-works) you are "
+"using is unable to connect to the website you require, or is not loading it "
+"properly. Selecting it will cause the currently-active tab or window to be "
+"reloaded over a new Tor circuit. Other open tabs and windows from the same "
+"website will use the new circuit as well once they are reloaded. This option "
+"does not clear any private information or unlink your activity, nor does it "
+"affect your current connections to other websites."
+msgstr ""
+
+#: https://tb-manual.torproject.org/managing-identities/
+#: (content/managing-identities/contents+en.lr:topic.body)
+msgid ""
+"You can also access this option in the new circuit display, in the site "
+"information menu, in the URL bar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.title)
+msgid "ONION SERVICES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.description)
+msgid "Services that are only accessible using Tor"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Onion services (formerly known as \"hidden services\") are services (like "
+"websites) that are only accessible through the Tor network."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Onion services offer several advantages over ordinary services on the non-"
+"private web:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"* Onion services’ location and IP address are hidden, making it difficult "
+"for adversaries to censor them or identify their operators."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"* All traffic between Tor users and onion services is end-to-end encrypted, "
+"so you do not need to worry about [connecting over HTTPS](/secure-"
+"connections)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"* The address of an onion service is automatically generated, so the "
+"operators do not need to purchase a domain name; the .onion URL also helps "
+"Tor ensure that it is connecting to the right location and that the "
+"connection is not being tampered with."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "### HOW TO ACCESS AN ONION SERVICE"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Just like any other website, you will need to know the address of an onion "
+"service in order to connect to it. An onion address is a string of 16 (and "
+"in V3 format, 56) mostly random letters and numbers, followed by \".onion\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"When accessing a website that uses an onion service, Tor Browser will show "
+"in the URL bar an icon of an onion displaying the state of your connection: "
+"secure and using an onion service."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"You can learn more about the onion site that you are visiting by looking at "
+"the Circuit Display."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Another way to learn about an onion site is if the website administrator has "
+"implemented a feature called Onion-Location."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Onion-Location is a non-standard HTTP header that websites can use to "
+"advertise their onion counterpart."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"If the website that you are visiting has an onion site available, a purple "
+"suggestion pill will prompt at the URL bar in Tor Browser displaying \"."
+"onion available\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"When you click on \".onion available\", the website will be reloaded and "
+"redirected to its onion counterpart."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:100%\" class=\"col-md-6\" src=\"../../static/images/"
+"onion-location.png\" alt=\"Onion-Location\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"To prioritize an onion site version of a website, you can enable automatic "
+"Onion-Location redirects."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Click on hamburger menu (≡), go to Preferences (or Options on Windows), "
+"click on Privacy & Security, and in the Onion Services section look for the "
+"entry \"Prioritize .onion sites when known.\" and check the option \"Always"
+"\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Or, if you're already running Tor Browser, you can copy and paste this "
+"string in a new tab: `about:preferences#privacy` and change this setting."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "## ONION SERVICE AUTHENTICATION"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"An authenticated onion service is a service like an onion site that requires "
+"the client to provide an authentication token before accessing the service."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"As a Tor user, you may authenticate yourself directly in the Tor Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"In order to access this service, you will need access credentials from the "
+"onion service operator."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"When accessing an authenticated onion service, Tor Browser will show in the "
+"URL bar an icon of a little gray key, accompanied by a tooltip."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "Enter your valid private key into the input field."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:100%\" class=\"col-md-6\" src=\"../../static/images/"
+"client-auth.png\" alt=\"Client Authorization\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "### ONION SERVICES ERRORS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"If you can't connect to an onion site, Tor Browser will provide a specific "
+"error message informing why the website is unavailable."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Errors can happen in different layers: client errors, network errors or "
+"service errors."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"Some of these errors can be fixed by following the Troubleshooting section."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"The table below shows all the possible errors and which action you should "
+"take to solve the issue."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "| **Code** | **Error Title** | **Short Description** |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "|----------|-----------------|-----------------------|"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF0 | Onion site Not Found | The most likely cause is that the onion site "
+"is offline or disabled. Contact the onion site administrator. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF1 | Onion site Cannot Be Reached | The onion site is unreachable due to "
+"an internal error. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF2 | Onion site Has Disconnected | The most likely cause is that the "
+"onion site is offline or disabled. Contact the onion site administrator. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF3 | Unable to Connect to Onion site | The onion site is busy or the Tor "
+"network is overloaded. Try again later. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF4 | Onion site Requires Authentication | Access to the onion site "
+"requires a key but none was provided. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF5 | Onion site Authentication Failed | The provided key is incorrect or "
+"has been revoked. Contact the onion site administrator. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF6 | Invalid Onion site Address | The provided onion site address is "
+"invalid. Please check that you entered it correctly. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"| XF7 | Onion site Circuit Creation Timed Out | Failed to connect to the "
+"onion site, possibly due to a poor network connection. |"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid "### TROUBLESHOOTING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"If you cannot reach the onion service you requested, make sure that you have "
+"entered the onion address correctly: even a small mistake will stop Tor "
+"Browser from being able to reach the site."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"If you are still unable to connect to the onion service after verifying the "
+"address, please try again later. There may be a temporary connection issue, "
+"or the site operators may have allowed it to go offline without warning."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
+"You can also test if you are able to access other onion services by "
+"connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.title)
+msgid "SECURE CONNECTIONS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.description)
+msgid "Learn how to protect your data using Tor Browser and HTTPS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/secure-connections/
+#: (content/secure-connections/contents+en.lr:topic.body)
+msgid ""
+"If personal information such as a login password travels unencrypted over "
+"the Internet, it can very easily be intercepted by an eavesdropper. If you "
+"are logging into any website, you should make sure that the site offers "
+"HTTPS encryption, which protects against this kind of eavesdropping. You can "
+"verify this in the URL bar: if your connection is encrypted, the address "
+"will begin with “https://”, rather than “http://”."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.title)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.title)
+msgid "SECURITY SETTINGS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.description)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.description)
+msgid "Configuring Tor Browser for security and usability"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"By default, Tor Browser protects your security by encrypting your browsing "
+"data."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"You can further increase your security by choosing to disable certain web "
+"features that can be used to compromise your security and anonymity."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"You can do this by increasing Tor Browser's Security Levels in the shield "
+"menu."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"Increasing Tor Browser's security level will stop some web pages from "
+"functioning properly, so you should weigh your security needs against the "
+"degree of usability you require."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "### ACCESSING THE SECURITY SETTINGS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"The Security Settings can be accessed by clicking the Shield icon next to "
+"the Tor Browser URL bar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"To view and adjust your Security Settings, click the 'Advanced Security "
+"Settings...' button in the shield menu."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:100%\" class=\"col-lg-6\" src=\"../../static/images/"
+"security-settings-anim.gif\" alt=\"Click on 'Advanced Security Settings' "
+"under the shield menu.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "### SECURITY LEVELS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"Increasing the Security Level in the Tor Browser Security Settings will "
+"disable or partially disable certain browser features to protect against "
+"possible attacks."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"You can enable these settings again at any time by adjusting your Security "
+"Level."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:100%\" class=\"col-lg-6\" src=\"../../static/images/"
+"security-settings-safest.png\" alt=\"Security Level is currently set to "
+"Standard.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "###### Standard"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "* At this level, all Tor Browser and website features are enabled."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "###### Safer"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"* This level disables website features that are often dangerous. This may "
+"cause some sites to lose functionality."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"* JavaScript is disabled on all non-[HTTPS](/secure-connections) sites; some "
+"fonts and math symbols are disabled; audio and video (HTML5 media) are click-"
+"to-play."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "###### Safest"
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"* This level only allows website features required for static sites and "
+"basic services."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid "These changes affect images, media, and scripts."
+msgstr ""
+
+#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
+#: page to update page/ (content/security-slider~Redirect
+#: page/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/security-settings/
+#: (content/security-settings/contents+en.lr:topic.body)
+msgid ""
+"* Javascript is disabled by default on all sites; some fonts, icons, math "
+"symbols, and images are disabled; audio and video (HTML5 media) are click-to-"
+"play."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.title)
+msgid "UPDATING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.description)
+msgid "How to update Tor Browser"
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser must be kept updated at all times. If you continue to use an "
+"outdated version of the software, you may be vulnerable to serious security "
+"flaws that compromise your privacy and anonymity."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser will prompt you to update the software once a new version has "
+"been released: the hamburger menu (main menu) will display a green circle "
+"with an upwards facing arrow in it, and you may see a written update "
+"indicator when Tor Browser opens. You can update either automatically or "
+"manually."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid "### UPDATING TOR BROWSER AUTOMATICALLY"
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"<img width=\"400\" src=\"../../static/images/update1.png\" alt=\"Select "
+"'Restart to update Tor Browser' under the main menu\"/>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"When you are prompted to update Tor Browser, click on hamburger menu (main "
+"menu), then select “Restart to update Tor browser”."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"<img width=\"500\" src=\"../../static/images/update4.png\" alt=\"Update "
+"progress bar\"/>"
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"Wait for the update to download and install, then Tor Browser will restart "
+"itself. You will now be running the latest version."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid "### UPDATING TOR BROWSER MANUALLY"
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"When you are prompted to update Tor Browser, finish the browsing session and "
+"close the program."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"Remove Tor Browser from your system by deleting the folder that contains it "
+"(see the [Uninstalling](/uninstalling) section for more information)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/updating/
+#: (content/updating/contents+en.lr:topic.body)
+msgid ""
+"Visit https://www.torproject.org/download/ and download a copy of the latest "
+"Tor Browser release, then install it as before."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.title)
+msgid "TROUBLESHOOTING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.description)
+msgid "What to do if Tor Browser doesn’t work"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"You should be able to start browsing the web using Tor Browser shortly after "
+"running the program, and clicking the “Connect” button if you are using it "
+"for the first time."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/connect.png\" alt=\"Click "
+"'Connect' to connect to Tor.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "### QUICK FIXES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "If Tor Browser doesn’t connect, there may be a simple solution."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "Try each of the following:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"* Your computer’s system clock must be set correctly, or Tor will not be "
+"able to connect."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"* Make sure another Tor Browser or instance of 'Tor' is not already running "
+"on your system."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "If you’re not sure if Tor Browser is running, restart your computer."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"* Make sure that any antivirus program you have installed is not preventing "
+"Tor from running."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"You may need to consult the documentation for your antivirus software if you "
+"do not know how to do this."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Temporarily disable your firewall."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"* If Tor Browser was working before and is not working now your system may "
+"have been hibernating."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "A reboot of your system will solve the issue."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "* Delete Tor Browser and install it again."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"If updating, do not just overwrite your previous Tor Browser files; ensure "
+"they are fully deleted beforehand."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "### VIEW TOR LOGS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"In most cases, taking a look at the Tor logs can be helpful in diagnosing "
+"the issue."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"If you’re having trouble connecting, an error message may appear and you can "
+"select the option to \"copy Tor log to clipboard\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "Then paste the Tor log into a text file or other document."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"If you don't see this option and you have Tor Browser open, you can navigate "
+"to the hamburger menu (\"≡\"), then click on \"Preferences\", and finally on "
+"\"Tor\" in the side bar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"At the bottom of the page, next to the \"View the Tor logs\" text, click the "
+"button \"View Logs...\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"Alternatively, on GNU/Linux, to view the logs right in the terminal, "
+"navigate to the Tor Browser directory and launch the Tor Browser from the "
+"command line by running:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "`./start-tor-browser.desktop --verbose`"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "Or to save the logs to a file (default: tor-browser.log):"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "`./start-tor-browser.desktop --log [file]`"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"More information on this can be found on the [Support Portal](https://"
+"support.torproject.org/connecting/connecting-2/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid "### IS YOUR CONNECTION CENSORED?"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"If you still can’t connect, your Internet Service Provider might be "
+"censoring connections to the Tor network."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"Read the [Circumvention](/circumvention) section for possible solutions."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### KNOWN ISSUES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser is under constant development, and some issues are known about "
+"but not yet fixed."
+msgstr ""
+
+#: https://tb-manual.torproject.org/troubleshooting/
+#: (content/troubleshooting/contents+en.lr:topic.body)
+msgid ""
+"Please check the [Known Issues](/known-issues) page to see if the problem "
+"you are experiencing is already listed there."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.title)
+msgid "PLUGINS, ADD-ONS AND JAVASCRIPT"
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.description)
+msgid "How Tor Browser handles add-ons, plugins and JavaScript"
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid "### FLASH PLAYER"
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Video websites, such as Vimeo make use of the Flash Player plugin to display "
+"video content. Unfortunately, this software operates independently of Tor "
+"Browser and cannot easily be made to obey Tor Browser’s proxy settings. It "
+"can therefore reveal your real location and IP address to the website "
+"operators, or to an outside observer. For this reason, Flash is disabled by "
+"default in Tor Browser, and enabling it is not recommended."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Some video websites (such as YouTube) offer alternative video delivery "
+"methods that do not use Flash. These methods may be compatible with Tor "
+"Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid "### JAVASCRIPT"
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"JavaScript is a programming language that websites use to offer interactive "
+"elements such as video, animation, audio, and status timelines. "
+"Unfortunately, JavaScript can also enable attacks on the security of the "
+"browser, which might lead to deanonymization."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser includes an add-on called NoScript. It's accessible through "
+"'Preferences' on hamburger menu (main menu), then select 'Customize' and "
+"drag the “S” icon to the top-right of the window. NoScript allows you to "
+"control the JavaScript (and other scripts) that runs on individual web "
+"pages, or block it entirely."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Users who require a high degree of security in their web browsing should set "
+"Tor Browser’s [Security Level](../security-settings/) to “Safer” (which "
+"disables JavaScript for non-HTTPS websites) or “Safest” (which does so for "
+"all websites). However, disabling JavaScript will prevent many websites from "
+"displaying correctly, so Tor Browser’s default setting is to allow all "
+"websites to run scripts in \"Standard\" mode."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid "### BROWSER ADD-ONS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser is based on Firefox, and any browser add-ons or themes that are "
+"compatible with Firefox can also be installed in Tor Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/plugins/
+#: (content/plugins/contents+en.lr:topic.body)
+msgid ""
+"However, the only add-ons that have been tested for use with Tor Browser are "
+"those included by default. Installing any other browser add-ons may break "
+"functionality in Tor Browser or cause more serious problems that affect your "
+"privacy and security. It is strongly discouraged to install additional add-"
+"ons, and the Tor Project will not offer support for these configurations."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.title)
+msgid "UNINSTALLING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.description)
+msgid "How to remove Tor Browser from your system"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "Removing Tor Browser from your system is simple:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "On Windows:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"* Locate your Tor Browser folder or application. The default location is the "
+"Desktop."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "* Delete the Tor Browser folder or application."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "* Empty your Trash."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "On macOS:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"* Locate your Tor Browser application. The default location is the "
+"Applications folder."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "* Move the Tor Browser application to Trash."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "* Go to your `~/Library/Application Support/` folder."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"* Note the Library folder is hidden on newer versions of macOS. To navigate "
+"to this folder in Finder, select \"Go to Folder...\" in the \"Go\" menu."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"\" src=\"/static/images/macos-go-to-folder-menu.png\" alt=\"Go "
+"to folder menu option.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"*  Then type \"~/Library/Application Support/\" in the window and click Go."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"\" src=\"/static/images/macos-go-to-folder-window.png\" alt="
+"\"Go to folder window.\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "* Locate the TorBrowser-Data folder and move it to Trash."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"Note that if you did not install Tor Browser in the default location (the "
+"Applications folder), then the TorBrowser-Data folder is not located in the "
+"`~/Library/Application Support/` folder, but in the same folder where you "
+"installed Tor Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "On Linux:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"* Locate your Tor Browser folder. On Linux, there is no default location, "
+"however the folder will be named \"tor-browser_en-US\" if you are running "
+"the English Tor Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid "* Delete the Tor Browser folder."
+msgstr ""
+
+#: https://tb-manual.torproject.org/uninstalling/
+#: (content/uninstalling/contents+en.lr:topic.body)
+msgid ""
+"Note that your operating system’s standard \"Uninstall\" utility is not used."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.title)
+msgid "KNOWN ISSUES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Tor needs your system clock (and your time zone) set to the correct time."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Antivirus or malware protection blocking users from accessing Tor Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"Sometimes these also pop up with [false positives regarding malware and/or "
+"vulnerabilities](https://support.torproject.org/tbb/antivirus-false-"
+"positive/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"You can read more about this on our [Support Portal](https://support."
+"torproject.org/tbb/tbb-10/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"The following antivirus and firewall software have been known to interfere "
+"with Tor and may need to be temporarily disabled:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Webroot SecureAnywhere"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Kaspersky Internet Security 2012"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Sophos Antivirus for Mac"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Microsoft Security Essentials"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Avast Antivirus"
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* VPNs also tend to interfere with Tor and need to be disabled."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"We also do not recommend using VPN and Tor together unless you're an "
+"advanced user who knows how to configure both in a way that doesn't "
+"compromise your privacy."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"You can find more detailed information about Tor + VPN at our [wiki](https://"
+"gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Videos that require Adobe Flash are unavailable."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "Flash is disabled for security reasons."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* Tor can not use a bridge if a proxy is set."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "* The Tor Browser package is dated January 1, 2000 00:00:00 UTC."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "This is to ensure that each software build is exactly reproducible."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Issues with making Tor Browser as your [default browser](https://support."
+"torproject.org/tbb/tbb-32/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* If Tor Browser was working before and is not working now (especially after "
+"a re-install or an update), your system may have been hibernating."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid "A reboot of your system, in that case, will solve the issue."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* Tor won't start on Windows when the [folder path contains non-ascii "
+"characters](https://gitlab.torproject.org/tpo/core/tor/-/issues/10416)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.body)
+msgid ""
+"* BitTorrent [is not anonymous over Tor](https://blog.torproject.org/"
+"bittorrent-over-tor-isnt-good-idea)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.title)
+msgid "MOBILE TOR"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.description)
+msgid "Learn about Tor for mobile devices"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### Tor Browser for Android"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser for Android is the only official mobile browser supported and "
+"developed by the Tor Project."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "It is like the desktop Tor Browser, but for your Android mobile device."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Some of the prime features of Tor Browser for Android include: reducing "
+"tracking across websites, defending against surveillance, resisting browser "
+"fingerprinting, and circumventing censorship."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### DOWNLOADING AND INSTALLATION"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"There exists Tor Browser for Android and Tor Browser for Android (alpha)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Non-technical users should get Tor Browser for Android, as this is stable "
+"and less prone to errors."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser for Android is available on Play Store, F-Droid and the Tor "
+"Project website."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"It is very risky to download Tor Browser outside of these three platforms."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Google Play"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"You can install Tor Browser for Android from [Google Play Store](https://"
+"play.google.com/store/apps/details?id=org.torproject.torbrowser)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### F-Droid"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"The Guardian Project provides Tor Browser for Android on their F-Droid "
+"repository."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If you would prefer installing the app from F-Droid, please follow these "
+"steps:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"1. Install the F-Droid app on your Android device from [the F-Droid website.]"
+"(https://f-droid.org/)"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "2. After installing F-Droid, open the app."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "3. At the lower-right-hand corner, open \"Settings\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "4. Under the \"My Apps\" section, open Repositories."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "5. Toggle \"Guardian Project Official Releases\" as enabled."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"6. Now F-Droid downloads the list of apps from the Guardian Project's "
+"repository (Note: this may take a few minutes)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "7. Tap the Back button at the upper-left-hand corner."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "8. Open \"Latest\" at the lower-left-hand corner."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"10. Open the search screen by tapping the magnifying glass at the lower-"
+"right side."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "11. Search for \"Tor Browser for Android\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "12. Open the query result by \"The Tor Project\" and install."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### The Tor Project website"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"You can also get Tor Browser for Android by downloading and installing the "
+"apk from the [Tor Project website](https://www.torproject.org/download/"
+"#android)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### RUNNING TOR BROWSER FOR ANDROID FOR THE FIRST TIME"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"When you run Tor Browser for the first time, you will see the option to "
+"connect directly to the Tor network, or to configure Tor Browser for your "
+"connection with the settings icon."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Connect"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-connect.png\" alt=\"Connect to Tor Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Once tapped, changing sentences will appear at the bottom of the screen, "
+"indicating Tor’s connection progress."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If you are on a relatively fast connection, but this text seems to get stuck "
+"at a certain point, see the [Troubleshooting](../troubleshooting) page for "
+"help solving the problem."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Configure"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-configure.png\" alt=\"Configure Tor Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If you know that your connection is censored, you should select the settings "
+"icon."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"The first screen will tell you about the status of the Tor Network and "
+"provide you the option to configure a Bridge ('Config Bridge')."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If you know your connection is censored, or you have tried and failed to "
+"connect to the Tor network and no other solutions have worked, tap on "
+"'Config Bridge'."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"You will then be taken to the [Circumvention](../circumvention) screen to "
+"configure a pluggable transport."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### CIRCUMVENTION"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Bridge relays are Tor relays that are not listed in the public Tor directory."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Bridges are useful for Tor users under oppressive regimes, and for people "
+"who want an extra layer of security because they're worried somebody will "
+"recognize that they are contacting a public Tor relay IP address."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"To use a pluggable transport, tap on the settings icon when starting Tor "
+"Browser for the first time."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"The first screen tells you about the status of the Tor network. Tap on "
+"'Config Bridge' to configure a bridge."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-censored.png\" alt=\"Censored internet on Tor Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"The next screen provides the option to either use a built-in bridge or "
+"custom bridge."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"With the \"Use a Bridge\" option, you will have two options: \"obfs4\" and "
+"\"meek-azure\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-select-a-bridge.png\" alt=\"Select a bridge on Tor Browser for "
+"Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-selected-a-bridge.png\" alt=\"Selected a bridge on Tor Browser for "
+"Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If you choose the \"Provide a Bridge I know\" option, then you have to enter "
+"a [bridge address](../bridges/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-provide-a-bridge.png\" alt=\"Provide a bridge on Tor Browser for "
+"Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-provided-a-bridge.png\" alt=\"Provide brigde addresses on Tor "
+"Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### MANAGING IDENTITIES"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### New Identity"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-new-identity.png\" alt=\"New Identity on Tor Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"When Tor Browser is running, you would see so in your phone's notification "
+"panel along with the button \"NEW IDENTITY\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "Tapping on this button will provide you with a new identity."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Unlike in Tor Browser for Desktop, the \"NEW IDENTITY\" button in Tor "
+"Browser for Android does not prevent your subsequent browser activity from "
+"being linkable to what you were doing before."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "Selecting it will only change your Tor circuit."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### SECURITY SETTINGS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-security-settings.gif\" alt=\"Security settings and security slider "
+"on Tor Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"[Security settings](../security-settings/) disable certain web features that "
+"can be used to compromise your security and anonymity."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser for Android provides the same three security levels that are "
+"available on desktop."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "You can modify the security level by following given steps:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "* Tap on a button of 3 vertical dots in URL bar."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "* Scroll down and tap on \"Security Settings\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "* You can now select an option i.e. Standard, Safer or Safest."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### UPDATING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "You can update Tor Browser automatically or manually."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Updating Tor Browser for Android automatically"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"This method assumes that you have either Google Play or F-Droid installed on "
+"your mobile device."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "##### Google Play"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-update-google-play.png\" alt=\"Updating Tor Browser for Android on "
+"Google Play\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tap on the hamburger menu next to the search bar and navigate to \"My apps & "
+"games\" > \"Updates\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If you find Tor Browser on the list of apps which need updating, select it "
+"and tap the \"Update\" button."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "##### F-Droid"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-update-f-droid.png\" alt=\"Updating Tor Browser for Android on F-"
+"Droid\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "Tap on \"Settings\", then go to \"Manage installed apps\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"On the next screen, select Tor Browser and finally tap on the \"Update\" "
+"button."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Updating Tor Browser for Android manually"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Visit the [Tor Project website](https://www.torproject.org/download/"
+"#android) and download a copy of the latest Tor Browser release, then "
+"[install](/mobile-tor/#downloading-and-installation) it as before."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"In most cases, this latest version of Tor Browser will install over the "
+"older version, thereby upgrading the browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"If doing this fails to update the browser, you may have to uninstall Tor "
+"Browser before reinstalling it."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"With Tor Browser closed, remove it from your system by uninstalling it using "
+"your device's settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Depending on your mobile device's brand, navigate to Settings > Apps, then "
+"select Tor Browser and tap on the \"Uninstall\" button. Afterwards, download "
+"the latest Tor Browser release and install it."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### UNINSTALLING"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tor Browser for Android can be uninstalled directly from F-Droid, Google "
+"Play or from your mobile device's app settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-uninstall-google-play.png\" alt=\"Uninstalling Tor Browser for "
+"Android on Google Play\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Tap on the hamburger menu next to the search bar and navigate to \"My apps & "
+"games\" > \"Installed\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Select Tor Browser from the list of installed apps, then press the "
+"\"Uninstall\" button."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-uninstall-f-droid.png\" alt=\"Uninstalling Tor Browser for Android "
+"on F-Droid\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"On the next screen, select Tor Browser and finally tap on the \"Uninstall\" "
+"button."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Mobile device app settings"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"col-md-6\" src=\"../../static/images/"
+"android-uninstall-device-settings.png\" alt=\"Uninstalling Tor Browser for "
+"Android using device app settings\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Depending on your mobile device's brand, navigate to Settings > Apps, then "
+"select Tor Browser and tap on the \"Uninstall\" button."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"At the moment, there are some features which are not available in Tor "
+"Browser for Android, but are currently available in Tor Browser for desktop."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"* You can't see your Tor circuit. [#25764](https://gitlab.torproject.org/tpo/"
+"applications/torbutton/-/issues/25764)"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"* Tor Browser for Android does not connect when moved to the SD Card. "
+"[#31814](https://gitlab.torproject.org/tpo/applications/tor-browser/-/"
+"issues/31814)"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"* You can't take screenshots while using Tor Browser for Android. [#27987]"
+"(https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987)"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"* Can't upload files with Tor Browser for Android. [#40283](https://gitlab."
+"torproject.org/tpo/applications/tor-browser/-/issues/40283)"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### More about Tor on mobile devices"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Orfox"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Orfox was first released in 2015 by The Guardian Project, with the aim of "
+"giving Android users a way to browse the internet over Tor."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Over the next three years, Orfox continuously improved and became a popular "
+"way for people to browse the internet with more privacy than standard "
+"browsers, and Orfox was crucial for helping people circumvent censorship and "
+"access blocked sites and critical resources."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"In 2019, [Orfox was sunsetted](https://blog.torproject.org/orfox-paved-way-"
+"tor-browser-android) after the official Tor Browser for Android was released."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### Orbot"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Orbot is a free proxy app that empowers other apps to use the Tor network."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "Orbot uses Tor to encrypt your Internet traffic."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Then you can use it with other apps installed on your mobile device to "
+"circumvent censorship and protect against surveillance."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Orbot can be downloaded and installed from [Google Play](https://play.google."
+"com/store/apps/details?id=org.torproject.android)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Check out [our Support portal](https://support.torproject.org/tormobile/"
+"tormobile-6/) to know if you need both Tor Browser for Android and Orbot or "
+"either one."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### Tor Browser for iOS"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "There is no Tor Browser for iOS."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"We recommend an iOS app called Onion Browser, which is open source, uses Tor "
+"routing, and is developed by someone who works closely with the Tor Project."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"However, Apple requires browsers on iOS to use something called Webkit, "
+"which prevents Onion Browser from having the same privacy protections as Tor "
+"Browser."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"[Learn more about Onion Browser](https://blog.torproject.org/tor-heart-onion-"
+"browser-and-more-ios-tor)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"Download Onion Browser from the [App Store](https://itunes.apple.com/us/app/"
+"onion-browser/id519296448)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "### Tor Browser for Windows Phone"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"There is currently no supported method for running Tor on older Windows "
+"Phones but in case of the newer Microsoft-branded/promoted phones, same "
+"steps on [Tor Browser on Android](#tor-browser-for-android) can be followed."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.title)
+msgid "MAKE TOR BROWSER PORTABLE"
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.description)
+msgid "How to install Tor Browser onto removable media"
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"If preferred, Tor Browser may be made portable by extracting it from its "
+"archive directly onto removable media such as a USB stick or SD card."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"It is recommended to use writable media so that Tor Browser can be updated "
+"as required."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"1. Plug in your removable media and format it. Any filesystem type will work."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"2. Navigate to the Tor Browser [download page](https://torproject.org/"
+"download)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid "3. Download the Windows `.exe` file and save it directly to your media."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"4. (Recommended) Verify the [files signature](https://support.torproject.org/"
+"tbb/how-to-verify-signature/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"5. When the download is complete, click the `.exe` file and begin the "
+"installation process."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"6. When the installer asks where to install Tor Browser, select your "
+"removable media."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"1. Plug in your removable media and format it. You *must* use macOS Extended "
+"(Journaled) format."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid "3. Download the macOS `.dmg` file and save it directly to your media."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"5. When the download is complete, click the `.dmg` file and begin the "
+"installation process."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"3. Download the Linux `.tar.xz` file and save it directly to your media."
+msgstr ""
+
+#: https://tb-manual.torproject.org/make-tor-portable/
+#: (content/make-tor-portable/contents+en.lr:topic.body)
+msgid ""
+"5. When the download is complete, extract the archive onto the media as well."
+msgstr ""
+
+#: lego/templates/banner.html:3 lego/templates/banner.html:5
+#: templates/banner.html:3 templates/banner.html:5
+msgid "Close banner"
+msgstr ""
+
+#: lego/templates/banner.html:11 templates/banner.html:11
+msgid "Use a Mask, Use Tor."
+msgstr ""
+
+#: lego/templates/banner.html:20 templates/banner.html:20
+msgid "Resist the surveillance pandemic."
+msgstr ""
+
+#: lego/templates/banner.html:32 templates/banner.html:32
+msgid "Your donation will be matched by Friends of Tor, up to $100,000."
+msgstr ""
+
+#: lego/templates/banner.html:38 lego/templates/footer.html:64
+#: lego/templates/footer.html:66 lego/templates/navbar.html:18
+#: lego/templates/navbar.html:20 templates/banner.html:38
+#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
+#: templates/navbar.html:20
+msgid "Donate Now"
+msgstr ""
+
+#: lego/templates/banner.html:40 templates/banner.html:40
+msgid "DONATE NOW"
+msgstr ""
+
+#: lego/templates/footer.html:13 lego/templates/footer.html:22
+#: lego/templates/navbar.html:83 templates/footer.html:13
+#: templates/footer.html:22 templates/navbar.html:83
+msgid "Download Tor Browser"
+msgstr ""
+
+#: lego/templates/footer.html:14 templates/footer.html:14
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+
+#: lego/templates/footer.html:35 templates/footer.html:35
+msgid "Our mission:"
+msgstr ""
+
+#: lego/templates/footer.html:36 templates/footer.html:36
+msgid ""
+"To advance human rights and freedoms by creating and deploying free and open "
+"source anonymity and privacy technologies, supporting their unrestricted "
+"availability and use, and furthering their scientific and popular "
+"understanding."
+msgstr ""
+
+#: lego/templates/footer.html:64 lego/templates/footer.html:66
+#: lego/templates/navbar.html:18 lego/templates/navbar.html:20
+#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
+#: templates/navbar.html:20
+msgid "Donate"
+msgstr ""
+
+#: lego/templates/footer.html:75 templates/footer.html:75
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: lego/templates/footer.html:76 templates/footer.html:76
+msgid "Get monthly updates and opportunities from the Tor Project:"
+msgstr ""
+
+#: lego/templates/footer.html:77 templates/footer.html:77
+msgid "Sign up"
+msgstr ""
+
+#: lego/templates/footer.html:98 templates/footer.html:98
+#, python-format
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our %(link_to_faq)s"
+msgstr ""
+
+#: lego/templates/navbar.html:25 templates/navbar.html:25
+msgid "Menu"
+msgstr ""
+
+#: lego/templates/search.html:5 templates/search.html:5
+msgid "Search"
+msgstr ""
+
+#: lego/templates/secure-connections.html:1 templates/secure-connections.html:1
+msgid ""
+"The following visualization shows what information is visible to "
+"eavesdroppers with and without Tor Browser and HTTPS encryption:"
+msgstr ""
+
+#: lego/templates/secure-connections.html:4 templates/secure-connections.html:4
+msgid ""
+"Click the “Tor” button to see what data is visible to observers when you're "
+"using Tor. The button will turn green to indicate that Tor is on."
+msgstr ""
+
+#: lego/templates/secure-connections.html:5 templates/secure-connections.html:5
+msgid ""
+"Click the “HTTPS” button to see what data is visible to observers when "
+"you're using HTTPS. The button will turn green to indicate that HTTPS is on."
+msgstr ""
+
+#: lego/templates/secure-connections.html:6 templates/secure-connections.html:6
+msgid ""
+"When both buttons are green, you see the data that is visible to observers "
+"when you are using both tools."
+msgstr ""
+
+#: lego/templates/secure-connections.html:7 templates/secure-connections.html:7
+msgid ""
+"When both buttons are grey, you see the data that is visible to observers "
+"when you don't use either tool."
+msgstr ""
+
+#: lego/templates/secure-connections.html:11
+#: templates/secure-connections.html:11
+msgid "HTTPS"
+msgstr ""
+
+#: lego/templates/secure-connections.html:15
+#: lego/templates/secure-connections.html:65
+#: templates/secure-connections.html:15 templates/secure-connections.html:65
+msgid "Tor"
+msgstr ""
+
+#: lego/templates/secure-connections.html:32
+#: templates/secure-connections.html:32
+msgid "POTENTIALLY VISIBLE DATA"
+msgstr ""
+
+#: lego/templates/secure-connections.html:37
+#: templates/secure-connections.html:37
+msgid "Site.com"
+msgstr ""
+
+#: lego/templates/secure-connections.html:40
+#: templates/secure-connections.html:40
+msgid "The site being visited."
+msgstr ""
+
+#: lego/templates/secure-connections.html:44
+#: templates/secure-connections.html:44
+msgid "user / pw"
+msgstr ""
+
+#: lego/templates/secure-connections.html:47
+#: templates/secure-connections.html:47
+msgid "Username and password used for authentication."
+msgstr ""
+
+#: lego/templates/secure-connections.html:51
+#: templates/secure-connections.html:51
+msgid "data"
+msgstr ""
+
+#: lego/templates/secure-connections.html:54
+#: templates/secure-connections.html:54
+msgid "Data being transmitted."
+msgstr ""
+
+#: lego/templates/secure-connections.html:58
+#: templates/secure-connections.html:58
+msgid "location"
+msgstr ""
+
+#: lego/templates/secure-connections.html:61
+#: templates/secure-connections.html:61
+msgid ""
+"Network location of the computer used to visit the website (the public IP "
+"address)."
+msgstr ""
+
+#: lego/templates/secure-connections.html:68
+#: templates/secure-connections.html:68
+msgid "Whether or not Tor is being used."
+msgstr ""
+
+#: templates/layout.html:5
+msgid ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
+msgstr ""
+
+#: templates/layout.html:14
+msgid "Tor Project | Tor Browser Manual"
+msgstr ""
+
+#: templates/sidenav.html:4 templates/sidenav.html:34
+msgid "Topics"
+msgstr ""
+
+#: templates/macros/topic.html:22
+msgid "Contributors to this page:"
+msgstr ""
+
+#: templates/macros/topic.html:24
+msgid "Edit this page"
+msgstr ""
+
+#: templates/macros/topic.html:25
+msgid "Suggest Feedback"
+msgstr ""
+
+#: templates/macros/topic.html:26
+msgid "Permalink"
+msgstr ""
