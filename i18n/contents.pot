@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-08 16:23+CET\n"
+"POT-Creation-Date: 2021-05-18 15:38+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -1538,25 +1538,16 @@ msgid ""
 "will begin with “https://”, rather than “http://”."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.title)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.title)
 msgid "SECURITY SETTINGS"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.description)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.description)
 msgid "Configuring Tor Browser for security and usability"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1564,9 +1555,6 @@ msgid ""
 "data."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1574,9 +1562,6 @@ msgid ""
 "features that can be used to compromise your security and anonymity."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1584,9 +1569,6 @@ msgid ""
 "menu."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1595,17 +1577,11 @@ msgid ""
 "degree of usability you require."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "### ACCESSING THE SECURITY SETTINGS"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1613,9 +1589,6 @@ msgid ""
 "the Tor Browser URL bar."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1623,9 +1596,6 @@ msgid ""
 "Settings...' button in the shield menu."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1634,17 +1604,11 @@ msgid ""
 "under the shield menu.\">"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "### SECURITY LEVELS"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1653,9 +1617,6 @@ msgid ""
 "possible attacks."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1663,9 +1624,6 @@ msgid ""
 "Level."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1674,33 +1632,21 @@ msgid ""
 "Standard.\">"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "###### Standard"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "* At this level, all Tor Browser and website features are enabled."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "###### Safer"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1708,9 +1654,6 @@ msgid ""
 "cause some sites to lose functionality."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1719,17 +1662,11 @@ msgid ""
 "to-play."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "###### Safest"
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
@@ -1737,17 +1674,11 @@ msgid ""
 "basic services."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid "These changes affect images, media, and scripts."
 msgstr ""
 
-#: https://tb-manual.torproject.org/security-slider~Redirect links from orphan
-#: page to update page/ (content/security-slider~Redirect
-#: page/contents+en.lr:topic.body)
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
