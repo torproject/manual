@@ -1,4 +1,4 @@
-image: python:3.9-slim-buster
+image: debian:buster-slim
 
 cache:
   key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
@@ -32,8 +32,7 @@ variables:
 
 before_script:
     - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector -y
-    - pip3 install virtualenv
+    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector python3-virtualenv -y
     - virtualenv venv
     - source venv/bin/activate
     - pip3 install lektor
