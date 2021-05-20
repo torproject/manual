@@ -36,7 +36,6 @@ before_script:
     - pip3 install virtualenv
     - virtualenv venv
     - source venv/bin/activate
-    - pip3 install wheel
     - pip3 install lektor
     - echo 'checking out translations'
     - rm -rf i18n
@@ -48,6 +47,7 @@ before_script:
 pages:
   script:
     - echo 'building lektor 3 times to get translations in place'
+    - lektor plugins reinstall
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
     - echo 'lets see if there are any updates in the strings for translation'
     - l10n/bin/check_po_status.py tbmanual-contentspot
