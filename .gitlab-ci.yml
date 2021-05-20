@@ -5,7 +5,6 @@ cache:
   paths:
     - packages
     - venv
-    - i18n
     - lego
     - apt-cache
 
