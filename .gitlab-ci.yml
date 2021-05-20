@@ -4,7 +4,6 @@ cache:
   key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
   paths:
     - packages
-    - venv
     - lego
     - apt-cache
 
