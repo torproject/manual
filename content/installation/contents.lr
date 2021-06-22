@@ -14,7 +14,7 @@ For Windows:
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the Windows `.exe` file
+2. Download the Windows `.exe` file.
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
@@ -25,7 +25,7 @@ For macOS:
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the macOS `.dmg` file
+2. Download the macOS `.dmg` file.
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
@@ -36,7 +36,7 @@ For GNU/Linux:
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the GNU/Linux `.tar.xz` file
+2. Download the GNU/Linux `.tar.xz` file.
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
