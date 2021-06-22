@@ -24,7 +24,7 @@ Currently there are three pluggable transports available, but more are being dev
     obfs4
 </td>
 <td>
-    obfs4 makes Tor traffic look random, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than its predecessor, obfs3 bridges.
+    obfs4 makes Tor traffic look random, and also prevents censors from finding bridges by Internet scanning. obfs4 bridges are less likely to be blocked than its predecessors, obfs3 bridges.
 </td>
 </tr>
 <tr class="odd">

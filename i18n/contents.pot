@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-18 15:38+CET\n"
+"POT-Creation-Date: 2021-06-22 18:19+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -365,7 +365,7 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
 #: (content/installation/contents+en.lr:topic.body)
-msgid "2. Download the Windows `.exe` file"
+msgid "2. Download the Windows `.exe` file."
 msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
@@ -391,7 +391,7 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
 #: (content/installation/contents+en.lr:topic.body)
-msgid "2. Download the macOS `.dmg` file"
+msgid "2. Download the macOS `.dmg` file."
 msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
@@ -410,7 +410,7 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
 #: (content/installation/contents+en.lr:topic.body)
-msgid "2. Download the GNU/Linux `.tar.xz` file"
+msgid "2. Download the GNU/Linux `.tar.xz` file."
 msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
@@ -709,7 +709,7 @@ msgstr ""
 msgid ""
 "obfs4 makes Tor traffic look random, and also prevents censors from finding "
 "bridges by Internet scanning. obfs4 bridges are less likely to be blocked "
-"than its predecessor, obfs3 bridges."
+"than its predecessors, obfs3 bridges."
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
@@ -875,7 +875,7 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"Using bridges in combination with pluggable transports helps to disguise the "
+"Using bridges in combination with pluggable transports helps to conceal the "
 "fact that you are using Tor, but may slow down the connection compared to "
 "using ordinary Tor relays."
 msgstr ""
