@@ -16,8 +16,7 @@ To clone the code use either one of these options:
 How to report bugs or feedback
 ==============================
 
-Please file a [trac ticket](https://trac.torproject.org) and choose the component: Community/Tor Browser Manual
-
+First, check if the bug is already known. You can search and read all the issues at https://gitlab.torproject.org/. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
 
 What is Lektor?
 ===============
