@@ -189,7 +189,8 @@ At the moment, there are some features which are not available in Tor Browser fo
 * You can't see your Tor circuit. [#25764](https://gitlab.torproject.org/tpo/applications/torbutton/-/issues/25764)
 * Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814)
 * You can't take screenshots while using Tor Browser for Android. [#27987](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987)  
-* Can't upload files with Tor Browser for Android. [#40283](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283)
+* You can't upload files with Tor Browser for Android. [#40283](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283)
+* You can't open onion addresses that requires Client Authorization [#31672](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672)
 
 ### More about Tor on mobile devices
 
