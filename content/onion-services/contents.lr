@@ -70,6 +70,6 @@ If you cannot reach the onion service you requested, make sure that you have ent
 
 If you are still unable to connect to the onion service after verifying the address, please try again later. There may be a temporary connection issue, or the site operators may have allowed it to go offline without warning.
 
-If they onion service you are trying to access consists of a string of 16 characters (V2 format), this type of address is [being deprecated](https://support.torproject.org/onionservices/v2-deprecation/).
+If the onion service you are trying to access consists of a string of 16 characters (V2 format), this type of address is [being deprecated](https://support.torproject.org/onionservices/v2-deprecation/).
 
 You can also test if you are able to access other onion services by connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/).
