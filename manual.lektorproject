@@ -4,12 +4,6 @@ url = https://manual.torproject.org/
 url_style = relative
 locale = en
 
-[alternatives.en]
-name = English (en)
-primary = yes
-url_prefix = /
-locale = en
-
 [alternatives.ar]
 name = عربية (ar)
 url_prefix = /ar/
@@ -35,15 +29,16 @@ name = Ελληνικά (el)
 url_prefix = /el/
 locale = el
 
+[alternatives.en]
+name = English (en)
+primary = yes
+url_prefix = /
+locale = en
+
 [alternatives.es]
 name = Español (es)
 url_prefix = /es/
 locale = es
-
-[alternatives.es-AR]
-name = Español Arg. (es-AR)
-url_prefix = /es-AR/
-locale = es-AR
 
 [alternatives.fr]
 name = Français (fr)
@@ -65,15 +60,15 @@ name = Indonesia (id)
 url_prefix = /id/
 locale = id
 
-[alternatives.it]
-name = Italiano (it)
-url_prefix = /it/
-locale = it
-
 [alternatives.is]
 name = Íslenska (is)
 url_prefix = /is/
 locale = is
+
+[alternatives.it]
+name = Italiano (it)
+url_prefix = /it/
+locale = it
 
 [alternatives.ka]
 name = ქართული ენა (ka)
@@ -116,7 +111,7 @@ url_prefix = /th/
 locale = th
 
 [alternatives.tr]
-name = Turkish
+name = Türkçe
 url_prefix = /tr/
 locale = tr
 
