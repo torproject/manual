@@ -72,4 +72,4 @@ If you are still unable to connect to the onion service after verifying the addr
 
 If the onion service you are trying to access consists of a string of 16 characters (V2 format), this type of address is [being deprecated](https://support.torproject.org/onionservices/v2-deprecation/).
 
-You can also test if you are able to access other onion services by connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/).
+You can also test if you are able to access other onion services by connecting to [DuckDuckGo's Onion Service](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/).
