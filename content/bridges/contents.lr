@@ -2,7 +2,7 @@ _model: topic
 ---
 title: BRIDGES
 ---
-description: Most Pluggable Transports, such as obfs4, rely on the use of “bridge” relays.
+description: Most Pluggable Transports, such as obfs4, rely on the use of "bridge" relays.
 ---
 seo_slug: bridges
 ---
@@ -10,7 +10,7 @@ key: 7
 ---
 body:
 
-Most [Pluggable Transports](/circumvention), such as obfs4, rely on the use of “bridge” relays.
+Most [Pluggable Transports](/circumvention), such as obfs4, rely on the use of "bridge" relays.
 Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays, however, they are not listed publicly, so an adversary cannot identify them easily.
 
 Using bridges in combination with pluggable transports helps to conceal the fact that you are using Tor, but may slow down the connection compared to using ordinary Tor relays.
@@ -30,23 +30,23 @@ Because bridge addresses are not public, you will need to request them yourself.
 <img class="col-md-6" align="right" hspace="5" src="../../static/images/request-a-bridge.png" alt="Request a bridge from torproject.org">
 
 If you're starting Tor Browser for the first time, click "Tor Network Settings" to open the Tor settings window.
-Under the "Bridges" section, select the checkbox "Use a bridge," then choose "Request a bridge from torproject.org" and click "Request a Bridge..." for BridgeDB to provide a bridge.
-Complete the Captcha and click "Submit." Click "Connect" to save your settings.
+Under the "Bridges" section, select the checkbox "Use a bridge", then choose "Request a bridge from torproject.org" and click "Request a Bridge..." for BridgeDB to provide a bridge.
+Complete the Captcha and click "Submit". Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Preferences" (or "Options" on Windows) in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Tor" in the sidebar.
-In the "Bridges" section, select the checkbox "Use a bridge," and from the option "Request a bridge from torproject.org," click "Request a New Bridge..." for BridgeDB to provide a bridge.
-Complete the Captcha and click "Submit." Your setting will automatically be saved once you close the tab.
+In the "Bridges" section, select the checkbox "Use a bridge", and from the option "Request a bridge from torproject.org", click "Request a New Bridge..." for BridgeDB to provide a bridge.
+Complete the Captcha and click "Submit". Your setting will automatically be saved once you close the tab.
 
 ### ENTERING BRIDGE ADDRESSES
 
 <img class="col-md-6" align="right" hspace="5" src="../../static/images/tor-launcher-custom-bridges.png" alt="Enter custom bridge addresses">
 
 If you're starting Tor Browser for the first time, click "Tor Network Settings" to open the Tor settings window.
-Under the "Bridges" section, select the checkbox "Use a bridge," choose "Provide a bridge I know" and enter each bridge address on a separate line.
+Under the "Bridges" section, select the checkbox "Use a bridge", choose "Provide a bridge I know" and enter each bridge address on a separate line.
 Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Preferences" (or "Options" on Windows) in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Tor" in the sidebar.
-In the "Bridges" section, select the checkbox "Use a bridge," and from the option "Provide a bridge I know," enter each bridge address on a separate line.
+In the "Bridges" section, select the checkbox "Use a bridge", and from the option "Provide a bridge I know", enter each bridge address on a separate line.
 Your settings will automatically be saved once you close the tab.
 
 If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
