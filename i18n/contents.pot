@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-22 19:43+CET\n"
+"POT-Creation-Date: 2021-07-16 18:26+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -328,15 +328,10 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
-msgid "### TO USE GETTOR VIA JABBER/XMPP (JITSI, COYIM, ETC.):"
-msgstr ""
-
-#: https://tb-manual.torproject.org/downloading/
-#: (content/downloading/contents+en.lr:topic.body)
 msgid ""
-"To get links for downloading Tor Browser in Chinese for Linux, send a "
-"message to [gettor@torproject.org](mailto:gettor@torproject.org) with the "
-"words \"linux zh\" in it."
+"For example, to get links for downloading Tor Browser in Chinese for "
+"Windows, send an email to [gettor@torproject.org](mailto:gettor@torproject."
+"org) with the words \"windows zh\" in it."
 msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
@@ -499,15 +494,22 @@ msgstr ""
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
-"When you run Tor Browser for the first time, you will see the Tor Network "
-"Settings window."
+"When you run Tor Browser for the first time, you will see the Connect to Tor "
+"window."
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
-"This offers you the option to connect directly to the Tor network, or to "
-"configure Tor Browser for your connection."
+"This offers you the option to either connect directly to the Tor network, or "
+"to configure Tor Browser for your connection."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"There's a checkbox which asks whether you always want to get automatically "
+"connected to the Tor network, if this is the case, check the box."
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
@@ -534,7 +536,7 @@ msgstr ""
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
-"Once clicked, a status bar will appear, showing Tor’s connection progress."
+"Once clicked, a status bar will appear, showing Tor's connection progress."
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
@@ -547,28 +549,21 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid "### CONFIGURE"
+msgid ""
+"Or, if you know that your connection is censored or uses a proxy, you should "
+"click on \"Tor Network Settings\"."
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/configure.png\" alt="
-"\"Click 'configure' to adjust network settings.\">"
+"\"Click 'Tor Network Settings' to adjust network settings.\">"
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid ""
-"If you know that your connection is censored or uses a proxy, you should "
-"select this option."
-msgstr ""
-
-#: https://tb-manual.torproject.org/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid ""
-"<img class=\"col-md-6\" src=\"../../static/images/proxy_question.png\" alt="
-"\"Select options for censored connection or proxy use.\">"
+msgid "### CONFIGURE"
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
@@ -581,6 +576,21 @@ msgstr ""
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
+"The first checkbox is Quickstart. If selected, every time you open Tor "
+"Browser, it will try to connect with your previous network settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"The second checkbox asks if you want to use a bridge. If you know your "
+"connection is censored, or you have tried and failed to connect to the Tor "
+"network and no other solutions have worked, select \"Use a bridge\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
 "<img class=\"col-md-6\" src=\"../../static/images/pluggable-transport.png\" "
 "alt=\"Configure Tor bridge options\">"
 msgstr ""
@@ -588,44 +598,21 @@ msgstr ""
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
-"The first checkbox asks if access to the Tor network is blocked or censored "
-"on your connection."
-msgstr ""
-
-#: https://tb-manual.torproject.org/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid "If you do not believe this is the case, leave this unchecked."
-msgstr ""
-
-#: https://tb-manual.torproject.org/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid ""
-"If you know your connection is censored, or you have tried and failed to "
-"connect to the Tor network and no other solutions have worked, check the "
-"checkbox."
-msgstr ""
-
-#: https://tb-manual.torproject.org/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid ""
 "This will display the [Circumvention](../circumvention) section to configure "
-"a pluggable transport."
+"a pluggable transport or to connect using [Bridges](../bridges)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid "### OTHER OPTIONS"
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
 msgid ""
-"<img class=\"col-md-6\" src=\"../../static/images/proxy.png\" alt="
-"\"Configure proxy options\">"
-msgstr ""
-
-#: https://tb-manual.torproject.org/running-tor-browser/
-#: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid ""
-"The second checkbox asks if your connection uses a proxy. In most cases, "
-"this is not necessary. You will usually know if you need to check this "
-"checkbox because the same settings will be used for other browsers on your "
-"system."
+"The third checkbox asks if your connection uses a proxy. In most cases, this "
+"is not necessary. You will usually know if you need to select this checkbox "
+"because the same settings will be used for other browsers on your system."
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
@@ -635,7 +622,14 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
 #: (content/running-tor-browser/contents+en.lr:topic.body)
-msgid "If your connection does not use a proxy, click “Connect”."
+msgid "If your connection does not use a proxy, click \"Connect\"."
+msgstr ""
+
+#: https://tb-manual.torproject.org/running-tor-browser/
+#: (content/running-tor-browser/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/proxy.png\" alt="
+"\"Configure proxy options\">"
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
@@ -765,15 +759,15 @@ msgstr ""
 #: https://tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
-"To use a pluggable transport, click \"Configure\" when starting Tor Browser "
-"for the first time."
+"To use a pluggable transport, click \"Tor Network Settings\" when starting "
+"Tor Browser for the first time."
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
-"After checking the checkbox \"Tor is censored in my country,\" choose the "
-"\"Select a built-in bridge\" option."
+"Under the \"Bridges\" section, select the checkbox \"Use a bridge\" and "
+"choose the \"Select a built-in bridge\" option."
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
@@ -785,8 +779,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
-"Once you've selected the pluggable transport, click \"Connect\" to save your "
-"settings."
+"Once you've selected the pluggable transport, scroll up and click \"Connect"
+"\" to save your settings."
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
@@ -794,15 +788,16 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"Or, if you have Tor Browser running, click on \"Preferences\" in the "
-"hamburger menu and then on \"Tor\" in the sidebar."
+"Or, if you have Tor Browser running, click on \"Preferences\" (or \"Options"
+"\" on Windows) in the [hamburger menu (≡)](https://support.torproject.org/"
+"glossary/hamburger-menu/) and then on \"Tor\" in the sidebar."
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
-"In the \"Bridges\" section, check the checkbox \"Use a bridge,\" and from "
-"the option \"Select a built-in bridge,\" choose whichever pluggable "
+"In the \"Bridges\" section, select the checkbox \"Use a bridge\", and from "
+"the option \"Select a built-in bridge\", choose whichever pluggable "
 "transport you'd like to use from the dropdown."
 msgstr ""
 
@@ -821,8 +816,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/circumvention/
 #: (content/circumvention/contents+en.lr:topic.body)
 msgid ""
-"Each of the transports listed in Tor Launcher’s menu works in a different "
-"way, and their effectiveness depends on your individual circumstances."
+"Each of the transports listed in Tor Bridge's menu works in a different way, "
+"and their effectiveness depends on your individual circumstances."
 msgstr ""
 
 #: https://tb-manual.torproject.org/circumvention/
@@ -854,14 +849,15 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.description)
 msgid ""
-"Most Pluggable Transports, such as obfs4, rely on the use of “bridge” relays."
+"Most Pluggable Transports, such as obfs4, rely on the use of \"bridge\" "
+"relays."
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
 "Most [Pluggable Transports](/circumvention), such as obfs4, rely on the use "
-"of “bridge” relays."
+"of \"bridge\" relays."
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
@@ -916,7 +912,7 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
-msgid "* Use MOAT to fetch bridges from within Tor Browser."
+msgid "* Use Moat to fetch bridges from within Tor Browser."
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
@@ -927,45 +923,45 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"<img class=\"col-md-6\" align=\"right\" hspace=\"5\" src=\"../../static/"
-"images/request-a-bridge.png\" alt=\"Request a bridge from torproject.org\">"
+"If you're starting Tor Browser for the first time, click \"Tor Network "
+"Settings\" to open the Tor settings window."
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"If you're starting Tor Browser for the first time, click \"Configure\" to "
-"open the Tor Network Settings window."
-msgstr ""
-
-#: https://tb-manual.torproject.org/bridges/
-#: (content/bridges/contents+en.lr:topic.body)
-msgid ""
-"After checking the checkbox \"Tor is censored in my country,\" choose "
-"\"Request a bridge from torproject.org\" and click \"Request a Bridge...\" "
-"for BridgeDB to provide a bridge."
-msgstr ""
-
-#: https://tb-manual.torproject.org/bridges/
-#: (content/bridges/contents+en.lr:topic.body)
-msgid ""
-"Complete the Captcha and click \"Submit.\" Click \"Connect\" to save your "
-"settings."
-msgstr ""
-
-#: https://tb-manual.torproject.org/bridges/
-#: (content/bridges/contents+en.lr:topic.body)
-msgid ""
-"In the \"Bridges\" section, check the checkbox \"Use a bridge,\" and from "
-"the option \"Request a bridge from torproject.org,\" click \"Request a New "
+"Under the \"Bridges\" section, select the checkbox \"Use a bridge\", then "
+"choose \"Request a bridge from torproject.org\" and click \"Request a "
 "Bridge...\" for BridgeDB to provide a bridge."
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"Complete the Captcha and click \"Submit.\" Your setting will automatically "
+"Complete the Captcha and click \"Submit\". Click \"Connect\" to save your "
+"settings."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"In the \"Bridges\" section, select the checkbox \"Use a bridge\", and from "
+"the option \"Request a bridge from torproject.org\", click \"Request a New "
+"Bridge...\" for BridgeDB to provide a bridge."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"Complete the Captcha and click \"Submit\". Your setting will automatically "
 "be saved once you close the tab."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/request-a-bridge.png\" alt="
+"\"Request a bridge from torproject.org\">"
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
@@ -976,22 +972,7 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"<img class=\"col-md-6\" align=\"right\" hspace=\"5\" src=\"../../static/"
-"images/tor-launcher-custom-bridges.png\" alt=\"Enter custom bridge addresses"
-"\">"
-msgstr ""
-
-#: https://tb-manual.torproject.org/bridges/
-#: (content/bridges/contents+en.lr:topic.body)
-msgid ""
-"Once you have obtained some bridge addresses, you will need to enter them "
-"into Tor Launcher."
-msgstr ""
-
-#: https://tb-manual.torproject.org/bridges/
-#: (content/bridges/contents+en.lr:topic.body)
-msgid ""
-"After checking the checkbox \"Tor is censored in my country,\" choose "
+"Under the \"Bridges\" section, select the checkbox \"Use a bridge\", choose "
 "\"Provide a bridge I know\" and enter each bridge address on a separate line."
 msgstr ""
 
@@ -1003,9 +984,16 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"In the \"Bridges\" section, check the checkbox \"Use a bridge,\" and from "
-"the option \"Provide a bridge I know,\" enter each bridge address on a "
+"In the \"Bridges\" section, select the checkbox \"Use a bridge\", and from "
+"the option \"Provide a bridge I know\", enter each bridge address on a "
 "separate line."
+msgstr ""
+
+#: https://tb-manual.torproject.org/bridges/
+#: (content/bridges/contents+en.lr:topic.body)
+msgid ""
+"<img class=\"col-md-6\" src=\"../../static/images/tor-launcher-custom-"
+"bridges.png\" alt=\"Enter custom bridge addresses\">"
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
@@ -1269,8 +1257,8 @@ msgstr ""
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
 "Just like any other website, you will need to know the address of an onion "
-"service in order to connect to it. An onion address is a string of 16 (and "
-"in V3 format, 56) mostly random letters and numbers, followed by \".onion\"."
+"service in order to connect to it. An onion address is a string of 56 mostly "
+"random letters and numbers, followed by \".onion\"."
 msgstr ""
 
 #: https://tb-manual.torproject.org/onion-services/
@@ -1387,8 +1375,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
-"<img style=\"max-width:100%\" class=\"col-md-6\" src=\"../../static/images/"
-"client-auth.png\" alt=\"Client Authorization\">"
+"<img class=\"col-md-6\" src=\"../../static/images/client-auth.png\" alt="
+"\"Client Authorization\">"
 msgstr ""
 
 #: https://tb-manual.torproject.org/onion-services/
@@ -1513,8 +1501,17 @@ msgstr ""
 #: https://tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
 msgid ""
+"If the onion service you are trying to access consists of a string of 16 "
+"characters (V2 format), this type of address is [being deprecated](https://"
+"support.torproject.org/onionservices/v2-deprecation/)."
+msgstr ""
+
+#: https://tb-manual.torproject.org/onion-services/
+#: (content/onion-services/contents+en.lr:topic.body)
+msgid ""
 "You can also test if you are able to access other onion services by "
-"connecting to [DuckDuckGo's Onion Service](http://3g2upl4pq6kufc4m.onion/)."
+"connecting to [DuckDuckGo's Onion Service](https://"
+"duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)."
 msgstr ""
 
 #: https://tb-manual.torproject.org/secure-connections/
@@ -2038,10 +2035,11 @@ msgstr ""
 #: (content/plugins/contents+en.lr:topic.body)
 msgid ""
 "Tor Browser includes an add-on called NoScript. It's accessible through "
-"'Preferences' on hamburger menu (main menu), then select 'Customize' and "
-"drag the “S” icon to the top-right of the window. NoScript allows you to "
-"control the JavaScript (and other scripts) that runs on individual web "
-"pages, or block it entirely."
+"\"Preferences\" (or \"Options\" on Windows) on the [hamburger menu (≡)]"
+"(https://support.torproject.org/glossary/hamburger-menu/), then select "
+"'Customize' and drag the “S” icon to the top-right of the window. NoScript "
+"allows you to control the JavaScript (and other scripts) that runs on "
+"individual web pages, or block it entirely."
 msgstr ""
 
 #: https://tb-manual.torproject.org/plugins/
@@ -2708,8 +2706,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/mobile-tor/
 #: (content/mobile-tor/contents+en.lr:topic.body)
 msgid ""
-"When Tor Browser is running, you would see so in your phone's notification "
-"panel along with the button \"NEW IDENTITY\"."
+"When Tor Browser is running, you would see so in your device's notification "
+"panel after expanding it along with the button \"NEW IDENTITY\"."
 msgstr ""
 
 #: https://tb-manual.torproject.org/mobile-tor/
@@ -2994,8 +2992,15 @@ msgstr ""
 #: https://tb-manual.torproject.org/mobile-tor/
 #: (content/mobile-tor/contents+en.lr:topic.body)
 msgid ""
-"* Can't upload files with Tor Browser for Android. [#40283](https://gitlab."
-"torproject.org/tpo/applications/tor-browser/-/issues/40283)"
+"* You can't upload files with Tor Browser for Android. [#40283](https://"
+"gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283)"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"* You can't open onion addresses that requires Client Authorization [#31672]"
+"(https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672)"
 msgstr ""
 
 #: https://tb-manual.torproject.org/mobile-tor/
