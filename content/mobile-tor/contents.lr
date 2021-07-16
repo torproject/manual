@@ -110,7 +110,7 @@ If you choose the "Provide a Bridge I know" option, then you have to enter a [br
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-new-identity.png" alt="New Identity on Tor Browser for Android">
 
-When Tor Browser is running, you would see so in your phone's notification panel along with the button "NEW IDENTITY".
+When Tor Browser is running, you would see so in your device's notification panel after expanding it along with the button "NEW IDENTITY".
 Tapping on this button will provide you with a new identity.
 Unlike in Tor Browser for Desktop, the "NEW IDENTITY" button in Tor Browser for Android does not prevent your subsequent browser activity from being linkable to what you were doing before.
 Selecting it will only change your Tor circuit.
@@ -189,7 +189,8 @@ At the moment, there are some features which are not available in Tor Browser fo
 * You can't see your Tor circuit. [#25764](https://gitlab.torproject.org/tpo/applications/torbutton/-/issues/25764)
 * Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814)
 * You can't take screenshots while using Tor Browser for Android. [#27987](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987)  
-* Can't upload files with Tor Browser for Android. [#40283](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283)
+* You can't upload files with Tor Browser for Android. [#40283](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283)
+* You can't open onion addresses that requires Client Authorization [#31672](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672)
 
 ### More about Tor on mobile devices
 

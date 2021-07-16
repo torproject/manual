@@ -10,36 +10,38 @@ key: 4
 ---
 body:
 
-When you run Tor Browser for the first time, you will see the Tor Network Settings window.
-This offers you the option to connect directly to the Tor network, or to configure Tor Browser for your connection.
+When you run Tor Browser for the first time, you will see the Connect to Tor window.
+This offers you the option to either connect directly to the Tor network, or to configure Tor Browser for your connection.
+There's a checkbox which asks whether you always want to get automatically connected to the Tor network, if this is the case, check the box.
 
 ### CONNECT
 
 <img class="col-md-6" src="../../static/images/connect.png" alt="Click 'connect' to connect to Tor.">
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
-Once clicked, a status bar will appear, showing Tor’s connection progress.
+
+Once clicked, a status bar will appear, showing Tor's connection progress.
 If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the [Troubleshooting](../troubleshooting) page for help solving the problem.
+Or, if you know that your connection is censored or uses a proxy, you should click on "Tor Network Settings".
+
+<img class="col-md-6" src="../../static/images/configure.png" alt="Click 'Tor Network Settings' to adjust network settings.">
 
 ### CONFIGURE
 
-<img class="col-md-6" src="../../static/images/configure.png" alt="Click 'configure' to adjust network settings.">
-
-If you know that your connection is censored or uses a proxy, you should select this option.
-
-<img class="col-md-6" src="../../static/images/proxy_question.png" alt="Select options for censored connection or proxy use.">
-
 Tor Browser will take you through a series of configuration options.
+
+The first checkbox is Quickstart. If selected, every time you open Tor Browser, it will try to connect with your previous network settings.
+
+The second checkbox asks if you want to use a bridge. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select "Use a bridge".
 
 <img class="col-md-6" src="../../static/images/pluggable-transport.png" alt="Configure Tor bridge options">
 
-The first checkbox asks if access to the Tor network is blocked or censored on your connection.
-If you do not believe this is the case, leave this unchecked.
-If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, check the checkbox.
-This will display the [Circumvention](../circumvention) section to configure a pluggable transport.
+This will display the [Circumvention](../circumvention) section to configure a pluggable transport or to connect using [Bridges](../bridges).
+
+### OTHER OPTIONS
+
+The third checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to select this checkbox because the same settings will be used for other browsers on your system.
+If possible, ask your network administrator for guidance.
+If your connection does not use a proxy, click "Connect".
 
 <img class="col-md-6" src="../../static/images/proxy.png" alt="Configure proxy options">
-
-The second checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to check this checkbox because the same settings will be used for other browsers on your system.
-If possible, ask your network administrator for guidance.
-If your connection does not use a proxy, click “Connect”.
