@@ -91,7 +91,7 @@ The first screen tells you about the status of the Tor network. Tap on 'Config B
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android">
 
 The next screen provides the option to either use a built-in bridge or custom bridge.
-With the "Use a Bridge" option, you will have two options: "obfs4" and "meek-azure".
+With the "Use a Bridge" option, you will have three options: "obfs4", "meek-azure", and "snowflake".
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png" alt="Select a bridge on Tor Browser for Android">
 
