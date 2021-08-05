@@ -180,6 +180,11 @@ name = Svenska (sv)
 url_prefix = /sv-SE/
 locale = sv-SE
 
+[alternatives.sw]
+name = Swahili (sw)
+url_prefix = /sw/
+locale = sw
+
 [alternatives.th]
 name = ภาษาไทย (th)
 url_prefix = /th/
