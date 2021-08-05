@@ -55,6 +55,11 @@ name =  עברית (he)
 url_prefix = /he/
 locale = he
 
+[alternatives.hu]
+name =  Magyar nyelv (hu)
+url_prefix = /hu/
+locale = hu
+
 [alternatives.id]
 name = Indonesia (id)
 url_prefix = /id/
