@@ -182,6 +182,18 @@ On the next screen, select Tor Browser and finally tap on the "Uninstall" button
 
 Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and tap on the "Uninstall" button.
 
+### TROUBLESHOOTING
+
+#### View Tor Logs
+
+<img style="max-width:300px" class="col-md-6" src="../../static/images/android-view-logs.gif" alt="View Tor logs on Tor Browser for Android">
+
+To view your Tor logs:
+1. Launch Tor Browser for Android and tap 'Connect'.
+2. During the bootstrapping process, swipe right to left to view the logs. (Note: By default, the ability to take screenshots of the Tor logs is disabled on Tor Browser for Android. [Bug #40191](https://bugs.torproject.org/tpo/applications/fenix/40191))
+
+To troubleshoot some of the most common issues please refer to the [Support Portal entry](https://support.torproject.org/connecting/connecting-2/).
+
 ### KNOWN ISSUES
 
 At the moment, there are some features which are not available in Tor Browser for Android, but are currently available in Tor Browser for desktop.
