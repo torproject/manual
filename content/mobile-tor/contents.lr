@@ -186,7 +186,7 @@ Depending on your mobile device's brand, navigate to Settings > Apps, then selec
 
 #### View Tor Logs
 
-<img style="max-width:300px" class="col-md-6" src="../../static/images/android-view-logs.gif" alt="View Tor logs on Tor Browser for Android">
+<img style="max-width:300px" class="img-fluid" src="../../static/images/android-view-logs.gif" alt="View Tor logs on Tor Browser for Android">
 
 To view your Tor logs:
 1. Launch Tor Browser for Android and tap 'Connect'.
