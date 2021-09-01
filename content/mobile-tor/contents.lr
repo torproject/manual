@@ -91,7 +91,7 @@ The first screen tells you about the status of the Tor network. Tap on 'Config B
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android">
 
 The next screen provides the option to either use a built-in bridge or custom bridge.
-With the "Use a Bridge" option, you will have two options: "obfs4" and "meek-azure".
+With the "Use a Bridge" option, you will have three options: "obfs4", "meek-azure", and "snowflake".
 
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png" alt="Select a bridge on Tor Browser for Android">
 
@@ -181,6 +181,18 @@ On the next screen, select Tor Browser and finally tap on the "Uninstall" button
 <img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-device-settings.png" alt="Uninstalling Tor Browser for Android using device app settings">
 
 Depending on your mobile device's brand, navigate to Settings > Apps, then select Tor Browser and tap on the "Uninstall" button.
+
+### TROUBLESHOOTING
+
+#### View Tor Logs
+
+<img style="max-width:300px" class="img-fluid" src="../../static/images/android-view-logs.gif" alt="View Tor logs on Tor Browser for Android">
+
+To view your Tor logs:
+1. Launch Tor Browser for Android and tap 'Connect'.
+2. During the bootstrapping process, swipe right to left to view the logs. (Note: By default, the ability to take screenshots of the Tor logs is disabled on Tor Browser for Android. [Bug #40191](https://bugs.torproject.org/tpo/applications/fenix/40191))
+
+To troubleshoot some of the most common issues please refer to the [Support Portal entry](https://support.torproject.org/connecting/connecting-2/).
 
 ### KNOWN ISSUES
 
