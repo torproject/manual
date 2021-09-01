@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-16 18:26+CET\n"
+"POT-Creation-Date: 2021-09-01 09:07+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -1150,7 +1150,7 @@ msgstr ""
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
 "Tor Browser features “New Identity” and “New Tor Circuit for this Site” "
-"options. There are also located in the main menu (hamburger menu)."
+"options. They are also located in the hamburger or main menu (≡)."
 msgstr ""
 
 #: https://tb-manual.torproject.org/managing-identities/
@@ -1479,6 +1479,8 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/onion-services/
 #: (content/onion-services/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
 msgid "### TROUBLESHOOTING"
 msgstr ""
 
@@ -2643,8 +2645,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/mobile-tor/
 #: (content/mobile-tor/contents+en.lr:topic.body)
 msgid ""
-"With the \"Use a Bridge\" option, you will have two options: \"obfs4\" and "
-"\"meek-azure\"."
+"With the \"Use a Bridge\" option, you will have three options: \"obfs4\", "
+"\"meek-azure\", and \"snowflake\"."
 msgstr ""
 
 #: https://tb-manual.torproject.org/mobile-tor/
@@ -2958,6 +2960,44 @@ msgstr ""
 msgid ""
 "Depending on your mobile device's brand, navigate to Settings > Apps, then "
 "select Tor Browser and tap on the \"Uninstall\" button."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "#### View Tor Logs"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"<img style=\"max-width:300px\" class=\"img-fluid\" src=\"../../static/images/"
+"android-view-logs.gif\" alt=\"View Tor logs on Tor Browser for Android\">"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "To view your Tor logs:"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid "1. Launch Tor Browser for Android and tap 'Connect'."
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"2. During the bootstrapping process, swipe right to left to view the logs. "
+"(Note: By default, the ability to take screenshots of the Tor logs is "
+"disabled on Tor Browser for Android. [Bug #40191](https://bugs.torproject."
+"org/tpo/applications/fenix/40191))"
+msgstr ""
+
+#: https://tb-manual.torproject.org/mobile-tor/
+#: (content/mobile-tor/contents+en.lr:topic.body)
+msgid ""
+"To troubleshoot some of the most common issues please refer to the [Support "
+"Portal entry](https://support.torproject.org/connecting/connecting-2/)."
 msgstr ""
 
 #: https://tb-manual.torproject.org/mobile-tor/
