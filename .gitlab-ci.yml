@@ -25,14 +25,14 @@ cache:
         >> /etc/apt/apt.conf.d/99gitlab
       apt-get update -qq
       apt-get upgrade -qy
-     
+
 variables:
     GIT_SUBMODULE_STRATEGY: recursive
-     
+
 stages:
     - build
     - test_l10n
-     
+
 pages:
   stage: build
   script:
@@ -54,7 +54,7 @@ pages:
       - public
       - i18n
       - l10n
-     
+
 check_new_strings:
   stage: test_l10n
   needs: [pages]
@@ -74,7 +74,7 @@ check_new_strings:
     paths:
       - public
       - i18n
-     
+
 check_l10n:
   stage: test_l10n
   needs: [pages]
