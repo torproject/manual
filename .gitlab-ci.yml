@@ -47,7 +47,7 @@ pages:
     - pip3 install polib
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - echo 'lets see if there are any updates in the strings for translation'
-    - l11n/bin/check_po_status.py tbmanual-contentspot
+    - l10n/bin/check_po_status.py tbmanual-contentspot
     - echo 'lets see if there are any broken links on the translations'
     - l10n/bin/check_markdown_links.py i18n/
   artifacts:
