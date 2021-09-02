@@ -54,7 +54,6 @@ pages:
     paths:
       - public
       - i18n
-      - l10n
 
 check_new_strings:
   cache:
@@ -66,10 +65,8 @@ check_new_strings:
       - venv
   stage: test_l10n
   needs: [pages]
-  rules:
-    - changes:
-      - content/*
-      - templates/*
+  except:
+    - merge_requests
   script:
     - echo 'building lektor 3 more times to get translations in place'
     - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
@@ -82,6 +79,7 @@ check_new_strings:
     paths:
       - public
       - i18n
+      - l10n
 
 check_l10n:
   cache:
