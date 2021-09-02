@@ -1,4 +1,4 @@
-image: debian:buster-slim
+image: debian:buster
 
 
 # This template should be usable on any system that's based on apt.
@@ -6,7 +6,6 @@ image: debian:buster-slim
 
 .apt-template: &apt-template |
       export LC_ALL=C.UTF-8
-      echo Etc/UTC > /etc/timezone
       mkdir -p apt-cache
       export APT_CACHE_DIR="$(pwd)/apt-cache"
       echo 'quiet "1";' \
