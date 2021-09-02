@@ -1,15 +1,9 @@
 image: debian:buster-slim
-     
-cache:
-  key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
-  paths:
-    - packages
-    - lego
-    - apt-cache
-     
+
+
 # This template should be usable on any system that's based on apt.
 # taken from tor gitlabci
-     
+
 .apt-template: &apt-template |
       export LC_ALL=C.UTF-8
       echo Etc/UTC > /etc/timezone
@@ -34,6 +28,13 @@ stages:
     - test_l10n
 
 pages:
+  cache:
+    key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
+    paths:
+      - packages
+      - lego
+      - apt-cache
+      - venv
   stage: build
   script:
     - *apt-template
@@ -56,6 +57,13 @@ pages:
       - l10n
 
 check_new_strings:
+  cache:
+    key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
+    paths:
+      - packages
+      - lego
+      - apt-cache
+      - venv
   stage: test_l10n
   needs: [pages]
   rules:
@@ -76,6 +84,14 @@ check_new_strings:
       - i18n
 
 check_l10n:
+  cache:
+    key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
+    paths:
+      - packages
+      - lego
+      - apt-cache
+      - venv
+      - i18n
   stage: test_l10n
   needs: [pages]
   only:
