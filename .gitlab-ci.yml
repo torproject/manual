@@ -30,8 +30,6 @@ variables:
     GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
-  only:
-    - master
   script:
     - *apt-template
     - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector apt-utils -y
@@ -49,49 +47,9 @@ pages:
     - pip3 install polib
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - echo 'lets see if there are any updates in the strings for translation'
-    - l10n/bin/check_po_status.py tbmanual-contentspot
-  artifacts:
-    paths:
-      - public
-
-pages:
-  only:
-    - translations
-  script:
-    - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector apt-utils -y
-    - pip3 install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip3 install lektor
-    - echo 'checking out translations'
-    - rm -rf i18n
-    - git clone --branch tbmanual-contentspot https://git.torproject.org/translation.git i18n
-    - echo 'building lektor 3 times to get translations in place'
-    - lektor plugins reinstall
-    - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
-    - echo 'ok, we built it! now we will make some tests'
-    - pip3 install polib
-    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
+    - l11n/bin/check_po_status.py tbmanual-contentspot
     - echo 'lets see if there are any broken links on the translations'
     - l10n/bin/check_markdown_links.py i18n/
-  artifacts:
-    paths:
-      - public
-
-pages:
-  only:
-    - merge_requests
-  script:
-    - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector apt-utils -y
-    - pip3 install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip3 install lektor
-    - echo 'building lektor'
-    - lektor plugins reinstall
-    - lektor build --output-path public
   artifacts:
     paths:
       - public
