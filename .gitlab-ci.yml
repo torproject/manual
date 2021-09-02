@@ -1,15 +1,15 @@
 image: debian:buster-slim
-       
-cache: 
+     
+cache:
   key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
   paths:
     - packages
     - lego
     - apt-cache
-       
+     
 # This template should be usable on any system that's based on apt.
 # taken from tor gitlabci
-       
+     
 .apt-template: &apt-template |
       export LC_ALL=C.UTF-8
       echo Etc/UTC > /etc/timezone
@@ -25,15 +25,15 @@ cache:
         >> /etc/apt/apt.conf.d/99gitlab
       apt-get update -qq
       apt-get upgrade -qy
-       
+     
 variables:
     GIT_SUBMODULE_STRATEGY: recursive
-       
+     
 stages:
     - build
     - test_l10n
-       
-pages: 
+     
+pages:
   stage: build
   script:
     - *apt-template
@@ -54,7 +54,7 @@ pages:
       - public
       - i18n
       - l10n
-       
+     
 check_new_strings:
   stage: test_l10n
   needs: [pages]
@@ -70,7 +70,11 @@ check_new_strings:
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - echo 'lets see if there are any updates in the strings for translation'
     - l10n/bin/check_po_status.py tbmanual-contentspot
-       
+  artifacts:
+    paths:
+      - public
+      - i18n
+     
 check_l10n:
   stage: test_l10n
   needs: [pages]
