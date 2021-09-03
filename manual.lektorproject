@@ -55,6 +55,11 @@ name = Español (es)
 url_prefix = /es/
 locale = es
 
+[alternatives.et]
+name = Eesti (et)
+url_prefix = /et/
+locale = et
+
 [alternatives.fa]
 name = ﻑﺍﺮﺳی (fa)
 url_prefix = /fa/
