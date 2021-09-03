@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-01 09:07+CET\n"
+"POT-Creation-Date: 2021-09-03 10:01+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -318,20 +318,32 @@ msgstr ""
 #: https://tb-manual.torproject.org/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid ""
-"GetTor will respond with an email containing links from which you can "
-"download the Tor Browser package, the cryptographic signature (needed for "
-"verifying the download), the fingerprint of the key used to make the "
-"signature, and the package’s checksum. You may be offered a choice of “32-"
-"bit” or “64-bit” software: this depends on the model of the computer you are "
-"using."
+"You can also add a language code to get Tor Browser on a language different "
+"than English."
 msgstr ""
 
 #: https://tb-manual.torproject.org/downloading/
 #: (content/downloading/contents+en.lr:topic.body)
 msgid ""
-"For example, to get links for downloading Tor Browser in Chinese for "
+"For example, to get links for downloading Tor Browser in Chinese (China) for "
 "Windows, send an email to [gettor@torproject.org](mailto:gettor@torproject."
-"org) with the words \"windows zh\" in it."
+"org) with the words \"windows zh_CN\" in it."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"GetTor will respond with an email containing links from which you can "
+"download the Tor Browser package, the cryptographic signature (needed for "
+"verifying the download), the fingerprint of the key used to make the "
+"signature, and the package’s checksum."
+msgstr ""
+
+#: https://tb-manual.torproject.org/downloading/
+#: (content/downloading/contents+en.lr:topic.body)
+msgid ""
+"You may be offered a choice of “32-bit” or “64-bit” software: this depends "
+"on the model of the computer you are using."
 msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
