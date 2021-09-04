@@ -10,7 +10,7 @@ key: 3
 ---
 body:
 
-For Windows:
+## For Windows
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -21,7 +21,7 @@ For Windows:
 4. When the download is complete, double click the `.exe` file. Complete the installation wizard process.
 
 
-For macOS:
+## For macOS
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -32,7 +32,7 @@ For macOS:
 4. When the download is complete, double click the `.dmg` file. Complete the installation wizard process.
 
 
-For GNU/Linux:
+## For GNU/Linux
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -40,13 +40,15 @@ For GNU/Linux:
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
-4. Now follow either the GUI method or the command-line method: 
+4. Now follow either the graphical or the command-line method: 
 
-#### GUI method
+#### Graphical method
 
 * When the download is complete, extract the archive using an archive manager.
 
-* You'll need to tell your GNU/Linux that you want the ability to execute shell scripts. Navigate to the newly extracted Tor Browser directory. Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
+* You'll need to tell your GNU/Linux that you want the ability to execute shell scripts.
+Navigate to the newly extracted Tor Browser directory.
+Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
    Double-click the icon to start up Tor Browser for the first time.
 
 <img style="max-width:50%" class="col-md-6"  src="../../static/images/linux-make-desktop-file-executable.png" alt="Make the .desktop file executable in Linux">
