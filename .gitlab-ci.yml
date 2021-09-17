@@ -1,4 +1,4 @@
-image: debian:buster
+image: debian:buster-slim
 
 
 # This template should be usable on any system that's based on apt.
@@ -6,6 +6,7 @@ image: debian:buster
 
 .apt-template: &apt-template |
       export LC_ALL=C.UTF-8
+      echo Etc/UTC > /etc/timezone
       mkdir -p apt-cache
       export APT_CACHE_DIR="$(pwd)/apt-cache"
       echo 'quiet "1";' \
@@ -20,7 +21,10 @@ image: debian:buster
       apt-get upgrade -qy
 
 variables:
-    GIT_SUBMODULE_STRATEGY: recursive
+  GIT_SUBMODULE_STRATEGY: recursive
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  TRANSLATION_BRANCH: "tbmanual-contentspot"
+
 
 stages:
     - build
@@ -34,25 +38,30 @@ pages:
       - lego
       - apt-cache
       - venv
+      - .cache/pip
+      - .cache/lektor/builds/
   stage: build
   script:
     - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector apt-utils -y
+    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector apt-utils ca-certificates -y
     - pip3 install virtualenv
     - virtualenv venv
     - source venv/bin/activate
     - pip3 install lektor
     - echo 'checking out translations'
     - rm -rf i18n
-    - git clone --branch tbmanual-contentspot https://git.torproject.org/translation.git i18n
+    - git clone --branch $TRANSLATION_BRANCH https://git.torproject.org/translation.git i18n
     - echo 'reinstall lektor plugins'
+    - lektor project-info --output-path
     - lektor plugins reinstall
-    - echo 'build lektor'
-    - lektor build --output-path public
+    - echo 'building lektor 3 more times to get translations in place'
+    - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
   artifacts:
     paths:
       - public
       - i18n
+  rules:
+    - when: always
 
 check_new_strings:
   cache:
@@ -62,28 +71,25 @@ check_new_strings:
       - lego
       - apt-cache
       - venv
+      - .cache/pip
+
   stage: test_l10n
   needs: [pages]
-  only:
-    refs:
-      - merge_requests
-    changes:
-      - content/**/*
+  allow_failure: true
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - if: '$CI_COMMIT_BRANCH == "translations"'
+      when: never
+    - changes:
+      - content/**/*.lr
       - templates/**/*
   script:
     - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip git python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography i18nspector apt-utils python3-polib -y
-    - pip3 install virtualenv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip3 install lektor
-    - lektor plugins reinstall
-    - echo 'building lektor 3 more times to get translations in place'
-    - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
-    - echo 'ok, we built it! now we will make some tests'
+    - DEBIAN_FRONTEND=noninteractive apt-get install gettext git python3-dev python3-setuptools i18nspector python3-polib python3-requests ca-certificates apt-utils -y
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - echo 'lets see if there are any updates in the strings for translation'
-    - l10n/bin/check_po_status.py tbmanual-contentspot
+    - l10n/bin/check_po_status.py $TRANSLATION_BRANCH
   artifacts:
     paths:
       - public
@@ -91,6 +97,7 @@ check_new_strings:
       - l10n
 
 check_l10n:
+  allow_failure: true
   cache:
     key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
     paths:
@@ -99,11 +106,13 @@ check_l10n:
       - apt-cache
       - venv
       - i18n
+      - .cache/pip
   stage: test_l10n
   needs: [pages]
   only:
     - translations
   script:
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext i18nspector python3-polib -y
+    - DEBIAN_FRONTEND=noninteractive apt-get install gettext i18nspector python3-polib ca-certificates -y
     - echo 'lets see if there are any broken links on the translations'
     - l10n/bin/check_markdown_links.py i18n/
+
