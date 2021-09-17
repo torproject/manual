@@ -30,5 +30,4 @@ Send an email to [gettor@torproject.org](mailto:gettor@torproject.org), and in t
 You can also add a language code to get Tor Browser on a language different than English.
 For example, to get links for downloading Tor Browser in Chinese (China) for Windows, send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the words "windows zh_CN" in it.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum.
-You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.

@@ -10,7 +10,7 @@ key: 3
 ---
 body:
 
-For Windows:
+## For Windows
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -21,7 +21,7 @@ For Windows:
 4. When the download is complete, double click the `.exe` file. Complete the installation wizard process.
 
 
-For macOS:
+## For macOS
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -32,7 +32,7 @@ For macOS:
 4. When the download is complete, double click the `.dmg` file. Complete the installation wizard process.
 
 
-For GNU/Linux:
+## For GNU/Linux
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -40,19 +40,48 @@ For GNU/Linux:
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
-4. When the download is complete, extract the archive with the command `tar -xf [TB archive]` or by using an archive manager.
+4. Now follow either the graphical or the command-line method: 
 
-5. You'll need to tell your GNU/Linux that you want the ability to execute shell scripts from the graphical interface or the command line.
-   Navigate to the newly extracted Tor Browser directory.
-   Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
+#### Graphical method
+
+* When the download is complete, extract the archive using an archive manager.
+
+* You'll need to tell your GNU/Linux that you want the ability to execute shell scripts.
+Navigate to the newly extracted Tor Browser directory.
+Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
    Double-click the icon to start up Tor Browser for the first time.
 
-   **Note:** On Ubuntu and some other distros if you try to launch the start-tor-browser.desktop file a text file might open up.
-To change this behavior and launch Tor Browser instead, follow this: Open "Files" (GNOME Files/Nautilus) → open Preferences → go to the 'Behavior' Tab → Select "Run them" or "Ask what to do" under "Executable Text Files".
-If you choose the latter click on "Run" after launching the start-tor-browser.desktop file.
+<img style="max-width:50%" class="col-md-6"  src="../../static/images/linux-make-desktop-file-executable.png" alt="Make the .desktop file executable in Linux">
 
-6. Alternatively, from inside the Tor Browser directory, you can also start from the command line by running:
+   **Note:** On Ubuntu and some other distros if you try to launch `start-tor-browser.desktop` a text file might open up.
+To change this behavior and launch Tor Browser instead, follow this:
+* Launch "Files" (GNOME Files/Nautilus)
+* Click on Preferences.
+* Navigate to the 'Behavior' Tab.
+* Select "Run them" or "Ask what to do" under "Executable Text Files".
+* If you choose the latter click on "Run" after launching the `start-tor-browser.desktop` file.
+
+<img style="max-width:50%" class="col-md-6"  src="../../static/images/linux-change-behavior-executable-files.png" alt="Change behavior of executable text file to always run in Linux">
+
+#### Command-line method
+
+* When the download is complete, extract the archive with the command `tar -xf [TB archive]`.
+
+* From inside the Tor Browser directory, you can launch Tor Browser by running:
 
    `./start-tor-browser.desktop`
+
+   **Note:** If this command fails to run, you probably need to make the file executable. From within this directory run: `chmod +x start-tor-browser.desktop`
+
+* Some additional flags that can be used with `start-tor-browser.desktop` from the command-line:
+
+| **Flag** | **Description** |
+|----------|-----------------|
+| `--register-app` | To register Tor Browser as a desktop application. |
+| `--verbose` | To display Tor and Firefox output in the terminal. |
+| `--log [file]` | To record Tor and Firefox output in file (default: tor-browser.log). |
+| `--detach` | To detach from terminal and run Tor Browser in the background. |
+| `--unregister-app` | To unregister Tor Browser as a desktop application. |
+
 
 See here on how to [update Tor Browser](https://tb-manual.torproject.org/updating/).
