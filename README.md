@@ -2,18 +2,21 @@ This the repository of the new Tor Browser manual maintained with lektor.
 
 The current online version of the manual can be found at
  - https://tb-manual.torproject.org
- - http://dgvdmophvhunawds.onion/
+ - http://dsbqrprgkqqifztta6h3w7i2htjhnq7d3qkh3c7gvc35e66rrcv66did.onion/
 
-To clone the code use either of
-`git clone https://gitweb.torproject.org/project/web/manual.git/`
-`torify git clone http://dccbbv6cooddgcrq.onion/project/web/manual.git/`
-or browse it online: http://jqs44zhtxl2uo6gk.onion/project/web/manual.git
+To clone the code use either one of these options:
+
+* Local git:
+  - `git clone https://gitweb.torproject.org/project/web/manual.git`
+  - `torify git clone http://xtlfhaspqtkeeqxk6umggfbr3gyfznvf4jhrge2fujz53433i2fcs3id.onion/project/web/manual.git`
+
+* Browse the online git:
+  - http://gzgme7ov25seqjbphab4fkcph3jkobfwwpivt5kzbv3kqx2y2qttl4yd.onion/project/web/manual.git
 
 How to report bugs or feedback
 ==============================
 
-Please file a [trac ticket](https://trac.torproject.org) and choose the component: Community/Tor Browser Manual
-
+First, check if the bug is already known. You can search and read all the issues at https://gitlab.torproject.org/. To create a new issue, please [request a new account](https://gitlab.onionize.space/) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue. Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
 
 What is Lektor?
 ===============
