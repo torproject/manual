@@ -84,4 +84,4 @@ To change this behavior and launch Tor Browser instead, follow this:
 | `--unregister-app` | To unregister Tor Browser as a desktop application. |
 
 
-See here on how to [update Tor Browser](https://tb-manual.torproject.org/updating/).
+See here on how to [update Tor Browser](../updating/).
