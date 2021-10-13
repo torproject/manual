@@ -40,11 +40,11 @@ At the bottom of the page, next to the "View the Tor logs" text, click the butto
 
 Alternatively, on GNU/Linux, to view the logs right in the terminal, navigate to the Tor Browser directory and launch the Tor Browser from the command line by running:
 
-`./start-tor-browser.desktop --verbose`
+‪`./start-tor-browser.desktop --verbose`
 
 Or to save the logs to a file (default: tor-browser.log):
 
-`./start-tor-browser.desktop --log [file]`
+‪`./start-tor-browser.desktop --log [file]`
 
 More information on this can be found on the [Support Portal](https://support.torproject.org/connecting/connecting-2/).
 
