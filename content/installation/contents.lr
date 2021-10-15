@@ -73,7 +73,7 @@ To change this behavior and launch Tor Browser instead, follow this:
 
    **Note:** If this command fails to run, you probably need to make the file executable. From within this directory run: `chmod +x start-tor-browser.desktop`
 
-* Some additional flags that can be used with `start-tor-browser.desktop` from the command-line:
+Some additional flags that can be used with `start-tor-browser.desktop` from the command-line:
 
 | **Flag** | **Description** |
 |----------|-----------------|
