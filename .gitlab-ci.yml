@@ -78,17 +78,13 @@ check_new_strings:
   allow_failure: true
   rules:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
-    - if: '$CI_COMMIT_BRANCH == "translations"'
-      when: never
-    - changes:
-      - content/**/*.lr
-      - templates/**/*
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
   script:
     - *apt-template
     - DEBIAN_FRONTEND=noninteractive apt-get install gettext git python3-dev python3-setuptools i18nspector python3-polib python3-requests ca-certificates apt-utils -y
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
-    - echo 'lets see if there are any updates in the strings for translation'
+    - echo 'lets see if there are any UPDATES ON THE STRINGS for translation after this changes'
     - l10n/bin/check_po_status.py $TRANSLATION_BRANCH
   artifacts:
     paths:
@@ -113,6 +109,7 @@ check_l10n:
     - translations
   script:
     - DEBIAN_FRONTEND=noninteractive apt-get install gettext i18nspector python3-polib ca-certificates -y
-    - echo 'lets see if there are any broken links on the translations'
+    - rm -rf l10n
+    - git clone https://gitlab.torproject.org/tpo/community/l10n.git
+    - echo 'lets see if there are any BROKEN LINKS on the translations'
     - l10n/bin/check_markdown_links.py i18n/
-
