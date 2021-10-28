@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-07 17:29+CET\n"
+"POT-Creation-Date: 2021-10-28 11:50+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -11,28 +11,246 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: https://tb-manual.torproject.org/ (content/contents+en.lr:showcase.title)
-msgid "Tor Browser User Manual"
+#: (dynamic)
+msgid ""
+"Defend yourself against tracking and surveillance. Circumvent censorship."
 msgstr ""
 
-#: https://tb-manual.torproject.org/menu/
+#: (dynamic)
+msgid "Tor Project | Tor Browser Manual"
+msgstr ""
+
+#: (dynamic)
+msgid "Close banner"
+msgstr ""
+
+#: (dynamic)
+msgid "Privacy is a human right"
+msgstr ""
+
+#: (dynamic)
+msgid "Your donation will be matched by Friends of Tor, up to $150,000."
+msgstr ""
+
+#: (dynamic)
+msgid "Your donation will be matched by Friends of Tor, up to $100,000."
+msgstr ""
+
+#: (dynamic)
+msgid "Donate now"
+msgstr ""
+
+#: (dynamic)
+msgid "Donate"
+msgstr ""
+
+#: (dynamic)
+msgid "Donate Now"
+msgstr ""
+
+#: (dynamic)
+msgid "Menu"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
 #: (content/menu/contents+en.lr:topic.body)
 msgid "About"
 msgstr ""
 
-#: https://tb-manual.torproject.org/menu/
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Support"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Community"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Blog"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
 #: (content/menu/contents+en.lr:topic.body)
 msgid "Documentation"
 msgstr ""
 
-#: https://tb-manual.torproject.org/menu/
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Jobs"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Contact"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
 #: (content/menu/contents+en.lr:topic.body)
 msgid "Press"
 msgstr ""
 
-#: https://tb-manual.torproject.org/menu/
+#: (dynamic)
+msgid "Download Tor Browser"
+msgstr ""
+
+#: (dynamic)
+msgid "Search"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/
+#: (content/contents+en.lr:showcase.title)
+msgid "Tor Browser User Manual"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"Download Tor Browser to experience real private browsing without tracking, "
+"surveillance, or censorship."
+msgstr ""
+
+#: (dynamic)
+msgid "Our mission:"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"To advance human rights and freedoms by creating and deploying free and open "
+"source anonymity and privacy technologies, supporting their unrestricted "
+"availability and use, and furthering their scientific and popular "
+"understanding."
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
 #: (content/menu/contents+en.lr:topic.body)
-msgid "Blog"
+msgid "PrivChat"
+msgstr ""
+
+#: (dynamic)
+msgid "Subscribe to our Newsletter"
+msgstr ""
+
+#: (dynamic)
+msgid "Get monthly updates and opportunities from the Tor Project:"
+msgstr ""
+
+#: (dynamic)
+msgid "Sign up"
+msgstr ""
+
+#: (dynamic)
+msgid ""
+"Trademark, copyright notices, and rules for use by third parties can be "
+"found in our %(link_to_faq)s"
+msgstr ""
+
+#: (dynamic)
+msgid "Topics"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "About Tor Browser"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Downloading"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Installation"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Running Tor Browser for the First Time"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Circumvention"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Bridges"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Managing Identities"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Secure Connections"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Security Settings"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Plugins"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Updating"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Onion Services"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Uninstalling"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Making Tor Browser Portable"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Troubleshooting"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+#: https://tb-manual.torproject.org/known-issues/
+#: (content/known-issues/contents+en.lr:topic.description)
+msgid "Known Issues"
+msgstr ""
+
+#: (dynamic) https://tb-manual.torproject.org/menu/
+#: (content/menu/contents+en.lr:topic.body)
+msgid "Mobile Tor"
+msgstr ""
+
+#: (dynamic)
+msgid "Contributors to this page:"
+msgstr ""
+
+#: (dynamic)
+msgid "Edit this page"
+msgstr ""
+
+#: (dynamic)
+msgid "Give Feedback"
+msgstr ""
+
+#: (dynamic)
+msgid "Permalink"
 msgstr ""
 
 #: https://tb-manual.torproject.org/menu/
@@ -42,119 +260,12 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/menu/
 #: (content/menu/contents+en.lr:topic.body)
-msgid "Support"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Community"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Contact"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Jobs"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "About Tor Browser"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Downloading"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Running Tor Browser for the First Time"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
 msgid "Pluggable transports"
 msgstr ""
 
 #: https://tb-manual.torproject.org/menu/
 #: (content/menu/contents+en.lr:topic.body)
-msgid "Circumvention"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Bridges"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Managing Identities"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Onion Services"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Secure Connections"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Security Settings"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Updating"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Plugins"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Troubleshooting"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Uninstalling"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-#: https://tb-manual.torproject.org/known-issues/
-#: (content/known-issues/contents+en.lr:topic.description)
-msgid "Known Issues"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Mobile Tor"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
 msgid "Becoming a Tor Translator"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Making Tor Browser Portable"
-msgstr ""
-
-#: https://tb-manual.torproject.org/menu/
-#: (content/menu/contents+en.lr:topic.body)
-msgid "Installation"
 msgstr ""
 
 #: https://tb-manual.torproject.org/about/
@@ -541,8 +652,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/installation/
 #: (content/installation/contents+en.lr:topic.body)
 msgid ""
-"* Some additional flags that can be used with `start-tor-browser.desktop` "
-"from the command-line:"
+"Some additional flags that can be used with `start-tor-browser.desktop` from "
+"the command-line:"
 msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
@@ -588,9 +699,7 @@ msgstr ""
 
 #: https://tb-manual.torproject.org/installation/
 #: (content/installation/contents+en.lr:topic.body)
-msgid ""
-"See here on how to [update Tor Browser](https://tb-manual.torproject.org/"
-"updating/)."
+msgid "See here on how to [update Tor Browser](../updating/)."
 msgstr ""
 
 #: https://tb-manual.torproject.org/running-tor-browser/
@@ -3387,94 +3496,6 @@ msgid ""
 "5. When the download is complete, extract the archive onto the media as well."
 msgstr ""
 
-#: lego/templates/banner.html:3 lego/templates/banner.html:5
-#: templates/banner.html:3 templates/banner.html:5
-msgid "Close banner"
-msgstr ""
-
-#: lego/templates/banner.html:11 templates/banner.html:11
-msgid "Use a Mask, Use Tor."
-msgstr ""
-
-#: lego/templates/banner.html:20 templates/banner.html:20
-msgid "Resist the surveillance pandemic."
-msgstr ""
-
-#: lego/templates/banner.html:32 templates/banner.html:32
-msgid "Your donation will be matched by Friends of Tor, up to $100,000."
-msgstr ""
-
-#: lego/templates/banner.html:38 lego/templates/footer.html:64
-#: lego/templates/footer.html:66 lego/templates/navbar.html:18
-#: lego/templates/navbar.html:20 templates/banner.html:38
-#: templates/footer.html:64 templates/footer.html:66 templates/navbar.html:18
-#: templates/navbar.html:20
-msgid "Donate Now"
-msgstr ""
-
-#: lego/templates/banner.html:40 templates/banner.html:40
-msgid "DONATE NOW"
-msgstr ""
-
-#: lego/templates/footer.html:13 lego/templates/footer.html:22
-#: lego/templates/navbar.html:95 templates/footer.html:13
-#: templates/footer.html:22 templates/navbar.html:95
-msgid "Download Tor Browser"
-msgstr ""
-
-#: lego/templates/footer.html:14 templates/footer.html:14
-msgid ""
-"Download Tor Browser to experience real private browsing without tracking, "
-"surveillance, or censorship."
-msgstr ""
-
-#: lego/templates/footer.html:35 templates/footer.html:35
-msgid "Our mission:"
-msgstr ""
-
-#: lego/templates/footer.html:36 templates/footer.html:36
-msgid ""
-"To advance human rights and freedoms by creating and deploying free and open "
-"source anonymity and privacy technologies, supporting their unrestricted "
-"availability and use, and furthering their scientific and popular "
-"understanding."
-msgstr ""
-
-#: lego/templates/footer.html:64 lego/templates/footer.html:66
-#: lego/templates/navbar.html:18 lego/templates/navbar.html:20
-#: lego/templates/navbar.html:63 templates/footer.html:64
-#: templates/footer.html:66 templates/navbar.html:18 templates/navbar.html:20
-#: templates/navbar.html:63
-msgid "Donate"
-msgstr ""
-
-#: lego/templates/footer.html:75 templates/footer.html:75
-msgid "Subscribe to our Newsletter"
-msgstr ""
-
-#: lego/templates/footer.html:76 templates/footer.html:76
-msgid "Get monthly updates and opportunities from the Tor Project:"
-msgstr ""
-
-#: lego/templates/footer.html:77 templates/footer.html:77
-msgid "Sign up"
-msgstr ""
-
-#: lego/templates/footer.html:98 templates/footer.html:98
-#, python-format
-msgid ""
-"Trademark, copyright notices, and rules for use by third parties can be "
-"found in our %(link_to_faq)s"
-msgstr ""
-
-#: lego/templates/navbar.html:25 templates/navbar.html:25
-msgid "Menu"
-msgstr ""
-
-#: lego/templates/search.html:5 templates/search.html:5
-msgid "Search"
-msgstr ""
-
 #: lego/templates/secure-connections.html:1 templates/secure-connections.html:1
 msgid ""
 "The following visualization shows what information is visible to "
@@ -3566,33 +3587,4 @@ msgstr ""
 #: lego/templates/secure-connections.html:68
 #: templates/secure-connections.html:68
 msgid "Whether or not Tor is being used."
-msgstr ""
-
-#: templates/layout.html:5
-msgid ""
-"Defend yourself against tracking and surveillance. Circumvent censorship."
-msgstr ""
-
-#: templates/layout.html:14
-msgid "Tor Project | Tor Browser Manual"
-msgstr ""
-
-#: templates/sidenav.html:4 templates/sidenav.html:34
-msgid "Topics"
-msgstr ""
-
-#: templates/macros/topic.html:22
-msgid "Contributors to this page:"
-msgstr ""
-
-#: templates/macros/topic.html:24
-msgid "Edit this page"
-msgstr ""
-
-#: templates/macros/topic.html:25
-msgid "Give Feedback"
-msgstr ""
-
-#: templates/macros/topic.html:26
-msgid "Permalink"
 msgstr ""
