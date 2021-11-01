@@ -113,3 +113,12 @@ check_l10n:
     - git clone https://gitlab.torproject.org/tpo/community/l10n.git
     - echo 'lets see if there are any BROKEN LINKS on the translations'
     - l10n/bin/check_markdown_links.py i18n/
+
+translation_tests_page:
+  stage: test_l10n
+  allow_failure: true
+  trigger: tpo/community/l10n
+  rules:
+    - changes:
+      - content/**/*.lr
+      - i18n/contents.pot
