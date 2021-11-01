@@ -24,7 +24,7 @@ On macOS:
 
 <img class="" src="/static/images/macos-go-to-folder-menu.png" alt="Go to folder menu option.">
 
-*  Then type "~/Library/Application Support/" in the window and click Go.
+* Then type `~/Library/Application Support/` in the window and click Go.
 
 <img class="" src="/static/images/macos-go-to-folder-window.png" alt="Go to folder window.">
 
