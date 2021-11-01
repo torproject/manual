@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-30 09:08+CET\n"
+"POT-Creation-Date: 2021-11-01 21:33+CET\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -2268,7 +2268,7 @@ msgstr ""
 #: https://tb-manual.torproject.org/uninstalling/
 #: (content/uninstalling/contents+en.lr:topic.body)
 msgid ""
-"*  Then type \"~/Library/Application Support/\" in the window and click Go."
+"* Then type `~/Library/Application Support/` in the window and click Go."
 msgstr ""
 
 #: https://tb-manual.torproject.org/uninstalling/
