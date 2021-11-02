@@ -78,7 +78,7 @@ pages:
   rules:
     - when: always
 
-check_new_strings:
+new_strings:
   cache:
     key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
     paths:
@@ -106,7 +106,7 @@ check_new_strings:
       - public
       - i18n
 
-check_l10n:
+l10n_QA:
   allow_failure: true
   cache:
     key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
@@ -129,7 +129,7 @@ check_l10n:
     - echo 'lets see if there are any BROKEN LINKS on the translations'
     - l10n/bin/check_markdown_links.py i18n/
 
-translation_tests_page:
+build_tests_page:
   stage: test_l10n
   allow_failure: true
   trigger: tpo/community/l10n
