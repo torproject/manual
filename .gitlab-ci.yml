@@ -17,8 +17,9 @@ image: debian:buster-slim
            'Dpkg::Use-Pty "0";' \
            "Dir::Cache::Archives \"${APT_CACHE_DIR}\"; " \
         >> /etc/apt/apt.conf.d/99gitlab
-      apt-get update -qq
-      apt-get upgrade -qy
+      DEBIAN_FRONTEND=noninteractive apt-get update -qq
+      DEBIAN_FRONTEND=noninteractive apt-get upgrade -qy
+      DEBIAN_FRONTEND=noninteractive apt-get install git apt-utils ca-certificates -y
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
