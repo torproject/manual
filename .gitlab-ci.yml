@@ -24,7 +24,21 @@ image: debian:buster-slim
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-  TRANSLATION_BRANCH: "tbmanual-contentspot"
+
+workflow:
+  rules:
+    - if: $CI_PROJECT_NAME == "support"
+      variables:
+        TRANSLATION_BRANCH: "support-portal"
+    - if: $CI_PROJECT_NAME == "manual"
+      variables:
+        TRANSLATION_BRANCH: "tbmanual-contentspot"
+    - if: $CI_PROJECT_NAME == "community"
+      variables:
+        TRANSLATION_BRANCH: "communitytpo-contentspot"
+    - if: $CI_PROJECT_NAME == "tpo"
+      variables:
+        TRANSLATION_BRANCH: "tpo-web"
 
 
 stages:
