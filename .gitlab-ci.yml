@@ -121,9 +121,7 @@ l10n_QA:
       - i18n
       - .cache/pip
   stage: test_l10n
-  needs: [pages]
-  only:
-    - translations
+  needs: [new_strings]
   script:
     - *apt-template
     - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-polib -y
