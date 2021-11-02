@@ -128,8 +128,10 @@ l10n_QA:
     - echo '==START Translations QA=='
     - rm -rf l10n
     - git clone --depth=1 https://gitlab.torproject.org/tpo/community/l10n.git
-    - echo 'lets see if there are any BROKEN LINKS on the translations'
-    - l10n/bin/check_markdown_links.py i18n/
+    - echo 'lets see if there are any problems with the translations'
+    - l10n/bin/check_common_errors.py i18n/
+    - echo 'Enabled translations and their completion'
+    - l10n/bin/check_completion.py
 
 build_tests_page:
   stage: test_l10n
