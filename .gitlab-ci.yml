@@ -46,10 +46,6 @@ include:
   project: tpo/tpa/ci-templates
   file: static-shim-deploy.yml
 
-stages:
-    - build
-    - test_l10n
-
 pages:
   cache:
     key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
@@ -94,7 +90,7 @@ new_strings:
       - apt-cache
       - venv
       - .cache/pip
-  stage: test_l10n
+  stage: test
   needs: [pages]
   allow_failure: true
   rules:
@@ -125,7 +121,7 @@ l10n_QA:
       - venv
       - i18n
       - .cache/pip
-  stage: test_l10n
+  stage: test
   needs: [new_strings]
   script:
     - *apt-template
@@ -139,7 +135,7 @@ l10n_QA:
     - l10n/bin/check_completion.py
 
 build_tests_page:
-  stage: test_l10n
+  stage: test
   allow_failure: true
   trigger: tpo/community/l10n
   rules:
