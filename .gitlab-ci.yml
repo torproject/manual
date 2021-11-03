@@ -26,21 +26,7 @@ variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
   SITE_URL: tb-manual.torproject.org
   SUBDIR: public/
-
-workflow:
-  rules:
-    - if: $CI_PROJECT_NAME == "support"
-      variables:
-        TRANSLATION_BRANCH: "support-portal"
-    - if: $CI_PROJECT_NAME == "manual"
-      variables:
-        TRANSLATION_BRANCH: "tbmanual-contentspot"
-    - if: $CI_PROJECT_NAME == "community"
-      variables:
-        TRANSLATION_BRANCH: "communitytpo-contentspot"
-    - if: $CI_PROJECT_NAME == "tpo"
-      variables:
-        TRANSLATION_BRANCH: "tpo-web"
+  TRANSLATION_BRANCH: "tbmanual-contentspot"
 
 include:
   project: tpo/tpa/ci-templates
@@ -59,8 +45,8 @@ pages:
   stage: build
   script:
     - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip  python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography -y
-    - pip3 install virtualenv
+    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip  python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography python3-venv -y
+    - python3 -m venv venv
     - virtualenv venv
     - source venv/bin/activate
     - pip3 install lektor
