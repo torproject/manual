@@ -12,9 +12,7 @@ variables:
   TRANSLATION_BRANCH: "tbmanual-contentspot"
 
 include:
-  project: tpo/tpa/ci-templates
-  file: static-shim-deploy.yml
-
-include:
-  project: tpo/tpa/ci-templates
-  file: lektor.yml
+  - project: tpo/tpa/ci-templates
+    file: static-shim-deploy.yml
+  - project: tpo/tpa/ci-templates
+    file: lektor.yml
