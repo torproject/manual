@@ -4,23 +4,6 @@ image: debian:buster-slim
 # This template should be usable on any system that's based on apt.
 # taken from tor gitlabci
 
-.apt-template: &apt-template |
-      export LC_ALL=C.UTF-8
-      echo Etc/UTC > /etc/timezone
-      mkdir -p apt-cache
-      export APT_CACHE_DIR="$(pwd)/apt-cache"
-      echo 'quiet "1";' \
-           'APT::Install-Recommends "0";' \
-           'APT::Install-Suggests "0";' \
-           'APT::Acquire::Retries "20";' \
-           'APT::Get::Assume-Yes "true";' \
-           'Dpkg::Use-Pty "0";' \
-           "Dir::Cache::Archives \"${APT_CACHE_DIR}\"; " \
-        >> /etc/apt/apt.conf.d/99gitlab
-      DEBIAN_FRONTEND=noninteractive apt-get update -qq
-      DEBIAN_FRONTEND=noninteractive apt-get upgrade -qy
-      DEBIAN_FRONTEND=noninteractive apt-get install git apt-utils ca-certificates -y
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
@@ -32,98 +15,6 @@ include:
   project: tpo/tpa/ci-templates
   file: static-shim-deploy.yml
 
-pages:
-  cache:
-    key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
-    paths:
-      - packages
-      - lego
-      - apt-cache
-      - venv
-      - .cache/pip
-      - .cache/lektor/builds/
-  stage: build
-  script:
-    - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-babel python3-pip  python3-inifile python3-dev python3-setuptools python3-openssl python3-cryptography python3-venv -y
-    - python3 -m venv venv
-    - virtualenv venv
-    - source venv/bin/activate
-    - pip3 install lektor
-    - echo 'checking out translations'
-    - rm -rf i18n
-    - git clone --branch $TRANSLATION_BRANCH --depth=1 https://git.torproject.org/translation.git i18n
-    - echo 'reinstall lektor plugins'
-    - lektor plugins reinstall
-    - echo 'building lektor 3 more times to get translations in place'
-    - lektor build --output-path public && lektor build --output-path public && lektor build --output-path public
-  artifacts:
-    paths:
-      - public
-      - i18n
-  rules:
-    - if: $TRANSLATION_BRANCH
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-    - if: '$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
-      when: never
-
-new_strings:
-  cache:
-    key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
-    paths:
-      - packages
-      - lego
-      - apt-cache
-      - venv
-      - .cache/pip
-  stage: test
-  needs: [pages]
-  allow_failure: true
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-    - if: '$CI_COMMIT_BRANCH == "translations"'
-    - if: '$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
-      when: never
-  script:
-    - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext  python3-dev python3-setuptools i18nspector python3-polib python3-requests -y
-    - git clone --depth=1 https://gitlab.torproject.org/tpo/community/l10n.git
-    - echo 'lets see if there are any UPDATES ON THE STRINGS for translation after this changes'
-    - l10n/bin/check_po_status.py $TRANSLATION_BRANCH
-  artifacts:
-    paths:
-      - public
-      - i18n
-
-l10n_QA:
-  allow_failure: true
-  cache:
-    key: $CI_PROJECT_PATH_SLUG.${CI_COMMIT_REF_SLUG}
-    paths:
-      - packages
-      - lego
-      - apt-cache
-      - venv
-      - i18n
-      - .cache/pip
-  stage: test
-  needs: [new_strings]
-  script:
-    - *apt-template
-    - DEBIAN_FRONTEND=noninteractive apt-get install gettext python3-polib -y
-    - echo '==START Translations QA=='
-    - rm -rf l10n
-    - git clone --depth=1 https://gitlab.torproject.org/tpo/community/l10n.git
-    - echo 'lets see if there are any problems with the translations'
-    - l10n/bin/check_common_errors.py i18n/
-    - echo 'Enabled translations and their completion'
-    - l10n/bin/check_completion.py
-
-build_tests_page:
-  stage: test
-  allow_failure: true
-  trigger: tpo/community/l10n
-  rules:
-    - changes:
-      - i18n/contents.pot
+include:
+  project: tpo/tpa/ci-templates
+  file: lektor.yml
