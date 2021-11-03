@@ -24,6 +24,8 @@ image: debian:buster-slim
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  SITE_URL: tb-manual.torproject.org
+  SUBDIR: public/
 
 workflow:
   rules:
@@ -40,6 +42,9 @@ workflow:
       variables:
         TRANSLATION_BRANCH: "tpo-web"
 
+include:
+  project: tpo/tpa/ci-templates
+  file: static-shim-deploy.yml
 
 stages:
     - build
