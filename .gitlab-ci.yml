@@ -10,6 +10,4 @@ variables:
 
 include:
   - project: tpo/tpa/ci-templates
-    file: static-shim-deploy.yml
-  - project: tpo/tpa/ci-templates
     file: lektor.yml
