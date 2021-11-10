@@ -1,0 +1,15 @@
+# This template should be usable on any system that's based on apt.
+# taken from tor gitlabci
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  SITE_URL: tb-manual.torproject.org
+  SUBDIR: public/
+  TRANSLATION_BRANCH: "tbmanual-contentspot"
+
+include:
+  - project: tpo/tpa/ci-templates
+    file: static-shim-deploy.yml
+  - project: tpo/tpa/ci-templates
+    file: lektor.yml
