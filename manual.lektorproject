@@ -90,6 +90,11 @@ name = Macedonian (mk)
 url_prefix = /mk/
 locale = mk
 
+[alternatives.my]
+name = မြန်မာဘာသာ (my)
+url_prefix = /my/
+locale = my
+
 [alternatives.pt-BR]
 name = Português (Brasil)
 url_prefix = /pt-BR/
