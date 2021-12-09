@@ -1,0 +1,1038 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="rtl" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="دافع عن نفسك ضد التتبع والرصد . تحايل على الرقابة. | MOBILE TOR">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>MOBILE TOR | مشروع تور | دليل استخدام متصفّح تور (Tor)</title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="إغلاق" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">إغلاق</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-right">
+        <div class="row">
+          <h4 class="banner-big-text">الخصوصية هي حق من حقوق الإنسان</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          شكرًا لك على مساعدتنا في الوصول إلى مباراة أصدقاء Tor التي تبلغ قيمتها 150 ألف دولار!
+	        </h2>
+	      </div>
+        
+        <div class="col-4 order-0">
+          
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">سيتم مطابقة تبرعك بواسطة Friends of Tor ، حتى 100000 دولار.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">تبرع الآن</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://www.torproject.org/donate/ar" title="تبرّع"><span class="badge badge-warning p-2">تبرع الآن</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        القائمة <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/about/history/">
+              
+            
+            عن 
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/">
+              
+            
+            الدعم
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/">
+              
+            
+            المجتمع
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            مدونة
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            تبرّع
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            عن 
+            وثائق 
+            الدعم
+            المجتمع
+            مدونة
+            الدردشة الخاصة
+            مناصب شاغرة 
+            للتواصل
+            صحافة
+            تبرّع
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          عربية (ar)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../mobile-tor/">English (en-US)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/mobile-tor/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/mobile-tor/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/mobile-tor/">Deutsch (de)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../el/mobile-tor/">Ελληνικά (el)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../es/mobile-tor/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/mobile-tor/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/mobile-tor/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/mobile-tor/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/mobile-tor/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/mobile-tor/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/mobile-tor/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/mobile-tor/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/mobile-tor/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/mobile-tor/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/mobile-tor/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/mobile-tor/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/mobile-tor/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/mobile-tor/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/mobile-tor/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/mobile-tor/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/mobile-tor/">ภาษาไทย (th)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/mobile-tor/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/mobile-tor/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          تنزيل متصفّح تور (Tor)<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">MOBILE TOR</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/ar" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="بحث .." aria-label="بحث">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	الموضوعات
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">عن متصفّح تور (Tor) </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">جاري التحميل </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">التثبيت </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">تشغيل متصفح تور للمرة الأولى </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">تجاوز الحجب </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">الجسور </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">إدارة الهويات </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">الاتصالات الآمنة </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">إعدادات الأمان </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">الاضافات </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">التحديث </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">خدمات البصلة (Onion) </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">إزالة التنصيب </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">جعل متصفح تور محمول </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">تحرّي المشكلات </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">مشاكل شائعة </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">تور(Tor) للهواتف </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-right" id="sidenav-topics">
+          <h4 class="text-primary pl-4">الموضوعات</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">عن متصفّح تور (Tor)</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">جاري التحميل</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">التثبيت</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">تشغيل متصفح تور للمرة الأولى</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">تجاوز الحجب</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">الجسور</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">إدارة الهويات</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">الاتصالات الآمنة</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">إعدادات الأمان</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">الاضافات</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">التحديث</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">خدمات البصلة (Onion)</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">إزالة التنصيب</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">جعل متصفح تور محمول</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">تحرّي المشكلات</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">مشاكل شائعة</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">تور(Tor) للهواتف</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="mobile-tor" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-right">
+	<a href="./">MOBILE TOR</a>
+      </h5>
+
+    </div>
+     <div id="mobile-tor" class="anchor-spacer text-right" role="tabpanel" data-parent="#">
+      <h3 id="mtsfh-twr-llndrwyd">متصفح تور للأندرويد</h3><p>متصفح تور للأندرويد هو المتصفح المحمول الرسمي الوحيد المدعوم والمطور بواسطة مشروع تور.
+إنه مثل متصفح تور للكمبيوتر، لكن لأجهزة الأندرويد المحمولة.
+بعضًا من الميّزات الرئيسية لمتصفح تور للأندرويد تتضمن: تقليل التتبع عبر مواقع الإنترنت، مكافحة المراقبة، مقاومة البصمة الرقمية للمتصفح والتحايل على الرقابة.</p>
+<h3 id="lthmyl-wltthbyt">التحميل والتثبيت</h3><p>توجد نسخة متصفح تور للأندرويد ومتصفح تور للأندرويد (نسخة ألفا).
+للمستخدمين العاديين، يُنصح باستخدام متصفح تور للأندرويد لأنه أكثر ثباتًا وأقل عرضةً للأخطاء.
+متصفح Tor لنظام الاندرويد متاح في متجر بلاي و اف دورويد وموقع مشروع Tor.
+تحميل متصفح تور من خارج هذه المنصات الثلاث يعتبر مخاطرة كبيرة.</p>
+<h4 id="google-play">Google Play</h4><p>يمكنك تثبيت متصفح تور للأندرويد من <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser">متجر جوجل بلاي</a>.</p>
+<h4 id="f-droid">F-Droid</h4><p>مشروع الحارس يوفر متصفح تور للأندرويد على مستودع F-Droid الخاص بهم.
+إذا كنت تفضل تحميل التطبيق من F-Droid، يرجى اتباع الخطوات التالية:</p>
+<ol>
+<li><p>قم بتثبيت تطبيق اف دورويد على جهاز الاندرويد الخاص بك من <a href="https://f-droid.org/">the F-Droid website.</a></p>
+</li>
+<li><p>بعد تثبيت تطبيق F-Droid قم بفتحه.</p>
+</li>
+<li><p>من الزاوية أسفل اليمين افتح قائمة الإعدادات "Settings".</p>
+</li>
+<li><p>من قسم "My Apps" قم بتفح المستودعات Repositories.</p>
+</li>
+<li><p>قم بتمكين خيار "Guardian Project Official Releases" كخيار مفعل.</p>
+</li>
+<li><p>الآن تطبيق F-Droid سيقوم بتنزيل قائمة من التطبيقات من مستودع مشروع الحارس Guardian Project (ربما يستغرق هذا بعض الدقائق).</p>
+</li>
+<li><p>اضغط على زر العودة Back من الزاوية في أعلى اليسار.</p>
+</li>
+<li><p>قم بقتح الأحدث "Latest" من الزاوية أسفل اليسار.</p>
+</li>
+<li><p>قم بتفح شاشة البحث بالضغط على زر العدسة المكبرة من الجانب في أسفل اليمين.</p>
+</li>
+<li><p>قم بالبحث عن متصفح تور للأندرويد "Tor Browser for Android".</p>
+</li>
+<li><p>قم بفتح نتيجة الاستعلام مشروع تور  "The Tor Project" وقم بالتثبيت.</p>
+</li>
+</ol>
+<h4 id="mwq-mshrw-twr">موقع مشروع تور</h4><p>يمكن أيضًا الحصول على متصفح تور للأندوريد عبر تحميل وتثبيت نسخة التطبيق apk من <a href="https://www.torproject.org/download/#android">موقع مشروع Tor</a>.</p>
+<h3 id="tshgyl-mtsfh-twr-l-lndrwyd-llmr-lwl">تشغيل متصفح تور على الأندرويد للمرة الأولى</h3><p>عند تشغيل متصفح Tor لأول مرة ، سترى خيار الاتصال مباشرة بشبكة Tor ، أو تكوين متصفح Tor لاتصالك بأيقونة الإعدادات.</p>
+<h4 id="tsl">اتصل</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-connect.png" alt="Connect to Tor Browser for Android"></p>
+<p>في أغلب الحالات، اختيار "الاتصال" سيسمح لكم بالاتصال بشبكة Tor بدون إيّة إعدادات أخرى. 
+بمجرد النقر عليها ، ستظهر الجمل المتغيرة في أسفل الشاشة ، مما يشير إلى تقدم اتصال Tor.
+إذا كنت تستخدم اتصالاً سريعًا نسبيًا ، ولكن يبدو أن هذا النص قد توقف عند نقطة معينة ، فراجع صفحة <a href="../troubleshooting">استكشاف الأخطاء وإصلاحها</a> للمساعدة في حل المشكلة.</p>
+<h4 id="lthyy">التهيئة</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-configure.png" alt="Configure Tor Browser for Android"></p>
+<p>إذا كنت تعلم أن اتصالك خاضع للرقابة، يجب عليك الضغط على أيقونة الإعدادات.
+سيأخذك متصفح تور(Tor) عبر سلسلة من خيارات التهيئة.
+ستخبرك الشاشة الأولى عن حالة شبكة Tor وتزودك بخيار تكوين جسر ('Config Bridge').
+إذا كنت تعلم أن اتصالك يخضع للرقابة ، أو أنك حاولت وفشلت في الاتصال بشبكة Tor ولم تنجح أي حلول أخرى ، فانقر على'Config Bridge'.
+سيتم نقلك بعد ذلك إلى شاشة <a href="../circumvention">التحايل</a> لتهيئة النقل القابل للتوصيل.</p>
+<h3 id="lthyl">التحايل</h3><p>مرحلات الجسر هي مرحلات Tor غير مدرجة في دليل Tor العام.
+الجسور مفيدة لمستخدمي تور الذين يعانون من وجود أنظمة قمعية في بلادهم، ولهؤلاء الأشخاص الذين يريدون طبقة حماية إضافية بسبب قلقهم من اكتشاف شخص أنهم يتصلون بعنوان لأحد طبقات تور.</p>
+<p>لاستخدام وسيلة نقل قابلة للتوصيل ، انقر على أيقونة الإعدادات عند بدء تشغيل متصفح Tor للمرة الأولى.
+تخبرك الشاشة الأولى بحالة شبكة Tor. اضغط على 'Config Bridge' لتكوين جسر.</p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android"></p>
+<p>الشاشة الثانية سوف تزودك بخيار إما أن تستخدم جسر مدمج أو جسر مخصص.
+مع خيار "Use a Bridge"، سيكون لديك ثلاثة خيارات: "obfs4" و "meek-azure" و "snowflake".</p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png" alt="Select a bridge on Tor Browser for Android"></p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-selected-a-bridge.png" alt="Selected a bridge on Tor Browser for Android"></p>
+<p>إذا اخترت الخيار "توفير جسر أعرفه" ، فيجب عليك إدخال <a href="../ الجسور /">عنوان الجسر</a>.</p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-provide-a-bridge.png" alt="Provide a bridge on Tor Browser for Android"></p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-provided-a-bridge.png" alt="Provide brigde addresses on Tor Browser for Android"></p>
+<h3 id="dr-lhwyt">إدارة الهويات</h3><h4 id="hwy-jdyd">هوية جديدة</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-new-identity.png" alt="New Identity on Tor Browser for Android"></p>
+<p>عند تشغيل متصفح Tor، سترى ذلك في لوحة الإشعارات بجهازك بعد توسيعه مع الزر "هوية جديدة".
+سيؤدي النقر فوق هذا الزر إلى تزويدك بهوية جديدة.
+على خلاف ما هو موجود في متصفح تور للحاسوب، زر "هوية جديدة" في متصفح تور للأندرويد لا يمنع إمكانية الربط بين نشاطك الحالي وما كنت تفعله من قبل.
+سيؤدي تحديده إلى تغيير دائرة تور (Tor) الخاصة بك فقط.</p>
+<h3 id="ddt-lmn">إعدادات الأمان</h3><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-security-settings.gif" alt="Security settings and security slider on Tor Browser for Android"></p>
+<p>تعمل <a href="../ إعدادات الأمان /">إعدادات الأمان</a> على تعطيل بعض ميزات الويب التي يمكن استخدامها لتهديد أمنك وإخفاء هويتك.
+يوفر متصفح (Tor) لنظام (Android) نفس مستويات الأمان الثلاثة المتوفرة على سطح المكتب
+يمكنك تعديل مستوى الأمان باتباع الخطوات التالية:</p>
+<ul>
+<li>إضغط على الزر الذي يحتوي على 3 نقاط عمودية في شريط العناوين.
+حرك الفأرة للأسفل و أضغط على "إعدادات الأمان"</li>
+<li>يمكنك الآن تحديد خيار مثل قياسي أو أكثر أمانًا أو أكثر أمانًا.</li>
+</ul>
+<h3 id="thdyth">تحديث</h3><p>يجب دائما تحديث متصفّح تور (Tor). إذا أصرّيتم على استخدام نسخة قديمة منه فقد تكونوا عرضة لبعض العيوب الأمنيّة الخطيرة التي قد تعرض خصوصيكتك وهويتكم للخطر.
+يمكنك تحديث متصفح (Tor) تلقائيًا أو يدويًا.</p>
+<h4 id="thdyth-mtsfh-twr-llndrwyd-tlqyyan">تحديث متصفح تور للأندرويد تلقائيًا</h4><p>تفترض هذه الطريقة أن لديك إما جوجل بلاى أواف دورويد مثبتًا على جهازك المحمول.</p>
+<h5 id="gwgl-bly">غوغل بلاي</h5><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-google-play.png" alt="Updating Tor Browser for Android on Google Play"></p>
+<p>اضغط على قائمة الهامبرغر بجوار شريط البحث وانتقل إلى "تطبيقاتي وألعابي"&gt; "تحديثات".
+إذا وجدت متصفح Tor في قائمة التطبيقات التي تحتاج إلى تحديث ، فحدده واضغط على زر "تحديث".</p>
+<h5 id="f-droid">F-Droid</h5><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png" alt="Updating Tor Browser for Android on F-Droid"></p>
+<p>اضغط على "الإعدادات" ، ثم انتقل إلى "إدارة التطبيقات المثبتة".
+في الشاشة التالية ، حدد متصفح Tor وأخيراً اضغط على زر "تحديث".</p>
+<h4 id="thdyth-mtsfh-twr-llndrwyd-ydwyan">تحديث متصفح تور للاندرويد يدوياً</h4><p>قم بزيارة <a href="https://www.torproject.org/download/#android">موقع مشروع تور</a> وحمل نسخة من آخر إصدار لمتصفح تور  <a href="../../mobile-tor/#downloading-and-installation">install</a>، ثم قم بتثبيته كما بالسابق.
+في معظم الحالات ، سيتم تثبيت احدث اصدار من متصح تور (Tor Browser) على الإصدار القديم ، وبالتالي ترقية المتصفح.
+إذا فشل القيام بذلك في تحديث المتصفح ، فقد تضطر إلى إلغاء تثبيت متصح تور (Tor Browser)  قبل إعادة تثبيته.
+بعد إغلاق متصح تور (Tor Browser) ، قم بإزالته من النظام الخاص بك عن طريق إلغاء تثبيته باستخدام إعدادات جهازك.
+اعتمادًا على العلامة التجارية لجهازك المحمول ، انتقل إلى الإعدادات&gt; التطبيقات ، ثم حدد متصفح Tor وانقر على زر "إلغاء التثبيت". بعد ذلك ، قم بتنزيل أحدث إصدار من متصفح Tor وقم بتثبيته.</p>
+<h3 id="jrin-lg-ltthbyt">جارٍ إلغاء التثبيت</h3><p>يمكن إلغاء تثبيت متصفح Tor لنظام اندرويد مباشرة من اف دورويد أو جوجل بلاى  أو من إعدادات تطبيق جهازك المحمول.</p>
+<h4 id="google-play">Google Play</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-google-play.png" alt="Uninstalling Tor Browser for Android on Google Play"></p>
+<p>اضغط على قائمة الهامبرغر بجوار شريط البحث وانتقل إلى "تطبيقاتي وألعابي"&gt; "المثبتة".
+حدد متصفح تور (Tor)  من قائمة التطبيقات المثبتة ، ثم اضغط على زر "إلغاء التثبيت".</p>
+<h4 id="f-droid">F-Droid</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-f-droid.png" alt="Uninstalling Tor Browser for Android on F-Droid"></p>
+<p>اضغط على "الإعدادات" ، ثم انتقل إلى "إدارة التطبيقات المثبتة".
+في الشاشة التالية ، حدد متصفح Tor وأخيراً اضغط على زر "إلغاء التثبيت".</p>
+<h4 id="ddt-ttbyqt-bljhz-lmhmwl">إعدادات تطبيقات بالجهاز المحمول</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-device-settings.png" alt="Uninstalling Tor Browser for Android using device app settings"></p>
+<p>اعتمادًا على العلامة التجارية لجهازك المحمول, انتقل إلى الإعدادات&gt; التطبيقات, ثم حدد متصفح Tor وانقر على زر "إلغاء التثبيت".</p>
+<h3 id="thrwy-lmshklt">تحرّي المشكلات</h3><h4 id="rd-sjlt-tor">عرض سجلات Tor</h4><p><img style="max-width:300px" class="img-fluid" src="../../static/images/android-view-logs.gif" alt="View Tor logs on Tor Browser for Android"></p>
+<p>لعرض سجلات Tor الخاصة بك:</p>
+<ol>
+<li>قم بتشغيل متصفح Tor لنظام الاندرويد وانقر على "اتصال".</li>
+<li>أثناء عملية التمهيد، اسحب من اليمين إلى اليسار لعرض السجلات. (ملاحظة: بشكل افتراضي، يتم تعطيل القدرة على التقاط لقطات شاشة لسجلات Tor على متصفح Tor لنظام الاندرويد. <a href="https://bugs.torproject.org/tpo/applications/fenix/40191">الخطأ # 40191</a>)</li>
+</ol>
+<p>لاستكشاف بعض المشكلات الأكثر شيوعًا وإصلاحها، يرجى الرجوع إلى <a href="https://support.torproject.org/connecting/connecting-2/">إدخال بوابة الدعم</a>.</p>
+<h3 id="qdy-m-rwf">قضايا معروفة</h3><p>في الوقت الحالي ، هناك بعض الميزات غير المتوفرة في متصفح تور (Tor) لنظام أندرويد (Android) ، ولكنها متوفرة حاليًا في متصفح تور (Tor) لسطح المكتب.</p>
+<ul>
+<li>لا يمكنك رؤية دائرة Tor الخاصة بك. <a href="https://gitlab.torproject.org/tpo/applications/torbutton/-/issues/25764">#25764</a></li>
+<li>لا يتصل متصفح Tor لنظام اندرويد عند نقله إلى بطاقة SD. <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814">#31814</a></li>
+<li>لا يمكنك التقاط لقطات شاشة أثناء استخدام متصفح Tor لنظام الاندرويد. <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987">#27987</a>  </li>
+<li>لا يمكنك تحميل الملفات باستخدام متصفح Tor لنظام الاندرويد. <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283">#40283</a></li>
+<li>لا يمكنك فتح عناوين onion التي تتطلب تخويل العميل <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672">#31672</a></li>
+</ul>
+<h3 id="lmzyd-hwl-twr-l-ljhz-lmhmwl">المزيد حول تور على الأجهزة المحمولة</h3><h4 id="orfox">Orfox</h4><p>تم إصدار Orfox لأول مرة في عام 2015 من قبل The Guardian Project ، بهدف منح مستخدمي Android طريقة لتصفح الإنترنت عبر Tor.
+على مدى السنوات الثلاث التالية ، تحسنت أورفوكس باستمرار وأصبحت وسيلة شائعة للأشخاص لتصفح الإنترنت بخصوصية أكبر من المتصفحات القياسية ، وكان أورفوكس ضروريًا لمساعدة الأشخاص على التحايل على الرقابة والوصول إلى المواقع المحجوبة والموارد الهامة.
+في عام 2019, <a href="https://blog.torproject.org/orfox-paved-way-tor-browser-android">كان أورفوكس مغيبًا </a> بعد إصدار متصفح Tor الرسمي لنظام الاندرويد.</p>
+<h4 id="orbot">Orbot</h4><p>Orbot هو تطبيق خادم وسيط (proxy) مجاني يمكّن التطبيقات الأخرى من استخدام شبكة Tor. 
+يستخدم أوربوت Tor لتشفير حركة المرور الخاصة بك على الإنترنت.
+ثم يمكنك استخدامه مع التطبيقات الأخرى المثبتة على جهازك المحمول للالتفاف على الرقابة والحماية من المراقبة.
+تطبيق أوربوت يمكن تحميله وتثبيته من <a href="https://play.google.com/store/apps/details?id=org.torproject.android">جوجل بلاي</a>.
+قم بمراجعة <a href="https://support.torproject.org/tormobile/tormobile-6/">بوابة الدعم الخاصة بنا</a> لمعرفة ما إذا كنت تحتاج إلى متصفح تور للأندرويد وتطبيق أوربوت معًا أو واحد فقط.</p>
+<h3 id="mtsfh-twr-ll-ios">متصفح تور للـ iOS</h3><p>لا يوجد متصفح تور(Tor) لنظام iOS.
+نوصي باستخدام تطبيق iOS يسمى Onion Browser ، وهو برنامج مفتوح المصدر ، يستخدم توجيه Tor ، وتم تطويره بواسطة شخص يعمل بشكل وثيق مع Tor Project.
+ومع ذلك ، تطلب Apple من المتصفحات على iOS استخدام شيء يسمى Webkit ، والذي يمنع متصفح Onion من الحصول على نفس حماية الخصوصية مثل متصفح Tor.</p>
+<p><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">عرف على المزيد عن متصفح البصلة</a>.
+قم بتنزيل متصفح Onion من <a href="https://itunes.apple.com/us/app/onion-browser/id519296448">App Store</a>.</p>
+<h3 id="mtsfh-twr-tor-lnzm-ltshgyl-hwtf-wyndwz-windows-phone">متصفح تور (Tor) لنظام التشغيل هواتف ويندوز (Windows Phone)</h3><p>لا توجد حاليًا طريقة مدعومة لتشغيل Tor على هواتف ويندوز الأقدم ، ولكن في حالة الهواتف الأحدث التي تحمل علامة مايكروسوفت التجارية / التي تم الترويج لها ، يمكن اتباع نفس الخطوات على <a href="#tor-browser-for-android">متصفح Tor على نظام الاندرويد</a>.</p>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">المساهمون في هذه الصفحة: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/mobile-tor/contents.lr">تعديل هذه الصفحة</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">إبداء الرأي</a> -
+                        <a href="./">رابط ثابت</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-right">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">تنزيل متصفّح تور (Tor)</h2>
+            <p class="text-white">نزّلوا متصفّح تور (Tor) لتختبروا التصفّح الخاص فعليّاً بدون تتبّع أو مراقبة أو رقابة.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              تنزيل متصفّح تور (Tor)<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">مُهمّتنا:</h5>
+          <p class="text-white mb-5" >لدعم الحريّات وحقوق الإنسان عن طريق خلق وتشغيل تقنيّات خصوصيّة ومجهوليّة مجّانيّة ومفتوحة المصدر، ممّا يجعلها متاحة للاستخدام بدون قيود، وكذلك تطوير الإدراك العلمي والعام لهذه التقنيات. </p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/about/jobs/">
+            
+          
+              مناصب شاغرة 
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              مدونة
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/contact/">
+            
+          
+              للتواصل
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/press/">
+            
+          
+              صحافة
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              الدردشة الخاصة
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://www.torproject.org/donate/ar" title="تبرّع"><h4><span class="badge badge-warning p-2">تبرع الآن</span></h4></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">اشترك في رسالتنا للمستجدات</p>
+        <p class="text-light">احصل على تحديثات شهرية وفرص من مشروع تور:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">سجل حساب</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">يمكن العثور على العلامة التجارية وحقوق النشر وقواعد الاستخدام من الطرف الثالث في
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            عربية (ar)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../mobile-tor/">English (en-US)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/mobile-tor/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/mobile-tor/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/mobile-tor/">Deutsch (de)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/mobile-tor/">Ελληνικά (el)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/mobile-tor/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/mobile-tor/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/mobile-tor/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/mobile-tor/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/mobile-tor/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/mobile-tor/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/mobile-tor/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/mobile-tor/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/mobile-tor/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/mobile-tor/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/mobile-tor/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/mobile-tor/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/mobile-tor/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/mobile-tor/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/mobile-tor/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/mobile-tor/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/mobile-tor/">ภาษาไทย (th)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/mobile-tor/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/mobile-tor/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

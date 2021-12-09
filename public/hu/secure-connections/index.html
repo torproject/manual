@@ -1,0 +1,987 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Védd meg magad a követés és felügyelet ellen. Kerüld meg a cenzúrát. | BIZTONSÁGOS KAPCSOLATOK">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>BIZTONSÁGOS KAPCSOLATOK | Tor Project | Tor Böngésző kézikönyv</title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="Banner bezárása" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">Banner bezárása</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-left">
+        <div class="row">
+          <h4 class="banner-big-text">A magánélet emberi jog</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          Thank you for helping us reach our $150,000 Friends of Tor match!
+	        </h2>
+	      </div>
+        
+          <div class="col-4 order-1">
+            
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">Az adományoddal egyező adományt ad a Friends of Tor, egészen 100 000 dollárig.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">Adományozzon most</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="../../static/css/images/home/png/yec-activist-hu@3x.png?h=fe0379f4">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://donate.torproject.org" title="Adományozás"><span class="badge badge-warning p-2">Adományozzon most</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menü <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/hu/about/history/">
+              
+            
+            Névjegy
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/">
+              
+            
+            Támogatás
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/">
+              
+            
+            Közösség
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            Blog
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            Adományozás
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            Névjegy
+            Dokumentáció
+            Támogatás
+            Közösség
+            Blog
+            PrivChat
+            Állások
+            Kapcsolat
+            Sajtó
+            Adományozás
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          Magyar nyelv (hu)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../secure-connections/">English (en-US)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ar/secure-connections/">عربية (ar)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/secure-connections/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/secure-connections/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/secure-connections/">Deutsch (de)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../el/secure-connections/">Ελληνικά (el)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../es/secure-connections/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/secure-connections/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/secure-connections/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/secure-connections/">עברית (he)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../id/secure-connections/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/secure-connections/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/secure-connections/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/secure-connections/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/secure-connections/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/secure-connections/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/secure-connections/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/secure-connections/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/secure-connections/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/secure-connections/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/secure-connections/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/secure-connections/">ภาษาไทย (th)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/secure-connections/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/secure-connections/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          Tor Böngésző letöltése<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">BIZTONSÁGOS KAPCSOLATOK</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/hu" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="Keresés .." aria-label="Keresés">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	Témák
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">A Tor Böngésző névjegye </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">Letöltés </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">Telepítés </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">A Tor Böngésző első futtatása </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">Megkerülés </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">Hidak </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">Identitások kezelése </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">Biztonságos kapcsolatok </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">Biztonsági beállítások </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">Kiegészítők </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">Frissítés </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">Onion Szolgáltatások </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">Eltávolítás </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">A Tor Böngésző hordozhatóvá tétele </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">Hibaelhárítás </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">Ismert problémák </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../mobile-tor">Mobil Tor </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-left" id="sidenav-topics">
+          <h4 class="text-primary pl-4">Témák</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">A Tor Böngésző névjegye</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">Letöltés</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">Telepítés</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">A Tor Böngésző első futtatása</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">Megkerülés</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">Hidak</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">Identitások kezelése</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">Biztonságos kapcsolatok</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">Biztonsági beállítások</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">Kiegészítők</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">Frissítés</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">Onion Szolgáltatások</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">Eltávolítás</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">A Tor Böngésző hordozhatóvá tétele</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">Hibaelhárítás</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">Ismert problémák</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../mobile-tor">Mobil Tor</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="secure-connections" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-left">
+	<a href="./">BIZTONSÁGOS KAPCSOLATOK</a>
+      </h5>
+
+    </div>
+     <div id="secure-connections" class="anchor-spacer text-left" role="tabpanel" data-parent="#">
+      <p>Ha a személyes információk, adatok, mint például a bejelentkezési jelszó titkosítatlanul van jelen az interneten, könnyen eltéríthető és felhasználható. Amikor bejelentkezik egy website-ra, győződjön meg arról, hogy a website HTTPS titkosítású, amely védi az érzékeny adatok ilyen fajta illetéktelen hozzáférésétől. Ezt az URL sávban tudja ellenőrizni: ha a kapcsolata titkosított, a cím “<a href="https://”-sel">https://”-sel</a> fog kezdődni “http://” helyett.</p>
+
+      
+        <p>Az alábbi vizualizáció bemutatja, hogy milyen információk láthatók a lehallgatók számára Tor Böngészővel és a nélkül és HTTPS kapcsolattal:</p>
+
+<ul>
+    <li>Kattintson a “Tor” gombra, hogy lássa mely adatok láthatók a megfigyelők számára a Tor használata során. A gomb zöldre fog váltani, hogy jelezze, a Tor bekapcsolt.</li>
+    <li>Kattintson a “HTTPS” gombra, hogy lássa mely adatok láthatók a megfigyelők számára a HTTPS használata során. A gomb zöldre fog váltani, hogy jelezze, a HTTPS bekapcsolt.</li>
+    <li>Ha mindkét gomb zöld, akkor azt láthja, mely adatok láthatók a megfigyelők számára ha mindkettőt használja.</li>
+    <li>Ha mindkét gomb szürke, akkor azt láthatja, hogy az adatok láthatók a megfigyelők számára, ha egyik eszközt sem használja.</li>
+</ul>
+
+<br />
+<label>HTTPS</label>
+<input class="toggle" type="checkbox" id="https-switch"/>
+
+<br />
+<label>Tor</label>
+<input class="toggle" type="checkbox" id="tor-switch"/>
+
+<br />
+<div id="http-content" class="switch-off">
+  <img src="../../static/images/tor-https-0.png?h=cb1b2db2" />
+</div>
+<div id="https-content" class="switch-off">
+  <img src="../../static/images/tor-https-1.png?h=0023bec1" />
+</div>
+<div id="tor-content" class="switch-off">
+  <img src="../../static/images/tor-https-2.png?h=1bcc66ca" />
+</div>
+<div id="https-tor-content" class="switch-on">
+  <img src="../../static/images/tor-https-3.png?h=53d08535" />
+</div>
+
+<h5>POTENCIÁLISAN LÁTHATÓ ADAT</h5>
+
+<dl>
+
+<dt>
+Site.com
+</dt>
+  <dd>
+    Korábban meglátogatott webhely.
+  </dd>
+
+<dt>
+user / pw
+</dt>
+  <dd>
+    A hitelesítéshez használt felhasználónév és jelszó.
+  </dd>
+
+<dt>
+adatok
+</dt>
+  <dd>
+    Az adat átvitelre kerül.
+  </dd>
+
+<dt>
+helyszín
+</dt>
+  <dd>
+      A használt számítógép hálózat címe kerül használatra a weboldal megtekintéséhez (a publikus email cím).
+  </dd>
+
+<dt>
+Tor
+</dt>
+  <dd>
+      A Tor használatban van-e vagy sem.
+  </dd>
+
+</dl>
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Közreműködők ebben az oldalban: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/secure-connections/contents.lr">Az oldal szerkesztése</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">Visszajelzés küldése</a> -
+                        <a href="./">Permalink</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-left">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">Tor Böngésző letöltése</h2>
+            <p class="text-white">Töltse le a Tor Böngészőt, hogy megtapasztalja a valóban privát böngészést, nyomkövetés, megfigyelés és cenzúra nélkül.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              Tor Böngésző letöltése<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">Küldetésünk:</h5>
+          <p class="text-white mb-5" >Az emberi jogokért és szabadságért harcolunk, nyílt forráskódú anonimitás és adatvédelmi technológiák fejlesztésével és terjesztésével, támogatva azok korlátlan elérhetőségét és használatát,  és támogassuk a tudományos és általános megértésüket.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/hu/about/jobs/">
+            
+          
+              Állások
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              Blog
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/hu/contact/">
+            
+          
+              Kapcsolat
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/hu/press/">
+            
+          
+              Sajtó
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              PrivChat
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://donate.torproject.org" title="Adományozás"><h5><span class="badge badge-warning p-2 mt-2">Adományozzon most</span></h5></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">Iratkozzon fel hírlevelünkre</p>
+        <p class="text-light">Kapjon havi értesítéseket és lehetőségeket a Tor Project-től:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">Regisztráció</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">A védjegy, a szerzői jogi nyilatkozatok és a harmadik felek által használt szabályok megtalálhatók a 
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+ oldalunkon..</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Magyar nyelv (hu)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../secure-connections/">English (en-US)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ar/secure-connections/">عربية (ar)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/secure-connections/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/secure-connections/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/secure-connections/">Deutsch (de)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/secure-connections/">Ελληνικά (el)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/secure-connections/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/secure-connections/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/secure-connections/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/secure-connections/">עברית (he)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/secure-connections/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/secure-connections/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/secure-connections/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/secure-connections/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/secure-connections/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/secure-connections/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/secure-connections/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/secure-connections/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/secure-connections/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/secure-connections/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/secure-connections/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/secure-connections/">ภาษาไทย (th)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/secure-connections/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/secure-connections/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

@@ -1,0 +1,996 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Defiéndete de la vigilancia de red y el análisis de tráfico. Elude la censura. | SERVICIOS CEBOLLA">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>SERVICIOS CEBOLLA | Tor Project | Manual de usuario del Navegador Tor</title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="Cerrar banner" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">Cerrar banner</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-left">
+        <div class="row">
+          <h4 class="banner-big-text">La privacidad es un derecho humano.</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          ¡Gracias por ayudarnos a alcanzar nuestro importe de $150.000 duplicado por Amigos de Tor!
+	        </h2>
+	      </div>
+        
+          <div class="col-4 order-1">
+            
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">A tu donación la emparejará Amigos de Tor hasta $100.000.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">Dona Ahora</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="../../static/css/images/home/png/yec-activist-es@3x.png?h=99968fcf">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://donate.torproject.org" title="Donar"><span class="badge badge-warning p-2">Dona Ahora</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menú <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/es/about/history/">
+              
+            
+            Acerca de
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/es/">
+              
+            
+            Ayuda
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/es/">
+              
+            
+            Comunidad
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            Blog
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            Donar
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            Acerca de
+            Documentación
+            Ayuda
+            Comunidad
+            Blog
+            PrivChat
+            Empleo
+            Contactar
+            Prensa
+            Donar
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          Español (es)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../onion-services/">English (en-US)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ar/onion-services/">عربية (ar)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/onion-services/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/onion-services/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/onion-services/">Deutsch (de)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../el/onion-services/">Ελληνικά (el)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/onion-services/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/onion-services/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/onion-services/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/onion-services/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/onion-services/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/onion-services/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/onion-services/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/onion-services/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/onion-services/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/onion-services/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/onion-services/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/onion-services/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/onion-services/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/onion-services/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/onion-services/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/onion-services/">ภาษาไทย (th)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/onion-services/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/onion-services/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          Bajarse el Navegador Tor<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">SERVICIOS CEBOLLA</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/es" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="Buscar .." aria-label="Buscar">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	Temas
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">Sobre el Navegador Tor </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">Descargando </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">Instalación </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">Ejecutar el Navegador Tor por primera vez </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">Evasión </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">Puentes </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">Gestionar Identidades </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">Conexiones seguras </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">Configuración de Seguridad </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">Complementos </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">Actualizar </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">Servicios cebolla </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">Desinstalar </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">Hacer portable el Navegador Tor </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">Resolución de problemas </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">Problemas conocidos </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../mobile-tor">Tor en el móvil </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-left" id="sidenav-topics">
+          <h4 class="text-primary pl-4">Temas</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">Sobre el Navegador Tor</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">Descargando</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">Instalación</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">Ejecutar el Navegador Tor por primera vez</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">Evasión</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">Puentes</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">Gestionar Identidades</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">Conexiones seguras</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">Configuración de Seguridad</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">Complementos</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">Actualizar</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">Servicios cebolla</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">Desinstalar</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">Hacer portable el Navegador Tor</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">Resolución de problemas</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">Problemas conocidos</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../mobile-tor">Tor en el móvil</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="onion-services" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-left">
+	<a href="./">SERVICIOS CEBOLLA</a>
+      </h5>
+
+    </div>
+     <div id="onion-services" class="anchor-spacer text-left" role="tabpanel" data-parent="#">
+      <p>Los servicios cebolla (anteriormente conocidos como "servicios ocultos") son servicios (como pueden ser los sitios web) que sólo son accesibles a través de la red Tor.</p>
+<p>Los servicios cebolla ofrecen varias ventajas sobre los servicios ordinarios en la web no-privada:</p>
+<ul>
+<li>La ubicación y dirección IP de un servicio cebolla están ocultas, dificultando que los adversarios puedan censurarlo o identificar a sus operadores.</li>
+<li>Todo el tráfico entre los usuarios de Tor y los servicios cebolla está cifrado de extremo-a-extremo, por lo que no hace falta preocuparse de <a href="../secure-connections">conectar a través de HTTPS</a>.</li>
+<li>La dirección de un servicio cebolla se genera automáticamente, de forma que los operadores no necesitan comprar un nombre de dominio; la URL .onion también ayuda a Tor a asegurarse de que estás conectando a la ubicación correcta y que la conexión no está siendo alterada.</li>
+</ul>
+<h3 id="como-acceder-a-un-servicio-cebolla">CÓMO ACCEDER A UN SERVICIO CEBOLLA</h3><p>Como en cualquier otro sitio web, necesitarás conocer la dirección de un servicio cebolla para conectar con él. Una dirección cebolla es una cadena de 56 letras y números aleatorios en su mayoría, seguidos de ".onion".</p>
+<p>Al acceder a un sitio web que utiliza un servicio cebolla, el Navegador Tor mostrará en la barra de URL un icono de una cebolla que muestra el estado de tu conexión: segura y usando un servicio cebolla.
+Puedes obtener más información sobre el sitio onion que estás visitando en la pantalla del circuito.</p>
+<p>Otra forma de obtener información sobre un sitio onion es si el administrador del sitio web ha implementado una función llamada Onion-Location.
+Onion-Location es un encabezado HTTP no-standard que los sitios web pueden usar para publicitar su contraparte onion.
+Si el sitio web que estás visitando tiene un sitio onion disponible, una etiqueta púrpura de sugerencia aparecerá en la barra URL, indicando ".onion disponible".
+Cuando cliqueas en ".onion disponible", el sitio web será recargado y redirigido a su contraparte onion.</p>
+<p><img style="max-width:100%" class="col-md-6" src="../../static/images/onion-location.png" alt="Onion-Location"></p>
+<p>Para priorizar la versión cebolla de un sitio web, puedes habilitar redirecciones automáticas Onion-Location.
+Haz clic en el menú hamburguesa (≡), vé hacia Preferencias (u Opciones en Windows), haz clic en Privacidad y Seguridad, y en la sección Servicios Cebolla busca la entrada "Priorizar sitios .onion cuando se conozcan" y marca la opción "Siempre".
+O, si ya estás ejecutando al Navegador Tor, puedes copiar y pegar esta cadena de caracteres en una nueva pestaña: <code>about:preferences#privacy</code> y cambiar este ajuste.</p>
+<h2 id="autenticacion-del-servicio-cebolla">AUTENTICACIÓN DEL SERVICIO CEBOLLA</h2><p>Un servicio cebolla autenticado es un servicio como un sitio onion que requiere que el cliente proporcione una credencial de autenticación antes de acceder al servicio.
+Como usuario de Tor, podrías autenticarte directamente en el Navegador Tor.
+Para poder acceder a este servicio, necesitarás las credenciales de acceso del operador del servicio cebolla.
+Cuando se accede a un sitio web que utiliza un servicio cebolla, el Navegador Tor mostrará en la barra de URL un icono de una pequeña llave gris, acompañada de un tooltip.
+Introduce tu clave privada válida para este servicio cebolla en la casilla de texto.</p>
+<p><img class="col-md-6" src="../../static/images/client-auth.png" alt="Autorización de cliente"></p>
+<h3 id="errores-del-servicio-cebolla">ERRORES DEL SERVICIO CEBOLLA</h3><p>Si no puedes conectar a un sitio cebolla, el Navegador Tor proveerá un mensaje específico de error informando por qué el sitio web no está disponible. 
+Los errores pueden suceder en diferentes capas: errores de cliente, de red o del servicio.
+Algunos de estos errores pueden arreglarse siguiendo la sección Solución de Problemas.
+La tabla de abajo muestra todos los posibles errores y qué acción deberías tomar para resolverlos.</p>
+<table>
+<thead><tr>
+<th><strong>Código</strong></th>
+<th><strong>Título del Error</strong></th>
+<th><strong>Descripción Corta</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XF0</td>
+<td>Sitio Cebolla No Encontrado</td>
+<td>La causa más probable es que el sitio cebolla esté fuera de línea o deshabilitado. Contacta al administrador del sitio cebolla.</td>
+</tr>
+<tr>
+<td>XF1</td>
+<td>El Sitio Cebolla No Se Puede Alcanzar</td>
+<td>El sitio cebolla es inalcanzable debido a un error interno.</td>
+</tr>
+<tr>
+<td>XF2</td>
+<td>El Sitio Cebolla Se Ha Desconectado</td>
+<td>La causa más probable es que el sitio cebolla esté fuera de línea o deshabilitado. Contacta al administrador del sitio cebolla.</td>
+</tr>
+<tr>
+<td>XF3</td>
+<td>Incapaz De Conectarse Al Sitio Cebolla</td>
+<td>El sitio cebolla está ocupado o la red Tor está sobrecargada. Inténtalo más tarde.</td>
+</tr>
+<tr>
+<td>XF4</td>
+<td>El Sitio Cebolla Requiere Autenticación</td>
+<td>El acceso al sitio cebolla requiere una clave, pero no se ha proporcionado.</td>
+</tr>
+<tr>
+<td>XF5</td>
+<td>Falló La Autenticación Del Sitio Cebolla</td>
+<td>La clave proporcionada es incorrecta o ha sido revocada. Contacta al administrador del sitio cebolla.</td>
+</tr>
+<tr>
+<td>XF6</td>
+<td>Dirección Del Sitio Cebolla Inválida</td>
+<td>La dirección provista para el sitio cebolla no es válida. Por favor, comprueba que la has introducido correctamente.</td>
+</tr>
+<tr>
+<td>XF7</td>
+<td>Demora Excesiva En La Creación Del Circuito Para El Sitio Cebolla</td>
+<td>Fallo al conectar al sitio cebolla, quizá por una mala conexión de red.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="solucion-de-problemas">SOLUCIÓN DE PROBLEMAS</h3><p>Si no puedes llegar al servicio cebolla que solicitaste, asegúrate de haber ingresado la dirección onion correctamente: incluso un pequeño error impedirá que el Navegador Tor pueda llegar al sitio.</p>
+<p>Si todavía no puedes conectar al servicio cebolla luego de verificar la dirección, por favor inténtalo más tarde. Puede haber un problema temporario de conexión, o los operadores del sitio pueden haberle permitido salir de línea sin advertencia.</p>
+<p>Si el servicio cebolla al que intentas acceder consiste en una cadena de 16 caracteres (formato V2), este tipo de dirección está en <a href="https://support.torproject.org/onionservices/v2-deprecation/">proceso de obsolescencia</a>.</p>
+<p>También puedes probar si puedes acceder a otros servicios cebolla conectando al <a href="https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/">servicio cebolla de DuckDuckGo</a>.</p>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Personas que han contribuido a esta página: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/onion-services/contents.lr">Edita esta página</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">Danos tu opinión</a> -
+                        <a href="./">Permalink</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-left">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">Bajarse el Navegador Tor</h2>
+            <p class="text-white">Descarga Navegador Tor para experimentar navegación privada real sin rastreo, vigilancia ni censura.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              Bajarse el Navegador Tor<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">Nuestra misión:</h5>
+          <p class="text-white mb-5" >Promover los derechos humanos y las libertades mediante la creación y despliegue de tecnologías de anonimato y privacidad libres y de código abierto, el apoyo a su disponibilidad y utilización sin restricciones y el fomento de su comprensión científica y popular.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/es/about/jobs/">
+            
+          
+              Empleo
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              Blog
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/es/contact/">
+            
+          
+              Contactar
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/es/press/">
+            
+          
+              Prensa
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              PrivChat
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://donate.torproject.org" title="Donar"><h5><span class="badge badge-warning p-2 mt-2">Dona Ahora</span></h5></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">Suscríbete a nuestra lista de correo</p>
+        <p class="text-light">Recibe noticias mensuales y oportunidades del Proyecto Tor:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">Registrarse</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">Se pueden encontrar, la marca registrada, las notas de derechos de autor, y las reglas de uso por terceras partes, en nuestra 
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Español (es)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../onion-services/">English (en-US)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ar/onion-services/">عربية (ar)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/onion-services/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/onion-services/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/onion-services/">Deutsch (de)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/onion-services/">Ελληνικά (el)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/onion-services/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/onion-services/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/onion-services/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/onion-services/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/onion-services/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/onion-services/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/onion-services/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/onion-services/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/onion-services/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/onion-services/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/onion-services/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/onion-services/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/onion-services/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/onion-services/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/onion-services/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/onion-services/">ภาษาไทย (th)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/onion-services/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/onion-services/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

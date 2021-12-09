@@ -1,0 +1,83 @@
+/* Full page styles */
+
+.dcs-full-page {
+  align-items: center;
+  background-color: var(--green);
+  bottom: 0;
+  color: var(--grey);
+  display: none;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.dcs-full-page__container {
+  max-width: 40rem;
+}
+
+.dcs-full-page__close {
+  display: none; /* The full page close button can be configured to display: 'flex'.*/
+  height: 2.5rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2.5rem;
+}
+
+.dcs-full-page__main {
+  padding: 1rem;
+}
+
+.dcs-full-page__logo {
+  margin: 0 auto;
+  width: 5.7rem;
+  display: block;
+}
+
+.dcs-full-page__body {
+  margin: 2.25rem auto 0;
+}
+
+.dcs-full-page__body p {
+  font: normal 3.2rem/3.5rem 'Greve';
+}
+
+.dcs-full-page__action {
+  margin: 1.25rem auto 0;
+}
+
+.dcs-full-page__footer {
+  bottom: 0;
+  font: 400 10px/13px 'Katwijk Bold', monospace;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.dcs-full-page__footer small {
+  display: inline-block;
+  max-width: 15.6rem;
+  margin: 3rem auto;
+}
+
+.dcs-website-name__prefix {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .dcs-full-page__footer {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-height: 600px) {
+  .dcs-full-page__body p {
+    font: normal 2.2rem/2.5rem 'Greve';
+  }
+}

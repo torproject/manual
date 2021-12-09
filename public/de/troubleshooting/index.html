@@ -1,0 +1,944 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Verteidige dich gegen Verfolgung und Überwachung. Umgehe die Zensur. | PROBLEMLÖSUNG">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>PROBLEMLÖSUNG | Tor Project | Tor Browser Benutzerhandbuch</title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="Banner schließen" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">Banner schließen</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-left">
+        <div class="row">
+          <h4 class="banner-big-text">Datenschutz ist ein Menschenrecht</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          Thank you for helping us reach our $150,000 Friends of Tor match!
+	        </h2>
+	      </div>
+        
+          <div class="col-4 order-1">
+            
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">Deine Spende wird von Friends of Tor verdoppelt, bis zu 100.000 $.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">Spende jetzt</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="../../static/css/images/home/png/yec-activist-de@3x.png?h=825f9a2c">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://donate.torproject.org" title="Spenden"><span class="badge badge-warning p-2">Spende jetzt</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menü <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/de/about/history/">
+              
+            
+            Infos
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/de/">
+              
+            
+            Hilfe
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/">
+              
+            
+            Gemeinschaft
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            Blog
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            Spenden
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            Infos
+            Dokumentation
+            Hilfe
+            Gemeinschaft
+            Blog
+            PrivChat
+            Arbeiten
+            Kontakt
+            Presse
+            Spenden
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          Deutsch (de)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../troubleshooting/">English (en-US)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ar/troubleshooting/">عربية (ar)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/troubleshooting/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/troubleshooting/">Català (ca)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../el/troubleshooting/">Ελληνικά (el)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../es/troubleshooting/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/troubleshooting/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/troubleshooting/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/troubleshooting/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/troubleshooting/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/troubleshooting/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/troubleshooting/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/troubleshooting/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/troubleshooting/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/troubleshooting/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/troubleshooting/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/troubleshooting/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/troubleshooting/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/troubleshooting/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/troubleshooting/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/troubleshooting/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/troubleshooting/">ภาษาไทย (th)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/troubleshooting/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/troubleshooting/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          Tor Browser herunterladen<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">PROBLEMLÖSUNG</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/de" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="Suchen .." aria-label="Suchen">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	Themen
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">Über den Tor Browser </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">Lade herunter </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">Installation </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">Tor Browser das erste Mal ausführen </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">Umgehung </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">Brücken </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">Identitäten Verwalten </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">Sichere Verbindungen </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">Sicherheitseinstellungen </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">Plugins </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">Aktualisieren </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">Onion-Dienste </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">Deinstallieren </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">Tor Browser portable machen </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">Fehlerbehebung </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">Bekannte Probleme </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../mobile-tor">Mobile Version von Tor </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-left" id="sidenav-topics">
+          <h4 class="text-primary pl-4">Themen</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">Über den Tor Browser</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">Lade herunter</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">Installation</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">Tor Browser das erste Mal ausführen</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">Umgehung</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">Brücken</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">Identitäten Verwalten</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">Sichere Verbindungen</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">Sicherheitseinstellungen</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">Plugins</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">Aktualisieren</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">Onion-Dienste</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">Deinstallieren</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">Tor Browser portable machen</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">Fehlerbehebung</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">Bekannte Probleme</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../mobile-tor">Mobile Version von Tor</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="troubleshooting" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-left">
+	<a href="./">PROBLEMLÖSUNG</a>
+      </h5>
+
+    </div>
+     <div id="troubleshooting" class="anchor-spacer text-left" role="tabpanel" data-parent="#">
+      <p>Wenn du den Tor Browser das erste Mal verwendest, solltest du kurze Zeit nach seinem Start und dem Klicken auf "Verbinden" in der Lage sein, Internetseiten aufzurufen.</p>
+<p><img class="col-md-6" src="../../static/images/connect.png" alt="Click 'Connect' to connect to Tor."></p>
+<h3 id="schnelle-losungen">SCHNELLE LÖSUNGEN</h3><p>Wenn der Tor Browser keine Verbindung herstellt, kann es eine einfache Lösung geben.
+Probiere die folgenden Punkte aus:</p>
+<ul>
+<li>Die Systemuhr deines Computers muss richtig eingestellt sein, sonst kann Tor keine Verbindung herstellen.</li>
+<li>Stelle sicher, dass nicht bereits ein anderer Tor Browser oder eine Instanz von 'Tor' auf deinem System läuft.
+Wenn du dir nicht sicher bist, ob der Tor Browser läuft, starte deinen Computer neu.</li>
+<li>Vergewissere dich, dass kein Antivirus-Programm, das du installiert hast, die Ausführung von Tor verhindert.
+Wenn du nicht weißt, wie das geht, musst du eventuell in der Dokumentation deiner Antivirus-Software nachsehen.</li>
+<li>Deaktiviere vorübergehend deine Firewall.</li>
+<li>Wenn der Tor Browser vorher funktionierte und jetzt nicht mehr, kann es sein, dass sich dein System im Ruhezustand befindet.
+Ein Neustart deines Systems behebt das Problem.</li>
+<li>Lösche den Tor Browser und installiere ihn erneut.
+Wenn du ein Update durchführst, überschreibe nicht einfach deine vorherigen Tor Browser-Dateien; stelle sicher, dass sie vorher vollständig gelöscht werden.</li>
+</ul>
+<h3 id="tor-logs-ansehen">TOR-LOGS ANSEHEN</h3><p>In den meisten Fällen kann ein Blick in die Tor-Logs hilfreich sein, um das Problem zu diagnostizieren.
+Wenn du beim Verbinden ein Problem hast, kann eine Fehlermeldung aufscheinen und du kannst die Option "Tor-Protokoll in die Zwischenablage kopieren" auswählen.
+Dann kopiere das Tor-Protokoll in eine Textdatei oder ein anderes Dokument.</p>
+<p>Wenn du diese Option nicht siehst und du den Tor Browser geöffnet hast, kannst du zum Hamburger-Menü ("≡") navigieren, dann auf "Einstellungen" klicken und schließlich auf "Tor" in der Seitenleiste.
+Am Ende der Seite, neben "Das Tor-Protokoll ansehen", wähle die Schaltfläche "Tor-Protokoll ansehen...".</p>
+<p>Um die Logs unter Linux direkt im Terminal zu sehen, kannst du zum Tor Browser-Verzeichnis navigieren und den Tor Browser von dort direkt starten, indem du den folgenden Befehl im Terminal eingibst:</p>
+<p>‪<code>./start-tor-browser.desktop --verbose</code></p>
+<p>Oder um die Logs in einer Datei zu speichern (default: tor-browser.log):</p>
+<p>‪<code>./start-tor-browser.desktop --log [file]</code></p>
+<p>Weitere Informationen hierzu findest du im <a href="https://support.torproject.org/connecting/connecting-2/">Support Portal</a>.</p>
+<h3 id="ist-deine-verbindung-zensiert">IST DEINE VERBINDUNG ZENSIERT?</h3><p>Wenn du immer noch keine Verbindung herstellen kannst, kann es sein, dass dein Internetdienstanbieter die Verbindungen zum Tor-Netzwerk zensiert.
+Lies den Abschnitt <a href="../../circumvention">Umgehung</a> für mögliche Lösungen.</p>
+<h3 id="bekannte-probleme">BEKANNTE PROBLEME</h3><p>Tor Browser wird ständig weiterentwickelt, und einige Probleme sind bekannt, aber noch nicht behoben.
+Bitte prüfe auf der Seite <a href="../../known-issues">Bekannte Probleme</a>, ob das Problem, das bei dir auftritt, dort bereits aufgeführt ist.</p>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Mitwirkende an dieser Seite: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/troubleshooting/contents.lr">Bearbeite diese Seite</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">Gib uns deine Rückmeldung</a> -
+                        <a href="./">Permalink</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-left">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">Tor Browser herunterladen</h2>
+            <p class="text-white">Lade Tor Browser herunter, um echtes privates Surfen ohne Verfolgung, Überwachung oder Zensur zu erleben.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              Tor Browser herunterladen<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">Unsere Mission:</h5>
+          <p class="text-white mb-5" >Menschenrechte und Freiheiten durch die Entwicklung und Verbreitung von Open Source Anonymitäts- und Privatsphäre-Technologien zu fördern, ihre ungehinderte Verfügbarkeit zu unterstützen und ihr Verständnis in Wissenschaft und der Allgemeinheit zu vergrößern.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/de/about/jobs/">
+            
+          
+              Arbeiten
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              Blog
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/de/contact/">
+            
+          
+              Kontakt
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/de/press/">
+            
+          
+              Presse
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              PrivChat
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://donate.torproject.org" title="Spenden"><h5><span class="badge badge-warning p-2 mt-2">Spende jetzt</span></h5></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">Abonnieren Sie unseren Newsletter</p>
+        <p class="text-light">Erhalte monatliche Berichte und Beschäftigungsaussichten vom Tor Project:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">Registrieren</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">Markenrechts-, Copyright-Mitteilungen und Regeln für Drittparteien finden sich in unserer 
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Deutsch (de)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../troubleshooting/">English (en-US)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ar/troubleshooting/">عربية (ar)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/troubleshooting/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/troubleshooting/">Català (ca)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/troubleshooting/">Ελληνικά (el)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/troubleshooting/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/troubleshooting/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/troubleshooting/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/troubleshooting/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/troubleshooting/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/troubleshooting/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/troubleshooting/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/troubleshooting/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/troubleshooting/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/troubleshooting/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/troubleshooting/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/troubleshooting/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/troubleshooting/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/troubleshooting/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/troubleshooting/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/troubleshooting/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/troubleshooting/">ภาษาไทย (th)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/troubleshooting/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/troubleshooting/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

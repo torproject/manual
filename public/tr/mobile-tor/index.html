@@ -1,0 +1,1038 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kendinizi ağın izlenmesinden ve gözetlenmekten koruyun. Sansürü aşın. | MOBİL TOR">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>MOBİL TOR | Tor Projesi | Tor Browser Rehberi</title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="Afişi kaldır" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">Afişi kaldır</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-left">
+        <div class="row">
+          <h4 class="banner-big-text">Kişisel gizlilik bir insan hakkıdır</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          Thank you for helping us reach our $150,000 Friends of Tor match!
+	        </h2>
+	      </div>
+        
+          <div class="col-4 order-1">
+            
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">Friends of Tor, $100.000 tutarını aşmayan bağışlarınız kadar katkıda bulunacak.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">Bağış yapın</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="../../static/css/images/home/png/yec-activist-tr@3x.png?h=8b9f190a">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://donate.torproject.org" title="Bağış Yapın"><span class="badge badge-warning p-2">Bağış Yapın</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Menü <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/tr/about/history/">
+              
+            
+            Hakkında
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/tr/">
+              
+            
+            Destek
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/tr/">
+              
+            
+            Topluluk
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            Günlük
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            Bağış Yapın
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            Hakkında
+            Belgeler
+            Destek
+            Topluluk
+            Günlük
+            PrivChat
+            İş Olanakları
+            İletişim
+            Basın
+            Bağış Yapın
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          Türkçe (tr)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../mobile-tor/">English (en-US)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ar/mobile-tor/">عربية (ar)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/mobile-tor/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/mobile-tor/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/mobile-tor/">Deutsch (de)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../el/mobile-tor/">Ελληνικά (el)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../es/mobile-tor/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/mobile-tor/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/mobile-tor/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/mobile-tor/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/mobile-tor/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/mobile-tor/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/mobile-tor/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/mobile-tor/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/mobile-tor/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/mobile-tor/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/mobile-tor/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/mobile-tor/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/mobile-tor/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/mobile-tor/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/mobile-tor/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/mobile-tor/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/mobile-tor/">ภาษาไทย (th)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/mobile-tor/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          Tor Browser İndir<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">MOBİL TOR</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/tr" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="Arama .." aria-label="Arama">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	Başlıklar
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">Tor Browser Hakkında </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">İndirmek </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">Kurmak </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">Tor Browser Uygulamasını Kullanmaya Başlamak </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">Engellemeyi Aşmak </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">Köprüler </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">Kimlik Yönetimi </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">Güvenli Bağlantılar </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">Güvenlik Düzeyi Ayarı </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">Uygulama Ekleri </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">Güncellemek </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">Onion Hizmetleri </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">Kaldırma </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">Tor Browser Uygulamasını Taşınabilir Yapmak </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">Sorunları Çözmek </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">Bilinen Sorunlar </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">Mobil Tor </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-left" id="sidenav-topics">
+          <h4 class="text-primary pl-4">Başlıklar</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">Tor Browser Hakkında</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">İndirmek</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">Kurmak</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">Tor Browser Uygulamasını Kullanmaya Başlamak</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">Engellemeyi Aşmak</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">Köprüler</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">Kimlik Yönetimi</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">Güvenli Bağlantılar</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">Güvenlik Düzeyi Ayarı</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">Uygulama Ekleri</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">Güncellemek</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">Onion Hizmetleri</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">Kaldırma</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">Tor Browser Uygulamasını Taşınabilir Yapmak</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">Sorunları Çözmek</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">Bilinen Sorunlar</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">Mobil Tor</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="mobile-tor" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-left">
+	<a href="./">MOBİL TOR</a>
+      </h5>
+
+    </div>
+     <div id="mobile-tor" class="anchor-spacer text-left" role="tabpanel" data-parent="#">
+      <h3 id="android-icin-tor-browser">Android için Tor Browser</h3><p>Android için Tor Browser, Tor Project tarafından geliştirilen ve desteklenen tek resmi mobil tarayıcıdır.
+Masaüstü Tor Browser gibidir ancak Android mobil aygıtlarda kullanılır.
+Android için Tor Browser uygulamasının öne çıkan bazı özellikleri: web siteleri arasında izlemenin azaltılması, gözetime karşı korunma, web tarayıcı parmak izinin alınmasını engelleme ve sansürü aşmadır.</p>
+<h3 id="indirmek-ve-kurmak">İNDİRMEK VE KURMAK</h3><p>Android için Tor Browser uygulaması vardır (alfa).
+Teknik olmayan kullanıcılar, kararlı olduğu ve hata çıkma olasılığı daha az olduğu için Android için Tor Browser uygulamasını almalıdır.
+Android için Tor Browser, Play Store, F-Droid ve Tor Project web sitesinde bulunabilir.
+Tor Browser uygulamasını bu üç platformun dışında bir yerden indirmek çok risklidir.</p>
+<h4 id="google-play">Google Play</h4><p>Android için Tor Browser uygulaması <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser">Google Play Store</a> üzerinden kurulabilir.</p>
+<h4 id="f-droid">F-Droid</h4><p>Guardian Project, F-Droid deposında Android için Tor Browser uygulamasını sunuyor.
+Uygulamayı F-Droid üzerinden kurmayı yeğlerseniz, lütfen şu adımları izleyin:</p>
+<ol>
+<li><p><a href="https://f-droid.org/">F-Droid web sitesinden</a> Android aygıtınıza F-Droid uygulamasını kurun.</p>
+</li>
+<li><p>F-Droid kurulumu tamamlandığında uygulamayı açın.</p>
+</li>
+<li><p>Sağ alt köşedeki "Ayarlar" üzerine dokunun.</p>
+</li>
+<li><p>"My Apps" bölümünden, Repositories üzerine dokunun.</p>
+</li>
+<li><p>"Guardian Project Official Releases" seçeneğini etkinleştirin.</p>
+</li>
+<li><p>F-Droid, Guardian Project deposundaki uygulamaların listesini indirir (Not: Bu işlem bir kaç dakika sürebilir).</p>
+</li>
+<li><p>Sol üst köşedeki geri düğmesine dokunun.</p>
+</li>
+<li><p>Sağ alt köşedeki "Latest" üzerine dokunun.</p>
+</li>
+<li><p>Sağ alt köşedeki büyüteçe tıklayarak arama penceresini açın.</p>
+</li>
+<li><p>"Tor Browser for Android" ifadesini arayın.</p>
+</li>
+<li><p>"The Tor Project" olarak görünen arama sonucu üzerine dokunup kurun.</p>
+</li>
+</ol>
+<h4 id="tor-projesi-web-sitesi">Tor Projesi web sitesi</h4><p>Ayrıca Android için Tor Browser uygulamasını apk dosyasını <a href="https://www.torproject.org/download/#android">Tor Projesi web sitesinden</a> indirip kurarak edilnebilirsiniz.</p>
+<h3 id="android-icin-tor-browser-kullanmaya-baslamak">ANDROID İÇİN TOR BROWSER KULLANMAYA BAŞLAMAK</h3><p>Tor Browser ilk kez çalıştırıldığında, doğrudan Tor ağına bağlanma ya da ayarlar simgesine dokunarak Tor Browser bağlantınızı yapılandırma seçeneği sunulur.</p>
+<h4 id="baglanma">Bağlanma</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-connect.png" alt="Connect to Tor Browser for Android"></p>
+<p>Çoğu durumda "Bağlan" seçeneğinin seçilmesi, herhangi bir yapılandırma gerekmeden Tor ağına bağlanmanızı sağlar.
+Dokunduktan sonra, Tor bağlantısının kurulması ekranın altında değişen cümleler ile görüntülenir.
+Hızlı bir bağlantınız olduğu halde bu metin bir noktada takılıp kalıyorsa, yapabileceklerinizi görmek için <a href="../troubleshooting">Sorunları Çözmek</a> sayfasına bakabilirsiniz.</p>
+<h4 id="yapilandirma">Yapılandırma</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-configure.png" alt="Configure Tor Browser for Android"></p>
+<p>Bağlantınızın sansürlendiğini biliyorsanız, ayarlar simgesine dokunmalısınız.
+Tor Browser size bir dizi yapılandırma seçeneği sunar.
+İlk ekran Tor Ağının durumu hakkında bilgi verir ve bir Köprü yapılandırma seçeneği sunar ('Köprü Yapılandırması').
+Bağlantınızın sansürlendiğini biliyorsanız ya da Tor ağı ile bağlantı kurmayı deneyip başarısız olduysanız ve başka hiçbir çözüm işe yaramadıysa, 'Köprü Yapılandırması' üzerine dokunun.
+Böylece bir değiştirilebilir taşıyıcı yapılandırabileceğiniz <a href="../circumvention">Engellemeyi Aşmak</a> bölümüne yönlendirileceksiniz.</p>
+<h3 id="engellemeyi-asmak">ENGELLEMEYİ AŞMAK</h3><p>Köprü aktarıcıları, herkesin kullanımına açık olan ve Tor dizininde listelenmeyen Tor aktarıcılarıdır.
+Baskıcı rejimler ile yönetilen yerlerde bulunan Tor kullanıcıları ve herkese açık olarak çalışan bir Tor aktarıcısının IP adresine bağlandıklarının görülmesini istemeyen kişiler ek bir güvenlik katmanına sahip olmak için köprüleri kullanabilir.</p>
+<p>Bir değiştirilebilir taşıyıcı kullanmak için, Tor Browser uygulaması ilk kez başlatıldığında görüntülenen ayarlar simgesine dokunun.
+İlk ekran Tor Ağının durumu hakkında bilgi verir. Bir köprü yapılandırmak için 'Köprü Yapılandırması' üzerine dokunun.</p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-censored.png" alt="Censored internet on Tor Browser for Android"></p>
+<p>Sonraki bölümde bir iç köprü ya da özel köprü kullanımı seçeneği sunulur.
+"Bir köprü kullanılsın" bölümünde "obfs4", "meek-azure" ve "snowflake" olarak üç seçenek bulunur.</p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-select-a-bridge.png" alt="Select a bridge on Tor Browser for Android"></p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-selected-a-bridge.png" alt="Selected a bridge on Tor Browser for Android"></p>
+<p>"Bildiğim bir köprüyü kullanacağım" seçeneğini kullanırsanız bir <a href="../bridges/">köprü adresi</a> yazmanız gerekir.</p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-provide-a-bridge.png" alt="Provide a bridge on Tor Browser for Android"></p>
+<p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-provided-a-bridge.png" alt="Provide brigde addresses on Tor Browser for Android"></p>
+<h3 id="kimlik-yonetimi">KİMLİK YÖNETİMİ</h3><h4 id="kimligi-yenilemek">Kimliği Yenilemek</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-new-identity.png" alt="New Identity on Tor Browser for Android"></p>
+<p>Tor Browser çalışırken aygıtınızın bildirim panosunu açtıktan sonra "KİMLİĞİ YENİLE" düğmesini görebilirsiniz.
+Bu düğmeye dokunarak yeni bir kimlik alabilirsiniz.
+Tor Browser masaüstü sürümünün aksine, Android için Tor Browser üzerindeki "KİMLİĞİ YENİLE" düğmesi, web sitelerinde yapacağınız işlemlerin daha önce diğer web sitelerinde yaptığınız işlemler ile ilişkilendirilme olasılığını yok etmez.
+Bu seçenek kullanıldığında yalnız Tor devreniz değiştirilir.</p>
+<h3 id="guvenlik-ayarlari">GÜVENLİK AYARLARI</h3><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-security-settings.gif" alt="Security settings and security slider on Tor Browser for Android"></p>
+<p><a href="../security-settings/">Güvenlik ayarları</a>, kişisel verilerinizin ele geçirilmesi ve anonimliğinizin aşılmasını engellemek için belirli web özelliklerini devre dışı bırakır.
+Android için Tor Browser üzerinde, masaüstü sürümündeki üç güvenlik düzeyi aynı şekilde kullanılabilir.
+Güvenlik düzeyini şu adımları izleyerek değiştirebilirsiniz:</p>
+<ul>
+<li>Adres çubuğundaki 3 dikey nokta düğmesine dokunun.</li>
+<li>Aşağı kaydırarak "Güvenlik Ayarları" üzerine dokunun.</li>
+<li>Şimdi güvenlik düzeyini Standart, Daha Güvenli ya da En Güvenli olarak seçebilirsiniz.</li>
+</ul>
+<h3 id="guncellemek">GÜNCELLEMEK</h3><p>Tor Browser her zaman güncel tutulmalıdır. Uygulamanın eski bir sürümünü kullanmaya devam ederseniz, kişisel verileriniz gizliliğini ve anonim olarak kalmanızı tehlikeye atan ciddi güvenlik açıklarına karşı korumasız kalabilirsiniz.
+Tor Browser uygulamasını otomatik olarak ya da el ile güncelleyebilirsiniz.</p>
+<h4 id="android-icin-tor-browser-uygulamasini-otomatik-olarak-guncellemek">Android için Tor Browser uygulamasını otomatik olarak güncellemek</h4><p>Bu yöntem mobil aygıtınızda Google Play ya da F-Droid kurulu olduğunu varsayar.</p>
+<h5 id="google-play">Google Play</h5><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-google-play.png" alt="Updating Tor Browser for Android on Google Play"></p>
+<p>Arama çubuğunun yanındaki hamburger menüsüne dokunun ve "Uygulamalarım ve Oyunlarım" &gt; "Güncellemeler" bölümüne gidin.
+Güncellenmesi gereken uygulamalar listesinde Tor Browser görünüyorsa seçip "Güncelle" düğmesine dokunun.</p>
+<h5 id="f-droid">F-Droid</h5><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-update-f-droid.png" alt="Updating Tor Browser for Android on F-Droid"></p>
+<p>"Ayarlar" ve "Kurulu uygulamaları yönet" üzerinde dokunun.
+Sonraki sayfada Tor Browser uygulamasını seçip "Güncelle" üzerine dokunun.</p>
+<h4 id="android-icin-tor-browser-uygulamasini-el-ile-guncellemek">Android için Tor Browser uygulamasını el ile güncellemek</h4><p><a href="https://www.torproject.org/download/#android">Tor Projesi web sitesine</a> giderek son Tor Browser sürümünü indirin. Ardından önceki gibi <a href="../../mobile-tor/#downloading-and-installation">kurun</a>.
+Çoğu durumda son Tor Browser sürümü önceki sürümün üzerine yazılarak tarayıcı günceller.
+Bu işlem tarayıcıyı güncellemezse, Tor Browser uygulamasını kaldırıp yeniden kurmanız gerekebilir.
+Tor Browser kapalıyken, aygıtınızın ayarlar bölümünden kaldırarak sisteminizden silin.
+Mobil aygıtınızın markasına bağlı olarak Ayarlar &gt; Uygulamalar bölümüne gidin. Tor Browser uygulamasını seçerek "Kaldır" üzerine dokunun. Ardından Tor Browser uygulamasını kurun.</p>
+<h3 id="kaldirma">KALDIRMA</h3><p>Android için Tor Browser doğrudan F-Droid, Google Play ya da mobil aygıtınızın uygulama ayarlarından kaldırılabilir.</p>
+<h4 id="google-play">Google Play</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-google-play.png" alt="Uninstalling Tor Browser for Android on Google Play"></p>
+<p>Arama çubuğunun yanındaki hamburger menüsüne dokunup "Uygulamalarım ve Oyunlarım" &gt; "Kurulmuş" bölümüne gidin.
+Kurulu uygulamalar listesinden Tor Browser uygulamasını seçip "Kaldır" üzerine dokunun.</p>
+<h4 id="f-droid">F-Droid</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-f-droid.png" alt="Uninstalling Tor Browser for Android on F-Droid"></p>
+<p>"Ayarlar" ve "Kurulu uygulamaları yönet" üzerinde dokunun.
+Sonraki sayfada Tor Browser uygulamasını seçip "Kaldır" üzerine dokunun.</p>
+<h4 id="mobil-aygit-uygulama-ayarlari">Mobil aygıt uygulama ayarları</h4><p><img style="max-width:300px" class="col-md-6" src="../../static/images/android-uninstall-device-settings.png" alt="Uninstalling Tor Browser for Android using device app settings"></p>
+<p>Mobil aygıtınızın markasına bağlı olarak Ayarlar &gt; Uygulamalar bölümüne gidin. Tor Browser uygulamasını seçerek "Kaldır" üzerine dokunun.</p>
+<h3 id="sorunlari-cozmek">SORUNLARI ÇÖZMEK</h3><h4 id="tor-gunluklerine-bakmak">Tor günlüklerine bakmak</h4><p><img style="max-width:300px" class="img-fluid" src="../../static/images/android-view-logs.gif" alt="View Tor logs on Tor Browser for Android"></p>
+<p>Tor günlüklerine bakmak için:</p>
+<ol>
+<li>Android için Tor Browser uygulamasını başlatıp 'Bağlan' üzerine dokunun.</li>
+<li>Bağlantı kurulurken, günlük kayıtlarını görüntülemek için sağdan sola kaydırın. (Not: Varsayılan olarak, Android için Tor Browser uygulamasında, Tor günlüklerinin ekran görüntüsünü alma özelliği devre dışı bırakılmıştır. <a href="https://bugs.torproject.org/tpo/applications/fenix/40191">Hata #40191</a>)</li>
+</ol>
+<p>Sık karşılaşılan sorunlar ve çözümleri için hakkında ayrıntılı bilgi almak için <a href="https://support.torproject.org/tr/connecting/connecting-2/">Destek web sitesine</a> bakabilirsiniz.</p>
+<h3 id="bilinen-sorunlar">BİLİNEN SORUNLAR</h3><p>Şu anda, Android için Tor Browser üzerinde bulunmayan ancak şu anda masaüstü Tor Browser uygulamasında kullanılabilen bazı özellikler var.</p>
+<ul>
+<li>Tor devrenizi göremezsiniz. <a href="https://gitlab.torproject.org/tpo/applications/torbutton/-/issues/25764">#25764</a></li>
+<li>Android için Tor Browser SD Kart üzerine taşındığında bağlantı kurmuyor. <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814">#31814</a></li>
+<li>Android için Tor Browser kullanılırken ekran görüntüleri alınamıyor. <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987">#27987</a>  </li>
+<li>Android için Tor Browser kullanılırken dosya yüklenemiyor. <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/40283">#40283</a></li>
+<li>İstemci kimlik doğrulaması gereken onion adresleri açılamıyor <a href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672">#31672</a></li>
+</ul>
+<h3 id="mobil-aygitlar-uzerinde-tor-ile-ilgili-diger-bilgiler">Mobil aygıtlar üzerinde Tor ile ilgili diğer bilgiler</h3><h4 id="orfox">Orfox</h4><p>Orfox ilk kez 2015 yılında Guardian Project tarafından, Android kullanıcılarına Tor kullanarak İnternet üzerinde gezime olanağı sağlamak amacıyla yayınlandı.
+Orfox sonraki üç yıl boyunca sürekli olarak gelişti ve İnternet üzerinde standart tarayıcılardan daha fazla gizlilik sağlayarak gezinmenin yaygın kullanılan bir yolu oldu. Orfox, insanların sansürü aşmasına ve engellenen siteler ile kritik kaynaklara erişmesine yardımcı olmakta çok önemliydi.
+2019 yılında, Android için Tor Browser yayınlandığında <a href="https://blog.torproject.org/orfox-paved-way-tor-browser-android">Orfox kullanımdan kaldırıldı</a>.</p>
+<h4 id="orbot">Orbot</h4><p>Orbot, diğer uygulamaların Tor ağını kullanmasını sağlayan ücretsiz bir vekil sunucu uygulamasıdır.
+Orbot, İnternet trafiğinizi şifrelemek için Tor ağını kullanır.
+Ardından, sansürü aşmak ve izlemeden korunmak için mobil aygıtınızda kurulu olan diğer uygulamalarla birlikte kullanabilirsiniz.
+Orbot <a href="https://play.google.com/store/apps/details?id=org.torproject.android">Google Play</a> üzerinden indirilip kurulabilir.
+Android için Tor Browser ve Orbot hakkında ayrıntılı bilgi almak için <a href="https://support.torproject.org/tr/tormobile/tormobile-6/">destek sitemize</a> bakabilirsiniz.</p>
+<h3 id="ios-icin-tor-browser">iOS için Tor Browser</h3><p>iOS için bir Tor Browser sürümü yoktur.
+Onion Browser adındaki iOS uygulamasını öneririz. Bu uygulama açık kaynaklıdır, Tor aktarımlarını kullanır ve Tor Projesi ile yakın çalışan bir kişi tarafından geliştirilmektedir.
+Bununla birlikte Apple, iOS üzerindeki web tarayıcılarının Webkit adında bir şey kullanmasını zorunlu kılmaktadır. Bu durum Onion Browser uygulamasının Tor Browser ile aynı düzeyde kişisel gizlilik koruması sağlamasını engeller.</p>
+<p><a href="https://blog.torproject.org/tor-heart-onion-browser-and-more-ios-tor">Onion Browser hakkında ayrıntılı bilgi alın</a>.
+Onion Browser uygulamasını <a href="https://itunes.apple.com/us/app/onion-browser/id519296448">App Store</a> üzerinden indirebilirsiniz.</p>
+<h3 id="windows-phone-icin-tor-browser">Windows Phone için Tor Browser</h3><p>Şu anda eski Windows telefonlarda Tor Browser çalıştırmak için desteklenen bir yöntem yok. Ancak daha yeni Microsoft markalı ya da destekli telefonlar için şu adımlar uygulanabilir: <a href="https://tb-manual.torproject.org/tr/mobile-tor/#tor-browser-for-android">Tor Browser for Android</a>.</p>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Bu sayfaya katkıda bulunanlar: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/mobile-tor/contents.lr">Bu sayfayı düzenleyin</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">Geri Bildirimde Bulunun</a> -
+                        <a href="./">Kalıcı bağlantı</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-left">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">Tor Browser İndir</h2>
+            <p class="text-white">İzleme, gözetleme ya da engelleme olmadan kişisel gizliliğinizi koruyabileceğiniz gerçek İnterneti deneyimlemek için Tor Browser uygulamasını indirin.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              Tor Browser İndir<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">Misyonumuz:</h5>
+          <p class="text-white mb-5" >Özgür ve açık kaynaklı anonimlik sağlama ve kişisel gizliliği koruma teknolojileri geliştirerek insan hakları ve özgürlüklerini ilerletmek, bu teknolojilere kısıtlamasız olarak erişilebilmesini sağlamak ve hem bilimsel alanda hem de halk tarafından anlaşılırlığını artırmak.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/tr/about/jobs/">
+            
+          
+              İş Olanakları
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              Günlük
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/tr/contact/">
+            
+          
+              İletişim
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/tr/press/">
+            
+          
+              Basın
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              PrivChat
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://donate.torproject.org" title="Bağış Yapın"><h5><span class="badge badge-warning p-2 mt-2">Bağış Yapın</span></h5></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">Duyurularımıza Abone Olun</p>
+        <p class="text-light">Tor Projesi ile ilgili güncelleme ve bilgileri aylık olarak alabilirsiniz:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">Kayıt olun</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">Üçüncü tarafların kullanabileceği patent, telif hakkı ve ilkeleri şurada bulabilirsiniz 
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Türkçe (tr)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../mobile-tor/">English (en-US)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ar/mobile-tor/">عربية (ar)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/mobile-tor/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/mobile-tor/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/mobile-tor/">Deutsch (de)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/mobile-tor/">Ελληνικά (el)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/mobile-tor/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/mobile-tor/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/mobile-tor/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/mobile-tor/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/mobile-tor/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/mobile-tor/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/mobile-tor/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/mobile-tor/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/mobile-tor/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/mobile-tor/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/mobile-tor/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/mobile-tor/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/mobile-tor/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/mobile-tor/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/mobile-tor/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/mobile-tor/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/mobile-tor/">ภาษาไทย (th)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/mobile-tor/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

@@ -1,0 +1,934 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="th" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ป้องกันตัวเองจากการติดตามและถูกสอดส่อง หลีกเลี่ยงการถูกปิดกั้น | จัดการตัวตน">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>จัดการตัวตน | โครงการ Tor คู่มือผู้ใช้งาน Tor Browser </title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="Close banner" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">Close banner</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-left">
+        <div class="row">
+          <h4 class="banner-big-text">ความเป็นส่วนตัวคือสิทธิมนุษยชน</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          Thank you for helping us reach our $150,000 Friends of Tor match!
+	        </h2>
+	      </div>
+        
+          <div class="col-4 order-1">
+            
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">Your donation will be matched by Friends of Tor, up to $100,000.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">Donate now</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://www.torproject.org/donate/th" title="บริจาค"><span class="badge badge-warning p-2">บริจาคตอนนี้</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        เมนู <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/about/history/">
+              
+            
+            เกี่ยวกับ
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/">
+              
+            
+            บริการช่วยเหลือ
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/">
+              
+            
+            ชุมชน
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            บล็อก
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            บริจาค
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            เกี่ยวกับ
+            คู่มือการใช้
+            บริการช่วยเหลือ
+            ชุมชน
+            บล็อก
+            PrivChat
+            งาน
+            ผู้ติดต่อ
+            กด
+            บริจาค
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          ภาษาไทย (th)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../managing-identities/">English (en-US)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ar/managing-identities/">عربية (ar)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/managing-identities/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/managing-identities/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/managing-identities/">Deutsch (de)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../el/managing-identities/">Ελληνικά (el)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../es/managing-identities/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/managing-identities/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/managing-identities/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/managing-identities/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/managing-identities/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/managing-identities/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/managing-identities/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/managing-identities/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/managing-identities/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/managing-identities/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/managing-identities/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/managing-identities/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/managing-identities/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/managing-identities/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/managing-identities/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/managing-identities/">Русский (ru)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/managing-identities/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/managing-identities/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          ดาวน์โหลด Tor Browser<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">จัดการตัวตน</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/th" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="ค้นหา .." aria-label="ค้นหา">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	หัวข้อ
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">เกี่ยวกับ  Tor Browser </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">กำลังดาวน์โหลด </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">การติดตั้ง </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">ใช้งาน Tor Browser เป็นครั้งแรก </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">การหลีกเลี่ยง </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">สะพาน </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">การจัดการตัวตน </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">การเชื่อมต่อแบบปลอดภัย </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">การตั้งค่าความปลอดภัย </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">โปรแกรมเสริม </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">กำลังอัปเดต </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">บริการ Onion </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">ยกเลิกการติดตั้ง </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">ทำให้ Tor Browser ใช้งานได้บนเครื่องต่างๆ </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">การแก้ไขปัญหา </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">ปัญหาที่ทราบ </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../mobile-tor">Mobile Tor </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-left" id="sidenav-topics">
+          <h4 class="text-primary pl-4">หัวข้อ</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">เกี่ยวกับ  Tor Browser</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">กำลังดาวน์โหลด</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">การติดตั้ง</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">ใช้งาน Tor Browser เป็นครั้งแรก</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">การหลีกเลี่ยง</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">สะพาน</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">การจัดการตัวตน</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">การเชื่อมต่อแบบปลอดภัย</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">การตั้งค่าความปลอดภัย</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">โปรแกรมเสริม</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">กำลังอัปเดต</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">บริการ Onion</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">ยกเลิกการติดตั้ง</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">ทำให้ Tor Browser ใช้งานได้บนเครื่องต่างๆ</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">การแก้ไขปัญหา</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">ปัญหาที่ทราบ</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../mobile-tor">Mobile Tor</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="managing-identities" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-left">
+	<a href="./">จัดการตัวตน</a>
+      </h5>
+
+    </div>
+     <div id="managing-identities" class="anchor-spacer text-left" role="tabpanel" data-parent="#">
+      <p>เมื่อคุณเชื่อมต่อกับเว็บไซต์ ไม่เพียงแต่ผู้ให้บริการเว็บไซต์ที่สามารถบันทึกข้อมูลเกี่ยวกับการเยี่ยมชมของคุณ ขณะนี้เว็บไซต์ส่วนใหญ่ใช้บริการของบุคคลที่สามมากมายรวมถึงปุ่ม ไลค์ เครือข่ายสังคมออนไลน์ เครื่องมือติดตามการวิเคราะห์ และเตือนโฆษณาซึ่งทั้งหมดนี้สามารถเชื่อมโยงกิจกรรมของคุณผ่านเว็บไซต์ต่างๆ</p>
+<p>การใช้เครือข่าย Tor หยุดผู้สังเกตการณ์ไม่สามารถค้นพบตำแหน่งที่แน่นอนและที่อยู่ IP ของคุณได้ แต่ถึงแม้จะไม่มีข้อมูลนี้ก็ตามพวกเขาอาจสามารถเชื่อมโยงส่วนต่างๆ ของกิจกรรมของคุณเข้าด้วยกัน ด้วยเหตุผลนี้ Tor เบราว์เซอร์จึงมีคุณสมบัติเพิ่มเติมบางอย่างที่ช่วยให้คุณควบคุมข้อมูลที่สามารถเชื่อมโยงกับตัวตนของคุณได้</p>
+<h3 id="aethb-url">แถบ URL</h3><p>Tor เบราว์เซอร์ อยู่ระหว่างประสบการณ์การใช้เว็บของคุณที่เกี่ยวข้องกับความสัมพันธ์ของคุณกับเว็บไซต์ในแถบ URL แม้ว่าคุณจะเชื่อมต่อกับเว็บไซต์ที่ต่างกันสองแห่งที่ใช้บริการติดตามบุคคลที่สามเดียวกัน Tor เบราว์เซอร์ จะบังคับให้เนื้อหาให้บริการในสองวงจร Tor ที่แตกต่างกัน ดังนั้นตัวติดตามจะไม่ทราบว่าการเชื่อมต่อทั้งสองเกิดขึ้นจากเบราว์เซอร์ของคุณ</p>
+<p>ในทางกลับกัน การเชื่อมต่อทั้งหมดไปยังที่อยู่เว็บไซต์เดียวจะทำผ่านวงจร Tor เดียวกัน ซึ่งหมายความว่าคุณสามารถเรียกดูหน้าต่างๆ ของเว็บไซต์เดียวในแท็บ หรือหน้าต่างแยกต่างหากโดยไม่สูญเสียฟังก์ชันการทำงานใด ๆ</p>
+<p><img class="col-md-6" align="right" hspace="5" src="../../static/images/circuit_full.png" alt="Display circuit diagram under the site information menu"></p>
+<p>คุณสามารถดูไดอะแกรมของวงจรที่ Tor บราว์เซอร์ ใช้สำหรับแท็บปัจจุบันในเมนูข้อมูลไซต์ ในแถบ URL</p>
+<p>In the circuit, the Guard or entry node is the first node and it's automatically and randomly selected by Tor. But it is different from the other nodes in the circuit. In order to avoid profiling attacks, the Guard node changes only after 2-3 months, unlike the other nodes, which change with every new domain. For more information about Guards, consult the <a href="https://www.torproject.org/docs/faq#EntryGuards">FAQ</a> and <a href="https://support.torproject.org/tbb/tbb-2/">Support Portal</a>.</p>
+<h3 id="lngchuue-ekhaaaichbn-tor">ลงชื่อเข้าใช้บน TOR</h3><p>แม้ว่า Tor เบราว์เซอร์ ได้รับการออกแบบมาเพื่อเปิดใช้งานการไม่เปิดเผยตัวตนของผู้ใช้ทั้งหมดบนเว็บ แต่อาจมีสถานการณ์ที่เหมาะสมที่จะใช้ Tor กับเว็บไซต์ที่ต้องการชื่อผู้ใช้รหัสผ่านหรือข้อมูลการระบุตัวตนอื่น ๆ</p>
+<p>หากคุณเข้าสู่เว็บไซต์โดยใช้เบราว์เซอร์ปกติ คุณจะต้องเปิดเผยที่อยู่ IP และที่ตั้งทางภูมิศาสตร์ด้วย สิ่งนี้มักจะเป็นจริงเมื่อคุณส่งอีเมล การเข้าสู่ระบบเครือข่ายสังคม หรือบัญชีอีเมลของคุณโดยใช้ Tor เบราว์เซอร์ ช่วยให้คุณสามารถเลือกข้อมูลที่คุณเปิดเผยให้กับเว็บไซต์ที่คุณเรียกดูได้อย่างแม่นยำ การเข้าสู่ระบบโดยใช้ Tor เบราว์เซอร์ มีประโยชน์เช่นกันหากเว็บไซต์ที่คุณพยายามเข้าถึงนั้นถูกเซ็นเซอร์ในเครือข่ายของคุณ</p>
+<p>เมื่อคุณเข้าสู่เว็บไซต์ผ่าน Tor มีหลายประเด็นที่คุณควรคำนึงถึง</p>
+<ul>
+<li>ดูหน้า <a href="../../secure-connections">การเชื่อมต่อ</a> ที่ปลอดภัยสำหรับข้อมูลสำคัญเกี่ยวกับวิธีการรักษาความปลอดภัยการเชื่อมต่อของคุณเมื่อเข้าสู่ระบบ</li>
+<li>Tor เบราว์เซอร์ มักทำให้การเชื่อมต่อของคุณปรากฏ ราวกับว่ามาจากส่วนอื่นของโลก บางเว็บไซต์เช่นธนาคารหรือผู้ให้บริการอีเมลอาจตีความว่านี่เป็นสัญญาณว่าบัญชีของคุณถูกแฮ็กหรือถูกบุกรุกและล็อคคุณอยู่ วิธีเดียวในการแก้ไขปัญหานี้คือการทำตามขั้นตอนที่แนะนำของไซต์สำหรับการกู้บัญชีหรือติดต่อผู้ให้บริการและอธิบายสถานการณ์</li>
+</ul>
+<h3 id="kaarepliiynbaychiiaelawngcchr">การเปลี่ยนบัญชีและวงจร</h3><p><img style="max-width:100%" class="col-md-6" src="../../static/images/new_identity.png" alt="New Identity and New Tor Circuit options under main menu"></p>
+<p>Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. They are also located in the hamburger or main menu (≡).</p>
+<h3 id="baychiiaihm">บัญชีใหม่</h3><p>ตัวเลือกนี้มีประโยชน์ถ้าคุณต้องการเพื่อป้องกันกิจกรรมเบราว์เซอร์ภายหลังของคุณ  จากการเชื่อมโยงกับสิ่งที่คุณทำมาก่อน การเลือกมันจะปิดแท็บและหน้าต่างที่เปิดอยู่ทั้งหมดของคุณล้างข้อมูลส่วนตัวทั้งหมดเช่นคุกกี้และประวัติการเข้าชม และใช้วงจร Tor ใหม่สำหรับการเชื่อมต่อทั้งหมด Tor เบราว์เซอร์จะเตือนคุณว่ากิจกรรมและการดาวน์โหลดทั้งหมดจะหยุดลงดังนั้นให้คำนึงถึงสิ่งนี้ก่อนที่จะคลิกบัญชีใหม่</p>
+<p>To use this option, you just need to click on 'New Identity' in Tor Browser's toolbar.</p>
+<h3 id="wngcchr-tor-aihm-samhrabewbaichtnii">วงจร TOR  ใหม่ สำหรับเว็บไซต์นี้</h3><p>ตัวเลือกนี้มีประโยชน์หาก <a href="../../about/#how-tor-works">รีเลย์ทางออก</a>  ที่คุณใช้ไม่สามารถเชื่อมต่อกับเว็บไซต์ที่คุณต้องการได้ หรือโหลดอย่างไม่ถูกต้อง การเลือกมันจะทำให้แท็บหรือหน้าต่างที่ใช้งานอยู่ในปัจจุบันโหลดซ้ำผ่านวงจร Tor ใหม่ แท็บและหน้าต่างแบบเปิดอื่น ๆ จากเว็บไซต์เดียวกันจะใช้วงจรใหม่เช่นกันเมื่อมีการโหลดซ้ำ ตัวเลือกนี้ไม่ได้ล้างข้อมูลส่วนตัวหรือยกเลิกการเชื่อมโยงกิจกรรมของคุณและจะไม่มีผลต่อการเชื่อมต่อปัจจุบันของคุณไปยังเว็บไซต์อื่น ๆ</p>
+<p>คุณยังสามารถเข้าถึงตัวเลือกนี้ในจอแสดงผลวงจรใหม่ ในเมนูข้อมูลไซต์ ในแถบ URL</p>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Contributors to this page: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/managing-identities/contents.lr">Edit this page</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">Give Feedback</a> -
+                        <a href="./">ลิงก์ถาวร</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-left">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">ดาวน์โหลด Tor Browser</h2>
+            <p class="text-white">ดาวน์โหลด Tor Browser เพื่อประสบการณ์การท่องเว็บด้วยความเป็นส่วนตัวอย่างแท้จริง ปราศจากการติดตามแกะรอย ถูกสอดส่อง หรือการถูกปิดกั้น</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              ดาวน์โหลด Tor Browser<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">ภารกิจของเรา</h5>
+          <p class="text-white mb-5" >เราพัฒนาเพื่อสิทธิมนุษยชนและเสรีภาพ โดยการสร้างและปรับใช้เทคโนโลยีที่ไม่เปิดเผยชื่อและความเป็นส่วนตัวที่เป็นโอเพนซอร์สและใช้งานฟรี  สนับสนุนและปลดปล่อยขีดจำกัดในการใช้งาน ส่งเสริมความเข้าใจด้านวิทยาศาสตร์และค่านิยมของพวกเขา</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/about/jobs/">
+            
+          
+              งาน
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              บล็อก
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/contact/">
+            
+          
+              ผู้ติดต่อ
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/press/">
+            
+          
+              กด
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              PrivChat
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://www.torproject.org/donate/th" title="บริจาค"><h4><span class="badge badge-warning p-2">บริจาคตอนนี้</span></h4></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">Subscribe to our Newsletter</p>
+        <p class="text-light">รับการอัพเดตรายเดือนและโอกาสจากโครงการของ Tor</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">ลงทะเบียน</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">เครื่องหมายการค้า, ประกาศลิขสิทธิ์และกฎระเบียบสำหรับการใช้งานโดยบุคคลที่สามสามารถดูได้ใน 
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ภาษาไทย (th)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../managing-identities/">English (en-US)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ar/managing-identities/">عربية (ar)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/managing-identities/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/managing-identities/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/managing-identities/">Deutsch (de)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/managing-identities/">Ελληνικά (el)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/managing-identities/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/managing-identities/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/managing-identities/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/managing-identities/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/managing-identities/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/managing-identities/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/managing-identities/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/managing-identities/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/managing-identities/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/managing-identities/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/managing-identities/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/managing-identities/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/managing-identities/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/managing-identities/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/managing-identities/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/managing-identities/">Русский (ru)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/managing-identities/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/managing-identities/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

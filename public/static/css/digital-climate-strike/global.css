@@ -1,0 +1,61 @@
+/* stylelint-disable */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+ * Shared CSS custom properties
+ */
+
+:root {
+
+  /* Colors */
+  --black: #000;
+  --green: #4ee58b;
+  --white: #fff;
+  --grey:#231F20;
+}
+/**
+* Font Definitions
+*/
+
+@font-face {
+  font-family: "Greve";
+  font-style: normal;
+  src: url('./webfonts/greve-800-web.woff2') format('woff2'),
+      url('./webfonts/greve-800-web.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Katwijk Bold";
+  font-style: normal;
+  src: url('./webfonts/katwijk-mono-bold-web.woff2') format('woff2'),
+      url('./webfonts/katwijk-mono-bold-web.woff') format('woff'),
+      url('./webfonts/katwijk-mono-bold-web.ttf') format('truetype');
+}
+
+/**
+ * Type scale
+ *  Baseline body copy font is 16px = 1rem;
+ */
+
+html, body {
+  color: var(--grey);
+  font-family: 'Katwijk', monospace;
+  font-size: 100%; /* 16px base font */
+  font-weight: bold;
+}
+/* stylelint-enable */
+

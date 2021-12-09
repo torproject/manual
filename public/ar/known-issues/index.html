@@ -1,0 +1,951 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar" dir="rtl" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="دافع عن نفسك ضد التتبع والرصد . تحايل على الرقابة. | المشاكل المعروفة">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>المشاكل المعروفة | مشروع تور | دليل استخدام متصفّح تور (Tor)</title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="إغلاق" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">إغلاق</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-right">
+        <div class="row">
+          <h4 class="banner-big-text">الخصوصية هي حق من حقوق الإنسان</h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          شكرًا لك على مساعدتنا في الوصول إلى مباراة أصدقاء Tor التي تبلغ قيمتها 150 ألف دولار!
+	        </h2>
+	      </div>
+        
+        <div class="col-4 order-0">
+          
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">سيتم مطابقة تبرعك بواسطة Friends of Tor ، حتى 100000 دولار.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">تبرع الآن</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://www.torproject.org/donate/ar" title="تبرّع"><span class="badge badge-warning p-2">تبرع الآن</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        القائمة <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/about/history/">
+              
+            
+            عن 
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/">
+              
+            
+            الدعم
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/">
+              
+            
+            المجتمع
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            مدونة
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            تبرّع
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            عن 
+            وثائق 
+            الدعم
+            المجتمع
+            مدونة
+            الدردشة الخاصة
+            مناصب شاغرة 
+            للتواصل
+            صحافة
+            تبرّع
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          عربية (ar)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../known-issues/">English (en-US)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/known-issues/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/known-issues/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/known-issues/">Deutsch (de)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../el/known-issues/">Ελληνικά (el)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../es/known-issues/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/known-issues/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/known-issues/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/known-issues/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/known-issues/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/known-issues/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/known-issues/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/known-issues/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/known-issues/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/known-issues/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/known-issues/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/known-issues/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/known-issues/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/known-issues/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/known-issues/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/known-issues/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/known-issues/">ภาษาไทย (th)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/known-issues/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/known-issues/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          تنزيل متصفّح تور (Tor)<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">المشاكل المعروفة</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/ar" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="بحث .." aria-label="بحث">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	الموضوعات
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">عن متصفّح تور (Tor) </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">جاري التحميل </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">التثبيت </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">تشغيل متصفح تور للمرة الأولى </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">تجاوز الحجب </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">الجسور </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">إدارة الهويات </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">الاتصالات الآمنة </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">إعدادات الأمان </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../plugins">الاضافات </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">التحديث </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">خدمات البصلة (Onion) </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">إزالة التنصيب </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">جعل متصفح تور محمول </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">تحرّي المشكلات </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">مشاكل شائعة </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../mobile-tor">تور(Tor) للهواتف </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-right" id="sidenav-topics">
+          <h4 class="text-primary pl-4">الموضوعات</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">عن متصفّح تور (Tor)</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">جاري التحميل</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">التثبيت</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">تشغيل متصفح تور للمرة الأولى</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">تجاوز الحجب</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">الجسور</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">إدارة الهويات</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">الاتصالات الآمنة</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">إعدادات الأمان</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../plugins">الاضافات</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">التحديث</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">خدمات البصلة (Onion)</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">إزالة التنصيب</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">جعل متصفح تور محمول</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">تحرّي المشكلات</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">مشاكل شائعة</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../mobile-tor">تور(Tor) للهواتف</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="known-issues" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-right">
+	<a href="./">المشاكل المعروفة</a>
+      </h5>
+
+    </div>
+     <div id="known-issues" class="anchor-spacer text-right" role="tabpanel" data-parent="#">
+      <ul>
+<li><p>يحتاج تور إلى ضبط ساعة جهازك (ومنطقتك الزمنية) على الوقت الصحيح.</p>
+</li>
+<li><p>الحماية من الفيروسات أو البرامج الضارة تمنع المستخدمين من الوصول إلى متصفح Tor.
+أحيانًا تظهر هذه أيضًا مع  <a href="https://support.torproject.org/tbb/antivirus-false-positive/">ايجابيات كاذبة فيما يتعلق بالبرامج الضارة و / أو نقاط الضعف</a>.
+يمكنك قراءة المزيد عن هذا على <a href="https://support.torproject.org/tbb/tbb-10/">بوابة الدعم</a>.
+من المعروف أن برامج مكافحة الفيروسات وجدار الحماية التالية تتداخل مع Tor وقد تحتاج إلى تعطيل مؤقتًا:</p>
+<ul>
+<li>Webroot SecureAnywhere</li>
+<li>Kaspersky Internet Security 2012</li>
+<li>Sophos Antivirus for Mac</li>
+<li>Microsoft Security Essentials</li>
+<li>أفاست مكافحة الفيروسات</li>
+</ul>
+</li>
+<li><p>تميل شبكات VPN أيضًا إلى التدخل في Tor وتحتاج إلى تعطيل.
+لا نوصي أيضًا باستخدام VPN و Tor معًا ما لم تكن مستخدمًا متقدمًا يعرف كيفية تكوين كليهما بطريقة لا تعرض خصوصيتك للخطر.
+يمكنك العثور على مزيد من المعلومات التفصيلية حول Tor + VPN من خلال <a href="https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN">wiki</a>.</p>
+</li>
+<li><p>الوسائط التي تحتاج لمشغل أدوبي فلاش غير متاحة.
+فلاش معطّل لأسباب متعلّقة بالأمان.</p>
+</li>
+<li><p>لا يستطيع تور استخدام جسر إذا كان الوسيط (بروكسي) مفعّل.</p>
+</li>
+<li><p>حزمة متصفّح تور مؤرخة بتاريخ 1 يناير (كانون الثاني) 2000 00:00:00 جرينتش.
+يتيح هذا ضمان أن كل بناء من تور يمكن تكراره والحصول على نفس الناتج بالضبط.</p>
+</li>
+<li><p>مشكلات في جعل متصفح Tor <a href="https://support.torproject.org/tbb/tbb-32/">المتصفح الافتراضي</a>.</p>
+</li>
+<li><p>إذا كان متصفح Tor يعمل من قبل ولا يعمل الآن (خاصة بعد إعادة التثبيت أو التحديث) ، فربما يكون نظامك في حالة السبات.
+ستؤدي إعادة تشغيل نظامك ، في هذه الحالة ، إلى حل المشكلة.</p>
+</li>
+<li><p>لن يبدأ Tor على ويندوز عندما يكون <a href="https://gitlab.torproject.org/tpo/core/tor/-/issues/10416">يحتوي مسار المجلد على أحرف غير أسكي</a>.</p>
+</li>
+<li><p>بت تورنت <a href="https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea">ليس مجهولاً على Tor</a>.</p>
+</li>
+</ul>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">المساهمون في هذه الصفحة: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/known-issues/contents.lr">تعديل هذه الصفحة</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">إبداء الرأي</a> -
+                        <a href="./">رابط ثابت</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-right">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">تنزيل متصفّح تور (Tor)</h2>
+            <p class="text-white">نزّلوا متصفّح تور (Tor) لتختبروا التصفّح الخاص فعليّاً بدون تتبّع أو مراقبة أو رقابة.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              تنزيل متصفّح تور (Tor)<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">مُهمّتنا:</h5>
+          <p class="text-white mb-5" >لدعم الحريّات وحقوق الإنسان عن طريق خلق وتشغيل تقنيّات خصوصيّة ومجهوليّة مجّانيّة ومفتوحة المصدر، ممّا يجعلها متاحة للاستخدام بدون قيود، وكذلك تطوير الإدراك العلمي والعام لهذه التقنيات. </p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/about/jobs/">
+            
+          
+              مناصب شاغرة 
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              مدونة
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/contact/">
+            
+          
+              للتواصل
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/press/">
+            
+          
+              صحافة
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              الدردشة الخاصة
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://www.torproject.org/donate/ar" title="تبرّع"><h4><span class="badge badge-warning p-2">تبرع الآن</span></h4></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">اشترك في رسالتنا للمستجدات</p>
+        <p class="text-light">احصل على تحديثات شهرية وفرص من مشروع تور:</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">سجل حساب</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">يمكن العثور على العلامة التجارية وحقوق النشر وقواعد الاستخدام من الطرف الثالث في
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            عربية (ar)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../known-issues/">English (en-US)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/known-issues/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/known-issues/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/known-issues/">Deutsch (de)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../el/known-issues/">Ελληνικά (el)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/known-issues/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/known-issues/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/known-issues/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/known-issues/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/known-issues/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/known-issues/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/known-issues/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/known-issues/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/known-issues/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/known-issues/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/known-issues/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/known-issues/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/known-issues/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/known-issues/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/known-issues/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/known-issues/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/known-issues/">ภาษาไทย (th)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/known-issues/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/known-issues/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>

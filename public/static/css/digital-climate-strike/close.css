@@ -1,0 +1,53 @@
+/* close.css */
+
+.dcs-close {
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  max-height: 3rem;
+  max-width: 3rem;
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+
+  &::before,
+  &::after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: '';
+    height: 1.2rem;
+    position: absolute;
+    width: 2px;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+
+  &:hover,
+  &:focus {
+    &::before,
+    &::after {
+      background-color: rgba(0, 0, 0, 1);
+    }
+  }
+
+  &:focus {
+    outline: 2px dotted var(--black);
+  }
+}
+
+.dcs-close.dcs-full-page-close {
+  &::before,
+  &::after {
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 1);
+   }
+}

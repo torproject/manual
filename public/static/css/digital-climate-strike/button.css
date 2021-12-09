@@ -1,0 +1,44 @@
+/* button */
+
+.dcs-button {
+  background-color: var(--grey);
+  box-shadow: 0.3rem 0.3rem 0 #fff;
+  color: #fff;
+  display: inline-flex;
+  font: 400 1.5rem/1.5rem 'Greve', 'Impact', sans-serif;
+  letter-spacing: calc(0.07rem - 0.01rem);
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 0;
+  cursor: pointer;
+}
+.dcs-button:hover,
+.dcs-button:focus {
+  background-color: #fff !important;
+  box-shadow: 0.3rem 0.3rem 0 #000 !important;
+  color: #000 !important;
+}
+
+.dcs-button:focus {
+  outline: 2px dotted #000;
+}
+
+
+.dcs-button__icon {
+  font-size: 1.5rem;
+  height: 100%;
+  display: inline-block;
+  padding-left: 0.5rem;
+  width: 1rem;
+}
+
+@media (min-width: 900px) {
+  .dcs-button {
+    font-size: 1.75rem;
+    line-height: 1;
+    padding: 0.8rem 3rem;
+  }
+}

@@ -1,0 +1,107 @@
+/* footer */
+
+.dcs-banner__containter {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1.25rem 1.25rem 2rem;
+  width: 100%;
+}
+
+.dcs-footer {
+  background-color: #4ee58b;
+  bottom: 0;
+  box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.2);
+  font-family: 'Katwijk Bold';
+  left: 0;
+  padding: 1.25rem 1.25rem 2rem;
+  position: fixed;
+  right: 0;
+  width: 100%;
+}
+
+.dcs-footer__close {
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3rem;
+  margin-top: -4.5rem;
+  margin-right: -2rem;
+  z-index: 1;
+  font-weight: bolder;
+  visibility: inherit;
+}
+
+.dcs-footer__container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  max-width: 50rem;
+}
+
+.dcs-footer__logo {
+  display: block;
+  flex: 0 0 15%;
+}
+
+.dcs-footer__main {
+  flex: 0 0 70%;
+  margin-top: -.4rem; /* magic number: top text align to logo */
+  margin: 0 1rem;
+}
+
+.dcs-footer__body {
+  color: var(--grey);
+  font: normal .875rem/1rem 'Katwijk Bold', Courier, sans-serif;
+  max-width: 26rem;
+}
+
+.dcs-footer__action {
+  margin: 1rem 0 0;
+}
+
+#trigger {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+#trigger:checked ~  #dcs-banner-footer, .dcs-banner__containter > #trigger:checked, #trigger:checked + label {
+  display: none;
+  visibility: hidden;
+}
+
+/* Breakpoint */
+
+@media(min-width: 900px) {
+
+  .dcs-footer {
+    padding: 2rem;
+  }
+
+  .dcs-footer__container {
+    max-width: 60rem;
+  }
+
+  .dcs-footer__logo {
+    flex: 0 0 10%;
+  }
+
+  .dcs-footer__main {
+    flex: 1;
+    display: flex;
+  }
+
+  .dcs-footer__body {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    max-width: none;
+  }
+
+  .dcs-footer__action {
+    display: inline-block;
+    margin: 0 0 0 1rem;
+  }
+}

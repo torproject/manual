@@ -1,0 +1,921 @@
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="el" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Προστατεύστε τον εαυτό σας από την παρακολούθηση και την επιτήρηση. Παράκαμψη λογοκρισίας. | PLUGINS, ΠΡΟΣΘΕΤΑ ΚΑΙ JAVASCRIPT">
+<link rel="stylesheet" href="../../static/css/bootstrap.css?h=4a1f8a04">
+
+<link rel="stylesheet" href="../../static/fonts/fontawesome/css/all.min.css?h=9d272f6a" rel="stylesheet">
+<!-- Standard favicon -->
+<link rel="icon" type="image/x-icon" href="../../static/images/favicon.ico?h=4e4ad2ce">
+<!-- Recommended favicon format -->
+<link rel="icon" type="image/png" href="../../static/images/favicon.png?h=7aa0e2a3">
+
+<title>PLUGINS, ΠΡΟΣΘΕΤΑ ΚΑΙ JAVASCRIPT | Tor Project | Εγχειρίδιο του Tor Browser </title>
+<body class="no-gutters" data-spy="scroll" data-target="#sidenav-topics" id="topics" data-children=".item">
+  <header>
+    
+<div class="banner__containter banner align-middle d-flex justify-content-center">
+  <input id="trigger" type="checkbox" title="Κλείσιμο του banner" />
+  <label for="trigger" class="footer__close text-white"></label>
+  <span class="eoy-sr-only text-white">Κλείσιμο του banner</span>
+  <div class="eoy-banner row col-md-12" id="banner-header" role="contentinfo">
+    <div class="col-1 px-0"></div>
+    <div class="col-lg-5 col-md-5 col-11 px-0">
+      <div class="col-12 pl-0 text-left">
+        <div class="row">
+          <h4 class="banner-big-text">Η ιδιωτικότητα είναι ανθρώπινο δικαίωμα </h4><br>
+        </div>
+        <div class="row">
+          <h2 class="banner-small-text">
+	          Thank you for helping us reach our $150,000 Friends of Tor match!
+	        </h2>
+	      </div>
+        
+          <div class="col-4 order-1">
+            
+          </div>
+          <!-- <div class="row">
+               <div class="col-8 order-0 pb-3">
+               <a href="https://blog.torproject.org/friends-of-tor-match-2020" target="_blank" title="Friends of Tor" class="match">Η Friends of Tor θα δωρίσει το ίδιο ποσό με τη δωρεά σας, μέχρι $100.000.</a>
+               </div>
+               </div> -->
+	        <div class="row py-3">
+            
+              <a class="rectangle" href="https://torproject.org/donate/donate-phr-hp1">Κάντε μια δωρεά τώρα</a>
+	    
+          </div>
+        </div>
+      </div>
+      <div class="col-1 px-0"></div>
+      <div class="col-lg-4 col-md-4 col-10 pt-0 px-0 illo-container position-relative">
+        <picture>
+          
+          <source srcset="../../static/css/images/home/png/yec-activist-el@3x.png?h=ec92695b">
+	  <img class="banner-img-style" src="../../static/css/images/home/png/yec-activist-en@3x.png?h=1f35fe0c">
+	</picture>
+      </div>
+      <div class="col-1 px-0"></div>
+    </div>
+  </div>
+
+<div class="container-fluid bg-primary">
+  <nav class="navbar no-background navbar-expand-lg navbar-dark bg-primary p-4">
+
+    <a class="navbar-brand" href="../">
+      <img alt="The Tor Project" src="../../static/images/tor-logo@2x.png?h=16ad42bc" >
+      <span class="sr-only">Tor Logo</span>
+    </a>
+
+    
+    
+    
+    
+      <!--h4 class="pl-2 pr-2"><a href="https://www.torproject.org/donate/el" title="Δωρεά"><span class="badge badge-warning p-2">Κάντε μια δωρεά τώρα!</span></a></h4-->
+    
+
+    <label for="nav-toggle">
+      <a class="btn btn-lg btn-primary navbar-toggler text-white p-3" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        Μενού <span class="navbar-toggler-icon ml-1"></span>
+      </a>
+    </label>
+    <input type="checkbox" id="nav-toggle"/>
+    <div class="collapse navbar-collapse hamburger-menu" id="navbarSupportedContent">
+      <div class="mx-auto">
+        <ul class="navbar-nav">
+        	
+        	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://www.torproject.org/about/history/">
+              
+            
+            Σχετικά
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://support.torproject.org/">
+              
+            
+            Υποστήριξη
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://community.torproject.org/">
+              
+            
+            Κοινότητα
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://blog.torproject.org">
+              
+            
+            Blog
+              
+            </a>
+        	</li>
+  	
+        	<li class="nav-item">
+            
+            
+              
+              
+                <a class="nav-link" href="https://donate.torproject.org">
+              
+            
+            Δωρεά
+              
+            </a>
+        	</li>
+  	
+    <!--
+            I add some strings here because the i18n plugin does not pick them up from the Databags
+            Σχετικά
+            Τεκμηρίωση
+            Υποστήριξη
+            Κοινότητα
+            Blog
+            PrivChat
+            Εργασία
+            Επικοινωνία
+            Τύπος
+            Δωρεά
+    -->
+        </ul>
+      </div>
+      
+      
+        <div class="btn-group dropdown pull-right">
+          
+            <button type="button" class="btn btn-primary bg-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          Ελληνικά (el)
+          </button>
+          <div class="dropdown-menu">
+            
+              
+                <a class="dropdown-item" href="../../plugins/">English (en-US)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ar/plugins/">عربية (ar)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../bn/plugins/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ca/plugins/">Català (ca)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../de/plugins/">Deutsch (de)</a>
+              
+            
+              
+            
+              
+                <a class="dropdown-item" href="../../es/plugins/">Español (es)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../fr/plugins/">Français (fr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ga/plugins/">Gaeilge (ga)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../he/plugins/">עברית (he)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../hu/plugins/">Magyar nyelv (hu)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../id/plugins/">bahasa Indonesia (id)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../it/plugins/">Italiano (it)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../is/plugins/">Íslenska (is)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ka/plugins/">ქართული ენა (ka)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../lt/plugins/">lietuvių (lt)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../mk/plugins/">македонски (mk)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../my/plugins/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-BR/plugins/">Português Br. (pt-BR)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../pt-PT/plugins/">Português Port. (pt-PT)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ro/plugins/">Română (ro)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../ru/plugins/">Русский (ru)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../th/plugins/">ภาษาไทย (th)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../tr/plugins/">Türkçe (tr)</a>
+              
+            
+              
+                <a class="dropdown-item" href="../../zh-CN/plugins/">简体中文 (zh-CN)</a>
+              
+            
+          </div>
+        </div>
+      
+      
+      <div class="pull-right">
+        
+          <a class="btn btn-outline-light pull-right" href="https://www.torproject.org/download/">
+        
+          Κατεβάστε τον Tor Browser<i class="ml-2 pt-1 fas fa-arrow-down-png"></i>
+        </a>
+      </div>
+    </nav>
+</div>
+  </header>
+  <div class="page">
+    <div class="jumbotron jumbotron-fluid bg-primary text-white mb-md-5">
+      <div class="container-fluid text-center">
+        <h1 class="display-4 no-border font-weight-light pt-5 pb-4">PLUGINS, ΠΡΟΣΘΕΤΑ ΚΑΙ JAVASCRIPT</h1>
+        <!-- <div class="row">
+  <form class="form-inline form-wide justify-content-md-center" id="searchForm" action="https://search.onionlab.eu/support-staging/el" method="GET">
+    <div class="col-md-4 col-sm-12">
+      <div class="col-12 input-group p-0">
+	      <input id="q" class="form-control form-wide rounded-left border-0" type="text" name="q" placeholder="Αναζήτηση .." aria-label="Αναζήτηση">
+        <span class="input-group-btn">
+          <button class="btn btn-light" type="submit"><span class="oi oi-magnifying-glass text-secondary"></span></button>
+        </span>
+      </div>
+    </div>
+  </form>
+</div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+         <div class="container-fluid sidebar col-xs-12 col-sm-12 col-md-3 col-lg-3">
+  <nav class="smalltopics no-background navbar navbar-expand-lg navbar-light bg-white p-0 fixed">
+    <a class="text-primary bg-white font-weight-bold navbar-brand" href="#collapseTopicsNav">
+	Θέματα
+    </a>
+    <label class="side-toggler" for="menu-toggle">
+      <a class="btn btn-lg outline-primary text-primary navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedTopicsContent" aria-controls="navbarSupportedTopicsContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas"></i>
+      </a>
+    </label>
+    <input type="checkbox" id="menu-toggle"/>
+
+    <div class="collapse navbar-collapse burger-menu" id="navbarSupportedTopicsContent">
+      <ul class="nav nav-pills flex-column">
+	
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../about">Σχετικά με τον Tor Browser </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../downloading">Λήψη εφαρμογής </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../installation">Εγκατάσταση </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../running-tor-browser">Εκτέλεση του Tor Browser για πρώτη φορά </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../circumvention">Παράκαμψη λογοκρισίας </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../bridges">Γέφυρες </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../managing-identities">Διαχείριση ταυτοτήτων </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../secure-connections">Ασφαλείς συνδέσεις </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../security-settings">Ρυθμίσεις ασφαλείας </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 active nav-item" >
+    
+    
+    
+    <a role="button"  class="side-nav active"   href=".">Πρόσθετα </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../updating">Αναβάθμιση </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../onion-services">Υπηρεσίες Onion </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../uninstalling">Απεγκατάσταση </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../make-tor-portable">Κάνοντας τον Tor browser φορητό </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../troubleshooting">Αντιμετώπιση προβλημάτων </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../known-issues">Γνωστά προβλήματα </a>
+	</li>
+
+	
+	<li class="toc-entry toc-h2 nav-item">
+    
+    
+    
+    <a role="button"  class="side-nav"   href="../mobile-tor">Tor για κινητά </a>
+	</li>
+
+	
+    </ul>
+    </div>
+    <hr class="mb-0" />
+  </nav>
+
+
+  <nav class="d-none d-sm-block section-nav bg-white sidetopics sticky text-left" id="sidenav-topics">
+          <h4 class="text-primary pl-4">Θέματα</h4>
+    <ul class="nav nav-pills flex-column">
+      
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../about">Σχετικά με τον Tor Browser</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../downloading">Λήψη εφαρμογής</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../installation">Εγκατάσταση</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../running-tor-browser">Εκτέλεση του Tor Browser για πρώτη φορά</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../circumvention">Παράκαμψη λογοκρισίας</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../bridges">Γέφυρες</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../managing-identities">Διαχείριση ταυτοτήτων</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../secure-connections">Ασφαλείς συνδέσεις</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../security-settings">Ρυθμίσεις ασφαλείας</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 active nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link active"   href=".">Πρόσθετα</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../updating">Αναβάθμιση</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../onion-services">Υπηρεσίες Onion</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../uninstalling">Απεγκατάσταση</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../make-tor-portable">Κάνοντας τον Tor browser φορητό</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../troubleshooting">Αντιμετώπιση προβλημάτων</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../known-issues">Γνωστά προβλήματα</a>
+      </li>
+
+      
+      <li class="toc-entry toc-h2 nav-item" >
+      
+      
+      
+        <a role="button"  class="nav-link"   href="../mobile-tor">Tor για κινητά</a>
+      </li>
+
+      
+    </ul>
+  </nav>
+</div> 
+        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 order-last">
+          
+  
+
+
+<div class="item">
+  <h3 class="text-primary">
+    <a href="plugins" role="button"></a>
+  </h3>
+  <div class="anchor-spacer">
+    <div>
+      <h5 class="text-muted mb-3 p-0 text-left">
+	<a href="./">PLUGINS, ΠΡΟΣΘΕΤΑ ΚΑΙ JAVASCRIPT</a>
+      </h5>
+
+    </div>
+     <div id="plugins" class="anchor-spacer text-left" role="tabpanel" data-parent="#">
+      <h3 id="flash-player">FLASH PLAYER</h3><p>Οι ιστοσελίδες βίντεο, όπως το Vimeo, κάνουν χρήση του Flash Player για την προβολή βίντεο. Δυστυχώς, αυτό το λογισμικό λειτουργεί ανεξάρτητα από τον Tor Browser και δεν μπορεί εύκολα να γίνει να ακολουθεί τις ρυθμίσεις proxy του Tor Browser. Μπορεί λοιπόν να αποκαλύψει την πραγματική σας τοποθεσία και τη διεύθυνση IP σας στους διαχειριστές της ιστοσελίδας ή σε κάποιον εξωτερικό παρατηρητή. Για αυτόν το λόγο, η Flash είναι απενεργοποιημένη από προεπιλογή στον Tor Browser και η ενεργοποίησή της δεν συνιστάται.</p>
+<p>Ορισμένες ιστοσελίδες βίντεο (όπως το YouTube) προσφέρουν εναλλακτικές μεθόδους παράδοσης του βίντεο που δεν χρησιμοποιούν το Flash. Αυτές οι μέθοδοι μπορεί να είναι συμβατές με τον Tor Browser.</p>
+<h3 id="javascript">JAVASCRIPT</h3><p>Η JavaScript είναι μια γλώσσα προγραμματισμού που χρησιμοποιούν οι ιστοσελίδες για να προσφέρουν διαδραστικά στοιχεία, όπως βίντεο, κινούμενα σχέδια, ήχο και timelines κατάστασης. Δυστυχώς, η JavaScript μπορεί επίσης να ενεργοποιήσει επιθέσεις στην ασφάλεια του περιήγητη, κάτι που μπορεί να οδηγήσει σε κατάργηση της ανωνυμοποίησης.</p>
+<p>Tor Browser includes an add-on called NoScript. It's accessible through "Preferences" (or "Options" on Windows) on the <a href="https://support.torproject.org/glossary/hamburger-menu/">hamburger menu (≡)</a>, then select 'Customize' and drag the “S” icon to the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.</p>
+<p>Χρήστες που επιθυμούν υψηλό βαθμό ασφάλειας κατά την περιήγησή τους στο διαδίκτυο, θα πρέπει να ορίσουν το <a href="../security-settings/">Επίπεδο Ασφάλειας</a> του Tor Browser στο "Ασφαλέστερα" (το οποίο απενεργοποιεί τη JavaScript για όλες  τις ιστοσελίδες που δεν είναι HTTPS) ή στο "Ασφαλέστερο" (που απενεργοποιεί για όλες τις ιστοσελίδες) . Παρ' όλα αυτά, η απενεργοποίηση των JavaScript θα αποτρέψει πολλές ιστοσελίδες από την κανονική τους λειτουργία, οπότε η προεπιλεγμένη ρύθμιση του Tor Browser είναι να επιτρέπει σε όλες τις ιστοσελίδες να λειτουργούν θέτοντας το "Κανονικό" προφίλ.</p>
+<h3 id="prostheta-tou-browser">ΠΡΟΣΘΕΤΑ ΤΟΥ BROWSER</h3><p>Ο Tor Browser βασίζεται στον Firefox και όλα τα πρόσθετα του περιήγητη ή τα θέματα που είναι συμβατά με τον Firefox μπορούν να εγκατασταθούν και στον Tor Browser.</p>
+<p>Ωστόσο, τα μόνα πρόσθετα που έχουν δοκιμαστεί για χρήση με τον Tor Browser είναι αυτά που περιλαμβάνονται από προεπιλογή. Η εγκατάσταση οποιουδήποτε άλλου πρόσθετου ενδέχεται να δημιουργήσει λειτουργικά προβλήματα στον Tor Browser ή να προκαλέσει σοβαρότερα προβλήματα που επηρεάζουν την ιδιωτικότητα και την ασφάλειά σας. Αποθαρρύνεται έντονα η εγκατάσταση επιπλέον πρόσθετων και το Tor Project δεν θα προσφέρει υποστήριξη για αυτά.</p>
+
+      
+         <div class="card mt-5">
+            <ul class="list-group list-group-flush">
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Συνεισφέροντες σε αυτή τη σελίδα: <a href="#" title="#">cypherpunk</a></span></li-->
+                <li class="list-group-item">
+                        <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content/plugins/contents.lr">Επεξεργασία της σελίδας</a> -
+                        <a href="https://support.torproject.org/misc/bug-or-feedback/">Σχολιάστε</a> -
+                        <a href="./">Permalink</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+<div class="container-fluid bg-dark footer order-last text-left">
+
+  
+
+  <div class="row onion-bg">
+    <div class="col-12 d-flex justify-content-right">
+      <div class="container pt-5 justify-content-right">
+        <div class="offset-lx-2 offset-sm-4 mt-5">
+           <h2 class="text-white text-bold">Κατεβάστε τον Tor Browser</h2>
+            <p class="text-white">Κατεβάστε τον Tor Browser για να ζήσετε τη πραγματική ιδιωτική περιήγηση χωρίς παρακολούθηση, επιτήρηση ή λογοκρισία.</p>
+            
+            
+              <a class="btn text-primary bg-white btn-light pull-right mt-2" href="https://www.torproject.org/download/">
+            
+
+              Κατεβάστε τον Tor Browser<i class="ml-2 pt-1 fas fa-arrow-down-png-purple"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+	        <h5 class="font-weight-bold mt-5 text-white">Η αποστολή μας:</h5>
+          <p class="text-white mb-5" >Η αποστολή του Tor Project είναι να προωθήσει τα ανθρώπινα δικαιώματα και τις ελευθερίες δημιουργώντας και αναπτύσσοντας ελεύθερες και ανοιχτές τεχνολογίες ανωνυμίας και ιδιωτικότητας, υποστηρίζοντας την απεριόριστη διαθεσιμότητα και χρήση τους και ενισχύοντας την επιστημονική και κοινή τους κατανόηση.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <ul class="nav flex-column mt-sm-5">
+          
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/about/jobs/">
+            
+          
+              Εργασία
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://blog.torproject.org">
+            
+          
+              Blog
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/contact/">
+            
+          
+              Επικοινωνία
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/press/">
+            
+          
+              Τύπος
+              
+            </a>
+          </li>
+          
+          <li class="nav-item">
+          
+          
+            
+            
+              <a class="nav-link text-light" href="https://www.torproject.org/privchat">
+            
+          
+              PrivChat
+              
+            </a>
+          </li>
+          
+        </ul>
+        
+        
+          <a href="https://www.torproject.org/donate/el" title="Δωρεά"><h4><span class="badge badge-warning p-2">Κάντε μια δωρεά τώρα!</span></h4></a>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-sm-6 offset-lx-1 offset-sm-0 mt-5">
+        <p class="text-primary-light text-uppercase">Εγγραφείτε στο Newsletter μας</p>
+        <p class="text-light">Λάβετε μηνιαίες ενημερώσεις και ευκαιρίες από το Tor Project</p>
+        <p class="w"><a class="btn btn-small btn-dark mt-2 text-white text-uppercase active" role="button" aria-pressed="true" href="https://newsletter.torproject.org/">Εγγραφή</a></p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="row">
+          <h4><a class="text-white px-3" target="_blank" href="https://forum.torproject.net"><i class="fab fa-discourse"></i></a></h4>
+          <h4><a class="text-white px-3" target="_blank" href="https://www.facebook.com/TorProject/"><i class="fab fa-facebook-png"></i></a></h4>
+          <h4><a class="mastodon text-white px-3" target="_blank" href="https://mastodon.social/@torproject" rel="me"><i class="fab fa-mastodon-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="instagram text-white px-3" target="_blank" href="https://www.instagram.com/torproject"><i class="fab fa-instagram-png"></i></a></h4>
+          <h4><a class="twitter text-white px-3" target="_blank" href="https://twitter.com/torproject"><i class="fab fa-twitter-png"></i></a></h4>
+          <h4><a class="linkedin text-white px-3" target="_blank" href="https://www.linkedin.com/company/tor-project"><i class="fab fa-linkedin-png"></i></a></h4>
+        </div>
+        <div class="row">
+          <h4><a class="github text-white px-3" target="_blank" href="https://github.com/torproject"><i class="fab fa-github-png"></i></a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <div class="col-8 mt-5">
+        
+        <p class="text-primary text-light">Τα σήματα κατατεθέν, οι όροι πνευματικών δικαιωμάτν και οι κανόνες περί χρήσης τους από τρίτους μπορούν να βρεθούν εδώ 
+  <a href="https://www.torproject.org/about/trademark/" target="_blank" class="text-primary text-light"><u>FAQ</u></a>
+.</p>
+      </div>
+      <div class="col-sm-2 mt-5 d-none d-sm-block">
+        <div class="btn-group dropup float-right">
+      	  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ελληνικά (el)
+      	  </button>
+      	  <div class="dropdown-menu">
+            
+              
+    	          <a class="dropdown-item" href="../../plugins/">English (en-US)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ar/plugins/">عربية (ar)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../bn/plugins/">বাংলা ভাষা (bn)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ca/plugins/">Català (ca)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../de/plugins/">Deutsch (de)</a>
+              
+            
+              
+            
+              
+    	          <a class="dropdown-item" href="../../es/plugins/">Español (es)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../fr/plugins/">Français (fr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ga/plugins/">Gaeilge (ga)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../he/plugins/">עברית (he)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../hu/plugins/">Magyar nyelv (hu)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../id/plugins/">bahasa Indonesia (id)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../it/plugins/">Italiano (it)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../is/plugins/">Íslenska (is)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ka/plugins/">ქართული ენა (ka)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../lt/plugins/">lietuvių (lt)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../mk/plugins/">македонски (mk)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../my/plugins/">မြန်မာဘာသာ (my)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-BR/plugins/">Português Br. (pt-BR)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../pt-PT/plugins/">Português Port. (pt-PT)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ro/plugins/">Română (ro)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../ru/plugins/">Русский (ru)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../th/plugins/">ภาษาไทย (th)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../tr/plugins/">Türkçe (tr)</a>
+              
+            
+              
+    	          <a class="dropdown-item" href="../../zh-CN/plugins/">简体中文 (zh-CN)</a>
+              
+            
+        	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../../static/js/jquery-3.2.1.min.js?h=1055018c" ></script>
+  <script src="../../static/js/popper.min.js?h=a4336719" ></script>
+  <script src="../../static/js/bootstrap.bundle.min.js?h=46d1f82f" ></script>
+  <script src="../../static/js/scrollspy.min.js?h=02674132" ></script>
+  <script src="../../static/js/modernizr.js?h=9a7f0609" ></script>
+  <script src="../../static/js/download.js?h=caaadf8f" ></script>
+  <script src="../../static/js/fallback.js?h=8ecbf837" ></script>
+  </div>
+</div>
+</body>
