@@ -1,4 +1,4 @@
-This the repository of the new Tor Browser manual maintained with lektor.
+This the repository of the new Tor Browser manual maintained with Lektor.
 
 The current online version of the manual can be found at
  - https://tb-manual.torproject.org
@@ -7,11 +7,10 @@ The current online version of the manual can be found at
 To clone the code use either one of these options:
 
 * Local git:
-  - `git clone https://gitweb.torproject.org/project/web/manual.git`
-  - `torify git clone http://xtlfhaspqtkeeqxk6umggfbr3gyfznvf4jhrge2fujz53433i2fcs3id.onion/project/web/manual.git`
+  - `git clone https://gitlab.torproject.org/tpo/web/manual.git`
+  - `torify git clone http://eweiibe6tdjsdprb4px6rqrzzcsi22m4koia44kc5pcjr7nec2rlxyad.onion/tpo/web/manual.git`
 
-* Browse the online git:
-  - http://gzgme7ov25seqjbphab4fkcph3jkobfwwpivt5kzbv3kqx2y2qttl4yd.onion/project/web/manual.git
+* Browse the online [git repository](https://gitlab.torproject.org/tpo/web/manual).
 
 How to report bugs or feedback
 ==============================
@@ -22,8 +21,7 @@ What is Lektor?
 ===============
 
 [Lektor](https://www.getlektor.com) is a framework to generate and serve
-websites from Markdown files. For an intro to manage files see #24275.
-
+websites from Markdown files. 
 Its code can be found at https://github.com/lektor/lektor
 
 Update translation
@@ -36,11 +34,3 @@ The translation statistics for this website can be seen at https://torpat.ch/man
 
 Translations are managed with the i18n plugin:
 https://github.com/numericube/lektor-i18n-plugin
-
-To add new languages see [Add new languages to support portal documentation](https://trac.torproject.org/projects/tor/wiki/org/operations/services/support#Addanewlanguagetothesupportportal) | or via [Onion Services](http://ea5faa5po25cf7fb.onion/projects/tor/wiki/org/operations/services/support#Addanewlanguagetothesupportportal).
-
-
-Generate screenshots
-------------------
-
-This is currently work in progress, see [#28235](https://trac.torproject.org/projects/tor/ticket/28235).
