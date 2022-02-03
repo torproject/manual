@@ -51,6 +51,6 @@ To use this option, you just need to click on 'New Identity' in Tor Browser's to
 
 ### NEW TOR CIRCUIT FOR THIS SITE
 
-This option is useful if the [exit relay](/about/#how-tor-works) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
+This option is useful if the [exit relay](../about/#how-tor-works) you are using is unable to connect to the website you require, or is not loading it properly. Selecting it will cause the currently-active tab or window to be reloaded over a new Tor circuit. Other open tabs and windows from the same website will use the new circuit as well once they are reloaded. This option does not clear any private information or unlink your activity, nor does it affect your current connections to other websites.
 
 You can also access this option in the new circuit display, in the site information menu, in the URL bar.
