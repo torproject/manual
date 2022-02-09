@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-08 15:23+UTC\n"
+"POT-Creation-Date: 2022-02-08 13:38+UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -18,26 +18,6 @@ msgstr ""
 
 #: (dynamic)
 msgid "Tor Project | Tor Browser Manual"
-msgstr ""
-
-#: (dynamic)
-msgid "Close banner"
-msgstr ""
-
-#: (dynamic)
-msgid "Privacy is a human right"
-msgstr ""
-
-#: (dynamic)
-msgid "Thank you for helping us reach our $150,000 Friends of Tor match!"
-msgstr ""
-
-#: (dynamic)
-msgid "Your donation will be matched by Friends of Tor, up to $100,000."
-msgstr ""
-
-#: (dynamic)
-msgid "Donate now"
 msgstr ""
 
 #: (dynamic)
@@ -396,8 +376,8 @@ msgstr ""
 msgid ""
 "If you're unable to download Tor Browser from the official Tor Project "
 "website, you can instead try downloading it from one of our official "
-"mirrors, either through [EFF](https://tor.eff.org), [Calyx Institute]"
-"(https://tor.calyxinstitute.org) or [CCC](https://tor.ccc.de)."
+"mirrors, either through [EFF](https://tor.eff.org) or [Calyx Institute]"
+"(https://tor.calyxinstitute.org)."
 msgstr ""
 
 #: https://tb-manual.torproject.org/downloading/
@@ -1077,8 +1057,8 @@ msgstr ""
 #: https://tb-manual.torproject.org/bridges/
 #: (content/bridges/contents+en.lr:topic.body)
 msgid ""
-"Most [Pluggable Transports](/circumvention), such as obfs4, rely on the use "
-"of \"bridge\" relays."
+"Most [Pluggable Transports](../circumvention), such as obfs4, rely on the "
+"use of \"bridge\" relays."
 msgstr ""
 
 #: https://tb-manual.torproject.org/bridges/
@@ -1405,7 +1385,7 @@ msgstr ""
 #: https://tb-manual.torproject.org/managing-identities/
 #: (content/managing-identities/contents+en.lr:topic.body)
 msgid ""
-"This option is useful if the [exit relay](/about/#how-tor-works) you are "
+"This option is useful if the [exit relay](../about/#how-tor-works) you are "
 "using is unable to connect to the website you require, or is not loading it "
 "properly. Selecting it will cause the currently-active tab or window to be "
 "reloaded over a new Tor circuit. Other open tabs and windows from the same "
@@ -1957,9 +1937,9 @@ msgstr ""
 #: https://tb-manual.torproject.org/security-settings/
 #: (content/security-settings/contents+en.lr:topic.body)
 msgid ""
-"* JavaScript is disabled on all non-[HTTPS](/secure-connections) sites; some "
-"fonts and math symbols are disabled; audio and video (HTML5 media) are click-"
-"to-play."
+"* JavaScript is disabled on all non-[HTTPS](../secure-connections) sites; "
+"some fonts and math symbols are disabled; audio and video (HTML5 media) are "
+"click-to-play."
 msgstr ""
 
 #: https://tb-manual.torproject.org/security-settings/
