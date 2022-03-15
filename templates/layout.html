@@ -26,7 +26,7 @@
     <div class="container-fluid">
       <div class="row flex-xl-nowrap">
         {% if this.title != _('Tor Browser User Manual') %} {% include 'sidenav.html' %} {% endif %}
-        <main role="main" class="col-sm-12 col-xs-12  ml-sm-auto col-md-9 col-lg-9 {{ bag('alternatives', this.alt, 'order') }}">
+	<main role="main" class="col-sm-12 col-xs-12 col-md-9 col-lg-9 {% if bag('alternatives', this.alt, 'direction') == 'text-right' %} mr-sm-auto {% else %} ml-sm-auto {% endif %} {{ bag('alternatives', this.alt, 'order') }}">
           {% block body %}{% endblock %}
         </main>
       </div>
