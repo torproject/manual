@@ -80,6 +80,16 @@ name = ქართული ენა (ka)
 url_prefix = /ka/
 locale = ka
 
+[alternatives.km]
+name = ភាសាខ្មែរ (km)
+url_prefix = /km/
+locale = km
+
+[alternatives.ko]
+name = 한국어 (ko)
+url_prefix = /ko/
+locale = ko
+
 [alternatives.lt]
 name = lietuvių (lt)
 url_prefix = /lt/
@@ -129,3 +139,8 @@ locale = tr
 name = 简体中文 (zh-CN)
 url_prefix = /zh-CN/
 locale = zh-CN
+
+[alternatives.zh-TW]
+name = 正體字 (zh-TW)
+url_prefix = /zh-TW/
+locale = zh-TW
