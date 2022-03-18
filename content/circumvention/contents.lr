@@ -61,7 +61,7 @@ Your settings will automatically be saved once you close the tab.
 
 ### WHICH TRANSPORT SHOULD I USE?
 
-Each of the transports listed in Tor Bridge's menu works in a different way, and their effectiveness depends on your individual circumstances.
+
 
 If you are trying to circumvent a blocked connection for the first time, you should try the different transports: obfs4, snowflake, or meek-azure.
 
