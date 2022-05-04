@@ -20,7 +20,7 @@ Onion services offer several advantages over ordinary services on the non-privat
 
 ### HOW TO ACCESS AN ONION SERVICE
 
-Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 56 mostly random letters and numbers, followed by ".onion".
+Just like any other website, you will need to know the address of an onion service in order to connect to it. An onion address is a string of 56 letters and numbers, followed by ".onion".
 
 When accessing a website that uses an onion service, Tor Browser will show in the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service.
 You can learn more about the onion site that you are visiting by looking at the Circuit Display.
