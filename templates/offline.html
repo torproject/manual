@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html{% if bag('alternatives', this.alt, 'direction') == 'text-right' %} dir="rtl"{% endif %}>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ _("Tor Browser Manual") }}</title>
+    <link rel="stylesheet" href="{{ '/static/css/bootstrap.css'|asseturl }}">
+    <link rel="stylesheet" href="{{ '/static/fonts/fontawesome/css/all.min.css'|asseturl }}" rel="stylesheet">
+    <style>
+.topic {
+  display: none;
+}
+
+.topic.visible {
+  display: block;
+}
+
+#topic-topics ul {
+  list-style-type: none;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      {% set topics = site.get_root(alt=this.alt).children.filter(F._model == 'topic').filter(F._id != 'menu').order_by('key').all() %}
+      <div class="topic" id="topic-topics">
+        <h3 class="text-primary">{{ _('Topics') }}</h3>
+        <ul>
+        {% for item in topics %}
+          <li>
+            <h4><a href="#{{ item._id }}">{{ item.title }}</a></h4>
+            <p>{{ item.description }}</p>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% for topic in topics %}
+      <div class="topic" id="topic-{{ topic._id }}" data-title="{{ topic.title }}">
+        <nav>
+          <a href="#topics">{{ _('Topics') }}</a>
+          {% if bag('alternatives', this.alt, 'direction') == 'text-right' %}&laquo;{% else %}&raquo;{% endif %}
+          <a href="#{{ topic._id }}">{{ topic.title }}</a>
+        </nav>
+        <h2>{{ topic.title }}</h2>
+        {{ topic.body|safe }}
+        {% if topic._id == "secure-connections" %}
+          {% include 'secure-connections.html' %}
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <script>
+const defaultTitle = document.title;
+function changePage() {
+  let id = location.hash.substr(1);
+  const tokens = id.split('_');
+  id = tokens[0];
+  let topic = document.getElementById(`topic-${id}`);
+  if (topic === null) {	
+    topic = document.getElementById('topic-topics');
+  }
+  document.querySelector('.topic.visible')?.classList.remove('visible');
+  topic.classList.add('visible');
+  const title = topic.getAttribute('data-title');
+  document.title = (title ? `${title} | ` : '') + defaultTitle;
+  topic.scrollIntoView();
+  if (tokens[1]) {
+    const maybeAnchor = document.getElementById(tokens[1]);
+    if (maybeAnchor) {
+      maybeAnchor.scrollIntoView();
+    }
+  }
+}
+changePage();
+addEventListener('hashchange', changePage);
+    </script>
+  </body>
+</html>
