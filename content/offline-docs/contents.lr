@@ -1,3 +1,5 @@
 _model: offline
 ---
-_hidden: yes
+_hidden: no
+---
+_discoverable: no
