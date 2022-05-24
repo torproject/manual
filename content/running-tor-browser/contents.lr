@@ -10,7 +10,7 @@ key: 4
 ---
 body:
 
-When you run Tor Browser for the first time, you will see the Connect to Tor window.
+When you start Tor Browser, you will see the Connect to Tor window.
 This offers you the option to either connect directly to the Tor network, or to configure Tor Browser for your connection.
 There's a checkbox which asks whether you always want to get automatically connected to the Tor network, if this is the case, check the box.
 
