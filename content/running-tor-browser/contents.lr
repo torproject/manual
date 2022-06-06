@@ -40,7 +40,7 @@ If Connection Assist is unable to determine your location or you want to configu
 
 Tor Browser will take you through a series of configuration options.
 
-The Connection Assist informs you about the state of your internet connection and your connection to the Tor network.
+The Connection Assist informs you about the state of your Internet connection and your connection to the Tor network.
 
 ![Connection Test success](/static/images/alpha-connection-test-success.png)
 ![Connection Test unsuccessful](/static/images/alpha-connection-test-failure.png)
@@ -56,7 +56,7 @@ If you know your connection is censored, or you have tried and failed to connect
 
 ### OTHER OPTIONS
 
-If your connection uses a proxy you can configure it by clicking on 'Settings ...' against 'Configure how Tor Browser connects to the internet'.
+If your connection uses a proxy you can configure it by clicking on 'Settings ...' against 'Configure how Tor Browser connects to the Internet'.
 In most cases, this is not necessary. You will usually know if you need to select this checkbox because the same settings will be used for other browsers on your system.
 If possible, ask your network administrator for guidance.
 If your connection does not use a proxy, click "Connect".
