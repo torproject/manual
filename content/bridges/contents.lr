@@ -49,3 +49,16 @@ Your settings will automatically be saved once you close the tab.
 ![Enter bridge addresses manually](/static/images/alpha-input-bridge.png)
 
 If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
+
+### BRIDGE-MOJI
+
+Each bridge address is represented by a string of emoji characters called Bridge-mojis. The Bridge-mojis can be used to validate that the intended bridge has been added successfully.
+
+Bridge-mojis are **human-readable bridge identifiers** and do **not** represent the quality of connection to the Tor network or the state of the bridge.
+The string of emoji characters **cannot be used as input**. Users are required to provide the complete bridge address to be able to connect with a bridge.
+
+![Bridge-moji](/static/images/bridgemoji.png)
+
+The bridge addresses can be shared using the QR code or by copying the entire address.
+
+![Bridge QR code](/static/images/bridge-qr.png)

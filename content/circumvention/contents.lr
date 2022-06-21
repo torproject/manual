@@ -71,4 +71,8 @@ If you are trying to circumvent a blocked connection for the first time, you sho
 
 If you try all of these options, and none of them gets you online, you will need to request a bridge or manually enter bridge addresses.
 
+Users in China will likely have to connect with a private and unlisted obfs4 bridge.
+Contact our Telegram Bot [@GetBridgesBot](https://t.me/GetBridgesBot) and type `/bridges`.
+Or send an email to [frontdesk@torproject.org](mailto:frontdesk@torproject.org) with the phrase "private bridge" in the subject of the email.
+
 Read the [Bridges](../bridges/) section to learn what bridges are and how to obtain them.
