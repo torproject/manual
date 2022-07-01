@@ -25,6 +25,6 @@ Users who require a high degree of security in their web browsing should set Tor
 
 ### FLASH PLAYER
 
-Video websites, such as Vimeo make use of the Flash Player plugin to display video content. Unfortunately, this software operates independently of Tor Browser and cannot easily be made to obey Tor Browser’s proxy settings. It can therefore reveal your real location and IP address to the website operators, or to an outside observer. For this reason, Flash is disabled by default in Tor Browser, and enabling it is not recommended.
+Adobe Flash Player reached [End-Of-Life on December 31, 2020](https://www.adobe.com/products/flashplayer/end-of-life-alternative.html) and support is no longer included in any current browser releases. Encountering webpages that use Flash Player today is very unlikely. Since its retirement, use cases for Flash Player have largely been absorbed by HTML5 and JavaScript.
 
-Some video websites (such as YouTube) offer alternative video delivery methods that do not use Flash. These methods may be compatible with Tor Browser.
+Due to its closed nature and history of security vulnerabilities, use of Flash Player in Tor Browser has historically not been recommended.
