@@ -72,6 +72,12 @@ function changePage() {
 }
 changePage();
 addEventListener('hashchange', changePage);
+for (const link of document.querySelectorAll('a')) {
+  const href = link.getAttribute('href');
+  if (href && (href.startsWith('https://') || href.startsWith('http://'))) {
+    link.setAttribute('target', '_blank');
+  }
+}
     </script>
   </body>
 </html>
