@@ -16,32 +16,50 @@ There's a checkbox which asks whether you always want to get automatically conne
 
 ### CONNECT
 
-<img class="col-md-6" src="../../static/images/connect.png" alt="Click 'connect' to connect to Tor.">
+![Click 'connect' to connect to Tor](/static/images/connect.png)
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
 
 Once clicked, a status bar will appear, showing Tor's connection progress.
-If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, see the [Troubleshooting](../troubleshooting) page for help solving the problem.
+If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, try the 'Connection Assist' or see the [Troubleshooting](../troubleshooting) page for help solving the problem.
 Or, if you know that your connection is censored or uses a proxy, you should click on "Tor Network Settings".
 
-<img class="col-md-6" src="../../static/images/configure.png" alt="Click 'Tor Network Settings' to adjust network settings.">
+![Click 'Tor Network Settings' to adjust network settings](/static/images/configure.png)
+
+### CONNECTION ASSIST
+
+If Tor is blocked in your location, trying a bridge may help. Connection Assist can choose one for you using your location.
+
+![Connection Assist automatic](/static/images/connection-assist-auto.png)
+
+If Connection Assist is unable to determine your location or you want to configure your connection manually instead, you can select your region from the dropdown menu and click on 'Try a Bridge'.
+
+![Connection Assist configuration](/static/images/connection-assist-select.png)
 
 ### CONFIGURE
 
 Tor Browser will take you through a series of configuration options.
 
-The first checkbox is Quickstart. If selected, every time you open Tor Browser, it will try to connect with your previous network settings.
+The Connection Assist informs you about the state of your Internet connection and your connection to the Tor network.
 
-The second checkbox asks if you want to use a bridge. If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, select "Use a bridge".
+![Connection Test success](/static/images/connection-test-success.png)
 
-<img class="col-md-6" src="../../static/images/pluggable-transport.png" alt="Configure Tor bridge options">
+![Connection Test unsuccessful](/static/images/connection-test-failure.png)
 
-This will display the [Circumvention](../circumvention) section to configure a pluggable transport or to connect using [Bridges](../bridges).
+The first checkbox is 'Quickstart'. If selected, every time you open Tor Browser, it will try to connect with your previous network settings.
+
+![Quickstart](/static/images/quickstart.png)
+
+If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, you can configure Tor Browser to use a pluggable transport.
+'Bridges' will display the [Circumvention](../circumvention) section to configure a pluggable transport or to connect using [Bridges](../bridges).
+
+![Configure Tor bridge](/static/images/pluggable-transport.png)
 
 ### OTHER OPTIONS
 
-The third checkbox asks if your connection uses a proxy. In most cases, this is not necessary. You will usually know if you need to select this checkbox because the same settings will be used for other browsers on your system.
+If your connection uses a proxy you can configure it by clicking on 'Settings ...' against 'Configure how Tor Browser connects to the Internet'.
+In most cases, this is not necessary. You will usually know if you need to select this checkbox because the same settings will be used for other browsers on your system.
 If possible, ask your network administrator for guidance.
 If your connection does not use a proxy, click "Connect".
 
-<img class="col-md-6" src="../../static/images/proxy.png" alt="Configure proxy options">
+![Proxy settings for Tor Browser](/static/images/proxy.png)

@@ -51,7 +51,7 @@ Navigate to the newly extracted Tor Browser directory.
 Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
    Double-click the icon to start up Tor Browser for the first time.
 
-<img style="max-width:50%" class="col-md-6"  src="../../static/images/linux-make-desktop-file-executable.png" alt="Make the .desktop file executable in Linux">
+![Make the .desktop file executable in Linux](/static/images/linux-make-desktop-file-executable.png)
 
    **Note:** On Ubuntu and some other distros if you try to launch `start-tor-browser.desktop` a text file might open up.
 To change this behavior and launch Tor Browser instead, follow this:
@@ -61,7 +61,7 @@ To change this behavior and launch Tor Browser instead, follow this:
 * Select "Run them" or "Ask what to do" under "Executable Text Files".
 * If you choose the latter click on "Run" after launching the `start-tor-browser.desktop` file.
 
-<img style="max-width:50%" class="col-md-6"  src="../../static/images/linux-change-behavior-executable-files.png" alt="Change behavior of executable text file to always run in Linux">
+![Change behavior of executable text file to always run in Linux](/static/images/linux-change-behavior-executable-files.png)
 
 #### Command-line method
 

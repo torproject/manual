@@ -11,7 +11,23 @@ key: 12
 body:
 You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
 
-<img class="col-md-6" src="../../static/images/connect.png" alt="Click 'Connect' to connect to Tor.">
+![Click 'Connect' to connect to Tor](/static/images/connect.png)
+
+The Connection Assist informs you about the state of your Internet connection if you click on 'Test'.
+
+![Connection Assist Test](/static/images/connection-assist-test.png)
+
+Check your Internet Connection if it says 'Offline'. If your connection to the Tor Network is not established and it reads 'Offline' the following steps can be helpful.
+
+![Connection Assist offline error](/static/images/connection-assist-offline.png)
+
+The Connection Assist informs you about the state of your Internet connection if you click on 'Test'.
+
+![Connection Assist Test](/static/images/connection-assist-test.png)
+
+Check your Internet Connection if it says 'Offline'. If your connection to the Tor Network is not established and it reads 'Offline' the following steps can be helpful.
+
+![Connection Assist offline error](/static/images/connection-assist-offline.png)
 
 ### QUICK FIXES
 
@@ -35,7 +51,7 @@ In most cases, taking a look at the Tor logs can be helpful in diagnosing the is
 If you’re having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
 Then paste the Tor log into a text file or other document.
 
-If you don't see this option and you have Tor Browser open, you can navigate to the hamburger menu ("≡"), then click on "Preferences", and finally on "Tor" in the side bar.
+If you don't see this option and you have Tor Browser open, you can navigate to the hamburger menu ("≡"), then click on "Settings", and finally on "Connection" in the side bar.
 At the bottom of the page, next to the "View the Tor logs" text, click the button "View Logs...".
 
 Alternatively, on GNU/Linux, to view the logs right in the terminal, navigate to the Tor Browser directory and launch the Tor Browser from the command line by running:

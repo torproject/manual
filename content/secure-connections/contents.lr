@@ -10,3 +10,19 @@ key: 10
 ---
 body:
 If personal information such as a login password travels unencrypted over the Internet, it can very easily be intercepted by an eavesdropper. If you are logging into any website, you should make sure that the site offers HTTPS encryption, which protects against this kind of eavesdropping. You can verify this in the URL bar: if your connection is encrypted, the address will begin with “https://”, rather than “http://”.
+
+### HTTPS-Only Mode in Tor Browser
+
+HTTPS-Only mode forces all connections to websites to use a secure encrypted connection called HTTPS.
+Most websites already support HTTPS; some support both HTTP and HTTPS.
+Enabling this mode guarantees that all of your connections to websites are upgraded to use HTTPS and hence secure.
+
+![HTTPS-only mode in Tor Browser](/static/images/https-only-mode.png)
+
+Some websites only support HTTP and the connection cannot be upgraded. If a HTTPS version of a site is not available, you will see a “Secure Connection Not Available” page:
+
+![Secure Connection not available when HTTP website](/static/images/http-website-error.png)
+
+If you click 'Continue to HTTP Site' you accept the risk and then will visit a HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
+
+Click the 'Go Back' button if you want to avoid any unencrypted connections.
