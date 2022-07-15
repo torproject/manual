@@ -22,11 +22,11 @@ On macOS:
 * Go to your `~/Library/Application Support/` folder.
 * Note the Library folder is hidden on newer versions of macOS. To navigate to this folder in Finder, select "Go to Folder..." in the "Go" menu.
 
-<img class="" src="/static/images/macos-go-to-folder-menu.png" alt="Go to folder menu option.">
+![Go to folder menu option](/static/images/macos-go-to-folder-menu.png)
 
 * Then type `~/Library/Application Support/` in the window and click Go.
 
-<img class="" src="/static/images/macos-go-to-folder-window.png" alt="Go to folder window.">
+![Go to folder window](/static/images/macos-go-to-folder-window.png)
 
 * Locate the TorBrowser-Data folder and move it to Trash.
 * Empty your Trash.

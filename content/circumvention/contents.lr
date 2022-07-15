@@ -60,7 +60,7 @@ In the "Bridges" section, locate the option "Choose from Tor Browser's one of bu
 Choose whichever pluggable transport you'd like to use from the menu.
 Your settings will automatically be saved once you close the tab.
 
-![Configure built-in bridges](/static/images/alpha-built-in-bridge.png)
+![Configure built-in bridges](/static/images/built-in-bridge.png)
 
 
 ### WHICH TRANSPORT SHOULD I USE?

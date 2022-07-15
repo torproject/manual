@@ -30,11 +30,11 @@ Or, if you know that your connection is censored or uses a proxy, you should cli
 
 If Tor is blocked in your location, trying a bridge may help. Connection Assist can choose one for you using your location.
 
-![Connection Assist automatic](/static/images/alpha-connection-assist-auto.png)
+![Connection Assist automatic](/static/images/connection-assist-auto.png)
 
 If Connection Assist is unable to determine your location or you want to configure your connection manually instead, you can select your region from the dropdown menu and click on 'Try a Bridge'.
 
-![Connection Assist configuration](/static/images/alpha-connection-assist-select.png)
+![Connection Assist configuration](/static/images/connection-assist-select.png)
 
 ### CONFIGURE
 
@@ -42,17 +42,18 @@ Tor Browser will take you through a series of configuration options.
 
 The Connection Assist informs you about the state of your Internet connection and your connection to the Tor network.
 
-![Connection Test success](/static/images/alpha-connection-test-success.png)
-![Connection Test unsuccessful](/static/images/alpha-connection-test-failure.png)
+![Connection Test success](/static/images/connection-test-success.png)
+
+![Connection Test unsuccessful](/static/images/connection-test-failure.png)
 
 The first checkbox is 'Quickstart'. If selected, every time you open Tor Browser, it will try to connect with your previous network settings.
 
-![Quickstart](/static/images/alpha-quickstart.png)
+![Quickstart](/static/images/quickstart.png)
 
 If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, you can configure Tor Browser to use a pluggable transport.
 'Bridges' will display the [Circumvention](../circumvention) section to configure a pluggable transport or to connect using [Bridges](../bridges).
 
-![Configure Tor bridge](/static/images/alpha-bridge.png)
+![Configure Tor bridge](/static/images/pluggable-transport.png)
 
 ### OTHER OPTIONS
 
@@ -61,4 +62,4 @@ In most cases, this is not necessary. You will usually know if you need to selec
 If possible, ask your network administrator for guidance.
 If your connection does not use a proxy, click "Connect".
 
-![Proxy settings for Tor Browser](/static/images/alpha-tb-proxy.png)
+![Proxy settings for Tor Browser](/static/images/proxy.png)

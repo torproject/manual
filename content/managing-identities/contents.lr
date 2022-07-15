@@ -20,7 +20,7 @@ Tor Browser centers your web experience around your relationship with the websit
 
 On the other hand, all connections to a single website address will be made over the same Tor circuit, meaning you can browse different pages of a single website in separate tabs or windows, without any loss of functionality.
 
-<img class="col-md-6" align="right" hspace="5" src="../../static/images/circuit_full.png" alt="Display circuit diagram under the site information menu">
+![Display circuit diagram under the site information menu](/static/images/circuit_full.png)
 
 You can see a diagram of the circuit that Tor Browser is using for the current tab in the site information menu, in the URL bar.
 
@@ -39,7 +39,7 @@ When you log in to a website over Tor, there are several points you should bear 
 
 ### CHANGING IDENTITIES AND CIRCUITS
 
-<img style="max-width:100%" class="col-md-6" src="../../static/images/new_identity.png" alt="New Identity and New Tor Circuit options under main menu">
+![New Identity and New Tor Circuit options under main menu](/static/images/new_identity.png)
 
 Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. They are also located in the hamburger or main menu (≡).
 
