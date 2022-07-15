@@ -26,7 +26,7 @@ To view and adjust your Security Settings, click the 'Change...' button in the s
 Increasing the Security Level in the Tor Browser Security Settings will disable or partially disable certain browser features to protect against possible attacks.
 You can enable these settings again at any time by adjusting your Security Level.
 
-<img style="max-width:100%" class="col-lg-6" src="../../static/images/security-settings-safest.png" alt="Security Level is currently set to Safest.">
+![Security Level is currently set to Safest](/static/images/security-settings-safest.png)
 
 
 ###### Standard

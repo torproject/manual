@@ -11,7 +11,15 @@ key: 12
 body:
 You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
 
-<img class="col-md-6" src="../../static/images/connect.png" alt="Click 'Connect' to connect to Tor.">
+![Click 'Connect' to connect to Tor](/static/images/connect.png)
+
+The Connection Assist informs you about the state of your Internet connection if you click on 'Test'.
+
+![Connection Assist Test](/static/images/connection-assist-test.png)
+
+Check your Internet Connection if it says 'Offline'. If your connection to the Tor Network is not established and it reads 'Offline' the following steps can be helpful.
+
+![Connection Assist offline error](/static/images/connection-assist-offline.png)
 
 The Connection Assist informs you about the state of your Internet connection if you click on 'Test'.
 
