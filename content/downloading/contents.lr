@@ -24,10 +24,25 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 [GetTor](https://gettor.torproject.org/) is a service that automatically responds to messages with links to the latest version of Tor Browser, hosted at a variety of locations, such as Dropbox, Google Drive and GitHub.
 
-### TO USE GETTOR VIA EMAIL:
+### TO USE GETTOR VIA EMAIL
 
 Send an email to [gettor@torproject.org](mailto:gettor@torproject.org), and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
 You can also add a language code to get Tor Browser on a language different than English.
 For example, to get links for downloading Tor Browser in Chinese (China) for Windows, send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the words "windows zh_CN" in it.
 
 GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+
+### TO USE GETTOR VIA TELEGRAM
+
+Send a message to [@GetTor_Bot](https://t.me/gettor_bot) on Telegram.
+
+* Tap on 'Start' or write `/start` in the chat.
+
+* Select your language.
+
+* There are two options to download Tor Browser.
+
+  * Tap on 'Send me Tor Browser through Telegram' and choose your operating system and preferred language. GetTor will respond with  a downloadable Tor Browser file and the signature which can be used to verify the download.
+  * Tap on 'Send me other mirrors for the Tor Browser' to download from one of the official mirrors.
+
+![GetTor Bot](/static/images/gettor-bot-telegram.png)
