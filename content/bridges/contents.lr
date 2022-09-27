@@ -17,9 +17,9 @@ Using bridges in combination with pluggable transports helps to conceal the fact
 
 Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
 
-### GETTING BRIDGE ADDRESSES
+### GETTING BRIDGES
 
-Because bridge addresses are not public, you will need to request them yourself. You have a few options:
+Because bridge lines are not public, you will need to request them yourself. You have a few options:
 
  * Visit [https://bridges.torproject.org/](https://bridges.torproject.org) and follow the instructions, or
  * Email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail, or Riseup email address
@@ -36,10 +36,10 @@ In the "Bridges" section, locate "Request a bridge from torproject.org" and clic
 
 ![Request a bridge from torproject.org](/static/images/request-a-bridge.png)
 
-### ENTERING BRIDGE ADDRESSES
+### ENTERING BRIDGE LINES
 
 If you're starting Tor Browser for the first time, click "Configure Connection" to open the Tor settings window.
-Under the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
+Under the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge line on a separate line.
 Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
