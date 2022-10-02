@@ -27,6 +27,6 @@ Wait for the update to download and install, then Tor Browser will restart itsel
 
 When you are prompted to update Tor Browser, finish the browsing session and close the program.
 
-Remove Tor Browser from your system by deleting the folder that contains it (see the [Uninstalling](/uninstalling) section for more information).
+Remove Tor Browser from your system by deleting the folder that contains it (see the [Uninstalling](../uninstalling) section for more information).
 
 Visit https://www.torproject.org/download/ and download a copy of the latest Tor Browser release, then install it as before.
