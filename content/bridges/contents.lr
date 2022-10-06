@@ -24,6 +24,9 @@ Because bridge addresses are not public, you will need to request them yourself.
  * Visit [https://bridges.torproject.org/](https://bridges.torproject.org) and follow the instructions, or
  * Email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail, or Riseup email address
  * Use Moat to fetch bridges from within Tor Browser.
+ * Send a message to [@GetBridgesBot](https://t.me/GetBridgesBot) on Telegram. Tap on 'Start' or write `/start` or `/bridges` in the chat. Copy the bridge address and on:
+      * Tor Browser Desktop: Click on "Settings" in the hamburger menu (≡) and then on "Connection" in the sidebar. In the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
+      * Tor Browser Android: Tap on 'Settings' (⚙️) and then on 'Config Bridge'. Toggle on 'Use a Bridge' and select 'Provide a Bridge I know'. Enter the bridge address.
 
 ### USING MOAT
 
