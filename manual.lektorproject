@@ -76,7 +76,7 @@ url_prefix = /it/
 locale = it
 
 [alternatives.ka]
-name = ქართული ენა (ka)
+name = ქართული (ka)
 url_prefix = /ka/
 locale = ka
 
