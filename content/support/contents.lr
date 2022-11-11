@@ -1,0 +1,83 @@
+_model: topic
+---
+title: SUPPORT
+---
+description: How to get help, report a bug or give feedback
+---
+seo_slug: support
+---
+key: 17
+---
+body:
+
+## Support, feedback and bug report template
+
+When sending us a support request, feedback or reporting a bug, please include as much information possible:
+
+1. Operating System you are using
+2. Tor Browser version
+3. Tor Browser Security Level
+4. Step by step of how you got to the issue, so we can reproduce it (e.g. I opened the browser, typed a url, clicked on a option in settings, then my browser crashed)
+5. A screenshot of the problem
+6. Console logs on Tor Browser Desktop (can be opened by Ctrl+Shift+J on Windows/Linux and Cmd+Shift+J on macOS)
+7. Tor logs (Settings > Connection > Advanced > View the Tor logs)
+8. Region you’re connecting to Tor from.
+9. Region selected from Connection Assist (if it's a Connection Assist related issue)
+10. Is Tor censored in your region?
+11. If Tor did connect, how much time did it take to bootstrap? Any effects on browsing speed?
+
+# How to reach us
+
+There are several ways to reach us, so please use what works best for you.
+
+## Telegram
+
+We have several official Telegram bots and channels:
+
+1. [@GetTor_Bot](https://t.me/GetTor_Bot) to download Tor Browser.
+2. [@GetBridgesBot](https://t.me/GetBridgesBot) to get obfs4 bridges.
+3. [@TorProject](https://t.me/TorProject) to get the latest news.
+4. [@TorProjectSupportBot](https://t.me/TorProjectSupportBot) for help.
+     * At the moment, the Telegram support channel is available in two languages: English and Russian.
+     * If you need help with circumventing censorship, please select from the menu options which region you are connecting from as it will be easier for us to follow up.
+
+## Tor Forum
+
+We recommend asking for help on the [Tor Forum](https://forum.torproject.net/).
+You will need to create a account to submit a new topic.
+Please review our [discussion guidelines](https://forum.torproject.net/t/welcome-to-the-tor-project-forum/) and check the existing topics before asking.
+At the moment, for the fastest response, please write in English.
+If you found a bug, please use [GitLab](https://gitlab.onionize.space/).
+
+## Signal
+
+You can get help by sending a text message to our Signal number: [+17787431312](https://signal.me/#p/+17787431312).
+[Signal](https://signal.org/download/) is a free and privacy-focused messaging app.
+Currently, our support channel is available in English and Russian and focuses on helping Tor users in censored regions.
+The service is only available for text messages; videos, or calls are not supported.
+After sending a message, our support agents will guide you and help troubleshoot your issue.
+
+## Email
+
+Send us an email to [frontdesk@torproject.org](mailto:frontdesk@torproject.org)
+
+In the subject line of your email, please tell us what you're reporting.
+The more specific your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up.
+Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
+
+For the fastest response, please write in English, Russian, Spanish, Hindi, Bangla and/or Portuguese if you can.
+If none of these languages works for you, please write in any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it.
+
+## IRC and Matrix
+
+You can find us in the `#tor` channel on OFTC or [Tor User Support channel](https://matrix.to/#/#tor:matrix.org) on Matrix. We may not respond right away, but we do check the backlog and will get back to you when we can.
+
+Learn how to connect to [IRC / Matrix](https://support.torproject.org/get-in-touch/irc-help/).
+
+## GitLab
+
+First, check if the bug is already known.
+You can search and read all the issues at [https://gitlab.torproject.org/](https://gitlab.torproject.org/groups/tpo/-/issues).
+To create a new issue, please [request a new account](https://gitlab.torproject.org/users/sign_in?redirect_to_referer=yes#register-pane) to access Tor Project's GitLab instance and [find the right repository](https://gitlab.torproject.org/tpo) to report your issue.
+We track all Tor Browser related issues at [Tor Browser issue tracker](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues).
+Issues related to our websites should be filed under the [Web issue tracker](https://gitlab.torproject.org/groups/tpo/web/-/issues).
