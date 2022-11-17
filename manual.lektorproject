@@ -125,6 +125,11 @@ name = Русский (ru)
 url_prefix = /ru/
 locale = ru
 
+[alternatives.sq]
+name = Shqip (sq)
+url_prefix = /sq/
+locale = sq
+
 [alternatives.th]
 name = ภาษาไทย (th)
 url_prefix = /th/
