@@ -53,7 +53,7 @@ Your settings will automatically be saved once you close the tab.
 
 If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
 
-### BRIDGE-MOJI
+<h3 id="bridge-moji">BRIDGE-MOJI<h3>
 
 Each bridge address is represented by a string of emoji characters called Bridge-mojis. The Bridge-mojis can be used to validate that the intended bridge has been added successfully.
 
