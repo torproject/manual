@@ -27,4 +27,3 @@ RewriteRule ^bn-(BD|IN)$ /bn [R=302,L]
 RewriteRule ^bn-(BD|IN)/(.*) /bn/$2 [R=302,L]
 RewriteRule ^ga-IE(.*) /ga$1 [R=302,L]
 RewriteRule ^ga-IE$ /ga [R=302,L]
-
