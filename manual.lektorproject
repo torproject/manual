@@ -40,6 +40,11 @@ name = Español (es)
 url_prefix = /es/
 locale = es
 
+[alternatives.fa]
+name = ﻑﺍﺮﺳی (fa)
+url_prefix = /fa/
+locale = fa
+
 [alternatives.fr]
 name = Français (fr)
 url_prefix = /fr/
