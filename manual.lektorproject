@@ -41,7 +41,7 @@ url_prefix = /es/
 locale = es
 
 [alternatives.fa]
-name = ﻑﺍﺮﺳی (fa)
+name = فارسی (fa)
 url_prefix = /fa/
 locale = fa
 
