@@ -40,6 +40,11 @@ name = Español (es)
 url_prefix = /es/
 locale = es
 
+[alternatives.fa]
+name = فارسی (fa)
+url_prefix = /fa/
+locale = fa
+
 [alternatives.fr]
 name = Français (fr)
 url_prefix = /fr/
@@ -125,6 +130,11 @@ name = Русский (ru)
 url_prefix = /ru/
 locale = ru
 
+[alternatives.sq]
+name = Shqip (sq)
+url_prefix = /sq/
+locale = sq
+
 [alternatives.th]
 name = ภาษาไทย (th)
 url_prefix = /th/
@@ -134,6 +144,11 @@ locale = th
 name = Türkçe (tr)
 url_prefix = /tr/
 locale = tr
+
+[alternatives.uk]
+name = українська (uk)
+url_prefix = /uk/
+locale = uk
 
 [alternatives.zh-CN]
 name = 简体中文 (zh-CN)
