@@ -41,7 +41,7 @@ In the "Bridges" section, locate "Request a bridge from torproject.org" and clic
 
 ### ENTERING BRIDGE ADDRESSES
 
-If you're starting Tor Browser for the first time, click "Configure Connection" to open the Tor settings window.
+If you're starting Tor Browser for the first time, click on "Configure Connection" to open the Tor settings window.
 Under the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
 Click "Connect" to save your settings.
 
