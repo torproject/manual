@@ -1,3 +1,6 @@
 [submodule "lego"]
 	path = lego
 	url = https://gitlab.torproject.org/tpo/web/lego.git
+[submodule "packages/lektor-scss"]
+	path = packages/lektor-scss
+	url = https://gitlab.torproject.org/tpo/web/lektor-scss/

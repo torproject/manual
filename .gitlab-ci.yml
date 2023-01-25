@@ -1,5 +1,6 @@
 ---
 variables:
+  LEKTOR_BUILD_FLAGS: scss
   SITE_URL: tb-manual.torproject.org
   STAGING_URL: tb-manual.staging.torproject.net
   TRANSLATION_BRANCH: tbmanual-contentspot

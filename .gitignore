@@ -1,3 +1,5 @@
+assets/static/css
+
 node_modules
 
 .sass-cache
