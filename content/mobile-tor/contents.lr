@@ -152,7 +152,7 @@ On the next screen, select Tor Browser and finally tap on the "Update" button.
 #### Updating Tor Browser for Android manually
 
 
-Visit the [Tor Project website](https://www.torproject.org/download/#android) and download a copy of the latest Tor Browser release, then [install](/mobile-tor/#downloading-and-installation) it as before.
+Visit the [Tor Project website](https://www.torproject.org/download/#android) and download a copy of the latest Tor Browser release, then [install](../mobile-tor/#downloading-and-installation) it as before.
 In most cases, this latest version of Tor Browser will install over the older version, thereby upgrading the browser.
 If doing this fails to update the browser, you may have to uninstall Tor Browser before reinstalling it.
 With Tor Browser closed, remove it from your system by uninstalling it using your device's settings.
