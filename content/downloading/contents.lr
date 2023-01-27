@@ -14,7 +14,7 @@ The safest and simplest way to download Tor Browser is from the official Tor Pro
 Your connection to the site will be secured using [HTTPS](../secure-connections), which makes it much harder for somebody to tamper with.
 
 However, there may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.
+If this happens, you can use one of the alternative download methods listed below:
 
 ### MIRRORS
 
