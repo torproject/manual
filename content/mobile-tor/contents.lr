@@ -16,7 +16,7 @@ It is like the desktop Tor Browser, but for your Android mobile device.
 Some of the prime features of Tor Browser for Android include: reducing tracking across websites, defending against surveillance, resisting browser fingerprinting, and circumventing censorship.
 
 
-### DOWNLOADING AND INSTALLATION
+<h3 id="downloading-and-installation">DOWNLOADING AND INSTALLATION</h3>
 
 There exists Tor Browser for Android and Tor Browser for Android (alpha).
 Non-technical users should get Tor Browser for Android, as this is stable and less prone to errors.
