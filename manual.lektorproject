@@ -110,6 +110,11 @@ name = မြန်မာဘာသာ (my)
 url_prefix = /my/
 locale = my
 
+[alternatives.pl]
+name = polski (pl)
+url_prefix = /pl/
+locale = pl
+
 [alternatives.pt-BR]
 name = Português (Brasil)
 url_prefix = /pt-BR/
@@ -149,6 +154,11 @@ locale = tr
 name = українська (uk)
 url_prefix = /uk/
 locale = uk
+
+[alternatives.vi]
+name = Tiếng Việt (vi)
+url_prefix = /vi/
+locale = vi
 
 [alternatives.zh-CN]
 name = 简体中文 (zh-CN)
