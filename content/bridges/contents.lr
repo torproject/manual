@@ -36,7 +36,8 @@ Under the "Bridges" section, locate "Request a bridge from torproject.org" and c
 Complete the Captcha and click "Submit". Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
-In the "Bridges" section, locate "Request a bridge from torproject.org" and click on "Request a Bridge..." for BridgeDB to provide a bridge. Complete the Captcha and click "Submit".
+In the "Bridges" section, locate "Request a bridge from torproject.org" and click on "Request a Bridge..." for BridgeDB to provide a bridge.
+Complete the Captcha and click "Submit".
 Your setting will automatically be saved once you close the tab.
 
 ![Request a bridge from torproject.org](/static/images/request-a-bridge.png)
