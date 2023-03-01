@@ -33,7 +33,8 @@ Because bridge addresses are not public, you will need to request them yourself.
 
 If you're starting Tor Browser for the first time, click on "Configure Connection" to open the Tor settings window.
 Under the "Bridges" section, locate "Request a bridge from torproject.org" and click on "Request a Bridge..." for BridgeDB to provide a bridge.
-Complete the Captcha and click "Submit". Click "Connect" to save your settings.
+Complete the Captcha and click "Submit".
+Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
 In the "Bridges" section, locate "Request a bridge from torproject.org" and click on "Request a Bridge..." for BridgeDB to provide a bridge.
