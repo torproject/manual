@@ -50,7 +50,7 @@ meek
 ### USING PLUGGABLE TRANSPORTS
 
 To use a pluggable transport, click "Configure Connection" when starting Tor Browser for the first time.
-Under the "Bridges" section, locate the option "Choose from Tor Browser's one of built-in bridges" and click on "Select a Built-In Bridge" option.
+Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
 From the menu, select whichever pluggable transport you'd like to use.
 
 Once you've selected the pluggable transport, scroll up and click "Connect" to save your settings.
