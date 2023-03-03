@@ -9,12 +9,6 @@ seo_slug: plugins
 key: 13
 ---
 body:
-### FLASH PLAYER
-
-Video websites, such as Vimeo make use of the Flash Player plugin to display video content. Unfortunately, this software operates independently of Tor Browser and cannot easily be made to obey Tor Browser’s proxy settings. It can therefore reveal your real location and IP address to the website operators, or to an outside observer. For this reason, Flash is disabled by default in Tor Browser, and enabling it is not recommended.
-
-Some video websites (such as YouTube) offer alternative video delivery methods that do not use Flash. These methods may be compatible with Tor Browser.
-
 ### JAVASCRIPT
 
 JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the browser, which might lead to deanonymization.
@@ -28,3 +22,12 @@ Users who require a high degree of security in their web browsing should set Tor
 Tor Browser is based on Firefox, and any browser add-ons or themes that are compatible with Firefox can also be installed in Tor Browser.
 
 However, the only add-ons that have been tested for use with Tor Browser are those included by default. Installing any other browser add-ons may break functionality in Tor Browser or cause more serious problems that affect your privacy and security. It is strongly discouraged to install additional add-ons, and the Tor Project will not offer support for these configurations.
+
+### FLASH PLAYER
+
+Flash was a multimedia software used by websites to display video and other interactive elements such as games. It was disabled by default in the Tor Browser because it could have revealed your real location and IP address.
+
+Flash has been deprecated by Adobe since [July 2017](https://web.archive.org/web/20171202123704/https://theblog.adobe.com/adobe-flash-update/) and discontinued since [December 2020](https://www.adobe.com/products/flashplayer/enterprise-end-of-life.html) with most of its features now replaced by the HTML5 standard, which relies heavily on JavaScript. However, as of 2023, Flash is still receiving updates in China and enterprise support is available.
+
+Tor Browser is based on Firefox which no longer supports Flash since [version 85](https://support.mozilla.org/en-US/kb/end-support-adobe-flash) (released on January 26, 2021). For this reason, Tor Browser is unable to use Flash Player.
+
