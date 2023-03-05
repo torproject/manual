@@ -50,7 +50,7 @@ Under the "Bridges" section, from the option "Enter a bridge address you already
 Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
-In the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
+Under the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
 Your settings will automatically be saved once you close the tab.
 
 ![Enter bridge addresses manually](/static/images/provide-bridge.png)
