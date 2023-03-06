@@ -56,7 +56,7 @@ From the menu, select whichever pluggable transport you'd like to use.
 Once you've selected the pluggable transport, scroll up and click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
-In the "Bridges" section, locate the option "Choose from Tor Browser's one of built-in bridges" and click on "Select a Built-In Bridge" option.
+Under the "Bridges" section, locate the option "Choose from one of Tor Browser's built-in bridges" and click on "Select a Built-In Bridge" option.
 Choose whichever pluggable transport you'd like to use from the menu.
 Your settings will automatically be saved once you close the tab.
 
