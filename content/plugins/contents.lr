@@ -25,9 +25,13 @@ However, the only add-ons that have been tested for use with Tor Browser are tho
 
 ### FLASH PLAYER
 
-Flash was a multimedia software used by websites to display video and other interactive elements such as games. It was disabled by default in the Tor Browser because it could have revealed your real location and IP address.
+Flash was a multimedia software used by websites to display video and other interactive elements such as games.
+It was disabled by default in the Tor Browser because it could have revealed your real location and IP address.
 
-Flash has been deprecated by Adobe since [July 2017](https://web.archive.org/web/20171202123704/https://theblog.adobe.com/adobe-flash-update/) and discontinued since [December 2020](https://www.adobe.com/products/flashplayer/enterprise-end-of-life.html) with most of its features now replaced by the HTML5 standard, which relies heavily on JavaScript. However, as of 2023, Flash is still receiving updates in China and enterprise support is available.
+Flash has been deprecated by Adobe since [July 2017](https://web.archive.org/web/20171202123704/https://theblog.adobe.com/adobe-flash-update/) and discontinued since [December 2020](https://www.adobe.com/products/flashplayer/enterprise-end-of-life.html).
+Most of its features  are now replaced by the HTML5 standard, which relies heavily on JavaScript.
+However, as of 2023, Flash is still receiving updates and enterprise support is available.
 
-Tor Browser is based on Firefox which no longer supports Flash since [version 85](https://support.mozilla.org/en-US/kb/end-support-adobe-flash) (released on January 26, 2021). For this reason, Tor Browser is unable to use Flash Player.
+Tor Browser is based on Firefox, which no longer supports Flash since [version 85](https://support.mozilla.org/en-US/kb/end-support-adobe-flash) (released on January 26, 2021).
+For this reason Tor Browser is unable to use Flash Player.
 
