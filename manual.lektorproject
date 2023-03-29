@@ -45,6 +45,11 @@ name = فارسی (fa)
 url_prefix = /fa/
 locale = fa
 
+[alternatives.fi]
+name = Suomi (fi)
+url_prefix = /fi/
+locale = fi
+
 [alternatives.fr]
 name = Français (fr)
 url_prefix = /fr/
