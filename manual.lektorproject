@@ -171,6 +171,6 @@ url_prefix = /zh-CN/
 locale = zh-CN
 
 [alternatives.zh-TW]
-name = 正體字 (zh-TW)
+name = 正體中文 (zh-TW)
 url_prefix = /zh-TW/
 locale = zh-TW
