@@ -20,7 +20,7 @@
 }
     </style>
   </head>
-  <body>
+  <body{% if bag('alternatives', this.alt, 'direction') == 'text-right' %} class="text-right"{% endif %}>
     <div class="container">
       {% set topics = site.get_root(alt=this.alt).children.filter(F._model == 'topic').filter(F._id != 'menu').order_by('key').all() %}
       <div class="topic" id="topic-topics">
