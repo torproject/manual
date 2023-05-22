@@ -145,6 +145,11 @@ name = Shqip (sq)
 url_prefix = /sq/
 locale = sq
 
+[alternatives.sw]
+name = Kiswahili
+url_prefix = /sw/
+locale = sw
+
 [alternatives.th]
 name = ภาษาไทย (th)
 url_prefix = /th/
