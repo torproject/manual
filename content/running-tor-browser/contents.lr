@@ -22,9 +22,9 @@ In most cases, choosing "Connect" will allow you to connect to the Tor network w
 
 Once clicked, a status bar will appear, showing Tor's connection progress.
 If you are on a relatively fast connection, but this bar seems to get stuck at a certain point, try the 'Connection Assist' or see the [Troubleshooting](../troubleshooting) page for help solving the problem.
-Or, if you know that your connection is censored or uses a proxy, you should click on "Tor Network Settings".
+Or, if you know that your connection is censored or uses a proxy, you should click on "Configure Connection".
 
-![Click 'Tor Network Settings' to adjust network settings](/static/images/configure.png)
+![Click 'Configure Connection' to adjust network settings](/static/images/configure.png)
 
 ### CONNECTION ASSIST
 

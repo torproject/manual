@@ -54,14 +54,8 @@ Right click on `start-tor-browser.desktop`, open Properties or Preferences and c
 ![Make the .desktop file executable in Linux](/static/images/linux-make-desktop-file-executable.png)
 
    **Note:** On Ubuntu and some other distros if you try to launch `start-tor-browser.desktop` a text file might open up.
-To change this behavior and launch Tor Browser instead, follow this:
-* Launch "Files" (GNOME Files/Nautilus)
-* Click on Preferences.
-* Navigate to the 'Behavior' Tab.
-* Select "Run them" or "Ask what to do" under "Executable Text Files".
-* If you choose the latter click on "Run" after launching the `start-tor-browser.desktop` file.
-
-![Change behavior of executable text file to always run in Linux](/static/images/linux-change-behavior-executable-files.png)
+In that case, you will have to change the default behavior and allow running .desktop files as executables.
+This setting can usually be found in your file manager.
 
 #### Command-line method
 
