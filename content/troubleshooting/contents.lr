@@ -17,7 +17,7 @@ The Connection Assist informs you about the state of your Internet connection if
 
 ![Connection Assist Test](/static/images/connection-assist-test.png)
 
-Check your Internet Connection if it says 'Offline'. If your connection to the Tor Network is not established and it reads 'Offline' the following steps can be helpful.
+Check your Internet Connection if it says 'Offline'. If your connection to the Tor Network is not established and it reads 'Not Connected' the following steps can be helpful.
 
 ![Connection Assist offline error](/static/images/connection-assist-offline.png)
 
