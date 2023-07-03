@@ -1,4 +1,4 @@
-This the repository of the new Tor Browser manual maintained with Lektor.
+This is the repository of the new Tor Browser manual maintained with Lektor.
 
 The current online version of the manual can be found at
  - https://tb-manual.torproject.org or try this [mirror](https://oniondocs.gitlab.io/tbmanual/).
