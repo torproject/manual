@@ -139,8 +139,13 @@ This method assumes that you have either Google Play or F-Droid installed on you
 
 ![Updating Tor Browser for Android on Google Play](/static/images/android-update-google-play.png)
 
-Tap on the hamburger menu next to the search bar and navigate to "My apps & games" > "Updates".
-If you find Tor Browser on the list of apps which need updating, select it and tap the "Update" button.
+* Open the Google Play Store app.
+* At the top right, tap the profile icon.
+* Tap on 'Manage apps and devices'.
+* Tap on the 'Manage' tab.
+* Tap on 'Updates available'
+* Tap on Tor Browser for Android from the list of apps that need to be updated.
+* Tap on 'Update'.
 
 ##### F-Droid
 
@@ -166,8 +171,12 @@ Tor Browser for Android can be uninstalled directly from F-Droid, Google Play or
 
 ![Uninstalling Tor Browser for Android on Google Play](/static/images/android-uninstall-google-play.png)
 
-Tap on the hamburger menu next to the search bar and navigate to "My apps & games" > "Installed".
-Select Tor Browser from the list of installed apps, then press the "Uninstall" button.
+* Open the Google Play Store app.
+* At the top right, tap the profile icon.
+* Tap on 'Manage apps and devices'.
+* Tap on the 'Manage' tab.
+* Tap on Tor Browser for Android from the list of apps installed on your device.
+* Tap on 'Uninstall'.
 
 #### F-Droid
 
