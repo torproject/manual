@@ -33,8 +33,8 @@ When you click on ".onion available", the website will be reloaded and redirecte
 ![Onion-Location](/static/images/onion-location.png)
 
 To prioritize an onion site version of a website, you can enable automatic Onion-Location redirects.
-Click on hamburger menu (≡), go to Preferences (or Options on Windows), click on Privacy & Security, and in the Onion Services section look for the entry "Prioritize .onion sites when known." and check the option "Always".
-Or, if you're already running Tor Browser, you can copy and paste this string in a new tab: `about:preferences#privacy` and change this setting.
+Click on hamburger menu (≡), go to Settings, click on Privacy & Security, and in the Onion Services section look for the entry "Prioritize .onion sites when known." and check the option "Always".
+Or you can copy and paste this string in a new tab: `about:preferences#privacy` and change this setting.
 
 <h2 id="onion-service-authentication">ONION SERVICE AUTHENTICATION</h2>
 
