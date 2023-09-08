@@ -15,7 +15,7 @@ Like ordinary Tor relays, bridges are run by volunteers; unlike ordinary relays,
 
 Using bridges in combination with pluggable transports helps to conceal the fact that you are using Tor, but may slow down the connection compared to using ordinary Tor relays.
 
-Other pluggable transports, like meek, use different anti-censorship techniques that do not rely on bridges. You do not need to obtain bridge addresses in order to use these transports.
+Other pluggable transports, like meek and Snowflake, use different anti-censorship techniques that do not rely on finding bridge addresses. You do not need to obtain bridge addresses in order to use these transports.
 
 ### GETTING BRIDGE ADDRESSES
 
