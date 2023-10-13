@@ -40,8 +40,16 @@ meek
     Snowflake
 </td>
 <td>
-    Snowflake is an improvement upon Flashproxy. It sends your traffic through WebRTC, a peer-to-peer protocol with built-in NAT punching.
+   Snowflake routes your connection through volunteer-operated proxies to make it look like you're placing a video call instead of using Tor.
 </td>
+</tr>
+<tr class="odd">
+<td>
+WebTunnel
+</td>
+<td>
+  WebTunnel masks your Tor connection, making it appear as if you're accessing a website via HTTPS.
+    </td>
 </tr>
 </tbody>
 </table>
