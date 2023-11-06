@@ -26,7 +26,7 @@ However, the only add-ons that have been tested for use with Tor Browser are tho
 ### FLASH PLAYER
 
 Flash was a multimedia software used by websites to display video and other interactive elements such as games.
-It was disabled by default in the Tor Browser because it could have revealed your real location and IP address. 
+It was disabled by default in Tor Browser because it could have revealed your real location and IP address.
 Tor Browser no longer supports Flash and cannot be enabled.
 
 The majority of Flash's functionalities have been substituted by the HTML5 standard, which heavily depends on JavaScript. 

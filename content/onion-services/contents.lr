@@ -40,7 +40,7 @@ Or you can copy and paste this URL in a new tab: `about:preferences#privacy` and
 <h2 id="onion-service-authentication">ONION SERVICE AUTHENTICATION</h2>
 
 An authenticated onion service is a service like an onion site that requires the client to provide an authentication token before accessing the service.
-As a Tor user, you may authenticate yourself directly in the Tor Browser.
+As a Tor user, you may authenticate yourself directly in Tor Browser.
 In order to access this service, you will need access credentials from the onion service operator.
 When accessing an authenticated onion service, Tor Browser will show in the URL bar an icon of a little gray key, accompanied by a tooltip.
 Enter your valid private key into the input field.

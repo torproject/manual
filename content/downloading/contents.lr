@@ -41,7 +41,7 @@ Send a message to [@GetTor_Bot](https://t.me/gettor_bot) on Telegram.
 
 * There are two options to download Tor Browser.
 
-  * Tap on 'Send me the Tor Browser' and choose your operating system. GetTor will respond with a downloadable Tor Browser file and the signature which can be used to verify the download.
-  * Tap on 'Send me other mirrors for the Tor Browser' to download from one of the official mirrors.
+  * Tap on 'Send me Tor Browser' and choose your operating system. GetTor will respond with a downloadable Tor Browser file and the signature which can be used to verify the download.
+  * Tap on 'Send me other mirrors for Tor Browser' to download from one of the official mirrors.
 
 ![GetTor Bot](/static/images/gettor-bot-telegram.png)
