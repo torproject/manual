@@ -15,7 +15,7 @@ Tor Browser includes some circumvention tools for getting around these blocks. T
 
 ### TYPES OF PLUGGABLE TRANSPORT
 
-Currently there are three pluggable transports available, but more are being developed.
+Currently there are four pluggable transports available, but more are being developed.
 
 <table class="table table-striped">
 <tbody>
