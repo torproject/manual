@@ -10,7 +10,7 @@ key: 8
 ---
 body:
 
-When you connect to a website, it is not only the operators of that website who can record information about your visit. Most websites now use numerous third-party services, including social networking “Like” buttons, analytics trackers, and advertising beacons, all of which can link your activity across different sites.
+When you connect to a website, it is not only the operators of that website who can record information about your visit. Most websites now use numerous third-party services, including social networking "Like" buttons, analytics trackers, and advertising beacons, all of which can link your activity across different sites.
 
 Using the Tor network stops observers from being able to discover your exact location and IP address, but even without this information they might be able to link different areas of your activity together. For this reason, Tor Browser includes some additional features that help you control what information can be tied to your identity.
 
@@ -41,11 +41,11 @@ When you log in to a website over Tor, there are several points you should bear 
 
 ![New Identity and New Tor Circuit options under main menu](/static/images/new_identity.png)
 
-Tor Browser features “New Identity” and “New Tor Circuit for this Site” options. They are also located in the hamburger or main menu (≡).
+Tor Browser features "New Identity" and "New Tor Circuit for this Site" options. They are also located in the hamburger or main menu (≡).
 
 ### NEW IDENTITY
 
-This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking “New Identity”.
+This option is useful if you want to prevent your subsequent browser activity from being linkable to what you were doing before. Selecting it will close all your open tabs and windows, clear all private information such as cookies and browsing history, and use new Tor circuits for all connections. Tor Browser will warn you that all activity and downloads will be stopped, so take this into account before clicking "New Identity".
 
 To use this option, you just need to click on 'New Identity' in Tor Browser's toolbar.
 

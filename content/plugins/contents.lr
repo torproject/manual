@@ -13,9 +13,9 @@ body:
 
 JavaScript is a programming language that websites use to offer interactive elements such as video, animation, audio, and status timelines. Unfortunately, JavaScript can also enable attacks on the security of the browser, which might lead to deanonymization.
 
-Tor Browser includes an add-on called NoScript. It's accessible through "Preferences" (or "Options" on Windows) on the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/), then select 'Customize' and drag the “S” icon to the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
+Tor Browser includes an add-on called NoScript. It's accessible through "Preferences" (or "Options" on Windows) on the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/), then select 'Customize' and drag the "S" icon to the top-right of the window. NoScript allows you to control the JavaScript (and other scripts) that runs on individual web pages, or block it entirely.
 
-Users who require a high degree of security in their web browsing should set Tor Browser’s [Security Level](../security-settings/) to “Safer” (which disables JavaScript for non-HTTPS websites) or “Safest” (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
+Users who require a high degree of security in their web browsing should set Tor Browser’s [Security Level](../security-settings/) to "Safer" (which disables JavaScript for non-HTTPS websites) or "Safest" (which does so for all websites). However, disabling JavaScript will prevent many websites from displaying correctly, so Tor Browser’s default setting is to allow all websites to run scripts in "Standard" mode.
 
 ### BROWSER ADD-ONS
 

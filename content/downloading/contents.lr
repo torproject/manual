@@ -26,10 +26,10 @@ If you're unable to download Tor Browser from the official Tor Project website, 
 
 ### TO USE GETTOR VIA EMAIL
 
-Send an email to [gettor@torproject.org](mailto:gettor@torproject.org), and in the body of the message simply write “windows”, “osx”, or “linux”, (without quotation marks) depending on your operating system.
+Send an email to [gettor@torproject.org](mailto:gettor@torproject.org), and in the body of the message simply write "windows", "osx", or "linux", (without quotation marks) depending on your operating system.
 For example, to get links for downloading Tor Browser for Windows, send an email to [gettor@torproject.org](mailto:gettor@torproject.org) with the word "windows" in it.
 
-GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of “32-bit” or “64-bit” software: this depends on the model of the computer you are using.
+GetTor will respond with an email containing links from which you can download the Tor Browser package, the cryptographic signature (needed for verifying the download), the fingerprint of the key used to make the signature, and the package’s checksum. You may be offered a choice of "32-bit" or "64-bit" software: this depends on the model of the computer you are using.
 
 ### TO USE GETTOR VIA TELEGRAM
 

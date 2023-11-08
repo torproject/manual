@@ -11,7 +11,7 @@ key: 6
 body:
 
 Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government.
-Tor Browser includes some circumvention tools for getting around these blocks. These tools are called “pluggable transports”.
+Tor Browser includes some circumvention tools for getting around these blocks. These tools are called "pluggable transports".
 
 ### TYPES OF PLUGGABLE TRANSPORT
 

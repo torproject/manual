@@ -16,13 +16,13 @@ Tor Browser uses the Tor network to protect your privacy and anonymity. Using th
 
 * The operators of the websites and services that you use, and anyone watching them, will see a connection coming from the Tor network instead of your real Internet (IP) address, and will not know who you are unless you explicitly identify yourself.
 
-In addition, Tor Browser is designed to prevent websites from “fingerprinting” or identifying you based on your browser configuration.
+In addition, Tor Browser is designed to prevent websites from "fingerprinting" or identifying you based on your browser configuration.
 
 By default, Tor Browser does not keep any browsing history. Cookies are only valid for a single session (until Tor Browser is exited or a [New Identity](../managing-identities/#new-identity) is requested).
 
 ### HOW TOR WORKS
 
-Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the “exit relay”) then sends the traffic out onto the public Internet.
+Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the "exit relay") then sends the traffic out onto the public Internet.
 
 ![How Tor works](/static/images/how-tor-works.png)
 
