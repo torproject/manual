@@ -9,7 +9,7 @@ seo_slug: troubleshooting
 key: 12
 ---
 body:
-You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.
+You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the "Connect" button if you are using it for the first time.
 
 ![Click 'Connect' to connect to Tor](/static/images/connect.png)
 
