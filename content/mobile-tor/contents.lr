@@ -67,7 +67,7 @@ When you run Tor Browser for the first time, you will see the option to connect 
 ![Connect to Tor Browser for Android](/static/images/android-connect.png)
 
 In most cases, choosing "Connect" will allow you to connect to the Tor network without any further configuration.
-Once tapped, changing sentences will appear at the bottom of the screen, indicating Tor’s connection progress.
+Once tapped, changing sentences will appear at the bottom of the screen, indicating Tor's connection progress.
 If you are on a relatively fast connection, but this text seems to get stuck at a certain point, see the [Troubleshooting](../troubleshooting) page for help solving the problem.
 
 #### Configure

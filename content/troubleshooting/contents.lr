@@ -2,7 +2,7 @@ _model: topic
 ---
 title: TROUBLESHOOTING
 ---
-description: What to do if Tor Browser doesn’t work
+description: What to do if Tor Browser doesn't work
 ---
 seo_slug: troubleshooting
 ---
@@ -23,12 +23,12 @@ Check your Internet Connection if it says 'Offline'. If your connection to the T
 
 ### QUICK FIXES
 
-If Tor Browser doesn’t connect, there may be a simple solution.
+If Tor Browser doesn't connect, there may be a simple solution.
 Try each of the following:
 
-* Your computer’s system clock must be set correctly, or Tor will not be able to connect.
+* Your computer's system clock must be set correctly, or Tor will not be able to connect.
 * Make sure another Tor Browser or instance of 'Tor' is not already running on your system.
-  If you’re not sure if Tor Browser is running, restart your computer.
+  If you're not sure if Tor Browser is running, restart your computer.
 * Make sure that any antivirus program you have installed is not preventing Tor from running.
   You may need to consult the documentation for your antivirus software if you do not know how to do this.
 * Temporarily disable your firewall.
@@ -40,7 +40,7 @@ Try each of the following:
 ### VIEW TOR LOGS
 
 In most cases, taking a look at the Tor logs can be helpful in diagnosing the issue.
-If you’re having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
+If you're having trouble connecting, an error message may appear and you can select the option to "copy Tor log to clipboard".
 Then paste the Tor log into a text file or other document.
 
 If you don't see this option and you have Tor Browser open, you can navigate to the hamburger menu ("≡"), then click on "Settings", and finally on "Connection" in the side bar.
@@ -58,7 +58,7 @@ More information on this can be found on the [Support Portal](https://support.to
 
 ### IS YOUR CONNECTION CENSORED?
 
-If you still can’t connect, your Internet Service Provider might be censoring connections to the Tor network.
+If you still can't connect, your Internet Service Provider might be censoring connections to the Tor network.
 Read the [Circumvention](../circumvention) section for possible solutions.
 
 ### KNOWN ISSUES

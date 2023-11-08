@@ -21,7 +21,7 @@ When sending us a support request, feedback or reporting a bug, please include a
 5. A screenshot of the problem
 6. Console logs on Tor Browser Desktop (can be opened by Ctrl+Shift+J on Windows/Linux and Cmd+Shift+J on macOS)
 7. Tor logs (Settings > Connection > Advanced > View the Tor logs)
-8. Region you’re connecting to Tor from.
+8. Region you're connecting to Tor from.
 9. Region selected from Connection Assist (if it's a Connection Assist related issue)
 10. Is Tor censored in your region?
 11. If Tor did connect, how much time did it take to bootstrap? Any effects on browsing speed?
