@@ -24,6 +24,4 @@ By default, Tor Browser does not keep any browsing history. Cookies are only val
 
 Tor is a network of virtual tunnels that allows you to improve your privacy and security on the Internet. Tor works by sending your traffic through three random servers (also known as *relays*) in the Tor network. The last relay in the circuit (the "exit relay") then sends the traffic out onto the public Internet.
 
-![How Tor works](/static/images/how-tor-works.png)
-
 The image above illustrates a user browsing to different websites over Tor. The green middle computers represent relays in the Tor network, while the three keys represent the layers of encryption between the user and each relay.
