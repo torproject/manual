@@ -199,7 +199,14 @@ Depending on your mobile device's brand, navigate to Settings > Apps, then selec
 
 To view your Tor logs:
 1. Launch Tor Browser for Android and tap 'Connect'.
-2. During the bootstrapping process, swipe right to left to view the logs. (Note: By default, the ability to take screenshots of the Tor logs is disabled on Tor Browser for Android. [Bug #40191](https://bugs.torproject.org/tpo/applications/fenix/40191))
+2. During the bootstrapping process, swipe right to left to view the logs. (Note: By default, the ability to take screenshots of the Tor logs is disabled on Tor Browser for Android). [#41195](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41195)
+
+If you want to share the error logs with us, you can take a screenshot. 
+By default, screenshots are disabled in Tor Browser, but you can enable them. To do this, please follow these steps:
+* Tap the menu button (at the bottom of the screen on the right side next to the address bar, three dots vertically).
+* Then tap 'Settings'. 
+* Go to 'Advanced' section. 
+* Toggle 'Allow screenshots'.
 
 To troubleshoot some of the most common issues please refer to the [Support Portal entry](https://support.torproject.org/connecting/connecting-2/).
 
