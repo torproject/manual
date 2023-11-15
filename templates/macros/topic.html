@@ -19,9 +19,12 @@
       {% endif %}
          <div class="card mt-5">
             <ul class="list-group list-group-flush">
-                <!--li class="list-group-item"><a><span class="card-text text-muted">{{ _("Contributors to this page:") }} <a href="#" title="#">cypherpunk</a></span></li-->
+                <!--li class="list-group-item"><a><span class="card-text text-muted">Contributors to this page: <a href="#" title="#">cypherpunk</a></span></li-->
                 <li class="list-group-item">
                         <a href="https://gitlab.torproject.org/tpo/web/manual/-/edit/main/content{{ item.path }}/contents.lr">{{ _("Edit this page") }}</a> -
+                        {% if item.alt != "en" %}
+                        <a href="https://hosted.weblate.org/zen/tor/tor-browser/tor-browser-user-manual/{{ item.alt|replace('-', '_') }}/?q=+location%3A%22content{{ item.path|safe }}%2Fcontents%22&sort_by=-priority%2Cposition&checksum=">{{ _("Improve this translation") }}</a> -
+                        {% endif %}
                         <a href="https://support.torproject.org/misc/bug-or-feedback/">{{ _("Give Feedback") }}</a> -
                         <a href="{{ item|url }}">{{ _("Permalink") }}</a>
                 </li>
