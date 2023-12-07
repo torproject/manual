@@ -5,7 +5,7 @@ url_style = relative
 locale = en
 
 [alternatives.ar]
-name = عربية (ar)
+name = العربية (ar)
 url_prefix = /ar/
 locale = ar
 
