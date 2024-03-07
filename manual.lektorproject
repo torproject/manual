@@ -85,6 +85,11 @@ name = Italiano (it)
 url_prefix = /it/
 locale = it
 
+[alternatives.ja]
+name = 日本語 (ja)
+url_prefix = /ja/
+locale = ja
+
 [alternatives.ka]
 name = ქართული (ka)
 url_prefix = /ka/
@@ -154,6 +159,11 @@ locale = sw
 name = ภาษาไทย (th)
 url_prefix = /th/
 locale = th
+
+[alternatives.tk]
+name = türkmençe (tk)
+url_prefix = /tk/
+locale = tk
 
 [alternatives.tr]
 name = Türkçe (tr)
