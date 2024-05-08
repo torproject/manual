@@ -10,7 +10,39 @@ key: 3
 ---
 body:
 
-## For Windows
+## System requirements
+
+Tor Browser is based on Mozilla Firefox's ESR (Extended Support Release), which periodically updates to include critical security updates from Firefox's main version.
+Due to these updates, older operating systems may eventually become incompatibile with newer versions of software dependencies that are only available in more recent OS versions.
+Maintaining support for outdated systems would compromise the security of Tor Browser, as it would require disabling newer security features and mechanisms that are crucial for protecting users' online anonymity.
+
+**Note:** Support for Windows 7, 8, and 8.1 will be discontinued after the release of Tor Browser 14, scheduled for the end of 2024.
+Users on these operating systems are strongly advised to upgrade to maintain access to the most recent updates and security features provided by Tor Browser.
+
+### Windows
+
+Operating Systems (32-bit and 64-bit):
+
+* Windows 7
+* Windows 8 and 8.1
+* Windows 10
+* Windows 11
+
+### macOS
+
+* macOS 10.12 and later.
+
+### Linux
+
+Tor Browser is supported on any modern Linux-based operating system. Please [reach out](../support/) if you encounter any issues while installing. 
+
+### Android
+
+* Android 5.0 or newer.
+
+## Installation
+
+### For Windows
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -21,7 +53,7 @@ body:
 4. When the download is complete, double click the `.exe` file. Complete the installation wizard process.
 
 
-## For macOS
+### For macOS
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
@@ -32,7 +64,7 @@ body:
 4. When the download is complete, double click the `.dmg` file. Complete the installation wizard process.
 
 
-## For GNU/Linux
+### For GNU/Linux
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
