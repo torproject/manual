@@ -32,21 +32,9 @@ If Tor is blocked in your location, trying a bridge may help. Connection Assist 
 
 ![Connection Assist automatic](/static/images/connection-assist-auto.png)
 
-If Connection Assist is unable to determine your location, you can select your region from the dropdown menu and click on 'Try a Bridge'.
+If Connection Assist is unable to determine your location or you want to configure your connection manually instead, you can select your region from the dropdown menu and click on 'Try a Bridge'.
 
 ![Connection Assist configuration](/static/images/connection-assist-select.png)
-
-<h3 id="letterboxing">LETTERBOXING</h3>
-
-Tor Browser in its default mode is starting with a content window rounded to a multiple of 200px x 100px to prevent fingerprinting the screen dimensions.
-The strategy here is to put all users in a couple of buckets to make it harder to single them out.
-That works so far until users start to resize their windows (e.g. by maximizing them or going into fullscreen mode).
-Tor Browser ships with a fingerprinting defense for those scenarios as well, which is called [Letterboxing](https://en.wikipedia.org/wiki/Letterboxing_%28filming%29), a technique developed by Mozilla and [presented in 2019](https://www.zdnet.com/article/firefox-to-add-tor-browser-anti-fingerprinting-technique-called-letterboxing/).
-It works by adding white margins to a browser window so that the window is as close as possible to the desired size while users are still in a couple of screen size buckets that prevent singling them out with the help of screen dimensions.
-
-In simple words, this technique makes groups of users of certain screen sizes and this makes it harder to single out users on basis of screen size, as many users will have same screen size.
-
-![letterboxing](/static/images/letterboxing.png)
 
 ### CONFIGURE
 
