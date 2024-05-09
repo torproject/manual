@@ -26,3 +26,15 @@ Some websites only support HTTP and the connection cannot be upgraded. If a HTTP
 If you click 'Continue to HTTP Site' you accept the risk and then will visit a HTTP version of the site. HTTPS-Only Mode will be turned off temporarily for that site.
 
 Click the 'Go Back' button if you want to avoid any unencrypted connections.
+
+<h3 id="cryptocurrency-safety">Cryptocurrency safety</h3>
+
+Tor Browser presents a security prompt if a cryptocurrency address has been copied from an insecure HTTP website.
+The cryptocurrency address could have been modified and should not be trusted.
+Clicking 'Reload Tab with a New Circuit' will attempt to load a secure version of the website with a [new Tor circuit](../../managing-identities).
+
+![Cryptocurrency safety](/static/images/cryptocurrency-safety.png)
+
+If you click 'Dismiss' you accept the risk and the cryptocurrency address will be copied to the clipboard.
+
+### How HTTPS encryption and Tor works in Tor Browser to enhance your privacy and anonymity
