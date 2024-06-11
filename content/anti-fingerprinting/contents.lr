@@ -10,31 +10,38 @@ key: 5
 ---
 body:
 
-## Browser fingerprinting
+## Understanding browser fingerprinting
 
 Browser fingerprinting is the systematic collection of information about the web browser to make educated guesses about its identity or characteristics.
-Each browser's settings and features create what is called as the "browser fingerprint".
-Most browsers inadvertently create a unique fingerprint for each user which can be tracked across the internet.
-For more in-depth information on browser fingerprinting refer to [these](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead/) [articles](https://blog.torproject.org/tor-browser-advancing-privacy-innovation/) on the Tor Blog.
+Each browser's settings and features create a "browser fingerprint".
+Most browsers inadvertently create a unique fingerprint for each user, which can be tracked across the internet.
+For more in-depth information on browser fingerprinting, refer to these articles on the Tor Blog: [Browser Fingerprinting: An Introduction and the Challenges Ahead](https://blog.torproject.org/browser-fingerprinting-introduction-and-challenges-ahead/) and [Tor Browser: a legacy of advancing private browsing innovation](https://blog.torproject.org/tor-browser-advancing-privacy-innovation/).
 
-## What makes browser fingerprinting a threat to online privacy?
+## Why browser fingerprinting threatens online privacy?
 
 First, there is no need to ask for permissions from the user to collect this information.
 Any script running in the browser can silently build a fingerprint of the device without users even knowing about it.
+
 Second, if one attribute of the browser fingerprint is unique or if the combination of several attributes is unique, the device can be identified and tracked online.
-In that case, no need for a [cookie](https://support.torproject.org/glossary/cookie/) with an ID in it, the fingerprint is enough.
+This means that even without [cookies](https://support.torproject.org/glossary/cookie/), a device can be tracked using its fingerprint.
 
-## Tor Browser + Anti-fingerpriting
+## How Tor Browser mitigates fingerprinting
 
-Tor Browser is specifically engineered to have a identical fingerprint across its users.
-No matter what device or operating system the user is on, the browser fingerprint should be the same as any device running Tor Browser.
-This means each Tor Browser user looks like many other Tor Browser users, making it difficult to track any individual user.
+Tor Browser is specifically engineered to minimize the uniqueness of each user's fingerprint across various metrics.
+While it is practically impossible to make all Tor Browser users identical, the goal is to reduce the number of distinguishable "buckets" for each metric.
+This approach makes it harder to track individual users effectively.
+
+Certain attributes, like the operating system and language, are necessary for functionality and cannot be completely hidden or spoofed.
+Instead, Tor Browser limits the variety within these attributes to reduce distinctiveness.
+For example, it limits font enumeration and applies character fallback, standardizes screen and window sizes using letterboxing, and restricts the variety of requested languages to a small, predefined set.
+
+The key goal of Tor Browser's anti-fingerprinting protections is to make it significantly more challenging to gather enough information to uniquely identify users, thereby enhancing privacy without compromising necessary functionality.
 
 ## Anti-fingerprinting features in Tor Browser
 
 <h3 id="letterboxing">Letterboxing</h3>
 
-Tor Browser in its default mode is starting with a content window rounded to a multiple of 200px x 100px to prevent fingerprinting the screen dimensions.
+To prevent fingerprinting based on screen dimensions, Tor Browser starts with a content window rounded to a multiple of 200px x 100px.
 The strategy here is to put all users in a couple of buckets to make it harder to single them out.
 That works so far until users start to resize their windows (e.g. by maximizing them or going into fullscreen mode).
 Tor Browser ships with a fingerprinting defense for those scenarios as well, which is called [Letterboxing](https://en.wikipedia.org/wiki/Letterboxing_%28filming%29), a technique developed by Mozilla and [presented in 2019](https://www.zdnet.com/article/firefox-to-add-tor-browser-anti-fingerprinting-technique-called-letterboxing/).
@@ -45,4 +52,8 @@ In simple words, this technique makes groups of users of certain screen sizes an
 ![letterboxing](/static/images/letterboxing.png)
 
 
+## Other anti-fingerprinting features
 
+In addition to letterboxing, Tor Browser employs many other features to mitigate browser fingerprinting and protect user privacy.
+These features include Canvas image extraction blocking, NoScript integration, user-agent spoofing, and first-party isolation.
+For a complete list of features, please read the [Tor Browser design and implementation document](https://gitlab.torproject.org/tpo/applications/wiki/-/blob/master/Design-Documents/Tor-Browser-Design-Doc.md).
