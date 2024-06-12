@@ -15,7 +15,7 @@ JavaScript is a programming language that websites use to offer interactive elem
 
 Tor Browser includes an add-on called [NoScript](https://noscript.net/).
 It's accessible through "Add-ons and themes" on the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/).
-Locate the NoScript plug-in and click on it to open a panel where you can customize its settings.
+Locate the NoScript add-on and click on it to open a panel where you can customize its settings.
 
 In the panel, next to the Toolbar button, select 'Show'.
 This will display the NoScript button to the right of the browser address bar.
