@@ -9,6 +9,16 @@ name = العربية (ar)
 url_prefix = /ar/
 locale = ar
 
+[alternatives.be]
+name = беларуская (be)
+url_prefix = /be/
+locale = be
+
+[alternatives.bg]
+name = български (bg)
+url_prefix = /bg/
+locale = bg
+
 [alternatives.bn]
 name = বাংলা ভাষা  (bn)
 url_prefix = /bn/
@@ -125,6 +135,11 @@ name = polski (pl)
 url_prefix = /pl/
 locale = pl
 
+[alternatives.ps]
+name = پښتو (ps)
+url_prefix = /ps/
+locale = ps
+
 [alternatives.pt-BR]
 name = Português (Brasil)
 url_prefix = /pt-BR/
@@ -179,6 +194,11 @@ locale = uk
 name = Tiếng Việt (vi)
 url_prefix = /vi/
 locale = vi
+
+[alternatives.wo]
+name = Wolof (wo)
+url_prefix = /wo/
+locale = wo
 
 [alternatives.zh-CN]
 name = 简体中文 (zh-CN)
