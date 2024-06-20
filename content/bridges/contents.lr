@@ -23,21 +23,21 @@ Because bridge addresses are not public, you will need to request them yourself.
 
  * Visit [https://bridges.torproject.org/](https://bridges.torproject.org) and follow the instructions, or
  * Email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail, or Riseup email address
- * Use Moat to fetch bridges from within Tor Browser.
+ * Request bridges from within Tor Browser.
  * Send a message to [@GetBridgesBot](https://t.me/GetBridgesBot) on Telegram. Tap on 'Start' or write `/start` or `/bridges` in the chat. Copy the bridge address and on:
       * Tor Browser Desktop: Click on "Settings" in the hamburger menu (≡) and then on "Connection" in the sidebar.
         In the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
       * Tor Browser Android: Tap on 'Settings' (⚙️) and then on 'Config Bridge'. Toggle on 'Use a Bridge' and select 'Provide a Bridge I know'. Enter the bridge address.
 
-### USING MOAT
+### Request bridges from within Tor Browser
 
 If you're starting Tor Browser for the first time, click on "Configure Connection" to open the Tor settings window.
-Under the "Bridges" section, locate "Request a bridge from torproject.org" and click on "Request a Bridge..." for BridgeDB to provide a bridge.
+In the "Bridges" section, locate the option to "Find more bridges" and click on "Request bridges" for Tor Project to provide a bridge.
 Complete the Captcha and click "Submit".
 Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
-In the "Bridges" section, locate "Request a bridge from torproject.org" and click on "Request a Bridge..." for BridgeDB to provide a bridge.
+In the "Bridges" section, locate the option to "Find more bridges" and click on "Request bridges" for Tor Project to provide a bridge.
 Complete the Captcha and click "Submit".
 Your setting will automatically be saved once you close the tab.
 
@@ -46,11 +46,11 @@ Your setting will automatically be saved once you close the tab.
 ### ENTERING BRIDGE ADDRESSES
 
 If you're starting Tor Browser for the first time, click on "Configure Connection" to open the Tor settings window.
-Under the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
+In the "Bridges" section, from the option "Enter bridge addresses you already know" click on "Add new bridges" and enter each bridge address on a separate line.
 Click "Connect" to save your settings.
 
 Or, if you have Tor Browser running, click on "Settings" in the [hamburger menu (≡)](https://support.torproject.org/glossary/hamburger-menu/) and then on "Connection" in the sidebar.
-Under the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
+In the "Bridges" section, from the option "Enter bridge addresses you already know" click on "Add new bridges" and enter each bridge address on a separate line.
 Your settings will automatically be saved once you close the tab.
 
 ![Enter bridge addresses manually](/static/images/provide-bridge.png)
