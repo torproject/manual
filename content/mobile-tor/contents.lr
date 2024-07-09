@@ -110,6 +110,7 @@ When Tor Browser is running, you would see so in your device's notification pane
 Tapping on this button will provide you with a new identity.
 Unlike in Tor Browser for Desktop, the "NEW IDENTITY" button in Tor Browser for Android does not prevent your subsequent browser activity from being linkable to what you were doing before.
 Selecting it will only change your Tor circuit.
+Note: New Identity feature is not working in latest versions of Tor Browser for Android. [Bug #42589](https://bugs.torproject.org/tpo/applications/tor-browser/42589)
 
 ### SECURITY LEVELS
 
@@ -208,6 +209,7 @@ At the moment, there are some features which are not available in Tor Browser fo
 * Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814)
 * You can't take screenshots while using Tor Browser for Android. [#27987](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987)
 * You can't open onion addresses that requires Client Authorization [#31672](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672)
+* 'New Identity' feature is not working on latest versions of Tor Browser for Android. [#42589](https://bugs.torproject.org/tpo/applications/tor-browser/42589)
 
 ### More about Tor on mobile devices
 
