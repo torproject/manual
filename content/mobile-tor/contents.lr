@@ -84,7 +84,7 @@ You will then be taken to the 'Config Bridge' screen to configure a pluggable tr
 Bridge relays are Tor relays that are not listed in the public Tor directory.
 Bridges are useful for Tor users under oppressive regimes, and for people who want an extra layer of security because they're worried somebody will recognize that they are contacting a public Tor relay IP address.
 
-To use a pluggable transport, tap on ""Configure Connection" when starting Tor Browser for the first time.
+To use a pluggable transport, tap on "Configure Connection" when starting Tor Browser for the first time.
 Navigate to the 'Connection' section of the Settings and tap on 'Config Bridge' to configure a bridge.
 The next screen provides the option to either use a built-in bridge or custom bridge.
 Toggle "Use a Bridge" option, which will present three options: "obfs4", "meek-azure", and "snowflake".
