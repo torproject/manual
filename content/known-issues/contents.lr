@@ -42,3 +42,5 @@ A reboot of your system, in that case, will solve the issue.
 * Tor won't start on Windows when the [folder path contains non-ascii characters](https://gitlab.torproject.org/tpo/core/tor/-/issues/10416).
 
 * BitTorrent [is not anonymous over Tor](https://blog.torproject.org/bittorrent-over-tor-isnt-good-idea).
+
+* [Web Authentication](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/26614) (WebAuthn) and [Universal 2nd Factor](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/34193) (U2F) (i.e. YubiKey) support is disabled in Tor Browser.
