@@ -15,7 +15,7 @@ Tor Browser will prompt you to update the software once a new version has been r
 
 ### UPDATING TOR BROWSER AUTOMATICALLY
 
-![Select 'Restart to update Tor Browser' under the main menu](/static/images/update1.png)
+![Prompt to update Tor Browser Desktop](/static/images/update1.png)
 
 When you are prompted to update Tor Browser, click on the main menu (≡), then select "Update available - restart now".
 
