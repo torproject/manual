@@ -16,21 +16,20 @@ Tor Browser is based on Mozilla Firefox's ESR (Extended Support Release), which 
 Due to these updates, older operating systems may eventually become incompatibile with newer versions of software dependencies that are only available in more recent OS versions.
 Maintaining support for outdated systems would compromise the security of Tor Browser, as it would require disabling newer security features and mechanisms that are crucial for protecting users' online anonymity.
 
-**Note:** Support for Windows 7, 8, and 8.1 will be discontinued after the release of Tor Browser 14, scheduled for the end of 2024.
-Users on these operating systems are strongly advised to upgrade to maintain access to the most recent updates and security features provided by Tor Browser.
+**Note:** Support for Windows 7, 8, and 8.1 and macOS 10.12 to 10.14 is discontinued with Tor Browser 14.
+Users on these [legacy operating systems](https://support.torproject.org/tbb/tor-browser-and-legacy-os/) will continue to receive security updates for Tor Browser 13.5 for until at least March of 2025.
+We strongly advise users to update in order to maintain access to the most recent updates and security features provided by Tor Browser.
 
 ### Windows
 
 Operating Systems (32-bit and 64-bit):
 
-* Windows 7
-* Windows 8 and 8.1
 * Windows 10
 * Windows 11
 
 ### macOS
 
-* macOS 10.12 and later.
+* macOS 10.15 and later.
 
 ### Linux
 
@@ -64,30 +63,25 @@ Tor Browser is supported on any modern Linux-based operating system. Please [rea
 4. When the download is complete, double click the `.dmg` file. Complete the installation wizard process.
 
 
-### For GNU/Linux
+### For Linux
 
 1. Navigate to the Tor Browser [download page](https://www.torproject.org/download).
 
-2. Download the GNU/Linux `.tar.xz` file.
+2. Download the Linux `.tar.xz` file.
 
 3. (Recommended) Verify the [file's signature](https://support.torproject.org/en/tbb/how-to-verify-signature/).
 
-4. Now follow either the graphical or the command-line method: 
+4. Now follow either the graphical or the command-line method:
 
 #### Graphical method
 
 * When the download is complete, extract the archive using an archive manager.
 
-* You'll need to tell your GNU/Linux that you want the ability to execute shell scripts.
-Navigate to the newly extracted Tor Browser directory.
-Right click on `start-tor-browser.desktop`, open Properties or Preferences and change the permission to allow executing file as program.
-   Double-click the icon to start up Tor Browser for the first time.
+* Navigate to the Tor Browser directory.
 
-![Make the .desktop file executable in Linux](/static/images/linux-make-desktop-file-executable.png)
+* Click on the `start-tor-browser.desktop` file to launch the browser.
 
-   **Note:** On Ubuntu and some other distros if you try to launch `start-tor-browser.desktop` a text file might open up.
-In that case, you will have to change the default behavior and allow running .desktop files as executables.
-This setting can usually be found in your file manager.
+**Note:** If these steps do not work, please try the following command-line method.
 
 #### Command-line method
 
@@ -99,15 +93,8 @@ This setting can usually be found in your file manager.
 
    **Note:** If this command fails to run, you probably need to make the file executable. From within this directory run: `chmod +x start-tor-browser.desktop`
 
-Some additional flags that can be used with `start-tor-browser.desktop` from the command-line:
+* To register Tor Browser as a desktop application and have it accessible from the application menus run this command:
 
-| **Flag** | **Description** |
-|----------|-----------------|
-| ‪`--register-app` | To register Tor Browser as a desktop application. |
-| ‪`--verbose` | To display Tor and Firefox output in the terminal. |
-| ‪`--log [file]` | To record Tor and Firefox output in file (default: tor-browser.log). |
-| ‪`--detach` | To detach from terminal and run Tor Browser in the background. |
-| ‪`--unregister-app` | To unregister Tor Browser as a desktop application. |
-
+   `./start-tor-browser.desktop --register-app`
 
 See here on how to [update Tor Browser](../updating/).

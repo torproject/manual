@@ -34,7 +34,8 @@ On macOS:
 Note that if you did not install Tor Browser in the default location (the Applications folder), then the TorBrowser-Data folder is not located in the `~/Library/Application Support/` folder, but in the same folder where you installed Tor Browser.
 
 On Linux:
-* Locate your Tor Browser folder. On Linux, there is no default location, however the folder will be named "tor-browser_en-US" if you are running the English Tor Browser.
+* Locate your Tor Browser folder. On Linux, there is no default location, however the folder will be named "tor-browser".
+* Launch a terminal window in the Tor Browser folder and run this command to unregister Tor Browser as a desktop application: `./start-tor-browser.desktop --unregister-app`
 * Delete the Tor Browser folder.
 * Empty your Trash.
 
