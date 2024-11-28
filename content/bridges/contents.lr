@@ -21,15 +21,7 @@ Other pluggable transports, like meek and Snowflake, use different anti-censorsh
 
 Because bridge addresses are not public, you will need to request them yourself. You have a few options:
 
- * Visit [https://bridges.torproject.org/](https://bridges.torproject.org) and follow the instructions, or
- * Email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail, or Riseup email address
- * Request bridges from within Tor Browser.
- * Send a message to [@GetBridgesBot](https://t.me/GetBridgesBot) on Telegram. Tap on 'Start' or write `/start` or `/bridges` in the chat. Copy the bridge address and on:
-      * Tor Browser Desktop: Click on "Settings" in the hamburger menu (≡) and then on "Connection" in the sidebar.
-        In the "Bridges" section, from the option "Enter a bridge address you already know" click on "Add a Bridge Manually" and enter each bridge address on a separate line.
-      * Tor Browser Android: Tap on 'Settings' (⚙️) and then on 'Config Bridge'. Toggle on 'Use a Bridge' and select 'Provide a Bridge I know'. Enter the bridge address.
-
-### Request bridges from within Tor Browser
+#### Request bridges from within Tor Browser
 
 If you're starting Tor Browser for the first time, click on "Configure Connection" to open the Tor settings window.
 In the "Bridges" section, locate the option to "Find more bridges" and click on "Request bridges" for Tor Project to provide a bridge.
@@ -43,7 +35,25 @@ Your setting will automatically be saved once you close the tab.
 
 ![Request a bridge from torproject.org](/static/images/request-a-bridge.png)
 
+#### Obtain bridges from the Bridges website
+
+Visit our [bridges website](https://bridges.torproject.org/options).
+Click on 'Just give me bridges!' and copy the bridge lines.
+Or use advanced options to select the type of [pluggable transport](https://support.torproject.org/glossary/pluggable-transports/) and only get bridges with a [IPv6 address](https://support.torproject.org/glossary/ip-address/).
+
+#### Obtain bridges via Email
+
+Email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail or Riseup email address and copy the bridge addresses received in the email.
+
+#### Obtain bridges via Telegram
+
+Send a message to [@GetBridgesBot](https://t.me/GetBridgesBot) on Telegram.
+Tap on 'Start' or write `/start` or `/bridges` in the chat.
+Copy the bridge addresses.
+
 ### ENTERING BRIDGE ADDRESSES
+
+#### Tor Browser Desktop
 
 If you're starting Tor Browser for the first time, click on "Configure Connection" to open the Tor settings window.
 In the "Bridges" section, from the option "Enter bridge addresses you already know" click on "Add new bridges" and enter each bridge address on a separate line.
@@ -54,6 +64,13 @@ In the "Bridges" section, from the option "Enter bridge addresses you already kn
 Your settings will automatically be saved once you close the tab.
 
 ![Enter bridge addresses manually](/static/images/provide-bridge.png)
+
+#### Tor Browser for Android
+
+Tap on 'Settings' (⚙️) and then scroll to the 'Connection' section of the settings.
+Tap on 'Config Bridge'.
+Toggle on 'Use a Bridge' and select 'Provide a Bridge I know'.
+Enter the bridge address.
 
 If the connection fails, the bridges you received may be down. Please use one of the above methods to obtain more bridge addresses, and try again.
 
