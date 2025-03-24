@@ -17,7 +17,8 @@ Due to these updates, older operating systems may eventually become incompatibil
 Maintaining support for outdated systems would compromise the security of Tor Browser, as it would require disabling newer security features and mechanisms that are crucial for protecting users' online anonymity.
 
 **Note:** Support for Windows 7, 8, and 8.1 and macOS 10.12 to 10.14 is discontinued with Tor Browser 14.
-Users on these [legacy operating systems](https://support.torproject.org/tbb/tor-browser-and-legacy-os/) will continue to receive security updates for Tor Browser 13.5 for until at least March of 2025.
+Users on these [legacy operating systems](https://support.torproject.org/tbb/tor-browser-and-legacy-os/) will continue to receive security updates for Tor Browser 13.5 for until at least September of 2025.
+Please follow the instructions on this [Tor Forum post](https://forum.torproject.org/t/download-tor-browser-13-5-legacy-on-windows-7-8-and-8-1-and-macos-10-12-10-13-and-10-14/15524) to download Tor Browser 13.5 legacy.
 We strongly advise users to update in order to maintain access to the most recent updates and security features provided by Tor Browser.
 
 ### Windows
