@@ -201,7 +201,6 @@ At the moment, there are some features which are not available in Tor Browser fo
 
 * You can't see your Tor circuit. [#41234](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/41234)
 * Tor Browser for Android does not connect when moved to the SD Card. [#31814](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31814)
-* You can't take screenshots while using Tor Browser for Android. [#27987](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/27987)
 * You can't open onion addresses that requires Client Authorization [#31672](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/31672)
 * 'New Identity' feature is not available on Tor Browser for Android. [#42589](https://bugs.torproject.org/tpo/applications/tor-browser/42589)
 
