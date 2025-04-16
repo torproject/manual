@@ -26,6 +26,8 @@ Just like any other website, you will need to know the address of an onion servi
 When accessing a website that uses an onion service, Tor Browser will show in the URL bar an icon of an onion displaying the state of your connection: secure and using an onion service.
 You can learn more about the onion service by clicking on the [onion icon](https://support.torproject.org/onionservices/onionservices-5/) and the adjacent Circuit Display in the address bar.
 
+![Onion Icon](/static/images/onion-icon.png)
+
 Another way to learn about an onion site is if the website administrator has implemented a feature called Onion-Location.
 Onion-Location is a non-standard HTTP header that websites can use to advertise their onion counterpart.
 If the website that you are visiting has an onion site available, a purple suggestion pill will prompt at the URL bar in Tor Browser displaying ".onion available".
