@@ -10,11 +10,22 @@ key: 4
 ---
 body:
 
-When you start Tor Browser, you will see the Connect to Tor window.
-This offers you the option to either connect directly to the Tor network, or to configure Tor Browser for your connection.
-Check the toggle if you want to get automatically connected to the Tor network.
+### CHOOSE DISPLAY LANGUAGE
+
+When you launch Tor Browser the display language is set to the default language of your system.
+Tor Browser is [available in multiple languages](https://support.torproject.org/tbb/tbb-37/) and you can change the display language by clicking on "Change Language".
+
+![Change Tor Browser's display language](/static/images/change-language.png)
+
+In the "Language" settings, select your desired display language from the dropdown menu.
+
+![Select display language of Tor Browser](/static/images/select-language.png)
 
 ### CONNECT
+
+When you start Tor Browser, you will see the Connect to Tor window.
+This offers you the option to either connect directly to the Tor network, or to configure Tor Browser for your connection.
+Toggle on "Always connect automatically" to allow Tor Browser connect to the Tor network automatically with the previously saved connection settings, everytime the browser is launched.
 
 ![Click 'connect' to connect to Tor](/static/images/connect.png)
 
@@ -46,9 +57,10 @@ The Connection Assist informs you about the state of your Internet connection an
 
 ![Connection Test unsuccessful](/static/images/connection-test-failure.png)
 
-The first checkbox is 'Quickstart'. If selected, every time you open Tor Browser, it will try to connect with your previous network settings.
+The first toggle is 'Always connect automatically'.
+If toggled on, every time you open Tor Browser, it will try to connect with your previously saved connection settings.
 
-![Quickstart](/static/images/quickstart.png)
+![Connect Automatically](/static/images/connect-automatically.png)
 
 If you know your connection is censored, or you have tried and failed to connect to the Tor network and no other solutions have worked, you can configure Tor Browser to use a pluggable transport.
 'Bridges' will display the [Circumvention](../circumvention) section to configure a pluggable transport or to connect using [Bridges](../bridges).
