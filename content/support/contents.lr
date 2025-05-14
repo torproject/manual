@@ -45,7 +45,7 @@ We have several official Telegram bots and channels:
 2. [@GetBridgesBot](https://t.me/GetBridgesBot) to get obfs4 bridges.
 3. [@TorProject](https://t.me/TorProject) to get the latest news.
 4. [@TorProjectSupportBot](https://t.me/TorProjectSupportBot) for help.
-     * At the moment, the Telegram support channel is available in two languages: English and Russian.
+     * At the moment, the Telegram support channel is available in English, Russian and Farsi.
      * If you need help with circumventing censorship, please select from the menu options which region you are connecting from as it will be easier for us to follow up.
 
 ## Tor Forum
@@ -65,7 +65,7 @@ This service is only available for text messages; videos or calls are not suppor
 
 You can contact our team by sending a text message to our Signal number, [+17787431312](https://signal.me/#p/+17787431312), or Signal username, `@torsupport.89`.
 [Signal](https://signal.org/download/) is a free and privacy-focused messaging app.
-Currently, our support channel is available in English and Russian and focuses on helping Tor users in censored regions.
+Currently, our support channel is available in English, Russian, Farsi and focuses on helping Tor users in censored regions.
 The service is only available for text messages; videos, or calls are not supported.
 After sending a message, our support agents will guide you and help troubleshoot your issue.
 
@@ -77,7 +77,7 @@ In the subject line of your email, please tell us what you're reporting.
 The more specific your subject line is (e.g. "Connection failure", "feedback on website", "feedback on Tor Browser, "I need a bridge"), the easier it will be for us to understand and follow up.
 Sometimes when we receive emails without subject lines, they're marked as spam and we don't see them.
 
-For the fastest response, please write in English, Russian, Spanish, Hindi, Bangla and/or Portuguese if you can.
+For the fastest response, please write in English, Russian, Farsi, Spanish, Hindi, Bangla and/or Portuguese if you can.
 If none of these languages works for you, please write in any language you feel comfortable with, but keep in mind it will take us a bit longer to answer as we will need help with translation to understand it.
 
 ## IRC and Matrix
