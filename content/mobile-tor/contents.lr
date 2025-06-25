@@ -144,14 +144,20 @@ This option does not affect connections on other tabs and does not clear any pri
 <h4 id="security-levels">Security Levels</h4>
 
 [Security levels](../security-settings/) disable certain web features that can be used to compromise your security and anonymity.
-Tor Browser for Android provides the same three security levels that are available on desktop.
+Tor Browser for Android provides the same three security levels that are available on Tor Browser for Desktop.
 You can modify the security level by following given steps:
 
 * Tap on the "kebab menu" i.e. the 3 vertical dots in navigation bar.
 * Scroll down to the "Privacy and security" section and tap on "Security Level".
-* You can now select an option i.e. Standard, Safer or Safest.
+* Tor Browser for Android, by default, is set to the "Standard" Security Level.
+* You can now select a Security Level i.e. Standard, Safer or Safest.
+* Tap on "Save and restart" prompting the browser to restart.
 
-![Security settings and security slider on Tor Browser for Android](/static/images/android-security-settings.gif)
+![Access Security Level Settings](/static/images/tba-security-level-settings.png)
+
+![Change the Security Level](/static/images/tba-security-level-change.png)
+
+![Save the settings and restart the browser](/static/images/tba-security-level-save.png)
 
 <h3 id="update">Update the browser</h3>
 

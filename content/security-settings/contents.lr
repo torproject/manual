@@ -11,37 +11,48 @@ key: 11
 body:
 By default, Tor Browser protects your security by encrypting your browsing data.
 You can further increase your security by choosing to disable certain web features that can be used to compromise your security and anonymity.
-You can do this by increasing Tor Browser's Security Levels in the shield menu.
-Increasing Tor Browser's security level will stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
-
-### ACCESSING THE SECURITY LEVELS
-
-The Security Levels menu can be accessed by clicking the Shield icon next to the Tor Browser URL bar.
-To view and adjust your Security Levels, click on 'Settings' button in the shield menu.
-
-![Click on 'Settings' under the shield menu](/static/images/security-levels-anim.gif)
+You can do this by increasing Tor Browser's Security Level.
 
 ### SECURITY LEVELS
 
 Increasing the Security Level in the Tor Browser Security settings will disable or partially disable certain browser features to protect against possible attacks.
-You can enable these settings again at any time by adjusting your Security Level.
-
-![Security Level is currently set to Safest](/static/images/security-levels-safest.png)
-
+This in turn might stop some web pages from functioning properly, so you should weigh your security needs against the degree of usability you require.
+You can undo the changes at any time by adjusting your Security Level and restarting the browser.
 
 ###### Standard
 
 * At this level, all Tor Browser and website features are enabled.
+* Tor Browser, by default, is set to the "Standard" Security Level.
 
 ###### Safer
 
-* This level disables website features that are often dangerous. This may cause some sites to lose functionality.
-
-* JavaScript is disabled on all non-[HTTPS](../secure-connections) sites; some fonts and math symbols are disabled; audio and video (HTML5 media) are click-to-play.
+* This level disables website features that are often dangerous.
+This may cause some sites to lose functionality.
+* JavaScript is disabled on all non-[HTTPS](../secure-connections) sites.
+* Some fonts and math symbols are disabled.
+* Audio and Video (HTML5 media) are click-to-play.
 
 ###### Safest
 
 * This level only allows website features required for static sites and basic services.
 These changes affect images, media, and scripts.
+* Javascript is disabled by default on all sites.
+* Some fonts, icons, math symbols, and images are disabled.
+* Audio and Video (HTML5 media) are click-to-play.
 
-* Javascript is disabled by default on all sites; some fonts, icons, math symbols, and images are disabled; audio and video (HTML5 media) are click-to-play.
+### CHANGING THE SECURITY LEVEL
+
+To view and adjust your Security Level on Tor Browser:
+
+* Click on the "Shield" icon (🛡️) on the address bar.
+* Click on "Settings".
+* It should redirect to the Tor Browser settings and display the current Security Level the browser is set to.
+* Click on "Change".
+* Choose between the different Security Levels - Standard, Safer or Safest.
+* Click on "Save and restart" prompting the browser to restart.
+
+![Access Security Level Settings](/static/images/security-level-settings.png)
+
+![Change the Security Level](/static/images/security-level-change.png)
+
+![Save the settings and restart the browser](/static/images/security-level-save.png)
