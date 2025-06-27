@@ -42,6 +42,8 @@ These changes affect images, media, and scripts.
 
 ### CHANGING THE SECURITY LEVEL
 
+![Access Security Level Settings](/static/images/security-level-settings.png)
+
 To view and adjust your Security Level on Tor Browser:
 
 * Click on the "Shield" icon (🛡️) on the address bar.
@@ -50,9 +52,5 @@ To view and adjust your Security Level on Tor Browser:
 * Click on "Change".
 * Choose between the different Security Levels - Standard, Safer or Safest.
 * Click on "Save and restart" prompting the browser to restart.
-
-![Access Security Level Settings](/static/images/security-level-settings.png)
-
-![Change the Security Level](/static/images/security-level-change.png)
 
 ![Save the settings and restart the browser](/static/images/security-level-save.png)
