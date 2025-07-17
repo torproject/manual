@@ -55,7 +55,7 @@ To install Tor Browser for Android from F-Droid please follow these steps:
 <h4 id="install-tba-website">Tor Project website</h4>
 
 You can also get Tor Browser for Android by downloading and installing the Android package (`apk`) file from the [Tor Project website](https://www.torproject.org/download/#android).
-If the Tor Project website is not reachable try with the official website mirrors, either through [EFF](https://tor.eff.org/download/#android) or [Calyx Institute](https://tor.calyxinstitute.org/download/#android).
+If the Tor Project website is not reachable try with the official website mirrors, either through [EFF](https://tor.eff.org/download/#android) or [La Cebolla](https://lacebolla.net/download/#android).
 
 <h4 id="install-tba-gettor">GetTor</h4>
 
