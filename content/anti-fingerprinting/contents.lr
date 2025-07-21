@@ -51,9 +51,33 @@ In simple words, this technique makes groups of users of certain screen sizes an
 
 ![letterboxing](/static/images/letterboxing.png)
 
+<h3 id="operating-system-spoofing">User-Agent and Operating System spoofing</h3>
+
+The User-Agent string is a value websites can use to identify details about your browser, operating system (OS), CPU architecture, vendor, and version.
+Since this information can reveal which OS or device a user is using, it has been a vector for browser fingerprinting, allowing websites or trackers to potentially single out users.
+
+Tor Browser addresses this by spoofing the User-Agent. Users cannot choose a specific operating system or attempt to imitate every possible platform.
+Instead, Tor Browser [standardizes User-Agent values](https://searchfox.org/mozilla-central/rev/6b4cb595d05ac38e2cfc493e3b81fe4c97a71f12/toolkit/components/resistfingerprinting/nsRFPService.h#29-66) to reduce uniqueness and avoid creating a false sense of privacy:
+ * All Windows appear as Windows 10.
+ * All macOS appear as OS X 10.15.
+ * All Android as Android 10.
+ * All other systems like all Linux distributions (including Tails and Qubes), *BSD and other operating systems are grouped together and reported as "Linux running X11".
+ * All the other details (such as the architecture) are also normalized per-platform.
+
+In this case, the fingerprint resistance strategy in Tor Browser is to protect real values of the User-Agent by spoofing, but also have a large enough user set.
+
+User-Agent is sent to websites as an HTTP header, and it is available to JavaScript as `navigator.userAgent`.
+Inconsistencies in these values can trigger anti-bot and anti-fraud systems into categorizing Tor users as a bot, and deny their requests, which in turn affects usability for Tor Browser users.
+
+Some privacy tools or users suggest that making all users appear as Windows would offer the best cover.
+However, perfectly spoofing across all browser contexts is not possible and active fingerprinting methods (using fonts, features, behavior, with or without JavaScript, etc.) can often be used to infer aspects of the hardware or operating system.
+
+Tor Browser does not let users select which OS they appear to be.
+This is intentional: any option to choose would only make users more unique and thus easier to fingerprint.
+The small set of standardized options is key to keeping users blended together, maximizing privacy for everyone.
 
 ## Other anti-fingerprinting features
 
 In addition to letterboxing, Tor Browser employs many other features to mitigate browser fingerprinting and protect user privacy.
-These features include Canvas image extraction blocking, NoScript integration, user-agent spoofing, and first-party isolation.
+These features include Canvas image extraction blocking, NoScript integration, and first-party isolation.
 For a complete list of features, please read the [Tor Browser design and implementation document](https://gitlab.torproject.org/tpo/applications/wiki/-/blob/master/Design-Documents/Tor-Browser-Design-Doc.md).
