@@ -48,7 +48,8 @@ Email [bridges@torproject.org](mailto:bridges@torproject.org) from a Gmail or Ri
 #### Obtain bridges via Telegram
 
 Send a message to [@GetBridgesBot](https://t.me/GetBridgesBot) on Telegram.
-Tap on 'Start' or write `/start` or `/bridges` in the chat.
+Tap on 'Start' or write `/start` in the chat.
+To get bridges, type `/obfs4` or `/webtunnel`.
 Copy the bridge addresses.
 
 ### ENTERING BRIDGE ADDRESSES
