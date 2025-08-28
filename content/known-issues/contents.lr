@@ -31,9 +31,6 @@ Flash is disabled for security reasons.
 
 * Tor can not use a bridge if a proxy is set.
 
-* The Tor Browser package is dated January 1, 2000 00:00:00 UTC.
-This is to ensure that each software build is exactly reproducible.
-
 * Issues with making Tor Browser as your [default browser](https://support.torproject.org/tbb/tbb-32/).
 
 * If Tor Browser was working before and is not working now (especially after a re-install or an update), your system may have been hibernating.
